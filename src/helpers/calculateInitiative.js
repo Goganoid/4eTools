@@ -1,0 +1,1 @@
+export default caclulateInitiative = (entity)=> (parseInt(entity.initiativeRoll)||0)+(parseInt(entity.stats.initiative)||0);
