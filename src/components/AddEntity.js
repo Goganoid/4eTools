@@ -2,28 +2,19 @@ import React, { useEffect, useState } from 'react';
 import { DeviceEventEmitter, ScrollView, StyleSheet, View } from 'react-native';
 import FlashMessage, { showMessage } from 'react-native-flash-message';
 import {
+    IconButton,
     Divider,
     RadioButton,
     Text,
     TextInput,
-    useTheme,
+    useTheme
 } from 'react-native-paper';
+import { v4 as uuid } from 'uuid';
 import { getStoredEntities, storeEntity, updateEntity } from '../data/storage';
 import { createEntity } from '../helpers/entities';
-import { v4 as uuid } from 'uuid';
-import { CustomThemeProvider } from './ThemeProvider';
+import { InputStats,InputStat } from './InputStats';
 import { SavedEntitiesTab } from './SavedEntitiesTab';
-import { AddEntityControls } from './AddEntityControls';
-import { InputStats } from './InputStats';
-import { InputStat } from './InputStat';
-export const statNames = {
-    hp: 'HP',
-    ac: 'AC',
-    fort: 'Fortitude',
-    ref: 'Reflex',
-    will: 'Will',
-    initiative: 'Initiative',
-};
+import { CustomThemeProvider } from './ThemeProvider';
 
 export const AddEntity = ({ navigation, route }) => {
     const theme = useTheme();
@@ -47,7 +38,10 @@ export const AddEntity = ({ navigation, route }) => {
     }, [isHeroTab]);
     useEffect(() => {
         navigation.setOptions({
-            headerRight: () => AddEntityControls(save, create),
+            headerRight: () => <>
+                <IconButton icon="content-save" onPress={save} />
+                <IconButton icon="check" onPress={create} />
+            </>,
         });
     }, [navigation, name, entity_type, stats, notes]);
 

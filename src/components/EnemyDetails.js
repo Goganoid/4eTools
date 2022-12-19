@@ -41,31 +41,30 @@ const tagsStyles = {
     }
 }
 
-export const EnemyDetails = ({ route, navigation}) => {
+export const EnemyDetails = ({ route, navigation }) => {
     const theme = useTheme();
     const showAddButton = route.params?.showAddButton ?? false;
-    const { id, otherParam } = route.params;
+    const { id } = route.params;
     const { width } = useWindowDimensions();
     const monster_source = {
         html: monsters_details[id]
     }
 
     React.useEffect(() => {
-        
-            navigation.setOptions({
-                headerRight: () => (
-                    <>
-                        {showAddButton
-                        ?   <IconButton
+
+        navigation.setOptions({
+            headerRight: () => (
+                <>
+                    {showAddButton
+                        ? <IconButton
                             icon='check'
-                            onPress={create}/>
-                        :null} 
-                    </>
-                ),
-            });
+                            onPress={create} />
+                        : null}
+                </>
+            ),
+        });
     }, [navigation]);
     const create = async () => {
-
         let entity = createEnemy(id);
         DeviceEventEmitter.emit("event.addEntity", entity);
         showMessage({

@@ -1,33 +1,25 @@
-import React from 'react'
-import { ScrollView, View, StyleSheet } from 'react-native';
+import React from 'react';
+import { DeviceEventEmitter, ScrollView, StyleSheet, View } from 'react-native';
+import { IconButton, Text, ActivityIndicator } from 'react-native-paper';
 import { EntityCard } from './EntityCard';
-import { DeviceEventEmitter } from "react-native"
-import { FAB, Portal, Provider, IconButton,Text } from 'react-native-paper';
-
-import { createEnemy } from '../helpers/entities';
 import { roll20 } from "../helpers/roll20";
-
-import { CustomThemeProvider } from './ThemeProvider';
 import { getEncounterEntities, storeEncounterEntities } from '../data/storage';
 import calculateInitiative from '../helpers/calculateInitiative';
+import { CustomThemeProvider } from './ThemeProvider';
+import { EncounterControls } from './EncounterControls';
 
-import { createStackNavigator } from 'react-navigation-stack';
-import { EncounterStackNavigator } from '../Navigators/EncounterStackNavigator';
 
-const sortByInitiative = (entities) => entities.sort((entityA,entityB) => calculateInitiative(entityB) - calculateInitiative(entityA));
+const sortByInitiative = (entities) => entities.sort((entityA, entityB) => calculateInitiative(entityB) - calculateInitiative(entityA));
 
 export const Encounter = ({ navigation, route }) => {
-    const [loading, setLoading] =React.useState(true);
+    const [loading, setLoading] = React.useState(true);
     const [state, setState] = React.useState({ open: false });
 
     const onStateChange = ({ open }) => setState({ open });
 
     const { open } = state;
 
-    const [entities, setEntities] = React.useState([
-        createEnemy("monster4759"),
-        createEnemy("monster4228")
-    ]);
+    const [entities, setEntities] = React.useState([]);
 
     const setEntityStat = (entity, statName, statValue) => {
         statValue = parseInt(statValue) || 0;
@@ -40,7 +32,6 @@ export const Encounter = ({ navigation, route }) => {
             return e;
         })
         setEntities(newEntities)
-        // storeEncounterEntities(entities);
     }
 
 
@@ -55,17 +46,17 @@ export const Encounter = ({ navigation, route }) => {
     DeviceEventEmitter.addListener("event.removeEntity", (id) => {
         console.log("Got event");
         console.log(id);
-        setEntities(entities.filter(entity=>entity.uuid!=id));
+        setEntities(entities.filter(entity => entity.uuid != id));
     });
     React.useEffect(() => {
-        if(loading){
+        if (loading) {
             console.log("Loading entities first time");
             getEncounterEntities().then(value => {
                 setEntities(value);
                 setLoading(false);
             });
         }
-        else{
+        else {
             let sortedEntities = sortByInitiative(entities);
             console.log("Storing")
             storeEncounterEntities(sortedEntities);
@@ -74,7 +65,7 @@ export const Encounter = ({ navigation, route }) => {
     }, [entities])
     React.useEffect(() => {
         navigation.setOptions({
-            headerLeft: () => <IconButton icon="menu" style={{padding:0,margin:0}} onPress={()=>navigation.openDrawer()} />,
+            headerLeft: () => <IconButton icon="menu" style={{ padding: 0, margin: 0 }} onPress={() => navigation.openDrawer()} />,
             headerRight: () => (
                 <IconButton icon="dice-d20"
                     onPress={reroll} />
@@ -83,69 +74,31 @@ export const Encounter = ({ navigation, route }) => {
     }, [navigation, entities]);
 
     const reroll = () => {
-        console.log("Reroll, check length", entities.length);
         let newEntities = entities.map(entity => {
             entity.initiativeRoll = roll20();
             return entity;
         })
         setEntities(sortByInitiative(newEntities));
     }
-    console.log("Render length", entities.length)
-    console.log("Render", entities)
     return (
-        <>
-
-            <CustomThemeProvider>
-                {loading ? <Text>Loading...</Text> : <ScrollView contentContainerStyle={{ paddingBottom: 100 }}>
+        <CustomThemeProvider>
+            {loading
+                ? <View styles={styles.activity_indicator_container}>
+                    <ActivityIndicator animating={true} />
+                </View>
+                : <ScrollView contentContainerStyle={{ paddingBottom: 100 }}>
                     {entities.map(entity =>
                         <EntityCard navigation={navigation} entity={entity} key={entity.uuid} setStat={setEntityStat} />
                     )}
                 </ScrollView>}
-                <Portal>
-                    <FAB.Group fabStyle={styles.fab}
-                        open={open}
-                        visible
-                        icon={open ? 'plus' : 'plus'}
-                        theme={{ colors: { backdrop: 'transparent' } }}
-                        actions={[
-                            {
-                                icon: 'plus',
-                                label: 'Custom',
-                                onPress: () => navigation.navigate("AddCardCustom",{isHeroTab:false})
-                            },
-
-                            {
-                                icon: 'emoticon-happy',
-                                label: 'Hero',
-                                onPress: () => navigation.navigate("AddCardCustom",{isHeroTab: true }),
-                            },
-                            {
-                                icon: 'emoticon-devil',
-                                label: 'Enemy',
-                                onPress: () => navigation.navigate("AddMonster",{showAddScreen:true}),
-                            },
-                            {
-                                icon: 'plus',
-                                onPress: () => console.log('Pressed notifications'),
-                            },
-                        ]}
-                        onStateChange={onStateChange}
-                        onPress={() => {
-                            if (open) {
-                                // do something if the speed dial is open
-                            }
-                        }}
-                    />
-                </Portal>
-            </CustomThemeProvider>
-        </>
+            {EncounterControls(open, navigation, onStateChange)}
+        </CustomThemeProvider>
     )
 }
+
 const styles = StyleSheet.create({
-    fab: {
-        position: 'absolute',
-        margin: 16,
-        right: 0,
-        bottom: 0,
-    },
+    activity_indicator_container: {
+        flex:1,
+        
+    }
 })

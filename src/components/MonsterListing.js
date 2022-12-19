@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import BigList from "react-native-big-list";
 import DropDownPicker from 'react-native-dropdown-picker';
 import { Divider, Searchbar, Text, useTheme } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { combat_roles, group_roles, maxLevel, monster_sizes, races } from '../data/monsterFilterSettings';
-import { monsters_listing } from '../data/monsters';
-
+import { ActivityIndicator } from 'react-native-paper';
 
 const zip = (arr, ...arrs) => {
   return arr.map((val, i) => arrs.reduce((a, arr) => [...a, arr[i]], [val]));
@@ -17,7 +16,10 @@ const zip = (arr, ...arrs) => {
 export const MonsterListing = ({ navigation, route }) => {
   const theme = useTheme();
   const showAddScreen = route.params?.showAddScreen ?? false;
-  console.log("Show add screen ", showAddScreen)
+
+  const [loading, setLoading] = useState(true);
+  const [listing, setListing] = useState([]);
+
   const renderItem = ({ item, index }) => {
     return (<>
       <TouchableOpacity onPress={() => navigation.navigate("MonsterDetails", { id: item.id,showAddButton:showAddScreen })}>
@@ -68,7 +70,7 @@ export const MonsterListing = ({ navigation, route }) => {
    
 
   })
-  const viewData = Object.values(monsters_listing).filter(monster =>{
+  const viewData = Object.values(listing).filter(monster =>{
 
     if(filters.level.value!=null && monster.level!=filters.level.value) return false;
     if(filters.groupRole.value!=null && monster.group_role!=filters.groupRole.value) return false;
@@ -100,8 +102,15 @@ export const MonsterListing = ({ navigation, route }) => {
     }
   }
 
+
+  useEffect(() => {
+    import("../data/monsters.js").then((value) => {
+      setListing(value.monsters_listing);
+      setLoading(false);
+    })
+  },[])
+
   return (<>
-    {/* <View  style={{backgroundColor:theme.colors.onSecondary,padding:"2.5%",zIndex:1000}}> */}
     <Searchbar
       placeholder="Search"
       onChangeText={onChangeSearch}
@@ -147,12 +156,16 @@ export const MonsterListing = ({ navigation, route }) => {
         })
       }
     </View>
-
-    <BigList
-      data={viewData}
-      itemHeight={65}
-      renderItem={renderItem}
-    />
+    {
+      loading
+        ? <ActivityIndicator animating={true} />
+        : <BigList
+        data={viewData}
+        itemHeight={65}
+        renderItem={renderItem}
+        />
+      }
+   
 
     {/* </View> */}
 
