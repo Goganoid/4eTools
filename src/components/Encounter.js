@@ -1,25 +1,38 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { DeviceEventEmitter, ScrollView, StyleSheet, View } from 'react-native';
-import { IconButton, Text, ActivityIndicator } from 'react-native-paper';
+import { IconButton, Text, ActivityIndicator, Button, TouchableRipple, Surface } from 'react-native-paper';
 import { EntityCard } from './EntityCard';
 import { roll20 } from "../helpers/roll20";
 import { getEncounterEntities, storeEncounterEntities } from '../data/storage';
 import calculateInitiative from '../helpers/calculateInitiative';
 import { CustomThemeProvider } from './ThemeProvider';
 import { EncounterControls } from './EncounterControls';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import { useTheme } from 'react-native-paper';
 
 
 const sortByInitiative = (entities) => entities.sort((entityA, entityB) => calculateInitiative(entityB) - calculateInitiative(entityA));
 
 export const Encounter = ({ navigation, route }) => {
-    const [loading, setLoading] = React.useState(true);
-    const [state, setState] = React.useState({ open: false });
-
+    const theme = useTheme();
+    const [loading, setLoading] = useState(true);
+    const [state, setState] = useState({ open: false });
     const onStateChange = ({ open }) => setState({ open });
-
     const { open } = state;
+    const [entities, setEntities] = useState([]);
+    
 
-    const [entities, setEntities] = React.useState([]);
+    const [turn, setTurn] = useState(0);
+    const prevTurn = () => {
+        if (turn > 0) setTurn(turn - 1);
+    }
+    const nextTurn = () => {
+        if (turn < entities.length - 1) setTurn(turn + 1);
+    }
+    const nextRound = () => {
+        setTurn(0);
+    }
+
 
     const setEntityStat = (entity, statName, statValue) => {
         statValue = parseInt(statValue) || 0;
@@ -87,18 +100,56 @@ export const Encounter = ({ navigation, route }) => {
                     <ActivityIndicator animating={true} />
                 </View>
                 : <ScrollView contentContainerStyle={{ paddingBottom: 100 }}>
-                    {entities.map(entity =>
-                        <EntityCard navigation={navigation} entity={entity} key={entity.uuid} setStat={setEntityStat} />
+                    {entities.map((entity,index) =>
+                        <EntityCard navigation={navigation} entity={entity} key={entity.uuid} setStat={setEntityStat} highlight={index==turn} />
                     )}
-                </ScrollView>}
+                </ScrollView>
+            }
+            <View style={{ ...styles.bottom_bar, backgroundColor: theme.colors.primaryContainer, }}>
+                <TouchableRipple style={styles.bottom_side_item} onPress={() => prevTurn()}>
+                    <Icon name='chevron-left' size={40} style={{ color: "black" }} />
+                </TouchableRipple>
+                <TouchableRipple style={styles.bottom_center_item} onPress={() => nextRound()}>
+                    <View>
+                        <Text>NEXT ROUND</Text>
+                    </View>
+                </TouchableRipple>
+                <TouchableRipple style={styles.bottom_side_item} onPress={() => nextTurn()}>
+                    <Icon name='chevron-right' size={40} style={{ color: "black" }} />
+                </TouchableRipple>
+            </View>
             {EncounterControls(open, navigation, onStateChange)}
         </CustomThemeProvider>
     )
 }
 
 const styles = StyleSheet.create({
+    bottom_side_item: {
+        flex: 1,
+        height: "100%",
+        justifyContent: "center",
+        alignItems: "center"
+    },
+    bottom_center_item: {
+        borderLeftWidth: 0.5,
+        borderRightWidth: 0.5,
+        flex: 4,
+        height: "100%",
+        justifyContent: "center",
+        alignItems: "center"
+    },
+    bottom_bar: {
+        position: "absolute",
+        bottom: 0,
+        left: 0,
+        right: 0,
+        flexDirection: 'row',
+        justifyContent: "space-between",
+        alignItems: "center",
+        height: 55,
+        elevation: 25,
+    },
     activity_indicator_container: {
-        flex:1,
-        
+        flex: 1,
     }
 })

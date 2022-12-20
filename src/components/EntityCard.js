@@ -2,12 +2,13 @@ import React from 'react';
 import { DeviceEventEmitter, Image, StyleSheet, View } from 'react-native';
 import { Divider, IconButton, Text } from 'react-native-paper';
 import { Stat } from './Stat';
-
-export const EntityCard = ({ navigation, entity, setStat }) => {
+import { useTheme } from 'react-native-paper';
+export const EntityCard = ({ navigation, entity, setStat,highlight=false }) => {
   const initiative = parseInt(entity.stats.initiative);
   const initiativeRoll = parseInt(entity.initiativeRoll);
+  const theme = useTheme();
   return (
-    <View style={styles.entity_card}>
+    <View style={[styles.entity_card,highlight ? {borderWidth:1.5,borderColor:theme.colors.onPrimaryContainer} : null]}>
       <View style={{ ...styles.background }}>
         <View style={styles.entity_card_left_side}>
           <View>
