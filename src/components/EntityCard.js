@@ -21,7 +21,7 @@ export const EntityCard = ({ navigation, entity, setStat,highlight=false }) => {
             minimalistic={true}
             onChange={(value) => setStat(entity, "initiative", value)}
           ></Stat>
-          <Text style={styles.rollDescription} >({entity.initiativeRoll}{initiative > 0 ? "+" : ""}{initiative})</Text>
+          <Text style={styles.rollDescription} >({entity.initiativeRoll}{initiative >= 0 ? "+" : ""}{initiative})</Text>
         </View>
         <View style={styles.entity_card_right_side}>
           <View style={styles.nameSection}>
