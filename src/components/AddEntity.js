@@ -96,6 +96,7 @@ export const AddEntity = ({ navigation, route }) => {
             backgroundColor: theme.colors.primary,
         });
         await updateDisplayedStoredEntities();
+        setId(uuid());
     };
 
     const create = async () => {
