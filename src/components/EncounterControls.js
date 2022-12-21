@@ -2,7 +2,7 @@ import React from 'react';
 import { FAB, Portal } from 'react-native-paper';
 import { StyleSheet } from 'react-native';
 
-export function EncounterControls(open, navigation, onStateChange) {
+export function EncounterControls({ open, navigation, onStateChange, addEntity }) {
     return <Portal>
         <FAB.Group fabStyle={styles.fab}
 

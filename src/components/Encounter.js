@@ -1,42 +1,43 @@
-import React,{useState} from 'react';
+import React, { useState, useContext } from 'react';
 import { DeviceEventEmitter, ScrollView, StyleSheet, View } from 'react-native';
 import { IconButton, Text, ActivityIndicator, Button, TouchableRipple, Surface } from 'react-native-paper';
 import { EntityCard } from './EntityCard';
 import { roll20 } from "../helpers/roll20";
-import { getEncounterEntities, storeEncounterEntities } from '../data/storage';
-import calculateInitiative from '../helpers/calculateInitiative';
+import { getCurrentEncounter, saveCurrentEncounter } from '../data/storage';
 import { CustomThemeProvider } from './ThemeProvider';
 import { EncounterControls } from './EncounterControls';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { useTheme } from 'react-native-paper';
+import { v4 as uuid } from 'uuid';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { EncounterContext } from '../App';
+// import { EncounterContext } from '../Navigators/EncounterStackNavigator';
+import { sortByInitiative } from './sortByInitiative';
+import { createEnemy } from '../helpers/entities';
+export const Encounter = ({ navigation, route, groupView = false }) => {
 
-
-const sortByInitiative = (entities) => entities.sort((entityA, entityB) => calculateInitiative(entityB) - calculateInitiative(entityA));
-
-export const Encounter = ({ navigation, route }) => {
     const theme = useTheme();
     const [loading, setLoading] = useState(true);
     const [state, setState] = useState({ open: false });
     const onStateChange = ({ open }) => setState({ open });
     const { open } = state;
-    const [entities, setEntities] = useState([]);
-    
-
     const [turn, setTurn] = useState(0);
+
+    const context = useContext(EncounterContext);
+  
+
     const prevTurn = () => {
         if (turn > 0) setTurn(turn - 1);
     }
     const nextTurn = () => {
-        if (turn < entities.length - 1) setTurn(turn + 1);
+        if (turn < context.entities.length - 1) setTurn(turn + 1);
     }
     const nextRound = () => {
         setTurn(0);
     }
-
-
     const setEntityStat = (entity, statName, statValue) => {
         statValue = parseInt(statValue) || 0;
-        let newEntities = entities.map(e => {
+        let newEntities = context.entities.map(e => {
             console.log(e.uuid, entity.uuid, e.uuid === entity.uuid);
             if (e.uuid === entity.uuid) {
                 console.log("Found");
@@ -44,55 +45,42 @@ export const Encounter = ({ navigation, route }) => {
             }
             return e;
         })
-        setEntities(newEntities)
+        context.setEntities(newEntities)
     }
-
-
-    DeviceEventEmitter.addListener("event.addEntity", (entity) => {
-        console.log("Got event");
-        console.log(entity);
-        setEntities(sortByInitiative([
-            ...entities,
-            entity,
-        ]));
-    });
-    DeviceEventEmitter.addListener("event.removeEntity", (id) => {
-        console.log("Got event");
-        console.log(id);
-        setEntities(entities.filter(entity => entity.uuid != id));
-    });
     React.useEffect(() => {
         if (loading) {
             console.log("Loading entities first time");
-            getEncounterEntities().then(value => {
-                setEntities(value);
+            getCurrentEncounter().then(value => {
+                console.log("Loaded:", value);
+                if (value.id != undefined) context.setEncounterId(value.id);
+                if (value.name != undefined) context.setEncounterName(value.name);
+                context.setEntities(value.entities ?? []);
                 setLoading(false);
             });
         }
         else {
-            let sortedEntities = sortByInitiative(entities);
-            console.log("Storing")
-            storeEncounterEntities(sortedEntities);
-            setEntities(sortedEntities);
+            if (context.entities.length-1 < turn) setTurn(context.entities.length - 1);
         }
-    }, [entities])
+    }, [context.entities])
     React.useEffect(() => {
         navigation.setOptions({
             headerLeft: () => <IconButton icon="menu" style={{ padding: 0, margin: 0 }} onPress={() => navigation.openDrawer()} />,
             headerRight: () => (
-                <IconButton icon="dice-d20"
-                    onPress={reroll} />
+                <>
+                    <IconButton icon="dice-d20"
+                        onPress={reroll} />
+                </>
             ),
         });
-    }, [navigation, entities]);
-
+    }, [navigation, context.entities]);
     const reroll = () => {
-        let newEntities = entities.map(entity => {
+        let newEntities = context.entities.map(entity => {
             entity.initiativeRoll = roll20();
             return entity;
         })
-        setEntities(sortByInitiative(newEntities));
+        context.setEntities(sortByInitiative(newEntities));
     }
+    console.log("Render encounter entities:", context.entities?.length);
     return (
         <CustomThemeProvider>
             {loading
@@ -100,8 +88,14 @@ export const Encounter = ({ navigation, route }) => {
                     <ActivityIndicator animating={true} />
                 </View>
                 : <ScrollView contentContainerStyle={{ paddingBottom: 100 }}>
-                    {entities.map((entity,index) =>
-                        <EntityCard navigation={navigation} entity={entity} key={entity.uuid} setStat={setEntityStat} highlight={index==turn} />
+                    {context.entities.map((entity, index) =>
+                        <EntityCard
+                            navigation={navigation}
+                            entity={entity}
+                            key={index}
+                            setStat={setEntityStat}
+                            highlight={index == turn}
+                        />
                     )}
                 </ScrollView>
             }
@@ -118,12 +112,12 @@ export const Encounter = ({ navigation, route }) => {
                     <Icon name='chevron-right' size={40} style={{ color: "black" }} />
                 </TouchableRipple>
             </View>
-            {EncounterControls(open, navigation, onStateChange)}
+            {<EncounterControls open={open} navigation={navigation} onStateChange={onStateChange} addEntity={(entity)=>context.addEntity(entity)} />}
         </CustomThemeProvider>
     )
 }
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
     bottom_side_item: {
         flex: 1,
         height: "100%",

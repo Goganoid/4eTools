@@ -3,25 +3,41 @@ import { DeviceEventEmitter, Image, StyleSheet, View } from 'react-native';
 import { Divider, IconButton, Text } from 'react-native-paper';
 import { Stat } from './Stat';
 import { useTheme } from 'react-native-paper';
-export const EntityCard = ({ navigation, entity, setStat,highlight=false }) => {
+import { EncounterContext } from '../App';
+import { GroupContext } from '../Navigators/GroupStackNavigator';
+// import { EncounterContext } from '../Navigators/EncounterStackNavigator';
+export const EntityCard = ({ navigation, route, entity, setStat,
+  highlight = false,
+  groupMode = false,
+  showInitiative = true }) => {
+  console.log("Group mode ", groupMode);
+  const context = groupMode ? React.useContext(GroupContext) : React.useContext(EncounterContext);
+  // const context = React.useContext(EncounterContext);
   const initiative = parseInt(entity.stats.initiative);
   const initiativeRoll = parseInt(entity.initiativeRoll);
   const theme = useTheme();
   return (
-    <View style={[styles.entity_card,highlight ? {borderWidth:1.5,borderColor:theme.colors.onPrimaryContainer} : null]}>
+    <View style={[styles.entity_card, highlight ? { borderWidth: 1.5, borderColor: theme.colors.onPrimaryContainer } : null]}>
       <View style={{ ...styles.background }}>
         <View style={styles.entity_card_left_side}>
           <View>
             <Image source={entity.type == "enemy" ? require("../../img/enemy.png") : require("../../img/hero.png")} style={styles.entity_icon} />
           </View>
-          <Text style={styles.total_initiative}>{initiativeRoll + initiative}</Text>
-          <Stat statName={"Initiative"}
-            statValue={entity.stats.initiative}
-            style={styles.rollDescription}
-            minimalistic={true}
-            onChange={(value) => setStat(entity, "initiative", value)}
-          ></Stat>
-          <Text style={styles.rollDescription} >({entity.initiativeRoll}{initiative >= 0 ? "+" : ""}{initiative})</Text>
+          {showInitiative
+            ? (
+              <>
+                <Text style={styles.total_initiative}>{initiativeRoll + initiative}</Text>
+                <Stat statName={"Initiative"}
+                  statValue={entity.stats.initiative}
+                  style={styles.rollDescription}
+                  minimalistic={true}
+                  onChange={(value) => setStat(entity, "initiative", value)}
+                />
+                 <Text style={styles.rollDescription} >({entity.initiativeRoll}{initiative >= 0 ? "+" : ""}{initiative})</Text>
+              </>
+            )
+            : null
+          }
         </View>
         <View style={styles.entity_card_right_side}>
           <View style={styles.nameSection}>
@@ -29,7 +45,7 @@ export const EntityCard = ({ navigation, entity, setStat,highlight=false }) => {
               <View style={{ flexDirection: "row", alignItems: "center" }}>
                 <Text variant="titleLarge">{entity.name}</Text>
                 <IconButton icon='delete' style={styles.icon} size={20}
-                  onPress={() => DeviceEventEmitter.emit("event.removeEntity", entity.uuid)}
+                  onPress={() => context.removeEntity(entity.uuid)}
                 />
               </View>
               <Text variant="bodySmall">{entity.group_role}</Text>

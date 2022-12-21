@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,useContext } from 'react';
 import { DeviceEventEmitter, ScrollView, StyleSheet, View } from 'react-native';
 import FlashMessage, { showMessage } from 'react-native-flash-message';
 import {
@@ -10,13 +10,19 @@ import {
     useTheme
 } from 'react-native-paper';
 import { v4 as uuid } from 'uuid';
-import { getStoredEntities, storeEntity, updateEntity } from '../data/storage';
+import { getSavedEntities, saveEntity, updateEntity } from '../data/storage';
 import { createEntity } from '../helpers/entities';
+// import { EncounterContext } from '../Navigators/EncounterStackNavigator';
+import { EncounterContext } from '../App';
 import { InputStats,InputStat } from './InputStats';
 import { SavedEntitiesTab } from './SavedEntitiesTab';
 import { CustomThemeProvider } from './ThemeProvider';
-
+import { sortByInitiative } from './sortByInitiative';
+import { GroupContext } from '../Navigators/GroupStackNavigator';
 export const AddEntity = ({ navigation, route }) => {
+    const groupMode = route?.params.groupMode ?? false;
+    console.log("Group mode ", groupMode);
+    const context = groupMode ? useContext(GroupContext) : useContext(EncounterContext);
     const theme = useTheme();
     const { isHeroTab } = route.params;
     const [id, setId] = useState(uuid());
@@ -37,13 +43,17 @@ export const AddEntity = ({ navigation, route }) => {
         setType(isHeroTab ? 'hero' : entity_type);
     }, [isHeroTab]);
     useEffect(() => {
+
+        
+
+
         navigation.setOptions({
             headerRight: () => <>
                 <IconButton icon="content-save" onPress={save} />
                 <IconButton icon="check" onPress={create} />
             </>,
         });
-    }, [navigation, name, entity_type, stats, notes]);
+    }, [navigation, name, entity_type, stats, notes,context]);
 
     const getFieldValues = () => {
         return {
@@ -72,33 +82,6 @@ export const AddEntity = ({ navigation, route }) => {
         }
         return true;
     };
-
-    const save = async () => {
-        const values = getFieldValues();
-        if (!validateName(values.name)) return;
-        let entity = createEntity(
-            values.entity_type,
-            values.name,
-            values.stats,
-            values.notes,
-            (custom_id = id),
-        );
-        let ents = await getStoredEntities();
-        console.log('Saving entity with id', id);
-        if (ents[id] != undefined) {
-            await updateEntity(entity, isHeroTab);
-        } else {
-            await storeEntity(entity, isHeroTab);
-        }
-        showMessage({
-            message: `${isHeroTab ? 'Hero' : 'Entity'} saved`,
-            type: 'success',
-            backgroundColor: theme.colors.primary,
-        });
-        await updateDisplayedStoredEntities();
-        setId(uuid());
-    };
-
     const create = async () => {
         const values = getFieldValues();
 
@@ -110,15 +93,45 @@ export const AddEntity = ({ navigation, route }) => {
             values.stats,
             values.notes,
         );
-        DeviceEventEmitter.emit('event.addEntity', entity);
+        // DeviceEventEmitter.emit('event.addEntity', entity);
+        console.log("Adding entity");
+        console.log("Entity ", entity);
+        context.addEntity(entity);
         showMessage({
             message: `${isHeroTab ? 'Hero' : 'Entity'} was added`,
             type: 'info',
             backgroundColor: theme.colors.primary,
         });
     };
+    const save = async () => {
+        const values = getFieldValues();
+        if (!validateName(values.name)) return;
+        let entity = createEntity(
+            values.entity_type,
+            values.name,
+            values.stats,
+            values.notes,
+            (custom_id = id),
+        );
+        let ents = await getSavedEntities();
+        console.log('Saving entity with id', id);
+        if (ents[id] != undefined) {
+            await updateEntity(entity, isHeroTab);
+        } else {
+            await saveEntity(entity, isHeroTab);
+        }
+        showMessage({
+            message: `${isHeroTab ? 'Hero' : 'Entity'} saved`,
+            type: 'success',
+            backgroundColor: theme.colors.primary,
+        });
+        await updateDisplayedStoredEntities();
+        setId(uuid());
+    };
+
+  
     const updateDisplayedStoredEntities = async () =>
-        setStored_entities(await getStoredEntities(isHeroTab));
+        setStored_entities(await getSavedEntities(isHeroTab));
 
     const [stored_entities, setStored_entities] = useState({});
     useEffect(() => {
