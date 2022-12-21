@@ -3,13 +3,12 @@ import { v4 as uuid } from 'uuid';
 import { roll20 } from "./roll20";
 
 
-export function createEntity(type, name, stats,notes='',custom_id=null) {
+export function createEntity(type, name, stats,custom_id=null) {
     return {
         uuid: custom_id ?? uuid(),
         name: name,
         type: type,
         stats: stats,
-        notes,
         initiativeRoll:roll20()
     }
 }

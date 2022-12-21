@@ -36,7 +36,6 @@ export const AddEntity = ({ navigation, route }) => {
         will: '',
         initiative: '',
     });
-    const [notes, setNotes] = useState('');
 
     useEffect(() => {
         console.log('Setting hero type');
@@ -53,13 +52,12 @@ export const AddEntity = ({ navigation, route }) => {
                 <IconButton icon="check" onPress={create} />
             </>,
         });
-    }, [navigation, name, entity_type, stats, notes,context]);
+    }, [navigation, name, entity_type, stats,context]);
 
     const getFieldValues = () => {
         return {
             name,
             entity_type,
-            notes,
             stats: {
                 hp: parseInt(stats.hp) || 0,
                 initiative: parseInt(stats.initiative) || 0,
@@ -91,7 +89,6 @@ export const AddEntity = ({ navigation, route }) => {
             values.entity_type,
             values.name,
             values.stats,
-            values.notes,
         );
         // DeviceEventEmitter.emit('event.addEntity', entity);
         console.log("Adding entity");
@@ -110,7 +107,6 @@ export const AddEntity = ({ navigation, route }) => {
             values.entity_type,
             values.name,
             values.stats,
-            values.notes,
             (custom_id = id),
         );
         let ents = await getSavedEntities();
@@ -185,15 +181,6 @@ export const AddEntity = ({ navigation, route }) => {
                     />
                     <Text variant="titleLarge">Stats</Text>
                     {InputStats(stats, setStats)}
-                    <Divider bold={true} />
-                    <Text variant="titleLarge">Notes</Text>
-                    <TextInput
-                        mode="outlined"
-                        multiline
-                        numberOfLines={10}
-                        value={notes}
-                        onChangeText={value => setNotes(value)}
-                    />
                 </View>
             </ScrollView>
             <FlashMessage position={'bottom'} />

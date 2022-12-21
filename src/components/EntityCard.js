@@ -12,10 +12,16 @@ export const EntityCard = ({ navigation, route, entity, setStat,
   showInitiative = true }) => {
   console.log("Group mode ", groupMode);
   const context = groupMode ? React.useContext(GroupContext) : React.useContext(EncounterContext);
-  // const context = React.useContext(EncounterContext);
   const initiative = parseInt(entity.stats.initiative);
   const initiativeRoll = parseInt(entity.initiativeRoll);
   const theme = useTheme();
+  function EntityInformationButton(informationType) {
+    return <IconButton
+      style={{ marginVertical: 0, marginHorizontal: 0, padding: 0 }}
+      icon="information-outline"
+      size={20}
+      onPress={() => navigation.navigate("Details", { id: entity.monster_id })} />;
+  }
   return (
     <View style={[styles.entity_card, highlight ? { borderWidth: 1.5, borderColor: theme.colors.onPrimaryContainer } : null]}>
       <View style={{ ...styles.background }}>
@@ -50,12 +56,8 @@ export const EntityCard = ({ navigation, route, entity, setStat,
               </View>
               <Text variant="bodySmall">{entity.group_role}</Text>
             </View>
-            {entity.type == "enemy" && entity.monster_id != undefined ? <IconButton
-              style={{ marginVertical: 0, marginHorizontal: 0, padding: 0 }}
-              icon="information-outline"
-              size={20}
-              onPress={() => navigation.navigate("Details", { id: entity.monster_id })}
-            /> : null}
+            {entity.type == "enemy" && entity.monster_id != undefined ?
+              EntityInformationButton() : null}
           </View>
           <Divider />
           <View style={styles.def_stats}>
@@ -69,6 +71,8 @@ export const EntityCard = ({ navigation, route, entity, setStat,
       </View>
     </View>
   )
+
+  
 }
 const styles = StyleSheet.create({
   rollDescription: {
