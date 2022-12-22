@@ -14,6 +14,8 @@ import { GroupsStackNavigator } from './Navigators/GroupsStackNavigator';
 import { IconButton } from 'react-native-paper';
 import { sortByInitiative } from './components/sortByInitiative';
 import { saveCurrentEncounter } from './data/storage';
+import { Compendium } from './components/Compendium';
+import { CompendiumStackNavigator } from './Navigators/CompendiumStackNavigator';
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
@@ -87,12 +89,11 @@ export default function Main() {
                 }
               }}
             />
-
-            <Drawer.Screen name="Bestiary" component={BestiaryStackNavigator}
+            <Drawer.Screen name="Compendium" component={CompendiumStackNavigator}
               options={({ route }) => {
                 return {
                   headerShown: false,
-                  swipeEnabled: isOnMainScreen(route, 'MonsterListing')
+                  swipeEnabled: isOnMainScreen(route, 'CompendiumMainPage')
                 }
               }}
             />
