@@ -23,7 +23,8 @@ export const EncounterStackNavigator = () => {
           }} />
         <Stack.Screen name="Details"
           component={EnemyDetails} />
-        <Stack.Screen name="MonsterDetails" component={EnemyDetails}
+      <Stack.Screen name="MonsterDetails" component={EnemyDetails}
+         initialParams={{ mode:'encounter'}}
           options={{
             title: "Details",
             headerRight: () => <>
@@ -32,7 +33,8 @@ export const EncounterStackNavigator = () => {
           }} />
         <Stack.Screen
           name="AddCardCustom"
-          component={AddEntity}
+        component={AddEntity}
+        initialParams={{ mode:'encounter'}}
           options={{
             title: 'Add Entity',
             headerRight: () => <>
@@ -42,7 +44,8 @@ export const EncounterStackNavigator = () => {
           }} />
         <Stack.Screen
           name="AddHero"
-          component={AddEntity}
+        component={AddEntity}
+        initialParams={{ mode:'encounter'}}
           options={{
             title: 'Add Entity',
             headerRight: () => <>
@@ -51,7 +54,8 @@ export const EncounterStackNavigator = () => {
             </>,
           }} />
         <Stack.Screen
-          name="AddMonster"
+        name="AddMonster"
+        initialParams={{ mode:'encounter'}}
           component={MonsterListing}
           options={{
             title: 'Add Monster',

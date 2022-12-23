@@ -61,14 +61,14 @@ export const GroupStackNavigator = ({ navigation, route }) => {
                 <Stack.Screen name="Details"
                     component={EnemyDetails} />
                 <Stack.Screen name="MonsterDetails" component={EnemyDetails}
-                    initialParams={{ groupMode: true }}
+                    initialParams={{ mode:'group' }}
                     options={{
                         title: "Details",
                     }} />
                 <Stack.Screen
                     name="AddCardCustom"
                     component={AddEntity}
-                    initialParams={{ groupMode: true }}
+                    initialParams={{ mode:'group' }}
                     options={{
                         title: 'Add Entity',
                         headerRight: () => <>
@@ -79,7 +79,7 @@ export const GroupStackNavigator = ({ navigation, route }) => {
                 <Stack.Screen
                     name="AddHero"
                     component={AddEntity}
-                    initialParams={{groupMode:true}}
+                    initialParams={{mode:'group'}}
                     options={{
                         title: 'Add Entity',
                         headerRight: () => <>
@@ -90,7 +90,7 @@ export const GroupStackNavigator = ({ navigation, route }) => {
                 <Stack.Screen
                     name="AddMonster"
                     component={MonsterListing}
-                    initialParams={{groupMode:true}}
+                    initialParams={{mode:'group'}}
                     options={{
                         title: 'Add Monster',
                     }} />

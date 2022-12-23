@@ -20,9 +20,10 @@ import { CustomThemeProvider } from './ThemeProvider';
 import { sortByInitiative } from './sortByInitiative';
 import { GroupContext } from '../Navigators/GroupStackNavigator';
 export const AddEntity = ({ navigation, route }) => {
-    const groupMode = route?.params.groupMode ?? false;
-    console.log("Group mode ", groupMode);
-    const context = groupMode ? useContext(GroupContext) : useContext(EncounterContext);
+    const mode = route?.params.mode ?? null;
+    console.log("Mode ", mode);
+    const context = mode == 'group' ? React.useContext(GroupContext) :
+        mode == 'encounter' ? React.useContext(EncounterContext) : null;
     const theme = useTheme();
     const { isHeroTab } = route.params;
     const [id, setId] = useState(uuid());
@@ -42,12 +43,8 @@ export const AddEntity = ({ navigation, route }) => {
         setType(isHeroTab ? 'hero' : entity_type);
     }, [isHeroTab]);
     useEffect(() => {
-
-        
-
-
         navigation.setOptions({
-            headerRight: () => <>
+            headerRight: () => context && <>
                 <IconButton icon="content-save" onPress={save} />
                 <IconButton icon="check" onPress={create} />
             </>,

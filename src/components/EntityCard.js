@@ -8,10 +8,11 @@ import { GroupContext } from '../Navigators/GroupStackNavigator';
 // import { EncounterContext } from '../Navigators/EncounterStackNavigator';
 export const EntityCard = ({ navigation, route, entity, setStat,
   highlight = false,
-  groupMode = false,
+  mode,
   showInitiative = true }) => {
-  console.log("Group mode ", groupMode);
-  const context = groupMode ? React.useContext(GroupContext) : React.useContext(EncounterContext);
+  console.log("Mode ", mode);
+  const context = mode == 'group' ? React.useContext(GroupContext) :
+    mode=='encounter' ? React.useContext(EncounterContext): null;
   const initiative = parseInt(entity.stats.initiative);
   const initiativeRoll = parseInt(entity.initiativeRoll);
   const theme = useTheme();

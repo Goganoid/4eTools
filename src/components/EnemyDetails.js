@@ -1,4 +1,4 @@
-import React,{useContext} from 'react';
+import React, { useContext } from 'react';
 import { DeviceEventEmitter, ScrollView, useWindowDimensions } from 'react-native';
 import FlashMessage, { showMessage } from 'react-native-flash-message';
 import { IconButton, useTheme } from 'react-native-paper';
@@ -44,9 +44,10 @@ const tagsStyles = {
 }
 
 export const EnemyDetails = ({ route, navigation }) => {
-    const groupMode = route?.params.groupMode ?? false;
-    console.log("Group mode ", groupMode);
-    const context = groupMode ? useContext(GroupContext) : useContext(EncounterContext);
+    const mode = route?.params.mode ?? null;
+    console.log("Mode ", mode);
+    const context = mode == 'group' ? React.useContext(GroupContext) :
+        mode == 'encounter' ? React.useContext(EncounterContext) : null;
     const theme = useTheme();
     const showAddButton = route.params?.showAddButton ?? false;
     const { id } = route.params;
@@ -60,15 +61,14 @@ export const EnemyDetails = ({ route, navigation }) => {
         navigation.setOptions({
             headerRight: () => (
                 <>
-                    {showAddButton
-                        ? <IconButton
+                    {context &&
+                        <IconButton
                             icon='check'
-                            onPress={create} />
-                        : null}
+                            onPress={create} />}
                 </>
             ),
         });
-    }, [navigation,context]);
+    }, [navigation, context]);
     const create = async () => {
         let entity = createEnemy(id);
         context.addEntity(entity);

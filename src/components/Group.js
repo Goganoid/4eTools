@@ -82,7 +82,7 @@ export const Group = ({ navigation, route }) => {
                         setStat={setEntityStat}
                         highlight={false}
                         removeEntity={removeEntity}
-                        groupMode={true}
+                        mode={'group'}
                         showInitiative={false}
                     />
                 )}
