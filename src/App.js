@@ -16,12 +16,14 @@ import { sortByInitiative } from './components/sortByInitiative';
 import { saveCurrentEncounter } from './data/storage';
 import { Compendium } from './components/Compendium';
 import { CompendiumStackNavigator } from './Navigators/CompendiumStackNavigator';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
 export const EncounterContext = React.createContext(null);
 
 export default function Main() {
+
   const { width } = useWindowDimensions();
   const isOnMainScreen = (route, mainScreenName) => {
     const routeName = getFocusedRouteNameFromRoute(route);
@@ -36,7 +38,7 @@ export default function Main() {
 
   const [encounter, setEncounter] = React.useState(initialContextState);
   const setEncounterAndSave = (newEncounter) => {
-    console.log("Setting encounter and saving")
+    console.log("Setting encounter and saving ")
     saveCurrentEncounter(newEncounter);
     setEncounter(newEncounter);
   }

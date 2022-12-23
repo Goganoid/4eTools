@@ -108,7 +108,7 @@
     },
     "cost": {
         "placeholder":"Cost",
-        "filterType": "list",
+        "filterType": "search",
         "searchMethod": "equal",
         "items": [
             "None",

@@ -1,0 +1,9115 @@
+{
+    "armor95": {
+        "id": "armor95",
+        "name": "Banded Mail",
+        "type": "Chainmail",
+        "level": "None",
+        "cost": "55",
+        "rarity": "Mundane",
+        "sourcebook": "MME"
+    },
+    "armor99": {
+        "id": "armor99",
+        "name": "Barbed Shield",
+        "type": "Heavy Shield",
+        "level": "None",
+        "cost": "20",
+        "rarity": "Mundane",
+        "sourcebook": "MME"
+    },
+    "armor4": {
+        "id": "armor4",
+        "name": "Chainmail",
+        "type": "Chainmail",
+        "level": "None",
+        "cost": "40",
+        "rarity": "Mundane",
+        "sourcebook": "PHB, HotFL"
+    },
+    "armor1": {
+        "id": "armor1",
+        "name": "Cloth Armor (Basic Clothing)",
+        "type": "Cloth",
+        "level": "None",
+        "cost": "1",
+        "rarity": "Mundane",
+        "sourcebook": "PHB, HotFL"
+    },
+    "armor98": {
+        "id": "armor98",
+        "name": "Full Plate",
+        "type": "Plate",
+        "level": "None",
+        "cost": "65",
+        "rarity": "Mundane",
+        "sourcebook": "MME"
+    },
+    "armor51": {
+        "id": "armor51",
+        "name": "Heavy Barding",
+        "type": "Barding",
+        "level": "None",
+        "cost": "150",
+        "rarity": "Mundane",
+        "sourcebook": "AV"
+    },
+    "armor52": {
+        "id": "armor52",
+        "name": "Heavy Barding (Huge creature)",
+        "type": "Barding",
+        "level": "None",
+        "cost": "150",
+        "rarity": "Mundane",
+        "sourcebook": "AV"
+    },
+    "armor8": {
+        "id": "armor8",
+        "name": "Heavy Shield",
+        "type": "Heavy Shield",
+        "level": "None",
+        "cost": "10",
+        "rarity": "Mundane",
+        "sourcebook": "PHB, HotFL"
+    },
+    "armor3": {
+        "id": "armor3",
+        "name": "Hide Armor",
+        "type": "Hide",
+        "level": "None",
+        "cost": "30",
+        "rarity": "Mundane",
+        "sourcebook": "PHB, HotFL"
+    },
+    "armor2": {
+        "id": "armor2",
+        "name": "Leather Armor",
+        "type": "Leather",
+        "level": "None",
+        "cost": "25",
+        "rarity": "Mundane",
+        "sourcebook": "PHB, HotFL"
+    },
+    "armor49": {
+        "id": "armor49",
+        "name": "Light Barding",
+        "type": "Barding",
+        "level": "None",
+        "cost": "75",
+        "rarity": "Mundane",
+        "sourcebook": "AV"
+    },
+    "armor50": {
+        "id": "armor50",
+        "name": "Light Barding (Huge creature)",
+        "type": "Barding",
+        "level": "None",
+        "cost": "75",
+        "rarity": "Mundane",
+        "sourcebook": "AV"
+    },
+    "armor7": {
+        "id": "armor7",
+        "name": "Light Shield",
+        "type": "Light Shield",
+        "level": "None",
+        "cost": "5",
+        "rarity": "Mundane",
+        "sourcebook": "PHB, HotFL"
+    },
+    "armor6": {
+        "id": "armor6",
+        "name": "Plate Armor",
+        "type": "Plate",
+        "level": "None",
+        "cost": "50",
+        "rarity": "Mundane",
+        "sourcebook": "PHB, HotFL"
+    },
+    "armor94": {
+        "id": "armor94",
+        "name": "Ring Mail",
+        "type": "Chainmail",
+        "level": "None",
+        "cost": "40",
+        "rarity": "Mundane",
+        "sourcebook": "MME"
+    },
+    "armor5": {
+        "id": "armor5",
+        "name": "Scale Armor",
+        "type": "Scale",
+        "level": "None",
+        "cost": "45",
+        "rarity": "Mundane",
+        "sourcebook": "PHB, HotFL"
+    },
+    "armor97": {
+        "id": "armor97",
+        "name": "Spiked Plate",
+        "type": "Plate",
+        "level": "None",
+        "cost": "55",
+        "rarity": "Mundane",
+        "sourcebook": "MME"
+    },
+    "armor96": {
+        "id": "armor96",
+        "name": "Splint Mail",
+        "type": "Scale",
+        "level": "None",
+        "cost": "50",
+        "rarity": "Mundane",
+        "sourcebook": "MME"
+    },
+    "armor93": {
+        "id": "armor93",
+        "name": "Studded Leather",
+        "type": "Leather",
+        "level": "None",
+        "cost": "35",
+        "rarity": "Mundane",
+        "sourcebook": "MME"
+    },
+    "armor85": {
+        "id": "armor85",
+        "name": "Baazrag Bone Armor",
+        "type": "Plate",
+        "level": "Min +2",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor71": {
+        "id": "armor71",
+        "name": "Bonemail Armor",
+        "type": "Chainmail",
+        "level": "Min +2",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor38": {
+        "id": "armor38",
+        "name": "Drakescale Armor",
+        "type": "Scale",
+        "level": "Min +2",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor33": {
+        "id": "armor33",
+        "name": "Finemail",
+        "type": "Chainmail",
+        "level": "Min +2",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor44": {
+        "id": "armor44",
+        "name": "Layered Plate Armor",
+        "type": "Plate",
+        "level": "Min +2",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor86": {
+        "id": "armor86",
+        "name": "Mekillot Shell Armor",
+        "type": "Plate",
+        "level": "Min +2",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor43": {
+        "id": "armor43",
+        "name": "Rimefire Plate Armor",
+        "type": "Plate",
+        "level": "Min +2",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor78": {
+        "id": "armor78",
+        "name": "Scorpion Scale Armor",
+        "type": "Scale",
+        "level": "Min +2",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor34": {
+        "id": "armor34",
+        "name": "Braidmail Armor",
+        "type": "Chainmail",
+        "level": "Min +3",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor25": {
+        "id": "armor25",
+        "name": "Drowmesh",
+        "type": "Leather",
+        "level": "Min +3",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor29": {
+        "id": "armor29",
+        "name": "Earthhide Armor",
+        "type": "Hide",
+        "level": "Min +3",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor45": {
+        "id": "armor45",
+        "name": "Gith Plate Armor",
+        "type": "Plate",
+        "level": "Min +3",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor87": {
+        "id": "armor87",
+        "name": "Gith Shell Armor",
+        "type": "Plate",
+        "level": "Min +3",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor21": {
+        "id": "armor21",
+        "name": "Githweave Armor",
+        "type": "Cloth",
+        "level": "Min +3",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor59": {
+        "id": "armor59",
+        "name": "Inix Leather Armor",
+        "type": "Leather",
+        "level": "Min +3",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor53": {
+        "id": "armor53",
+        "name": "Kestrekel Feather Armor",
+        "type": "Cloth",
+        "level": "Min +3",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor79": {
+        "id": "armor79",
+        "name": "Mekillot Scale Armor",
+        "type": "Scale",
+        "level": "Min +3",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor72": {
+        "id": "armor72",
+        "name": "Stonemail Armor",
+        "type": "Chainmail",
+        "level": "Min +3",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor65": {
+        "id": "armor65",
+        "name": "Tembo Hide Armor",
+        "type": "Hide",
+        "level": "Min +3",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor39": {
+        "id": "armor39",
+        "name": "Wyvernscale Armor",
+        "type": "Scale",
+        "level": "Min +3",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor54": {
+        "id": "armor54",
+        "name": "Aarakocra Feather Armor",
+        "type": "Cloth",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor60": {
+        "id": "armor60",
+        "name": "Baazrag Leather Armor",
+        "type": "Leather",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor89": {
+        "id": "armor89",
+        "name": "Braxat Shell Armor",
+        "type": "Plate",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor88": {
+        "id": "armor88",
+        "name": "Chathrang Shell Armor",
+        "type": "Plate",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor35": {
+        "id": "armor35",
+        "name": "Crysteel Armor",
+        "type": "Chainmail",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor13": {
+        "id": "armor13",
+        "name": "Darkhide Armor",
+        "type": "Hide",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "PHB"
+    },
+    "armor30": {
+        "id": "armor30",
+        "name": "Feyhide Armor",
+        "type": "Hide",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor11": {
+        "id": "armor11",
+        "name": "Feyleather Armor",
+        "type": "Leather",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "PHB"
+    },
+    "armor9": {
+        "id": "armor9",
+        "name": "Feyweave Armor",
+        "type": "Cloth",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "PHB"
+    },
+    "armor15": {
+        "id": "armor15",
+        "name": "Forgemail",
+        "type": "Chainmail",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "PHB"
+    },
+    "armor80": {
+        "id": "armor80",
+        "name": "Inix Shell Armor",
+        "type": "Scale",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor61": {
+        "id": "armor61",
+        "name": "Jhakarskin Armor",
+        "type": "Leather",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor66": {
+        "id": "armor66",
+        "name": "Kank Hide Armor",
+        "type": "Hide",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor74": {
+        "id": "armor74",
+        "name": "Kankmail Armor",
+        "type": "Chainmail",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor67": {
+        "id": "armor67",
+        "name": "Kirre Hide Armor",
+        "type": "Hide",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor81": {
+        "id": "armor81",
+        "name": "Kreen Scale Armor",
+        "type": "Scale",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor22": {
+        "id": "armor22",
+        "name": "Mindweave Armor",
+        "type": "Cloth",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor73": {
+        "id": "armor73",
+        "name": "Obsidianmail Armor",
+        "type": "Chainmail",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor26": {
+        "id": "armor26",
+        "name": "Snakeskin Armor",
+        "type": "Leather",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor46": {
+        "id": "armor46",
+        "name": "Specter Plate Armor",
+        "type": "Plate",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor55": {
+        "id": "armor55",
+        "name": "Spidersilk Armor",
+        "type": "Cloth",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor40": {
+        "id": "armor40",
+        "name": "Stormscale Armor",
+        "type": "Scale",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor19": {
+        "id": "armor19",
+        "name": "Warplate Armor",
+        "type": "Plate",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "PHB"
+    },
+    "armor17": {
+        "id": "armor17",
+        "name": "Wyrmscale Armor",
+        "type": "Scale",
+        "level": "Min +4",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "PHB"
+    },
+    "armor27": {
+        "id": "armor27",
+        "name": "Anathema Armor",
+        "type": "Leather",
+        "level": "Min +5",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor75": {
+        "id": "armor75",
+        "name": "Cilops Carapace Armor",
+        "type": "Chainmail",
+        "level": "Min +5",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor23": {
+        "id": "armor23",
+        "name": "Efreetweave Armor",
+        "type": "Cloth",
+        "level": "Min +5",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor90": {
+        "id": "armor90",
+        "name": "Gaj Carapace Armor",
+        "type": "Plate",
+        "level": "Min +5",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor56": {
+        "id": "armor56",
+        "name": "Giantweave Armor",
+        "type": "Cloth",
+        "level": "Min +5",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor47": {
+        "id": "armor47",
+        "name": "Legion Plate Armor",
+        "type": "Plate",
+        "level": "Min +5",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor68": {
+        "id": "armor68",
+        "name": "Mekillot Hide Armor",
+        "type": "Hide",
+        "level": "Min +5",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor41": {
+        "id": "armor41",
+        "name": "Nagascale Armor",
+        "type": "Scale",
+        "level": "Min +5",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor82": {
+        "id": "armor82",
+        "name": "Rampager Scale Armor",
+        "type": "Scale",
+        "level": "Min +5",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor62": {
+        "id": "armor62",
+        "name": "Ray Leather Armor",
+        "type": "Leather",
+        "level": "Min +5",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor31": {
+        "id": "armor31",
+        "name": "Stalkerhide Armor",
+        "type": "Hide",
+        "level": "Min +5",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor36": {
+        "id": "armor36",
+        "name": "Weavemail Armor",
+        "type": "Chainmail",
+        "level": "Min +5",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor92": {
+        "id": "armor92",
+        "name": "Braxat Lord Shell Armor",
+        "type": "Plate",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor58": {
+        "id": "armor58",
+        "name": "Dragoncloth Armor",
+        "type": "Cloth",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor84": {
+        "id": "armor84",
+        "name": "Dragonscale Armor",
+        "type": "Scale",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor63": {
+        "id": "armor63",
+        "name": "Drake Leather Armor",
+        "type": "Leather",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor91": {
+        "id": "armor91",
+        "name": "Drakeplate Armor",
+        "type": "Plate",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor14": {
+        "id": "armor14",
+        "name": "Elderhide Armor",
+        "type": "Hide",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "PHB"
+    },
+    "armor18": {
+        "id": "armor18",
+        "name": "Elderscale Armor",
+        "type": "Scale",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "PHB"
+    },
+    "armor83": {
+        "id": "armor83",
+        "name": "Elemental Drake Armor",
+        "type": "Scale",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor20": {
+        "id": "armor20",
+        "name": "Godplate Armor",
+        "type": "Plate",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "PHB"
+    },
+    "armor77": {
+        "id": "armor77",
+        "name": "Kingmail Armor",
+        "type": "Chainmail",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor64": {
+        "id": "armor64",
+        "name": "Mantle Armor",
+        "type": "Leather",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor24": {
+        "id": "armor24",
+        "name": "Mindpatterned Armor",
+        "type": "Cloth",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor70": {
+        "id": "armor70",
+        "name": "Nightmare Hide Armor",
+        "type": "Hide",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor37": {
+        "id": "armor37",
+        "name": "Pitmail Armor",
+        "type": "Chainmail",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor69": {
+        "id": "armor69",
+        "name": "Roc Hide Armor",
+        "type": "Hide",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor16": {
+        "id": "armor16",
+        "name": "Spiritmail",
+        "type": "Chainmail",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "PHB"
+    },
+    "armor12": {
+        "id": "armor12",
+        "name": "Starleather Armor",
+        "type": "Leather",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "PHB"
+    },
+    "armor10": {
+        "id": "armor10",
+        "name": "Starweave Armor",
+        "type": "Cloth",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "PHB"
+    },
+    "armor28": {
+        "id": "armor28",
+        "name": "Swordwing Armor",
+        "type": "Leather",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor48": {
+        "id": "armor48",
+        "name": "Tarrasque Plate Armor",
+        "type": "Plate",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor76": {
+        "id": "armor76",
+        "name": "Templar Mail Armor",
+        "type": "Chainmail",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor42": {
+        "id": "armor42",
+        "name": "Titanscale Armor",
+        "type": "Scale",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor32": {
+        "id": "armor32",
+        "name": "Voidhide",
+        "type": "Hide",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "AV"
+    },
+    "armor57": {
+        "id": "armor57",
+        "name": "Wyrmsilk Armor",
+        "type": "Cloth",
+        "level": "Min +6",
+        "cost": "None",
+        "rarity": "Masterwork",
+        "sourcebook": "DSCS"
+    },
+    "armor1281": {
+        "id": "armor1281",
+        "name": "Fighting Shield",
+        "type": "Any shield",
+        "level": "1",
+        "cost": "360",
+        "rarity": "Common",
+        "sourcebook": "Dra385"
+    },
+    "armor1322": {
+        "id": "armor1322",
+        "name": "Floating Shield",
+        "type": "Any shield",
+        "level": "1",
+        "cost": "360",
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1772": {
+        "id": "armor1772",
+        "name": "Magic Armor",
+        "type": "Any",
+        "level": [
+            
+            "1",
+            "16",
+            "6",
+            "21",
+            "11",
+            "26"
+        ],
+        "cost": [
+            "360",
+            "360",
+            "45000",
+            "1800",
+            "225000",
+            "9000",
+            "1125000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "PHB, HotFL, HotFK"
+    },
+    "armor462": {
+        "id": "armor462",
+        "name": "Agile Resolve Vestments",
+        "type": "Cloth",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "PHB2"
+    },
+    "armor531": {
+        "id": "armor531",
+        "name": "Armor of Aegis Expansion",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor537": {
+        "id": "armor537",
+        "name": "Armor of Dwarven Vigor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor3117": {
+        "id": "armor3117",
+        "name": "Armor of Escape",
+        "type": "Any",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "MME"
+    },
+    "armor541": {
+        "id": "armor541",
+        "name": "Armor of Eyes",
+        "type": "Scale or plate",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor544": {
+        "id": "armor544",
+        "name": "Armor of Resistance",
+        "type": "Any",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "AV"
+    },
+    "armor561": {
+        "id": "armor561",
+        "name": "Astral Fire Armor",
+        "type": "Chain",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "PHB2"
+    },
+    "armor579": {
+        "id": "armor579",
+        "name": "Awakening Armor",
+        "type": "Hide or chain",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor702": {
+        "id": "armor702",
+        "name": "Bloodguard Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "2",
+            "22",
+            "12"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "325000",
+            "13000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor960": {
+        "id": "armor960",
+        "name": "Coruscating Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1013": {
+        "id": "armor1013",
+        "name": "Darkleaf Shield",
+        "type": "Light shield",
+        "level": [
+            
+            "2",
+            "22",
+            "12"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "325000",
+            "13000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "AV"
+    },
+    "armor1044": {
+        "id": "armor1044",
+        "name": "Deathsteel Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "TS"
+    },
+    "armor1147": {
+        "id": "armor1147",
+        "name": "Dwarven Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB, DMK"
+    },
+    "armor1198": {
+        "id": "armor1198",
+        "name": "Elusive Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor1212": {
+        "id": "armor1212",
+        "name": "Enduring Spirit Vestments",
+        "type": "Cloth",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor1423": {
+        "id": "armor1423",
+        "name": "Gleaming Armor",
+        "type": "Chain or scale",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor1513": {
+        "id": "armor1513",
+        "name": "Haunted Armor",
+        "type": "Any",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "Dra400"
+    },
+    "armor1552": {
+        "id": "armor1552",
+        "name": "Hero's Armor",
+        "type": "Any",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2, HotFK"
+    },
+    "armor1569": {
+        "id": "armor1569",
+        "name": "Horn Tusk Armor",
+        "type": "Hide",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor1586": {
+        "id": "armor1586",
+        "name": "Hunting Beast Armor",
+        "type": "Hide",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor1600": {
+        "id": "armor1600",
+        "name": "Immunizing Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1617": {
+        "id": "armor1617",
+        "name": "Indomitable Resolve Vestments",
+        "type": "Cloth",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "PHB2"
+    },
+    "armor1673": {
+        "id": "armor1673",
+        "name": "Jousting Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "2",
+            "22",
+            "12"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "325000",
+            "13000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1765": {
+        "id": "armor1765",
+        "name": "Luring Withdrawal Armor",
+        "type": "Leather or chain",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor1808": {
+        "id": "armor1808",
+        "name": "Martyr's Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1859": {
+        "id": "armor1859",
+        "name": "Mind Hunter's Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "PsP"
+    },
+    "armor1872": {
+        "id": "armor1872",
+        "name": "Mithral Plating",
+        "type": "Plate",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "EPG"
+    },
+    "armor2098": {
+        "id": "armor2098",
+        "name": "Preservation Shield",
+        "type": "Light shield",
+        "level": "2",
+        "cost": "520",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2137": {
+        "id": "armor2137",
+        "name": "Rat Killer's Coat",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2140": {
+        "id": "armor2140",
+        "name": "Razor Armor",
+        "type": "Scale",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor2142": {
+        "id": "armor2142",
+        "name": "Razor Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "2",
+            "22",
+            "12"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "325000",
+            "13000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2170": {
+        "id": "armor2170",
+        "name": "Repulsion Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2281": {
+        "id": "armor2281",
+        "name": "Robe of Eyes",
+        "type": "Cloth",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2285": {
+        "id": "armor2285",
+        "name": "Robe of Scintillation",
+        "type": "Cloth",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3130": {
+        "id": "armor3130",
+        "name": "Robe of Useful Items",
+        "type": "Cloth",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "MME"
+    },
+    "armor2397": {
+        "id": "armor2397",
+        "name": "Savage Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra368"
+    },
+    "armor2417": {
+        "id": "armor2417",
+        "name": "Screaming Armor",
+        "type": "Hide, scale or plate",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2441": {
+        "id": "armor2441",
+        "name": "Shadow Hunter Hide",
+        "type": "Hide",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2474": {
+        "id": "armor2474",
+        "name": "Shield of Deflection",
+        "type": "Any shield",
+        "level": [
+            
+            "2",
+            "22",
+            "12"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "325000",
+            "13000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "HotFL, PHB"
+    },
+    "armor2484": {
+        "id": "armor2484",
+        "name": "Shield of the Guardian",
+        "type": "Any shield",
+        "level": [
+            
+            "2",
+            "22",
+            "12"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "325000",
+            "13000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV, HotFK"
+    },
+    "armor2534": {
+        "id": "armor2534",
+        "name": "Slick Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "AV"
+    },
+    "armor3211": {
+        "id": "armor3211",
+        "name": "Tusk Shield",
+        "type": "Light shield",
+        "level": "2",
+        "cost": "520",
+        "rarity": "Common",
+        "sourcebook": "MME"
+    },
+    "armor2986": {
+        "id": "armor2986",
+        "name": "Veteran's Armor",
+        "type": "Any",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "AV, HotFL"
+    },
+    "armor2992": {
+        "id": "armor2992",
+        "name": "Vigorous Resolve Vestments",
+        "type": "Cloth",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor3040": {
+        "id": "armor3040",
+        "name": "Warding Spirit Armor",
+        "type": "Leather",
+        "level": [
+            
+            "2",
+            "17",
+            "7",
+            "22",
+            "12",
+            "27"
+        ],
+        "cost": [
+            "520",
+            "520",
+            "65000",
+            "2600",
+            "325000",
+            "13000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "PHB2"
+    },
+    "armor454": {
+        "id": "armor454",
+        "name": "Addergrease Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor533": {
+        "id": "armor533",
+        "name": "Armor of Cleansing",
+        "type": "Any",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "AV, HotFK"
+    },
+    "armor540": {
+        "id": "armor540",
+        "name": "Armor of Exploits",
+        "type": "Any",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor549": {
+        "id": "armor549",
+        "name": "Armor of Sudden Recovery",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor664": {
+        "id": "armor664",
+        "name": "Bestial Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor805": {
+        "id": "armor805",
+        "name": "Breaching Armor",
+        "type": "Any",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1001": {
+        "id": "armor1001",
+        "name": "Curseforged Armor",
+        "type": "Chain or scale",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor1055": {
+        "id": "armor1055",
+        "name": "Defensive Armor",
+        "type": "Any",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor1061": {
+        "id": "armor1061",
+        "name": "Delver's Armor",
+        "type": "Any",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB, HotFK, DMK"
+    },
+    "armor1103": {
+        "id": "armor1103",
+        "name": "Divine Retribution Armor",
+        "type": "Chain",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor3123": {
+        "id": "armor3123",
+        "name": "Ebon Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor1176": {
+        "id": "armor1176",
+        "name": "Eladrin Armor",
+        "type": "Chain",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor1288": {
+        "id": "armor1288",
+        "name": "Fireburst Armor",
+        "type": "Cloth",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor1529": {
+        "id": "armor1529",
+        "name": "Heartening Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1558": {
+        "id": "armor1558",
+        "name": "Holy Adversary's Armor",
+        "type": "Cloth",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1654": {
+        "id": "armor1654",
+        "name": "Ironclad Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor1727": {
+        "id": "armor1727",
+        "name": "Life Vine Armor",
+        "type": "Hide",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor1732": {
+        "id": "armor1732",
+        "name": "Lifegiving Armor",
+        "type": "Plate",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1848": {
+        "id": "armor1848",
+        "name": "Meliorating Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1877": {
+        "id": "armor1877",
+        "name": "Moon Armor",
+        "type": "Chain",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "AV2"
+    },
+    "armor1911": {
+        "id": "armor1911",
+        "name": "Nightmare Ward Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2094": {
+        "id": "armor2094",
+        "name": "Predator Armor",
+        "type": "Hide",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor2095": {
+        "id": "armor2095",
+        "name": "Predator's Hide",
+        "type": "Hide",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2275": {
+        "id": "armor2275",
+        "name": "Robe of Avoidance",
+        "type": "Cloth",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2283": {
+        "id": "armor2283",
+        "name": "Robe of Quills",
+        "type": "Cloth",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2366": {
+        "id": "armor2366",
+        "name": "Runic Armor",
+        "type": "Any",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2391": {
+        "id": "armor2391",
+        "name": "Sanguine Vestments",
+        "type": "Cloth",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2434": {
+        "id": "armor2434",
+        "name": "Serpentskin Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2460": {
+        "id": "armor2460",
+        "name": "Shaper's Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PsP"
+    },
+    "armor2477": {
+        "id": "armor2477",
+        "name": "Shield of Protection",
+        "type": "Any shield",
+        "level": [
+            
+            "3",
+            "23",
+            "13"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "425000",
+            "17000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor2519": {
+        "id": "armor2519",
+        "name": "Skald's Armor",
+        "type": "Leather or chain",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor2582": {
+        "id": "armor2582",
+        "name": "Spiked Jacket",
+        "type": "Leather or hide",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2660": {
+        "id": "armor2660",
+        "name": "Stanching Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra368"
+    },
+    "armor2684": {
+        "id": "armor2684",
+        "name": "Stoneborn Armor",
+        "type": "Plate",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2688": {
+        "id": "armor2688",
+        "name": "Stoneskin Armor",
+        "type": "Cloth",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2754": {
+        "id": "armor2754",
+        "name": "Sylvan Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "PHB, HotFL"
+    },
+    "armor2870": {
+        "id": "armor2870",
+        "name": "Thought-Eater Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor3213": {
+        "id": "armor3213",
+        "name": "Vanguard's Shield",
+        "type": "Any shield",
+        "level": "3",
+        "cost": "680",
+        "rarity": "Common",
+        "sourcebook": "MME"
+    },
+    "armor2983": {
+        "id": "armor2983",
+        "name": "Versatile Armor",
+        "type": "Chain or plate",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3015": {
+        "id": "armor3015",
+        "name": "Wall Armor",
+        "type": "Any",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor3042": {
+        "id": "armor3042",
+        "name": "Warmage's Uniform",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor3072": {
+        "id": "armor3072",
+        "name": "Whiteflame Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "3",
+            "18",
+            "8",
+            "23",
+            "13",
+            "28"
+        ],
+        "cost": [
+            "680",
+            "680",
+            "85000",
+            "3400",
+            "425000",
+            "17000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor451": {
+        "id": "armor451",
+        "name": "Adamantine Plating",
+        "type": "Plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "EPG"
+    },
+    "armor507": {
+        "id": "armor507",
+        "name": "Anakore",
+        "type": "Leather, hide or scale",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "Dra391"
+    },
+    "armor530": {
+        "id": "armor530",
+        "name": "Armor of Adaptable Resistance",
+        "type": "Hide or chain",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PsP"
+    },
+    "armor535": {
+        "id": "armor535",
+        "name": "Armor of Dark Majesty",
+        "type": "Leather or hide",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra386"
+    },
+    "armor536": {
+        "id": "armor536",
+        "name": "Armor of Durability",
+        "type": "Hide, chain, scale or plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "AV, DMK"
+    },
+    "armor610": {
+        "id": "armor610",
+        "name": "Battle Harness",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra368"
+    },
+    "armor627": {
+        "id": "armor627",
+        "name": "Battleforged Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "4",
+            "24",
+            "14"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "525000",
+            "21000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor632": {
+        "id": "armor632",
+        "name": "Bear Spirit Armor",
+        "type": "Leather",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor669": {
+        "id": "armor669",
+        "name": "Black Iron Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "PHB, HotFL"
+    },
+    "armor699": {
+        "id": "armor699",
+        "name": "Bloodcut Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor728": {
+        "id": "armor728",
+        "name": "Bold Victory Armor",
+        "type": "Leather or chain",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor993": {
+        "id": "armor993",
+        "name": "Crystal Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1012": {
+        "id": "armor1012",
+        "name": "Darkleaf Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "PHB"
+    },
+    "armor1024": {
+        "id": "armor1024",
+        "name": "Dazzling Plate",
+        "type": "Plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1111": {
+        "id": "armor1111",
+        "name": "Dragonclaw Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra365"
+    },
+    "armor1175": {
+        "id": "armor1175",
+        "name": "Ectoplasmic Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor1181": {
+        "id": "armor1181",
+        "name": "Eldritch Serpent Armor",
+        "type": "Scale",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra366"
+    },
+    "armor1258": {
+        "id": "armor1258",
+        "name": "Feedback Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor1324": {
+        "id": "armor1324",
+        "name": "Flowform Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor1352": {
+        "id": "armor1352",
+        "name": "Fortification Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "AV, HotFK"
+    },
+    "armor1366": {
+        "id": "armor1366",
+        "name": "Frozen Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1392": {
+        "id": "armor1392",
+        "name": "Genasi Soul Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1674": {
+        "id": "armor1674",
+        "name": "Joyous Armor",
+        "type": "Chain or scale",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor1731": {
+        "id": "armor1731",
+        "name": "Lifefont Armor",
+        "type": "Hide",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1870": {
+        "id": "armor1870",
+        "name": "Mithral Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1893": {
+        "id": "armor1893",
+        "name": "Mountain Shield",
+        "type": "Heavy shield",
+        "level": [
+            
+            "4",
+            "14"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "21000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2017": {
+        "id": "armor2017",
+        "name": "Parchment Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2023": {
+        "id": "armor2023",
+        "name": "Pelaurum Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "AV"
+    },
+    "armor2046": {
+        "id": "armor2046",
+        "name": "Phrenic Armor",
+        "type": "Chain or scale",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PsP"
+    },
+    "armor2088": {
+        "id": "armor2088",
+        "name": "Pouncing Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra378"
+    },
+    "armor2089": {
+        "id": "armor2089",
+        "name": "Pouncing Beast Armor",
+        "type": "Hide",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor3207": {
+        "id": "armor3207",
+        "name": "Ranging Defender Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "4",
+            "24",
+            "14"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "525000",
+            "21000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor2151": {
+        "id": "armor2151",
+        "name": "Rebuking Armor",
+        "type": "Chain",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor2158": {
+        "id": "armor2158",
+        "name": "Reflexive Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2162": {
+        "id": "armor2162",
+        "name": "Reinforcing Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2277": {
+        "id": "armor2277",
+        "name": "Robe of Contingency",
+        "type": "Cloth",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2380": {
+        "id": "armor2380",
+        "name": "Salubrious Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2401": {
+        "id": "armor2401",
+        "name": "Scale of the Serpent",
+        "type": "Scale",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2413": {
+        "id": "armor2413",
+        "name": "Scorpion Carapace Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "DSCS"
+    },
+    "armor2431": {
+        "id": "armor2431",
+        "name": "Serpentine Armor",
+        "type": "Scale",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2475": {
+        "id": "armor2475",
+        "name": "Shield of Eyes",
+        "type": "Any shield",
+        "level": "4",
+        "cost": "840",
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2478": {
+        "id": "armor2478",
+        "name": "Shield of Silver Light",
+        "type": "Any shield",
+        "level": "4",
+        "cost": "840",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2479": {
+        "id": "armor2479",
+        "name": "Shield of Speed and Evasion",
+        "type": "Any shield",
+        "level": "4",
+        "cost": "840",
+        "rarity": "Uncommon",
+        "sourcebook": "Dun156"
+    },
+    "armor2491": {
+        "id": "armor2491",
+        "name": "Shimmering Armor",
+        "type": "Cloth",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2887": {
+        "id": "armor2887",
+        "name": "Time Link Armor",
+        "type": "Chain",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2985": {
+        "id": "armor2985",
+        "name": "Verve Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3132": {
+        "id": "armor3132",
+        "name": "Wintersnap Armor",
+        "type": "Any",
+        "level": [
+            
+            "4",
+            "19",
+            "9",
+            "24",
+            "14",
+            "29"
+        ],
+        "cost": [
+            "840",
+            "840",
+            "105000",
+            "4200",
+            "525000",
+            "21000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor461": {
+        "id": "armor461",
+        "name": "Agile Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor466": {
+        "id": "armor466",
+        "name": "Alchemical Defense Nodes",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra385"
+    },
+    "armor545": {
+        "id": "armor545",
+        "name": "Armor of Sacrifice",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3119": {
+        "id": "armor3119",
+        "name": "Armor of the Charging Wind",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor603": {
+        "id": "armor603",
+        "name": "Barkskin Armor",
+        "type": "Hide or scale",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor606": {
+        "id": "armor606",
+        "name": "Bashing Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "5",
+            "25",
+            "15"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "625000",
+            "25000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB, DMK"
+    },
+    "armor626": {
+        "id": "armor626",
+        "name": "Battleforged Armor",
+        "type": "Plate",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor721": {
+        "id": "armor721",
+        "name": "Bloodthread Armor",
+        "type": "Cloth",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor3424": {
+        "id": "armor3424",
+        "name": "Brassburn Armor",
+        "type": "Chain or scale",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "HotEC"
+    },
+    "armor3425": {
+        "id": "armor3425",
+        "name": "Chromatic Robe",
+        "type": "Cloth",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Rare",
+        "sourcebook": "HotEC"
+    },
+    "armor935": {
+        "id": "armor935",
+        "name": "Cold Iron Shield",
+        "type": "Heavy shield",
+        "level": [
+            
+            "5",
+            "25",
+            "15"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "625000",
+            "25000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1041": {
+        "id": "armor1041",
+        "name": "Deathcut Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor1094": {
+        "id": "armor1094",
+        "name": "Direbeast Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "5",
+            "25",
+            "15"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "625000",
+            "25000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3122": {
+        "id": "armor3122",
+        "name": "Doppelganger Armor",
+        "type": "Any",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor1211": {
+        "id": "armor1211",
+        "name": "Enduring Beast Armor",
+        "type": "Hide",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor1227": {
+        "id": "armor1227",
+        "name": "Exalted Armor",
+        "type": "Chain",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor3125": {
+        "id": "armor3125",
+        "name": "Gloaming Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Rare",
+        "sourcebook": "MME"
+    },
+    "armor1522": {
+        "id": "armor1522",
+        "name": "Healer's Armor",
+        "type": "Hide or chain",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "AV2"
+    },
+    "armor2013": {
+        "id": "armor2013",
+        "name": "Panther Spirit Armor",
+        "type": "Leather",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor2049": {
+        "id": "armor2049",
+        "name": "Piecemeal Armor",
+        "type": "Chain or scale",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra368"
+    },
+    "armor2124": {
+        "id": "armor2124",
+        "name": "Quicksilver Armor",
+        "type": "Chain",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor2445": {
+        "id": "armor2445",
+        "name": "Shadow-Shroud Armor",
+        "type": "Chain or scale",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra391"
+    },
+    "armor2446": {
+        "id": "armor2446",
+        "name": "Shadowdance Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Seekers of the Ashen Crown"
+    },
+    "armor2465": {
+        "id": "armor2465",
+        "name": "Shared Suffering Armor",
+        "type": "Any",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2492": {
+        "id": "armor2492",
+        "name": "Shimmering Light",
+        "type": "Any shield",
+        "level": [
+            
+            "5",
+            "25",
+            "15"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "625000",
+            "25000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2497": {
+        "id": "armor2497",
+        "name": "Shockweave Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2529": {
+        "id": "armor2529",
+        "name": "Skybound Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2727": {
+        "id": "armor2727",
+        "name": "Supporting Armor",
+        "type": "Plate or scale",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2814": {
+        "id": "armor2814",
+        "name": "Tactician's Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "5",
+            "20",
+            "10",
+            "25",
+            "15",
+            "30"
+        ],
+        "cost": [
+            "1000",
+            "1000",
+            "125000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "AV"
+    },
+    "armor1302": {
+        "id": "armor1302",
+        "name": "Flamedrinker Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "6",
+            "26",
+            "16"
+        ],
+        "cost": [
+            "1800",
+            "1800",
+            "1125000",
+            "45000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1334": {
+        "id": "armor1334",
+        "name": "Foe Fending Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "6",
+            "26",
+            "16"
+        ],
+        "cost": [
+            "1800",
+            "1800",
+            "1125000",
+            "45000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra381"
+    },
+    "armor1375": {
+        "id": "armor1375",
+        "name": "Gambler's Suit",
+        "type": "Leather",
+        "level": [
+            
+            "6",
+            "21",
+            "11",
+            "26",
+            "16"
+        ],
+        "cost": [
+            "1800",
+            "1800",
+            "225000",
+            "9000",
+            "1125000",
+            "45000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1615": {
+        "id": "armor1615",
+        "name": "Imposter's Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "6",
+            "21",
+            "11",
+            "26",
+            "16"
+        ],
+        "cost": [
+            "1800",
+            "1800",
+            "225000",
+            "9000",
+            "1125000",
+            "45000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2715": {
+        "id": "armor2715",
+        "name": "Summoned Armor",
+        "type": "Any",
+        "level": [
+            
+            "6",
+            "21",
+            "11",
+            "26",
+            "16"
+        ],
+        "cost": [
+            "1800",
+            "1800",
+            "225000",
+            "9000",
+            "1125000",
+            "45000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2875": {
+        "id": "armor2875",
+        "name": "Throwing Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "6",
+            "26",
+            "16"
+        ],
+        "cost": [
+            "1800",
+            "1800",
+            "1125000",
+            "45000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3116": {
+        "id": "armor3116",
+        "name": "Armor of Dogged Grit",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor608": {
+        "id": "armor608",
+        "name": "Bastion Armor",
+        "type": "Plate or scale",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1037": {
+        "id": "armor1037",
+        "name": "Death's Brink Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1039": {
+        "id": "armor1039",
+        "name": "Deathburst Armor",
+        "type": "Any",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "E1"
+    },
+    "armor1125": {
+        "id": "armor1125",
+        "name": "Dragontooth Shield",
+        "type": "Any shield",
+        "level": "7",
+        "cost": "2,600",
+        "rarity": "Uncommon",
+        "sourcebook": "Dra385"
+    },
+    "armor1261": {
+        "id": "armor1261",
+        "name": "Feral Armor",
+        "type": "Hide",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra369"
+    },
+    "armor1598": {
+        "id": "armor1598",
+        "name": "Immolating Armor",
+        "type": "Chain or scale",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra365"
+    },
+    "armor1660": {
+        "id": "armor1660",
+        "name": "Irrefutable Armor",
+        "type": "Any",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1803": {
+        "id": "armor1803",
+        "name": "Marauder's Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2024": {
+        "id": "armor2024",
+        "name": "Pelaurum Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "7",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2127": {
+        "id": "armor2127",
+        "name": "Radiant Temple Uniform",
+        "type": "Cloth",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2440": {
+        "id": "armor2440",
+        "name": "Shadow Hound Armor",
+        "type": "Hide",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2494": {
+        "id": "armor2494",
+        "name": "Shipboard Armor",
+        "type": "Leather",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2541": {
+        "id": "armor2541",
+        "name": "Snake's Lair Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra382"
+    },
+    "armor2725": {
+        "id": "armor2725",
+        "name": "Sunleaf Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor2936": {
+        "id": "armor2936",
+        "name": "Trauma Bracers",
+        "type": "Any shield",
+        "level": [
+            
+            "7",
+            "27"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3000": {
+        "id": "armor3000",
+        "name": "Vitality Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "7",
+            "22",
+            "12",
+            "27",
+            "17"
+        ],
+        "cost": [
+            "2600",
+            "2600",
+            "325000",
+            "13000",
+            "1625000",
+            "65000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra368"
+    },
+    "armor634": {
+        "id": "armor634",
+        "name": "Beastlord Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor689": {
+        "id": "armor689",
+        "name": "Blink Shirt",
+        "type": "Cloth",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PsP"
+    },
+    "armor705": {
+        "id": "armor705",
+        "name": "Bloodiron Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor808": {
+        "id": "armor808",
+        "name": "Briartwine Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1199": {
+        "id": "armor1199",
+        "name": "Elven Battle Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB, DMK"
+    },
+    "armor3124": {
+        "id": "armor3124",
+        "name": "Fishscale Armor",
+        "type": "Hide or scale",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "MME"
+    },
+    "armor3206": {
+        "id": "armor3206",
+        "name": "Greater Storm Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "8",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor1501": {
+        "id": "armor1501",
+        "name": "Hammer Shield",
+        "type": "Any shield",
+        "level": "8",
+        "cost": "3,400",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1684": {
+        "id": "armor1684",
+        "name": "Kemstone Armor",
+        "type": "Plate or scale",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "AV2"
+    },
+    "armor1794": {
+        "id": "armor1794",
+        "name": "Manticore Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "8",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1873": {
+        "id": "armor1873",
+        "name": "Mithral Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "8",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1892": {
+        "id": "armor1892",
+        "name": "Mountain Armor",
+        "type": "Plate",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor2053": {
+        "id": "armor2053",
+        "name": "Pincer Shield",
+        "type": "Heavy shield",
+        "level": "8",
+        "cost": "3,400",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2136": {
+        "id": "armor2136",
+        "name": "Rat Form Armor",
+        "type": "Leather",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2172": {
+        "id": "armor2172",
+        "name": "Resolute Armor",
+        "type": "Plate",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra380"
+    },
+    "armor2412": {
+        "id": "armor2412",
+        "name": "Scintillating Armor",
+        "type": "Cloth",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MotP"
+    },
+    "armor2466": {
+        "id": "armor2466",
+        "name": "Shared Valor Armor",
+        "type": "Leather or chain",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "PHB2"
+    },
+    "armor2473": {
+        "id": "armor2473",
+        "name": "Shield of Defiance",
+        "type": "Any shield",
+        "level": [
+            
+            "8",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor2535": {
+        "id": "armor2535",
+        "name": "Slime Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2542": {
+        "id": "armor2542",
+        "name": "Snakefang Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2581": {
+        "id": "armor2581",
+        "name": "Spiderweb Robes",
+        "type": "Cloth",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2686": {
+        "id": "armor2686",
+        "name": "Stonemeld Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "8",
+            "23",
+            "13",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "425000",
+            "17000",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra365"
+    },
+    "armor2692": {
+        "id": "armor2692",
+        "name": "Storm Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "8",
+            "28",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "2125000",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3212": {
+        "id": "armor3212",
+        "name": "Twilight Shield",
+        "type": "Any shield",
+        "level": "8",
+        "cost": "3,400",
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor3101": {
+        "id": "armor3101",
+        "name": "Wyrmguard Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "8",
+            "18"
+        ],
+        "cost": [
+            "3400",
+            "3400",
+            "85000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor514": {
+        "id": "armor514",
+        "name": "Angelsteel Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "9",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3118": {
+        "id": "armor3118",
+        "name": "Armor of Scintillating Colors",
+        "type": "Cloth, leather, hide or chain",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor661": {
+        "id": "armor661",
+        "name": "Benefactor Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra380"
+    },
+    "armor3120": {
+        "id": "armor3120",
+        "name": "Blending Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor712": {
+        "id": "armor712",
+        "name": "Bloodshored Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "9",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor714": {
+        "id": "armor714",
+        "name": "Bloodsoaked Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "9",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor852": {
+        "id": "armor852",
+        "name": "Champion's Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1067": {
+        "id": "armor1067",
+        "name": "Demonscale",
+        "type": "Scale",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1353": {
+        "id": "armor1353",
+        "name": "Fortified Armor",
+        "type": "Plate",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra365"
+    },
+    "armor1401": {
+        "id": "armor1401",
+        "name": "Ghostphase Armor",
+        "type": "Cloth",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor1625": {
+        "id": "armor1625",
+        "name": "Inner Warmth Armor",
+        "type": "Hide",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor1682": {
+        "id": "armor1682",
+        "name": "Keeper's Shield",
+        "type": "Heavy shield",
+        "level": "9",
+        "cost": "4,200",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1708": {
+        "id": "armor1708",
+        "name": "Laughing Death Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1751": {
+        "id": "armor1751",
+        "name": "Loamweave Armor",
+        "type": "Cloth",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1785": {
+        "id": "armor1785",
+        "name": "Magnetic Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1869": {
+        "id": "armor1869",
+        "name": "Mirrorsheen Coat",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2155": {
+        "id": "armor2155",
+        "name": "Recoil Shield",
+        "type": "Any shield",
+        "level": "9",
+        "cost": "4,200",
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2194": {
+        "id": "armor2194",
+        "name": "Righteous Armor",
+        "type": "Plate",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2455": {
+        "id": "armor2455",
+        "name": "Shadowflow Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "9",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3131": {
+        "id": "armor3131",
+        "name": "Shallow Grave Armor",
+        "type": "Any",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor2483": {
+        "id": "armor2483",
+        "name": "Shield of the Barrier Sentinels",
+        "type": "Any shield",
+        "level": [
+            
+            "9",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "Dra366"
+    },
+    "armor2545": {
+        "id": "armor2545",
+        "name": "Solar Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2737": {
+        "id": "armor2737",
+        "name": "Survivor's Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2881": {
+        "id": "armor2881",
+        "name": "Thunderhead Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "9",
+            "24",
+            "14",
+            "29",
+            "19"
+        ],
+        "cost": [
+            "4200",
+            "4200",
+            "525000",
+            "21000",
+            "2625000",
+            "105000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor550": {
+        "id": "armor550",
+        "name": "Armor of Transport",
+        "type": "Chain or scale",
+        "level": [
+            
+            "10",
+            "25",
+            "15",
+            "30",
+            "20"
+        ],
+        "cost": [
+            "5000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000",
+            "125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor730": {
+        "id": "armor730",
+        "name": "Bolstering Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "10",
+            "30",
+            "20"
+        ],
+        "cost": [
+            "5000",
+            "5000",
+            "3125000",
+            "125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PsP"
+    },
+    "armor962": {
+        "id": "armor962",
+        "name": "Counterstrike Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "10",
+            "25",
+            "15",
+            "30",
+            "20"
+        ],
+        "cost": [
+            "5000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000",
+            "125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1223": {
+        "id": "armor1223",
+        "name": "Ever-Fading Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "10",
+            "25",
+            "15",
+            "30",
+            "20"
+        ],
+        "cost": [
+            "5000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000",
+            "125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Vor Rukoth"
+    },
+    "armor1487": {
+        "id": "armor1487",
+        "name": "Guardian Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "10",
+            "30",
+            "20"
+        ],
+        "cost": [
+            "5000",
+            "5000",
+            "3125000",
+            "125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor1525": {
+        "id": "armor1525",
+        "name": "Healer's Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "10",
+            "30",
+            "20"
+        ],
+        "cost": [
+            "5000",
+            "5000",
+            "3125000",
+            "125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1729": {
+        "id": "armor1729",
+        "name": "Lifeblood Armor",
+        "type": "Hide",
+        "level": [
+            
+            "10",
+            "25",
+            "15",
+            "30",
+            "20"
+        ],
+        "cost": [
+            "5000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000",
+            "125000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "PHB2"
+    },
+    "armor3484": {
+        "id": "armor3484",
+        "name": "Powered Armor",
+        "type": "Plate",
+        "level": [
+            
+            "10",
+            "25",
+            "15",
+            "30",
+            "20"
+        ],
+        "cost": [
+            "5000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000",
+            "125000"
+        ],
+        "rarity": "Rare",
+        "sourcebook": "Dra410"
+    },
+    "armor2444": {
+        "id": "armor2444",
+        "name": "Shadow Warlock Armor",
+        "type": "Leather",
+        "level": [
+            
+            "10",
+            "25",
+            "15",
+            "30",
+            "20"
+        ],
+        "cost": [
+            "5000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000",
+            "125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor3043": {
+        "id": "armor3043",
+        "name": "Warsheath Armor",
+        "type": "Plate",
+        "level": [
+            
+            "10",
+            "25",
+            "15",
+            "30",
+            "20"
+        ],
+        "cost": [
+            "5000",
+            "5000",
+            "625000",
+            "25000",
+            "3125000",
+            "125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor105": {
+        "id": "armor105",
+        "name": "Shield of Prator",
+        "type": "Heavy shield",
+        "level": "Heroic",
+        "cost": "None",
+        "rarity": "Artifact",
+        "sourcebook": "MME"
+    },
+    "armor117": {
+        "id": "armor117",
+        "name": "The Invulnerable Coat of Arnd",
+        "type": "Chain, scale or plate",
+        "level": "Heroic",
+        "cost": "None",
+        "rarity": "Artifact",
+        "sourcebook": "DMG"
+    },
+    "armor1114": {
+        "id": "armor1114",
+        "name": "Dragonrider Armor",
+        "type": "Scale",
+        "level": [
+            
+            "11",
+            "21",
+            "16",
+            "26"
+        ],
+        "cost": [
+            "9000",
+            "9000",
+            "225000",
+            "45000",
+            "1125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra365"
+    },
+    "armor1343": {
+        "id": "armor1343",
+        "name": "Force Shield",
+        "type": "Heavy shield",
+        "level": "11",
+        "cost": "9,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor671": {
+        "id": "armor671",
+        "name": "Blackflock Robe",
+        "type": "Cloth",
+        "level": [
+            
+            "12",
+            "22",
+            "17",
+            "27"
+        ],
+        "cost": [
+            "13000",
+            "13000",
+            "325000",
+            "65000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1011": {
+        "id": "armor1011",
+        "name": "Darkforged Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "12",
+            "22",
+            "17",
+            "27"
+        ],
+        "cost": [
+            "13000",
+            "13000",
+            "325000",
+            "65000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1016": {
+        "id": "armor1016",
+        "name": "Darkstrike Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "12",
+            "22",
+            "17",
+            "27"
+        ],
+        "cost": [
+            "13000",
+            "13000",
+            "325000",
+            "65000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1279": {
+        "id": "armor1279",
+        "name": "Feytouched Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "12",
+            "22",
+            "17",
+            "27"
+        ],
+        "cost": [
+            "13000",
+            "13000",
+            "325000",
+            "65000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MotP"
+    },
+    "armor1320": {
+        "id": "armor1320",
+        "name": "Flickersight Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "12",
+            "22",
+            "17",
+            "27"
+        ],
+        "cost": [
+            "13000",
+            "13000",
+            "325000",
+            "65000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3127": {
+        "id": "armor3127",
+        "name": "Hide of Worms",
+        "type": "Leather or hide",
+        "level": [
+            
+            "12",
+            "22",
+            "17",
+            "27"
+        ],
+        "cost": [
+            "13000",
+            "13000",
+            "325000",
+            "65000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor3520": {
+        "id": "armor3520",
+        "name": "Karach Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "12",
+            "22",
+            "17",
+            "27"
+        ],
+        "cost": [
+            "13000",
+            "13000",
+            "325000",
+            "65000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "Dra414"
+    },
+    "armor2191": {
+        "id": "armor2191",
+        "name": "Ricochet Shield",
+        "type": "Any shield",
+        "level": "12",
+        "cost": "13,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2196": {
+        "id": "armor2196",
+        "name": "Rimewrought Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "12",
+            "22",
+            "17",
+            "27"
+        ],
+        "cost": [
+            "13000",
+            "13000",
+            "325000",
+            "65000",
+            "1625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "Dra365"
+    },
+    "armor2836": {
+        "id": "armor2836",
+        "name": "Tauran Shield",
+        "type": "Any shield",
+        "level": "12",
+        "cost": "13,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2841": {
+        "id": "armor2841",
+        "name": "Teleporting Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "12",
+            "22",
+            "17",
+            "27"
+        ],
+        "cost": [
+            "13000",
+            "13000",
+            "325000",
+            "65000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor539": {
+        "id": "armor539",
+        "name": "Armor of Essence Inviolate",
+        "type": "Any",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor548": {
+        "id": "armor548",
+        "name": "Armor of Starlight",
+        "type": "Cloth",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor700": {
+        "id": "armor700",
+        "name": "Bloodfire Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor853": {
+        "id": "armor853",
+        "name": "Champion's Hauberk",
+        "type": "Chain or scale",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor953": {
+        "id": "armor953",
+        "name": "Coral Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3426": {
+        "id": "armor3426",
+        "name": "Demonskin Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "HotEC"
+    },
+    "armor1073": {
+        "id": "armor1073",
+        "name": "Desperate Resolve Vestments",
+        "type": "Cloth",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor3585": {
+        "id": "armor3585",
+        "name": "Dilatory Armor",
+        "type": "Any",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Rare",
+        "sourcebook": "Dra430"
+    },
+    "armor1195": {
+        "id": "armor1195",
+        "name": "Elukian Clay Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1329": {
+        "id": "armor1329",
+        "name": "Focused Shield",
+        "type": "Any shield",
+        "level": "13",
+        "cost": "17,000",
+        "rarity": "Uncommon",
+        "sourcebook": "PsP"
+    },
+    "armor1374": {
+        "id": "armor1374",
+        "name": "Gambit Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1406": {
+        "id": "armor1406",
+        "name": "Giantdodger Armor",
+        "type": "Leather",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3205": {
+        "id": "armor3205",
+        "name": "Greater Stonewall Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "13",
+            "23"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000"
+        ],
+        "rarity": "Rare",
+        "sourcebook": "MME"
+    },
+    "armor1589": {
+        "id": "armor1589",
+        "name": "Hydra Armor",
+        "type": "Scale",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor1868": {
+        "id": "armor1868",
+        "name": "Mirrored Plate",
+        "type": "Plate",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1907": {
+        "id": "armor1907",
+        "name": "Netherdark Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "13",
+            "23"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra365"
+    },
+    "armor2130": {
+        "id": "armor2130",
+        "name": "Rageblood Armor",
+        "type": "Hide",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor2278": {
+        "id": "armor2278",
+        "name": "Robe of Defying Flames",
+        "type": "Cloth",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2279": {
+        "id": "armor2279",
+        "name": "Robe of Defying Frost",
+        "type": "Cloth",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2286": {
+        "id": "armor2286",
+        "name": "Robe of Stars",
+        "type": "Cloth",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3208": {
+        "id": "armor3208",
+        "name": "Searing Shield",
+        "type": "Any shield",
+        "level": "13",
+        "cost": "17,000",
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor2454": {
+        "id": "armor2454",
+        "name": "Shadowflow Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Rare",
+        "sourcebook": "PHB"
+    },
+    "armor2485": {
+        "id": "armor2485",
+        "name": "Shield of the World Tree",
+        "type": "Any shield",
+        "level": "13",
+        "cost": "17,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2524": {
+        "id": "armor2524",
+        "name": "Skin of Agonies",
+        "type": "Leather or hide",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2543": {
+        "id": "armor2543",
+        "name": "Snaketongue Robe",
+        "type": "Cloth",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2587": {
+        "id": "armor2587",
+        "name": "Spirit Shield Armor",
+        "type": "Leather",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor2690": {
+        "id": "armor2690",
+        "name": "Stonewall Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "13",
+            "23"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2721": {
+        "id": "armor2721",
+        "name": "Sun Shield",
+        "type": "Any shield",
+        "level": "13",
+        "cost": "13,000",
+        "rarity": "Uncommon",
+        "sourcebook": "Dra385"
+    },
+    "armor2735": {
+        "id": "armor2735",
+        "name": "Surge Armor",
+        "type": "Any",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3038": {
+        "id": "armor3038",
+        "name": "Warding Light Armor",
+        "type": "Chain",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor3081": {
+        "id": "armor3081",
+        "name": "Winged Armor",
+        "type": "Any",
+        "level": [
+            
+            "13",
+            "23",
+            "18",
+            "28"
+        ],
+        "cost": [
+            "17000",
+            "17000",
+            "425000",
+            "85000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor522": {
+        "id": "armor522",
+        "name": "Aqueous Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor532": {
+        "id": "armor532",
+        "name": "Armor of Attraction",
+        "type": "Scale or plate",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor534": {
+        "id": "armor534",
+        "name": "Armor of Dark Deeds",
+        "type": "Leather or hide",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor543": {
+        "id": "armor543",
+        "name": "Armor of Night",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor737": {
+        "id": "armor737",
+        "name": "Bonegrim Armor",
+        "type": "Plate",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor860": {
+        "id": "armor860",
+        "name": "Chaos Weave Armor",
+        "type": "Any",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor974": {
+        "id": "armor974",
+        "name": "Crowd Killer Shield",
+        "type": "Any shield",
+        "level": "14",
+        "cost": "21,000",
+        "rarity": "Common",
+        "sourcebook": "Dra381"
+    },
+    "armor1099": {
+        "id": "armor1099",
+        "name": "Displacer Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1272": {
+        "id": "armor1272",
+        "name": "Feymind Armor",
+        "type": "Cloth or leather",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1301": {
+        "id": "armor1301",
+        "name": "Flamedrinker Armor",
+        "type": "Plate",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "252000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor1309": {
+        "id": "armor1309",
+        "name": "Flaring Shield",
+        "type": "Any shield",
+        "level": "14",
+        "cost": "21,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1351": {
+        "id": "armor1351",
+        "name": "Formidable Armor",
+        "type": "Hide or chain",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1364": {
+        "id": "armor1364",
+        "name": "Frostburn Armor",
+        "type": "Plate",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3126": {
+        "id": "armor3126",
+        "name": "Greater Armor of Eyes",
+        "type": "Any",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Rare",
+        "sourcebook": "MME"
+    },
+    "armor1591": {
+        "id": "armor1591",
+        "name": "Hypnotic Shield",
+        "type": "Any shield",
+        "level": "14",
+        "cost": "21,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1715": {
+        "id": "armor1715",
+        "name": "Legendmaker Armor",
+        "type": "Leather or chain",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor2280": {
+        "id": "armor2280",
+        "name": "Robe of Defying Storms",
+        "type": "Cloth",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2482": {
+        "id": "armor2482",
+        "name": "Shield of Warding",
+        "type": "Any shield",
+        "level": [
+            
+            "14",
+            "24"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor2575": {
+        "id": "armor2575",
+        "name": "Spellshield",
+        "type": "Any shield",
+        "level": "14",
+        "cost": "21,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2584": {
+        "id": "armor2584",
+        "name": "Spirit Armor",
+        "type": "Chain",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2687": {
+        "id": "armor2687",
+        "name": "Stonesign, Dwarf Guardian (Shield of Warding)",
+        "type": "Any shield",
+        "level": [
+            
+            "14",
+            "24"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra367"
+    },
+    "armor2893": {
+        "id": "armor2893",
+        "name": "Tombforged Armor",
+        "type": "Chain",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor2932": {
+        "id": "armor2932",
+        "name": "Translocating Armor",
+        "type": "Any",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor3003": {
+        "id": "armor3003",
+        "name": "Voidcrystal Armor",
+        "type": "Any",
+        "level": [
+            
+            "14",
+            "24",
+            "19",
+            "29"
+        ],
+        "cost": [
+            "21000",
+            "21000",
+            "525000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3009": {
+        "id": "armor3009",
+        "name": "Vortex Shield",
+        "type": "Any shield",
+        "level": "14",
+        "cost": "21,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor542": {
+        "id": "armor542",
+        "name": "Armor of Negation",
+        "type": "Any",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor547": {
+        "id": "armor547",
+        "name": "Armor of Shared Valor",
+        "type": "Chain or leather",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor557": {
+        "id": "armor557",
+        "name": "Assassinbane Armor",
+        "type": "Any",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor722": {
+        "id": "armor722",
+        "name": "Bloodvine Armor",
+        "type": "Hide",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor995": {
+        "id": "armor995",
+        "name": "Crystalline Breastplate",
+        "type": "Leather, hide, chain, scale or plate",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1046": {
+        "id": "armor1046",
+        "name": "Deathward Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "15",
+            "25"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1054": {
+        "id": "armor1054",
+        "name": "Defender's Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Revenge of the Giants"
+    },
+    "armor1488": {
+        "id": "armor1488",
+        "name": "Guardian's Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PsP"
+    },
+    "armor1562": {
+        "id": "armor1562",
+        "name": "Holy Radiance Armor",
+        "type": "Chain",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1596": {
+        "id": "armor1596",
+        "name": "Illithid Robes",
+        "type": "Cloth",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2027": {
+        "id": "armor2027",
+        "name": "Penance Armor",
+        "type": "Chain",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor3209": {
+        "id": "armor3209",
+        "name": "Shield of Aversion",
+        "type": "Any shield",
+        "level": "15",
+        "cost": "25,000",
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor2476": {
+        "id": "armor2476",
+        "name": "Shield of Fellowship",
+        "type": "Any shield",
+        "level": "15",
+        "cost": "25,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2589": {
+        "id": "armor2589",
+        "name": "Spiritlink Armor",
+        "type": "Chain",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2699": {
+        "id": "armor2699",
+        "name": "Stormlord Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2885": {
+        "id": "armor2885",
+        "name": "Tiamat's Bloody Bulwark",
+        "type": "Heavy shield",
+        "level": "15",
+        "cost": "25,000",
+        "rarity": "Uncommon",
+        "sourcebook": "Dun178"
+    },
+    "armor2943": {
+        "id": "armor2943",
+        "name": "Trollskin Armor",
+        "type": "Hide or scale",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor3084": {
+        "id": "armor3084",
+        "name": "Winged Shield",
+        "type": "Light shield",
+        "level": "15",
+        "cost": "25,000",
+        "rarity": "Rare",
+        "sourcebook": "Dra394"
+    },
+    "armor3107": {
+        "id": "armor3107",
+        "name": "Zealot's Armor",
+        "type": "Cloth",
+        "level": [
+            
+            "15",
+            "25",
+            "20",
+            "30"
+        ],
+        "cost": [
+            "25000",
+            "25000",
+            "625000",
+            "125000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1112": {
+        "id": "armor1112",
+        "name": "Dragondaunt Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "16",
+            "26"
+        ],
+        "cost": [
+            "45000",
+            "45000",
+            "1125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor1304": {
+        "id": "armor1304",
+        "name": "Flameward Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "16",
+            "26"
+        ],
+        "cost": [
+            "45000",
+            "45000",
+            "1125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2480": {
+        "id": "armor2480",
+        "name": "Shield of Turathi Defiance",
+        "type": "Any shield",
+        "level": "16",
+        "cost": "45,000",
+        "rarity": "Uncommon",
+        "sourcebook": "PHR:T"
+    },
+    "armor2701": {
+        "id": "armor2701",
+        "name": "Stormward Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "16",
+            "26"
+        ],
+        "cost": [
+            "45000",
+            "45000",
+            "1125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor3088": {
+        "id": "armor3088",
+        "name": "Winterward Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "16",
+            "26"
+        ],
+        "cost": [
+            "45000",
+            "45000",
+            "1125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor444": {
+        "id": "armor444",
+        "name": "Absorbing Shield",
+        "type": "Any shield",
+        "level": "17",
+        "cost": "65,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor511": {
+        "id": "armor511",
+        "name": "Anchoring Armor",
+        "type": "Plate",
+        "level": [
+            
+            "17",
+            "27",
+            "22"
+        ],
+        "cost": [
+            "65000",
+            "65000",
+            "1625000",
+            "325000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PsP"
+    },
+    "armor1881": {
+        "id": "armor1881",
+        "name": "Mooncloth Robes",
+        "type": "Cloth",
+        "level": [
+            
+            "17",
+            "27",
+            "22"
+        ],
+        "cost": [
+            "65000",
+            "65000",
+            "1625000",
+            "325000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor3128": {
+        "id": "armor3128",
+        "name": "Plate Mail of Etherealness",
+        "type": "Plate",
+        "level": [
+            
+            "17",
+            "27",
+            "22"
+        ],
+        "cost": [
+            "65000",
+            "65000",
+            "1625000",
+            "325000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MME"
+    },
+    "armor2276": {
+        "id": "armor2276",
+        "name": "Robe of Bloodwalking",
+        "type": "Cloth",
+        "level": [
+            
+            "17",
+            "27",
+            "22"
+        ],
+        "cost": [
+            "65000",
+            "65000",
+            "1625000",
+            "325000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2284": {
+        "id": "armor2284",
+        "name": "Robe of Sapping",
+        "type": "Cloth",
+        "level": [
+            
+            "17",
+            "27",
+            "22"
+        ],
+        "cost": [
+            "65000",
+            "65000",
+            "1625000",
+            "325000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2472": {
+        "id": "armor2472",
+        "name": "Shield of Blocking",
+        "type": "Any shield",
+        "level": [
+            
+            "17",
+            "27"
+        ],
+        "cost": [
+            "65000",
+            "65000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3076": {
+        "id": "armor3076",
+        "name": "Wildleaf Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "17",
+            "27",
+            "22"
+        ],
+        "cost": [
+            "65000",
+            "65000",
+            "1625000",
+            "325000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "AV"
+    },
+    "armor3121": {
+        "id": "armor3121",
+        "name": "Blessed Armor of Kord",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "18",
+            "28",
+            "23"
+        ],
+        "cost": [
+            "85000",
+            "85000",
+            "2125000",
+            "425000"
+        ],
+        "rarity": "Rare",
+        "sourcebook": "MME"
+    },
+    "armor1115": {
+        "id": "armor1115",
+        "name": "Dragonscale Armor, Black",
+        "type": "Scale",
+        "level": [
+            
+            "18",
+            "28",
+            "23"
+        ],
+        "cost": [
+            "85000",
+            "85000",
+            "2125000",
+            "425000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1119": {
+        "id": "armor1119",
+        "name": "Dragonscale Armor, White",
+        "type": "Scale",
+        "level": [
+            
+            "18",
+            "28",
+            "23"
+        ],
+        "cost": [
+            "85000",
+            "85000",
+            "2125000",
+            "425000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1131": {
+        "id": "armor1131",
+        "name": "Driftmetal Armor",
+        "type": "Chain or scale",
+        "level": [
+            
+            "18",
+            "28",
+            "23"
+        ],
+        "cost": [
+            "85000",
+            "85000",
+            "2125000",
+            "425000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MotP"
+    },
+    "armor2288": {
+        "id": "armor2288",
+        "name": "Roc Armor",
+        "type": "Hide",
+        "level": [
+            
+            "18",
+            "28",
+            "23"
+        ],
+        "cost": [
+            "85000",
+            "85000",
+            "2125000",
+            "425000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor2560": {
+        "id": "armor2560",
+        "name": "Soul Shield",
+        "type": "Any shield",
+        "level": "18",
+        "cost": "85,000",
+        "rarity": "Uncommon",
+        "sourcebook": "Dra385"
+    },
+    "armor2658": {
+        "id": "armor2658",
+        "name": "Stalker's Armor",
+        "type": "Leather or hide",
+        "level": [
+            
+            "18",
+            "28",
+            "23"
+        ],
+        "cost": [
+            "85000",
+            "85000",
+            "2125000",
+            "425000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor513": {
+        "id": "armor513",
+        "name": "Angelsteel Armor",
+        "type": "Chain",
+        "level": [
+            
+            "19",
+            "29",
+            "24"
+        ],
+        "cost": [
+            "105000",
+            "105000",
+            "2625000",
+            "525000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB"
+    },
+    "armor717": {
+        "id": "armor717",
+        "name": "Bloodtheft Armor",
+        "type": "Leather",
+        "level": [
+            
+            "19",
+            "29",
+            "24"
+        ],
+        "cost": [
+            "105000",
+            "105000",
+            "2625000",
+            "525000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1116": {
+        "id": "armor1116",
+        "name": "Dragonscale Armor, Blue",
+        "type": "Scale",
+        "level": [
+            
+            "19",
+            "29",
+            "24"
+        ],
+        "cost": [
+            "105000",
+            "105000",
+            "2625000",
+            "525000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1117": {
+        "id": "armor1117",
+        "name": "Dragonscale Armor, Green",
+        "type": "Scale",
+        "level": [
+            
+            "19",
+            "29",
+            "24"
+        ],
+        "cost": [
+            "105000",
+            "105000",
+            "2625000",
+            "525000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1121": {
+        "id": "armor1121",
+        "name": "Dragonscale Shield",
+        "type": "Any shield",
+        "level": [
+            
+            "19",
+            "29"
+        ],
+        "cost": [
+            "105000",
+            "105000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra365"
+    },
+    "armor1206": {
+        "id": "armor1206",
+        "name": "Empyreal Breastplate",
+        "type": "Plate",
+        "level": [
+            
+            "19",
+            "29",
+            "24"
+        ],
+        "cost": [
+            "105000",
+            "105000",
+            "2625000",
+            "525000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "Dra377"
+    },
+    "armor1471": {
+        "id": "armor1471",
+        "name": "Great Cat Armor",
+        "type": "Hide",
+        "level": [
+            
+            "19",
+            "29",
+            "24"
+        ],
+        "cost": [
+            "105000",
+            "105000",
+            "2625000",
+            "525000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2103": {
+        "id": "armor2103",
+        "name": "Prismatic Robe",
+        "type": "Cloth",
+        "level": [
+            
+            "19",
+            "29",
+            "24"
+        ],
+        "cost": [
+            "105000",
+            "105000",
+            "2625000",
+            "525000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2521": {
+        "id": "armor2521",
+        "name": "Skeletal Armor",
+        "type": "Chain, plate or scale",
+        "level": [
+            
+            "19",
+            "29",
+            "24"
+        ],
+        "cost": [
+            "105000",
+            "105000",
+            "2625000",
+            "525000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2566": {
+        "id": "armor2566",
+        "name": "Soulforged Armor",
+        "type": "Plate",
+        "level": [
+            
+            "19",
+            "29",
+            "24"
+        ],
+        "cost": [
+            "105000",
+            "105000",
+            "2625000",
+            "525000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "PHB"
+    },
+    "armor2970": {
+        "id": "armor2970",
+        "name": "Vaporform Armor",
+        "type": "Cloth, leather or hide",
+        "level": [
+            
+            "19",
+            "29",
+            "24"
+        ],
+        "cost": [
+            "105000",
+            "105000",
+            "2625000",
+            "525000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1022": {
+        "id": "armor1022",
+        "name": "Dawn Warrior Armor",
+        "type": "Any",
+        "level": [
+            
+            "20",
+            "30",
+            "25"
+        ],
+        "cost": [
+            "125000",
+            "125000",
+            "3125000",
+            "625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "E1"
+    },
+    "armor1118": {
+        "id": "armor1118",
+        "name": "Dragonscale Armor, Red",
+        "type": "Scale",
+        "level": [
+            
+            "20",
+            "30",
+            "25"
+        ],
+        "cost": [
+            "125000",
+            "125000",
+            "3125000",
+            "625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2036": {
+        "id": "armor2036",
+        "name": "Perpetual Resolve Vestments",
+        "type": "Cloth",
+        "level": [
+            
+            "20",
+            "30",
+            "25"
+        ],
+        "cost": [
+            "125000",
+            "125000",
+            "3125000",
+            "625000"
+        ],
+        "rarity": "Common",
+        "sourcebook": "PHB2"
+    },
+    "armor2287": {
+        "id": "armor2287",
+        "name": "Robe of the Archfiend",
+        "type": "Cloth",
+        "level": [
+            
+            "20",
+            "30",
+            "25"
+        ],
+        "cost": [
+            "125000",
+            "125000",
+            "3125000",
+            "625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor3129": {
+        "id": "armor3129",
+        "name": "Robe of the Archmage",
+        "type": "Cloth",
+        "level": [
+            
+            "20",
+            "30",
+            "25"
+        ],
+        "cost": [
+            "125000",
+            "125000",
+            "3125000",
+            "625000"
+        ],
+        "rarity": "Rare",
+        "sourcebook": "MME"
+    },
+    "armor2572": {
+        "id": "armor2572",
+        "name": "Spectral Plate",
+        "type": "Plate",
+        "level": [
+            
+            "20",
+            "30",
+            "25"
+        ],
+        "cost": [
+            "125000",
+            "125000",
+            "3125000",
+            "625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2846": {
+        "id": "armor2846",
+        "name": "Temporal Armor",
+        "type": "Cloth",
+        "level": [
+            
+            "20",
+            "30",
+            "25"
+        ],
+        "cost": [
+            "125000",
+            "125000",
+            "3125000",
+            "625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "PHB3"
+    },
+    "armor139": {
+        "id": "armor139",
+        "name": "Plastron of Tziphal",
+        "type": "Plate",
+        "level": "Paragon",
+        "cost": "None",
+        "rarity": "Artifact",
+        "sourcebook": "TPB"
+    },
+    "armor1059": {
+        "id": "armor1059",
+        "name": "Deflection Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "22",
+            "27"
+        ],
+        "cost": [
+            "325000",
+            "325000",
+            "1625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor538": {
+        "id": "armor538",
+        "name": "Armor of Enduring Health",
+        "type": "Hide or chain",
+        "level": [
+            
+            "23",
+            "28"
+        ],
+        "cost": [
+            "425000",
+            "425000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor1070": {
+        "id": "armor1070",
+        "name": "Demonwrought Armor",
+        "type": "Plate",
+        "level": [
+            
+            "23",
+            "28"
+        ],
+        "cost": [
+            "425000",
+            "425000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "MotP"
+    },
+    "armor1798": {
+        "id": "armor1798",
+        "name": "Mantle of the Seventh Wind",
+        "type": "Cloth",
+        "level": [
+            
+            "23",
+            "28"
+        ],
+        "cost": [
+            "425000",
+            "425000",
+            "2125000"
+        ],
+        "rarity": "Rare",
+        "sourcebook": "PHB, DMK"
+    },
+    "armor1857": {
+        "id": "armor1857",
+        "name": "Mind Armor",
+        "type": "Scale or plate",
+        "level": [
+            
+            "23",
+            "28"
+        ],
+        "cost": [
+            "425000",
+            "425000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor3210": {
+        "id": "armor3210",
+        "name": "Shield of the Doomed",
+        "type": "Heavy shield",
+        "level": "23",
+        "cost": "425,000",
+        "rarity": "Rare",
+        "sourcebook": "MME"
+    },
+    "armor2891": {
+        "id": "armor2891",
+        "name": "Tinkersuit",
+        "type": "Leather",
+        "level": [
+            
+            "23",
+            "28"
+        ],
+        "cost": [
+            "425000",
+            "425000",
+            "2125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2282": {
+        "id": "armor2282",
+        "name": "Robe of Forbearance",
+        "type": "Cloth",
+        "level": [
+            
+            "24",
+            "29"
+        ],
+        "cost": [
+            "525000",
+            "525000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2567": {
+        "id": "armor2567",
+        "name": "Soulwarding Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "24",
+            "29"
+        ],
+        "cost": [
+            "525000",
+            "525000",
+            "2625000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2935": {
+        "id": "armor2935",
+        "name": "Trapping Shield",
+        "type": "Any shield",
+        "level": "24",
+        "cost": "525,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor729": {
+        "id": "armor729",
+        "name": "Bolstering Armor",
+        "type": "Chain, scale or plate",
+        "level": [
+            
+            "25",
+            "30"
+        ],
+        "cost": [
+            "625000",
+            "625000",
+            "3125000"
+        ],
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor1373": {
+        "id": "armor1373",
+        "name": "Gallant Armor",
+        "type": "Plate",
+        "level": "27",
+        "cost": "1,625,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2157": {
+        "id": "armor2157",
+        "name": "Reflective Shield",
+        "type": "Any shield",
+        "level": "27",
+        "cost": "1,625,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2496": {
+        "id": "armor2496",
+        "name": "Shocking Armor",
+        "type": "Chain, scale or plate",
+        "level": "27",
+        "cost": "1,625,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV"
+    },
+    "armor2712": {
+        "id": "armor2712",
+        "name": "Sudden Escape Armor",
+        "type": "Chain",
+        "level": "28",
+        "cost": "2,125,000",
+        "rarity": "Uncommon",
+        "sourcebook": "PHB2"
+    },
+    "armor546": {
+        "id": "armor546",
+        "name": "Armor of Shared Health",
+        "type": "Chain",
+        "level": "30",
+        "cost": "3,125,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    },
+    "armor2481": {
+        "id": "armor2481",
+        "name": "Shield of Ultimate Protection",
+        "type": "Any shield",
+        "level": "30",
+        "cost": "3,125,000",
+        "rarity": "Uncommon",
+        "sourcebook": "AV2"
+    }
+}

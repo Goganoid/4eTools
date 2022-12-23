@@ -1,0 +1,6210 @@
+{
+    "trap943": {
+        "id": "trap943",
+        "name": "Brazier of Silver Fire",
+        "type": "None",
+        "grouprole": "None",
+        "level": "None",
+        "sourcebook": "Madness at Gardmore Abbey"
+    },
+    "trap947": {
+        "id": "trap947",
+        "name": "Damaged Door",
+        "type": "None",
+        "grouprole": "None",
+        "level": "None",
+        "sourcebook": "Madness at Gardmore Abbey"
+    },
+    "trap948": {
+        "id": "trap948",
+        "name": "Portcullis",
+        "type": "None",
+        "grouprole": "None",
+        "level": "None",
+        "sourcebook": "Madness at Gardmore Abbey"
+    },
+    "trap1029": {
+        "id": "trap1029",
+        "name": "Crystalshock Stalagmite",
+        "type": "Blaster",
+        "grouprole": "None",
+        "level": "10",
+        "sourcebook": "Dun198"
+    },
+    "trap481": {
+        "id": "trap481",
+        "name": "Abyssal Portal",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "None",
+        "sourcebook": "Demonomicon"
+    },
+    "trap204": {
+        "id": "trap204",
+        "name": "Bloody Fingertips",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "1",
+        "sourcebook": "Open Grave"
+    },
+    "trap277": {
+        "id": "trap277",
+        "name": "Bloody Fingertips (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "1",
+        "sourcebook": "Open Grave"
+    },
+    "trap509": {
+        "id": "trap509",
+        "name": "Detached Float",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "1",
+        "sourcebook": "Dun181"
+    },
+    "trap910": {
+        "id": "trap910",
+        "name": "Hurrum",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "Dun181"
+    },
+    "trap282": {
+        "id": "trap282",
+        "name": "Prophecy Mark",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "1",
+        "sourcebook": "ECS"
+    },
+    "trap37": {
+        "id": "trap37",
+        "name": "Razor Spores",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "1",
+        "sourcebook": "DraAnnual"
+    },
+    "trap263": {
+        "id": "trap263",
+        "name": "Razor Spores (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "1",
+        "sourcebook": "DraAnnual"
+    },
+    "trap901": {
+        "id": "trap901",
+        "name": "Rockslide",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "DMK"
+    },
+    "trap73": {
+        "id": "trap73",
+        "name": "Treacherous Ice",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "1",
+        "sourcebook": "Dun159"
+    },
+    "trap518": {
+        "id": "trap518",
+        "name": "Chokedust Cloud",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "2",
+        "sourcebook": "DSCC"
+    },
+    "trap120": {
+        "id": "trap120",
+        "name": "Collapsing Ceiling",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "2",
+        "sourcebook": "Dun165"
+    },
+    "trap38": {
+        "id": "trap38",
+        "name": "Glittermist",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "2",
+        "sourcebook": "DraAnnual"
+    },
+    "trap380": {
+        "id": "trap380",
+        "name": "Hidden Quagmire Hazard",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "2",
+        "sourcebook": "Dun171"
+    },
+    "trap62": {
+        "id": "trap62",
+        "name": "Raging Fire",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "2",
+        "sourcebook": "Dun157"
+    },
+    "trap431": {
+        "id": "trap431",
+        "name": "Treacherous Floor",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "2",
+        "sourcebook": "Dun175"
+    },
+    "trap8": {
+        "id": "trap8",
+        "name": "Doomspore",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "DMG, Dun158"
+    },
+    "trap254": {
+        "id": "trap254",
+        "name": "Doomspore (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "3",
+        "sourcebook": "DMG"
+    },
+    "trap143": {
+        "id": "trap143",
+        "name": "Frigid Aura",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "H3"
+    },
+    "trap450": {
+        "id": "trap450",
+        "name": "Gibbet Zombies",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "Dun176"
+    },
+    "trap1042": {
+        "id": "trap1042",
+        "name": "Malfunctioning Gravity Glyphs",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "3",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap527": {
+        "id": "trap527",
+        "name": "Rock Cactus Field",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "Marauders of the Dune Sea"
+    },
+    "trap335": {
+        "id": "trap335",
+        "name": "Shadowseed (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "3",
+        "sourcebook": "Seekers of the Ashen Crown"
+    },
+    "trap451": {
+        "id": "trap451",
+        "name": "Shallow Grave",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "Dun176"
+    },
+    "trap29": {
+        "id": "trap29",
+        "name": "Spider Cactus",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "Dra364"
+    },
+    "trap39": {
+        "id": "trap39",
+        "name": "Vicious Animal",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "DraAnnual"
+    },
+    "trap264": {
+        "id": "trap264",
+        "name": "Vicious Animal (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "3",
+        "sourcebook": "DraAnnual"
+    },
+    "trap79": {
+        "id": "trap79",
+        "name": "Burning Floor",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "4",
+        "sourcebook": "Dun160"
+    },
+    "trap27": {
+        "id": "trap27",
+        "name": "Dew Frond",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "4",
+        "sourcebook": "Dra364"
+    },
+    "trap510": {
+        "id": "trap510",
+        "name": "Sorrowstone",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "4",
+        "sourcebook": "Dun181"
+    },
+    "trap913": {
+        "id": "trap913",
+        "name": "Water Pit",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "4",
+        "sourcebook": "Dun186"
+    },
+    "trap519": {
+        "id": "trap519",
+        "name": "Badlands Tremor",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "5",
+        "sourcebook": "DSCC"
+    },
+    "trap927": {
+        "id": "trap927",
+        "name": "Crumbling Trail",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "5",
+        "sourcebook": "Dun189"
+    },
+    "trap508": {
+        "id": "trap508",
+        "name": "Cursed Idol",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "5",
+        "sourcebook": "Dun181"
+    },
+    "trap1136": {
+        "id": "trap1136",
+        "name": "Krakenweed",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "5",
+        "sourcebook": "Dun213"
+    },
+    "trap1040": {
+        "id": "trap1040",
+        "name": "Necrotic Energy Field",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "5",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap351": {
+        "id": "trap351",
+        "name": "Niter Patch",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "5",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap357": {
+        "id": "trap357",
+        "name": "Niter Patch (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "5",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap475": {
+        "id": "trap475",
+        "name": "Stonefang Pass Quake",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "5",
+        "sourcebook": "HS2"
+    },
+    "trap454": {
+        "id": "trap454",
+        "name": "Tainted Pool",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "5",
+        "sourcebook": "Dun177"
+    },
+    "trap11": {
+        "id": "trap11",
+        "name": "Treacherous Ice Sheet",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "5",
+        "sourcebook": "DMG, DunAnnual, H3"
+    },
+    "trap256": {
+        "id": "trap256",
+        "name": "Treacherous Ice Sheet (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "5",
+        "sourcebook": "DMG"
+    },
+    "trap928": {
+        "id": "trap928",
+        "name": "Collapsing Trail",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "6",
+        "sourcebook": "Dun189"
+    },
+    "trap459": {
+        "id": "trap459",
+        "name": "Explosive Pollen Bramble",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "6",
+        "sourcebook": "Dun178"
+    },
+    "trap1014": {
+        "id": "trap1014",
+        "name": "Lunacy Mist",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "6",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "trap28": {
+        "id": "trap28",
+        "name": "Sand Cactus",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "6",
+        "sourcebook": "Dra364"
+    },
+    "trap356": {
+        "id": "trap356",
+        "name": "Support Pillar",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "6",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap941": {
+        "id": "trap941",
+        "name": "The Crowd",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "6",
+        "sourcebook": "Dun193"
+    },
+    "trap468": {
+        "id": "trap468",
+        "name": "Altar of Pain",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "Demonomicon"
+    },
+    "trap138": {
+        "id": "trap138",
+        "name": "Boneslide",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "H3"
+    },
+    "trap14": {
+        "id": "trap14",
+        "name": "Daggerthorn Briar",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "DMG"
+    },
+    "trap259": {
+        "id": "trap259",
+        "name": "Daggerthorn Briar (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "7",
+        "sourcebook": "DMG"
+    },
+    "trap930": {
+        "id": "trap930",
+        "name": "Gusting Wind",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "7",
+        "sourcebook": "Dun189"
+    },
+    "trap938": {
+        "id": "trap938",
+        "name": "Hungry Shadow",
+        "type": "Hazard",
+        "grouprole": "Minion",
+        "level": "7",
+        "sourcebook": "NCS"
+    },
+    "trap461": {
+        "id": "trap461",
+        "name": "Revolving Training Post",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "Dun178"
+    },
+    "trap1089": {
+        "id": "trap1089",
+        "name": "Silt Pit",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "7",
+        "sourcebook": "Dun202"
+    },
+    "trap106": {
+        "id": "trap106",
+        "name": "Animating Spirit",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "8",
+        "sourcebook": "Dun162"
+    },
+    "trap921": {
+        "id": "trap921",
+        "name": "Black Sleep Briar",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "8",
+        "sourcebook": "TS"
+    },
+    "trap80": {
+        "id": "trap80",
+        "name": "Claw of Yeenoghu",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "8",
+        "sourcebook": "Dun160"
+    },
+    "trap929": {
+        "id": "trap929",
+        "name": "Flash Flood",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "8",
+        "sourcebook": "Dun189"
+    },
+    "trap391": {
+        "id": "trap391",
+        "name": "Gorgon Mud",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "8",
+        "sourcebook": "TPB"
+    },
+    "trap392": {
+        "id": "trap392",
+        "name": "Gorgon Mud (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "8",
+        "sourcebook": "TPB"
+    },
+    "trap520": {
+        "id": "trap520",
+        "name": "Silt Sink",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "8",
+        "sourcebook": "DSCC"
+    },
+    "trap920": {
+        "id": "trap920",
+        "name": "Sinkhole",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "8",
+        "sourcebook": "TS"
+    },
+    "trap515": {
+        "id": "trap515",
+        "name": "Worthy Sacrifices",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "8",
+        "sourcebook": "DSCC"
+    },
+    "trap939": {
+        "id": "trap939",
+        "name": "Ash Tree",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "9",
+        "sourcebook": "NCS"
+    },
+    "trap516": {
+        "id": "trap516",
+        "name": "Blood Tree",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "9",
+        "sourcebook": "DSCC"
+    },
+    "trap16": {
+        "id": "trap16",
+        "name": "Caustic Geyser",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "9",
+        "sourcebook": "DMG"
+    },
+    "trap933": {
+        "id": "trap933",
+        "name": "Chaos Shard Delirium I",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "9",
+        "sourcebook": "Dun190"
+    },
+    "trap934": {
+        "id": "trap934",
+        "name": "Chaos Shard Delirium II",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "9",
+        "sourcebook": "Dun190"
+    },
+    "trap521": {
+        "id": "trap521",
+        "name": "Devil Dune",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "9",
+        "sourcebook": "DSCC"
+    },
+    "trap146": {
+        "id": "trap146",
+        "name": "Heart of Madness",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "9",
+        "sourcebook": "H3"
+    },
+    "trap43": {
+        "id": "trap43",
+        "name": "Madness Gas",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "9",
+        "sourcebook": "DraAnnual"
+    },
+    "trap936": {
+        "id": "trap936",
+        "name": "Murder of Crows",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "9",
+        "sourcebook": "Dun191"
+    },
+    "trap1088": {
+        "id": "trap1088",
+        "name": "Small Avalanche",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "9",
+        "sourcebook": "Dun202"
+    },
+    "trap935": {
+        "id": "trap935",
+        "name": "Chaos Shard",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "10",
+        "sourcebook": "Dun190"
+    },
+    "trap362": {
+        "id": "trap362",
+        "name": "Curse of the Dragon's Death",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap363": {
+        "id": "trap363",
+        "name": "Curse of the Dragon's Death (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "10",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap48": {
+        "id": "trap48",
+        "name": "Falsecap",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "Dra370"
+    },
+    "trap955": {
+        "id": "trap955",
+        "name": "Foul Eggs",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "10",
+        "sourcebook": "Dun161"
+    },
+    "trap116": {
+        "id": "trap116",
+        "name": "Lake of Dreams",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "Dun164, Draco: Chromatic"
+    },
+    "trap155": {
+        "id": "trap155",
+        "name": "Phycomid Infestation",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "P2"
+    },
+    "trap147": {
+        "id": "trap147",
+        "name": "Prismatic Vortex",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "H3"
+    },
+    "trap309": {
+        "id": "trap309",
+        "name": "Stake Trap",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "Dun168"
+    },
+    "trap922": {
+        "id": "trap922",
+        "name": "Swampfire",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "10",
+        "sourcebook": "TS"
+    },
+    "trap108": {
+        "id": "trap108",
+        "name": "The Teeth",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "Dun163"
+    },
+    "trap419": {
+        "id": "trap419",
+        "name": "The Worm Bridge",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "10",
+        "sourcebook": "Underdark"
+    },
+    "trap311": {
+        "id": "trap311",
+        "name": "Vicious Vipers",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "Dun169"
+    },
+    "trap105": {
+        "id": "trap105",
+        "name": "Weakened Floor (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "10",
+        "sourcebook": "Dun161"
+    },
+    "trap152": {
+        "id": "trap152",
+        "name": "Burning Pitch",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "11",
+        "sourcebook": "P1"
+    },
+    "trap196": {
+        "id": "trap196",
+        "name": "Burning Vapor",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "11",
+        "sourcebook": "MotP"
+    },
+    "trap281": {
+        "id": "trap281",
+        "name": "Dead-Gray Mist",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "11",
+        "sourcebook": "ECS"
+    },
+    "trap954": {
+        "id": "trap954",
+        "name": "Far Realm Taint",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "11",
+        "sourcebook": "Dun161"
+    },
+    "trap393": {
+        "id": "trap393",
+        "name": "Luminous Node",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "11",
+        "sourcebook": "TPB"
+    },
+    "trap394": {
+        "id": "trap394",
+        "name": "Luminous Node (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "11",
+        "sourcebook": "TPB"
+    },
+    "trap932": {
+        "id": "trap932",
+        "name": "Magic Rift Explosion",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "11",
+        "sourcebook": "Dun190"
+    },
+    "trap153": {
+        "id": "trap153",
+        "name": "Muck Tentacle",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "11",
+        "sourcebook": "P1"
+    },
+    "trap953": {
+        "id": "trap953",
+        "name": "Waterfall",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "11",
+        "sourcebook": "Dun161"
+    },
+    "trap156": {
+        "id": "trap156",
+        "name": "Abyssal Breach",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "12",
+        "sourcebook": "P2"
+    },
+    "trap110": {
+        "id": "trap110",
+        "name": "Apathy Mist",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "12",
+        "sourcebook": "Dun163"
+    },
+    "trap497": {
+        "id": "trap497",
+        "name": "Charnel Floor",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "12",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap1114": {
+        "id": "trap1114",
+        "name": "Death Mold",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "12",
+        "sourcebook": "Dun209"
+    },
+    "trap1010": {
+        "id": "trap1010",
+        "name": "Death Mold",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "12",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "trap47": {
+        "id": "trap47",
+        "name": "Deathcap",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "12",
+        "sourcebook": "Underdark, Dra370"
+    },
+    "trap270": {
+        "id": "trap270",
+        "name": "Deathcap (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "12",
+        "sourcebook": "Underdark"
+    },
+    "trap1113": {
+        "id": "trap1113",
+        "name": "Muck Pit",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "12",
+        "sourcebook": "Dun209"
+    },
+    "trap169": {
+        "id": "trap169",
+        "name": "Volatile Haze",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "12",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "trap273": {
+        "id": "trap273",
+        "name": "Volatile Haze (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "12",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "trap925": {
+        "id": "trap925",
+        "name": "Arcane Tempest",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "13",
+        "sourcebook": "Dun189"
+    },
+    "trap477": {
+        "id": "trap477",
+        "name": "Bush of Black Roses",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "Vor Rukoth"
+    },
+    "trap414": {
+        "id": "trap414",
+        "name": "Capture Crystal",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "TPB"
+    },
+    "trap19": {
+        "id": "trap19",
+        "name": "Cave-In",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "DMG, Dun157, Dun161"
+    },
+    "trap418": {
+        "id": "trap418",
+        "name": "Death Frost",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "Underdark"
+    },
+    "trap323": {
+        "id": "trap323",
+        "name": "Falling Rocks",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "DMG2"
+    },
+    "trap522": {
+        "id": "trap522",
+        "name": "False Oasis",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "13",
+        "sourcebook": "DSCC"
+    },
+    "trap926": {
+        "id": "trap926",
+        "name": "Frenzied Horde",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "13",
+        "sourcebook": "Dun189"
+    },
+    "trap494": {
+        "id": "trap494",
+        "name": "Fungus Pit",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap424": {
+        "id": "trap424",
+        "name": "Mindscouring Gust",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "TPA"
+    },
+    "trap425": {
+        "id": "trap425",
+        "name": "Mindscouring Gust (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "13",
+        "sourcebook": "TPA"
+    },
+    "trap70": {
+        "id": "trap70",
+        "name": "Underwater Vortexes",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "Dun158"
+    },
+    "trap365": {
+        "id": "trap365",
+        "name": "Webs of Elemental Ice",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap366": {
+        "id": "trap366",
+        "name": "Webs of Elemental Ice (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "13",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap430": {
+        "id": "trap430",
+        "name": "Weeping Bole",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "Dun174"
+    },
+    "trap917": {
+        "id": "trap917",
+        "name": "Archtus Gargoyle Statue",
+        "type": "Hazard",
+        "grouprole": "Minion",
+        "level": "14",
+        "sourcebook": "TS"
+    },
+    "trap117": {
+        "id": "trap117",
+        "name": "Bitter Glass",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "14",
+        "sourcebook": "Dun164"
+    },
+    "trap202": {
+        "id": "trap202",
+        "name": "Cloud of Elemental Steam",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "14",
+        "sourcebook": "MotP"
+    },
+    "trap916": {
+        "id": "trap916",
+        "name": "Lethos Gargoyle Statue",
+        "type": "Hazard",
+        "grouprole": "Minion",
+        "level": "14",
+        "sourcebook": "TS"
+    },
+    "trap1092": {
+        "id": "trap1092",
+        "name": "Possessed Debris",
+        "type": "Hazard",
+        "grouprole": "Minion",
+        "level": "14",
+        "sourcebook": "Dun203"
+    },
+    "trap197": {
+        "id": "trap197",
+        "name": "Vacuum Rift",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "14",
+        "sourcebook": "MotP"
+    },
+    "trap452": {
+        "id": "trap452",
+        "name": "Abyssal Miasma",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Dun177"
+    },
+    "trap453": {
+        "id": "trap453",
+        "name": "Acidic Pools",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Dun177"
+    },
+    "trap172": {
+        "id": "trap172",
+        "name": "Cinder Storm",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "trap523": {
+        "id": "trap523",
+        "name": "Dust Funnel",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "DSCC"
+    },
+    "trap1011": {
+        "id": "trap1011",
+        "name": "Far Realm Anomaly",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "15",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "trap496": {
+        "id": "trap496",
+        "name": "Force Bridge",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap471": {
+        "id": "trap471",
+        "name": "Garden of Rot",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Demonomicon"
+    },
+    "trap495": {
+        "id": "trap495",
+        "name": "Planar Vats",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap171": {
+        "id": "trap171",
+        "name": "Quake",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "trap395": {
+        "id": "trap395",
+        "name": "Steel Rain",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "TPB"
+    },
+    "trap396": {
+        "id": "trap396",
+        "name": "Steel Rain (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "15",
+        "sourcebook": "TPB"
+    },
+    "trap174": {
+        "id": "trap174",
+        "name": "Tumescent Pustule",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "trap397": {
+        "id": "trap397",
+        "name": "Voidblight",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "TPB"
+    },
+    "trap398": {
+        "id": "trap398",
+        "name": "Voidblight (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "15",
+        "sourcebook": "TPB"
+    },
+    "trap203": {
+        "id": "trap203",
+        "name": "Chaos Storm",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "16",
+        "sourcebook": "MotP"
+    },
+    "trap491": {
+        "id": "trap491",
+        "name": "Crumbling Ledges",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "16",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap198": {
+        "id": "trap198",
+        "name": "Demonic Slime",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "16",
+        "sourcebook": "MotP"
+    },
+    "trap399": {
+        "id": "trap399",
+        "name": "Gates of Winter",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "16",
+        "sourcebook": "TPB"
+    },
+    "trap400": {
+        "id": "trap400",
+        "name": "Gates of Winter (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "16",
+        "sourcebook": "TPB"
+    },
+    "trap1110": {
+        "id": "trap1110",
+        "name": "Naphtha Fumes",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "16",
+        "sourcebook": "Dun209"
+    },
+    "trap306": {
+        "id": "trap306",
+        "name": "Astral Nexus (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "17",
+        "sourcebook": "Dun167"
+    },
+    "trap166": {
+        "id": "trap166",
+        "name": "Burning Mote",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "17",
+        "sourcebook": "P3"
+    },
+    "trap524": {
+        "id": "trap524",
+        "name": "Desert Glass",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "17",
+        "sourcebook": "DSCC"
+    },
+    "trap492": {
+        "id": "trap492",
+        "name": "Necrotic Rain",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "17",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap161": {
+        "id": "trap161",
+        "name": "Zombie Mob",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "17",
+        "sourcebook": "P2"
+    },
+    "trap199": {
+        "id": "trap199",
+        "name": "Avernus Cinderstorm",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "MotP"
+    },
+    "trap275": {
+        "id": "trap275",
+        "name": "Avernus Cinderstorm (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "18",
+        "sourcebook": "MotP"
+    },
+    "trap162": {
+        "id": "trap162",
+        "name": "Crawler Nest",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "P3"
+    },
+    "trap401": {
+        "id": "trap401",
+        "name": "Elemental Eruptions",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "TPB"
+    },
+    "trap402": {
+        "id": "trap402",
+        "name": "Elemental Eruptions (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "18",
+        "sourcebook": "TPB"
+    },
+    "trap403": {
+        "id": "trap403",
+        "name": "Elemental Transformation Field",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "TPB"
+    },
+    "trap417": {
+        "id": "trap417",
+        "name": "Elemental Transformation Field (Elite)",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "TPB"
+    },
+    "trap1004": {
+        "id": "trap1004",
+        "name": "Field of Everflame",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "18",
+        "sourcebook": "DMK"
+    },
+    "trap21": {
+        "id": "trap21",
+        "name": "Field of Everflame",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "DMG, DD"
+    },
+    "trap181": {
+        "id": "trap181",
+        "name": "Field of Everflame (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "18",
+        "sourcebook": "DMG"
+    },
+    "trap1061": {
+        "id": "trap1061",
+        "name": "Fumarole",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "18",
+        "sourcebook": "Dun200"
+    },
+    "trap337": {
+        "id": "trap337",
+        "name": "Sulfur Spewers",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "Dun170"
+    },
+    "trap308": {
+        "id": "trap308",
+        "name": "Ballista Platform",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "19",
+        "sourcebook": "Dun168"
+    },
+    "trap332": {
+        "id": "trap332",
+        "name": "Lava Pool",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "19",
+        "sourcebook": "Revenge of the Giants"
+    },
+    "trap405": {
+        "id": "trap405",
+        "name": "Skystone Field",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "19",
+        "sourcebook": "TPB"
+    },
+    "trap406": {
+        "id": "trap406",
+        "name": "Skystone Field (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "19",
+        "sourcebook": "TPB"
+    },
+    "trap478": {
+        "id": "trap478",
+        "name": "Corrosive Salt Stream",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "20",
+        "sourcebook": "Demonomicon"
+    },
+    "trap76": {
+        "id": "trap76",
+        "name": "Force Pods",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "20",
+        "sourcebook": "Dun159"
+    },
+    "trap480": {
+        "id": "trap480",
+        "name": "Necroclasm Cloud",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "20",
+        "sourcebook": "Demonomicon"
+    },
+    "trap307": {
+        "id": "trap307",
+        "name": "Portal Fall (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "20",
+        "sourcebook": "Dun167"
+    },
+    "trap407": {
+        "id": "trap407",
+        "name": "Lightningstone Field",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "21",
+        "sourcebook": "TPB"
+    },
+    "trap408": {
+        "id": "trap408",
+        "name": "Lightningstone Field (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "21",
+        "sourcebook": "TPB"
+    },
+    "trap1150": {
+        "id": "trap1150",
+        "name": "Salt Karst Collapse",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "21",
+        "sourcebook": "Dun215"
+    },
+    "trap525": {
+        "id": "trap525",
+        "name": "Venomous Spines",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "21",
+        "sourcebook": "DSCC"
+    },
+    "trap77": {
+        "id": "trap77",
+        "name": "View Beyond",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "21",
+        "sourcebook": "Dun159"
+    },
+    "trap504": {
+        "id": "trap504",
+        "name": "Eldritch Storm",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "22",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap200": {
+        "id": "trap200",
+        "name": "Entropic Fissure",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "22",
+        "sourcebook": "MotP"
+    },
+    "trap320": {
+        "id": "trap320",
+        "name": "Life Eater Haze",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "22",
+        "sourcebook": "DMG2"
+    },
+    "trap1149": {
+        "id": "trap1149",
+        "name": "Maelstrom",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "22",
+        "sourcebook": "Dun215"
+    },
+    "trap479": {
+        "id": "trap479",
+        "name": "Viper Tree",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "22",
+        "sourcebook": "Demonomicon"
+    },
+    "trap409": {
+        "id": "trap409",
+        "name": "Void Crust",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "22",
+        "sourcebook": "TPB"
+    },
+    "trap1091": {
+        "id": "trap1091",
+        "name": "Astral Lodestone",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "23",
+        "sourcebook": "Dun203"
+    },
+    "trap91": {
+        "id": "trap91",
+        "name": "Chaos Haze",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "23",
+        "sourcebook": "Dun160"
+    },
+    "trap410": {
+        "id": "trap410",
+        "name": "Chaotic Planar Rift",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "23",
+        "sourcebook": "TPB"
+    },
+    "trap1096": {
+        "id": "trap1096",
+        "name": "Collector's Dancing Sword",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "23",
+        "sourcebook": "Dun204"
+    },
+    "trap1005": {
+        "id": "trap1005",
+        "name": "Entropic Collapse",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "23",
+        "sourcebook": "DMK"
+    },
+    "trap23": {
+        "id": "trap23",
+        "name": "Entropic Collapse",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "23",
+        "sourcebook": "DMG, Draco: Metallic, DD"
+    },
+    "trap382": {
+        "id": "trap382",
+        "name": "Sentient Forest (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "23",
+        "sourcebook": "Dun171"
+    },
+    "trap526": {
+        "id": "trap526",
+        "name": "Defiled Plain",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "24",
+        "sourcebook": "DSCC"
+    },
+    "trap384": {
+        "id": "trap384",
+        "name": "Undulating Walkways (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "24",
+        "sourcebook": "Dun171"
+    },
+    "trap188": {
+        "id": "trap188",
+        "name": "Elemental Conduit",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "25",
+        "sourcebook": "DD"
+    },
+    "trap339": {
+        "id": "trap339",
+        "name": "The Ghost Door",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "25",
+        "sourcebook": "E3"
+    },
+    "trap444": {
+        "id": "trap444",
+        "name": "Thin Ice",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "25",
+        "sourcebook": "Dun175"
+    },
+    "trap1099": {
+        "id": "trap1099",
+        "name": "Demonweb Doomspore",
+        "type": "Hazard",
+        "grouprole": "Minion",
+        "level": "26",
+        "sourcebook": "Dun204"
+    },
+    "trap426": {
+        "id": "trap426",
+        "name": "Entropic Nexus",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "26",
+        "sourcebook": "Dun174"
+    },
+    "trap201": {
+        "id": "trap201",
+        "name": "Time Wrinkle",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "26",
+        "sourcebook": "MotP"
+    },
+    "trap276": {
+        "id": "trap276",
+        "name": "Time Wrinkle (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "26",
+        "sourcebook": "MotP"
+    },
+    "trap482": {
+        "id": "trap482",
+        "name": "Brine Blast",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "27",
+        "sourcebook": "Demonomicon"
+    },
+    "trap341": {
+        "id": "trap341",
+        "name": "Black Door (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "28",
+        "sourcebook": "E3"
+    },
+    "trap411": {
+        "id": "trap411",
+        "name": "Corruption Sludge Pool",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "28",
+        "sourcebook": "TPB"
+    },
+    "trap412": {
+        "id": "trap412",
+        "name": "Corruption Sludge Pool (Elite)",
+        "type": "Hazard",
+        "grouprole": "Elite",
+        "level": "28",
+        "sourcebook": "TPB"
+    },
+    "trap427": {
+        "id": "trap427",
+        "name": "Elemental Rift",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "28",
+        "sourcebook": "Dun174"
+    },
+    "trap1085": {
+        "id": "trap1085",
+        "name": "Geometric Impossibility",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "28",
+        "sourcebook": "Dun201"
+    },
+    "trap343": {
+        "id": "trap343",
+        "name": "Lightning Spire",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "28",
+        "sourcebook": "E3"
+    },
+    "trap413": {
+        "id": "trap413",
+        "name": "Multielemental Transformation Field",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "28",
+        "sourcebook": "TPB"
+    },
+    "trap344": {
+        "id": "trap344",
+        "name": "Forgestorm",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "29",
+        "sourcebook": "E3"
+    },
+    "trap442": {
+        "id": "trap442",
+        "name": "Magma Geyser",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "29",
+        "sourcebook": "Dun175"
+    },
+    "trap441": {
+        "id": "trap441",
+        "name": "Shard of Annihilation",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "29",
+        "sourcebook": "Dun175"
+    },
+    "trap26": {
+        "id": "trap26",
+        "name": "Sphere of Annihilation",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "29",
+        "sourcebook": "DMG"
+    },
+    "trap440": {
+        "id": "trap440",
+        "name": "Dragon-Eye Disintegrator Beams",
+        "type": "Hazard",
+        "grouprole": "Solo",
+        "level": "30",
+        "sourcebook": "Dun175"
+    },
+    "trap474": {
+        "id": "trap474",
+        "name": "Field of Doom",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "30",
+        "sourcebook": "Demonomicon"
+    },
+    "trap340": {
+        "id": "trap340",
+        "name": "Malfunctioning Anarch Sphere",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "30",
+        "sourcebook": "E3"
+    },
+    "trap345": {
+        "id": "trap345",
+        "name": "Corruption Storm",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "32",
+        "sourcebook": "E3"
+    },
+    "trap35": {
+        "id": "trap35",
+        "name": "Angry Crowd",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "Party's Level",
+        "sourcebook": "DraAnnual"
+    },
+    "trap464": {
+        "id": "trap464",
+        "name": "Cacodemon Possession",
+        "type": "Hazard",
+        "grouprole": "None",
+        "level": "Variable",
+        "sourcebook": "Demonomicon"
+    },
+    "trap517": {
+        "id": "trap517",
+        "name": "Obsidian Facade",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "(Level)",
+        "sourcebook": "DSCC"
+    },
+    "trap284": {
+        "id": "trap284",
+        "name": "Sewer Valves",
+        "type": "Hazard",
+        "grouprole": "Standard",
+        "level": "Variable",
+        "sourcebook": "ECS"
+    },
+    "trap1028": {
+        "id": "trap1028",
+        "name": "Stirge Swarm Trap",
+        "type": "Lurker",
+        "grouprole": "None",
+        "level": "12",
+        "sourcebook": "Dun198"
+    },
+    "trap1027": {
+        "id": "trap1027",
+        "name": "Rockfall Trap",
+        "type": "Lurker",
+        "grouprole": "None",
+        "level": "14",
+        "sourcebook": "Dun198"
+    },
+    "trap1032": {
+        "id": "trap1032",
+        "name": "Exploding Iron Chest",
+        "type": "Lurker",
+        "grouprole": "None",
+        "level": "15",
+        "sourcebook": "Dun199"
+    },
+    "trap1030": {
+        "id": "trap1030",
+        "name": "Living Fungus Chest",
+        "type": "Lurker",
+        "grouprole": "None",
+        "level": "15",
+        "sourcebook": "Dun198"
+    },
+    "trap1116": {
+        "id": "trap1116",
+        "name": "Tears of the Crocodile God",
+        "type": "Lurker",
+        "grouprole": "None",
+        "level": "15",
+        "sourcebook": "Dun209"
+    },
+    "trap1031": {
+        "id": "trap1031",
+        "name": "Icefang Pit",
+        "type": "Obstacle",
+        "grouprole": "Elite",
+        "level": "16",
+        "sourcebook": "Dun199"
+    },
+    "terrain99": {
+        "id": "terrain99",
+        "name": "Abyssal Wellspring",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "MotP"
+    },
+    "terrain35": {
+        "id": "terrain35",
+        "name": "Acidic Mire",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain148": {
+        "id": "terrain148",
+        "name": "Agony Amplifier",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "terrain100": {
+        "id": "terrain100",
+        "name": "Angelic Lantern",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "MotP"
+    },
+    "terrain67": {
+        "id": "terrain67",
+        "name": "Ash Field",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain101": {
+        "id": "terrain101",
+        "name": "Astral Flame",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "MotP"
+    },
+    "terrain65": {
+        "id": "terrain65",
+        "name": "Barbed Cacti",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain68": {
+        "id": "terrain68",
+        "name": "Black Sand",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain3": {
+        "id": "terrain3",
+        "name": "Blast Cloud",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain58": {
+        "id": "terrain58",
+        "name": "Blood Grate",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "Underdark"
+    },
+    "terrain4": {
+        "id": "terrain4",
+        "name": "Blood Midge Cloud",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain82": {
+        "id": "terrain82",
+        "name": "Blood Rock",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMK, DMG"
+    },
+    "terrain5": {
+        "id": "terrain5",
+        "name": "Bolt Stone",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2, DMK"
+    },
+    "terrain36": {
+        "id": "terrain36",
+        "name": "Bonepowder Haze",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain143": {
+        "id": "terrain143",
+        "name": "Bookcase",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "Dun165"
+    },
+    "terrain116": {
+        "id": "terrain116",
+        "name": "Boulder",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain66": {
+        "id": "terrain66",
+        "name": "Brambleweed",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain118": {
+        "id": "terrain118",
+        "name": "Brazier",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "Dun177"
+    },
+    "trap1020": {
+        "id": "trap1020",
+        "name": "Brazier Topple",
+        "type": "Terrain",
+        "grouprole": "Single-Use",
+        "level": "None",
+        "sourcebook": "Dun196"
+    },
+    "terrain149": {
+        "id": "terrain149",
+        "name": "Carnage Stone",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "terrain25": {
+        "id": "terrain25",
+        "name": "Carpet of Serpents",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPA"
+    },
+    "terrain62": {
+        "id": "terrain62",
+        "name": "Caught Breath",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "Underdark"
+    },
+    "terrain83": {
+        "id": "terrain83",
+        "name": "Cave Slime",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMK, DMG"
+    },
+    "terrain129": {
+        "id": "terrain129",
+        "name": "Chandelier",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain37": {
+        "id": "terrain37",
+        "name": "Chaos Breath",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain34": {
+        "id": "terrain34",
+        "name": "Chaos Spots",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPA"
+    },
+    "terrain88": {
+        "id": "terrain88",
+        "name": "Choke Frost",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG"
+    },
+    "terrain26": {
+        "id": "terrain26",
+        "name": "Choking Vapors",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPA"
+    },
+    "terrain89": {
+        "id": "terrain89",
+        "name": "Cloudspore",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG"
+    },
+    "terrain38": {
+        "id": "terrain38",
+        "name": "Crawling Earth",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain6": {
+        "id": "terrain6",
+        "name": "Creeping Ice",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain27": {
+        "id": "terrain27",
+        "name": "Cursed Obelisk",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPA"
+    },
+    "terrain69": {
+        "id": "terrain69",
+        "name": "Dead Magic",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain7": {
+        "id": "terrain7",
+        "name": "Defiled Ground",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2, DMK"
+    },
+    "terrain39": {
+        "id": "terrain39",
+        "name": "Demon Jags",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain40": {
+        "id": "terrain40",
+        "name": "Demon Slick",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain8": {
+        "id": "terrain8",
+        "name": "Dimensional Turbulence",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain102": {
+        "id": "terrain102",
+        "name": "Divine Blood",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "MotP"
+    },
+    "trap1018": {
+        "id": "trap1018",
+        "name": "Donjon's Cave-In",
+        "type": "Terrain",
+        "grouprole": "Single-Use",
+        "level": "None",
+        "sourcebook": "Dun196"
+    },
+    "terrain9": {
+        "id": "terrain9",
+        "name": "Doomlight Crystal",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain109": {
+        "id": "terrain109",
+        "name": "Earth Nodes",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "FRCG"
+    },
+    "terrain28": {
+        "id": "terrain28",
+        "name": "Earthen Maw",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPA"
+    },
+    "terrain41": {
+        "id": "terrain41",
+        "name": "Earthflow",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain110": {
+        "id": "terrain110",
+        "name": "Earthmotes",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "FRCG"
+    },
+    "terrain10": {
+        "id": "terrain10",
+        "name": "Eldritch Influx",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain103": {
+        "id": "terrain103",
+        "name": "Elemental Seepage",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "MotP"
+    },
+    "terrain42": {
+        "id": "terrain42",
+        "name": "Elemental Spout",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain11": {
+        "id": "terrain11",
+        "name": "Elemental Windchurn",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain90": {
+        "id": "terrain90",
+        "name": "Ember Moss",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG"
+    },
+    "terrain43": {
+        "id": "terrain43",
+        "name": "Energy Alteration Field",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain108": {
+        "id": "terrain108",
+        "name": "Energy Crystals",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "MotP"
+    },
+    "terrain12": {
+        "id": "terrain12",
+        "name": "Energy Node",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain104": {
+        "id": "terrain104",
+        "name": "Erratic Portal",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "MotP"
+    },
+    "terrain142": {
+        "id": "terrain142",
+        "name": "Exotic Fruit Trees",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "Dun165"
+    },
+    "terrain59": {
+        "id": "terrain59",
+        "name": "Eye Unblinking",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "Underdark"
+    },
+    "terrain150": {
+        "id": "terrain150",
+        "name": "Festering Corruption",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "terrain13": {
+        "id": "terrain13",
+        "name": "Fey Circle",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2, DMK"
+    },
+    "terrain111": {
+        "id": "terrain111",
+        "name": "Fey Crossroads",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "FRCG"
+    },
+    "terrain115": {
+        "id": "terrain115",
+        "name": "Fey Mounds",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "FRCG"
+    },
+    "terrain91": {
+        "id": "terrain91",
+        "name": "Font of Power",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG"
+    },
+    "terrain151": {
+        "id": "terrain151",
+        "name": "Forgotten Soul",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "terrain44": {
+        "id": "terrain44",
+        "name": "Frozen Fire",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain71": {
+        "id": "terrain71",
+        "name": "Glimmering Mirage",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain57": {
+        "id": "terrain57",
+        "name": "Godsblood",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "Underdark"
+    },
+    "terrain61": {
+        "id": "terrain61",
+        "name": "Godsrock",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "Underdark"
+    },
+    "terrain92": {
+        "id": "terrain92",
+        "name": "Grab Grass",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG"
+    },
+    "terrain14": {
+        "id": "terrain14",
+        "name": "Grasping Bog",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain93": {
+        "id": "terrain93",
+        "name": "Grasping Slime",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG"
+    },
+    "terrain32": {
+        "id": "terrain32",
+        "name": "Grasping Vines",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPA"
+    },
+    "terrain152": {
+        "id": "terrain152",
+        "name": "Green Fog",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "terrain54": {
+        "id": "terrain54",
+        "name": "Ground Swarms",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "Underdark"
+    },
+    "terrain15": {
+        "id": "terrain15",
+        "name": "Healing Ground",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain105": {
+        "id": "terrain105",
+        "name": "Hellfire",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "MotP"
+    },
+    "terrain153": {
+        "id": "terrain153",
+        "name": "Hellfire",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "terrain63": {
+        "id": "terrain63",
+        "name": "Hungry Void",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "Underdark"
+    },
+    "terrain45": {
+        "id": "terrain45",
+        "name": "Ice Maws",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain84": {
+        "id": "terrain84",
+        "name": "Illusions",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMK, DMG"
+    },
+    "terrain46": {
+        "id": "terrain46",
+        "name": "Infectious Pallor",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain135": {
+        "id": "terrain135",
+        "name": "Infernal Brazier",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain16": {
+        "id": "terrain16",
+        "name": "Infernal Fumes",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain53": {
+        "id": "terrain53",
+        "name": "Insect Cloud",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "Underdark"
+    },
+    "terrain33": {
+        "id": "terrain33",
+        "name": "Insect Swarm",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPA"
+    },
+    "terrain17": {
+        "id": "terrain17",
+        "name": "Jade Flame",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain154": {
+        "id": "terrain154",
+        "name": "Larvae Pool",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "terrain127": {
+        "id": "terrain127",
+        "name": "Lava Pit",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "Dun179"
+    },
+    "terrain47": {
+        "id": "terrain47",
+        "name": "Lightning Mist",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain72": {
+        "id": "terrain72",
+        "name": "Lightning Pillar",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain120": {
+        "id": "terrain120",
+        "name": "Lightning Pillar Strike",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain155": {
+        "id": "terrain155",
+        "name": "Lingering Evil",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "terrain48": {
+        "id": "terrain48",
+        "name": "Liquid Thunder",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain94": {
+        "id": "terrain94",
+        "name": "Loadstone",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG"
+    },
+    "terrain18": {
+        "id": "terrain18",
+        "name": "Martyr's Monument",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain85": {
+        "id": "terrain85",
+        "name": "Mirror Crystal",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMK, DMG"
+    },
+    "terrain144": {
+        "id": "terrain144",
+        "name": "Mud Sink",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain73": {
+        "id": "terrain73",
+        "name": "Mudflats",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain55": {
+        "id": "terrain55",
+        "name": "Mushroom Arch",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "Underdark"
+    },
+    "terrain112": {
+        "id": "terrain112",
+        "name": "Mythals",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "FRCG"
+    },
+    "terrain19": {
+        "id": "terrain19",
+        "name": "Necrotic Ground",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain20": {
+        "id": "terrain20",
+        "name": "Needle Hedge",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain49": {
+        "id": "terrain49",
+        "name": "Phase Crystal",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain21": {
+        "id": "terrain21",
+        "name": "Phase Mist",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain106": {
+        "id": "terrain106",
+        "name": "Phase Rock",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "MotP"
+    },
+    "terrain95": {
+        "id": "terrain95",
+        "name": "Pillar of Life",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG"
+    },
+    "terrain113": {
+        "id": "terrain113",
+        "name": "Plaguelands",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "FRCG"
+    },
+    "terrain29": {
+        "id": "terrain29",
+        "name": "Pocket of Night",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPA"
+    },
+    "terrain114": {
+        "id": "terrain114",
+        "name": "Portals",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "FRCG"
+    },
+    "terrain56": {
+        "id": "terrain56",
+        "name": "Primal Mud",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "Underdark"
+    },
+    "terrain50": {
+        "id": "terrain50",
+        "name": "Primordial Font",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain74": {
+        "id": "terrain74",
+        "name": "Psychic Reservoir",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain22": {
+        "id": "terrain22",
+        "name": "Quick Sear",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain23": {
+        "id": "terrain23",
+        "name": "Rage Stone",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain107": {
+        "id": "terrain107",
+        "name": "Razorvine",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "MotP"
+    },
+    "terrain156": {
+        "id": "terrain156",
+        "name": "Red Pipe",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "Dun195"
+    },
+    "terrain75": {
+        "id": "terrain75",
+        "name": "Rocky Badlands",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain130": {
+        "id": "terrain130",
+        "name": "Rope Bridge",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "trap1019": {
+        "id": "trap1019",
+        "name": "Rubble Topple",
+        "type": "Terrain",
+        "grouprole": "Single-Use",
+        "level": "None",
+        "sourcebook": "Dun196"
+    },
+    "terrain131": {
+        "id": "terrain131",
+        "name": "Ruined Wall",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain96": {
+        "id": "terrain96",
+        "name": "Sacred Circle",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG"
+    },
+    "terrain76": {
+        "id": "terrain76",
+        "name": "Salt Flats",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain122": {
+        "id": "terrain122",
+        "name": "Salt Pile",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain77": {
+        "id": "terrain77",
+        "name": "Sandy Wastes",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain119": {
+        "id": "terrain119",
+        "name": "Settled Ash",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain117": {
+        "id": "terrain117",
+        "name": "Shattering Crystal",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain70": {
+        "id": "terrain70",
+        "name": "Sickening Heat",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain125": {
+        "id": "terrain125",
+        "name": "Silt Deep Spot",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain78": {
+        "id": "terrain78",
+        "name": "Silt Pool",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain86": {
+        "id": "terrain86",
+        "name": "Slides",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMK, DMG"
+    },
+    "terrain79": {
+        "id": "terrain79",
+        "name": "Slipsand",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain124": {
+        "id": "terrain124",
+        "name": "Small Dune",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain64": {
+        "id": "terrain64",
+        "name": "Soul Shard Clusters",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "Underdark"
+    },
+    "terrain30": {
+        "id": "terrain30",
+        "name": "Soul Venom",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPA"
+    },
+    "terrain87": {
+        "id": "terrain87",
+        "name": "Spiderwebs",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMK, DMG"
+    },
+    "terrain60": {
+        "id": "terrain60",
+        "name": "Spore Field",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "Underdark"
+    },
+    "terrain51": {
+        "id": "terrain51",
+        "name": "Strangling Wind",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain141": {
+        "id": "terrain141",
+        "name": "Swinging Rope or Vine",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain147": {
+        "id": "terrain147",
+        "name": "Swinging Rope or Vine",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain133": {
+        "id": "terrain133",
+        "name": "Table of Combustibles",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain134": {
+        "id": "terrain134",
+        "name": "Tapestry",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DMG2, Dun180"
+    },
+    "terrain123": {
+        "id": "terrain123",
+        "name": "Teetering Stone Pillar",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain97": {
+        "id": "terrain97",
+        "name": "Teleporters",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG"
+    },
+    "terrain24": {
+        "id": "terrain24",
+        "name": "Thunder Shards",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG2"
+    },
+    "terrain80": {
+        "id": "terrain80",
+        "name": "Tree of Life",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain140": {
+        "id": "terrain140",
+        "name": "Tree of Life Defiling",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "terrain145": {
+        "id": "terrain145",
+        "name": "Unstable Monolith",
+        "type": "Terrain",
+        "grouprole": "Terrain Power",
+        "level": "None",
+        "sourcebook": "Dun181"
+    },
+    "terrain31": {
+        "id": "terrain31",
+        "name": "Venomous Air",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPA"
+    },
+    "terrain98": {
+        "id": "terrain98",
+        "name": "Whirlwind",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DMG"
+    },
+    "terrain52": {
+        "id": "terrain52",
+        "name": "Wrath Mud",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "TPB"
+    },
+    "terrain81": {
+        "id": "terrain81",
+        "name": "Z'tal Horde",
+        "type": "Terrain",
+        "grouprole": "Fantastic Terrain",
+        "level": "None",
+        "sourcebook": "DSCC"
+    },
+    "trap190": {
+        "id": "trap190",
+        "name": "Spiked Swinging Gate",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "None",
+        "sourcebook": "FR1"
+    },
+    "trap952": {
+        "id": "trap952",
+        "name": "Concealed Pit",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "Dun178"
+    },
+    "trap1105": {
+        "id": "trap1105",
+        "name": "Covered Pit",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "Dun208"
+    },
+    "trap463": {
+        "id": "trap463",
+        "name": "Covered Spiked Pit Trap",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "1",
+        "sourcebook": "Dun178"
+    },
+    "trap456": {
+        "id": "trap456",
+        "name": "Dart Trap",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "1",
+        "sourcebook": "DMG"
+    },
+    "trap189": {
+        "id": "trap189",
+        "name": "Dart-Thrower",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "1",
+        "sourcebook": "FR1"
+    },
+    "trap1074": {
+        "id": "trap1074",
+        "name": "Dreaming Door",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "Dun201"
+    },
+    "trap900": {
+        "id": "trap900",
+        "name": "False-Floor Pit",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "DMK, Dun201"
+    },
+    "trap1038": {
+        "id": "trap1038",
+        "name": "False-Floor Pit",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap5": {
+        "id": "trap5",
+        "name": "False-Floor Pit (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "1",
+        "sourcebook": "DMG"
+    },
+    "trap279": {
+        "id": "trap279",
+        "name": "Flamejet Statues",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "1",
+        "sourcebook": "Dun166, DunAnnual"
+    },
+    "trap36": {
+        "id": "trap36",
+        "name": "Forest of Stone",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "1",
+        "sourcebook": "DraAnnual"
+    },
+    "trap262": {
+        "id": "trap262",
+        "name": "Forest of Stone (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "1",
+        "sourcebook": "DraAnnual"
+    },
+    "trap1041": {
+        "id": "trap1041",
+        "name": "Freezing Hall",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap1122": {
+        "id": "trap1122",
+        "name": "Haunted River",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "1",
+        "sourcebook": "Dun211"
+    },
+    "trap1131": {
+        "id": "trap1131",
+        "name": "Hidden Pit",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "Dun211"
+    },
+    "trap1104": {
+        "id": "trap1104",
+        "name": "Kobold Tripwire",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "Dun208"
+    },
+    "trap911": {
+        "id": "trap911",
+        "name": "Magic Crossbow Turret (Dungeon 183)",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "Dun183"
+    },
+    "trap1035": {
+        "id": "trap1035",
+        "name": "Poisoned Needle",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap1084": {
+        "id": "trap1084",
+        "name": "Punishment Arm",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "Dun201"
+    },
+    "trap1123": {
+        "id": "trap1123",
+        "name": "Rat Trap",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "1",
+        "sourcebook": "Dun211"
+    },
+    "trap457": {
+        "id": "trap457",
+        "name": "Skull-Skull Stone",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "1",
+        "sourcebook": "DMG"
+    },
+    "trap1067": {
+        "id": "trap1067",
+        "name": "Slumbering Portal",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "Dun201"
+    },
+    "trap1124": {
+        "id": "trap1124",
+        "name": "The Thing in the Mirror",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "1",
+        "sourcebook": "Dun211"
+    },
+    "trap423": {
+        "id": "trap423",
+        "name": "Warded Desk",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "1",
+        "sourcebook": "Dun173"
+    },
+    "trap191": {
+        "id": "trap191",
+        "name": "Water-Filled Pit",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "1",
+        "sourcebook": "FR1"
+    },
+    "trap195": {
+        "id": "trap195",
+        "name": "Acid Trap",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "2",
+        "sourcebook": "FRCG"
+    },
+    "trap530": {
+        "id": "trap530",
+        "name": "Cauldron Feeder",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Marauders of the Dune Sea"
+    },
+    "trap531": {
+        "id": "trap531",
+        "name": "Defiling Sigil",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "2",
+        "sourcebook": "Marauders of the Dune Sea"
+    },
+    "trap1098": {
+        "id": "trap1098",
+        "name": "Demonweb Glyph",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Dun204"
+    },
+    "trap283": {
+        "id": "trap283",
+        "name": "Eldritch Machine (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "2",
+        "sourcebook": "ECS"
+    },
+    "trap1021": {
+        "id": "trap1021",
+        "name": "Explosive Runes",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Dra405"
+    },
+    "trap192": {
+        "id": "trap192",
+        "name": "Explosive Runes",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "2",
+        "sourcebook": "FR1"
+    },
+    "trap1036": {
+        "id": "trap1036",
+        "name": "Fire-Spewing Bed",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap1126": {
+        "id": "trap1126",
+        "name": "Flesh-Eating Dust Trap",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Dun211"
+    },
+    "trap1047": {
+        "id": "trap1047",
+        "name": "Glyph of Warding (Fire)",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap1133": {
+        "id": "trap1133",
+        "name": "Glyph of Warding (Lightning)",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Dun211"
+    },
+    "trap428": {
+        "id": "trap428",
+        "name": "Glyph of Warding (level 2)",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "2",
+        "sourcebook": "DunAnnual, Dun159"
+    },
+    "trap1013": {
+        "id": "trap1013",
+        "name": "Iron Boot",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "2",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "trap280": {
+        "id": "trap280",
+        "name": "Iron Maiden-in-Chains",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "2",
+        "sourcebook": "Dun166, DunAnnual"
+    },
+    "trap1083": {
+        "id": "trap1083",
+        "name": "Leghold Trap",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Dun201"
+    },
+    "trap1037": {
+        "id": "trap1037",
+        "name": "Magic Missile Ballista",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "2",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap54": {
+        "id": "trap54",
+        "name": "Noose Trap (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "2",
+        "sourcebook": "Dun155"
+    },
+    "trap1045": {
+        "id": "trap1045",
+        "name": "Radiant Floor",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "2",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap1046": {
+        "id": "trap1046",
+        "name": "Red Energy Curtain",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap902": {
+        "id": "trap902",
+        "name": "Spear Gauntlet",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "DMK"
+    },
+    "trap6": {
+        "id": "trap6",
+        "name": "Spear Gauntlet",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "2",
+        "sourcebook": "DMG"
+    },
+    "trap253": {
+        "id": "trap253",
+        "name": "Spear Gauntlet (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "2",
+        "sourcebook": "DMG"
+    },
+    "trap1081": {
+        "id": "trap1081",
+        "name": "Spring Noose Trap",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Dun201"
+    },
+    "trap1039": {
+        "id": "trap1039",
+        "name": "Teleportation Rune",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap1146": {
+        "id": "trap1146",
+        "name": "Thunder Glyph",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Dun214"
+    },
+    "trap1050": {
+        "id": "trap1050",
+        "name": "Vanishing Floor",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap1147": {
+        "id": "trap1147",
+        "name": "Water Tentacle",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "2",
+        "sourcebook": "Dun214"
+    },
+    "trap529": {
+        "id": "trap529",
+        "name": "Whipping Tail",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "2",
+        "sourcebook": "Marauders of the Dune Sea"
+    },
+    "trap1128": {
+        "id": "trap1128",
+        "name": "Wooden Caltrops",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "2",
+        "sourcebook": "Dun211"
+    },
+    "trap1130": {
+        "id": "trap1130",
+        "name": "Chest of Darts",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "3",
+        "sourcebook": "Dun211"
+    },
+    "trap1127": {
+        "id": "trap1127",
+        "name": "Child Scarecrow",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "3",
+        "sourcebook": "Dun211"
+    },
+    "trap135": {
+        "id": "trap135",
+        "name": "Crossbow Turret",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "H2"
+    },
+    "trap476": {
+        "id": "trap476",
+        "name": "Dwarven Crossbow Turret",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "3",
+        "sourcebook": "HS2"
+    },
+    "trap137": {
+        "id": "trap137",
+        "name": "Elemental Vortex",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "H2"
+    },
+    "trap136": {
+        "id": "trap136",
+        "name": "Grasping Dead",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "H2"
+    },
+    "trap1049": {
+        "id": "trap1049",
+        "name": "Gravity Well",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "3",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap1043": {
+        "id": "trap1043",
+        "name": "Grim Statue",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "3",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap1033": {
+        "id": "trap1033",
+        "name": "Hall of Heroes Statue",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "3",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap528": {
+        "id": "trap528",
+        "name": "Lightning Obelisk",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "Marauders of the Dune Sea"
+    },
+    "trap903": {
+        "id": "trap903",
+        "name": "Magic Crossbow Turret",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "3",
+        "sourcebook": "DMK"
+    },
+    "trap7": {
+        "id": "trap7",
+        "name": "Magic Crossbow Turret",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "DMG, Dun157"
+    },
+    "trap63": {
+        "id": "trap63",
+        "name": "Magic Crossbow Turret (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "3",
+        "sourcebook": "Dun157"
+    },
+    "trap1132": {
+        "id": "trap1132",
+        "name": "Poison Gas Chest",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "3",
+        "sourcebook": "Dun211"
+    },
+    "trap131": {
+        "id": "trap131",
+        "name": "Roaring Terror",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "H2"
+    },
+    "trap458": {
+        "id": "trap458",
+        "name": "Rolling Boulder",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "3",
+        "sourcebook": "DMG"
+    },
+    "trap1120": {
+        "id": "trap1120",
+        "name": "Spiked Pit (5 Feet Deep)",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "3",
+        "sourcebook": "Dun210"
+    },
+    "trap1129": {
+        "id": "trap1129",
+        "name": "Spring-Loaded Javelin",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "3",
+        "sourcebook": "Dun211"
+    },
+    "trap1044": {
+        "id": "trap1044",
+        "name": "Warded Scroll",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "3",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap1137": {
+        "id": "trap1137",
+        "name": "Cage Trap",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "4",
+        "sourcebook": "Dun214"
+    },
+    "trap1034": {
+        "id": "trap1034",
+        "name": "Collapsing Ceiling",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "4",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap512": {
+        "id": "trap512",
+        "name": "Crystalline Web",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "4",
+        "sourcebook": "DSCC"
+    },
+    "trap511": {
+        "id": "trap511",
+        "name": "Crystalline Web",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "4",
+        "sourcebook": "DSCC, Marauders of the Dune Sea"
+    },
+    "trap1069": {
+        "id": "trap1069",
+        "name": "Fearsome Portal",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "4",
+        "sourcebook": "Dun201"
+    },
+    "trap336": {
+        "id": "trap336",
+        "name": "Flame Vent",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "4",
+        "sourcebook": "Seekers of the Ashen Crown"
+    },
+    "trap193": {
+        "id": "trap193",
+        "name": "Flooding Room",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "4",
+        "sourcebook": "FR1"
+    },
+    "trap1079": {
+        "id": "trap1079",
+        "name": "Kissing Maiden",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "4",
+        "sourcebook": "Dun201"
+    },
+    "trap30": {
+        "id": "trap30",
+        "name": "Kissing Maiden",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "4",
+        "sourcebook": "DMG2"
+    },
+    "trap1108": {
+        "id": "trap1108",
+        "name": "Net of Exploding Casks",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "4",
+        "sourcebook": "Dun209"
+    },
+    "trap904": {
+        "id": "trap904",
+        "name": "Pendulum Scythes",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "4",
+        "sourcebook": "DMK"
+    },
+    "trap9": {
+        "id": "trap9",
+        "name": "Pendulum Scythes",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "4",
+        "sourcebook": "DMG"
+    },
+    "trap255": {
+        "id": "trap255",
+        "name": "Pendulum Scythes (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "4",
+        "sourcebook": "DMG"
+    },
+    "trap466": {
+        "id": "trap466",
+        "name": "Pillars of Chaos",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "4",
+        "sourcebook": "Demonomicon"
+    },
+    "trap119": {
+        "id": "trap119",
+        "name": "Poison Mist",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "4",
+        "sourcebook": "Dun165"
+    },
+    "trap266": {
+        "id": "trap266",
+        "name": "Pyrotechnics Trap",
+        "type": "Trap",
+        "grouprole": "Solo",
+        "level": "4",
+        "sourcebook": "DraAnnual"
+    },
+    "trap40": {
+        "id": "trap40",
+        "name": "Pyrotechnics Trap",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "4",
+        "sourcebook": "DraAnnual"
+    },
+    "trap265": {
+        "id": "trap265",
+        "name": "Pyrotechnics Trap (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "4",
+        "sourcebook": "DraAnnual"
+    },
+    "trap1016": {
+        "id": "trap1016",
+        "name": "Rot Grub Pit",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "4",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "trap176": {
+        "id": "trap176",
+        "name": "Sand Cascade Trap",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "4",
+        "sourcebook": "DD"
+    },
+    "trap915": {
+        "id": "trap915",
+        "name": "Scything Blades",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "4",
+        "sourcebook": "Dun182"
+    },
+    "trap1138": {
+        "id": "trap1138",
+        "name": "Slide Trap",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "4",
+        "sourcebook": "Dun214"
+    },
+    "trap1125": {
+        "id": "trap1125",
+        "name": "Spiked Pit",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "4",
+        "sourcebook": "Dun211"
+    },
+    "trap1082": {
+        "id": "trap1082",
+        "name": "Trapdoor Aloft",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "4",
+        "sourcebook": "Dun201"
+    },
+    "trap1073": {
+        "id": "trap1073",
+        "name": "Blinding Portal",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "5",
+        "sourcebook": "Dun201"
+    },
+    "trap1134": {
+        "id": "trap1134",
+        "name": "Charming Door",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "5",
+        "sourcebook": "Dun213"
+    },
+    "trap61": {
+        "id": "trap61",
+        "name": "Cresset Trap",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "5",
+        "sourcebook": "Dun156"
+    },
+    "trap940": {
+        "id": "trap940",
+        "name": "Evard's Tentacle Trap",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "5",
+        "sourcebook": "Dun192"
+    },
+    "trap1048": {
+        "id": "trap1048",
+        "name": "Falling Blocks",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "5",
+        "sourcebook": "Halls of Undermountain"
+    },
+    "trap460": {
+        "id": "trap460",
+        "name": "Falling Log Barrier",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "5",
+        "sourcebook": "Dun178"
+    },
+    "trap1135": {
+        "id": "trap1135",
+        "name": "Foot Crusher",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "5",
+        "sourcebook": "Dun213"
+    },
+    "trap909": {
+        "id": "trap909",
+        "name": "Footchopper Alarm Trap",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "5",
+        "sourcebook": "Dun180"
+    },
+    "trap312": {
+        "id": "trap312",
+        "name": "Force Burst Wall",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "5",
+        "sourcebook": "Dun169"
+    },
+    "trap167": {
+        "id": "trap167",
+        "name": "Golden Spines",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "5",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "trap271": {
+        "id": "trap271",
+        "name": "Golden Spines (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "5",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "trap178": {
+        "id": "trap178",
+        "name": "Ice Cell",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "5",
+        "sourcebook": "DD"
+    },
+    "trap41": {
+        "id": "trap41",
+        "name": "Leg Breaker Trap",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "5",
+        "sourcebook": "DraAnnual"
+    },
+    "trap267": {
+        "id": "trap267",
+        "name": "Leg Breaker Trap (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "5",
+        "sourcebook": "DraAnnual"
+    },
+    "trap314": {
+        "id": "trap314",
+        "name": "Lightning Hallway",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "5",
+        "sourcebook": "Dun169"
+    },
+    "trap1119": {
+        "id": "trap1119",
+        "name": "Springing Spear",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "5",
+        "sourcebook": "Dun210"
+    },
+    "trap905": {
+        "id": "trap905",
+        "name": "Whirling Blades",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "5",
+        "sourcebook": "DMK, Dun213"
+    },
+    "trap10": {
+        "id": "trap10",
+        "name": "Whirling Blades",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "5",
+        "sourcebook": "DMG"
+    },
+    "trap299": {
+        "id": "trap299",
+        "name": "Arcane Turret",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "6",
+        "sourcebook": "Dun167, DunAnnual"
+    },
+    "trap300": {
+        "id": "trap300",
+        "name": "Ceiling Scythe",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "6",
+        "sourcebook": "Dun167, DunAnnual"
+    },
+    "trap937": {
+        "id": "trap937",
+        "name": "Corpse Wall",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "6",
+        "sourcebook": "NCS"
+    },
+    "trap467": {
+        "id": "trap467",
+        "name": "Demon Face Idol",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "6",
+        "sourcebook": "Demonomicon"
+    },
+    "trap177": {
+        "id": "trap177",
+        "name": "Exploding Braziers",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "6",
+        "sourcebook": "DD"
+    },
+    "trap57": {
+        "id": "trap57",
+        "name": "Field of Snares",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "6",
+        "sourcebook": "Dun156"
+    },
+    "trap914": {
+        "id": "trap914",
+        "name": "Offal Filled Pit",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "6",
+        "sourcebook": "Dun183"
+    },
+    "trap313": {
+        "id": "trap313",
+        "name": "Poisoned Dart Passage",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "6",
+        "sourcebook": "Dun169"
+    },
+    "trap906": {
+        "id": "trap906",
+        "name": "Poisoned Dart Wall",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "6",
+        "sourcebook": "DMK"
+    },
+    "trap12": {
+        "id": "trap12",
+        "name": "Poisoned Dart Wall",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "6",
+        "sourcebook": "DMG, Dun159"
+    },
+    "trap257": {
+        "id": "trap257",
+        "name": "Poisoned Dart Wall (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "6",
+        "sourcebook": "DMG"
+    },
+    "trap908": {
+        "id": "trap908",
+        "name": "Possessed Skull",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "6",
+        "sourcebook": "Dun180"
+    },
+    "trap301": {
+        "id": "trap301",
+        "name": "Razormesh Nets",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "6",
+        "sourcebook": "Dun167, DunAnnual"
+    },
+    "trap69": {
+        "id": "trap69",
+        "name": "Shadow Dart Wall",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "6",
+        "sourcebook": "Dun158"
+    },
+    "trap931": {
+        "id": "trap931",
+        "name": "Spiked Chain Pinwheel",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "6",
+        "sourcebook": "Dun189"
+    },
+    "trap429": {
+        "id": "trap429",
+        "name": "Arcane Generator",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "DunAnnual, Dun167"
+    },
+    "trap304": {
+        "id": "trap304",
+        "name": "Calmachia's Forge (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "7",
+        "sourcebook": "Dun167, DunAnnual"
+    },
+    "trap303": {
+        "id": "trap303",
+        "name": "Catwalk Deadfall and Mesh",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "7",
+        "sourcebook": "Dun167, DunAnnual"
+    },
+    "trap145": {
+        "id": "trap145",
+        "name": "Clamping Stairs",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "H3"
+    },
+    "trap315": {
+        "id": "trap315",
+        "name": "Curse of the Devouring Darkness",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "7",
+        "sourcebook": "Dun169"
+    },
+    "trap358": {
+        "id": "trap358",
+        "name": "Dragontooth Passageway",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap919": {
+        "id": "trap919",
+        "name": "Elemental Turret",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "7",
+        "sourcebook": "TS"
+    },
+    "trap1101": {
+        "id": "trap1101",
+        "name": "Elite Glyph of Warding",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "7",
+        "sourcebook": "Dun206"
+    },
+    "trap31": {
+        "id": "trap31",
+        "name": "Falling Iron Portcullis",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "7",
+        "sourcebook": "DMG2, Dun155, HS2"
+    },
+    "trap1076": {
+        "id": "trap1076",
+        "name": "Forced Lightning Door",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "7",
+        "sourcebook": "Dun201"
+    },
+    "trap206": {
+        "id": "trap206",
+        "name": "Gibbering Head",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "Open Grave"
+    },
+    "trap142": {
+        "id": "trap142",
+        "name": "Glyph of Ioun",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "H3"
+    },
+    "trap907": {
+        "id": "trap907",
+        "name": "Glyph of Warding",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "7",
+        "sourcebook": "DMK, Madness at Gardmore Abbey, Dun213"
+    },
+    "trap13": {
+        "id": "trap13",
+        "name": "Glyph of Warding",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "DMG, DraAnnual, Dun155"
+    },
+    "trap258": {
+        "id": "trap258",
+        "name": "Glyph of Warding (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "7",
+        "sourcebook": "DMG"
+    },
+    "trap1100": {
+        "id": "trap1100",
+        "name": "Glyph of Warding (necrotic)",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "7",
+        "sourcebook": "Dun206"
+    },
+    "trap42": {
+        "id": "trap42",
+        "name": "Gravity Sphere",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "DraAnnual"
+    },
+    "trap268": {
+        "id": "trap268",
+        "name": "Gravity Sphere (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "7",
+        "sourcebook": "DraAnnual"
+    },
+    "trap139": {
+        "id": "trap139",
+        "name": "Pivoting Floor and Wall",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "H3"
+    },
+    "trap1087": {
+        "id": "trap1087",
+        "name": "Psychic Glyph",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "7",
+        "sourcebook": "Dun202"
+    },
+    "trap144": {
+        "id": "trap144",
+        "name": "Shifting Stairs",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "H3"
+    },
+    "trap1008": {
+        "id": "trap1008",
+        "name": "Spinning Statue",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "7",
+        "sourcebook": "Dun195"
+    },
+    "trap1118": {
+        "id": "trap1118",
+        "name": "Spring-Loaded Scythe Trap",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "7",
+        "sourcebook": "Dun210"
+    },
+    "trap1025": {
+        "id": "trap1025",
+        "name": "Tempest Glyph",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "7",
+        "sourcebook": "Dun197"
+    },
+    "trap298": {
+        "id": "trap298",
+        "name": "Warding Hall Glyph (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "7",
+        "sourcebook": "Dun167, DunAnnual"
+    },
+    "trap140": {
+        "id": "trap140",
+        "name": "Water Pipe",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "7",
+        "sourcebook": "H3"
+    },
+    "trap912": {
+        "id": "trap912",
+        "name": "Yarnath's Glyph of Warding",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "7",
+        "sourcebook": "Dun183"
+    },
+    "trap1140": {
+        "id": "trap1140",
+        "name": "Animated Armory",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "8",
+        "sourcebook": "Dun214"
+    },
+    "trap1143": {
+        "id": "trap1143",
+        "name": "Animated Crossbow",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "8",
+        "sourcebook": "Dun214"
+    },
+    "trap1144": {
+        "id": "trap1144",
+        "name": "Animated Maul",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "8",
+        "sourcebook": "Dun214"
+    },
+    "trap1141": {
+        "id": "trap1141",
+        "name": "Animated Rapier",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "8",
+        "sourcebook": "Dun214"
+    },
+    "trap1145": {
+        "id": "trap1145",
+        "name": "Animated Shield",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "8",
+        "sourcebook": "Dun214"
+    },
+    "trap56": {
+        "id": "trap56",
+        "name": "Blade Bridges",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "8",
+        "sourcebook": "Dun155"
+    },
+    "trap946": {
+        "id": "trap946",
+        "name": "Caltrops",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "8",
+        "sourcebook": "Madness at Gardmore Abbey"
+    },
+    "trap1001": {
+        "id": "trap1001",
+        "name": "Flame Jet",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "8",
+        "sourcebook": "DMK"
+    },
+    "trap15": {
+        "id": "trap15",
+        "name": "Flame Jet",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "8",
+        "sourcebook": "DMG"
+    },
+    "trap260": {
+        "id": "trap260",
+        "name": "Flame Jet (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "8",
+        "sourcebook": "DMG"
+    },
+    "trap53": {
+        "id": "trap53",
+        "name": "Frost Jet Door Trap",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "8",
+        "sourcebook": "Dun155"
+    },
+    "trap302": {
+        "id": "trap302",
+        "name": "Ghostly Flame Jets",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "8",
+        "sourcebook": "Dun167, DunAnnual"
+    },
+    "trap1121": {
+        "id": "trap1121",
+        "name": "Gorgon Mud",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "8",
+        "sourcebook": "Dun211"
+    },
+    "trap67": {
+        "id": "trap67",
+        "name": "Hellfire Spout",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "8",
+        "sourcebook": "Dun157"
+    },
+    "trap1139": {
+        "id": "trap1139",
+        "name": "Illusory Monster",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "8",
+        "sourcebook": "Dun214"
+    },
+    "trap141": {
+        "id": "trap141",
+        "name": "Inferno Room/Teleport Hall",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "8",
+        "sourcebook": "H3"
+    },
+    "trap1068": {
+        "id": "trap1068",
+        "name": "Magic Gate",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "8",
+        "sourcebook": "Dun201"
+    },
+    "trap469": {
+        "id": "trap469",
+        "name": "Mirror of Madness",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "8",
+        "sourcebook": "Demonomicon"
+    },
+    "trap1071": {
+        "id": "trap1071",
+        "name": "Negation Portal",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "8",
+        "sourcebook": "Dun201"
+    },
+    "trap359": {
+        "id": "trap359",
+        "name": "Scatter Trap",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "8",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap360": {
+        "id": "trap360",
+        "name": "Scatter Trap (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "8",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap1142": {
+        "id": "trap1142",
+        "name": "Suit of Animated Armor",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "8",
+        "sourcebook": "Dun214"
+    },
+    "trap32": {
+        "id": "trap32",
+        "name": "Water-Filling Chamber (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "8",
+        "sourcebook": "DMG2"
+    },
+    "trap60": {
+        "id": "trap60",
+        "name": "Burning Adhesive",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "9",
+        "sourcebook": "Dun156"
+    },
+    "trap65": {
+        "id": "trap65",
+        "name": "Collapsing Tracks",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "9",
+        "sourcebook": "Dun157"
+    },
+    "trap361": {
+        "id": "trap361",
+        "name": "Fire Egg Fabrication",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "9",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap168": {
+        "id": "trap168",
+        "name": "Ghoul Teeth",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "9",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "trap272": {
+        "id": "trap272",
+        "name": "Ghoul Teeth (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "9",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "trap100": {
+        "id": "trap100",
+        "name": "Spike Tube",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "9",
+        "sourcebook": "Dun161"
+    },
+    "trap1090": {
+        "id": "trap1090",
+        "name": "Storm Ward",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "9",
+        "sourcebook": "Dun202"
+    },
+    "trap923": {
+        "id": "trap923",
+        "name": "Blood Feast Ward",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "10",
+        "sourcebook": "TS"
+    },
+    "trap194": {
+        "id": "trap194",
+        "name": "Caustic Blast (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "10",
+        "sourcebook": "FR1"
+    },
+    "trap102": {
+        "id": "trap102",
+        "name": "Daggerspring Floor",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "Dun161, Dun164"
+    },
+    "trap49": {
+        "id": "trap49",
+        "name": "Deathgrasp Sarcophagus",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "Dra370"
+    },
+    "trap1002": {
+        "id": "trap1002",
+        "name": "Electrified Floor",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "10",
+        "sourcebook": "DMK"
+    },
+    "trap17": {
+        "id": "trap17",
+        "name": "Electrified Floor",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "DMG"
+    },
+    "trap261": {
+        "id": "trap261",
+        "name": "Electrified Floor (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "10",
+        "sourcebook": "DMG"
+    },
+    "trap1026": {
+        "id": "trap1026",
+        "name": "Far Transport",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "10",
+        "sourcebook": "Dun197"
+    },
+    "trap44": {
+        "id": "trap44",
+        "name": "Fighter-Flinger",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "DraAnnual"
+    },
+    "trap269": {
+        "id": "trap269",
+        "name": "Fighter-Flinger (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "10",
+        "sourcebook": "DraAnnual"
+    },
+    "trap149": {
+        "id": "trap149",
+        "name": "Grasping Bones",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "H3"
+    },
+    "trap484": {
+        "id": "trap484",
+        "name": "Lidded-Eye Obelisk",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "10",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap1015": {
+        "id": "trap1015",
+        "name": "Mirror of Life Trapping",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "10",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "trap58": {
+        "id": "trap58",
+        "name": "Phantasmal Maw (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "10",
+        "sourcebook": "Dun156"
+    },
+    "trap150": {
+        "id": "trap150",
+        "name": "Stranglemist Death Trap",
+        "type": "Trap",
+        "grouprole": "Solo",
+        "level": "10",
+        "sourcebook": "H3"
+    },
+    "trap1151": {
+        "id": "trap1151",
+        "name": "Trapped Chest",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "10",
+        "sourcebook": "Dun215"
+    },
+    "trap59": {
+        "id": "trap59",
+        "name": "Venomous Floor (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "10",
+        "sourcebook": "Dun156"
+    },
+    "trap944": {
+        "id": "trap944",
+        "name": "Warped Magic",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "10",
+        "sourcebook": "Madness at Gardmore Abbey"
+    },
+    "trap470": {
+        "id": "trap470",
+        "name": "Altar of Pazuzu",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "11",
+        "sourcebook": "Demonomicon"
+    },
+    "trap33": {
+        "id": "trap33",
+        "name": "Crushing Walls Room (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "11",
+        "sourcebook": "DMG2"
+    },
+    "trap486": {
+        "id": "trap486",
+        "name": "Game Table",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "11",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap1075": {
+        "id": "trap1075",
+        "name": "Mirroring Portal",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "11",
+        "sourcebook": "Dun201"
+    },
+    "trap1070": {
+        "id": "trap1070",
+        "name": "Portal of Powerlessness",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "11",
+        "sourcebook": "Dun201"
+    },
+    "trap443": {
+        "id": "trap443",
+        "name": "Rising and Falling Blocks",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "11",
+        "sourcebook": "Dun175"
+    },
+    "trap485": {
+        "id": "trap485",
+        "name": "Water Serpent",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "11",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap115": {
+        "id": "trap115",
+        "name": "Booby-Trapped Passage",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "12",
+        "sourcebook": "Dun164"
+    },
+    "trap109": {
+        "id": "trap109",
+        "name": "Crushing Walls and Ceiling",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "12",
+        "sourcebook": "Dun163"
+    },
+    "trap364": {
+        "id": "trap364",
+        "name": "Fake Lair Entrance",
+        "type": "Trap",
+        "grouprole": "Solo",
+        "level": "12",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap329": {
+        "id": "trap329",
+        "name": "Ooze Tile",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "12",
+        "sourcebook": "Revenge of the Giants"
+    },
+    "trap50": {
+        "id": "trap50",
+        "name": "Phaseweb",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "12",
+        "sourcebook": "Dra370"
+    },
+    "trap107": {
+        "id": "trap107",
+        "name": "Psychic Sinkhole (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "12",
+        "sourcebook": "Dun162"
+    },
+    "trap207": {
+        "id": "trap207",
+        "name": "Anefsina's Spectral Tendrils",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "Open Grave"
+    },
+    "trap330": {
+        "id": "trap330",
+        "name": "Arcane Cage",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "Revenge of the Giants"
+    },
+    "trap64": {
+        "id": "trap64",
+        "name": "Collapsing Tunnel",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "Dun157"
+    },
+    "trap1078": {
+        "id": "trap1078",
+        "name": "Dread Portal",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "13",
+        "sourcebook": "Dun201"
+    },
+    "trap487": {
+        "id": "trap487",
+        "name": "Lightning Doors",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap1022": {
+        "id": "trap1022",
+        "name": "Picket Skull",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "13",
+        "sourcebook": "Dun196"
+    },
+    "trap104": {
+        "id": "trap104",
+        "name": "Radiant Tendrils",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "Dun161"
+    },
+    "trap325": {
+        "id": "trap325",
+        "name": "River Trap",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "Revenge of the Giants"
+    },
+    "trap1003": {
+        "id": "trap1003",
+        "name": "Spectral Tendrils",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "13",
+        "sourcebook": "DMK"
+    },
+    "trap18": {
+        "id": "trap18",
+        "name": "Spectral Tendrils",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "DMG"
+    },
+    "trap324": {
+        "id": "trap324",
+        "name": "Steel Maw",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "13",
+        "sourcebook": "Revenge of the Giants"
+    },
+    "trap1023": {
+        "id": "trap1023",
+        "name": "Wall of Madness",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "13",
+        "sourcebook": "Dun197"
+    },
+    "trap112": {
+        "id": "trap112",
+        "name": "False Orrery",
+        "type": "Trap",
+        "grouprole": "Solo",
+        "level": "14",
+        "sourcebook": "Dun163"
+    },
+    "trap158": {
+        "id": "trap158",
+        "name": "Gauntlet Trap (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "14",
+        "sourcebook": "P2"
+    },
+    "trap34": {
+        "id": "trap34",
+        "name": "Giant Rolling Boulder",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "14",
+        "sourcebook": "DMG2"
+    },
+    "trap326": {
+        "id": "trap326",
+        "name": "Lightning Trap",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "14",
+        "sourcebook": "Revenge of the Giants"
+    },
+    "trap489": {
+        "id": "trap489",
+        "name": "Perilous Archways",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "14",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap1093": {
+        "id": "trap1093",
+        "name": "Possessed Boom",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "14",
+        "sourcebook": "Dun203"
+    },
+    "trap1094": {
+        "id": "trap1094",
+        "name": "Possessed Hatch",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "14",
+        "sourcebook": "Dun203"
+    },
+    "trap1095": {
+        "id": "trap1095",
+        "name": "Possessed Sails",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "14",
+        "sourcebook": "Dun203"
+    },
+    "trap71": {
+        "id": "trap71",
+        "name": "Rock Flingers",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "14",
+        "sourcebook": "Dun158"
+    },
+    "trap151": {
+        "id": "trap151",
+        "name": "Stone Cauldron",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "14",
+        "sourcebook": "P1"
+    },
+    "trap918": {
+        "id": "trap918",
+        "name": "Stone Tentacle",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "14",
+        "sourcebook": "TS"
+    },
+    "trap20": {
+        "id": "trap20",
+        "name": "Altar of Zealotry",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "DMG, DD"
+    },
+    "trap179": {
+        "id": "trap179",
+        "name": "Altar of Zealotry (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "15",
+        "sourcebook": "DMG"
+    },
+    "trap488": {
+        "id": "trap488",
+        "name": "Blind Devourer",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap1109": {
+        "id": "trap1109",
+        "name": "Crocodile Font",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "15",
+        "sourcebook": "Dun209"
+    },
+    "trap180": {
+        "id": "trap180",
+        "name": "Crushing Manacles",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "DD"
+    },
+    "trap367": {
+        "id": "trap367",
+        "name": "Dragon Simulacrum",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap368": {
+        "id": "trap368",
+        "name": "Dragon Simulacrum (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "15",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap1111": {
+        "id": "trap1111",
+        "name": "Drowning Vault",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "15",
+        "sourcebook": "Dun209"
+    },
+    "trap490": {
+        "id": "trap490",
+        "name": "Eternal Tapestries",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap1097": {
+        "id": "trap1097",
+        "name": "Gate of Zealotry",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "15",
+        "sourcebook": "Dun204"
+    },
+    "trap72": {
+        "id": "trap72",
+        "name": "Mind-Control Pillars",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Dun158"
+    },
+    "trap1115": {
+        "id": "trap1115",
+        "name": "Mold King's Casket",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "15",
+        "sourcebook": "Dun209"
+    },
+    "trap205": {
+        "id": "trap205",
+        "name": "Spectral Hands",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Open Grave"
+    },
+    "trap278": {
+        "id": "trap278",
+        "name": "Spectral Hands (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "15",
+        "sourcebook": "Open Grave"
+    },
+    "trap45": {
+        "id": "trap45",
+        "name": "Spinning Column of Death (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "15",
+        "sourcebook": "DraAnnual"
+    },
+    "trap208": {
+        "id": "trap208",
+        "name": "Ssra-Tauroch's Altar of Zealotry",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "Open Grave"
+    },
+    "trap1106": {
+        "id": "trap1106",
+        "name": "Tapestry of Breathtaking Beauty",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "15",
+        "sourcebook": "Dra418"
+    },
+    "trap114": {
+        "id": "trap114",
+        "name": "True Orrery (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "15",
+        "sourcebook": "Dun163"
+    },
+    "trap514": {
+        "id": "trap514",
+        "name": "Widow's Web",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "15",
+        "sourcebook": "DSCC"
+    },
+    "trap513": {
+        "id": "trap513",
+        "name": "Widow's Web",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "15",
+        "sourcebook": "DSCC"
+    },
+    "trap316": {
+        "id": "trap316",
+        "name": "Death Strangler Statue",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "16",
+        "sourcebook": "DMG2"
+    },
+    "trap317": {
+        "id": "trap317",
+        "name": "Elemental Tiles",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "16",
+        "sourcebook": "DMG2"
+    },
+    "trap182": {
+        "id": "trap182",
+        "name": "Far Realm Insanity Portal",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "16",
+        "sourcebook": "DD"
+    },
+    "trap328": {
+        "id": "trap328",
+        "name": "Fire Cage",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "16",
+        "sourcebook": "Revenge of the Giants"
+    },
+    "trap331": {
+        "id": "trap331",
+        "name": "Flash Frost Shaft",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "16",
+        "sourcebook": "Revenge of the Giants"
+    },
+    "trap1102": {
+        "id": "trap1102",
+        "name": "Hollow Locked Doors",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "16",
+        "sourcebook": "Dun207"
+    },
+    "trap160": {
+        "id": "trap160",
+        "name": "Howling Skulls",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "16",
+        "sourcebook": "P2"
+    },
+    "trap113": {
+        "id": "trap113",
+        "name": "Malachi's Grasping Mist (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "16",
+        "sourcebook": "Dun163"
+    },
+    "trap111": {
+        "id": "trap111",
+        "name": "Psychic Scream Ward (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "16",
+        "sourcebook": "Dun163"
+    },
+    "trap327": {
+        "id": "trap327",
+        "name": "Spiked Floor",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "16",
+        "sourcebook": "Revenge of the Giants"
+    },
+    "trap1103": {
+        "id": "trap1103",
+        "name": "Starwarp Vortex",
+        "type": "Trap",
+        "grouprole": "Solo",
+        "level": "16",
+        "sourcebook": "Dun207"
+    },
+    "trap170": {
+        "id": "trap170",
+        "name": "Thief's Curse",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "16",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "trap274": {
+        "id": "trap274",
+        "name": "Thief's Curse (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "16",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "trap1058": {
+        "id": "trap1058",
+        "name": "Acid Spray Chest",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "17",
+        "sourcebook": "Dun200"
+    },
+    "trap369": {
+        "id": "trap369",
+        "name": "Echo Gems",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "17",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap370": {
+        "id": "trap370",
+        "name": "Echo Gems (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "17",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap159": {
+        "id": "trap159",
+        "name": "Ghoul Gate",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "17",
+        "sourcebook": "P2"
+    },
+    "trap163": {
+        "id": "trap163",
+        "name": "Necrotized Floor",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "17",
+        "sourcebook": "P3"
+    },
+    "trap506": {
+        "id": "trap506",
+        "name": "Pillars of Shadow",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "17",
+        "sourcebook": "Dun180"
+    },
+    "trap1064": {
+        "id": "trap1064",
+        "name": "Tectuktitlay's Narrows",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "17",
+        "sourcebook": "Dra410"
+    },
+    "trap493": {
+        "id": "trap493",
+        "name": "Warded Doors",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "17",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap130": {
+        "id": "trap130",
+        "name": "Angel of Desolation",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "E1"
+    },
+    "trap129": {
+        "id": "trap129",
+        "name": "Angel of Madness",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "E1"
+    },
+    "trap1055": {
+        "id": "trap1055",
+        "name": "Billowing Cauldron",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "18",
+        "sourcebook": "Dun200"
+    },
+    "trap310": {
+        "id": "trap310",
+        "name": "Breath of Tiamat",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "Dun168"
+    },
+    "trap1009": {
+        "id": "trap1009",
+        "name": "Crypt Thing",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "18",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "trap333": {
+        "id": "trap333",
+        "name": "Freezing Moat",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "Revenge of the Giants"
+    },
+    "trap499": {
+        "id": "trap499",
+        "name": "Golden Mist",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap165": {
+        "id": "trap165",
+        "name": "Ice Ring",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "P3"
+    },
+    "trap1053": {
+        "id": "trap1053",
+        "name": "Inferno Pillars",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "18",
+        "sourcebook": "Dun200"
+    },
+    "trap164": {
+        "id": "trap164",
+        "name": "Lightning Obelisk (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "18",
+        "sourcebook": "P3"
+    },
+    "trap1086": {
+        "id": "trap1086",
+        "name": "Mechanical Arm",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "18",
+        "sourcebook": "Dun201"
+    },
+    "trap1112": {
+        "id": "trap1112",
+        "name": "Medusa Statue",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "18",
+        "sourcebook": "Dun209"
+    },
+    "trap498": {
+        "id": "trap498",
+        "name": "Moilian Heart",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "18",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap1052": {
+        "id": "trap1052",
+        "name": "Obsidian Doors",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "18",
+        "sourcebook": "Dun200"
+    },
+    "trap318": {
+        "id": "trap318",
+        "name": "Phantom Hunter",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "18",
+        "sourcebook": "DMG2, Dun180"
+    },
+    "trap118": {
+        "id": "trap118",
+        "name": "Seed of Winter",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "18",
+        "sourcebook": "Dun165"
+    },
+    "trap1054": {
+        "id": "trap1054",
+        "name": "Soul Mirror",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "18",
+        "sourcebook": "Dun200"
+    },
+    "trap1066": {
+        "id": "trap1066",
+        "name": "Tectuktitlay's Slow Death",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "18",
+        "sourcebook": "Dra410"
+    },
+    "trap209": {
+        "id": "trap209",
+        "name": "Vecna's Revenge (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "18",
+        "sourcebook": "Open Grave"
+    },
+    "trap1060": {
+        "id": "trap1060",
+        "name": "Wall of Tentacles",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "18",
+        "sourcebook": "Dun200"
+    },
+    "trap1059": {
+        "id": "trap1059",
+        "name": "Altar of the Eye",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "19",
+        "sourcebook": "Dun200"
+    },
+    "trap305": {
+        "id": "trap305",
+        "name": "Astral Vents",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "19",
+        "sourcebook": "Dun167"
+    },
+    "trap128": {
+        "id": "trap128",
+        "name": "Breath of Bahamut",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "19",
+        "sourcebook": "E1"
+    },
+    "trap1062": {
+        "id": "trap1062",
+        "name": "Crystal Idol of Imix",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "19",
+        "sourcebook": "Dun200"
+    },
+    "trap500": {
+        "id": "trap500",
+        "name": "Defaced Devourer",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "19",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap472": {
+        "id": "trap472",
+        "name": "Demonskin Tapestry",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "19",
+        "sourcebook": "Demonomicon"
+    },
+    "trap122": {
+        "id": "trap122",
+        "name": "Kinetic Arches",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "19",
+        "sourcebook": "E1"
+    },
+    "trap22": {
+        "id": "trap22",
+        "name": "Kinetic Wave",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "19",
+        "sourcebook": "DMG"
+    },
+    "trap371": {
+        "id": "trap371",
+        "name": "Lightning Siphon",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "19",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap372": {
+        "id": "trap372",
+        "name": "Lightning Siphon (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "19",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap373": {
+        "id": "trap373",
+        "name": "Lightning Siphon (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "19",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap374": {
+        "id": "trap374",
+        "name": "Lightning Siphon (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "19",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap447": {
+        "id": "trap447",
+        "name": "Magic Force Bridge",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "19",
+        "sourcebook": "Dun175"
+    },
+    "trap1065": {
+        "id": "trap1065",
+        "name": "Tectuktitlay's Observer",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "19",
+        "sourcebook": "Dra410"
+    },
+    "trap123": {
+        "id": "trap123",
+        "name": "Void Extrusion",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "19",
+        "sourcebook": "E1"
+    },
+    "trap501": {
+        "id": "trap501",
+        "name": "White Altar",
+        "type": "Trap",
+        "grouprole": "Solo",
+        "level": "19",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap46": {
+        "id": "trap46",
+        "name": "Bouncing Barrage (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "20",
+        "sourcebook": "DraAnnual"
+    },
+    "trap1012": {
+        "id": "trap1012",
+        "name": "Glyph of Changes",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "20",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "trap319": {
+        "id": "trap319",
+        "name": "Pain Vault",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "20",
+        "sourcebook": "DMG2"
+    },
+    "trap287": {
+        "id": "trap287",
+        "name": "Pillar of Zealotry",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "20",
+        "sourcebook": "E2"
+    },
+    "trap1063": {
+        "id": "trap1063",
+        "name": "Rockfire Obelisk",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "20",
+        "sourcebook": "Dun200"
+    },
+    "trap379": {
+        "id": "trap379",
+        "name": "That Which Should Not Be",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "20",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap1148": {
+        "id": "trap1148",
+        "name": "Collapsing Floor Puzzle",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "21",
+        "sourcebook": "Dun215"
+    },
+    "trap375": {
+        "id": "trap375",
+        "name": "Grasping Stalagmites",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "21",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap376": {
+        "id": "trap376",
+        "name": "Grasping Stalagmites (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "21",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap75": {
+        "id": "trap75",
+        "name": "Pain Pyramid",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "21",
+        "sourcebook": "Dun159"
+    },
+    "trap81": {
+        "id": "trap81",
+        "name": "Force Cascade",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "22",
+        "sourcebook": "Dun160"
+    },
+    "trap1051": {
+        "id": "trap1051",
+        "name": "Rolling Ball of Ice",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "22",
+        "sourcebook": "Dun200"
+    },
+    "trap125": {
+        "id": "trap125",
+        "name": "Acid Pit",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "23",
+        "sourcebook": "E1"
+    },
+    "trap124": {
+        "id": "trap124",
+        "name": "Altar of Compassion",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "23",
+        "sourcebook": "E1"
+    },
+    "trap126": {
+        "id": "trap126",
+        "name": "Endless Fall",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "23",
+        "sourcebook": "E1"
+    },
+    "trap416": {
+        "id": "trap416",
+        "name": "Entropic Collapse",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "23",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap127": {
+        "id": "trap127",
+        "name": "Mist of Storm",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "23",
+        "sourcebook": "E1"
+    },
+    "trap187": {
+        "id": "trap187",
+        "name": "Necrotic Tiles (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "23",
+        "sourcebook": "DD"
+    },
+    "trap507": {
+        "id": "trap507",
+        "name": "Nerull's Claws",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "23",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap186": {
+        "id": "trap186",
+        "name": "Primordial Flame Jet",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "23",
+        "sourcebook": "DD"
+    },
+    "trap82": {
+        "id": "trap82",
+        "name": "Radiant Blades",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "23",
+        "sourcebook": "Dun160"
+    },
+    "trap473": {
+        "id": "trap473",
+        "name": "Slaughter Monolith",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "23",
+        "sourcebook": "Demonomicon"
+    },
+    "trap121": {
+        "id": "trap121",
+        "name": "Stasis Vault",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "23",
+        "sourcebook": "E1"
+    },
+    "trap383": {
+        "id": "trap383",
+        "name": "Tiamat Mosaic",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "23",
+        "sourcebook": "Dun171"
+    },
+    "trap502": {
+        "id": "trap502",
+        "name": "Blade Cluster",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "24",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap86": {
+        "id": "trap86",
+        "name": "Death Forest",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "24",
+        "sourcebook": "Dun160"
+    },
+    "trap210": {
+        "id": "trap210",
+        "name": "Demon Brazier",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "24",
+        "sourcebook": "Open Grave"
+    },
+    "trap184": {
+        "id": "trap184",
+        "name": "Eye of Eradication (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "24",
+        "sourcebook": "DD"
+    },
+    "trap183": {
+        "id": "trap183",
+        "name": "Four Winds Trap",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "24",
+        "sourcebook": "DD"
+    },
+    "trap285": {
+        "id": "trap285",
+        "name": "Grounding Fire Braziers",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "24",
+        "sourcebook": "E2"
+    },
+    "trap377": {
+        "id": "trap377",
+        "name": "Haunting Conscience",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "24",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap378": {
+        "id": "trap378",
+        "name": "Haunting Conscience (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "24",
+        "sourcebook": "Draco: Metallic"
+    },
+    "trap288": {
+        "id": "trap288",
+        "name": "Pillar of Kinetic Waves",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "24",
+        "sourcebook": "E2"
+    },
+    "trap286": {
+        "id": "trap286",
+        "name": "Roaming Toad",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "24",
+        "sourcebook": "E2"
+    },
+    "trap24": {
+        "id": "trap24",
+        "name": "Symbol of Suffering",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "24",
+        "sourcebook": "DMG, E2"
+    },
+    "trap84": {
+        "id": "trap84",
+        "name": "Symbols of Insanity",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "24",
+        "sourcebook": "Dun160"
+    },
+    "trap381": {
+        "id": "trap381",
+        "name": "Venomous Tree",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "24",
+        "sourcebook": "Dun171"
+    },
+    "trap85": {
+        "id": "trap85",
+        "name": "Vileshadow Mist",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "24",
+        "sourcebook": "Dun160"
+    },
+    "trap93": {
+        "id": "trap93",
+        "name": "Breathing Door (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "25",
+        "sourcebook": "Dun160, Draco: Chromatic"
+    },
+    "trap97": {
+        "id": "trap97",
+        "name": "Claws of Sand",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "25",
+        "sourcebook": "Dun160, Draco: Chromatic"
+    },
+    "trap94": {
+        "id": "trap94",
+        "name": "Dragon Blades",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "25",
+        "sourcebook": "Dun160, Draco: Chromatic"
+    },
+    "trap422": {
+        "id": "trap422",
+        "name": "Forgeworks",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "25",
+        "sourcebook": "Dun173"
+    },
+    "trap289": {
+        "id": "trap289",
+        "name": "Gorgimrith's Maw (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "25",
+        "sourcebook": "E2"
+    },
+    "trap173": {
+        "id": "trap173",
+        "name": "Hellish Halberd (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "25",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "trap1107": {
+        "id": "trap1107",
+        "name": "Imprisoning Threads",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "25",
+        "sourcebook": "Dra418"
+    },
+    "trap98": {
+        "id": "trap98",
+        "name": "Jaws of Death (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "25",
+        "sourcebook": "Dun160, Draco: Chromatic"
+    },
+    "trap420": {
+        "id": "trap420",
+        "name": "Platinum Seal",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "25",
+        "sourcebook": "Dun173"
+    },
+    "trap96": {
+        "id": "trap96",
+        "name": "Sweeping Halberd (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "25",
+        "sourcebook": "Dun160"
+    },
+    "trap505": {
+        "id": "trap505",
+        "name": "White Pool",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "25",
+        "sourcebook": "Tomb of Horrors"
+    },
+    "trap291": {
+        "id": "trap291",
+        "name": "Blood-Filling Chamber",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "26",
+        "sourcebook": "E2"
+    },
+    "trap385": {
+        "id": "trap385",
+        "name": "Dawnbell",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "26",
+        "sourcebook": "Dun172"
+    },
+    "trap89": {
+        "id": "trap89",
+        "name": "Dread Pit (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "26",
+        "sourcebook": "Dun160"
+    },
+    "trap99": {
+        "id": "trap99",
+        "name": "Earthen Wyvern",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "26",
+        "sourcebook": "Dun160, Draco: Chromatic"
+    },
+    "trap421": {
+        "id": "trap421",
+        "name": "Eye of Bahamut",
+        "type": "Trap",
+        "grouprole": "Solo",
+        "level": "26",
+        "sourcebook": "Dun173"
+    },
+    "trap51": {
+        "id": "trap51",
+        "name": "False Demilich",
+        "type": "Trap",
+        "grouprole": "Solo",
+        "level": "26",
+        "sourcebook": "Dra371"
+    },
+    "trap445": {
+        "id": "trap445",
+        "name": "Far Realm Gate",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "26",
+        "sourcebook": "Dun175"
+    },
+    "trap321": {
+        "id": "trap321",
+        "name": "Far Realm Star Trap (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "26",
+        "sourcebook": "DMG2"
+    },
+    "trap90": {
+        "id": "trap90",
+        "name": "Mirrors of Dark Visions",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "26",
+        "sourcebook": "Dun160"
+    },
+    "trap415": {
+        "id": "trap415",
+        "name": "Serpent-Twined Statue",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "26",
+        "sourcebook": "TPB"
+    },
+    "trap88": {
+        "id": "trap88",
+        "name": "Slashing Portcullis (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "26",
+        "sourcebook": "Dun160"
+    },
+    "trap1006": {
+        "id": "trap1006",
+        "name": "Soul Gem",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "26",
+        "sourcebook": "DMK"
+    },
+    "trap25": {
+        "id": "trap25",
+        "name": "Soul Gem",
+        "type": "Trap",
+        "grouprole": "Solo",
+        "level": "26",
+        "sourcebook": "DMG, E2"
+    },
+    "trap292": {
+        "id": "trap292",
+        "name": "Soul Gem",
+        "type": "Trap",
+        "grouprole": "Solo",
+        "level": "26",
+        "sourcebook": "E2"
+    },
+    "trap290": {
+        "id": "trap290",
+        "name": "Symbol of Suffering",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "26",
+        "sourcebook": "E2"
+    },
+    "trap87": {
+        "id": "trap87",
+        "name": "Tiamat Doors (Elite)",
+        "type": "Trap",
+        "grouprole": "Elite",
+        "level": "26",
+        "sourcebook": "Dun160"
+    },
+    "trap92": {
+        "id": "trap92",
+        "name": "Eye of Zaggoth",
+        "type": "Trap",
+        "grouprole": "Solo",
+        "level": "27",
+        "sourcebook": "Dun160"
+    },
+    "trap483": {
+        "id": "trap483",
+        "name": "Portal to Abysm",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "27",
+        "sourcebook": "Demonomicon"
+    },
+    "trap83": {
+        "id": "trap83",
+        "name": "Shooting Star",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "27",
+        "sourcebook": "Dun160"
+    },
+    "trap446": {
+        "id": "trap446",
+        "name": "Death Strangler Vines",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "28",
+        "sourcebook": "Dun175"
+    },
+    "trap342": {
+        "id": "trap342",
+        "name": "Forgesong",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "28",
+        "sourcebook": "E3"
+    },
+    "trap322": {
+        "id": "trap322",
+        "name": "Maddening Mural",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "29",
+        "sourcebook": "DMG2"
+    },
+    "trap1007": {
+        "id": "trap1007",
+        "name": "Sphere of Annihilation",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "29",
+        "sourcebook": "DMK"
+    },
+    "trap1017": {
+        "id": "trap1017",
+        "name": "Symbol of Death",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "29",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "trap346": {
+        "id": "trap346",
+        "name": "Alluring Obelisks",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "30",
+        "sourcebook": "E3"
+    },
+    "trap175": {
+        "id": "trap175",
+        "name": "Five-Headed Trap",
+        "type": "Trap",
+        "grouprole": "Standard",
+        "level": "30",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "trap448": {
+        "id": "trap448",
+        "name": "Tornado Alley",
+        "type": "Trap",
+        "grouprole": "Minion",
+        "level": "30",
+        "sourcebook": "Dun175"
+    },
+    "trap1072": {
+        "id": "trap1072",
+        "name": "Reanimation Doorway",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "Variable",
+        "sourcebook": "Dun201"
+    },
+    "trap1077": {
+        "id": "trap1077",
+        "name": "Summoning Portal",
+        "type": "Trap",
+        "grouprole": "None",
+        "level": "Variable",
+        "sourcebook": "Dun201"
+    }
+}

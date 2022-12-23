@@ -2,6 +2,7 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 import { IconButton } from 'react-native-paper';
+import { CompendiumItemDetails } from '../components/CompendiumItemDetails';
 import { CompendiumListViewer } from '../components/CompendiumListViewer';
 import { EnemyDetails } from '../components/EnemyDetails';
 import { MonsterListing } from '../components/MonsterListing';
@@ -13,22 +14,17 @@ export const CompendiumListStack = ({ navigation, route }) => {
     if (category == undefined) throw 'Category is undefined';
     return (
         <Stack.Navigator initialRouteName="MonsterListing">
-            <Stack.Screen name="MonsterDetails" component={EnemyDetails}
+            <Stack.Screen name="ItemDetails" component={CompendiumItemDetails}
                 options={{
                     title: "Details",
-                    headerRight: () =>
-                        <>
-                            <IconButton icon="check" />
-                        </>
-                    ,
                 }} />
             <Stack.Screen
                 name="MonsterListing"
                 component={CompendiumListViewer}
-                initialParams={{category}}
+                initialParams={{category:category}}
                 options={{
-                    title: 'Bestiary',
-                        
+                    // title: 'Compendium',
+                    headerShown:false,    
                 }}
             />
         </Stack.Navigator>

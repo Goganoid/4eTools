@@ -1,0 +1,940 @@
+{
+    "deity1": {
+        "id": "deity1",
+        "name": "Avandra",
+        "domains": "Change, Freedom, Luck",
+        "alignment": "Good",
+        "sourcebook": "PHB, HotFL"
+    },
+    "deity2": {
+        "id": "deity2",
+        "name": "Bahamut",
+        "domains": "Hope, Justice, Protection",
+        "alignment": "Lawful Good",
+        "sourcebook": "PHB, HotFL"
+    },
+    "deity3": {
+        "id": "deity3",
+        "name": "Corellon",
+        "domains": "Arcana, Skill, Wilderness",
+        "alignment": "Unaligned",
+        "sourcebook": "PHB, HotFL"
+    },
+    "deity4": {
+        "id": "deity4",
+        "name": "Erathis",
+        "domains": "Civilization, Creation, Justice",
+        "alignment": "Unaligned",
+        "sourcebook": "PHB, HotFL"
+    },
+    "deity5": {
+        "id": "deity5",
+        "name": "Ioun",
+        "domains": "Fate, Knowledge, Skill",
+        "alignment": "Unaligned",
+        "sourcebook": "PHB, HotFL"
+    },
+    "deity6": {
+        "id": "deity6",
+        "name": "Kord",
+        "domains": "Storm, Strength, War",
+        "alignment": "Unaligned",
+        "sourcebook": "PHB, HotFL"
+    },
+    "deity7": {
+        "id": "deity7",
+        "name": "Melora",
+        "domains": "Life, Sea, Wilderness",
+        "alignment": "Unaligned",
+        "sourcebook": "PHB, HotFL"
+    },
+    "deity8": {
+        "id": "deity8",
+        "name": "Moradin",
+        "domains": "Creation, Earth, Protection",
+        "alignment": "Lawful Good",
+        "sourcebook": "PHB, HotFL"
+    },
+    "deity9": {
+        "id": "deity9",
+        "name": "Pelor",
+        "domains": "Hope, Life, Sun",
+        "alignment": "Good",
+        "sourcebook": "PHB, HotFL"
+    },
+    "deity11": {
+        "id": "deity11",
+        "name": "Sehanine",
+        "domains": "Love, Moon, Trickery",
+        "alignment": "Unaligned",
+        "sourcebook": "PHB, HotFL"
+    },
+    "deity10": {
+        "id": "deity10",
+        "name": "The Raven Queen",
+        "domains": "Death, Fate, Winter",
+        "alignment": "Unaligned",
+        "sourcebook": "PHB, HotFL"
+    },
+    "deity52": {
+        "id": "deity52",
+        "name": "Abbathor",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity47": {
+        "id": "deity47",
+        "name": "Akadi",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity14": {
+        "id": "deity14",
+        "name": "Amaunator",
+        "domains": "Civilization, Justice, Sun",
+        "alignment": "Lawful Good",
+        "sourcebook": "FRCG"
+    },
+    "deity30": {
+        "id": "deity30",
+        "name": "Angharradh",
+        "domains": "Hope, Protection",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity53": {
+        "id": "deity53",
+        "name": "Arvoreen",
+        "domains": "None",
+        "alignment": "Lawful Good",
+        "sourcebook": "FRCG"
+    },
+    "deity137": {
+        "id": "deity137",
+        "name": "Asmodeus (Forgotten Realms)",
+        "domains": "Knowledge, Torment, Tyranny",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity31": {
+        "id": "deity31",
+        "name": "Auril",
+        "domains": "Storm, Winter",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity95": {
+        "id": "deity95",
+        "name": "Baalzebul",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity54": {
+        "id": "deity54",
+        "name": "Baervan Wildwanderer",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity136": {
+        "id": "deity136",
+        "name": "Bahamut (Forgotten Realms)",
+        "domains": "Justice, Strength",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity55": {
+        "id": "deity55",
+        "name": "Bahgtru",
+        "domains": "None",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity138": {
+        "id": "deity138",
+        "name": "Bane (Forgotten Realms)",
+        "domains": "Civilization, Tyranny, War",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity56": {
+        "id": "deity56",
+        "name": "Baravar Cloakshadow",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity48": {
+        "id": "deity48",
+        "name": "Bazim-Gorag",
+        "domains": "None",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity89": {
+        "id": "deity89",
+        "name": "Bel",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity92": {
+        "id": "deity92",
+        "name": "Belial",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity32": {
+        "id": "deity32",
+        "name": "Berronar Truesilver",
+        "domains": "Life, Protection",
+        "alignment": "Lawful Good",
+        "sourcebook": "FRCG"
+    },
+    "deity33": {
+        "id": "deity33",
+        "name": "Beshaba",
+        "domains": "Fate, Trickery",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity57": {
+        "id": "deity57",
+        "name": "Brandobaris",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity58": {
+        "id": "deity58",
+        "name": "Callarduran Smoothhands",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity17": {
+        "id": "deity17",
+        "name": "Chauntea",
+        "domains": "Earth, Hope, Life",
+        "alignment": "Lawful Good",
+        "sourcebook": "FRCG"
+    },
+    "deity59": {
+        "id": "deity59",
+        "name": "Clangeddin Silverbeard",
+        "domains": "None",
+        "alignment": "Lawful Good",
+        "sourcebook": "FRCG"
+    },
+    "deity142": {
+        "id": "deity142",
+        "name": "Corellon (Forgotten Realms)",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity18": {
+        "id": "deity18",
+        "name": "Cyric",
+        "domains": "Madness, Strife, Trickery",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity60": {
+        "id": "deity60",
+        "name": "Cyrrollalee",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity61": {
+        "id": "deity61",
+        "name": "Deep Sashelas",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity90": {
+        "id": "deity90",
+        "name": "Dispater",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity62": {
+        "id": "deity62",
+        "name": "Dugmaren Brightmantle",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity63": {
+        "id": "deity63",
+        "name": "Erevan Ilesere",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity64": {
+        "id": "deity64",
+        "name": "Fenmarel Mestarine",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity65": {
+        "id": "deity65",
+        "name": "Fzoul Chembryl",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity66": {
+        "id": "deity66",
+        "name": "Garagos",
+        "domains": "None",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity34": {
+        "id": "deity34",
+        "name": "Garl Glittergold",
+        "domains": "Creation, Trickery",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity19": {
+        "id": "deity19",
+        "name": "Ghaunadaur",
+        "domains": "Destruction, Earth, Madness",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity94": {
+        "id": "deity94",
+        "name": "Glasya",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity35": {
+        "id": "deity35",
+        "name": "Gond",
+        "domains": "Creation, Knowledge",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity49": {
+        "id": "deity49",
+        "name": "Grumbar",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity139": {
+        "id": "deity139",
+        "name": "Gruumsh (Forgotten Realms)",
+        "domains": "Destruction, Storm, Strength",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity67": {
+        "id": "deity67",
+        "name": "Hoar",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity68": {
+        "id": "deity68",
+        "name": "Hruggek",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity36": {
+        "id": "deity36",
+        "name": "Ilmater",
+        "domains": "Freedom, Hope",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity50": {
+        "id": "deity50",
+        "name": "Istishia",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity69": {
+        "id": "deity69",
+        "name": "Jergal",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity21": {
+        "id": "deity21",
+        "name": "Kelemvor",
+        "domains": "Death, Fate, Justice",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity51": {
+        "id": "deity51",
+        "name": "Kossuth",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity70": {
+        "id": "deity70",
+        "name": "Labelas Enoreth",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity93": {
+        "id": "deity93",
+        "name": "Levistus",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity71": {
+        "id": "deity71",
+        "name": "Lliira",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity140": {
+        "id": "deity140",
+        "name": "Lolth (Forgotten Realms)",
+        "domains": "Darkness, Poison, Strife",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity37": {
+        "id": "deity37",
+        "name": "Loviatar",
+        "domains": "Torment, Vengeance",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity38": {
+        "id": "deity38",
+        "name": "Luthic",
+        "domains": "Earth, Protection",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity72": {
+        "id": "deity72",
+        "name": "Maglubiyet",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity73": {
+        "id": "deity73",
+        "name": "Malar",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity91": {
+        "id": "deity91",
+        "name": "Mammon",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity74": {
+        "id": "deity74",
+        "name": "Marthammor Duin",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity96": {
+        "id": "deity96",
+        "name": "Mephistopheles",
+        "domains": "None",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity39": {
+        "id": "deity39",
+        "name": "Mielikki",
+        "domains": "Freedom, Wilderness",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity75": {
+        "id": "deity75",
+        "name": "Milil",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity76": {
+        "id": "deity76",
+        "name": "Obould",
+        "domains": "None",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity23": {
+        "id": "deity23",
+        "name": "Oghma",
+        "domains": "Knowledge, Skill, Trickery",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity24": {
+        "id": "deity24",
+        "name": "Selûne",
+        "domains": "Arcana, Change, Moon",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity25": {
+        "id": "deity25",
+        "name": "Shar",
+        "domains": "Darkness, Knowledge, Undeath",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity78": {
+        "id": "deity78",
+        "name": "Sharess",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity79": {
+        "id": "deity79",
+        "name": "Shargaas",
+        "domains": "None",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity40": {
+        "id": "deity40",
+        "name": "Sheela Peryroyl",
+        "domains": "Love, Wilderness",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity80": {
+        "id": "deity80",
+        "name": "Shevarash",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity81": {
+        "id": "deity81",
+        "name": "Shiallia",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity82": {
+        "id": "deity82",
+        "name": "Siamorphe",
+        "domains": "None",
+        "alignment": "Lawful Good",
+        "sourcebook": "FRCG"
+    },
+    "deity26": {
+        "id": "deity26",
+        "name": "Silvanus",
+        "domains": "Life, Storm, Wilderness",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity83": {
+        "id": "deity83",
+        "name": "Solonor Thelandira",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity41": {
+        "id": "deity41",
+        "name": "Sseth",
+        "domains": "Arcana, Darkness",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity27": {
+        "id": "deity27",
+        "name": "Sune",
+        "domains": "Love, Skill, Trickery",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity42": {
+        "id": "deity42",
+        "name": "Talona",
+        "domains": "Destruction, Poison",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity28": {
+        "id": "deity28",
+        "name": "Tempus",
+        "domains": "Protection, Strength, War",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity84": {
+        "id": "deity84",
+        "name": "Thard Harr",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity77": {
+        "id": "deity77",
+        "name": "The Red Knight",
+        "domains": "None",
+        "alignment": "Lawful Good",
+        "sourcebook": "FRCG"
+    },
+    "deity141": {
+        "id": "deity141",
+        "name": "Tiamat (Forgotten Realms)",
+        "domains": "Tyranny, Vengeance",
+        "alignment": "Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity29": {
+        "id": "deity29",
+        "name": "Torm",
+        "domains": "Civilization, Justice, Protection",
+        "alignment": "Lawful Good",
+        "sourcebook": "FRCG"
+    },
+    "deity13": {
+        "id": "deity13",
+        "name": "Tymora",
+        "domains": "Change, Luck",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity44": {
+        "id": "deity44",
+        "name": "Umberlee",
+        "domains": "Sea, Storm",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity85": {
+        "id": "deity85",
+        "name": "Uthgar",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity86": {
+        "id": "deity86",
+        "name": "Valkur",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "FRCG"
+    },
+    "deity87": {
+        "id": "deity87",
+        "name": "Vaprak",
+        "domains": "None",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "FRCG"
+    },
+    "deity88": {
+        "id": "deity88",
+        "name": "Vergadain",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity45": {
+        "id": "deity45",
+        "name": "Waukeen",
+        "domains": "Civilization, Knowledge",
+        "alignment": "Unaligned",
+        "sourcebook": "FRCG"
+    },
+    "deity107": {
+        "id": "deity107",
+        "name": "Arawai",
+        "domains": "Life, Storm, Wilderness",
+        "alignment": "Good",
+        "sourcebook": "EPG"
+    },
+    "deity108": {
+        "id": "deity108",
+        "name": "Aureon",
+        "domains": "Arcana, Justice, Knowledge",
+        "alignment": "Unaligned",
+        "sourcebook": "EPG"
+    },
+    "deity109": {
+        "id": "deity109",
+        "name": "Balinor",
+        "domains": "Earth, Strength, Wilderness",
+        "alignment": "Unaligned",
+        "sourcebook": "EPG"
+    },
+    "deity110": {
+        "id": "deity110",
+        "name": "Boldrei",
+        "domains": "Civilization, Justice, Protection",
+        "alignment": "Good",
+        "sourcebook": "EPG"
+    },
+    "deity134": {
+        "id": "deity134",
+        "name": "Cults of the Dragon Below",
+        "domains": "Darkness, Madness",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "EPG"
+    },
+    "deity111": {
+        "id": "deity111",
+        "name": "Dol Arrah",
+        "domains": "Hope, Sun, War",
+        "alignment": "Lawful Good",
+        "sourcebook": "EPG"
+    },
+    "deity112": {
+        "id": "deity112",
+        "name": "Dol Dorn",
+        "domains": "Skill, Strength, War",
+        "alignment": "Unaligned",
+        "sourcebook": "EPG"
+    },
+    "deity113": {
+        "id": "deity113",
+        "name": "Kol Korran",
+        "domains": "Civilization, Skill, Trickery",
+        "alignment": "Unaligned",
+        "sourcebook": "EPG"
+    },
+    "deity114": {
+        "id": "deity114",
+        "name": "Olladra",
+        "domains": "Change, Freedom, Luck",
+        "alignment": "Good",
+        "sourcebook": "EPG"
+    },
+    "deity115": {
+        "id": "deity115",
+        "name": "Onatar",
+        "domains": "Civilization, Creation, Strength",
+        "alignment": "Unaligned",
+        "sourcebook": "EPG"
+    },
+    "deity128": {
+        "id": "deity128",
+        "name": "The Blood of Vol",
+        "domains": "Death, Undeath",
+        "alignment": "Unaligned",
+        "sourcebook": "EPG"
+    },
+    "deity124": {
+        "id": "deity124",
+        "name": "The Dark Six",
+        "domains": "Destruction, Wilderness",
+        "alignment": "Evil",
+        "sourcebook": "EPG"
+    },
+    "deity118": {
+        "id": "deity118",
+        "name": "The Devourer",
+        "domains": "Destruction, Sea, Storm",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "EPG"
+    },
+    "deity119": {
+        "id": "deity119",
+        "name": "The Fury",
+        "domains": "Madness, Vengeance",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "EPG"
+    },
+    "deity120": {
+        "id": "deity120",
+        "name": "The Keeper",
+        "domains": "Death, Torment",
+        "alignment": "Evil",
+        "sourcebook": "EPG"
+    },
+    "deity121": {
+        "id": "deity121",
+        "name": "The Mockery",
+        "domains": "Trickery, War",
+        "alignment": "Evil",
+        "sourcebook": "EPG"
+    },
+    "deity129": {
+        "id": "deity129",
+        "name": "The Path of Light",
+        "domains": "Freedom, Skill, Sun",
+        "alignment": "Lawful Good",
+        "sourcebook": "EPG"
+    },
+    "deity122": {
+        "id": "deity122",
+        "name": "The Shadow",
+        "domains": "Arcana, Darkness",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "EPG"
+    },
+    "deity127": {
+        "id": "deity127",
+        "name": "The Silver Flame",
+        "domains": "Hope, Justice, Protection",
+        "alignment": "Lawful Good",
+        "sourcebook": "EPG"
+    },
+    "deity125": {
+        "id": "deity125",
+        "name": "The Sovereign Host",
+        "domains": "Civilization, Fate, Knowledge",
+        "alignment": "Good",
+        "sourcebook": "EPG"
+    },
+    "deity130": {
+        "id": "deity130",
+        "name": "The Spirits of the Past",
+        "domains": "Protection, Vengeance, War",
+        "alignment": "Unaligned",
+        "sourcebook": "EPG"
+    },
+    "deity116": {
+        "id": "deity116",
+        "name": "The Traveler",
+        "domains": "Change, Creation, Trickery",
+        "alignment": "Unaligned",
+        "sourcebook": "EPG"
+    },
+    "deity131": {
+        "id": "deity131",
+        "name": "The Undying Court",
+        "domains": "Fate, Knowledge, Undeath",
+        "alignment": "Unaligned",
+        "sourcebook": "EPG"
+    },
+    "deity149": {
+        "id": "deity149",
+        "name": "Nerull",
+        "domains": "Death, Trickery, Undeath",
+        "alignment": "Evil",
+        "sourcebook": "Dra427"
+    },
+    "deity144": {
+        "id": "deity144",
+        "name": "Aurom",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "Dra390"
+    },
+    "deity145": {
+        "id": "deity145",
+        "name": "Haramathur",
+        "domains": "None",
+        "alignment": "Lawful Good",
+        "sourcebook": "Dra390"
+    },
+    "deity146": {
+        "id": "deity146",
+        "name": "Laeris",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "Dra390"
+    },
+    "deity147": {
+        "id": "deity147",
+        "name": "Nusemnee",
+        "domains": "None",
+        "alignment": "Good",
+        "sourcebook": "Dra390"
+    },
+    "deity148": {
+        "id": "deity148",
+        "name": "Sagawehn",
+        "domains": "None",
+        "alignment": "Unaligned",
+        "sourcebook": "Dra390"
+    },
+    "deity15": {
+        "id": "deity15",
+        "name": "Asmodeus",
+        "domains": "Civilization, Tyranny",
+        "alignment": "Evil",
+        "sourcebook": "DMG"
+    },
+    "deity16": {
+        "id": "deity16",
+        "name": "Bane",
+        "domains": "Skill, War",
+        "alignment": "Evil",
+        "sourcebook": "DMG"
+    },
+    "deity20": {
+        "id": "deity20",
+        "name": "Gruumsh",
+        "domains": "Destruction, Strength",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "DMG"
+    },
+    "deity22": {
+        "id": "deity22",
+        "name": "Lolth",
+        "domains": "Darkness, Trickery",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "DMG"
+    },
+    "deity100": {
+        "id": "deity100",
+        "name": "Tharizdun",
+        "domains": "Destruction, Madness",
+        "alignment": "Chaotic Evil",
+        "sourcebook": "DMG"
+    },
+    "deity43": {
+        "id": "deity43",
+        "name": "Tiamat",
+        "domains": "Strife, Vengeance",
+        "alignment": "Evil",
+        "sourcebook": "DMG"
+    },
+    "deity99": {
+        "id": "deity99",
+        "name": "Torog",
+        "domains": "Earth, Torment",
+        "alignment": "Evil",
+        "sourcebook": "DMG"
+    },
+    "deity98": {
+        "id": "deity98",
+        "name": "Vecna",
+        "domains": "Knowledge, Undeath",
+        "alignment": "Evil",
+        "sourcebook": "DMG"
+    },
+    "deity46": {
+        "id": "deity46",
+        "name": "Zehir",
+        "domains": "Darkness, Poison",
+        "alignment": "Evil",
+        "sourcebook": "DMG"
+    }
+}

@@ -1,0 +1,416 @@
+{
+    "disease79": {
+        "id": "disease79",
+        "name": "Corporeal Instability",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "disease73": {
+        "id": "disease73",
+        "name": "Deathsong",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "disease74": {
+        "id": "disease74",
+        "name": "Demon Fever",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "disease75": {
+        "id": "disease75",
+        "name": "Faceless Hate",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "disease70": {
+        "id": "disease70",
+        "name": "Foul Rotting",
+        "level": "None",
+        "sourcebook": "MME"
+    },
+    "disease76": {
+        "id": "disease76",
+        "name": "Melting Fury",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "disease77": {
+        "id": "disease77",
+        "name": "Psychic Parasites",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "disease78": {
+        "id": "disease78",
+        "name": "Scarlet Plague",
+        "level": "None",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "disease19": {
+        "id": "disease19",
+        "name": "Dire Rat Filth Fever",
+        "level": "1",
+        "sourcebook": "MV, Dun182"
+    },
+    "disease92": {
+        "id": "disease92",
+        "name": "Slight Filth Fever",
+        "level": "1",
+        "sourcebook": "Dun211"
+    },
+    "disease45": {
+        "id": "disease45",
+        "name": "Skinrot",
+        "level": "2",
+        "sourcebook": "Open Grave"
+    },
+    "disease94": {
+        "id": "disease94",
+        "name": "Lesser Abyssal Plague",
+        "level": "3",
+        "sourcebook": "Dun214"
+    },
+    "disease11": {
+        "id": "disease11",
+        "name": "Wererat Filth Fever",
+        "level": "3",
+        "sourcebook": "MV"
+    },
+    "disease41": {
+        "id": "disease41",
+        "name": "Rot Grub Infestation",
+        "level": "4",
+        "sourcebook": "MM3, The Book of Vile Darkness"
+    },
+    "disease80": {
+        "id": "disease80",
+        "name": "Whispering Madness",
+        "level": "4",
+        "sourcebook": "Dun195"
+    },
+    "disease63": {
+        "id": "disease63",
+        "name": "Creeping Madness",
+        "level": "5",
+        "sourcebook": "NCS"
+    },
+    "disease60": {
+        "id": "disease60",
+        "name": "Demon Pox",
+        "level": "5",
+        "sourcebook": "TPB"
+    },
+    "disease21": {
+        "id": "disease21",
+        "name": "Feral Wererat Filth Fever",
+        "level": "5",
+        "sourcebook": "Dun185"
+    },
+    "disease23": {
+        "id": "disease23",
+        "name": "Filth Fever",
+        "level": "5",
+        "sourcebook": "Dun181"
+    },
+    "disease91": {
+        "id": "disease91",
+        "name": "Russet Mold Contagion",
+        "level": "5",
+        "sourcebook": "Dun201"
+    },
+    "disease36": {
+        "id": "disease36",
+        "name": "Moontusk Fever",
+        "level": "6",
+        "sourcebook": "MM2, Dun181"
+    },
+    "disease46": {
+        "id": "disease46",
+        "name": "Slavering Canker",
+        "level": "6",
+        "sourcebook": "MM2"
+    },
+    "disease52": {
+        "id": "disease52",
+        "name": "Wereboar Moontusk Fever",
+        "level": "6",
+        "sourcebook": "Dun210"
+    },
+    "disease54": {
+        "id": "disease54",
+        "name": "Werewolf Moon Frenzy",
+        "level": "6",
+        "sourcebook": "MV, Dun185"
+    },
+    "disease81": {
+        "id": "disease81",
+        "name": "Dusanu Rot",
+        "level": "7",
+        "sourcebook": "Dun195"
+    },
+    "disease29": {
+        "id": "disease29",
+        "name": "Lesser Otyugh Filth Fever",
+        "level": "7",
+        "sourcebook": "MV, TS"
+    },
+    "disease53": {
+        "id": "disease53",
+        "name": "Wereserpent Blood Rot",
+        "level": "7",
+        "sourcebook": "Dun185"
+    },
+    "disease59": {
+        "id": "disease59",
+        "name": "Abyssal Plague",
+        "level": "8",
+        "sourcebook": "MV:TttNV, Madness at Gardmore Abbey, Halls of Undermountain"
+    },
+    "disease64": {
+        "id": "disease64",
+        "name": "Charnel Fields Filth Fever",
+        "level": "8",
+        "sourcebook": "NCS"
+    },
+    "disease30": {
+        "id": "disease30",
+        "name": "Lockjaw",
+        "level": "8",
+        "sourcebook": "Dun178"
+    },
+    "disease34": {
+        "id": "disease34",
+        "name": "Moon Frenzy",
+        "level": "8",
+        "sourcebook": "Dun156"
+    },
+    "disease42": {
+        "id": "disease42",
+        "name": "Rusty Paralysis",
+        "level": "8",
+        "sourcebook": "Dra376"
+    },
+    "disease93": {
+        "id": "disease93",
+        "name": "Werewolf Lycanthropy",
+        "level": "8",
+        "sourcebook": "Dun214"
+    },
+    "disease13": {
+        "id": "disease13",
+        "name": "Blinding Sickness",
+        "level": "9",
+        "sourcebook": "DMG"
+    },
+    "disease20": {
+        "id": "disease20",
+        "name": "Echo Madness",
+        "level": "9",
+        "sourcebook": "Underdark"
+    },
+    "disease31": {
+        "id": "disease31",
+        "name": "Meenlock Corruption",
+        "level": "9",
+        "sourcebook": "MM3, Dun190"
+    },
+    "disease62": {
+        "id": "disease62",
+        "name": "Blistering Corruption",
+        "level": "10",
+        "sourcebook": "MV:TttNV"
+    },
+    "disease22": {
+        "id": "disease22",
+        "name": "Festering Doom",
+        "level": "10",
+        "sourcebook": "Dun161"
+    },
+    "disease27": {
+        "id": "disease27",
+        "name": "Greater Werewolf Moon Frenzy",
+        "level": "10",
+        "sourcebook": "Dun185"
+    },
+    "disease83": {
+        "id": "disease83",
+        "name": "Wastelands Sickness",
+        "level": "10",
+        "sourcebook": "Demonomicon"
+    },
+    "disease17": {
+        "id": "disease17",
+        "name": "Cemetery Rot",
+        "level": "11",
+        "sourcebook": "Open Grave"
+    },
+    "disease26": {
+        "id": "disease26",
+        "name": "Greater Otyugh Filth Fever",
+        "level": "11",
+        "sourcebook": "MV"
+    },
+    "disease58": {
+        "id": "disease58",
+        "name": "Mistwatch Blight",
+        "level": "11",
+        "sourcebook": "Dun186"
+    },
+    "disease35": {
+        "id": "disease35",
+        "name": "Moon Rage",
+        "level": "11",
+        "sourcebook": "MM2"
+    },
+    "disease37": {
+        "id": "disease37",
+        "name": "Mournland Affliction",
+        "level": "11",
+        "sourcebook": "ECS"
+    },
+    "disease48": {
+        "id": "disease48",
+        "name": "Soul Rot",
+        "level": "11",
+        "sourcebook": "MotP"
+    },
+    "disease56": {
+        "id": "disease56",
+        "name": "Worms of Kyuss",
+        "level": "11",
+        "sourcebook": "Exemplars of Evil"
+    },
+    "disease14": {
+        "id": "disease14",
+        "name": "Brain Fluke",
+        "level": "12",
+        "sourcebook": "FRCG"
+    },
+    "disease16": {
+        "id": "disease16",
+        "name": "Cackle Fever",
+        "level": "12",
+        "sourcebook": "DMG"
+    },
+    "disease51": {
+        "id": "disease51",
+        "name": "Twisted Domination",
+        "level": "12",
+        "sourcebook": "Dun157"
+    },
+    "disease65": {
+        "id": "disease65",
+        "name": "Cerebral Parasites",
+        "level": "13",
+        "sourcebook": "Dun192"
+    },
+    "disease66": {
+        "id": "disease66",
+        "name": "Greater Abyssal Plague",
+        "level": "13",
+        "sourcebook": "Dun192"
+    },
+    "disease25": {
+        "id": "disease25",
+        "name": "Greater Moon Frenzy",
+        "level": "13",
+        "sourcebook": "MM2, Dun197"
+    },
+    "disease43": {
+        "id": "disease43",
+        "name": "Sewer Fever",
+        "level": "13",
+        "sourcebook": "DMG2"
+    },
+    "disease24": {
+        "id": "disease24",
+        "name": "Filth Plague",
+        "level": "14",
+        "sourcebook": "ECS, Dun177"
+    },
+    "disease44": {
+        "id": "disease44",
+        "name": "Shakes",
+        "level": "14",
+        "sourcebook": "DMG"
+    },
+    "disease86": {
+        "id": "disease86",
+        "name": "Slime Lord's Rot",
+        "level": "14",
+        "sourcebook": "Demonomicon"
+    },
+    "disease82": {
+        "id": "disease82",
+        "name": "Screaming Scalepox",
+        "level": "15",
+        "sourcebook": "Demonomicon"
+    },
+    "disease18": {
+        "id": "disease18",
+        "name": "Chaos Phage",
+        "level": "16",
+        "sourcebook": "MM3, TPB, Dun179"
+    },
+    "disease33": {
+        "id": "disease33",
+        "name": "Mindfire",
+        "level": "16",
+        "sourcebook": "DMG"
+    },
+    "disease50": {
+        "id": "disease50",
+        "name": "Touch of Kyuss",
+        "level": "16",
+        "sourcebook": "MM3, Dun188"
+    },
+    "disease61": {
+        "id": "disease61",
+        "name": "Spider Queen's Curse",
+        "level": "17",
+        "sourcebook": "MV:TttNV"
+    },
+    "disease15": {
+        "id": "disease15",
+        "name": "Brood Fever",
+        "level": "21",
+        "sourcebook": "Elder Evils"
+    },
+    "disease28": {
+        "id": "disease28",
+        "name": "Hellfever",
+        "level": "21",
+        "sourcebook": "DMG"
+    },
+    "disease38": {
+        "id": "disease38",
+        "name": "Mummy Rot",
+        "level": "21",
+        "sourcebook": "Draco: Metallic, DMG, Open Grave"
+    },
+    "disease47": {
+        "id": "disease47",
+        "name": "Slimy Doom",
+        "level": "23",
+        "sourcebook": "DMG"
+    },
+    "disease90": {
+        "id": "disease90",
+        "name": "Silvery Sleep",
+        "level": "26",
+        "sourcebook": "Open Grave"
+    },
+    "disease85": {
+        "id": "disease85",
+        "name": "Flesh Warp",
+        "level": "28",
+        "sourcebook": "Demonomicon"
+    },
+    "disease84": {
+        "id": "disease84",
+        "name": "Wasting Plague",
+        "level": "31",
+        "sourcebook": "Demonomicon"
+    }
+}

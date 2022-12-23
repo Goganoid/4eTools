@@ -1,0 +1,618 @@
+{
+    "class529": {
+        "id": "class529",
+        "name": "Ardent",
+        "rolename": "Leader",
+        "powersourcetext": "Psionic",
+        "keyabilities": "Cha",
+        "sourcebook": "PHB3"
+    },
+    "class125": {
+        "id": "class125",
+        "name": "Artificer",
+        "rolename": "Leader",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Int",
+        "sourcebook": "EPG"
+    },
+    "class466": {
+        "id": "class466",
+        "name": "Assassin",
+        "rolename": "Striker",
+        "powersourcetext": "Shadow",
+        "keyabilities": "Dex",
+        "sourcebook": "Dra379"
+    },
+    "class811": {
+        "id": "class811",
+        "name": "Assassin (Executioner)",
+        "rolename": "Striker",
+        "powersourcetext": "Martial and Shadow",
+        "keyabilities": "Dex",
+        "sourcebook": "HoS"
+    },
+    "class129": {
+        "id": "class129",
+        "name": "Avenger",
+        "rolename": "Striker",
+        "powersourcetext": "Divine",
+        "keyabilities": "Wis",
+        "sourcebook": "PHB2"
+    },
+    "class148": {
+        "id": "class148",
+        "name": "Barbarian",
+        "rolename": "Striker",
+        "powersourcetext": "Primal",
+        "keyabilities": "Str",
+        "sourcebook": "PHB2"
+    },
+    "class906": {
+        "id": "class906",
+        "name": "Barbarian (Berserker)",
+        "rolename": "Defender and Striker",
+        "powersourcetext": "Martial and Primal",
+        "keyabilities": "Str",
+        "sourcebook": "HotF"
+    },
+    "class104": {
+        "id": "class104",
+        "name": "Bard",
+        "rolename": "Leader",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Cha",
+        "sourcebook": "PHB2"
+    },
+    "class907": {
+        "id": "class907",
+        "name": "Bard (Skald)",
+        "rolename": "Leader",
+        "powersourcetext": "Arcane and Martial",
+        "keyabilities": "Cha",
+        "sourcebook": "HotF"
+    },
+    "class124": {
+        "id": "class124",
+        "name": "Battlemind",
+        "rolename": "Defender",
+        "powersourcetext": "Psionic",
+        "keyabilities": "Con",
+        "sourcebook": "PHB3"
+    },
+    "class2": {
+        "id": "class2",
+        "name": "Cleric (Templar)",
+        "rolename": "Leader",
+        "powersourcetext": "Divine",
+        "keyabilities": "Str, Wis",
+        "sourcebook": "PHB"
+    },
+    "class705": {
+        "id": "class705",
+        "name": "Cleric (Warpriest)",
+        "rolename": "Leader",
+        "powersourcetext": "Divine",
+        "keyabilities": "Wis",
+        "sourcebook": "HotFL"
+    },
+    "class126": {
+        "id": "class126",
+        "name": "Druid",
+        "rolename": "Controller",
+        "powersourcetext": "Primal",
+        "keyabilities": "Wis",
+        "sourcebook": "PHB2"
+    },
+    "class909": {
+        "id": "class909",
+        "name": "Druid (Protector)",
+        "rolename": "Controller",
+        "powersourcetext": "Primal",
+        "keyabilities": "Wis",
+        "sourcebook": "HotF"
+    },
+    "class779": {
+        "id": "class779",
+        "name": "Druid (Sentinel)",
+        "rolename": "Leader",
+        "powersourcetext": "Primal",
+        "keyabilities": "Wis",
+        "sourcebook": "HotFK"
+    },
+    "class713": {
+        "id": "class713",
+        "name": "Fighter (Knight)",
+        "rolename": "Defender",
+        "powersourcetext": "Martial",
+        "keyabilities": "Str",
+        "sourcebook": "HotFL"
+    },
+    "class716": {
+        "id": "class716",
+        "name": "Fighter (Slayer)",
+        "rolename": "Striker",
+        "powersourcetext": "Martial",
+        "keyabilities": "Str",
+        "sourcebook": "HotFL"
+    },
+    "class3": {
+        "id": "class3",
+        "name": "Fighter (Weaponmaster)",
+        "rolename": "Defender",
+        "powersourcetext": "Martial",
+        "keyabilities": "Str",
+        "sourcebook": "PHB"
+    },
+    "class127": {
+        "id": "class127",
+        "name": "Invoker",
+        "rolename": "Controller",
+        "powersourcetext": "Divine",
+        "keyabilities": "Wis",
+        "sourcebook": "PHB2"
+    },
+    "class362": {
+        "id": "class362",
+        "name": "Monk",
+        "rolename": "Striker",
+        "powersourcetext": "Psionic",
+        "keyabilities": "Dex",
+        "sourcebook": "PHB3"
+    },
+    "class4": {
+        "id": "class4",
+        "name": "Paladin",
+        "rolename": "Defender",
+        "powersourcetext": "Divine",
+        "keyabilities": "Str, Cha",
+        "sourcebook": "PHB"
+    },
+    "class813": {
+        "id": "class813",
+        "name": "Paladin (Blackguard)",
+        "rolename": "Striker",
+        "powersourcetext": "Divine",
+        "keyabilities": "Str",
+        "sourcebook": "HoS"
+    },
+    "class784": {
+        "id": "class784",
+        "name": "Paladin (Cavalier)",
+        "rolename": "Defender",
+        "powersourcetext": "Divine",
+        "keyabilities": "Str",
+        "sourcebook": "HotFK"
+    },
+    "class437": {
+        "id": "class437",
+        "name": "Psion",
+        "rolename": "Controller",
+        "powersourcetext": "Psionic",
+        "keyabilities": "Int",
+        "sourcebook": "PHB3"
+    },
+    "class5": {
+        "id": "class5",
+        "name": "Ranger",
+        "rolename": "Striker",
+        "powersourcetext": "Martial",
+        "keyabilities": "Str, Dex",
+        "sourcebook": "PHB"
+    },
+    "class788": {
+        "id": "class788",
+        "name": "Ranger (Hunter)",
+        "rolename": "Controller",
+        "powersourcetext": "Martial and Primal",
+        "keyabilities": "Dex or Str",
+        "sourcebook": "HotFK"
+    },
+    "class790": {
+        "id": "class790",
+        "name": "Ranger (Scout)",
+        "rolename": "Striker",
+        "powersourcetext": "Martial and Primal",
+        "keyabilities": "Dex",
+        "sourcebook": "HotFK"
+    },
+    "class6": {
+        "id": "class6",
+        "name": "Rogue (Scoundrel)",
+        "rolename": "Striker",
+        "powersourcetext": "Martial",
+        "keyabilities": "Dex",
+        "sourcebook": "PHB"
+    },
+    "class719": {
+        "id": "class719",
+        "name": "Rogue (Thief)",
+        "rolename": "Striker",
+        "powersourcetext": "Martial",
+        "keyabilities": "Dex or Str",
+        "sourcebook": "HotFL"
+    },
+    "class602": {
+        "id": "class602",
+        "name": "Runepriest",
+        "rolename": "Leader",
+        "powersourcetext": "Divine",
+        "keyabilities": "Str",
+        "sourcebook": "PHB3"
+    },
+    "class472": {
+        "id": "class472",
+        "name": "Seeker",
+        "rolename": "Controller",
+        "powersourcetext": "Primal",
+        "keyabilities": "Wis",
+        "sourcebook": "PHB3"
+    },
+    "class147": {
+        "id": "class147",
+        "name": "Shaman",
+        "rolename": "Leader",
+        "powersourcetext": "Primal",
+        "keyabilities": "Wis",
+        "sourcebook": "PHB2"
+    },
+    "class128": {
+        "id": "class128",
+        "name": "Sorcerer",
+        "rolename": "Striker",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Cha",
+        "sourcebook": "PHB2"
+    },
+    "class956": {
+        "id": "class956",
+        "name": "Sorcerer (Elementalist)",
+        "rolename": "Striker",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Cha",
+        "sourcebook": "HotEC"
+    },
+    "class53": {
+        "id": "class53",
+        "name": "Swordmage",
+        "rolename": "Defender",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Int",
+        "sourcebook": "FRPG"
+    },
+    "class817": {
+        "id": "class817",
+        "name": "Vampire",
+        "rolename": "Striker",
+        "powersourcetext": "Shadow",
+        "keyabilities": "Dex",
+        "sourcebook": "HoS"
+    },
+    "class134": {
+        "id": "class134",
+        "name": "Warden",
+        "rolename": "Defender",
+        "powersourcetext": "Primal",
+        "keyabilities": "Str",
+        "sourcebook": "PHB2"
+    },
+    "class7": {
+        "id": "class7",
+        "name": "Warlock",
+        "rolename": "Striker",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Con, Cha",
+        "sourcebook": "PHB"
+    },
+    "class821": {
+        "id": "class821",
+        "name": "Warlock (Binder)",
+        "rolename": "Controller",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Cha",
+        "sourcebook": "HoS"
+    },
+    "class793": {
+        "id": "class793",
+        "name": "Warlock (Hexblade)",
+        "rolename": "Striker",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Cha",
+        "sourcebook": "HotFK"
+    },
+    "class8": {
+        "id": "class8",
+        "name": "Warlord (Marshal)",
+        "rolename": "Leader",
+        "powersourcetext": "Martial",
+        "keyabilities": "Str",
+        "sourcebook": "PHB"
+    },
+    "class9": {
+        "id": "class9",
+        "name": "Wizard (Arcanist)",
+        "rolename": "Controller",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Int",
+        "sourcebook": "PHB"
+    },
+    "class883": {
+        "id": "class883",
+        "name": "Wizard (Bladesinger)",
+        "rolename": "Controller",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Int",
+        "sourcebook": "NCS"
+    },
+    "class722": {
+        "id": "class722",
+        "name": "Wizard (Mage)",
+        "rolename": "Controller",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Int",
+        "sourcebook": "HotFL"
+    },
+    "class958": {
+        "id": "class958",
+        "name": "Wizard (Sha'ir)",
+        "rolename": "Controller",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Int",
+        "sourcebook": "HotEC"
+    },
+    "class908": {
+        "id": "class908",
+        "name": "Wizard (Witch)",
+        "rolename": "Controller",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Int",
+        "sourcebook": "HotF"
+    },
+    "class588": {
+        "id": "class588",
+        "name": "Hybrid Ardent",
+        "rolename": "Leader",
+        "powersourcetext": "Psionic",
+        "keyabilities": "Cha",
+        "sourcebook": "PHB3"
+    },
+    "class536": {
+        "id": "class536",
+        "name": "Hybrid Artificer",
+        "rolename": "Leader",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Int",
+        "sourcebook": "PHB3"
+    },
+    "class641": {
+        "id": "class641",
+        "name": "Hybrid Assassin",
+        "rolename": "Striker",
+        "powersourcetext": "Shadow",
+        "keyabilities": "Dex",
+        "sourcebook": "Dra385"
+    },
+    "class891": {
+        "id": "class891",
+        "name": "Hybrid Assassin (Executioner)",
+        "rolename": "Striker",
+        "powersourcetext": "Martial and Shadow",
+        "keyabilities": "Dex",
+        "sourcebook": "Dra400"
+    },
+    "class439": {
+        "id": "class439",
+        "name": "Hybrid Avenger",
+        "rolename": "Striker",
+        "powersourcetext": "Divine",
+        "keyabilities": "Wis",
+        "sourcebook": "PHB3"
+    },
+    "class440": {
+        "id": "class440",
+        "name": "Hybrid Barbarian",
+        "rolename": "Striker",
+        "powersourcetext": "Primal",
+        "keyabilities": "Str",
+        "sourcebook": "PHB3"
+    },
+    "class441": {
+        "id": "class441",
+        "name": "Hybrid Bard",
+        "rolename": "Leader",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Cha",
+        "sourcebook": "PHB3"
+    },
+    "class590": {
+        "id": "class590",
+        "name": "Hybrid Battlemind",
+        "rolename": "Defender",
+        "powersourcetext": "Psionic",
+        "keyabilities": "Con",
+        "sourcebook": "PHB3"
+    },
+    "class352": {
+        "id": "class352",
+        "name": "Hybrid Cleric",
+        "rolename": "Leader",
+        "powersourcetext": "Divine",
+        "keyabilities": "Str, Wis",
+        "sourcebook": "PHB3"
+    },
+    "class442": {
+        "id": "class442",
+        "name": "Hybrid Druid",
+        "rolename": "Controller",
+        "powersourcetext": "Primal",
+        "keyabilities": "Wis",
+        "sourcebook": "PHB3"
+    },
+    "class894": {
+        "id": "class894",
+        "name": "Hybrid Druid (Sentinel)",
+        "rolename": "Leader",
+        "powersourcetext": "Primal",
+        "keyabilities": "Wis",
+        "sourcebook": "Dra400"
+    },
+    "class353": {
+        "id": "class353",
+        "name": "Hybrid Fighter",
+        "rolename": "Defender",
+        "powersourcetext": "Martial",
+        "keyabilities": "Str",
+        "sourcebook": "PHB3"
+    },
+    "class443": {
+        "id": "class443",
+        "name": "Hybrid Invoker",
+        "rolename": "Controller",
+        "powersourcetext": "Divine",
+        "keyabilities": "Wis",
+        "sourcebook": "PHB3"
+    },
+    "class609": {
+        "id": "class609",
+        "name": "Hybrid Monk",
+        "rolename": "Striker",
+        "powersourcetext": "Psionic",
+        "keyabilities": "Dex",
+        "sourcebook": "PHB3"
+    },
+    "class354": {
+        "id": "class354",
+        "name": "Hybrid Paladin",
+        "rolename": "Defender",
+        "powersourcetext": "Divine",
+        "keyabilities": "Str, Cha",
+        "sourcebook": "PHB3"
+    },
+    "class892": {
+        "id": "class892",
+        "name": "Hybrid Paladin (Blackguard)",
+        "rolename": "Striker",
+        "powersourcetext": "Divine",
+        "keyabilities": "Str, Cha",
+        "sourcebook": "Dra400"
+    },
+    "class895": {
+        "id": "class895",
+        "name": "Hybrid Paladin (Cavalier)",
+        "rolename": "Defender",
+        "powersourcetext": "Divine",
+        "keyabilities": "Str, Cha",
+        "sourcebook": "Dra400"
+    },
+    "class610": {
+        "id": "class610",
+        "name": "Hybrid Psion",
+        "rolename": "Controller",
+        "powersourcetext": "Psionic",
+        "keyabilities": "Int",
+        "sourcebook": "PHB3"
+    },
+    "class355": {
+        "id": "class355",
+        "name": "Hybrid Ranger",
+        "rolename": "Striker",
+        "powersourcetext": "Martial",
+        "keyabilities": "Str, Dex",
+        "sourcebook": "PHB3"
+    },
+    "class356": {
+        "id": "class356",
+        "name": "Hybrid Rogue",
+        "rolename": "Striker",
+        "powersourcetext": "Martial",
+        "keyabilities": "Dex",
+        "sourcebook": "PHB3"
+    },
+    "class611": {
+        "id": "class611",
+        "name": "Hybrid Runepriest",
+        "rolename": "Leader",
+        "powersourcetext": "Divine",
+        "keyabilities": "Str",
+        "sourcebook": "PHB3"
+    },
+    "class612": {
+        "id": "class612",
+        "name": "Hybrid Seeker",
+        "rolename": "Controller",
+        "powersourcetext": "Primal",
+        "keyabilities": "Wis",
+        "sourcebook": "PHB3"
+    },
+    "class444": {
+        "id": "class444",
+        "name": "Hybrid Shaman",
+        "rolename": "Leader",
+        "powersourcetext": "Primal",
+        "keyabilities": "Wis",
+        "sourcebook": "PHB3"
+    },
+    "class445": {
+        "id": "class445",
+        "name": "Hybrid Sorcerer",
+        "rolename": "Striker",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Cha",
+        "sourcebook": "PHB3"
+    },
+    "class357": {
+        "id": "class357",
+        "name": "Hybrid Swordmage",
+        "rolename": "Defender",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Int",
+        "sourcebook": "PHB3"
+    },
+    "class893": {
+        "id": "class893",
+        "name": "Hybrid Vampire",
+        "rolename": "Striker",
+        "powersourcetext": "Shadow",
+        "keyabilities": "Dex",
+        "sourcebook": "Dra400"
+    },
+    "class446": {
+        "id": "class446",
+        "name": "Hybrid Warden",
+        "rolename": "Defender",
+        "powersourcetext": "Primal",
+        "keyabilities": "Str",
+        "sourcebook": "PHB3"
+    },
+    "class358": {
+        "id": "class358",
+        "name": "Hybrid Warlock",
+        "rolename": "Striker",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Con, Cha",
+        "sourcebook": "PHB3"
+    },
+    "class896": {
+        "id": "class896",
+        "name": "Hybrid Warlock (Binder)",
+        "rolename": "Controller",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Con, Cha",
+        "sourcebook": "Dra400"
+    },
+    "class359": {
+        "id": "class359",
+        "name": "Hybrid Warlord",
+        "rolename": "Leader",
+        "powersourcetext": "Martial",
+        "keyabilities": "Str",
+        "sourcebook": "PHB3"
+    },
+    "class360": {
+        "id": "class360",
+        "name": "Hybrid Wizard",
+        "rolename": "Controller",
+        "powersourcetext": "Arcane",
+        "keyabilities": "Int",
+        "sourcebook": "PHB3"
+    }
+}

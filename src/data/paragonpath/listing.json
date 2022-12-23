@@ -1,0 +1,3464 @@
+{
+    "paragonpath344": {
+        "id": "paragonpath344",
+        "name": "Abiding Reaper",
+        "prerequisite": "Shadar-kai",
+        "sourcebook": "Dra372"
+    },
+    "paragonpath351": {
+        "id": "paragonpath351",
+        "name": "Academy Master",
+        "prerequisite": "Any arcane class",
+        "sourcebook": "Dra374"
+    },
+    "paragonpath638": {
+        "id": "paragonpath638",
+        "name": "Adamant Instructor",
+        "prerequisite": "Dragonborn, any divine class",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath409": {
+        "id": "paragonpath409",
+        "name": "Adept of Whispers",
+        "prerequisite": "Invoker",
+        "sourcebook": "DP"
+    },
+    "paragonpath241": {
+        "id": "paragonpath241",
+        "name": "Adroit Explorer",
+        "prerequisite": "Human",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath686": {
+        "id": "paragonpath686",
+        "name": "Agent of the Unbroken Circle",
+        "prerequisite": "Avenger, oath of enmity power",
+        "sourcebook": "Dra387"
+    },
+    "paragonpath365": {
+        "id": "paragonpath365",
+        "name": "Alchemist Savant",
+        "prerequisite": "You must be able to make alchemical items",
+        "sourcebook": "EPG"
+    },
+    "paragonpath755": {
+        "id": "paragonpath755",
+        "name": "Alienist",
+        "prerequisite": "Psion",
+        "sourcebook": "PsP"
+    },
+    "paragonpath74": {
+        "id": "paragonpath74",
+        "name": "Anarch of Shyr",
+        "prerequisite": "Swordmage, aegis of assault",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath734": {
+        "id": "paragonpath734",
+        "name": "Anarchic Adept",
+        "prerequisite": "Ardent",
+        "sourcebook": "PsP"
+    },
+    "paragonpath756": {
+        "id": "paragonpath756",
+        "name": "Anathema",
+        "prerequisite": "Psion",
+        "sourcebook": "PsP"
+    },
+    "paragonpath242": {
+        "id": "paragonpath242",
+        "name": "Ancestral Incarnate",
+        "prerequisite": "Deva",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath475": {
+        "id": "paragonpath475",
+        "name": "Ancestral Weapon",
+        "prerequisite": "Barbarian, Rampage class feature",
+        "sourcebook": "PP"
+    },
+    "paragonpath270": {
+        "id": "paragonpath270",
+        "name": "Angelic Aspect",
+        "prerequisite": "Invoker",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath17": {
+        "id": "paragonpath17",
+        "name": "Angelic Avenger",
+        "prerequisite": "Cleric",
+        "sourcebook": "PHB"
+    },
+    "paragonpath648": {
+        "id": "paragonpath648",
+        "name": "Animus Predator",
+        "prerequisite": "Shaman, call spirit companion power",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath399": {
+        "id": "paragonpath399",
+        "name": "Anointed Champion",
+        "prerequisite": "Cleric",
+        "sourcebook": "DP"
+    },
+    "paragonpath528": {
+        "id": "paragonpath528",
+        "name": "Arbiter of Forgotten Justice",
+        "prerequisite": "Invoker, must adhere to Amoth’s precepts.",
+        "sourcebook": "Dra381"
+    },
+    "paragonpath526": {
+        "id": "paragonpath526",
+        "name": "Arcane Armorer",
+        "prerequisite": "Artificer, shielding elixir healing infusion",
+        "sourcebook": "Dra381"
+    },
+    "paragonpath574": {
+        "id": "paragonpath574",
+        "name": "Arcane Battlemaster",
+        "prerequisite": "Warlord, trained in Arcana",
+        "sourcebook": "MP2"
+    },
+    "paragonpath315": {
+        "id": "paragonpath315",
+        "name": "Arcane Hunter",
+        "prerequisite": "Swordmage, aegis of ensnarement class feature",
+        "sourcebook": "AP"
+    },
+    "paragonpath559": {
+        "id": "paragonpath559",
+        "name": "Arcane Trickster",
+        "prerequisite": "Rogue, trained in Arcana",
+        "sourcebook": "MP2"
+    },
+    "paragonpath329": {
+        "id": "paragonpath329",
+        "name": "Arcane Wayfarer",
+        "prerequisite": "Wizard",
+        "sourcebook": "AP"
+    },
+    "paragonpath278": {
+        "id": "paragonpath278",
+        "name": "Arcane Wellspring",
+        "prerequisite": "Sorcerer",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath391": {
+        "id": "paragonpath391",
+        "name": "Ardent Champion",
+        "prerequisite": "Avenger, Censure of Pursuit class feature, oath of enmity power",
+        "sourcebook": "DP"
+    },
+    "paragonpath217": {
+        "id": "paragonpath217",
+        "name": "Arena Champion",
+        "prerequisite": "Trained in Intimidate, at least one Arena Fighting feat, any martial class",
+        "sourcebook": "Dra368"
+    },
+    "paragonpath591": {
+        "id": "paragonpath591",
+        "name": "Argent Soul",
+        "prerequisite": "Ardent",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath636": {
+        "id": "paragonpath636",
+        "name": "Argentum Alliance",
+        "prerequisite": "Dragonborn",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath575": {
+        "id": "paragonpath575",
+        "name": "Arkhosian Blademaster",
+        "prerequisite": "Warlord, Arkhosian Fang Student feat",
+        "sourcebook": "MP2"
+    },
+    "paragonpath628": {
+        "id": "paragonpath628",
+        "name": "Arms-Troubadour",
+        "prerequisite": "Athasian minstrel theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath667": {
+        "id": "paragonpath667",
+        "name": "Arrow of the Moonbow",
+        "prerequisite": "Channel Divinity class feature, proficiency with a bow, must worship Sehanine",
+        "sourcebook": "Dra386"
+    },
+    "paragonpath576": {
+        "id": "paragonpath576",
+        "name": "Arrowhead Commander",
+        "prerequisite": "Warlord, Adamant Arrow Student feat",
+        "sourcebook": "MP2"
+    },
+    "paragonpath599": {
+        "id": "paragonpath599",
+        "name": "Astral Ascendant",
+        "prerequisite": "Warlock, vestige pact",
+        "sourcebook": "Dra383"
+    },
+    "paragonpath400": {
+        "id": "paragonpath400",
+        "name": "Astral Savant",
+        "prerequisite": "Cleric",
+        "sourcebook": "DP"
+    },
+    "paragonpath43": {
+        "id": "paragonpath43",
+        "name": "Astral Weapon",
+        "prerequisite": "Paladin class",
+        "sourcebook": "PHB"
+    },
+    "paragonpath169": {
+        "id": "paragonpath169",
+        "name": "Avalanche Hurler",
+        "prerequisite": "Ranger",
+        "sourcebook": "MP"
+    },
+    "paragonpath517": {
+        "id": "paragonpath517",
+        "name": "Avenging Haunt",
+        "prerequisite": "Revenant",
+        "sourcebook": "Dra376"
+    },
+    "paragonpath159": {
+        "id": "paragonpath159",
+        "name": "Avenging Slayer",
+        "prerequisite": "Fighter",
+        "sourcebook": "MP"
+    },
+    "paragonpath543": {
+        "id": "paragonpath543",
+        "name": "Avernian Knight",
+        "prerequisite": "Fighter and either Eldritch Pact (infernal) class feature or Pact Initiate (infernal pact) feat",
+        "sourcebook": "MP2"
+    },
+    "paragonpath735": {
+        "id": "paragonpath735",
+        "name": "Awakened Visionary",
+        "prerequisite": "Ardent",
+        "sourcebook": "PsP"
+    },
+    "paragonpath808": {
+        "id": "paragonpath808",
+        "name": "Azure Guard",
+        "prerequisite": "Eladrin or elf, must worship Corellon",
+        "sourcebook": "Dra394"
+    },
+    "paragonpath749": {
+        "id": "paragonpath749",
+        "name": "Basilisk's Fury Adept",
+        "prerequisite": "Monk",
+        "sourcebook": "PsP"
+    },
+    "paragonpath46": {
+        "id": "paragonpath46",
+        "name": "Battle Captain",
+        "prerequisite": "Warlord",
+        "sourcebook": "PHB"
+    },
+    "paragonpath770": {
+        "id": "paragonpath770",
+        "name": "Battle Champion",
+        "prerequisite": "Warlord and fighter",
+        "sourcebook": "Dra390"
+    },
+    "paragonpath401": {
+        "id": "paragonpath401",
+        "name": "Battle Chaplain",
+        "prerequisite": "Cleric",
+        "sourcebook": "DP"
+    },
+    "paragonpath366": {
+        "id": "paragonpath366",
+        "name": "Battle Engineer",
+        "prerequisite": "Artificer",
+        "sourcebook": "EPG"
+    },
+    "paragonpath29": {
+        "id": "paragonpath29",
+        "name": "Battle Mage",
+        "prerequisite": "Wizard class",
+        "sourcebook": "PHB"
+    },
+    "paragonpath52": {
+        "id": "paragonpath52",
+        "name": "Battlefield Archer",
+        "prerequisite": "Ranger class, archer fighting style",
+        "sourcebook": "PHB"
+    },
+    "paragonpath189": {
+        "id": "paragonpath189",
+        "name": "Battlelord of Kord",
+        "prerequisite": "Warlord",
+        "sourcebook": "MP"
+    },
+    "paragonpath830": {
+        "id": "paragonpath830",
+        "name": "Battleweaver",
+        "prerequisite": "Any arcane class, at least two illusion at-will or encounter powers",
+        "sourcebook": "HoS"
+    },
+    "paragonpath258": {
+        "id": "paragonpath258",
+        "name": "Bear Warrior",
+        "prerequisite": "Barbarian",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath50": {
+        "id": "paragonpath50",
+        "name": "Beast Stalker",
+        "prerequisite": "Ranger class, archer fighting style",
+        "sourcebook": "PHB"
+    },
+    "paragonpath226": {
+        "id": "paragonpath226",
+        "name": "Beastblooded Minotaur",
+        "prerequisite": "Minotaur",
+        "sourcebook": "Dra369"
+    },
+    "paragonpath740": {
+        "id": "paragonpath740",
+        "name": "Blackstone Guardian",
+        "prerequisite": "Battlemind",
+        "sourcebook": "PsP"
+    },
+    "paragonpath170": {
+        "id": "paragonpath170",
+        "name": "Blade Banshee",
+        "prerequisite": "Eladrin, ranger",
+        "sourcebook": "MP"
+    },
+    "paragonpath560": {
+        "id": "paragonpath560",
+        "name": "Blade Bravo",
+        "prerequisite": "Rogue",
+        "sourcebook": "MP2"
+    },
+    "paragonpath171": {
+        "id": "paragonpath171",
+        "name": "Blade Dancer",
+        "prerequisite": "Ranger",
+        "sourcebook": "MP"
+    },
+    "paragonpath218": {
+        "id": "paragonpath218",
+        "name": "Blade of Cendriane",
+        "prerequisite": "Eladrin, ranger",
+        "sourcebook": "MotP"
+    },
+    "paragonpath461": {
+        "id": "paragonpath461",
+        "name": "Bladestorm Duelist",
+        "prerequisite": "Fighter, Tempest Technique class feature, proficient with rapier",
+        "sourcebook": "Dra378"
+    },
+    "paragonpath453": {
+        "id": "paragonpath453",
+        "name": "Blessed Psalmist",
+        "prerequisite": "Bard, any divine class",
+        "sourcebook": "Dra376"
+    },
+    "paragonpath348": {
+        "id": "paragonpath348",
+        "name": "Blightbeast",
+        "prerequisite": "Druid class",
+        "sourcebook": "Dra373"
+    },
+    "paragonpath271": {
+        "id": "paragonpath271",
+        "name": "Blightspeaker",
+        "prerequisite": "Invoker",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath309": {
+        "id": "paragonpath309",
+        "name": "Blizzard Mage",
+        "prerequisite": "Sorcerer",
+        "sourcebook": "AP"
+    },
+    "paragonpath31": {
+        "id": "paragonpath31",
+        "name": "Blood Mage",
+        "prerequisite": "Wizard class",
+        "sourcebook": "PHB"
+    },
+    "paragonpath266": {
+        "id": "paragonpath266",
+        "name": "Blood Moon Stalker",
+        "prerequisite": "Druid, wild shape power",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath928": {
+        "id": "paragonpath928",
+        "name": "Blood-Crazed Berserker",
+        "prerequisite": "Fighter, evil alignment",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "paragonpath347": {
+        "id": "paragonpath347",
+        "name": "Blooded Champion",
+        "prerequisite": "Minotaur",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath551": {
+        "id": "paragonpath551",
+        "name": "Bloodfury Hunter",
+        "prerequisite": "Shifter, ranger",
+        "sourcebook": "MP2"
+    },
+    "paragonpath244": {
+        "id": "paragonpath244",
+        "name": "Bloodfury Savage",
+        "prerequisite": "Half-orc",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath292": {
+        "id": "paragonpath292",
+        "name": "Bloodknight",
+        "prerequisite": "Defender role, Vampiric Heritage feat",
+        "sourcebook": "Dra371"
+    },
+    "paragonpath282": {
+        "id": "paragonpath282",
+        "name": "Bloodwrath Guardian",
+        "prerequisite": "Warden",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath330": {
+        "id": "paragonpath330",
+        "name": "Bonded Summoner",
+        "prerequisite": "Wizard",
+        "sourcebook": "AP"
+    },
+    "paragonpath107": {
+        "id": "paragonpath107",
+        "name": "Borderlands Marshal",
+        "prerequisite": "Warlord, Warrior of the Wild multiclass feat.",
+        "sourcebook": "MP"
+    },
+    "paragonpath619": {
+        "id": "paragonpath619",
+        "name": "Bralani Wintersoul",
+        "prerequisite": "Eladrin",
+        "sourcebook": "Dra384"
+    },
+    "paragonpath589": {
+        "id": "paragonpath589",
+        "name": "Breach Warden",
+        "prerequisite": "Warden",
+        "sourcebook": "Dra383"
+    },
+    "paragonpath597": {
+        "id": "paragonpath597",
+        "name": "Broken Mirror",
+        "prerequisite": "Tiefling, Mantle of Misfortune feat",
+        "sourcebook": "Dra383"
+    },
+    "paragonpath476": {
+        "id": "paragonpath476",
+        "name": "Building Thunder",
+        "prerequisite": "Barbarian, Thunderborn Wrath class feature",
+        "sourcebook": "PP"
+    },
+    "paragonpath477": {
+        "id": "paragonpath477",
+        "name": "Calm Fury",
+        "prerequisite": "Barbarian, rage strike power",
+        "sourcebook": "PP"
+    },
+    "paragonpath374": {
+        "id": "paragonpath374",
+        "name": "Cannith Mastermaker",
+        "prerequisite": "Mark of Making feat",
+        "sourcebook": "EPG"
+    },
+    "paragonpath577": {
+        "id": "paragonpath577",
+        "name": "Captain of Fortune",
+        "prerequisite": "Warlord",
+        "sourcebook": "MP2"
+    },
+    "paragonpath630": {
+        "id": "paragonpath630",
+        "name": "Caravan Master",
+        "prerequisite": "Dune trader theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath36": {
+        "id": "paragonpath36",
+        "name": "Cat Burglar",
+        "prerequisite": "Rogue",
+        "sourcebook": "PHB"
+    },
+    "paragonpath736": {
+        "id": "paragonpath736",
+        "name": "Catalyst",
+        "prerequisite": "Ardent",
+        "sourcebook": "PsP"
+    },
+    "paragonpath310": {
+        "id": "paragonpath310",
+        "name": "Celestial Scholar",
+        "prerequisite": "Sorcerer, Cosmic Magic class feature",
+        "sourcebook": "AP"
+    },
+    "paragonpath438": {
+        "id": "paragonpath438",
+        "name": "Cerulean Adept",
+        "prerequisite": "Psion",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath578": {
+        "id": "paragonpath578",
+        "name": "Chainbinder",
+        "prerequisite": "Warlord, Rending Chains Warmaster feat",
+        "sourcebook": "MP2"
+    },
+    "paragonpath367": {
+        "id": "paragonpath367",
+        "name": "Chameleon",
+        "prerequisite": "Changeling",
+        "sourcebook": "EPG"
+    },
+    "paragonpath419": {
+        "id": "paragonpath419",
+        "name": "Champion of Corellon",
+        "prerequisite": "Paladin, must worship Corellon",
+        "sourcebook": "DP"
+    },
+    "paragonpath44": {
+        "id": "paragonpath44",
+        "name": "Champion of Order",
+        "prerequisite": "Paladin class",
+        "sourcebook": "PHB"
+    },
+    "paragonpath627": {
+        "id": "paragonpath627",
+        "name": "Champion of the Labyrinth",
+        "prerequisite": "Minotaur",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath748": {
+        "id": "paragonpath748",
+        "name": "Champion of the Vigil",
+        "prerequisite": "Membership in the Circle of Smoke and Whispers",
+        "sourcebook": "Dra390"
+    },
+    "paragonpath496": {
+        "id": "paragonpath496",
+        "name": "Child of the North Wind",
+        "prerequisite": "Warden",
+        "sourcebook": "PP"
+    },
+    "paragonpath463": {
+        "id": "paragonpath463",
+        "name": "Chromatic Bane",
+        "prerequisite": "Any divine class",
+        "sourcebook": "Dra378"
+    },
+    "paragonpath181": {
+        "id": "paragonpath181",
+        "name": "Cloaked Sniper",
+        "prerequisite": "Rogue, trained in Stealth",
+        "sourcebook": "MP"
+    },
+    "paragonpath368": {
+        "id": "paragonpath368",
+        "name": "Clockwork Engineer",
+        "prerequisite": "Artificer",
+        "sourcebook": "EPG"
+    },
+    "paragonpath482": {
+        "id": "paragonpath482",
+        "name": "Coiled Serpent",
+        "prerequisite": "Druid",
+        "sourcebook": "PP"
+    },
+    "paragonpath45": {
+        "id": "paragonpath45",
+        "name": "Combat Veteran",
+        "prerequisite": "Warlord",
+        "sourcebook": "PHB"
+    },
+    "paragonpath190": {
+        "id": "paragonpath190",
+        "name": "Commando Captain",
+        "prerequisite": "Warlord",
+        "sourcebook": "MP"
+    },
+    "paragonpath402": {
+        "id": "paragonpath402",
+        "name": "Compassionate Healer",
+        "prerequisite": "Cleric",
+        "sourcebook": "DP"
+    },
+    "paragonpath191": {
+        "id": "paragonpath191",
+        "name": "Concordant Leader",
+        "prerequisite": "Genasi, warlord",
+        "sourcebook": "MP"
+    },
+    "paragonpath810": {
+        "id": "paragonpath810",
+        "name": "Contemplative Ardent",
+        "prerequisite": "Ardent",
+        "sourcebook": "Dra395"
+    },
+    "paragonpath929": {
+        "id": "paragonpath929",
+        "name": "Contract Killer",
+        "prerequisite": "Evil alignment, trained in Stealth",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "paragonpath73": {
+        "id": "paragonpath73",
+        "name": "Coronal Guard",
+        "prerequisite": "Swordmage",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath684": {
+        "id": "paragonpath684",
+        "name": "Covenant Agent",
+        "prerequisite": "Assassin, avenger, either the oath of enmity or assassin’s shroud power",
+        "sourcebook": "Dra386"
+    },
+    "paragonpath410": {
+        "id": "paragonpath410",
+        "name": "Crimson Arbiter",
+        "prerequisite": "Invoker",
+        "sourcebook": "DP"
+    },
+    "paragonpath473": {
+        "id": "paragonpath473",
+        "name": "Crimson Hunter",
+        "prerequisite": "Seeker",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath688": {
+        "id": "paragonpath688",
+        "name": "Crystalmind",
+        "prerequisite": "Shardmind, shard swarm racial power",
+        "sourcebook": "Dra387"
+    },
+    "paragonpath303": {
+        "id": "paragonpath303",
+        "name": "Cunning Prevaricator",
+        "prerequisite": "Bard",
+        "sourcebook": "AP"
+    },
+    "paragonpath212": {
+        "id": "paragonpath212",
+        "name": "Curseborn",
+        "prerequisite": "Drow",
+        "sourcebook": "Dra367"
+    },
+    "paragonpath34": {
+        "id": "paragonpath34",
+        "name": "Daggermaster",
+        "prerequisite": "Rogue",
+        "sourcebook": "PHB"
+    },
+    "paragonpath182": {
+        "id": "paragonpath182",
+        "name": "Daring Acrobat",
+        "prerequisite": "Rogue, trained in Acrobatics",
+        "sourcebook": "MP"
+    },
+    "paragonpath454": {
+        "id": "paragonpath454",
+        "name": "Daring Blade",
+        "prerequisite": "Bard, any martial class",
+        "sourcebook": "Dra376"
+    },
+    "paragonpath561": {
+        "id": "paragonpath561",
+        "name": "Daring Slinger",
+        "prerequisite": "Rogue",
+        "sourcebook": "MP2"
+    },
+    "paragonpath321": {
+        "id": "paragonpath321",
+        "name": "Dark Reckoner",
+        "prerequisite": "Warlock, dark pact",
+        "sourcebook": "AP"
+    },
+    "paragonpath801": {
+        "id": "paragonpath801",
+        "name": "Dark Star",
+        "prerequisite": "Deva",
+        "sourcebook": "Dra393"
+    },
+    "paragonpath831": {
+        "id": "paragonpath831",
+        "name": "Dark Watcher",
+        "prerequisite": "Good or lawful good alignment",
+        "sourcebook": "HoS"
+    },
+    "paragonpath532": {
+        "id": "paragonpath532",
+        "name": "Darkening Blade",
+        "prerequisite": "Dusk Elf Stealth feat",
+        "sourcebook": "Dra382"
+    },
+    "paragonpath552": {
+        "id": "paragonpath552",
+        "name": "Darkstrider",
+        "prerequisite": "Ranger, trained in Dungeoneering",
+        "sourcebook": "MP2"
+    },
+    "paragonpath138": {
+        "id": "paragonpath138",
+        "name": "Darkwalker",
+        "prerequisite": "Warlock, dark pact",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath904": {
+        "id": "paragonpath904",
+        "name": "Deadly Berserker",
+        "prerequisite": "Barbarian (berserker)",
+        "sourcebook": "HotF"
+    },
+    "paragonpath293": {
+        "id": "paragonpath293",
+        "name": "Deadstalker",
+        "prerequisite": "Vampiric Heritage feat",
+        "sourcebook": "Dra371"
+    },
+    "paragonpath607": {
+        "id": "paragonpath607",
+        "name": "Death Arrow",
+        "prerequisite": "Seeker, Bloodbond class feature",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath183": {
+        "id": "paragonpath183",
+        "name": "Death Dealer",
+        "prerequisite": "Rogue",
+        "sourcebook": "MP"
+    },
+    "paragonpath478": {
+        "id": "paragonpath478",
+        "name": "Death's Thane",
+        "prerequisite": "Barbarian, Thunderborn Wrath class feature",
+        "sourcebook": "PP"
+    },
+    "paragonpath959": {
+        "id": "paragonpath959",
+        "name": "Demon-Bound",
+        "prerequisite": "Demon spawn theme or any nongood alignment",
+        "sourcebook": "HotEC"
+    },
+    "paragonpath930": {
+        "id": "paragonpath930",
+        "name": "Demonologist",
+        "prerequisite": "Any arcane class",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "paragonpath279": {
+        "id": "paragonpath279",
+        "name": "Demonskin Adept",
+        "prerequisite": "Sorcerer",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath420": {
+        "id": "paragonpath420",
+        "name": "Demonslayer",
+        "prerequisite": "Paladin",
+        "sourcebook": "DP"
+    },
+    "paragonpath375": {
+        "id": "paragonpath375",
+        "name": "Deneith Protector",
+        "prerequisite": "Mark of Sentinel feat",
+        "sourcebook": "EPG"
+    },
+    "paragonpath392": {
+        "id": "paragonpath392",
+        "name": "Dervish of Dawn",
+        "prerequisite": "Avenger",
+        "sourcebook": "DP"
+    },
+    "paragonpath846": {
+        "id": "paragonpath846",
+        "name": "Desert's Voice",
+        "prerequisite": "Genasi",
+        "sourcebook": "Dra396"
+    },
+    "paragonpath411": {
+        "id": "paragonpath411",
+        "name": "Devoted Orator",
+        "prerequisite": "Invoker",
+        "sourcebook": "DP"
+    },
+    "paragonpath710": {
+        "id": "paragonpath710",
+        "name": "Devout Warpriest",
+        "prerequisite": "Warpriest",
+        "sourcebook": "HotFL"
+    },
+    "paragonpath832": {
+        "id": "paragonpath832",
+        "name": "Disciple of Razaundra",
+        "prerequisite": "Warlock, gloom pact",
+        "sourcebook": "HoS"
+    },
+    "paragonpath489": {
+        "id": "paragonpath489",
+        "name": "Disciple of Winds",
+        "prerequisite": "Shaman, call spirit companion power",
+        "sourcebook": "PP"
+    },
+    "paragonpath274": {
+        "id": "paragonpath274",
+        "name": "Disciple of the World Serpent",
+        "prerequisite": "Shaman, call spirit companion power",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath412": {
+        "id": "paragonpath412",
+        "name": "Divine Hand",
+        "prerequisite": "Invoker",
+        "sourcebook": "DP"
+    },
+    "paragonpath16": {
+        "id": "paragonpath16",
+        "name": "Divine Oracle",
+        "prerequisite": "Cleric",
+        "sourcebook": "PHB"
+    },
+    "paragonpath413": {
+        "id": "paragonpath413",
+        "name": "Divine Philosopher",
+        "prerequisite": "Invoker",
+        "sourcebook": "DP"
+    },
+    "paragonpath219": {
+        "id": "paragonpath219",
+        "name": "Doomguard Marauder",
+        "prerequisite": "Fighter",
+        "sourcebook": "MotP"
+    },
+    "paragonpath81": {
+        "id": "paragonpath81",
+        "name": "Doomguide",
+        "prerequisite": "Any Divine class; worship Kelemvor",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath960": {
+        "id": "paragonpath960",
+        "name": "Doomlord",
+        "prerequisite": "Ironwrought theme, or proficiency with scale armor and a military melee weapon",
+        "sourcebook": "HotEC"
+    },
+    "paragonpath39": {
+        "id": "paragonpath39",
+        "name": "Doomsayer",
+        "prerequisite": "Warlock class, star pact",
+        "sourcebook": "PHB"
+    },
+    "paragonpath345": {
+        "id": "paragonpath345",
+        "name": "Doomspeaker",
+        "prerequisite": "Shadar-kai",
+        "sourcebook": "Dra372"
+    },
+    "paragonpath236": {
+        "id": "paragonpath236",
+        "name": "Draconic Antithesis",
+        "prerequisite": "Wizard",
+        "sourcebook": "Dra369"
+    },
+    "paragonpath152": {
+        "id": "paragonpath152",
+        "name": "Draeven Marauder",
+        "prerequisite": "Fighter class",
+        "sourcebook": "Dra365"
+    },
+    "paragonpath311": {
+        "id": "paragonpath311",
+        "name": "Dragon Guardian",
+        "prerequisite": "Sorcerer, Dragon Magic class feature",
+        "sourcebook": "AP"
+    },
+    "paragonpath235": {
+        "id": "paragonpath235",
+        "name": "Dragon Marshal",
+        "prerequisite": "Warlord",
+        "sourcebook": "Dra369"
+    },
+    "paragonpath234": {
+        "id": "paragonpath234",
+        "name": "Dragonbane Pactmaker",
+        "prerequisite": "Warlock",
+        "sourcebook": "Dra369"
+    },
+    "paragonpath516": {
+        "id": "paragonpath516",
+        "name": "Dragonfoe Ragespell",
+        "prerequisite": "Barbarian and sorcerer, Tymanther regional background",
+        "sourcebook": "Dra379"
+    },
+    "paragonpath421": {
+        "id": "paragonpath421",
+        "name": "Dragonslayer",
+        "prerequisite": "Paladin",
+        "sourcebook": "DP"
+    },
+    "paragonpath280": {
+        "id": "paragonpath280",
+        "name": "Dragonsoul Heir",
+        "prerequisite": "Sorcerer, Dragon Magic class feature",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath184": {
+        "id": "paragonpath184",
+        "name": "Dread Fang",
+        "prerequisite": "Drow, rogue",
+        "sourcebook": "MP"
+    },
+    "paragonpath393": {
+        "id": "paragonpath393",
+        "name": "Dread Imperator",
+        "prerequisite": "Avenger, Censure of Unity class feature, oath of enmity power",
+        "sourcebook": "DP"
+    },
+    "paragonpath161": {
+        "id": "paragonpath161",
+        "name": "Dread Reaper",
+        "prerequisite": "Fighter",
+        "sourcebook": "MP"
+    },
+    "paragonpath160": {
+        "id": "paragonpath160",
+        "name": "Dreadnought",
+        "prerequisite": "Fighter",
+        "sourcebook": "MP"
+    },
+    "paragonpath600": {
+        "id": "paragonpath600",
+        "name": "Dreamwalker",
+        "prerequisite": "Psion",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath82": {
+        "id": "paragonpath82",
+        "name": "Drow Wanderer",
+        "prerequisite": "Drow, trained in Dungeoneering",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath192": {
+        "id": "paragonpath192",
+        "name": "Dujun of Erathis",
+        "prerequisite": "Warlord",
+        "sourcebook": "MP"
+    },
+    "paragonpath674": {
+        "id": "paragonpath674",
+        "name": "Dune Strider",
+        "prerequisite": "Wasteland nomad theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath833": {
+        "id": "paragonpath833",
+        "name": "Dusk Oracle",
+        "prerequisite": "Training in Insight and Religion",
+        "sourcebook": "HoS"
+    },
+    "paragonpath116": {
+        "id": "paragonpath116",
+        "name": "Dwarven Defender",
+        "prerequisite": "Dwarf, fighter",
+        "sourcebook": "MP"
+    },
+    "paragonpath497": {
+        "id": "paragonpath497",
+        "name": "Earth Shaker",
+        "prerequisite": "Warden",
+        "sourcebook": "PP"
+    },
+    "paragonpath193": {
+        "id": "paragonpath193",
+        "name": "Earthfast Brigadier",
+        "prerequisite": "Warlord",
+        "sourcebook": "MP"
+    },
+    "paragonpath83": {
+        "id": "paragonpath83",
+        "name": "Earthheart Defender",
+        "prerequisite": "Dwarf fighter or dwarf paladin",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath809": {
+        "id": "paragonpath809",
+        "name": "Eldritch Knight",
+        "prerequisite": "Only a knight who has training in Arcana can take this paragon path.",
+        "sourcebook": "Dra395"
+    },
+    "paragonpath775": {
+        "id": "paragonpath775",
+        "name": "Element Unchained",
+        "prerequisite": "Genasi",
+        "sourcebook": "Dra391"
+    },
+    "paragonpath961": {
+        "id": "paragonpath961",
+        "name": "Elemental Anchorite",
+        "prerequisite": "Any elemental attack power",
+        "sourcebook": "HotEC"
+    },
+    "paragonpath962": {
+        "id": "paragonpath962",
+        "name": "Elemental Savant",
+        "prerequisite": "Sorcerer (elementalist)",
+        "sourcebook": "HotEC"
+    },
+    "paragonpath84": {
+        "id": "paragonpath84",
+        "name": "Elemental Tempest",
+        "prerequisite": "Genasi, Extra Manifestation feat",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath498": {
+        "id": "paragonpath498",
+        "name": "Emerald Guardian",
+        "prerequisite": "Warden",
+        "sourcebook": "PP"
+    },
+    "paragonpath518": {
+        "id": "paragonpath518",
+        "name": "Enemy of the Abyss",
+        "prerequisite": "Genasi, corrupt manifestation",
+        "sourcebook": "Dra380"
+    },
+    "paragonpath724": {
+        "id": "paragonpath724",
+        "name": "Enigmatic Mage",
+        "prerequisite": "Mage",
+        "sourcebook": "HotFL"
+    },
+    "paragonpath934": {
+        "id": "paragonpath934",
+        "name": "Enlightened Word",
+        "prerequisite": "Runepriest, any nonevil alignment",
+        "sourcebook": "Dra404"
+    },
+    "paragonpath322": {
+        "id": "paragonpath322",
+        "name": "Entrancing Mystic",
+        "prerequisite": "Warlock",
+        "sourcebook": "AP"
+    },
+    "paragonpath312": {
+        "id": "paragonpath312",
+        "name": "Essence Mage",
+        "prerequisite": "Sorcerer",
+        "sourcebook": "AP"
+    },
+    "paragonpath593": {
+        "id": "paragonpath593",
+        "name": "Eternal Blade",
+        "prerequisite": "Battlemind",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath304": {
+        "id": "paragonpath304",
+        "name": "Euphonic Bow",
+        "prerequisite": "Bard",
+        "sourcebook": "AP"
+    },
+    "paragonpath490": {
+        "id": "paragonpath490",
+        "name": "Everflame Guardian",
+        "prerequisite": "Shaman",
+        "sourcebook": "PP"
+    },
+    "paragonpath88": {
+        "id": "paragonpath88",
+        "name": "Evermeet Warlock",
+        "prerequisite": "Warlock",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath848": {
+        "id": "paragonpath848",
+        "name": "Exemplar of Avandra",
+        "prerequisite": "Must worship Avandra",
+        "sourcebook": "Dra398"
+    },
+    "paragonpath369": {
+        "id": "paragonpath369",
+        "name": "Exorcist of the Silver Flame",
+        "prerequisite": "Any divine class, must worship the Silver Flame",
+        "sourcebook": "EPG"
+    },
+    "paragonpath422": {
+        "id": "paragonpath422",
+        "name": "Faithful Shield",
+        "prerequisite": "Paladin",
+        "sourcebook": "DP"
+    },
+    "paragonpath747": {
+        "id": "paragonpath747",
+        "name": "Falling Needle Itinerant",
+        "prerequisite": "Monk",
+        "sourcebook": "Dra389"
+    },
+    "paragonpath460": {
+        "id": "paragonpath460",
+        "name": "Familiar Bloodsmith",
+        "prerequisite": "Artificer, familiar",
+        "sourcebook": "Dra377"
+    },
+    "paragonpath350": {
+        "id": "paragonpath350",
+        "name": "Familiar Keeper",
+        "prerequisite": "Arcane power source, familiar",
+        "sourcebook": "Dra374"
+    },
+    "paragonpath1011": {
+        "id": "paragonpath1011",
+        "name": "Fang of Zehir",
+        "prerequisite": "Must worship Zehir",
+        "sourcebook": "Dra415"
+    },
+    "paragonpath963": {
+        "id": "paragonpath963",
+        "name": "Favored Sha'ir",
+        "prerequisite": "Wizard (sha’ir)",
+        "sourcebook": "HotEC"
+    },
+    "paragonpath394": {
+        "id": "paragonpath394",
+        "name": "Favored Soul",
+        "prerequisite": "Avenger",
+        "sourcebook": "DP"
+    },
+    "paragonpath620": {
+        "id": "paragonpath620",
+        "name": "Favored of Mielikki",
+        "prerequisite": "Good or lawful good, must worship Mielikki",
+        "sourcebook": "Dra384"
+    },
+    "paragonpath695": {
+        "id": "paragonpath695",
+        "name": "Fear Walker",
+        "prerequisite": "Dragonborn, dragonfear racial power",
+        "sourcebook": "Dra388"
+    },
+    "paragonpath259": {
+        "id": "paragonpath259",
+        "name": "Fearbringer Thane",
+        "prerequisite": "Barbarian",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath172": {
+        "id": "paragonpath172",
+        "name": "Feral Spirit",
+        "prerequisite": "Ranger, Beast Mastery class feature",
+        "sourcebook": "MP"
+    },
+    "paragonpath245": {
+        "id": "paragonpath245",
+        "name": "Fey Beguiler",
+        "prerequisite": "Gnome",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath14": {
+        "id": "paragonpath14",
+        "name": "Feytouched",
+        "prerequisite": "Warlock class, fey pact",
+        "sourcebook": "PHB"
+    },
+    "paragonpath573": {
+        "id": "paragonpath573",
+        "name": "Fireforged Champion",
+        "prerequisite": "Forgeborn Heritage",
+        "sourcebook": "Dra383"
+    },
+    "paragonpath757": {
+        "id": "paragonpath757",
+        "name": "Firestarter",
+        "prerequisite": "Psion",
+        "sourcebook": "PsP"
+    },
+    "paragonpath499": {
+        "id": "paragonpath499",
+        "name": "First Hunter",
+        "prerequisite": "Warden",
+        "sourcebook": "PP"
+    },
+    "paragonpath246": {
+        "id": "paragonpath246",
+        "name": "Firstborn of Moradin",
+        "prerequisite": "Dwarf",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath272": {
+        "id": "paragonpath272",
+        "name": "Flame of Hope",
+        "prerequisite": "Invoker",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath194": {
+        "id": "paragonpath194",
+        "name": "Flamebrow Commander",
+        "prerequisite": "Warlord, Bravura Presence class feature",
+        "sourcebook": "MP"
+    },
+    "paragonpath185": {
+        "id": "paragonpath185",
+        "name": "Flying-Blade Adept",
+        "prerequisite": "Rogue, Quick Draw feat",
+        "sourcebook": "MP"
+    },
+    "paragonpath804": {
+        "id": "paragonpath804",
+        "name": "Formless Predator",
+        "prerequisite": "Wild shape power",
+        "sourcebook": "Dra394"
+    },
+    "paragonpath623": {
+        "id": "paragonpath623",
+        "name": "Fortune Blessed",
+        "prerequisite": "Any divine class, must worship Avandra",
+        "sourcebook": "Dra384"
+    },
+    "paragonpath750": {
+        "id": "paragonpath750",
+        "name": "Four Winds Master",
+        "prerequisite": "Monk",
+        "sourcebook": "PsP"
+    },
+    "paragonpath769": {
+        "id": "paragonpath769",
+        "name": "Freedom Fighter",
+        "prerequisite": "Escaped slave theme or warlord",
+        "sourcebook": "Dra390"
+    },
+    "paragonpath214": {
+        "id": "paragonpath214",
+        "name": "Frenzied Berserker",
+        "prerequisite": "Barbarian",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath220": {
+        "id": "paragonpath220",
+        "name": "Gatecrasher",
+        "prerequisite": "Rogue, trained in Arcana",
+        "sourcebook": "MotP"
+    },
+    "paragonpath687": {
+        "id": "paragonpath687",
+        "name": "Gatekeeper",
+        "prerequisite": "Shardmind",
+        "sourcebook": "Dra387"
+    },
+    "paragonpath370": {
+        "id": "paragonpath370",
+        "name": "Gatekeeper Mystagogue",
+        "prerequisite": "Any primal class, member of the Gatekeepers",
+        "sourcebook": "EPG"
+    },
+    "paragonpath691": {
+        "id": "paragonpath691",
+        "name": "Gatekeeper of the Golden Palace",
+        "prerequisite": "Must worship Erathis",
+        "sourcebook": "Dra387"
+    },
+    "paragonpath376": {
+        "id": "paragonpath376",
+        "name": "Ghallanda Sanctuary Guardian",
+        "prerequisite": "Mark of Hospitality feat",
+        "sourcebook": "EPG"
+    },
+    "paragonpath316": {
+        "id": "paragonpath316",
+        "name": "Ghost Blade",
+        "prerequisite": "Swordmage",
+        "sourcebook": "AP"
+    },
+    "paragonpath275": {
+        "id": "paragonpath275",
+        "name": "Ghost Panther",
+        "prerequisite": "Shaman, call spirit companion power",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath67": {
+        "id": "paragonpath67",
+        "name": "Ghost of Eventide",
+        "prerequisite": "Rogue from Cormyr, the Dalelands, Elturgard, Evereska, Gray Vale, Luruar, or Sembia",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath364": {
+        "id": "paragonpath364",
+        "name": "Ghostwalker",
+        "prerequisite": "Monk",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath173": {
+        "id": "paragonpath173",
+        "name": "Giantslayer",
+        "prerequisite": "Fighter or ranger",
+        "sourcebook": "MP"
+    },
+    "paragonpath656": {
+        "id": "paragonpath656",
+        "name": "Gladiator Champion",
+        "prerequisite": "Gladiator theme or fighter",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath639": {
+        "id": "paragonpath639",
+        "name": "Glee-born",
+        "prerequisite": "Dragonborn, any arcane class",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath694": {
+        "id": "paragonpath694",
+        "name": "Gloaming Dancer",
+        "prerequisite": "Assassin",
+        "sourcebook": "Dra388"
+    },
+    "paragonpath544": {
+        "id": "paragonpath544",
+        "name": "Glorious Myrmidon",
+        "prerequisite": "Fighter, trained in Athletics",
+        "sourcebook": "MP2"
+    },
+    "paragonpath621": {
+        "id": "paragonpath621",
+        "name": "Gnome Nightcloak",
+        "prerequisite": "Gnome, paladin, trained in Stealth",
+        "sourcebook": "Dra384"
+    },
+    "paragonpath323": {
+        "id": "paragonpath323",
+        "name": "God Fragment",
+        "prerequisite": "Warlock, vestige pact",
+        "sourcebook": "AP"
+    },
+    "paragonpath964": {
+        "id": "paragonpath964",
+        "name": "God Warder",
+        "prerequisite": "Training in Religion",
+        "sourcebook": "HotEC"
+    },
+    "paragonpath683": {
+        "id": "paragonpath683",
+        "name": "Goliath Juggernaut",
+        "prerequisite": "Goliath",
+        "sourcebook": "Dra386"
+    },
+    "paragonpath305": {
+        "id": "paragonpath305",
+        "name": "Grave Caller",
+        "prerequisite": "Bard",
+        "sourcebook": "AP"
+    },
+    "paragonpath423": {
+        "id": "paragonpath423",
+        "name": "Gray Guard",
+        "prerequisite": "Paladin, trained in Insight and Intimidate",
+        "sourcebook": "DP"
+    },
+    "paragonpath276": {
+        "id": "paragonpath276",
+        "name": "Great Bear Shaman",
+        "prerequisite": "Shaman, call spirit companion power",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath491": {
+        "id": "paragonpath491",
+        "name": "Great Elder",
+        "prerequisite": "Shaman, call spirit companion power, World Speaker Spirit class feature",
+        "sourcebook": "PP"
+    },
+    "paragonpath512": {
+        "id": "paragonpath512",
+        "name": "Great Weapon Master",
+        "prerequisite": "Fighter, Fighter Weapon Talent class feature",
+        "sourcebook": "Dra379"
+    },
+    "paragonpath814": {
+        "id": "paragonpath814",
+        "name": "Grim Blackguard",
+        "prerequisite": "Only a blackguard can take this paragon path.",
+        "sourcebook": "HoS"
+    },
+    "paragonpath511": {
+        "id": "paragonpath511",
+        "name": "Guardian of Two Worlds",
+        "prerequisite": "Warden",
+        "sourcebook": "Dra379"
+    },
+    "paragonpath662": {
+        "id": "paragonpath662",
+        "name": "Guardian of the Land",
+        "prerequisite": "Primal guardian theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath267": {
+        "id": "paragonpath267",
+        "name": "Guardian of the Living Gate",
+        "prerequisite": "Druid",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath812": {
+        "id": "paragonpath812",
+        "name": "Guild Executioner",
+        "prerequisite": "Only an executioner can take this paragon path.",
+        "sourcebook": "HoS"
+    },
+    "paragonpath110": {
+        "id": "paragonpath110",
+        "name": "Guildmaster Thief",
+        "prerequisite": "Rogue, trained in Thievery",
+        "sourcebook": "MP"
+    },
+    "paragonpath306": {
+        "id": "paragonpath306",
+        "name": "Half-Elf Emissary",
+        "prerequisite": "Half-elf, bard",
+        "sourcebook": "AP"
+    },
+    "paragonpath652": {
+        "id": "paragonpath652",
+        "name": "Half-Elf Polymath",
+        "prerequisite": "Half-elf",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath625": {
+        "id": "paragonpath625",
+        "name": "Half-Giant Thug",
+        "prerequisite": "Goliath",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath163": {
+        "id": "paragonpath163",
+        "name": "Halfling Bounder",
+        "prerequisite": "Halfling, fighter",
+        "sourcebook": "MP"
+    },
+    "paragonpath111": {
+        "id": "paragonpath111",
+        "name": "Halfling Quickblade",
+        "prerequisite": "Halfling, rogue",
+        "sourcebook": "MP"
+    },
+    "paragonpath247": {
+        "id": "paragonpath247",
+        "name": "Halfling Scoundrel",
+        "prerequisite": "Halfling",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath254": {
+        "id": "paragonpath254",
+        "name": "Hammer of Judgment",
+        "prerequisite": "Avenger",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath424": {
+        "id": "paragonpath424",
+        "name": "Hammer of Moradin",
+        "prerequisite": "Cleric or paladin, proficiency with warhammer or throwing hammer, must worship Moradin",
+        "sourcebook": "DP"
+    },
+    "paragonpath273": {
+        "id": "paragonpath273",
+        "name": "Hammer of Vengeance (PH2)",
+        "prerequisite": "Invoker",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath603": {
+        "id": "paragonpath603",
+        "name": "Hammer of Vengeance (PH3)",
+        "prerequisite": "Runepriest",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath553": {
+        "id": "paragonpath553",
+        "name": "Harrowing Swarm Archer",
+        "prerequisite": "Ranger, Harrowing Swarm Student feat",
+        "sourcebook": "MP2"
+    },
+    "paragonpath141": {
+        "id": "paragonpath141",
+        "name": "Heartwarder",
+        "prerequisite": "Any divine class, must worship Sune",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath800": {
+        "id": "paragonpath800",
+        "name": "Heavenly Deceiver",
+        "prerequisite": "Deva",
+        "sourcebook": "Dra393"
+    },
+    "paragonpath568": {
+        "id": "paragonpath568",
+        "name": "Hell's Keeper",
+        "prerequisite": "Tiefling, any divine class",
+        "sourcebook": "PHR:T"
+    },
+    "paragonpath174": {
+        "id": "paragonpath174",
+        "name": "Hellborn Shadow",
+        "prerequisite": "Tiefling, ranger",
+        "sourcebook": "MP"
+    },
+    "paragonpath324": {
+        "id": "paragonpath324",
+        "name": "Hellbringer",
+        "prerequisite": "Warlock, infernal pact",
+        "sourcebook": "AP"
+    },
+    "paragonpath805": {
+        "id": "paragonpath805",
+        "name": "Herald of Madness",
+        "prerequisite": "Barbarian, monk, or ranger",
+        "sourcebook": "Dra394"
+    },
+    "paragonpath965": {
+        "id": "paragonpath965",
+        "name": "Herald of Vezzuvu",
+        "prerequisite": "Earthforger theme, firecrafter theme, primordial adept theme, or elemental pact warlock",
+        "sourcebook": "HotEC"
+    },
+    "paragonpath331": {
+        "id": "paragonpath331",
+        "name": "Hermetic Saboteur",
+        "prerequisite": "Wizard",
+        "sourcebook": "AP"
+    },
+    "paragonpath325": {
+        "id": "paragonpath325",
+        "name": "Hexer",
+        "prerequisite": "Warlock",
+        "sourcebook": "AP"
+    },
+    "paragonpath63": {
+        "id": "paragonpath63",
+        "name": "High Forest Scout",
+        "prerequisite": "Ranger, archer fighting style",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath233": {
+        "id": "paragonpath233",
+        "name": "Hoard Raider",
+        "prerequisite": "Rogue",
+        "sourcebook": "Dra369"
+    },
+    "paragonpath425": {
+        "id": "paragonpath425",
+        "name": "Holy Conqueror",
+        "prerequisite": "Paladin, ardent vow power",
+        "sourcebook": "DP"
+    },
+    "paragonpath403": {
+        "id": "paragonpath403",
+        "name": "Holy Emissary",
+        "prerequisite": "Cleric",
+        "sourcebook": "DP"
+    },
+    "paragonpath534": {
+        "id": "paragonpath534",
+        "name": "Honorable Blade",
+        "prerequisite": "Dragonborn, any martial class",
+        "sourcebook": "PHR:D"
+    },
+    "paragonpath175": {
+        "id": "paragonpath175",
+        "name": "Horizon Walker",
+        "prerequisite": "Ranger",
+        "sourcebook": "MP"
+    },
+    "paragonpath227": {
+        "id": "paragonpath227",
+        "name": "Horned Champion",
+        "prerequisite": "Warden",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath41": {
+        "id": "paragonpath41",
+        "name": "Hospitaler",
+        "prerequisite": "Paladin class",
+        "sourcebook": "PHB"
+    },
+    "paragonpath554": {
+        "id": "paragonpath554",
+        "name": "Huntmaster",
+        "prerequisite": "Ranger, Hunting Spear Student feat",
+        "sourcebook": "MP2"
+    },
+    "paragonpath500": {
+        "id": "paragonpath500",
+        "name": "Icewrought Sentinel",
+        "prerequisite": "Warden",
+        "sourcebook": "PP"
+    },
+    "paragonpath931": {
+        "id": "paragonpath931",
+        "name": "Idol of Darkness",
+        "prerequisite": "Paladin or cleric, evil alignment",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "paragonpath77": {
+        "id": "paragonpath77",
+        "name": "Impilturan Demonslayer",
+        "prerequisite": "Ranger, two-blade fighting style",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath761": {
+        "id": "paragonpath761",
+        "name": "Impure Scion",
+        "prerequisite": "Foulborn Heritage",
+        "sourcebook": "PsP"
+    },
+    "paragonpath737": {
+        "id": "paragonpath737",
+        "name": "Incandescent Champion",
+        "prerequisite": "Any psionic class",
+        "sourcebook": "PsP"
+    },
+    "paragonpath571": {
+        "id": "paragonpath571",
+        "name": "Infernal Eye",
+        "prerequisite": "Tiefling, any psionic class",
+        "sourcebook": "PHR:T"
+    },
+    "paragonpath195": {
+        "id": "paragonpath195",
+        "name": "Infernal Strategist",
+        "prerequisite": "Warlord, Resourceful Presence class feature",
+        "sourcebook": "MP"
+    },
+    "paragonpath595": {
+        "id": "paragonpath595",
+        "name": "Initiate of the Dragon",
+        "prerequisite": "Monk",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath911": {
+        "id": "paragonpath911",
+        "name": "Inner Circle Initiate",
+        "prerequisite": "Druid (protector)",
+        "sourcebook": "HotF"
+    },
+    "paragonpath164": {
+        "id": "paragonpath164",
+        "name": "Inner Dragon",
+        "prerequisite": "Dragonborn, fighter",
+        "sourcebook": "MP"
+    },
+    "paragonpath791": {
+        "id": "paragonpath791",
+        "name": "Intrepid Scout",
+        "prerequisite": "Only a scout can take this paragon path.",
+        "sourcebook": "HotFK"
+    },
+    "paragonpath594": {
+        "id": "paragonpath594",
+        "name": "Iron Guardian",
+        "prerequisite": "Battlemind",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath28": {
+        "id": "paragonpath28",
+        "name": "Iron Vanguard",
+        "prerequisite": "Fighter",
+        "sourcebook": "PHB"
+    },
+    "paragonpath545": {
+        "id": "paragonpath545",
+        "name": "Ironstar Mauler",
+        "prerequisite": "Fighter, Ironstar Student feat",
+        "sourcebook": "MP2"
+    },
+    "paragonpath562": {
+        "id": "paragonpath562",
+        "name": "Jack-of-All-Trades",
+        "prerequisite": "Rogue",
+        "sourcebook": "MP2"
+    },
+    "paragonpath657": {
+        "id": "paragonpath657",
+        "name": "Jazst Dancer",
+        "prerequisite": "Gladiator theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath377": {
+        "id": "paragonpath377",
+        "name": "Jorasco Jadehand",
+        "prerequisite": "Mark of Healing feat",
+        "sourcebook": "EPG"
+    },
+    "paragonpath42": {
+        "id": "paragonpath42",
+        "name": "Justiciar",
+        "prerequisite": "Paladin class",
+        "sourcebook": "PHB"
+    },
+    "paragonpath307": {
+        "id": "paragonpath307",
+        "name": "Karmic Shaper",
+        "prerequisite": "Bard, Virtue of Prescience class feature",
+        "sourcebook": "AP"
+    },
+    "paragonpath492": {
+        "id": "paragonpath492",
+        "name": "Keen Eagle",
+        "prerequisite": "Shaman, call spirit companion power, Watcher Spirit class feature",
+        "sourcebook": "PP"
+    },
+    "paragonpath268": {
+        "id": "paragonpath268",
+        "name": "Keeper of the Hidden Flame",
+        "prerequisite": "Druid",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath414": {
+        "id": "paragonpath414",
+        "name": "Keeper of the Nine",
+        "prerequisite": "Invoker, trained in History",
+        "sourcebook": "DP"
+    },
+    "paragonpath634": {
+        "id": "paragonpath634",
+        "name": "Keeper of the Past",
+        "prerequisite": "Elf; bard, shaman, or warlord; must worship the Spirits of the Past",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath21": {
+        "id": "paragonpath21",
+        "name": "Kensei",
+        "prerequisite": "Fighter",
+        "sourcebook": "PHB"
+    },
+    "paragonpath47": {
+        "id": "paragonpath47",
+        "name": "Knight Commander",
+        "prerequisite": "Warlord, proficiency with heavy armor",
+        "sourcebook": "PHB"
+    },
+    "paragonpath165": {
+        "id": "paragonpath165",
+        "name": "Knight Protector",
+        "prerequisite": "Fighter",
+        "sourcebook": "MP"
+    },
+    "paragonpath221": {
+        "id": "paragonpath221",
+        "name": "Knight of Celestia",
+        "prerequisite": "Paladin",
+        "sourcebook": "MotP"
+    },
+    "paragonpath231": {
+        "id": "paragonpath231",
+        "name": "Knight of Unyielding Bastion",
+        "prerequisite": "Paladin",
+        "sourcebook": "Dra369"
+    },
+    "paragonpath426": {
+        "id": "paragonpath426",
+        "name": "Knight of the Chalice",
+        "prerequisite": "Paladin",
+        "sourcebook": "DP"
+    },
+    "paragonpath546": {
+        "id": "paragonpath546",
+        "name": "Kulkor Arms Master",
+        "prerequisite": "Fighter, Kulkor Battlearm Student feat",
+        "sourcebook": "MP2"
+    },
+    "paragonpath378": {
+        "id": "paragonpath378",
+        "name": "Kundarak Ghorad'din",
+        "prerequisite": "Mark of Warding feat",
+        "sourcebook": "EPG"
+    },
+    "paragonpath796": {
+        "id": "paragonpath796",
+        "name": "Legendary Hexblade",
+        "prerequisite": "Only a hexblade can take this paragon path.",
+        "sourcebook": "HotFK"
+    },
+    "paragonpath910": {
+        "id": "paragonpath910",
+        "name": "Legendary Witch",
+        "prerequisite": "Wizard (witch)",
+        "sourcebook": "HotF"
+    },
+    "paragonpath308": {
+        "id": "paragonpath308",
+        "name": "Life Singer",
+        "prerequisite": "Bard",
+        "sourcebook": "AP"
+    },
+    "paragonpath38": {
+        "id": "paragonpath38",
+        "name": "Life-Stealer",
+        "prerequisite": "Warlock class, infernal pact",
+        "sourcebook": "PHB"
+    },
+    "paragonpath604": {
+        "id": "paragonpath604",
+        "name": "Light Bringer",
+        "prerequisite": "Runepriest",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath681": {
+        "id": "paragonpath681",
+        "name": "Lightning Blitzer",
+        "prerequisite": "Half-orc, cleric or paladin",
+        "sourcebook": "Dra386"
+    },
+    "paragonpath313": {
+        "id": "paragonpath313",
+        "name": "Lightning Fury",
+        "prerequisite": "Sorcerer, Storm Magic class feature",
+        "sourcebook": "AP"
+    },
+    "paragonpath371": {
+        "id": "paragonpath371",
+        "name": "Lightwalker",
+        "prerequisite": "Kalashtar, must worship the Path of Light",
+        "sourcebook": "EPG"
+    },
+    "paragonpath555": {
+        "id": "paragonpath555",
+        "name": "Lone Wolf",
+        "prerequisite": "Ranger, Hunter’s Quarry class feature",
+        "sourcebook": "MP2"
+    },
+    "paragonpath361": {
+        "id": "paragonpath361",
+        "name": "Long Night Scion",
+        "prerequisite": "Warlock, fey pact with the Winter Fey",
+        "sourcebook": "Dra374"
+    },
+    "paragonpath120": {
+        "id": "paragonpath120",
+        "name": "Longarm Marshal",
+        "prerequisite": "Warlord",
+        "sourcebook": "MP"
+    },
+    "paragonpath564": {
+        "id": "paragonpath564",
+        "name": "Lost Soul",
+        "prerequisite": "Tiefling, any arcane class",
+        "sourcebook": "PHR:T"
+    },
+    "paragonpath635": {
+        "id": "paragonpath635",
+        "name": "Luckbender",
+        "prerequisite": "Sorcerer, Wild Magic class feature",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath153": {
+        "id": "paragonpath153",
+        "name": "Luckbringer of Tymora",
+        "prerequisite": "Cleric class",
+        "sourcebook": "Dra365"
+    },
+    "paragonpath483": {
+        "id": "paragonpath483",
+        "name": "Luminescent Swarm",
+        "prerequisite": "Druid, Primal Swarm class feature",
+        "sourcebook": "PP"
+    },
+    "paragonpath379": {
+        "id": "paragonpath379",
+        "name": "Lyrandar Wind-Rider",
+        "prerequisite": "Mark of Storm feat",
+        "sourcebook": "EPG"
+    },
+    "paragonpath222": {
+        "id": "paragonpath222",
+        "name": "Malec-Keth Janissary",
+        "prerequisite": "Swordmage",
+        "sourcebook": "MotP"
+    },
+    "paragonpath822": {
+        "id": "paragonpath822",
+        "name": "Master Binder",
+        "prerequisite": "Only a binder can take this paragon path.",
+        "sourcebook": "HoS"
+    },
+    "paragonpath669": {
+        "id": "paragonpath669",
+        "name": "Master Defiler",
+        "prerequisite": "Arcane defiling power",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath102": {
+        "id": "paragonpath102",
+        "name": "Master Infiltrator",
+        "prerequisite": "Rogue",
+        "sourcebook": "PHB"
+    },
+    "paragonpath671": {
+        "id": "paragonpath671",
+        "name": "Master Preserver",
+        "prerequisite": "Arcane class",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath905": {
+        "id": "paragonpath905",
+        "name": "Master Skald",
+        "prerequisite": "Bard (skald)",
+        "sourcebook": "HotF"
+    },
+    "paragonpath112": {
+        "id": "paragonpath112",
+        "name": "Master Spy",
+        "prerequisite": "Rogue",
+        "sourcebook": "MP"
+    },
+    "paragonpath758": {
+        "id": "paragonpath758",
+        "name": "Master Summoner",
+        "prerequisite": "Psion",
+        "sourcebook": "PsP"
+    },
+    "paragonpath720": {
+        "id": "paragonpath720",
+        "name": "Master Thief",
+        "prerequisite": "Thief",
+        "sourcebook": "HotFL"
+    },
+    "paragonpath692": {
+        "id": "paragonpath692",
+        "name": "Master of Flame",
+        "prerequisite": "Any arcane class",
+        "sourcebook": "Dra388"
+    },
+    "paragonpath565": {
+        "id": "paragonpath565",
+        "name": "Master of Poisons",
+        "prerequisite": "Rogue",
+        "sourcebook": "MP2"
+    },
+    "paragonpath605": {
+        "id": "paragonpath605",
+        "name": "Master of the Forge",
+        "prerequisite": "Runepriest",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath326": {
+        "id": "paragonpath326",
+        "name": "Master of the Starry Night",
+        "prerequisite": "Warlock, star pact",
+        "sourcebook": "AP"
+    },
+    "paragonpath380": {
+        "id": "paragonpath380",
+        "name": "Medani Trueseer",
+        "prerequisite": "Mark of Detection feat",
+        "sourcebook": "EPG"
+    },
+    "paragonpath637": {
+        "id": "paragonpath637",
+        "name": "Mercurial Assassin",
+        "prerequisite": "Dragonborn, trained in Bluff or Stealth",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath404": {
+        "id": "paragonpath404",
+        "name": "Messenger of Peace",
+        "prerequisite": "Cleric, trained in Diplomacy",
+        "sourcebook": "DP"
+    },
+    "paragonpath680": {
+        "id": "paragonpath680",
+        "name": "Mighty Judge",
+        "prerequisite": "Half-orc, avenger, Censure of Pursuit class feature, oath of enmity class feature",
+        "sourcebook": "Dra386"
+    },
+    "paragonpath659": {
+        "id": "paragonpath659",
+        "name": "Mind General",
+        "prerequisite": "Noble adept theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath228": {
+        "id": "paragonpath228",
+        "name": "Minotaur Kinspeaker",
+        "prerequisite": "Minotaur, leader role",
+        "sourcebook": "Dra369"
+    },
+    "paragonpath405": {
+        "id": "paragonpath405",
+        "name": "Miracle Worker",
+        "prerequisite": "Cleric, trained in Heal",
+        "sourcebook": "DP"
+    },
+    "paragonpath640": {
+        "id": "paragonpath640",
+        "name": "Mithral Arm",
+        "prerequisite": "Dragonborn",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath953": {
+        "id": "paragonpath953",
+        "name": "Moon Hunter",
+        "prerequisite": "Training in Endurance and Insight",
+        "sourcebook": "Dra406"
+    },
+    "paragonpath1007": {
+        "id": "paragonpath1007",
+        "name": "Moonrise Stalker",
+        "prerequisite": "Seeker.",
+        "sourcebook": "Dra413"
+    },
+    "paragonpath248": {
+        "id": "paragonpath248",
+        "name": "Moonstalker",
+        "prerequisite": "Shifter",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath89": {
+        "id": "paragonpath89",
+        "name": "Morninglord",
+        "prerequisite": "Any divine class, must worship Amaunator",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath596": {
+        "id": "paragonpath596",
+        "name": "Mountain Devotee",
+        "prerequisite": "Monk, stone fist flurry of blows power",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath624": {
+        "id": "paragonpath624",
+        "name": "Mul Battle Slave",
+        "prerequisite": "Mul",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath455": {
+        "id": "paragonpath455",
+        "name": "Mythic Skald",
+        "prerequisite": "Bard, any primal class",
+        "sourcebook": "Dra376"
+    },
+    "paragonpath717": {
+        "id": "paragonpath717",
+        "name": "Mythic Slayer",
+        "prerequisite": "Slayer",
+        "sourcebook": "HotFL"
+    },
+    "paragonpath586": {
+        "id": "paragonpath586",
+        "name": "Nature's Avatar",
+        "prerequisite": "Wilden",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath349": {
+        "id": "paragonpath349",
+        "name": "Nightmare Weaver",
+        "prerequisite": "Warlock class, trained in Intimidate",
+        "sourcebook": "Dra373"
+    },
+    "paragonpath525": {
+        "id": "paragonpath525",
+        "name": "Ninefold Master",
+        "prerequisite": "Dragonborn, any arcane class, Draconic Spellcaster.",
+        "sourcebook": "PHR:D"
+    },
+    "paragonpath834": {
+        "id": "paragonpath834",
+        "name": "Nocturnal",
+        "prerequisite": "Any primal class",
+        "sourcebook": "HoS"
+    },
+    "paragonpath890": {
+        "id": "paragonpath890",
+        "name": "Oak Shield",
+        "prerequisite": "Any divine class, must worship Melora",
+        "sourcebook": "Dra401"
+    },
+    "paragonpath255": {
+        "id": "paragonpath255",
+        "name": "Oathsworn",
+        "prerequisite": "Avenger, oath of enmity power",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath467": {
+        "id": "paragonpath467",
+        "name": "Obsidian Stalker",
+        "prerequisite": "Assassin",
+        "sourcebook": "Dra379"
+    },
+    "paragonpath806": {
+        "id": "paragonpath806",
+        "name": "Ocular Adept",
+        "prerequisite": "Hunter ranger or seeker",
+        "sourcebook": "Dra394"
+    },
+    "paragonpath240": {
+        "id": "paragonpath240",
+        "name": "Oman Giantkiller",
+        "prerequisite": "Fighter and hunter’s quarry class feature, Moonshae Isles regional benefit",
+        "sourcebook": "Dra370"
+    },
+    "paragonpath381": {
+        "id": "paragonpath381",
+        "name": "Orien Swiftblade",
+        "prerequisite": "Mark of Passage feat",
+        "sourcebook": "EPG"
+    },
+    "paragonpath484": {
+        "id": "paragonpath484",
+        "name": "Pack Lord",
+        "prerequisite": "Druid",
+        "sourcebook": "PP"
+    },
+    "paragonpath133": {
+        "id": "paragonpath133",
+        "name": "Pack Master",
+        "prerequisite": "Warlord class, good alignment",
+        "sourcebook": "Dra364"
+    },
+    "paragonpath176": {
+        "id": "paragonpath176",
+        "name": "Pack Runner",
+        "prerequisite": "Ranger, Beast Mastery class feature, beast companion (wolf)",
+        "sourcebook": "MP"
+    },
+    "paragonpath888": {
+        "id": "paragonpath888",
+        "name": "Paragon of Victory",
+        "prerequisite": "Cleric",
+        "sourcebook": "Dra400"
+    },
+    "paragonpath49": {
+        "id": "paragonpath49",
+        "name": "Pathfinder",
+        "prerequisite": "Ranger class, two-blade fighting style",
+        "sourcebook": "PHB"
+    },
+    "paragonpath789": {
+        "id": "paragonpath789",
+        "name": "Peerless Hunter",
+        "prerequisite": "Only a hunter can take this paragon path.",
+        "sourcebook": "HotFK"
+    },
+    "paragonpath622": {
+        "id": "paragonpath622",
+        "name": "Phantasm Guard",
+        "prerequisite": "Gnome, swordmage",
+        "sourcebook": "Dra384"
+    },
+    "paragonpath665": {
+        "id": "paragonpath665",
+        "name": "Phantasmagoric Scoundrel",
+        "prerequisite": "Trained in Arcana, trained in Bluff or Thievery",
+        "sourcebook": "Dra386"
+    },
+    "paragonpath382": {
+        "id": "paragonpath382",
+        "name": "Phiarlan Phantasmist",
+        "prerequisite": "Mark of Shadow feat",
+        "sourcebook": "EPG"
+    },
+    "paragonpath738": {
+        "id": "paragonpath738",
+        "name": "Phrenic Invader",
+        "prerequisite": "Ardent",
+        "sourcebook": "PsP"
+    },
+    "paragonpath807": {
+        "id": "paragonpath807",
+        "name": "Phrenic Master",
+        "prerequisite": "Call spirit companion power",
+        "sourcebook": "Dra394"
+    },
+    "paragonpath99": {
+        "id": "paragonpath99",
+        "name": "Pit Fighter",
+        "prerequisite": "Fighter",
+        "sourcebook": "PHB"
+    },
+    "paragonpath223": {
+        "id": "paragonpath223",
+        "name": "Planeshifter",
+        "prerequisite": "Warlock or wizard",
+        "sourcebook": "MotP"
+    },
+    "paragonpath533": {
+        "id": "paragonpath533",
+        "name": "Platinum Templar",
+        "prerequisite": "Dragonborn, any divine class, must worship Bahamut",
+        "sourcebook": "PHR:D"
+    },
+    "paragonpath196": {
+        "id": "paragonpath196",
+        "name": "Platinum Warlord",
+        "prerequisite": "Warlord, good or lawful good",
+        "sourcebook": "MP"
+    },
+    "paragonpath166": {
+        "id": "paragonpath166",
+        "name": "Polearm Master",
+        "prerequisite": "Fighter",
+        "sourcebook": "MP"
+    },
+    "paragonpath668": {
+        "id": "paragonpath668",
+        "name": "Praetor Legate",
+        "prerequisite": "Templar theme or sorcerer-king pact class feature",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath539": {
+        "id": "paragonpath539",
+        "name": "Primal Mapper",
+        "prerequisite": "Primal power source",
+        "sourcebook": "Dra382"
+    },
+    "paragonpath485": {
+        "id": "paragonpath485",
+        "name": "Primal Summoner",
+        "prerequisite": "Druid",
+        "sourcebook": "PP"
+    },
+    "paragonpath314": {
+        "id": "paragonpath314",
+        "name": "Primordial Channeler",
+        "prerequisite": "Sorcerer, Wild Magic class feature",
+        "sourcebook": "AP"
+    },
+    "paragonpath966": {
+        "id": "paragonpath966",
+        "name": "Prince of Genies",
+        "prerequisite": "Elemental origin or training in Diplomacy",
+        "sourcebook": "HotEC"
+    },
+    "paragonpath579": {
+        "id": "paragonpath579",
+        "name": "Prince of Knaves",
+        "prerequisite": "Warlord, trained in Stealth",
+        "sourcebook": "MP2"
+    },
+    "paragonpath530": {
+        "id": "paragonpath530",
+        "name": "Psionic Binder",
+        "prerequisite": "Ardent",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath760": {
+        "id": "paragonpath760",
+        "name": "Psionic Incarnate",
+        "prerequisite": "Elan Heritage feat",
+        "sourcebook": "PsP"
+    },
+    "paragonpath660": {
+        "id": "paragonpath660",
+        "name": "Psionic Scholar",
+        "prerequisite": "Noble adept theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath85": {
+        "id": "paragonpath85",
+        "name": "Purple Dragon Knight",
+        "prerequisite": "Fighter, paladin, or warlord; affiliated with Cormyr",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath427": {
+        "id": "paragonpath427",
+        "name": "Questing Knight",
+        "prerequisite": "Paladin",
+        "sourcebook": "DP"
+    },
+    "paragonpath741": {
+        "id": "paragonpath741",
+        "name": "Quicksilver Demon",
+        "prerequisite": "Battlemind",
+        "sourcebook": "PsP"
+    },
+    "paragonpath363": {
+        "id": "paragonpath363",
+        "name": "Radiant Fist",
+        "prerequisite": "Monk, trained in Religion",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath501": {
+        "id": "paragonpath501",
+        "name": "Radiant Serpent",
+        "prerequisite": "Warden",
+        "sourcebook": "PP"
+    },
+    "paragonpath18": {
+        "id": "paragonpath18",
+        "name": "Radiant Servant",
+        "prerequisite": "Cleric",
+        "sourcebook": "PHB"
+    },
+    "paragonpath632": {
+        "id": "paragonpath632",
+        "name": "Rainbringer",
+        "prerequisite": "Elemental priest theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath547": {
+        "id": "paragonpath547",
+        "name": "Rakehell Duelist",
+        "prerequisite": "Fighter",
+        "sourcebook": "MP2"
+    },
+    "paragonpath187": {
+        "id": "paragonpath187",
+        "name": "Rakish Swashbuckler",
+        "prerequisite": "Rogue",
+        "sourcebook": "MP"
+    },
+    "paragonpath548": {
+        "id": "paragonpath548",
+        "name": "Rampaging Brute",
+        "prerequisite": "Fighter, Ogremight Student feat",
+        "sourcebook": "MP2"
+    },
+    "paragonpath22": {
+        "id": "paragonpath22",
+        "name": "Ravager",
+        "prerequisite": "Fighter, Battlerager Vigor class feature",
+        "sourcebook": "MP"
+    },
+    "paragonpath108": {
+        "id": "paragonpath108",
+        "name": "Raven Herald",
+        "prerequisite": "Rogue, must worship the Raven Queen",
+        "sourcebook": "MP"
+    },
+    "paragonpath835": {
+        "id": "paragonpath835",
+        "name": "Ravenkin",
+        "prerequisite": "Any arcane class, training in Religion",
+        "sourcebook": "HoS"
+    },
+    "paragonpath556": {
+        "id": "paragonpath556",
+        "name": "Reaving Axe Savant",
+        "prerequisite": "Ranger, Reaving Axe Student feat",
+        "sourcebook": "MP2"
+    },
+    "paragonpath566": {
+        "id": "paragonpath566",
+        "name": "Red Cloak",
+        "prerequisite": "Rogue, Red Cloak Student feat",
+        "sourcebook": "MP2"
+    },
+    "paragonpath570": {
+        "id": "paragonpath570",
+        "name": "Redeemer of the Damned",
+        "prerequisite": "Tiefling, any primal class",
+        "sourcebook": "PHR:T"
+    },
+    "paragonpath967": {
+        "id": "paragonpath967",
+        "name": "Reforged Soul",
+        "prerequisite": "Elemental origin or Born of the Elements feat",
+        "sourcebook": "HotEC"
+    },
+    "paragonpath395": {
+        "id": "paragonpath395",
+        "name": "Relentless Slayer",
+        "prerequisite": "Avenger, oath of enmity power",
+        "sourcebook": "DP"
+    },
+    "paragonpath456": {
+        "id": "paragonpath456",
+        "name": "Resourceful Magician",
+        "prerequisite": "Bard, any other arcane class",
+        "sourcebook": "Dra376"
+    },
+    "paragonpath677": {
+        "id": "paragonpath677",
+        "name": "Resurgent Wilder",
+        "prerequisite": "Wilder theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath332": {
+        "id": "paragonpath332",
+        "name": "Rimetongue Caller",
+        "prerequisite": "Wizard, Primordial language",
+        "sourcebook": "AP"
+    },
+    "paragonpath450": {
+        "id": "paragonpath450",
+        "name": "Rrathmal",
+        "prerequisite": "Githzerai",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath606": {
+        "id": "paragonpath606",
+        "name": "Rune Shield",
+        "prerequisite": "Runepriest",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath177": {
+        "id": "paragonpath177",
+        "name": "Ruthless Punisher",
+        "prerequisite": "Ranger",
+        "sourcebook": "MP"
+    },
+    "paragonpath317": {
+        "id": "paragonpath317",
+        "name": "Sage of Fate's Bonds",
+        "prerequisite": "Swordmage, aegis of ensnarement class feature",
+        "sourcebook": "AP"
+    },
+    "paragonpath771": {
+        "id": "paragonpath771",
+        "name": "Sainted General",
+        "prerequisite": "Warlord and paladin",
+        "sourcebook": "Dra390"
+    },
+    "paragonpath675": {
+        "id": "paragonpath675",
+        "name": "Sand Reaver",
+        "prerequisite": "Wasteland nomad theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath230": {
+        "id": "paragonpath230",
+        "name": "Scale-Breaker",
+        "prerequisite": "Fighter",
+        "sourcebook": "Dra369"
+    },
+    "paragonpath493": {
+        "id": "paragonpath493",
+        "name": "Scarred Healer",
+        "prerequisite": "Shaman, call spirit companion power",
+        "sourcebook": "PP"
+    },
+    "paragonpath519": {
+        "id": "paragonpath519",
+        "name": "Scion of Absence",
+        "prerequisite": "Genasi, voidsoul elemental manifestation",
+        "sourcebook": "Dra380"
+    },
+    "paragonpath249": {
+        "id": "paragonpath249",
+        "name": "Scion of Arkhosia",
+        "prerequisite": "Dragonborn",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath706": {
+        "id": "paragonpath706",
+        "name": "Scion of Leng",
+        "prerequisite": "Minotaur",
+        "sourcebook": "Dra389"
+    },
+    "paragonpath649": {
+        "id": "paragonpath649",
+        "name": "Scion of Renewal",
+        "prerequisite": "Shaman, call spirit companion power",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath428": {
+        "id": "paragonpath428",
+        "name": "Scion of Sacrifice",
+        "prerequisite": "Paladin, ardent vow power",
+        "sourcebook": "DP"
+    },
+    "paragonpath685": {
+        "id": "paragonpath685",
+        "name": "Scion of the All-Spirit",
+        "prerequisite": "Warden",
+        "sourcebook": "Dra386"
+    },
+    "paragonpath229": {
+        "id": "paragonpath229",
+        "name": "Scourge of Io",
+        "prerequisite": "Cleric",
+        "sourcebook": "Dra369"
+    },
+    "paragonpath327": {
+        "id": "paragonpath327",
+        "name": "Sea Tyrant Oracle",
+        "prerequisite": "Warlock, vestige pact",
+        "sourcebook": "AP"
+    },
+    "paragonpath494": {
+        "id": "paragonpath494",
+        "name": "Seasons' Herald",
+        "prerequisite": "Shaman, call spirit companion power",
+        "sourcebook": "PP"
+    },
+    "paragonpath690": {
+        "id": "paragonpath690",
+        "name": "Seer of Endings",
+        "prerequisite": "Tiefling, gaze of ruin racial power",
+        "sourcebook": "Dra387"
+    },
+    "paragonpath406": {
+        "id": "paragonpath406",
+        "name": "Seldarine Dedicate",
+        "prerequisite": "Elf or eladrin, cleric, proficiency with longbow or shortbow",
+        "sourcebook": "DP"
+    },
+    "paragonpath372": {
+        "id": "paragonpath372",
+        "name": "Self-Forged",
+        "prerequisite": "Any race except warforged, must be an artificer",
+        "sourcebook": "EPG"
+    },
+    "paragonpath396": {
+        "id": "paragonpath396",
+        "name": "Serene Initiate",
+        "prerequisite": "Avenger, oath of enmity power",
+        "sourcebook": "DP"
+    },
+    "paragonpath474": {
+        "id": "paragonpath474",
+        "name": "Seven Fates Archer",
+        "prerequisite": "Seeker",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath103": {
+        "id": "paragonpath103",
+        "name": "Shadow Assassin",
+        "prerequisite": "Rogue",
+        "sourcebook": "PHB"
+    },
+    "paragonpath224": {
+        "id": "paragonpath224",
+        "name": "Shadow Captain",
+        "prerequisite": "Warlord",
+        "sourcebook": "MotP"
+    },
+    "paragonpath836": {
+        "id": "paragonpath836",
+        "name": "Shadow Dancer",
+        "prerequisite": "Any teleportation at-will or encounter power, training in Stealth",
+        "sourcebook": "HoS"
+    },
+    "paragonpath837": {
+        "id": "paragonpath837",
+        "name": "Shadow Shaper",
+        "prerequisite": "Wizard, one or more illusion powers",
+        "sourcebook": "HoS"
+    },
+    "paragonpath468": {
+        "id": "paragonpath468",
+        "name": "Shadowblade",
+        "prerequisite": "Assassin",
+        "sourcebook": "Dra379"
+    },
+    "paragonpath838": {
+        "id": "paragonpath838",
+        "name": "Shadowthief",
+        "prerequisite": "Any arcane class",
+        "sourcebook": "HoS"
+    },
+    "paragonpath631": {
+        "id": "paragonpath631",
+        "name": "Shady Dealer",
+        "prerequisite": "Dune trader theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath682": {
+        "id": "paragonpath682",
+        "name": "Sharakim Blademaster",
+        "prerequisite": "Half-orc, swordmage, Aegis of Assault class feature",
+        "sourcebook": "Dra386"
+    },
+    "paragonpath587": {
+        "id": "paragonpath587",
+        "name": "Shard Disciple",
+        "prerequisite": "Shardmind",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath178": {
+        "id": "paragonpath178",
+        "name": "Sharpshooter",
+        "prerequisite": "Ranger",
+        "sourcebook": "MP"
+    },
+    "paragonpath121": {
+        "id": "paragonpath121",
+        "name": "Shield Adept",
+        "prerequisite": "Fighter",
+        "sourcebook": "MP"
+    },
+    "paragonpath250": {
+        "id": "paragonpath250",
+        "name": "Shiere Knight",
+        "prerequisite": "Eladrin",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath557": {
+        "id": "paragonpath557",
+        "name": "Shinaelestran Guardian",
+        "prerequisite": "Ranger",
+        "sourcebook": "MP2"
+    },
+    "paragonpath168": {
+        "id": "paragonpath168",
+        "name": "Shock Trooper",
+        "prerequisite": "Fighter",
+        "sourcebook": "MP"
+    },
+    "paragonpath514": {
+        "id": "paragonpath514",
+        "name": "Shyran Spiritblade",
+        "prerequisite": "Shaman and swordmage, Akanûl regional background",
+        "sourcebook": "Dra379"
+    },
+    "paragonpath513": {
+        "id": "paragonpath513",
+        "name": "Siegebreaker",
+        "prerequisite": "Fighter, Fighter Weapon Talent class feature",
+        "sourcebook": "Dra379"
+    },
+    "paragonpath318": {
+        "id": "paragonpath318",
+        "name": "Sigil Carver",
+        "prerequisite": "Swordmage, aegis of shielding class feature",
+        "sourcebook": "AP"
+    },
+    "paragonpath666": {
+        "id": "paragonpath666",
+        "name": "Silver-Tongued Scoundrel",
+        "prerequisite": "Trained in Bluff and Diplomacy",
+        "sourcebook": "Dra386"
+    },
+    "paragonpath143": {
+        "id": "paragonpath143",
+        "name": "Silverstar",
+        "prerequisite": "Any arcane or divine class that can use an implement; must worship Selûne",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath87": {
+        "id": "paragonpath87",
+        "name": "Simbarch of Aglarond",
+        "prerequisite": "Wizard",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath739": {
+        "id": "paragonpath739",
+        "name": "Siphon",
+        "prerequisite": "Ardent",
+        "sourcebook": "PsP"
+    },
+    "paragonpath383": {
+        "id": "paragonpath383",
+        "name": "Sivis Truenamer",
+        "prerequisite": "Mark of Scribing feat, fluent in Supernal",
+        "sourcebook": "EPG"
+    },
+    "paragonpath269": {
+        "id": "paragonpath269",
+        "name": "Sky Hunter",
+        "prerequisite": "Druid, wild shape power",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath429": {
+        "id": "paragonpath429",
+        "name": "Slayer of the Dead",
+        "prerequisite": "Paladin",
+        "sourcebook": "DP"
+    },
+    "paragonpath633": {
+        "id": "paragonpath633",
+        "name": "Smoking Crown Initiate",
+        "prerequisite": "Elemental priest theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath650": {
+        "id": "paragonpath650",
+        "name": "Snapping Testudo",
+        "prerequisite": "Fighter, proficiency with shields",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath558": {
+        "id": "paragonpath558",
+        "name": "Snow Tiger",
+        "prerequisite": "Ranger",
+        "sourcebook": "MP2"
+    },
+    "paragonpath751": {
+        "id": "paragonpath751",
+        "name": "Soaring Blade",
+        "prerequisite": "Monk, trained in Acrobatics",
+        "sourcebook": "PsP"
+    },
+    "paragonpath954": {
+        "id": "paragonpath954",
+        "name": "Soaring Rake",
+        "prerequisite": "Fey origin, half-elf, fey pact warlock, or Fey Bond feat; training in Acrobatics",
+        "sourcebook": "Dra406"
+    },
+    "paragonpath295": {
+        "id": "paragonpath295",
+        "name": "Soldier of Conquest",
+        "prerequisite": "Any martial or divine class, must worship Bane",
+        "sourcebook": "Dra372"
+    },
+    "paragonpath237": {
+        "id": "paragonpath237",
+        "name": "Son of Mercy",
+        "prerequisite": "Defender role",
+        "sourcebook": "Dra370"
+    },
+    "paragonpath884": {
+        "id": "paragonpath884",
+        "name": "Sorcerous Sword",
+        "prerequisite": "Only a bladesinger can take this paragon path.",
+        "sourcebook": "NCS"
+    },
+    "paragonpath1020": {
+        "id": "paragonpath1020",
+        "name": "Soul Binder",
+        "prerequisite": "Any arcane, divine, or shadow class; must worship Nerull",
+        "sourcebook": "Dra427"
+    },
+    "paragonpath225": {
+        "id": "paragonpath225",
+        "name": "Soul Guide",
+        "prerequisite": "Cleric",
+        "sourcebook": "MotP"
+    },
+    "paragonpath646": {
+        "id": "paragonpath646",
+        "name": "Soul Igniter",
+        "prerequisite": "Shaman, call spirit companion power",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath522": {
+        "id": "paragonpath522",
+        "name": "Soul Reaper",
+        "prerequisite": "Any divine class, must worship the Raven Queen",
+        "sourcebook": "Dra380"
+    },
+    "paragonpath469": {
+        "id": "paragonpath469",
+        "name": "Soul Thief",
+        "prerequisite": "Assassin",
+        "sourcebook": "Dra379"
+    },
+    "paragonpath520": {
+        "id": "paragonpath520",
+        "name": "Soul of Erosion",
+        "prerequisite": "Genasi, causticsoul elemental manifestation, watersoul elemental manifestation",
+        "sourcebook": "Dra380"
+    },
+    "paragonpath651": {
+        "id": "paragonpath651",
+        "name": "Soulforged",
+        "prerequisite": "Must worship Moradin and have the Moradin’s resolve Channel Divinity power",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath968": {
+        "id": "paragonpath968",
+        "name": "Speaker of Xaos",
+        "prerequisite": "Training in Arcana",
+        "sourcebook": "HotEC"
+    },
+    "paragonpath415": {
+        "id": "paragonpath415",
+        "name": "Speaker of the Word",
+        "prerequisite": "Invoker",
+        "sourcebook": "DP"
+    },
+    "paragonpath527": {
+        "id": "paragonpath527",
+        "name": "Spell Commander",
+        "prerequisite": "Artificer",
+        "sourcebook": "Dra381"
+    },
+    "paragonpath86": {
+        "id": "paragonpath86",
+        "name": "Spellguard Wizard",
+        "prerequisite": "Wizard",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath62": {
+        "id": "paragonpath62",
+        "name": "Spellscarred Savant",
+        "prerequisite": "Must have at least one spellscar, Student of the Plague multiclass feat",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath59": {
+        "id": "paragonpath59",
+        "name": "Spellstorm Mage",
+        "prerequisite": "Wizard class",
+        "sourcebook": "PHB"
+    },
+    "paragonpath197": {
+        "id": "paragonpath197",
+        "name": "Spiral Tactician",
+        "prerequisite": "Eladrin, warlord, Tactical Presence class feature",
+        "sourcebook": "MP"
+    },
+    "paragonpath486": {
+        "id": "paragonpath486",
+        "name": "Spiral Wind's Ally",
+        "prerequisite": "Druid",
+        "sourcebook": "PP"
+    },
+    "paragonpath277": {
+        "id": "paragonpath277",
+        "name": "Spirit Tempest",
+        "prerequisite": "Shaman, call spirit companion power",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath714": {
+        "id": "paragonpath714",
+        "name": "Stalwart Knight",
+        "prerequisite": "Knight",
+        "sourcebook": "HotFL"
+    },
+    "paragonpath782": {
+        "id": "paragonpath782",
+        "name": "Steadfast Sentinel",
+        "prerequisite": "Only a sentinel can take this paragon path.",
+        "sourcebook": "HotFK"
+    },
+    "paragonpath542": {
+        "id": "paragonpath542",
+        "name": "Steel Ego",
+        "prerequisite": "Battlemind, mind spike power",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath549": {
+        "id": "paragonpath549",
+        "name": "Steel Vanguard Master",
+        "prerequisite": "Fighter, Steel Vanguard Student feat",
+        "sourcebook": "MP2"
+    },
+    "paragonpath145": {
+        "id": "paragonpath145",
+        "name": "Steelsky Liberator",
+        "prerequisite": "Dragonborn, genasi, half-orc, or human",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath407": {
+        "id": "paragonpath407",
+        "name": "Stone Keeper",
+        "prerequisite": "Dwarf, cleric, trained in History",
+        "sourcebook": "DP"
+    },
+    "paragonpath251": {
+        "id": "paragonpath251",
+        "name": "Stoneblessed",
+        "prerequisite": "Goliath",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath416": {
+        "id": "paragonpath416",
+        "name": "Stonecaller",
+        "prerequisite": "Invoker",
+        "sourcebook": "DP"
+    },
+    "paragonpath479": {
+        "id": "paragonpath479",
+        "name": "Stonefire Rager",
+        "prerequisite": "Barbarian",
+        "sourcebook": "PP"
+    },
+    "paragonpath742": {
+        "id": "paragonpath742",
+        "name": "Storm Disciple",
+        "prerequisite": "Battlemind",
+        "sourcebook": "PsP"
+    },
+    "paragonpath535": {
+        "id": "paragonpath535",
+        "name": "Storm Dragon",
+        "prerequisite": "Dragonborn, any primal class, dragon breath power that deals lightning damage",
+        "sourcebook": "PHR:D"
+    },
+    "paragonpath328": {
+        "id": "paragonpath328",
+        "name": "Storm Scourge",
+        "prerequisite": "Warlock, fey pact",
+        "sourcebook": "AP"
+    },
+    "paragonpath284": {
+        "id": "paragonpath284",
+        "name": "Storm Sentinel",
+        "prerequisite": "Warden",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath487": {
+        "id": "paragonpath487",
+        "name": "Storm Speaker",
+        "prerequisite": "Druid",
+        "sourcebook": "PP"
+    },
+    "paragonpath647": {
+        "id": "paragonpath647",
+        "name": "Stormcaller",
+        "prerequisite": "Shaman, call spirit companion power",
+        "sourcebook": "Dra385"
+    },
+    "paragonpath51": {
+        "id": "paragonpath51",
+        "name": "Stormwarden",
+        "prerequisite": "Ranger class, two-blade fighting style",
+        "sourcebook": "PHB"
+    },
+    "paragonpath465": {
+        "id": "paragonpath465",
+        "name": "Storvakal",
+        "prerequisite": "Githzerai",
+        "sourcebook": "Dra378"
+    },
+    "paragonpath188": {
+        "id": "paragonpath188",
+        "name": "Strong-Arm Enforcer",
+        "prerequisite": "Rogue, trained in Intimidate",
+        "sourcebook": "MP"
+    },
+    "paragonpath156": {
+        "id": "paragonpath156",
+        "name": "Student of Caiphon",
+        "prerequisite": "Warlock class, star pact",
+        "sourcebook": "Dra366"
+    },
+    "paragonpath262": {
+        "id": "paragonpath262",
+        "name": "Student of the Seven",
+        "prerequisite": "Bard, any multiclass feat",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath592": {
+        "id": "paragonpath592",
+        "name": "Stygian Adept",
+        "prerequisite": "Ardent",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath263": {
+        "id": "paragonpath263",
+        "name": "Summer Rhymer",
+        "prerequisite": "Bard, Virtue of Cunning class feature",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath608": {
+        "id": "paragonpath608",
+        "name": "Swift Strider",
+        "prerequisite": "Seeker, Spiritbond class feature",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath61": {
+        "id": "paragonpath61",
+        "name": "Sword Coast Corsair",
+        "prerequisite": "Any martial class",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath48": {
+        "id": "paragonpath48",
+        "name": "Sword Marshal",
+        "prerequisite": "Warlord, proficiency with a heavy blade",
+        "sourcebook": "PHB"
+    },
+    "paragonpath319": {
+        "id": "paragonpath319",
+        "name": "Sword of Assault",
+        "prerequisite": "Swordmage, aegis of assault class feature",
+        "sourcebook": "AP"
+    },
+    "paragonpath26": {
+        "id": "paragonpath26",
+        "name": "Swordmaster",
+        "prerequisite": "Fighter",
+        "sourcebook": "PHB"
+    },
+    "paragonpath179": {
+        "id": "paragonpath179",
+        "name": "Sylvan Archer",
+        "prerequisite": "Elf, ranger",
+        "sourcebook": "MP"
+    },
+    "paragonpath15": {
+        "id": "paragonpath15",
+        "name": "Tactical Warpriest",
+        "prerequisite": "Cleric",
+        "sourcebook": "PHB"
+    },
+    "paragonpath743": {
+        "id": "paragonpath743",
+        "name": "Talaric Ironjack",
+        "prerequisite": "Battlemind",
+        "sourcebook": "PsP"
+    },
+    "paragonpath531": {
+        "id": "paragonpath531",
+        "name": "Talaric Strategist",
+        "prerequisite": "Ardent",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath384": {
+        "id": "paragonpath384",
+        "name": "Tharashk Wayfinder",
+        "prerequisite": "Ranger, Hunter’s Quarry class feature, Mark of Finding feat",
+        "sourcebook": "EPG"
+    },
+    "paragonpath239": {
+        "id": "paragonpath239",
+        "name": "Tharos Impostor",
+        "prerequisite": "Rogue and infernal pact warlock, Impiltur regional benefit",
+        "sourcebook": "Dra370"
+    },
+    "paragonpath238": {
+        "id": "paragonpath238",
+        "name": "Thay Infiltrator",
+        "prerequisite": "Ranger and healing word class feature, Aglarond regional benefit",
+        "sourcebook": "Dra370"
+    },
+    "paragonpath417": {
+        "id": "paragonpath417",
+        "name": "Theurge of the Compact",
+        "prerequisite": "Invoker, Covenant of Wrath class feature",
+        "sourcebook": "DP"
+    },
+    "paragonpath759": {
+        "id": "paragonpath759",
+        "name": "Thrallherd",
+        "prerequisite": "Psion",
+        "sourcebook": "PsP"
+    },
+    "paragonpath626": {
+        "id": "paragonpath626",
+        "name": "Thri-kreen Predator",
+        "prerequisite": "Thri-kreen race",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath385": {
+        "id": "paragonpath385",
+        "name": "Thuranni Shadow Killer",
+        "prerequisite": "Mark of Shadow feat, trained in Stealth",
+        "sourcebook": "EPG"
+    },
+    "paragonpath113": {
+        "id": "paragonpath113",
+        "name": "Tiefling Hellstalker",
+        "prerequisite": "Tiefling, rogue",
+        "sourcebook": "MP"
+    },
+    "paragonpath118": {
+        "id": "paragonpath118",
+        "name": "Tiefling Warfiend",
+        "prerequisite": "Tiefling, fighter",
+        "sourcebook": "MP"
+    },
+    "paragonpath752": {
+        "id": "paragonpath752",
+        "name": "Tiger Claw Master",
+        "prerequisite": "Monk",
+        "sourcebook": "PsP"
+    },
+    "paragonpath601": {
+        "id": "paragonpath601",
+        "name": "Time Bender",
+        "prerequisite": "Psion",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath521": {
+        "id": "paragonpath521",
+        "name": "Tome Adept",
+        "prerequisite": "Wizard, tome implement mastery",
+        "sourcebook": "Dra380"
+    },
+    "paragonpath753": {
+        "id": "paragonpath753",
+        "name": "Transcendent Perfection",
+        "prerequisite": "Monk",
+        "sourcebook": "PsP"
+    },
+    "paragonpath540": {
+        "id": "paragonpath540",
+        "name": "Traveler's Harlequin",
+        "prerequisite": "Trained in Bluff, must have more than one class, must worship the Traveler",
+        "sourcebook": "Dra382"
+    },
+    "paragonpath693": {
+        "id": "paragonpath693",
+        "name": "Treeborn",
+        "prerequisite": "Wilden",
+        "sourcebook": "Dra388"
+    },
+    "paragonpath502": {
+        "id": "paragonpath502",
+        "name": "Tribal Champion",
+        "prerequisite": "Warden",
+        "sourcebook": "PP"
+    },
+    "paragonpath408": {
+        "id": "paragonpath408",
+        "name": "Truthseeker",
+        "prerequisite": "Cleric",
+        "sourcebook": "DP"
+    },
+    "paragonpath569": {
+        "id": "paragonpath569",
+        "name": "Turathi Hell-Kite",
+        "prerequisite": "Tiefling, any martial class",
+        "sourcebook": "PHR:T"
+    },
+    "paragonpath252": {
+        "id": "paragonpath252",
+        "name": "Turathi Highborn",
+        "prerequisite": "Tiefling",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath198": {
+        "id": "paragonpath198",
+        "name": "Twiceborn Leader",
+        "prerequisite": "Warlord",
+        "sourcebook": "MP"
+    },
+    "paragonpath253": {
+        "id": "paragonpath253",
+        "name": "Twilight Guardian",
+        "prerequisite": "Elf",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath480": {
+        "id": "paragonpath480",
+        "name": "Twinclaw Slayer",
+        "prerequisite": "Barbarian, Whirling Slayer class feature",
+        "sourcebook": "PP"
+    },
+    "paragonpath598": {
+        "id": "paragonpath598",
+        "name": "Umbral Cabalist",
+        "prerequisite": "Warlock, vestige pact",
+        "sourcebook": "Dra383"
+    },
+    "paragonpath71": {
+        "id": "paragonpath71",
+        "name": "Umbriri",
+        "prerequisite": "Swordmage",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath744": {
+        "id": "paragonpath744",
+        "name": "Unbound Nomad",
+        "prerequisite": "Battlemind",
+        "sourcebook": "PsP"
+    },
+    "paragonpath447": {
+        "id": "paragonpath447",
+        "name": "Uncarnate",
+        "prerequisite": "Psion",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath515": {
+        "id": "paragonpath515",
+        "name": "Underchasm Darkwatcher",
+        "prerequisite": "Warden and warlock, East Rift regional background",
+        "sourcebook": "Dra379"
+    },
+    "paragonpath754": {
+        "id": "paragonpath754",
+        "name": "Unseen Hand",
+        "prerequisite": "Monk, trained in Stealth",
+        "sourcebook": "PsP"
+    },
+    "paragonpath333": {
+        "id": "paragonpath333",
+        "name": "Unseen Mage",
+        "prerequisite": "Wizard",
+        "sourcebook": "AP"
+    },
+    "paragonpath256": {
+        "id": "paragonpath256",
+        "name": "Unveiled Visage",
+        "prerequisite": "Avenger",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath629": {
+        "id": "paragonpath629",
+        "name": "Unwelcome Guest",
+        "prerequisite": "Athasian minstrel theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath386": {
+        "id": "paragonpath386",
+        "name": "Vadalis Griffonmaster",
+        "prerequisite": "Ranger, Beast Mastery class feature, Mark of Handling feat",
+        "sourcebook": "EPG"
+    },
+    "paragonpath787": {
+        "id": "paragonpath787",
+        "name": "Valiant Cavalier",
+        "prerequisite": "Only a cavalier can take this paragon path.",
+        "sourcebook": "HotFK"
+    },
+    "paragonpath803": {
+        "id": "paragonpath803",
+        "name": "Valiant Hexblade",
+        "prerequisite": "Only a hexblade with the fey pact can take this paragon path.",
+        "sourcebook": "Dra393"
+    },
+    "paragonpath818": {
+        "id": "paragonpath818",
+        "name": "Vampire Noble",
+        "prerequisite": "Only a vampire can take this paragon path.",
+        "sourcebook": "HoS"
+    },
+    "paragonpath672": {
+        "id": "paragonpath672",
+        "name": "Veiled Guardian",
+        "prerequisite": "Veiled Alliance theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath839": {
+        "id": "paragonpath839",
+        "name": "Veiled Master",
+        "prerequisite": "Training in Stealth and Perception",
+        "sourcebook": "HoS"
+    },
+    "paragonpath459": {
+        "id": "paragonpath459",
+        "name": "Vengeful Crusader",
+        "prerequisite": "Paladin, trained in Insight or Perception",
+        "sourcebook": "Dra377"
+    },
+    "paragonpath470": {
+        "id": "paragonpath470",
+        "name": "Venomed Soul",
+        "prerequisite": "Assassin",
+        "sourcebook": "Dra379"
+    },
+    "paragonpath285": {
+        "id": "paragonpath285",
+        "name": "Verdant Lord",
+        "prerequisite": "Warden",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath563": {
+        "id": "paragonpath563",
+        "name": "Verdant Stalker",
+        "prerequisite": "Rogue, trained in Stealth",
+        "sourcebook": "MP2"
+    },
+    "paragonpath932": {
+        "id": "paragonpath932",
+        "name": "Vermin Lord",
+        "prerequisite": "Druid, evil alignment",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "paragonpath418": {
+        "id": "paragonpath418",
+        "name": "Vessel of Ichor",
+        "prerequisite": "Invoker, Covenant of Wrath class feature",
+        "sourcebook": "DP"
+    },
+    "paragonpath524": {
+        "id": "paragonpath524",
+        "name": "Vistani Execrator",
+        "prerequisite": "Any arcane class or Covenant of Malediction class feature, Vistani Heritage",
+        "sourcebook": "Dra380"
+    },
+    "paragonpath663": {
+        "id": "paragonpath663",
+        "name": "Voice for the Ravaged",
+        "prerequisite": "Shaman or primal guardian theme",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath264": {
+        "id": "paragonpath264",
+        "name": "Voice of Thunder",
+        "prerequisite": "Bard",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath76": {
+        "id": "paragonpath76",
+        "name": "Wandering Swordmage",
+        "prerequisite": "Swordmage",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath265": {
+        "id": "paragonpath265",
+        "name": "War Chanter",
+        "prerequisite": "Bard, Virtue of Valor class feature",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath66": {
+        "id": "paragonpath66",
+        "name": "War Wizard of Cormyr",
+        "prerequisite": "Wizard, affiliated with Cormyr",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath320": {
+        "id": "paragonpath320",
+        "name": "Ward Guardian",
+        "prerequisite": "Swordmage",
+        "sourcebook": "AP"
+    },
+    "paragonpath131": {
+        "id": "paragonpath131",
+        "name": "Warforged Juggernaut",
+        "prerequisite": "Warforged",
+        "sourcebook": "EPG"
+    },
+    "paragonpath132": {
+        "id": "paragonpath132",
+        "name": "Warforged Lifeseeker",
+        "prerequisite": "Warforged, leader role",
+        "sourcebook": "Dra364"
+    },
+    "paragonpath550": {
+        "id": "paragonpath550",
+        "name": "Warhound of Bane",
+        "prerequisite": "Fighter",
+        "sourcebook": "MP2"
+    },
+    "paragonpath772": {
+        "id": "paragonpath772",
+        "name": "Warpath Berserker",
+        "prerequisite": "Warlord and barbarian",
+        "sourcebook": "Dra390"
+    },
+    "paragonpath495": {
+        "id": "paragonpath495",
+        "name": "Warrior of Spring",
+        "prerequisite": "Shaman, call spirit companion power",
+        "sourcebook": "PP"
+    },
+    "paragonpath458": {
+        "id": "paragonpath458",
+        "name": "Watcher of Vengeance",
+        "prerequisite": "Avenger, trained in Insight or Perception",
+        "sourcebook": "Dra377"
+    },
+    "paragonpath155": {
+        "id": "paragonpath155",
+        "name": "Watcher of the Night",
+        "prerequisite": "Eladrin, rogue class",
+        "sourcebook": "Dra366"
+    },
+    "paragonpath397": {
+        "id": "paragonpath397",
+        "name": "Watchful Shepherd",
+        "prerequisite": "Avenger",
+        "sourcebook": "DP"
+    },
+    "paragonpath398": {
+        "id": "paragonpath398",
+        "name": "Weapon of Fortune",
+        "prerequisite": "Avenger, oath of enmity power",
+        "sourcebook": "DP"
+    },
+    "paragonpath334": {
+        "id": "paragonpath334",
+        "name": "Weaver of Chance",
+        "prerequisite": "Wizard",
+        "sourcebook": "AP"
+    },
+    "paragonpath488": {
+        "id": "paragonpath488",
+        "name": "Whirling Samara",
+        "prerequisite": "Druid, Primal Swarm class feature",
+        "sourcebook": "PP"
+    },
+    "paragonpath69": {
+        "id": "paragonpath69",
+        "name": "Whirlwind Genasi",
+        "prerequisite": "Genasi, windsoul elemental manifestation",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath567": {
+        "id": "paragonpath567",
+        "name": "Whisperknife",
+        "prerequisite": "Rogue",
+        "sourcebook": "MP2"
+    },
+    "paragonpath952": {
+        "id": "paragonpath952",
+        "name": "White Horn Knight",
+        "prerequisite": "Proficiency in heavy armor.",
+        "sourcebook": "Dra406"
+    },
+    "paragonpath580": {
+        "id": "paragonpath580",
+        "name": "White Raven",
+        "prerequisite": "Warlord",
+        "sourcebook": "MP2"
+    },
+    "paragonpath678": {
+        "id": "paragonpath678",
+        "name": "Wielder of the Way",
+        "prerequisite": "Wilder theme or battlemind",
+        "sourcebook": "DSCS"
+    },
+    "paragonpath281": {
+        "id": "paragonpath281",
+        "name": "Wild Mage",
+        "prerequisite": "Sorcerer, Wild Magic class feature",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath180": {
+        "id": "paragonpath180",
+        "name": "Wildcat Stalker",
+        "prerequisite": "Ranger, Beast Mastery class feature, beast companion (cat)",
+        "sourcebook": "MP"
+    },
+    "paragonpath68": {
+        "id": "paragonpath68",
+        "name": "Wildfire Genasi",
+        "prerequisite": "Genasi, firesoul elemental manifestation",
+        "sourcebook": "FRPG"
+    },
+    "paragonpath261": {
+        "id": "paragonpath261",
+        "name": "Wildrunner",
+        "prerequisite": "Barbarian, trained in Nature",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath481": {
+        "id": "paragonpath481",
+        "name": "Winter Fury",
+        "prerequisite": "Barbarian",
+        "sourcebook": "PP"
+    },
+    "paragonpath773": {
+        "id": "paragonpath773",
+        "name": "Witchmaster",
+        "prerequisite": "Warlord and warlock",
+        "sourcebook": "Dra390"
+    },
+    "paragonpath32": {
+        "id": "paragonpath32",
+        "name": "Wizard of the Spiral Tower",
+        "prerequisite": "Wizard class, proficiency with longsword",
+        "sourcebook": "PHB"
+    },
+    "paragonpath462": {
+        "id": "paragonpath462",
+        "name": "Wrathbearer",
+        "prerequisite": "Fighter, Battlerager Vigor class feature",
+        "sourcebook": "Dra378"
+    },
+    "paragonpath232": {
+        "id": "paragonpath232",
+        "name": "Wyrm-Hunter",
+        "prerequisite": "Ranger",
+        "sourcebook": "Dra369"
+    },
+    "paragonpath257": {
+        "id": "paragonpath257",
+        "name": "Zealous Assassin",
+        "prerequisite": "Avenger, trained in Stealth",
+        "sourcebook": "PHB2"
+    },
+    "paragonpath457": {
+        "id": "paragonpath457",
+        "name": "Zealous Demagogue",
+        "prerequisite": "Cleric or invoker, trained in Insight or Perception",
+        "sourcebook": "Dra377"
+    },
+    "paragonpath541": {
+        "id": "paragonpath541",
+        "name": "Zephyr Blade",
+        "prerequisite": "Battlemind",
+        "sourcebook": "PHB3"
+    },
+    "paragonpath581": {
+        "id": "paragonpath581",
+        "name": "Zephyr Warchief",
+        "prerequisite": "Warlord, Desert Moon Student feat",
+        "sourcebook": "MP2"
+    }
+}

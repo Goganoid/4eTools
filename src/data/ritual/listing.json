@@ -1,0 +1,3242 @@
+{
+    "ritual357": {
+        "id": "ritual357",
+        "name": "Alarm",
+        "level": "1",
+        "componentcost": "5, plus a set of focuses",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual135": {
+        "id": "ritual135",
+        "name": "Alchemist's Acid",
+        "level": "1",
+        "componentcost": "See Alchemical Item",
+        "price": "70",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual136": {
+        "id": "ritual136",
+        "name": "Alchemist's Fire",
+        "level": "1",
+        "componentcost": "See Alchemical Item",
+        "price": "70",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual137": {
+        "id": "ritual137",
+        "name": "Alchemist's Frost",
+        "level": "1",
+        "componentcost": "See Alchemical Item",
+        "price": "70",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual75": {
+        "id": "ritual75",
+        "name": "Amanuensis",
+        "level": "1",
+        "componentcost": "10",
+        "price": "20",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    },
+    "ritual40": {
+        "id": "ritual40",
+        "name": "Animal Messenger",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB"
+    },
+    "ritual138": {
+        "id": "ritual138",
+        "name": "Antivenom",
+        "level": "1",
+        "componentcost": "See Alchemical Item",
+        "price": "70",
+        "keyskilldescription": "Heal or Nature",
+        "sourcebook": "AV"
+    },
+    "ritual77": {
+        "id": "ritual77",
+        "name": "Arcane Mark",
+        "level": "1",
+        "componentcost": "10",
+        "price": "20",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    },
+    "ritual101": {
+        "id": "ritual101",
+        "name": "Banish Vermin",
+        "level": "1",
+        "componentcost": "10",
+        "price": "30",
+        "keyskilldescription": "Nature",
+        "sourcebook": "Dra366"
+    },
+    "ritual1": {
+        "id": "ritual1",
+        "name": "Brew Potion",
+        "level": "1",
+        "componentcost": "Special",
+        "price": "75",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "PHB"
+    },
+    "ritual143": {
+        "id": "ritual143",
+        "name": "Clearsense Powder",
+        "level": "1",
+        "componentcost": "See Alchemical Item",
+        "price": "80",
+        "keyskilldescription": "Heal or Nature",
+        "sourcebook": "AV"
+    },
+    "ritual144": {
+        "id": "ritual144",
+        "name": "Clearwater Solution",
+        "level": "1",
+        "componentcost": "See Alchemical Item",
+        "price": "100",
+        "keyskilldescription": "Arcana or Nature or Religion",
+        "sourcebook": "AV"
+    },
+    "ritual39": {
+        "id": "ritual39",
+        "name": "Comprehend Language",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual297": {
+        "id": "ritual297",
+        "name": "Comrades' Succor",
+        "level": "1",
+        "componentcost": "10",
+        "price": "150",
+        "keyskilldescription": "Heal",
+        "sourcebook": "Dra380"
+    },
+    "ritual256": {
+        "id": "ritual256",
+        "name": "Conceal Dragon mark",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "EPG"
+    },
+    "ritual195": {
+        "id": "ritual195",
+        "name": "Create Campsite",
+        "level": "1",
+        "componentcost": "15",
+        "price": "50",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB2"
+    },
+    "ritual273": {
+        "id": "ritual273",
+        "name": "Create Holy Water",
+        "level": "1",
+        "componentcost": "Special",
+        "price": "50",
+        "keyskilldescription": "Religion",
+        "sourcebook": "DP"
+    },
+    "ritual363": {
+        "id": "ritual363",
+        "name": "Dancing Lights",
+        "level": "1",
+        "componentcost": "10 or 1 healing surge",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual285": {
+        "id": "ritual285",
+        "name": "Dowsing Rod",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PP"
+    },
+    "ritual111": {
+        "id": "ritual111",
+        "name": "Explorer's Fire",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra366"
+    },
+    "ritual113": {
+        "id": "ritual113",
+        "name": "Fastidiousness",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual47": {
+        "id": "ritual47",
+        "name": "Gentle Repose",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Heal",
+        "sourcebook": "PHB"
+    },
+    "ritual197": {
+        "id": "ritual197",
+        "name": "Glib Limerick",
+        "level": "1",
+        "componentcost": "10, plus a focus worth 5gp",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB2"
+    },
+    "ritual369": {
+        "id": "ritual369",
+        "name": "Hold Portal",
+        "level": "1",
+        "componentcost": "1 healing surge",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual50": {
+        "id": "ritual50",
+        "name": "Magic Mouth",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual51": {
+        "id": "ritual51",
+        "name": "Make Whole",
+        "level": "1",
+        "componentcost": "Special",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual314": {
+        "id": "ritual314",
+        "name": "Master Artisan",
+        "level": "1",
+        "componentcost": "Special",
+        "price": "50",
+        "keyskilldescription": "Athletics",
+        "sourcebook": "MP2"
+    },
+    "ritual375": {
+        "id": "ritual375",
+        "name": "Pass Without Trace",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Nature",
+        "sourcebook": "Dra405"
+    },
+    "ritual287": {
+        "id": "ritual287",
+        "name": "Portend Weather",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PP"
+    },
+    "ritual227": {
+        "id": "ritual227",
+        "name": "Purify Water",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Arcana or Nature or Religion",
+        "sourcebook": "AP"
+    },
+    "ritual187": {
+        "id": "ritual187",
+        "name": "Raise Beast Companion",
+        "level": "1",
+        "componentcost": "50",
+        "price": "None",
+        "keyskilldescription": "Nature",
+        "sourcebook": "MP"
+    },
+    "ritual54": {
+        "id": "ritual54",
+        "name": "Secret Page",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual58": {
+        "id": "ritual58",
+        "name": "Silence",
+        "level": "1",
+        "componentcost": "30",
+        "price": "75",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual384": {
+        "id": "ritual384",
+        "name": "Silent Image",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual91": {
+        "id": "ritual91",
+        "name": "Simbul's Conversion",
+        "level": "1",
+        "componentcost": "25",
+        "price": "125",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    },
+    "ritual319": {
+        "id": "ritual319",
+        "name": "Temporary Fix",
+        "level": "1",
+        "componentcost": "1 healing surge",
+        "price": "50",
+        "keyskilldescription": "Thievery or Athletics",
+        "sourcebook": "MP2"
+    },
+    "ritual60": {
+        "id": "ritual60",
+        "name": "Tenser's Floating Disk",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual321": {
+        "id": "ritual321",
+        "name": "Tracker's Eye",
+        "level": "1",
+        "componentcost": "1 healing surge",
+        "price": "50",
+        "keyskilldescription": "Nature or Perception",
+        "sourcebook": "MP2"
+    },
+    "ritual322": {
+        "id": "ritual322",
+        "name": "Travel Sense",
+        "level": "1",
+        "componentcost": "1 healing surge",
+        "price": "50",
+        "keyskilldescription": "Nature",
+        "sourcebook": "MP2"
+    },
+    "ritual291": {
+        "id": "ritual291",
+        "name": "Traveler's Camouflage",
+        "level": "1",
+        "componentcost": "10",
+        "price": "50",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PP"
+    },
+    "ritual206": {
+        "id": "ritual206",
+        "name": "Traveler's Chant",
+        "level": "1",
+        "componentcost": "10, plus a focus worth 5",
+        "price": "75",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB2"
+    },
+    "ritual230": {
+        "id": "ritual230",
+        "name": "Unseen Servant",
+        "level": "1",
+        "componentcost": "20, plus a focus worth at least 25",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AP"
+    },
+    "ritual131": {
+        "id": "ritual131",
+        "name": "Wizard's Curtain",
+        "level": "1",
+        "componentcost": "30",
+        "price": "75",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual358": {
+        "id": "ritual358",
+        "name": "Animate Rope",
+        "level": "2",
+        "componentcost": "5, a focus, and 1 healing surge",
+        "price": "100",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual191": {
+        "id": "ritual191",
+        "name": "Bloom",
+        "level": "2",
+        "componentcost": "20",
+        "price": "100",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB2"
+    },
+    "ritual362": {
+        "id": "ritual362",
+        "name": "Continual Light",
+        "level": "2",
+        "componentcost": "20 or 1 healing surge",
+        "price": "100",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Dra405"
+    },
+    "ritual182": {
+        "id": "ritual182",
+        "name": "Corpse Light",
+        "level": "2",
+        "componentcost": "25",
+        "price": "100",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Open Grave"
+    },
+    "ritual341": {
+        "id": "ritual341",
+        "name": "Create Primal Element",
+        "level": "2",
+        "componentcost": "see primal element",
+        "price": "100",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "DSCS"
+    },
+    "ritual108": {
+        "id": "ritual108",
+        "name": "Delver's Fire",
+        "level": "2",
+        "componentcost": "25",
+        "price": "100",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra366"
+    },
+    "ritual306": {
+        "id": "ritual306",
+        "name": "Embalm",
+        "level": "2",
+        "componentcost": "20 plus 1 healing surge",
+        "price": "50",
+        "keyskilldescription": "Heal",
+        "sourcebook": "MP2"
+    },
+    "ritual10": {
+        "id": "ritual10",
+        "name": "Endure Elements",
+        "level": "2",
+        "componentcost": "20",
+        "price": "100",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "PHB"
+    },
+    "ritual365": {
+        "id": "ritual365",
+        "name": "Explosive Runes",
+        "level": "2",
+        "componentcost": "10 and 1 healing surge",
+        "price": "100",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual11": {
+        "id": "ritual11",
+        "name": "Eye of Alarm",
+        "level": "2",
+        "componentcost": "25",
+        "price": "100",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual261": {
+        "id": "ritual261",
+        "name": "Fluid Funds",
+        "level": "2",
+        "componentcost": "0, plus a focus worth 100",
+        "price": "100",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "EPG"
+    },
+    "ritual183": {
+        "id": "ritual183",
+        "name": "Last Sight Vision",
+        "level": "2",
+        "componentcost": "25",
+        "price": "100",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Open Grave, Dra400"
+    },
+    "ritual223": {
+        "id": "ritual223",
+        "name": "Lower Water",
+        "level": "2",
+        "componentcost": "25",
+        "price": "100",
+        "keyskilldescription": "Nature",
+        "sourcebook": "AP"
+    },
+    "ritual247": {
+        "id": "ritual247",
+        "name": "Panther Tears",
+        "level": "2",
+        "componentcost": "25",
+        "price": "100",
+        "keyskilldescription": "Heal or Nature",
+        "sourcebook": "EPG"
+    },
+    "ritual119": {
+        "id": "ritual119",
+        "name": "Preservation",
+        "level": "2",
+        "componentcost": "25",
+        "price": "100",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra366"
+    },
+    "ritual200": {
+        "id": "ritual200",
+        "name": "Pyrotechnics",
+        "level": "2",
+        "componentcost": "20",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB2"
+    },
+    "ritual378": {
+        "id": "ritual378",
+        "name": "Read Omens",
+        "level": "2",
+        "componentcost": "1 healing surge and a focus",
+        "price": "100",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Dra405"
+    },
+    "ritual87": {
+        "id": "ritual87",
+        "name": "Seek Rumor",
+        "level": "2",
+        "componentcost": "20",
+        "price": "50",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    },
+    "ritual301": {
+        "id": "ritual301",
+        "name": "Spirit Fetch",
+        "level": "2",
+        "componentcost": "20",
+        "price": "50",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Dra380"
+    },
+    "ritual318": {
+        "id": "ritual318",
+        "name": "Survivor's Preparation",
+        "level": "2",
+        "componentcost": "1 healing surge",
+        "price": "100",
+        "keyskilldescription": "Nature",
+        "sourcebook": "MP2"
+    },
+    "ritual155": {
+        "id": "ritual155",
+        "name": "Tanglefoot Bag",
+        "level": "2",
+        "componentcost": "See Alchemical Item",
+        "price": "100",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual207": {
+        "id": "ritual207",
+        "name": "Tree Shape",
+        "level": "2",
+        "componentcost": "20",
+        "price": "100",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB2"
+    },
+    "ritual61": {
+        "id": "ritual61",
+        "name": "Water Walk",
+        "level": "2",
+        "componentcost": "20",
+        "price": "100",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB"
+    },
+    "ritual188": {
+        "id": "ritual188",
+        "name": "Affect Normal Fire",
+        "level": "3",
+        "componentcost": "25",
+        "price": "125",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "PHB2"
+    },
+    "ritual238": {
+        "id": "ritual238",
+        "name": "Alchemist's Spark",
+        "level": "3",
+        "componentcost": "See below",
+        "price": "120",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "EPG"
+    },
+    "ritual102": {
+        "id": "ritual102",
+        "name": "Battlefield Elocution",
+        "level": "3",
+        "componentcost": "25",
+        "price": "125",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Dra366"
+    },
+    "ritual141": {
+        "id": "ritual141",
+        "name": "Blinding Bomb",
+        "level": "3",
+        "componentcost": "See Alchemical Item",
+        "price": "120",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual142": {
+        "id": "ritual142",
+        "name": "Bloodstinger Poison",
+        "level": "3",
+        "componentcost": "See Alchemical Item",
+        "price": "120",
+        "keyskilldescription": "Nature or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual282": {
+        "id": "ritual282",
+        "name": "Bravery Powder",
+        "level": "3",
+        "componentcost": "See below",
+        "price": "30",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra376"
+    },
+    "ritual360": {
+        "id": "ritual360",
+        "name": "Calm Emotions",
+        "level": "3",
+        "componentcost": "2 healing surges",
+        "price": "175",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Dra405"
+    },
+    "ritual281": {
+        "id": "ritual281",
+        "name": "Corrosive Oil",
+        "level": "3",
+        "componentcost": "See below.",
+        "price": "400",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra376"
+    },
+    "ritual42": {
+        "id": "ritual42",
+        "name": "Detect Secret Doors",
+        "level": "3",
+        "componentcost": "25",
+        "price": "125",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual145": {
+        "id": "ritual145",
+        "name": "Dragonfire Tar",
+        "level": "3",
+        "componentcost": "See Alchemical Item",
+        "price": "120",
+        "keyskilldescription": "Nature or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual219": {
+        "id": "ritual219",
+        "name": "Fool's Gold",
+        "level": "3",
+        "componentcost": "Varies",
+        "price": "125",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AP"
+    },
+    "ritual146": {
+        "id": "ritual146",
+        "name": "Ghoststrike Oil",
+        "level": "3",
+        "componentcost": "See Alchemical Item",
+        "price": "500",
+        "keyskilldescription": "Nature or Religion or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual242": {
+        "id": "ritual242",
+        "name": "Heartflow",
+        "level": "3",
+        "componentcost": "See below",
+        "price": "90",
+        "keyskilldescription": "Nature or Thievery",
+        "sourcebook": "EPG"
+    },
+    "ritual148": {
+        "id": "ritual148",
+        "name": "Herbal Poultice",
+        "level": "3",
+        "componentcost": "See Alchemical Item",
+        "price": "90",
+        "keyskilldescription": "Nature",
+        "sourcebook": "AV"
+    },
+    "ritual300": {
+        "id": "ritual300",
+        "name": "Hunter's Curse",
+        "level": "3",
+        "componentcost": "50",
+        "price": "250",
+        "keyskilldescription": "Arcana or Nature or Religion",
+        "sourcebook": "Dra380"
+    },
+    "ritual371": {
+        "id": "ritual371",
+        "name": "Leomund's Trap",
+        "level": "3",
+        "componentcost": "35",
+        "price": "125",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual373": {
+        "id": "ritual373",
+        "name": "Light Ward",
+        "level": "3",
+        "componentcost": "25 or 1 healing surge",
+        "price": "125",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Dra405"
+    },
+    "ritual199": {
+        "id": "ritual199",
+        "name": "Lullaby",
+        "level": "3",
+        "componentcost": "25, plus a focus worth 20",
+        "price": "125",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB2"
+    },
+    "ritual152": {
+        "id": "ritual152",
+        "name": "Slow-Step Oil",
+        "level": "3",
+        "componentcost": "See Alchemical Item",
+        "price": "120",
+        "keyskilldescription": "Arcana or Nature or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual295": {
+        "id": "ritual295",
+        "name": "Speech Without Words",
+        "level": "3",
+        "componentcost": "1 healing surge",
+        "price": "50",
+        "keyskilldescription": "Diplomacy",
+        "sourcebook": "Dra381, MP2"
+    },
+    "ritual269": {
+        "id": "ritual269",
+        "name": "Summon Winds",
+        "level": "3",
+        "componentcost": "50",
+        "price": "125",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "EPG"
+    },
+    "ritual252": {
+        "id": "ritual252",
+        "name": "Tethercord",
+        "level": "3",
+        "componentcost": "See below",
+        "price": "120",
+        "keyskilldescription": "Arcana or Nature or Thievery",
+        "sourcebook": "EPG"
+    },
+    "ritual186": {
+        "id": "ritual186",
+        "name": "Undead Ward",
+        "level": "3",
+        "componentcost": "35",
+        "price": "130",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Open Grave"
+    },
+    "ritual325": {
+        "id": "ritual325",
+        "name": "Warded Campsite",
+        "level": "3",
+        "componentcost": "1 healing surge",
+        "price": "50",
+        "keyskilldescription": "Nature or Thievery",
+        "sourcebook": "MP2"
+    },
+    "ritual389": {
+        "id": "ritual389",
+        "name": "Wind Words",
+        "level": "3",
+        "componentcost": "25",
+        "price": "125",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra405"
+    },
+    "ritual253": {
+        "id": "ritual253",
+        "name": "Woundpatch",
+        "level": "3",
+        "componentcost": "See below",
+        "price": "120",
+        "keyskilldescription": "Heal or Nature",
+        "sourcebook": "EPG"
+    },
+    "ritual23": {
+        "id": "ritual23",
+        "name": "Arcane Lock",
+        "level": "4",
+        "componentcost": "25",
+        "price": "150",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual216": {
+        "id": "ritual216",
+        "name": "Beast Growth",
+        "level": "4",
+        "componentcost": "70",
+        "price": "175",
+        "keyskilldescription": "Nature",
+        "sourcebook": "AP"
+    },
+    "ritual139": {
+        "id": "ritual139",
+        "name": "Beastbane",
+        "level": "4",
+        "componentcost": "See Alchemical Item",
+        "price": "160",
+        "keyskilldescription": "Heal or Nature",
+        "sourcebook": "AV"
+    },
+    "ritual140": {
+        "id": "ritual140",
+        "name": "Blastpatch",
+        "level": "4",
+        "componentcost": "See Alchemical Item",
+        "price": "120",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual217": {
+        "id": "ritual217",
+        "name": "Call of Friendship",
+        "level": "4",
+        "componentcost": "50, plus a focus worth 50",
+        "price": "215",
+        "keyskilldescription": "Diplomacy",
+        "sourcebook": "AP"
+    },
+    "ritual348": {
+        "id": "ritual348",
+        "name": "Clarity Salts",
+        "level": "4",
+        "componentcost": "See the item's price",
+        "price": "120",
+        "keyskilldescription": "Heal or Nature",
+        "sourcebook": "Dun186"
+    },
+    "ritual240": {
+        "id": "ritual240",
+        "name": "Clockwork Bomb",
+        "level": "4",
+        "componentcost": "See below",
+        "price": "160",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "EPG"
+    },
+    "ritual79": {
+        "id": "ritual79",
+        "name": "Dark Light",
+        "level": "4",
+        "componentcost": "30",
+        "price": "150",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    },
+    "ritual107": {
+        "id": "ritual107",
+        "name": "Delay Affliction",
+        "level": "4",
+        "componentcost": "50",
+        "price": "175",
+        "keyskilldescription": "Heal",
+        "sourcebook": "Dra366"
+    },
+    "ritual233": {
+        "id": "ritual233",
+        "name": "Drowsy Dust",
+        "level": "4",
+        "componentcost": "see alchemical item Drowsy Dust",
+        "price": "160",
+        "keyskilldescription": "None",
+        "sourcebook": "Dra373"
+    },
+    "ritual257": {
+        "id": "ritual257",
+        "name": "Eavesdropper's Foil",
+        "level": "4",
+        "componentcost": "80",
+        "price": "175",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "EPG"
+    },
+    "ritual9": {
+        "id": "ritual9",
+        "name": "Enchant Magic Item",
+        "level": "4",
+        "componentcost": "Special",
+        "price": "175",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual234": {
+        "id": "ritual234",
+        "name": "Eyesting",
+        "level": "4",
+        "componentcost": "see alchemical item Eyesting",
+        "price": "240",
+        "keyskilldescription": "None",
+        "sourcebook": "Dra373"
+    },
+    "ritual304": {
+        "id": "ritual304",
+        "name": "Familiar Mount",
+        "level": "4",
+        "componentcost": "25",
+        "price": "175",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra382"
+    },
+    "ritual83": {
+        "id": "ritual83",
+        "name": "Feat of Strength",
+        "level": "4",
+        "componentcost": "30",
+        "price": "75",
+        "keyskilldescription": "Nature",
+        "sourcebook": "FRPG"
+    },
+    "ritual366": {
+        "id": "ritual366",
+        "name": "Find Traps",
+        "level": "4",
+        "componentcost": "25 and 1 healing surge",
+        "price": "175",
+        "keyskilldescription": "Insight",
+        "sourcebook": "Dra405"
+    },
+    "ritual308": {
+        "id": "ritual308",
+        "name": "Forge Armor",
+        "level": "4",
+        "componentcost": "See table",
+        "price": "175",
+        "keyskilldescription": "Athletics",
+        "sourcebook": "MP2"
+    },
+    "ritual309": {
+        "id": "ritual309",
+        "name": "Forge Weapon",
+        "level": "4",
+        "componentcost": "See table",
+        "price": "175",
+        "keyskilldescription": "Athletics",
+        "sourcebook": "MP2"
+    },
+    "ritual16": {
+        "id": "ritual16",
+        "name": "Hand of Fate",
+        "level": "4",
+        "componentcost": "70",
+        "price": "175",
+        "keyskilldescription": "Religion",
+        "sourcebook": "PHB"
+    },
+    "ritual276": {
+        "id": "ritual276",
+        "name": "Iron Vigil",
+        "level": "4",
+        "componentcost": "35",
+        "price": "170",
+        "keyskilldescription": "Religion",
+        "sourcebook": "DP"
+    },
+    "ritual22": {
+        "id": "ritual22",
+        "name": "Knock",
+        "level": "4",
+        "componentcost": "35, plus 1 healing surge",
+        "price": "175",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual150": {
+        "id": "ritual150",
+        "name": "Lockburst Chalk",
+        "level": "4",
+        "componentcost": "See Alchemical Item",
+        "price": "160",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual248": {
+        "id": "ritual248",
+        "name": "Resonance Crystal",
+        "level": "4",
+        "componentcost": "See below",
+        "price": "160",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "EPG"
+    },
+    "ritual382": {
+        "id": "ritual382",
+        "name": "Shatter",
+        "level": "4",
+        "componentcost": "35",
+        "price": "175",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra405"
+    },
+    "ritual184": {
+        "id": "ritual184",
+        "name": "Skull Watch",
+        "level": "4",
+        "componentcost": "80",
+        "price": "175",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Open Grave"
+    },
+    "ritual202": {
+        "id": "ritual202",
+        "name": "Snare",
+        "level": "4",
+        "componentcost": "25",
+        "price": "150",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB2"
+    },
+    "ritual250": {
+        "id": "ritual250",
+        "name": "Suppression Crystal",
+        "level": "4",
+        "componentcost": "See below",
+        "price": "120",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "EPG"
+    },
+    "ritual251": {
+        "id": "ritual251",
+        "name": "Tension Wheel",
+        "level": "4",
+        "componentcost": "See below",
+        "price": "120",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "EPG"
+    },
+    "ritual157": {
+        "id": "ritual157",
+        "name": "Tracking Dust",
+        "level": "4",
+        "componentcost": "See Alchemical Item",
+        "price": "160",
+        "keyskilldescription": "Nature or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual212": {
+        "id": "ritual212",
+        "name": "Transfer Enchantment",
+        "level": "4",
+        "componentcost": "25",
+        "price": "175",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AV"
+    },
+    "ritual32": {
+        "id": "ritual32",
+        "name": "Travelers' Feast",
+        "level": "4",
+        "componentcost": "35",
+        "price": "175",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB"
+    },
+    "ritual338": {
+        "id": "ritual338",
+        "name": "Wavestrider Enchantment",
+        "level": "4",
+        "componentcost": "Focus (wavestrider boots)",
+        "price": "175",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra385"
+    },
+    "ritual237": {
+        "id": "ritual237",
+        "name": "Acidic Fire",
+        "level": "5",
+        "componentcost": "See below",
+        "price": "200",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "EPG"
+    },
+    "ritual134": {
+        "id": "ritual134",
+        "name": "Alchemical Silver",
+        "level": "5",
+        "componentcost": "See Alchemical Item",
+        "price": "200",
+        "keyskilldescription": "Nature or Religion or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual62": {
+        "id": "ritual62",
+        "name": "Animal Friendship",
+        "level": "5",
+        "componentcost": "50",
+        "price": "250",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB2"
+    },
+    "ritual359": {
+        "id": "ritual359",
+        "name": "Breach Disguise",
+        "level": "5",
+        "componentcost": "50",
+        "price": "250",
+        "keyskilldescription": "Arcana or Insight",
+        "sourcebook": "Dra405"
+    },
+    "ritual364": {
+        "id": "ritual364",
+        "name": "Deep Pockets",
+        "level": "5",
+        "componentcost": "50 and a focus",
+        "price": "250",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual310": {
+        "id": "ritual310",
+        "name": "Fortify Beast",
+        "level": "5",
+        "componentcost": "1 healing surge",
+        "price": "250",
+        "keyskilldescription": "Nature",
+        "sourcebook": "MP2"
+    },
+    "ritual65": {
+        "id": "ritual65",
+        "name": "Hallucinatory Item",
+        "level": "5",
+        "componentcost": "25",
+        "price": "250",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual312": {
+        "id": "ritual312",
+        "name": "Hidden Pocket",
+        "level": "5",
+        "componentcost": "1 healing surge",
+        "price": "80",
+        "keyskilldescription": "Thievery",
+        "sourcebook": "MP2"
+    },
+    "ritual299": {
+        "id": "ritual299",
+        "name": "Hunter's Blessing",
+        "level": "5",
+        "componentcost": "50",
+        "price": "250",
+        "keyskilldescription": "Arcana or Nature or Religion",
+        "sourcebook": "Dra380"
+    },
+    "ritual243": {
+        "id": "ritual243",
+        "name": "Inferno Oil",
+        "level": "5",
+        "componentcost": "See below",
+        "price": "200",
+        "keyskilldescription": "Arcana or Nature or Thievery",
+        "sourcebook": "EPG"
+    },
+    "ritual372": {
+        "id": "ritual372",
+        "name": "Lesser Telepathy",
+        "level": "5",
+        "componentcost": "30 and 1 healing surge",
+        "price": "250",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual245": {
+        "id": "ritual245",
+        "name": "Lodret Leaf",
+        "level": "5",
+        "componentcost": "See below",
+        "price": "200",
+        "keyskilldescription": "Heal or Nature",
+        "sourcebook": "EPG"
+    },
+    "ritual49": {
+        "id": "ritual49",
+        "name": "Magic Circle",
+        "level": "5",
+        "componentcost": "100",
+        "price": "250",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual271": {
+        "id": "ritual271",
+        "name": "Mindshape Warwing Drake",
+        "level": "5",
+        "componentcost": "100",
+        "price": "250",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dun165"
+    },
+    "ritual225": {
+        "id": "ritual225",
+        "name": "Object Reading",
+        "level": "5",
+        "componentcost": "25",
+        "price": "250",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AP"
+    },
+    "ritual294": {
+        "id": "ritual294",
+        "name": "Precise Forgery",
+        "level": "5",
+        "componentcost": "1 healing surge",
+        "price": "80",
+        "keyskilldescription": "Thievery",
+        "sourcebook": "Dra381, MP2"
+    },
+    "ritual316": {
+        "id": "ritual316",
+        "name": "Reliable Balance",
+        "level": "5",
+        "componentcost": "1 healing surge",
+        "price": "100",
+        "keyskilldescription": "Acrobatics",
+        "sourcebook": "MP2"
+    },
+    "ritual284": {
+        "id": "ritual284",
+        "name": "Rite of Arkentaash",
+        "level": "5",
+        "componentcost": "50",
+        "price": "None",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Seekers of the Ashen Crown"
+    },
+    "ritual280": {
+        "id": "ritual280",
+        "name": "Rust Bomb",
+        "level": "5",
+        "componentcost": "See below.",
+        "price": "200",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra376"
+    },
+    "ritual381": {
+        "id": "ritual381",
+        "name": "Seal Death's Door",
+        "level": "5",
+        "componentcost": "50 and 1 healing surge",
+        "price": "200",
+        "keyskilldescription": "Heal",
+        "sourcebook": "Dra405"
+    },
+    "ritual336": {
+        "id": "ritual336",
+        "name": "Self-Holding Bag",
+        "level": "5",
+        "componentcost": "Focus (bag of holding)",
+        "price": "250",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra385"
+    },
+    "ritual205": {
+        "id": "ritual205",
+        "name": "Speak with Nature",
+        "level": "5",
+        "componentcost": "80",
+        "price": "250",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB2"
+    },
+    "ritual290": {
+        "id": "ritual290",
+        "name": "Starshine",
+        "level": "5",
+        "componentcost": "40",
+        "price": "250",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PP"
+    },
+    "ritual320": {
+        "id": "ritual320",
+        "name": "Thorough Search",
+        "level": "5",
+        "componentcost": "1 healing surge",
+        "price": "75",
+        "keyskilldescription": "Perception",
+        "sourcebook": "MP2"
+    },
+    "ritual156": {
+        "id": "ritual156",
+        "name": "Thunderstone",
+        "level": "5",
+        "componentcost": "See Alchemical Item",
+        "price": "200",
+        "keyskilldescription": "Arcana or Nature or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual388": {
+        "id": "ritual388",
+        "name": "Tongues",
+        "level": "5",
+        "componentcost": "25 and 1 healing surge",
+        "price": "200",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Dra405"
+    },
+    "ritual323": {
+        "id": "ritual323",
+        "name": "Uncanny Strength",
+        "level": "5",
+        "componentcost": "1 healing surge",
+        "price": "100",
+        "keyskilldescription": "Endurance or Athletics",
+        "sourcebook": "MP2"
+    },
+    "ritual302": {
+        "id": "ritual302",
+        "name": "Vistani Passkey",
+        "level": "5",
+        "componentcost": "100, plus a focus worth 100",
+        "price": "250",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra380"
+    },
+    "ritual351": {
+        "id": "ritual351",
+        "name": "Walking Death",
+        "level": "5",
+        "componentcost": "See the item's price",
+        "price": "400",
+        "keyskilldescription": "Nature or Thievery",
+        "sourcebook": "Dun186"
+    },
+    "ritual254": {
+        "id": "ritual254",
+        "name": "Ancestral Whispers",
+        "level": "6",
+        "componentcost": "140",
+        "price": "360",
+        "keyskilldescription": "Religion",
+        "sourcebook": "EPG"
+    },
+    "ritual103": {
+        "id": "ritual103",
+        "name": "Bolster Object",
+        "level": "6",
+        "componentcost": "150",
+        "price": "300",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra366"
+    },
+    "ritual192": {
+        "id": "ritual192",
+        "name": "Call Wilderness Guide",
+        "level": "6",
+        "componentcost": "144",
+        "price": "360",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB2"
+    },
+    "ritual361": {
+        "id": "ritual361",
+        "name": "Change Self",
+        "level": "6",
+        "componentcost": "35 and 1 healing surge",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual78": {
+        "id": "ritual78",
+        "name": "Clear the Path",
+        "level": "6",
+        "componentcost": "70",
+        "price": "150",
+        "keyskilldescription": "Nature",
+        "sourcebook": "FRPG"
+    },
+    "ritual41": {
+        "id": "ritual41",
+        "name": "Commune With Nature",
+        "level": "6",
+        "componentcost": "140",
+        "price": "360",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB"
+    },
+    "ritual328": {
+        "id": "ritual328",
+        "name": "Corpselike Visage",
+        "level": "6",
+        "componentcost": "Focus (amulet of false life)",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra385"
+    },
+    "ritual6": {
+        "id": "ritual6",
+        "name": "Cure Disease",
+        "level": "6",
+        "componentcost": "150",
+        "price": "360",
+        "keyskilldescription": "Heal",
+        "sourcebook": "PHB"
+    },
+    "ritual80": {
+        "id": "ritual80",
+        "name": "Deathly Shroud",
+        "level": "6",
+        "componentcost": "140",
+        "price": "600",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "FRPG"
+    },
+    "ritual305": {
+        "id": "ritual305",
+        "name": "Decipher Script",
+        "level": "6",
+        "componentcost": "1 healing surge",
+        "price": "150",
+        "keyskilldescription": "History or Streetwise",
+        "sourcebook": "MP2"
+    },
+    "ritual44": {
+        "id": "ritual44",
+        "name": "Discern Lies",
+        "level": "6",
+        "componentcost": "140",
+        "price": "360",
+        "keyskilldescription": "Religion",
+        "sourcebook": "PHB"
+    },
+    "ritual7": {
+        "id": "ritual7",
+        "name": "Disenchant Magic Item",
+        "level": "6",
+        "componentcost": "25",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual82": {
+        "id": "ritual82",
+        "name": "Duplicate",
+        "level": "6",
+        "componentcost": "70",
+        "price": "150",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    },
+    "ritual109": {
+        "id": "ritual109",
+        "name": "Earthen Ramparts",
+        "level": "6",
+        "componentcost": "80",
+        "price": "360",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra366"
+    },
+    "ritual162": {
+        "id": "ritual162",
+        "name": "Easy Passage",
+        "level": "6",
+        "componentcost": "150",
+        "price": "360",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "ritual110": {
+        "id": "ritual110",
+        "name": "Excavation",
+        "level": "6",
+        "componentcost": "70",
+        "price": "300",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual173": {
+        "id": "ritual173",
+        "name": "Fey Passage",
+        "level": "6",
+        "componentcost": "140",
+        "price": "360",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "MotP, DunAnnual, Dun162"
+    },
+    "ritual260": {
+        "id": "ritual260",
+        "name": "Find the Path",
+        "level": "6",
+        "componentcost": "144",
+        "price": "360",
+        "keyskilldescription": "Nature",
+        "sourcebook": "EPG"
+    },
+    "ritual196": {
+        "id": "ritual196",
+        "name": "Fool's Speech",
+        "level": "6",
+        "componentcost": "50",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB2"
+    },
+    "ritual147": {
+        "id": "ritual147",
+        "name": "Goodnight Tincture",
+        "level": "6",
+        "componentcost": "See Alchemical Item",
+        "price": "750",
+        "keyskilldescription": "Nature or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual198": {
+        "id": "ritual198",
+        "name": "Ironwood",
+        "level": "6",
+        "componentcost": "75",
+        "price": "360",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB2"
+    },
+    "ritual48": {
+        "id": "ritual48",
+        "name": "Leomund's Secret Chest",
+        "level": "6",
+        "componentcost": "140, plus a focus worth 200",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual313": {
+        "id": "ritual313",
+        "name": "Long-Distance Runner",
+        "level": "6",
+        "componentcost": "1 healing surge",
+        "price": "150",
+        "keyskilldescription": "Endurance or Athletics",
+        "sourcebook": "MP2"
+    },
+    "ritual333": {
+        "id": "ritual333",
+        "name": "Memory of a Thousand Deaths",
+        "level": "6",
+        "componentcost": "Focus (deathcut armor)",
+        "price": "360",
+        "keyskilldescription": "Religion",
+        "sourcebook": "Dra385"
+    },
+    "ritual115": {
+        "id": "ritual115",
+        "name": "Mordenkainen's Ascent",
+        "level": "6",
+        "componentcost": "75",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual116": {
+        "id": "ritual116",
+        "name": "Mordenkainen's Joining",
+        "level": "6",
+        "componentcost": "50",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual26": {
+        "id": "ritual26",
+        "name": "Phantom Steed",
+        "level": "6",
+        "componentcost": "70",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual376": {
+        "id": "ritual376",
+        "name": "Portal Jump",
+        "level": "6",
+        "componentcost": "75 and 1 healing surge",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual118": {
+        "id": "ritual118",
+        "name": "Preserve Flame",
+        "level": "6",
+        "componentcost": "75",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AP, Dra366"
+    },
+    "ritual55": {
+        "id": "ritual55",
+        "name": "Sending",
+        "level": "6",
+        "componentcost": "50",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual228": {
+        "id": "ritual228",
+        "name": "Shrink",
+        "level": "6",
+        "componentcost": "50",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AP"
+    },
+    "ritual153": {
+        "id": "ritual153",
+        "name": "Smokestick",
+        "level": "6",
+        "componentcost": "See Alchemical",
+        "price": "450",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual59": {
+        "id": "ritual59",
+        "name": "Speak with Dead",
+        "level": "6",
+        "componentcost": "140",
+        "price": "360",
+        "keyskilldescription": "Religion",
+        "sourcebook": "PHB"
+    },
+    "ritual385": {
+        "id": "ritual385",
+        "name": "Steady Strength",
+        "level": "6",
+        "componentcost": "50",
+        "price": "360",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra405"
+    },
+    "ritual268": {
+        "id": "ritual268",
+        "name": "Steed Summons",
+        "level": "6",
+        "componentcost": "75",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "EPG"
+    },
+    "ritual279": {
+        "id": "ritual279",
+        "name": "Thief's Lament",
+        "level": "6",
+        "componentcost": "140, plus 2 healing surges",
+        "price": "360",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "DP"
+    },
+    "ritual95": {
+        "id": "ritual95",
+        "name": "Tiny Lanterns",
+        "level": "6",
+        "componentcost": "60",
+        "price": "100",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    },
+    "ritual208": {
+        "id": "ritual208",
+        "name": "Tree Stride",
+        "level": "6",
+        "componentcost": "50",
+        "price": "360",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB2"
+    },
+    "ritual185": {
+        "id": "ritual185",
+        "name": "Undead Servitor",
+        "level": "6",
+        "componentcost": "150",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Open Grave"
+    },
+    "ritual132": {
+        "id": "ritual132",
+        "name": "Wizard's Escape",
+        "level": "6",
+        "componentcost": "150",
+        "price": "520",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual210": {
+        "id": "ritual210",
+        "name": "Wyvern Watch",
+        "level": "6",
+        "componentcost": "100",
+        "price": "360",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB2"
+    },
+    "ritual367": {
+        "id": "ritual367",
+        "name": "Glyph of Warding",
+        "level": "7",
+        "componentcost": "75 and 2 healing surges",
+        "price": "520",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Dra405"
+    },
+    "ritual377": {
+        "id": "ritual377",
+        "name": "Protection from Energy",
+        "level": "7",
+        "componentcost": "75 and 1 healing surge",
+        "price": "520",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Dra405"
+    },
+    "ritual379": {
+        "id": "ritual379",
+        "name": "Reduce Beast",
+        "level": "7",
+        "componentcost": "75 and 1 healing surge",
+        "price": "520",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra405"
+    },
+    "ritual267": {
+        "id": "ritual267",
+        "name": "Spirit Idol",
+        "level": "7",
+        "componentcost": "150, plus a focus worth 150",
+        "price": "520",
+        "keyskilldescription": "Heal",
+        "sourcebook": "EPG"
+    },
+    "ritual387": {
+        "id": "ritual387",
+        "name": "Sundered Skies",
+        "level": "7",
+        "componentcost": "125",
+        "price": "500",
+        "keyskilldescription": "Nature",
+        "sourcebook": "Dra405"
+    },
+    "ritual293": {
+        "id": "ritual293",
+        "name": "Alter Ego",
+        "level": "8",
+        "componentcost": "50 plus 1 healing surge",
+        "price": "275",
+        "keyskilldescription": "Bluff",
+        "sourcebook": "Dra381, MP2"
+    },
+    "ritual76": {
+        "id": "ritual76",
+        "name": "Analyze Portal",
+        "level": "8",
+        "componentcost": "250",
+        "price": "800",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    },
+    "ritual214": {
+        "id": "ritual214",
+        "name": "Anthem of Unity",
+        "level": "8",
+        "componentcost": "135, plus a focus worth 680",
+        "price": "680",
+        "keyskilldescription": "Diplomacy",
+        "sourcebook": "AP"
+    },
+    "ritual159": {
+        "id": "ritual159",
+        "name": "Aura Mask",
+        "level": "8",
+        "componentcost": "10",
+        "price": "250",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "ritual239": {
+        "id": "ritual239",
+        "name": "Clear-Path Mist",
+        "level": "8",
+        "componentcost": "see below",
+        "price": "375",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "EPG"
+    },
+    "ritual307": {
+        "id": "ritual307",
+        "name": "Feign Death",
+        "level": "8",
+        "componentcost": "1 healing surge",
+        "price": "275",
+        "keyskilldescription": "Bluff or Endurance",
+        "sourcebook": "MP2"
+    },
+    "ritual235": {
+        "id": "ritual235",
+        "name": "Flashbang Powder",
+        "level": "8",
+        "componentcost": "see alchemical item Flashbang Powder",
+        "price": "500",
+        "keyskilldescription": "None",
+        "sourcebook": "Dra373"
+    },
+    "ritual181": {
+        "id": "ritual181",
+        "name": "Gravesight",
+        "level": "8",
+        "componentcost": "250",
+        "price": "680",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Open Grave"
+    },
+    "ritual368": {
+        "id": "ritual368",
+        "name": "Hallucinatory Terrain",
+        "level": "8",
+        "componentcost": "125",
+        "price": "680",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual311": {
+        "id": "ritual311",
+        "name": "Handle Steed",
+        "level": "8",
+        "componentcost": "1 healing surge",
+        "price": "275",
+        "keyskilldescription": "Nature",
+        "sourcebook": "MP2"
+    },
+    "ritual262": {
+        "id": "ritual262",
+        "name": "Inquisitive's Eyes",
+        "level": "8",
+        "componentcost": "125",
+        "price": "680",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "EPG"
+    },
+    "ritual350": {
+        "id": "ritual350",
+        "name": "Kinetic Oil",
+        "level": "8",
+        "componentcost": "See the item's price",
+        "price": "500",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dun186"
+    },
+    "ritual370": {
+        "id": "ritual370",
+        "name": "Leomund's Tiny Hut",
+        "level": "8",
+        "componentcost": "100",
+        "price": "680",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual2": {
+        "id": "ritual2",
+        "name": "Linked Portal",
+        "level": "8",
+        "componentcost": "135 (see text)",
+        "price": "680",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual27": {
+        "id": "ritual27",
+        "name": "Raise Dead",
+        "level": "8",
+        "componentcost": "500",
+        "price": "680",
+        "keyskilldescription": "Heal",
+        "sourcebook": "PHB"
+    },
+    "ritual28": {
+        "id": "ritual28",
+        "name": "Remove Affliction",
+        "level": "8",
+        "componentcost": "250",
+        "price": "680",
+        "keyskilldescription": "Heal",
+        "sourcebook": "PHB"
+    },
+    "ritual151": {
+        "id": "ritual151",
+        "name": "Salve of Slipperiness",
+        "level": "8",
+        "componentcost": "See Alchemical Item",
+        "price": "375",
+        "keyskilldescription": "Nature or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual179": {
+        "id": "ritual179",
+        "name": "Seal Portal",
+        "level": "8",
+        "componentcost": "100",
+        "price": "680",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dun160"
+    },
+    "ritual88": {
+        "id": "ritual88",
+        "name": "Shadow Bridge",
+        "level": "8",
+        "componentcost": "135",
+        "price": "600",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    },
+    "ritual178": {
+        "id": "ritual178",
+        "name": "Shadow Passage",
+        "level": "8",
+        "componentcost": "135",
+        "price": "680",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "MotP, Dun163"
+    },
+    "ritual89": {
+        "id": "ritual89",
+        "name": "Share Husk",
+        "level": "8",
+        "componentcost": "150",
+        "price": "400",
+        "keyskilldescription": "Nature",
+        "sourcebook": "FRPG"
+    },
+    "ritual123": {
+        "id": "ritual123",
+        "name": "Signal of Pursuit",
+        "level": "8",
+        "componentcost": "125",
+        "price": "680",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual204": {
+        "id": "ritual204",
+        "name": "Song of Sustenance",
+        "level": "8",
+        "componentcost": "135, plus a focus worth 680",
+        "price": "680",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB2"
+    },
+    "ritual154": {
+        "id": "ritual154",
+        "name": "Sovereign Glue",
+        "level": "8",
+        "componentcost": "See Alchemical Item",
+        "price": "375",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual93": {
+        "id": "ritual93",
+        "name": "Status",
+        "level": "8",
+        "componentcost": "135",
+        "price": "250",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    },
+    "ritual386": {
+        "id": "ritual386",
+        "name": "Stone Shape",
+        "level": "8",
+        "componentcost": "150 and 1 healing surge",
+        "price": "680",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra405"
+    },
+    "ritual127": {
+        "id": "ritual127",
+        "name": "Tenser's Lift",
+        "level": "8",
+        "componentcost": "125",
+        "price": "680",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual37": {
+        "id": "ritual37",
+        "name": "Water Breathing",
+        "level": "8",
+        "componentcost": "135",
+        "price": "680",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "PHB"
+    },
+    "ritual3": {
+        "id": "ritual3",
+        "name": "Wizard's Sight",
+        "level": "8",
+        "componentcost": "270, plus a focus worth 200",
+        "price": "680",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual218": {
+        "id": "ritual218",
+        "name": "Detect Treasure",
+        "level": "9",
+        "componentcost": "325, plus a focus worth 1000",
+        "price": "800",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AP"
+    },
+    "ritual298": {
+        "id": "ritual298",
+        "name": "Ghost Walk",
+        "level": "9",
+        "componentcost": "325, plus a focus worth 100",
+        "price": "800",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Dra380"
+    },
+    "ritual349": {
+        "id": "ritual349",
+        "name": "Giggle Gas",
+        "level": "9",
+        "componentcost": "See the item's price",
+        "price": "1280",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dun186"
+    },
+    "ritual224": {
+        "id": "ritual224",
+        "name": "Magic Map",
+        "level": "9",
+        "componentcost": "325, plus a focus worth 100",
+        "price": "800",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AP"
+    },
+    "ritual380": {
+        "id": "ritual380",
+        "name": "Reflecting Pool",
+        "level": "9",
+        "componentcost": "325 and a focus",
+        "price": "840",
+        "keyskilldescription": "Nature",
+        "sourcebook": "Dra405"
+    },
+    "ritual383": {
+        "id": "ritual383",
+        "name": "Shatter Bonds",
+        "level": "9",
+        "componentcost": "150 and 2 healing surges",
+        "price": "800",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra405"
+    },
+    "ritual209": {
+        "id": "ritual209",
+        "name": "Tune of Merriment",
+        "level": "9",
+        "componentcost": "160, plus a focus worth, 840",
+        "price": "900",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB2"
+    },
+    "ritual283": {
+        "id": "ritual283",
+        "name": "Argent Portal",
+        "level": "10",
+        "componentcost": "500",
+        "price": "None",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Revenge of the Giants"
+    },
+    "ritual190": {
+        "id": "ritual190",
+        "name": "Aria of Revelation",
+        "level": "10",
+        "componentcost": "400, plus a focus worth 1000",
+        "price": "1000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB2"
+    },
+    "ritual104": {
+        "id": "ritual104",
+        "name": "Chameleon's Cloak",
+        "level": "10",
+        "componentcost": "200",
+        "price": "1000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual193": {
+        "id": "ritual193",
+        "name": "Chorus of Truth",
+        "level": "10",
+        "componentcost": "200, plus a focus worth 1000",
+        "price": "1000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB2"
+    },
+    "ritual105": {
+        "id": "ritual105",
+        "name": "Conceal Object",
+        "level": "10",
+        "componentcost": "400",
+        "price": "2000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual4": {
+        "id": "ritual4",
+        "name": "Consult Mystic Sages",
+        "level": "10",
+        "componentcost": "400",
+        "price": "1000",
+        "keyskilldescription": "Religion",
+        "sourcebook": "PHB"
+    },
+    "ritual43": {
+        "id": "ritual43",
+        "name": "Detect Object",
+        "level": "10",
+        "componentcost": "400",
+        "price": "1000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual161": {
+        "id": "ritual161",
+        "name": "Disorienting Portal",
+        "level": "10",
+        "componentcost": "400",
+        "price": "1000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "ritual330": {
+        "id": "ritual330",
+        "name": "Dragonward",
+        "level": "10",
+        "componentcost": "Focus (dragondaunt shield)",
+        "price": "1000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra385"
+    },
+    "ritual286": {
+        "id": "ritual286",
+        "name": "Eagle's Flight",
+        "level": "10",
+        "componentcost": "400",
+        "price": "1000",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PP"
+    },
+    "ritual258": {
+        "id": "ritual258",
+        "name": "Enhance Vessel",
+        "level": "10",
+        "componentcost": "400",
+        "price": "1000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "EPG"
+    },
+    "ritual331": {
+        "id": "ritual331",
+        "name": "Evard's Extensible Rope",
+        "level": "10",
+        "componentcost": "Focus (rope of climbing)",
+        "price": "1000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra385"
+    },
+    "ritual241": {
+        "id": "ritual241",
+        "name": "Grayflower Perfume",
+        "level": "10",
+        "componentcost": "200",
+        "price": "800",
+        "keyskilldescription": "Heal or Nature",
+        "sourcebook": "EPG"
+    },
+    "ritual270": {
+        "id": "ritual270",
+        "name": "Imprint Anaxim",
+        "level": "10",
+        "componentcost": "400",
+        "price": "1000",
+        "keyskilldescription": "Intimidate",
+        "sourcebook": "Dra375"
+    },
+    "ritual149": {
+        "id": "ritual149",
+        "name": "Jolt Flask",
+        "level": "10",
+        "componentcost": "See Alchemical Item",
+        "price": "800",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual244": {
+        "id": "ritual244",
+        "name": "Keen Oil",
+        "level": "10",
+        "componentcost": "200",
+        "price": "600",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "EPG"
+    },
+    "ritual374": {
+        "id": "ritual374",
+        "name": "Object Meld",
+        "level": "10",
+        "componentcost": "200",
+        "price": "1000",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra405"
+    },
+    "ritual73": {
+        "id": "ritual73",
+        "name": "Pact of the Iron Ring",
+        "level": "10",
+        "componentcost": "400, plus a Warlock Knight iron ring as a focus",
+        "price": "1000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRCG"
+    },
+    "ritual352": {
+        "id": "ritual352",
+        "name": "Reordination",
+        "level": "10",
+        "componentcost": "400, plus 4 healing surges",
+        "price": "1000",
+        "keyskilldescription": "Religion",
+        "sourcebook": "Dra397"
+    },
+    "ritual122": {
+        "id": "ritual122",
+        "name": "Scribe",
+        "level": "10",
+        "componentcost": "200",
+        "price": "1000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual265": {
+        "id": "ritual265",
+        "name": "Secure Shelter",
+        "level": "10",
+        "componentcost": "200",
+        "price": "1000",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "EPG"
+    },
+    "ritual203": {
+        "id": "ritual203",
+        "name": "Song of Restfulness",
+        "level": "10",
+        "componentcost": "400",
+        "price": "1000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB2"
+    },
+    "ritual249": {
+        "id": "ritual249",
+        "name": "Spotted Toadstool Venom",
+        "level": "10",
+        "componentcost": "See below",
+        "price": "600",
+        "keyskilldescription": "Nature or Thievery",
+        "sourcebook": "EPG"
+    },
+    "ritual126": {
+        "id": "ritual126",
+        "name": "Tenser's Binding",
+        "level": "10",
+        "componentcost": "400",
+        "price": "1000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual96": {
+        "id": "ritual96",
+        "name": "Trailblaze",
+        "level": "10",
+        "componentcost": "200",
+        "price": "500",
+        "keyskilldescription": "Nature",
+        "sourcebook": "FRPG"
+    },
+    "ritual158": {
+        "id": "ritual158",
+        "name": "Universal Solvent",
+        "level": "10",
+        "componentcost": "See Alchemical Item",
+        "price": "600",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "AV"
+    },
+    "ritual292": {
+        "id": "ritual292",
+        "name": "Water's Gift",
+        "level": "10",
+        "componentcost": "400",
+        "price": "1000",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PP"
+    },
+    "ritual255": {
+        "id": "ritual255",
+        "name": "Banish Illusions",
+        "level": "11",
+        "componentcost": "720",
+        "price": "1800",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "EPG"
+    },
+    "ritual72": {
+        "id": "ritual72",
+        "name": "Dark Gift of the Undying",
+        "level": "11",
+        "componentcost": "5000 per level of the subject",
+        "price": "75000",
+        "keyskilldescription": "Religion",
+        "sourcebook": "MM"
+    },
+    "ritual391": {
+        "id": "ritual391",
+        "name": "Dream Concordance",
+        "level": "11",
+        "componentcost": "600",
+        "price": "2900",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Dra417"
+    },
+    "ritual221": {
+        "id": "ritual221",
+        "name": "History Revealed",
+        "level": "11",
+        "componentcost": "600",
+        "price": "2900",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AP"
+    },
+    "ritual343": {
+        "id": "ritual343",
+        "name": "Land Ward",
+        "level": "11",
+        "componentcost": "500, plus 2 healing surges",
+        "price": "2600",
+        "keyskilldescription": "Nature",
+        "sourcebook": "DSCS"
+    },
+    "ritual246": {
+        "id": "ritual246",
+        "name": "Noxious Grenade",
+        "level": "11",
+        "componentcost": "See below",
+        "price": "700",
+        "keyskilldescription": "Arcana or Thievery",
+        "sourcebook": "EPG"
+    },
+    "ritual326": {
+        "id": "ritual326",
+        "name": "Word on the Street",
+        "level": "11",
+        "componentcost": "50 plus 1 healing surge",
+        "price": "360",
+        "keyskilldescription": "Streetwise",
+        "sourcebook": "MP2"
+    },
+    "ritual100": {
+        "id": "ritual100",
+        "name": "Arcane Barrier",
+        "level": "12",
+        "componentcost": "1000",
+        "price": "3200",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual171": {
+        "id": "ritual171",
+        "name": "Demicache",
+        "level": "12",
+        "componentcost": "1000",
+        "price": "2600",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "MotP"
+    },
+    "ritual329": {
+        "id": "ritual329",
+        "name": "Donning Trollflesh",
+        "level": "12",
+        "componentcost": "Focus (trollskin armor)",
+        "price": "2600",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra385"
+    },
+    "ritual46": {
+        "id": "ritual46",
+        "name": "Drawmij's Instant Summons",
+        "level": "12",
+        "componentcost": "500",
+        "price": "2600",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual172": {
+        "id": "ritual172",
+        "name": "Elemental Transference",
+        "level": "12",
+        "componentcost": "1000",
+        "price": "2600",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "MotP"
+    },
+    "ritual275": {
+        "id": "ritual275",
+        "name": "Hallowed Temple",
+        "level": "12",
+        "componentcost": "520",
+        "price": "1300",
+        "keyskilldescription": "Religion",
+        "sourcebook": "DP"
+    },
+    "ritual64": {
+        "id": "ritual64",
+        "name": "Hallucinatory Creature",
+        "level": "12",
+        "componentcost": "500",
+        "price": "2600",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual277": {
+        "id": "ritual277",
+        "name": "Mark of Justice",
+        "level": "12",
+        "componentcost": "1000",
+        "price": "2600",
+        "keyskilldescription": "Religion",
+        "sourcebook": "DP"
+    },
+    "ritual334": {
+        "id": "ritual334",
+        "name": "Memory of the Dragon",
+        "level": "12",
+        "componentcost": "Focus (dragonslayer weapon)",
+        "price": "2600",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra385"
+    },
+    "ritual53": {
+        "id": "ritual53",
+        "name": "Passwall",
+        "level": "12",
+        "componentcost": "1000",
+        "price": "2600",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual315": {
+        "id": "ritual315",
+        "name": "Peerless Exploration",
+        "level": "12",
+        "componentcost": "1 healing surge",
+        "price": "1000",
+        "keyskilldescription": "Stealth",
+        "sourcebook": "MP2"
+    },
+    "ritual335": {
+        "id": "ritual335",
+        "name": "Quench the Flame",
+        "level": "12",
+        "componentcost": "Focus (flamedrinker armor)",
+        "price": "2600",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra385"
+    },
+    "ritual201": {
+        "id": "ritual201",
+        "name": "Reverse Portal",
+        "level": "12",
+        "componentcost": "500",
+        "price": "2600",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB2"
+    },
+    "ritual176": {
+        "id": "ritual176",
+        "name": "Rope Trick",
+        "level": "12",
+        "componentcost": "1000, plus a focus worth 2000",
+        "price": "2500",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "MotP"
+    },
+    "ritual266": {
+        "id": "ritual266",
+        "name": "Seeming",
+        "level": "12",
+        "componentcost": "680",
+        "price": "1700",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "EPG"
+    },
+    "ritual56": {
+        "id": "ritual56",
+        "name": "Shadow Walk",
+        "level": "12",
+        "componentcost": "500",
+        "price": "2600",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual345": {
+        "id": "ritual345",
+        "name": "Silt Walk",
+        "level": "12",
+        "componentcost": "500",
+        "price": "2600",
+        "keyskilldescription": "Nature",
+        "sourcebook": "DSCS"
+    },
+    "ritual236": {
+        "id": "ritual236",
+        "name": "Solace Bole",
+        "level": "12",
+        "componentcost": "500",
+        "price": "2600",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dun165"
+    },
+    "ritual392": {
+        "id": "ritual392",
+        "name": "Summon Gargoyle",
+        "level": "12",
+        "componentcost": "500 and two healing surges",
+        "price": "2600",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra423"
+    },
+    "ritual129": {
+        "id": "ritual129",
+        "name": "Visage of Life",
+        "level": "12",
+        "componentcost": "500",
+        "price": "2600",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Dra366"
+    },
+    "ritual347": {
+        "id": "ritual347",
+        "name": "Aberrant Totemic Link",
+        "level": "13",
+        "componentcost": "750 (see text)",
+        "price": "3200",
+        "keyskilldescription": "Dungeoneering",
+        "sourcebook": "Dra394"
+    },
+    "ritual168": {
+        "id": "ritual168",
+        "name": "Astral Guide",
+        "level": "14",
+        "componentcost": "700, plus 1 healing surge",
+        "price": "2200",
+        "keyskilldescription": "Religion",
+        "sourcebook": "MotP"
+    },
+    "ritual194": {
+        "id": "ritual194",
+        "name": "Control Weather",
+        "level": "14",
+        "componentcost": "1800",
+        "price": "4500",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PHB2"
+    },
+    "ritual180": {
+        "id": "ritual180",
+        "name": "Corpse Gate",
+        "level": "14",
+        "componentcost": "800",
+        "price": "4200",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Open Grave"
+    },
+    "ritual346": {
+        "id": "ritual346",
+        "name": "Create Scarecrow",
+        "level": "14",
+        "componentcost": "5000",
+        "price": "22500",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dun183"
+    },
+    "ritual63": {
+        "id": "ritual63",
+        "name": "Eye of Warning",
+        "level": "14",
+        "componentcost": "800",
+        "price": "4200",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual71": {
+        "id": "ritual71",
+        "name": "Lich Transformation",
+        "level": "14",
+        "componentcost": "100000",
+        "price": "250000",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "MM"
+    },
+    "ritual263": {
+        "id": "ritual263",
+        "name": "Masking Shroud",
+        "level": "14",
+        "componentcost": "840",
+        "price": "4200",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "EPG"
+    },
+    "ritual120": {
+        "id": "ritual120",
+        "name": "Planar Sending",
+        "level": "14",
+        "componentcost": "700",
+        "price": "4200",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual289": {
+        "id": "ritual289",
+        "name": "Primal Prison",
+        "level": "14",
+        "componentcost": "1600",
+        "price": "4200",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PP"
+    },
+    "ritual165": {
+        "id": "ritual165",
+        "name": "Ritual of Retrieval",
+        "level": "14",
+        "componentcost": "250",
+        "price": "None",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "P1"
+    },
+    "ritual177": {
+        "id": "ritual177",
+        "name": "Scramble Portal",
+        "level": "14",
+        "componentcost": "1600",
+        "price": "4000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "MotP"
+    },
+    "ritual163": {
+        "id": "ritual163",
+        "name": "Sentinel Eye",
+        "level": "14",
+        "componentcost": "800",
+        "price": "4200",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "ritual337": {
+        "id": "ritual337",
+        "name": "Snowstorm Summons",
+        "level": "14",
+        "componentcost": "Focus (staff of winter)",
+        "price": "4500",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "Dra385"
+    },
+    "ritual229": {
+        "id": "ritual229",
+        "name": "Telepathic Bond",
+        "level": "14",
+        "componentcost": "1100",
+        "price": "4200",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AP"
+    },
+    "ritual94": {
+        "id": "ritual94",
+        "name": "Time Ravager",
+        "level": "14",
+        "componentcost": "1800",
+        "price": "3200",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    },
+    "ritual34": {
+        "id": "ritual34",
+        "name": "View Location",
+        "level": "14",
+        "componentcost": "1600, plus focus worth 1000",
+        "price": "4200",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual130": {
+        "id": "ritual130",
+        "name": "Voicecatcher Veil",
+        "level": "14",
+        "componentcost": "1600, plus 1 healing surge",
+        "price": "4200",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual97": {
+        "id": "ritual97",
+        "name": "Walk Crossroads",
+        "level": "14",
+        "componentcost": "850",
+        "price": "4250",
+        "keyskilldescription": "Nature",
+        "sourcebook": "FRPG"
+    },
+    "ritual98": {
+        "id": "ritual98",
+        "name": "Waterborn",
+        "level": "14",
+        "componentcost": "850",
+        "price": "2000",
+        "keyskilldescription": "Arcana or Nature",
+        "sourcebook": "FRPG"
+    },
+    "ritual231": {
+        "id": "ritual231",
+        "name": "Whispers of the Edifice",
+        "level": "14",
+        "componentcost": "800",
+        "price": "4200",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AP"
+    },
+    "ritual169": {
+        "id": "ritual169",
+        "name": "Astral Sojourn",
+        "level": "15",
+        "componentcost": "3800",
+        "price": "7000",
+        "keyskilldescription": "Religion",
+        "sourcebook": "MotP"
+    },
+    "ritual327": {
+        "id": "ritual327",
+        "name": "Aura of True Vision",
+        "level": "15",
+        "componentcost": "Focus (ring of true seeing)",
+        "price": "5000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra385"
+    },
+    "ritual166": {
+        "id": "ritual166",
+        "name": "Cauldron's Rebirth",
+        "level": "15",
+        "componentcost": "500",
+        "price": "1000",
+        "keyskilldescription": "Heal",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "ritual170": {
+        "id": "ritual170",
+        "name": "Create Teleportation Circle",
+        "level": "15",
+        "componentcost": "1000 per square filled by the teleportation circle, plus 5 healing surges",
+        "price": "10000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "MotP"
+    },
+    "ritual344": {
+        "id": "ritual344",
+        "name": "Revitalize",
+        "level": "15",
+        "componentcost": "3000",
+        "price": "8000",
+        "keyskilldescription": "Nature",
+        "sourcebook": "DSCS"
+    },
+    "ritual324": {
+        "id": "ritual324",
+        "name": "Use Scroll",
+        "level": "15",
+        "componentcost": "1 healing surge",
+        "price": "1000",
+        "keyskilldescription": "Thievery",
+        "sourcebook": "MP2"
+    },
+    "ritual272": {
+        "id": "ritual272",
+        "name": "Adjure",
+        "level": "16",
+        "componentcost": "3000",
+        "price": "7500",
+        "keyskilldescription": "Religion",
+        "sourcebook": "DP"
+    },
+    "ritual5": {
+        "id": "ritual5",
+        "name": "Consult Oracle",
+        "level": "16",
+        "componentcost": "3600",
+        "price": "9000",
+        "keyskilldescription": "Religion",
+        "sourcebook": "PHB"
+    },
+    "ritual296": {
+        "id": "ritual296",
+        "name": "False Aura",
+        "level": "16",
+        "componentcost": "1800",
+        "price": "4500",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "ritual259": {
+        "id": "ritual259",
+        "name": "Fantastic Recuperation",
+        "level": "16",
+        "componentcost": "3600",
+        "price": "9000",
+        "keyskilldescription": "Heal",
+        "sourcebook": "EPG"
+    },
+    "ritual174": {
+        "id": "ritual174",
+        "name": "Far Sending",
+        "level": "16",
+        "componentcost": "800",
+        "price": "4200",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "MotP"
+    },
+    "ritual112": {
+        "id": "ritual112",
+        "name": "Farsight",
+        "level": "16",
+        "componentcost": "3600, plus a focus worth 2500",
+        "price": "9000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AP, Dra366"
+    },
+    "ritual332": {
+        "id": "ritual332",
+        "name": "Follow the Voice",
+        "level": "16",
+        "componentcost": "Focus (sending stones)",
+        "price": "9000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra385"
+    },
+    "ritual121": {
+        "id": "ritual121",
+        "name": "Safeguard",
+        "level": "16",
+        "componentcost": "3600 and 3 healing surges",
+        "price": "13500",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual124": {
+        "id": "ritual124",
+        "name": "Stasis Shell",
+        "level": "16",
+        "componentcost": "1800",
+        "price": "9000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual340": {
+        "id": "ritual340",
+        "name": "Summon Demon",
+        "level": "16",
+        "componentcost": "3600, plus a focus worth 5000",
+        "price": "9000",
+        "keyskilldescription": "Arcana or Religion",
+        "sourcebook": "Demonomicon"
+    },
+    "ritual303": {
+        "id": "ritual303",
+        "name": "Endure Primordial Elements",
+        "level": "17",
+        "componentcost": "4300",
+        "price": "12000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "TPB"
+    },
+    "ritual317": {
+        "id": "ritual317",
+        "name": "Survivor's Assurance",
+        "level": "17",
+        "componentcost": "1 healing surge",
+        "price": "4500",
+        "keyskilldescription": "Nature",
+        "sourcebook": "MP2"
+    },
+    "ritual220": {
+        "id": "ritual220",
+        "name": "Guards and Wards",
+        "level": "18",
+        "componentcost": "5000, plus 5 healing surges",
+        "price": "17000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AP"
+    },
+    "ritual114": {
+        "id": "ritual114",
+        "name": "Memory Seal",
+        "level": "18",
+        "componentcost": "7000",
+        "price": "25000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual14": {
+        "id": "ritual14",
+        "name": "Planar Portal",
+        "level": "18",
+        "componentcost": "5000",
+        "price": "17000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual175": {
+        "id": "ritual175",
+        "name": "Plane Shift",
+        "level": "18",
+        "componentcost": "1000, plus a vehicle with a navigation focus",
+        "price": "17000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "MotP"
+    },
+    "ritual85": {
+        "id": "ritual85",
+        "name": "Purify Spellscarred",
+        "level": "18",
+        "componentcost": "7000",
+        "price": "20000",
+        "keyskilldescription": "Heal",
+        "sourcebook": "FRPG"
+    },
+    "ritual125": {
+        "id": "ritual125",
+        "name": "Teleport Catcher",
+        "level": "18",
+        "componentcost": "7000",
+        "price": "20000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual35": {
+        "id": "ritual35",
+        "name": "View Object",
+        "level": "18",
+        "componentcost": "7000, plus a focus worth 5000",
+        "price": "17000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual288": {
+        "id": "ritual288",
+        "name": "Primal Grove",
+        "level": "19",
+        "componentcost": "12000 to create a grove and entrance; 4000 grp to create an entrance",
+        "price": "21000",
+        "keyskilldescription": "Nature",
+        "sourcebook": "PP"
+    },
+    "ritual160": {
+        "id": "ritual160",
+        "name": "Chamber of Vulnerability",
+        "level": "20",
+        "componentcost": "5000",
+        "price": "25000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "ritual12": {
+        "id": "ritual12",
+        "name": "Forbiddance",
+        "level": "20",
+        "componentcost": "5000, plus 5 healing surges",
+        "price": "25000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual117": {
+        "id": "ritual117",
+        "name": "Overland Flight",
+        "level": "20",
+        "componentcost": "5000",
+        "price": "25000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual393": {
+        "id": "ritual393",
+        "name": "Ritual of Rebirth",
+        "level": "20",
+        "componentcost": "Special",
+        "price": "None",
+        "keyskilldescription": "None",
+        "sourcebook": "Dun215"
+    },
+    "ritual264": {
+        "id": "ritual264",
+        "name": "Scry Trap",
+        "level": "20",
+        "componentcost": "5000",
+        "price": "25000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "EPG"
+    },
+    "ritual92": {
+        "id": "ritual92",
+        "name": "Soulguard",
+        "level": "20",
+        "componentcost": "5000",
+        "price": "20000",
+        "keyskilldescription": "Heal",
+        "sourcebook": "FRPG"
+    },
+    "ritual394": {
+        "id": "ritual394",
+        "name": "Speak to the Youth Within",
+        "level": "20",
+        "componentcost": "2 healing surges and a focus (torc of the younger self)",
+        "price": "None",
+        "keyskilldescription": "None",
+        "sourcebook": "Dra430"
+    },
+    "ritual278": {
+        "id": "ritual278",
+        "name": "Succor",
+        "level": "20",
+        "componentcost": "5000, plus 4 healing surges and a focus worth 5000",
+        "price": "25000",
+        "keyskilldescription": "Religion",
+        "sourcebook": "DP"
+    },
+    "ritual128": {
+        "id": "ritual128",
+        "name": "True Sending",
+        "level": "20",
+        "componentcost": "4000",
+        "price": "25000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual339": {
+        "id": "ritual339",
+        "name": "Windmaster's Mantle",
+        "level": "20",
+        "componentcost": "Focus (mantle of the seventh wind)",
+        "price": "25000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra385"
+    },
+    "ritual81": {
+        "id": "ritual81",
+        "name": "Divine Sight",
+        "level": "22",
+        "componentcost": "13000",
+        "price": "65000",
+        "keyskilldescription": "Religion",
+        "sourcebook": "FRPG"
+    },
+    "ritual21": {
+        "id": "ritual21",
+        "name": "Loremaster's Bargain",
+        "level": "22",
+        "componentcost": "13000",
+        "price": "65000",
+        "keyskilldescription": "Religion",
+        "sourcebook": "PHB"
+    },
+    "ritual24": {
+        "id": "ritual24",
+        "name": "Observe Creature",
+        "level": "24",
+        "componentcost": "21000, plus a focus worth 10000",
+        "price": "105000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual84": {
+        "id": "ritual84",
+        "name": "Purge Spellplague",
+        "level": "24",
+        "componentcost": "25000",
+        "price": "150000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    },
+    "ritual342": {
+        "id": "ritual342",
+        "name": "Create Tree of Life",
+        "level": "25",
+        "componentcost": "25000",
+        "price": "200000",
+        "keyskilldescription": "Nature",
+        "sourcebook": "DSCS"
+    },
+    "ritual274": {
+        "id": "ritual274",
+        "name": "Ease Spirit",
+        "level": "25",
+        "componentcost": "25000",
+        "price": "70000",
+        "keyskilldescription": "Heal",
+        "sourcebook": "DP"
+    },
+    "ritual106": {
+        "id": "ritual106",
+        "name": "Deceive Sensor",
+        "level": "26",
+        "componentcost": "45000",
+        "price": "325000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Dra366"
+    },
+    "ritual74": {
+        "id": "ritual74",
+        "name": "Ritual of Twin Burnings",
+        "level": "26",
+        "componentcost": "50000, plus special",
+        "price": "None",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRCG"
+    },
+    "ritual90": {
+        "id": "ritual90",
+        "name": "Shift Mote",
+        "level": "26",
+        "componentcost": "50000 and five healing surges",
+        "price": "300000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    },
+    "ritual36": {
+        "id": "ritual36",
+        "name": "Voice of Fate",
+        "level": "26",
+        "componentcost": "45000, plus 5 healing surges",
+        "price": "225000",
+        "keyskilldescription": "Religion",
+        "sourcebook": "PHB"
+    },
+    "ritual164": {
+        "id": "ritual164",
+        "name": "Ward the True Name",
+        "level": "26",
+        "componentcost": "22500",
+        "price": "125000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "Draco: Chromatic"
+    },
+    "ritual222": {
+        "id": "ritual222",
+        "name": "Imprisonment",
+        "level": "28",
+        "componentcost": "170000, plus 5 healing surges",
+        "price": "500000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "AP"
+    },
+    "ritual15": {
+        "id": "ritual15",
+        "name": "True Portal",
+        "level": "28",
+        "componentcost": "50000 (see text)",
+        "price": "425000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "PHB"
+    },
+    "ritual86": {
+        "id": "ritual86",
+        "name": "Raise Land",
+        "level": "30",
+        "componentcost": "125000gp",
+        "price": "600000",
+        "keyskilldescription": "Arcana",
+        "sourcebook": "FRPG"
+    }
+}

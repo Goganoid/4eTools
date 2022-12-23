@@ -5,7 +5,6 @@ import { IconButton, useTheme } from 'react-native-paper';
 import RenderHtml from 'react-native-render-html';
 import { monsters_details } from '../data/monsters';
 import { createEnemy } from '../helpers/entities';
-// import { EncounterContext } from '../Navigators/EncounterStackNavigator';
 import { EncounterContext } from '../App';
 import { GroupContext } from '../Navigators/GroupStackNavigator';
 import { CustomThemeProvider } from './ThemeProvider';
@@ -48,7 +47,6 @@ export const EnemyDetails = ({ route, navigation }) => {
     const groupMode = route?.params.groupMode ?? false;
     console.log("Group mode ", groupMode);
     const context = groupMode ? useContext(GroupContext) : useContext(EncounterContext);
-    // const context = useContext(EncounterContext);
     const theme = useTheme();
     const showAddButton = route.params?.showAddButton ?? false;
     const { id } = route.params;

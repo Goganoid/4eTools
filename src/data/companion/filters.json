@@ -1,0 +1,93 @@
+{
+    "type": {
+        "filterType": "list",
+        "searchMethod": "equal",
+        "placeholder": "Type",
+        "items": [
+            "Animal Companion",
+            "Companion",
+            "Elemental Companion",
+            "Familiar",
+            "Fey Beast Companion",
+            "Mount",
+            "Summoned Creature"
+        ]
+    },
+    "size": {
+        "filterType": "list",
+        "searchMethod": "equal",
+        "placeholder": "Size",
+        "items": [
+            "Tiny",
+            "Small",
+            "Medium",
+            "Large",
+            "Huge",
+            "Gargantuan"
+        ]
+    },
+    "creaturetype": {
+        "filterType": "list",
+        "searchMethod": "include",
+        "placeholder": "Creature",
+        "items": [
+            "Beast",
+            "Natural",
+            "Elemental",
+            "Magical",
+            "Demon",
+            "Humanoid",
+            "Mount",
+            "Reptile",
+            "Cold",
+            "Construct",
+            "Spider",
+            "Fire",
+            "Earth",
+            "Water",
+            "Aquatic",
+            "Air",
+            "None",
+            "Fey",
+            "Immortal",
+            "Dragon",
+            "Animate",
+            "Shadow",
+            "Aberrant",
+            "Modron",
+            "Giant",
+            "Undead",
+            "Plant"
+        ]
+    },
+    "sourcebook": {
+        "filterType": "list",
+        "searchMethod": "include",
+        "placeholder": "Source Book",
+        "items": [
+            "AP",
+            "DSH",
+            "Dra374",
+            "Dra376",
+            "Dra377",
+            "Dra382",
+            "Dra392",
+            "Dra393",
+            "Dra397",
+            "Dra405",
+            "Dra406",
+            "Dra413",
+            "Dra414",
+            "Dra420",
+            "Dun184",
+            "EPG",
+            "HoS",
+            "HotEC",
+            "HotF",
+            "HotFK",
+            "MME",
+            "MP",
+            "The Book of Vile Darkness"
+        ]
+    }
+}

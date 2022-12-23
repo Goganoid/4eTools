@@ -1,0 +1,692 @@
+{
+    "epicdestiny199": {
+        "id": "epicdestiny199",
+        "name": "Adamantine Soldier",
+        "prerequisite": "Fighter or warlord",
+        "sourcebook": "MP"
+    },
+    "epicdestiny335": {
+        "id": "epicdestiny335",
+        "name": "Arcane Sword",
+        "prerequisite": "Swordmage",
+        "sourcebook": "AP"
+    },
+    "epicdestiny336": {
+        "id": "epicdestiny336",
+        "name": "Archlich",
+        "prerequisite": "Any arcane class",
+        "sourcebook": "AP"
+    },
+    "epicdestiny13": {
+        "id": "epicdestiny13",
+        "name": "Archmage",
+        "prerequisite": "Wizard",
+        "sourcebook": "PHB"
+    },
+    "epicdestiny337": {
+        "id": "epicdestiny337",
+        "name": "Archspell",
+        "prerequisite": "Any arcane class",
+        "sourcebook": "AP"
+    },
+    "epicdestiny729": {
+        "id": "epicdestiny729",
+        "name": "Avangion",
+        "prerequisite": "Any arcane class",
+        "sourcebook": "DSCS"
+    },
+    "epicdestiny430": {
+        "id": "epicdestiny430",
+        "name": "Avatar of Death",
+        "prerequisite": "Death Knell feat",
+        "sourcebook": "DP"
+    },
+    "epicdestiny431": {
+        "id": "epicdestiny431",
+        "name": "Avatar of Freedom",
+        "prerequisite": "Path of Freedom feat",
+        "sourcebook": "DP"
+    },
+    "epicdestiny432": {
+        "id": "epicdestiny432",
+        "name": "Avatar of Hope",
+        "prerequisite": "Hope Remains feat",
+        "sourcebook": "DP"
+    },
+    "epicdestiny538": {
+        "id": "epicdestiny538",
+        "name": "Avatar of Io",
+        "prerequisite": "Dragonborn",
+        "sourcebook": "PHR:D"
+    },
+    "epicdestiny433": {
+        "id": "epicdestiny433",
+        "name": "Avatar of Justice",
+        "prerequisite": "Immediate Justice feat",
+        "sourcebook": "DP"
+    },
+    "epicdestiny434": {
+        "id": "epicdestiny434",
+        "name": "Avatar of Life",
+        "prerequisite": "Pulse of Life feat",
+        "sourcebook": "DP"
+    },
+    "epicdestiny435": {
+        "id": "epicdestiny435",
+        "name": "Avatar of Storm",
+        "prerequisite": "Storm Sacrifice feat",
+        "sourcebook": "DP"
+    },
+    "epicdestiny436": {
+        "id": "epicdestiny436",
+        "name": "Avatar of War",
+        "prerequisite": "Path of War feat",
+        "sourcebook": "DP"
+    },
+    "epicdestiny464": {
+        "id": "epicdestiny464",
+        "name": "Bahamut's Vessel",
+        "prerequisite": "Must worship Bahamut",
+        "sourcebook": "Dra378"
+    },
+    "epicdestiny200": {
+        "id": "epicdestiny200",
+        "name": "Beastlord",
+        "prerequisite": "Ranger, Beast Mastery class feature",
+        "sourcebook": "MP"
+    },
+    "epicdestiny689": {
+        "id": "epicdestiny689",
+        "name": "Ceaseless Guardian",
+        "prerequisite": "Any defender class",
+        "sourcebook": "Dra387"
+    },
+    "epicdestiny387": {
+        "id": "epicdestiny387",
+        "name": "Champion of Prophecy",
+        "prerequisite": "None",
+        "sourcebook": "EPG"
+    },
+    "epicdestiny146": {
+        "id": "epicdestiny146",
+        "name": "Chosen",
+        "prerequisite": "Any divine class",
+        "sourcebook": "FRPG, DP"
+    },
+    "epicdestiny762": {
+        "id": "epicdestiny762",
+        "name": "Cosmic Soul",
+        "prerequisite": "Any psionic class",
+        "sourcebook": "PsP"
+    },
+    "epicdestiny201": {
+        "id": "epicdestiny201",
+        "name": "Dark Wanderer",
+        "prerequisite": "Ranger or rogue",
+        "sourcebook": "MP"
+    },
+    "epicdestiny296": {
+        "id": "epicdestiny296",
+        "name": "Darklord",
+        "prerequisite": "None",
+        "sourcebook": "Dra372"
+    },
+    "epicdestiny844": {
+        "id": "epicdestiny844",
+        "name": "Dead God Avatar",
+        "prerequisite": "Must worship a dead deity, divine power source",
+        "sourcebook": "Dra390"
+    },
+    "epicdestiny58": {
+        "id": "epicdestiny58",
+        "name": "Deadly Trickster",
+        "prerequisite": "Dexterity 21 or Charisma 21; training in Acrobatics, Bluff, Stealth, or Thievery",
+        "sourcebook": "PHB"
+    },
+    "epicdestiny54": {
+        "id": "epicdestiny54",
+        "name": "Demigod",
+        "prerequisite": "None",
+        "sourcebook": "PHB"
+    },
+    "epicdestiny763": {
+        "id": "epicdestiny763",
+        "name": "Demiurge",
+        "prerequisite": "Any psionic class",
+        "sourcebook": "PsP"
+    },
+    "epicdestiny797": {
+        "id": "epicdestiny797",
+        "name": "Destined Scion",
+        "prerequisite": "None",
+        "sourcebook": "HotFK"
+    },
+    "epicdestiny613": {
+        "id": "epicdestiny613",
+        "name": "Diamond Soul",
+        "prerequisite": "Monk",
+        "sourcebook": "PHB3"
+    },
+    "epicdestiny644": {
+        "id": "epicdestiny644",
+        "name": "Disincarnate",
+        "prerequisite": "Deva, memory of a thousand lifetimes power",
+        "sourcebook": "Dra385"
+    },
+    "epicdestiny388": {
+        "id": "epicdestiny388",
+        "name": "Dispossesed Champion",
+        "prerequisite": "None",
+        "sourcebook": "EPG"
+    },
+    "epicdestiny696": {
+        "id": "epicdestiny696",
+        "name": "Draconic Incarnation",
+        "prerequisite": "Any arcane class",
+        "sourcebook": "Dra388"
+    },
+    "epicdestiny730": {
+        "id": "epicdestiny730",
+        "name": "Dragon King",
+        "prerequisite": "Arcane defiling power",
+        "sourcebook": "DSCS"
+    },
+    "epicdestiny582": {
+        "id": "epicdestiny582",
+        "name": "Dragonheart",
+        "prerequisite": "Any martial class",
+        "sourcebook": "MP2"
+    },
+    "epicdestiny764": {
+        "id": "epicdestiny764",
+        "name": "Eighth Seal",
+        "prerequisite": "Any psionic class",
+        "sourcebook": "PsP"
+    },
+    "epicdestiny209": {
+        "id": "epicdestiny209",
+        "name": "Elf High Mage",
+        "prerequisite": "Wizard; eladrin or elf",
+        "sourcebook": "Dra367"
+    },
+    "epicdestiny969": {
+        "id": "epicdestiny969",
+        "name": "Emergent Primordial",
+        "prerequisite": "Elemental origin, Born of the Elements feat, or any elemental power",
+        "sourcebook": "HotEC"
+    },
+    "epicdestiny202": {
+        "id": "epicdestiny202",
+        "name": "Eternal Defender",
+        "prerequisite": "Fighter",
+        "sourcebook": "MP"
+    },
+    "epicdestiny56": {
+        "id": "epicdestiny56",
+        "name": "Eternal Seeker",
+        "prerequisite": "None",
+        "sourcebook": "PHB"
+    },
+    "epicdestiny448": {
+        "id": "epicdestiny448",
+        "name": "Exalted Angel",
+        "prerequisite": "Any divine class",
+        "sourcebook": "DP"
+    },
+    "epicdestiny933": {
+        "id": "epicdestiny933",
+        "name": "Exemplar of Evil",
+        "prerequisite": "Evil alignment",
+        "sourcebook": "The Book of Vile Darkness"
+    },
+    "epicdestiny503": {
+        "id": "epicdestiny503",
+        "name": "Fang of the World Serpent",
+        "prerequisite": "Any primal class",
+        "sourcebook": "PP"
+    },
+    "epicdestiny286": {
+        "id": "epicdestiny286",
+        "name": "Fatesinger",
+        "prerequisite": "Bard",
+        "sourcebook": "PHB2"
+    },
+    "epicdestiny338": {
+        "id": "epicdestiny338",
+        "name": "Feyliege",
+        "prerequisite": "Any arcane class; must have the fey origin, be a half-elf, or be a warlock with the fey pact",
+        "sourcebook": "AP"
+    },
+    "epicdestiny452": {
+        "id": "epicdestiny452",
+        "name": "Free Soul",
+        "prerequisite": "Revenant",
+        "sourcebook": "Dra376"
+    },
+    "epicdestiny504": {
+        "id": "epicdestiny504",
+        "name": "Fury of the Wild",
+        "prerequisite": "Any primal class",
+        "sourcebook": "PP"
+    },
+    "epicdestiny287": {
+        "id": "epicdestiny287",
+        "name": "Glorious Spirit",
+        "prerequisite": "Any primal class",
+        "sourcebook": "PHB2"
+    },
+    "epicdestiny996": {
+        "id": "epicdestiny996",
+        "name": "God-Emperor",
+        "prerequisite": "Human",
+        "sourcebook": "Dra411"
+    },
+    "epicdestiny203": {
+        "id": "epicdestiny203",
+        "name": "Godhunter",
+        "prerequisite": "Ranger or rogue",
+        "sourcebook": "MP"
+    },
+    "epicdestiny614": {
+        "id": "epicdestiny614",
+        "name": "Godmind",
+        "prerequisite": "Any psionic class",
+        "sourcebook": "PHB3"
+    },
+    "epicdestiny765": {
+        "id": "epicdestiny765",
+        "name": "Grandmaster of Flowers",
+        "prerequisite": "Monk",
+        "sourcebook": "PsP"
+    },
+    "epicdestiny840": {
+        "id": "epicdestiny840",
+        "name": "Guardian of the Void",
+        "prerequisite": "None",
+        "sourcebook": "HoS"
+    },
+    "epicdestiny288": {
+        "id": "epicdestiny288",
+        "name": "Harbinger of Doom",
+        "prerequisite": "None",
+        "sourcebook": "PHB2"
+    },
+    "epicdestiny210": {
+        "id": "epicdestiny210",
+        "name": "Harper of Legend",
+        "prerequisite": "Good or lawful good alignment; training in any two of Diplomacy, Insight, Nature, or Stealth; membership in the Harpers (see the sidebar)",
+        "sourcebook": "Dra367"
+    },
+    "epicdestiny699": {
+        "id": "epicdestiny699",
+        "name": "Heir of Siberys",
+        "prerequisite": "None",
+        "sourcebook": "Dra388"
+    },
+    "epicdestiny572": {
+        "id": "epicdestiny572",
+        "name": "Heir to the Empire",
+        "prerequisite": "Tiefling",
+        "sourcebook": "PHR:T"
+    },
+    "epicdestiny505": {
+        "id": "epicdestiny505",
+        "name": "Honored Ancestor",
+        "prerequisite": "Any primal class",
+        "sourcebook": "PP"
+    },
+    "epicdestiny731": {
+        "id": "epicdestiny731",
+        "name": "Hordemaster",
+        "prerequisite": "None",
+        "sourcebook": "DSCS"
+    },
+    "epicdestiny339": {
+        "id": "epicdestiny339",
+        "name": "Immanence",
+        "prerequisite": "Any arcane class",
+        "sourcebook": "AP"
+    },
+    "epicdestiny728": {
+        "id": "epicdestiny728",
+        "name": "Indomitable Champion",
+        "prerequisite": "None",
+        "sourcebook": "HotFL"
+    },
+    "epicdestiny615": {
+        "id": "epicdestiny615",
+        "name": "Invincible Mind",
+        "prerequisite": "Battlemind",
+        "sourcebook": "PHB3"
+    },
+    "epicdestiny583": {
+        "id": "epicdestiny583",
+        "name": "Invincible Vanguard",
+        "prerequisite": "Any martial class",
+        "sourcebook": "MP2"
+    },
+    "epicdestiny841": {
+        "id": "epicdestiny841",
+        "name": "Keeper of the Everflow",
+        "prerequisite": "None",
+        "sourcebook": "HoS"
+    },
+    "epicdestiny297": {
+        "id": "epicdestiny297",
+        "name": "Keybearer",
+        "prerequisite": "None",
+        "sourcebook": "Dra372"
+    },
+    "epicdestiny204": {
+        "id": "epicdestiny204",
+        "name": "Legendary General",
+        "prerequisite": "Warlord",
+        "sourcebook": "MP"
+    },
+    "epicdestiny211": {
+        "id": "epicdestiny211",
+        "name": "Legendary Sovereign",
+        "prerequisite": "Fighter, paladin, ranger, or warlord",
+        "sourcebook": "MP2"
+    },
+    "epicdestiny970": {
+        "id": "epicdestiny970",
+        "name": "Lord of Chaos",
+        "prerequisite": "None",
+        "sourcebook": "HotEC"
+    },
+    "epicdestiny340": {
+        "id": "epicdestiny340",
+        "name": "Lord of Fate",
+        "prerequisite": "Any arcane class, unaligned alignment",
+        "sourcebook": "AP"
+    },
+    "epicdestiny289": {
+        "id": "epicdestiny289",
+        "name": "Lorekeeper",
+        "prerequisite": "Intelligence 21 or Wisdom 21, training in two knowledge skills",
+        "sourcebook": "PHB2"
+    },
+    "epicdestiny341": {
+        "id": "epicdestiny341",
+        "name": "Magister",
+        "prerequisite": "Any arcane class",
+        "sourcebook": "AP"
+    },
+    "epicdestiny842": {
+        "id": "epicdestiny842",
+        "name": "Marshal of Letherna",
+        "prerequisite": "None",
+        "sourcebook": "HoS"
+    },
+    "epicdestiny205": {
+        "id": "epicdestiny205",
+        "name": "Martial Archetype",
+        "prerequisite": "Any martial class, paragon multiclassing in a martial class",
+        "sourcebook": "MP"
+    },
+    "epicdestiny845": {
+        "id": "epicdestiny845",
+        "name": "Master Hierophant",
+        "prerequisite": "Druid",
+        "sourcebook": "Dra396"
+    },
+    "epicdestiny766": {
+        "id": "epicdestiny766",
+        "name": "Master of Moments",
+        "prerequisite": "Any psionic class",
+        "sourcebook": "PsP"
+    },
+    "epicdestiny616": {
+        "id": "epicdestiny616",
+        "name": "Master of the Eternal Hunt",
+        "prerequisite": "Seeker",
+        "sourcebook": "PHB3"
+    },
+    "epicdestiny732": {
+        "id": "epicdestiny732",
+        "name": "Mind Lord of the Order",
+        "prerequisite": "Any psionic class that uses power points",
+        "sourcebook": "DSCS"
+    },
+    "epicdestiny389": {
+        "id": "epicdestiny389",
+        "name": "Mourning Savior",
+        "prerequisite": "None",
+        "sourcebook": "EPG"
+    },
+    "epicdestiny506": {
+        "id": "epicdestiny506",
+        "name": "Mythic Spirit",
+        "prerequisite": "Any primal class",
+        "sourcebook": "PP"
+    },
+    "epicdestiny342": {
+        "id": "epicdestiny342",
+        "name": "Parable",
+        "prerequisite": "Wizard",
+        "sourcebook": "AP"
+    },
+    "epicdestiny206": {
+        "id": "epicdestiny206",
+        "name": "Perfect Assassin",
+        "prerequisite": "Rogue",
+        "sourcebook": "MP"
+    },
+    "epicdestiny507": {
+        "id": "epicdestiny507",
+        "name": "Perfect Guardian",
+        "prerequisite": "Warden",
+        "sourcebook": "PP"
+    },
+    "epicdestiny471": {
+        "id": "epicdestiny471",
+        "name": "Perfect Slayer",
+        "prerequisite": "Assassin",
+        "sourcebook": "Dra379"
+    },
+    "epicdestiny298": {
+        "id": "epicdestiny298",
+        "name": "Planeshaper",
+        "prerequisite": "None",
+        "sourcebook": "Dra372"
+    },
+    "epicdestiny243": {
+        "id": "epicdestiny243",
+        "name": "Primal Avatar",
+        "prerequisite": "Any primal class",
+        "sourcebook": "PHB2"
+    },
+    "epicdestiny299": {
+        "id": "epicdestiny299",
+        "name": "Prince of Hell",
+        "prerequisite": "None",
+        "sourcebook": "Dra372"
+    },
+    "epicdestiny294": {
+        "id": "epicdestiny294",
+        "name": "Prison of the Winds",
+        "prerequisite": "None",
+        "sourcebook": "Dra371"
+    },
+    "epicdestiny300": {
+        "id": "epicdestiny300",
+        "name": "Punisher of the Gods",
+        "prerequisite": "None",
+        "sourcebook": "Dra372"
+    },
+    "epicdestiny733": {
+        "id": "epicdestiny733",
+        "name": "Pyreen",
+        "prerequisite": "Any primal class or primal theme",
+        "sourcebook": "DSCS"
+    },
+    "epicdestiny157": {
+        "id": "epicdestiny157",
+        "name": "Radiant One",
+        "prerequisite": "None",
+        "sourcebook": "Dra366"
+    },
+    "epicdestiny346": {
+        "id": "epicdestiny346",
+        "name": "Raven Consort",
+        "prerequisite": "Shadar-kai, must worship the Raven Queen",
+        "sourcebook": "Dra372"
+    },
+    "epicdestiny523": {
+        "id": "epicdestiny523",
+        "name": "Raven Knight",
+        "prerequisite": "Must worship the Raven Queen",
+        "sourcebook": "Dra380"
+    },
+    "epicdestiny154": {
+        "id": "epicdestiny154",
+        "name": "Reborn Champion",
+        "prerequisite": "None",
+        "sourcebook": "Dra365"
+    },
+    "epicdestiny213": {
+        "id": "epicdestiny213",
+        "name": "Redeemed Drow",
+        "prerequisite": "Drow race",
+        "sourcebook": "Dra367"
+    },
+    "epicdestiny508": {
+        "id": "epicdestiny508",
+        "name": "Reincarnate Champion",
+        "prerequisite": "Any primal class",
+        "sourcebook": "PP"
+    },
+    "epicdestiny291": {
+        "id": "epicdestiny291",
+        "name": "Revered One",
+        "prerequisite": "Any divine class",
+        "sourcebook": "PHB2"
+    },
+    "epicdestiny617": {
+        "id": "epicdestiny617",
+        "name": "Rune Maker",
+        "prerequisite": "Runepriest",
+        "sourcebook": "PHB3"
+    },
+    "epicdestiny343": {
+        "id": "epicdestiny343",
+        "name": "Sage of Ages",
+        "prerequisite": "Any arcane class",
+        "sourcebook": "AP"
+    },
+    "epicdestiny847": {
+        "id": "epicdestiny847",
+        "name": "Sage of the Swan Tower",
+        "prerequisite": "Must worship Ioun",
+        "sourcebook": "Dra397"
+    },
+    "epicdestiny449": {
+        "id": "epicdestiny449",
+        "name": "Saint",
+        "prerequisite": "Any divine class",
+        "sourcebook": "DP"
+    },
+    "epicdestiny912": {
+        "id": "epicdestiny912",
+        "name": "Shiradi Champion",
+        "prerequisite": "Any nonevil alignment",
+        "sourcebook": "HotF"
+    },
+    "epicdestiny645": {
+        "id": "epicdestiny645",
+        "name": "Soul of the World",
+        "prerequisite": "Deva",
+        "sourcebook": "Dra385"
+    },
+    "epicdestiny509": {
+        "id": "epicdestiny509",
+        "name": "Sovereign Beast",
+        "prerequisite": "Druid, wild shape power",
+        "sourcebook": "PP"
+    },
+    "epicdestiny585": {
+        "id": "epicdestiny585",
+        "name": "Star-Favored Champion",
+        "prerequisite": "Any martial class",
+        "sourcebook": "MP2"
+    },
+    "epicdestiny301": {
+        "id": "epicdestiny301",
+        "name": "Storm Sovereign",
+        "prerequisite": "None",
+        "sourcebook": "Dra372"
+    },
+    "epicdestiny390": {
+        "id": "epicdestiny390",
+        "name": "Sublime Flame",
+        "prerequisite": "Any divine class, must worship the Silver Flame",
+        "sourcebook": "EPG"
+    },
+    "epicdestiny697": {
+        "id": "epicdestiny697",
+        "name": "Thief of Legend",
+        "prerequisite": "Trained in Stealth, Thievery",
+        "sourcebook": "Dra388"
+    },
+    "epicdestiny767": {
+        "id": "epicdestiny767",
+        "name": "Topaz Crusader",
+        "prerequisite": "Any psionic class, Psionic Augmentation class feature",
+        "sourcebook": "PsP"
+    },
+    "epicdestiny843": {
+        "id": "epicdestiny843",
+        "name": "Twilight Tribune",
+        "prerequisite": "None",
+        "sourcebook": "HoS"
+    },
+    "epicdestiny207": {
+        "id": "epicdestiny207",
+        "name": "Undying Warrior",
+        "prerequisite": "Fighter",
+        "sourcebook": "MP"
+    },
+    "epicdestiny698": {
+        "id": "epicdestiny698",
+        "name": "Unyielding Sentinel",
+        "prerequisite": "Any defender class",
+        "sourcebook": "Dra388"
+    },
+    "epicdestiny618": {
+        "id": "epicdestiny618",
+        "name": "War Master",
+        "prerequisite": "Ardent",
+        "sourcebook": "PHB3"
+    },
+    "epicdestiny208": {
+        "id": "epicdestiny208",
+        "name": "Warmaster",
+        "prerequisite": "Warlord",
+        "sourcebook": "MP"
+    },
+    "epicdestiny913": {
+        "id": "epicdestiny913",
+        "name": "Wild Hunter",
+        "prerequisite": "None",
+        "sourcebook": "HotF"
+    },
+    "epicdestiny302": {
+        "id": "epicdestiny302",
+        "name": "Winter Sovereign",
+        "prerequisite": "Fey origin",
+        "sourcebook": "Dra372"
+    },
+    "epicdestiny914": {
+        "id": "epicdestiny914",
+        "name": "Witch Queen",
+        "prerequisite": "Wizard",
+        "sourcebook": "HotF"
+    },
+    "epicdestiny510": {
+        "id": "epicdestiny510",
+        "name": "World Tree Guardian",
+        "prerequisite": "Any primal class",
+        "sourcebook": "PP"
+    }
+}
