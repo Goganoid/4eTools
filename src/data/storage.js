@@ -50,6 +50,7 @@ export const getSavedEntities = async (isHero = false) => {
     try {
         console.log("Call to getStoredEntities");
         const entities = await AsyncStorage.getItem(key);
+        console.log("Stored Entities: ", entities);
         if (entities == null) return {};
         return JSON.parse(entities);
     }

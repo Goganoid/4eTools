@@ -6,9 +6,9 @@ import { Encounter } from '../components/Encounter';
 import { EnemyDetails } from '../components/EnemyDetails';
 import { Group } from '../components/Group';
 import { GroupsScreen } from '../components/GroupsScreen';
-import { MonsterListing } from '../components/MonsterListing';
 import { GroupsContext } from './GroupsStackNavigator';
-
+import { CompendiumListStack } from './CompendiumListStack';
+import { configMainScreenTitle } from '../helpers/configMainScreenTitle';
 const Stack = createNativeStackNavigator();
 
 
@@ -56,19 +56,19 @@ export const GroupStackNavigator = ({ navigation, route }) => {
                     component={Group}
                     initialParams={{ groupId: id }}
                     options={{
-                        title:"Group"
+                        title: "Group"
                     }} />
                 <Stack.Screen name="Details"
                     component={EnemyDetails} />
                 <Stack.Screen name="MonsterDetails" component={EnemyDetails}
-                    initialParams={{ mode:'group' }}
+                    initialParams={{ mode: 'group' }}
                     options={{
                         title: "Details",
                     }} />
                 <Stack.Screen
                     name="AddCardCustom"
                     component={AddEntity}
-                    initialParams={{ mode:'group' }}
+                    initialParams={{ mode: 'group' }}
                     options={{
                         title: 'Add Entity',
                         headerRight: () => <>
@@ -79,7 +79,7 @@ export const GroupStackNavigator = ({ navigation, route }) => {
                 <Stack.Screen
                     name="AddHero"
                     component={AddEntity}
-                    initialParams={{mode:'group'}}
+                    initialParams={{ mode: 'group' }}
                     options={{
                         title: 'Add Entity',
                         headerRight: () => <>
@@ -87,13 +87,10 @@ export const GroupStackNavigator = ({ navigation, route }) => {
                             <IconButton icon="check" />
                         </>,
                     }} />
-                <Stack.Screen
-                    name="AddMonster"
-                    component={MonsterListing}
-                    initialParams={{mode:'group'}}
-                    options={{
-                        title: 'Add Monster',
-                    }} />
+                <Stack.Screen name="AddMonster"
+                    component={CompendiumListStack}
+                    initialParams={{ category: 'monster', mode: 'group' }}
+                    options={({ route }) => { return configMainScreenTitle(route, 'Add Monster') }} />
             </Stack.Navigator>
         </GroupContext.Provider>
     )

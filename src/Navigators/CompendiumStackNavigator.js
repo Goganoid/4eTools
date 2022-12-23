@@ -4,8 +4,8 @@ import { Compendium } from '../components/Compendium';
 import { BestiaryStackNavigator } from './BestiaryStackNavigator';
 import { CompendiumListViewer } from '../components/CompendiumListViewer';
 import { CompendiumListStack } from './CompendiumListStack';
+import { configMainScreenTitle } from '../helpers/configMainScreenTitle';
 const Stack = createNativeStackNavigator();
-
 
 export const CompendiumStackNavigator = () => {
     return (
@@ -15,140 +15,98 @@ export const CompendiumStackNavigator = () => {
                 options={{
                     title:"Compendium",
                 }} />
-            <Stack.Screen name="Bestiary"
-                component={BestiaryStackNavigator} />
+            <Stack.Screen name="Monster"
+                component={CompendiumListStack}
+                initialParams={{ category: 'monster' }}
+                options={({route})=>{return configMainScreenTitle(route,'Bestiary')}} />
             <Stack.Screen name="Weapons"
                 component={CompendiumListStack}
                 initialParams={{category:'weapons'}}
-                options={{
-                    
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Weapons')}} />
             <Stack.Screen name="Trap"
                 component={CompendiumListStack}
                 initialParams={{category:'trap'}}
-                options={{
-                    title:"Traps",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Traps')}} />
             <Stack.Screen name="Theme"
                 component={CompendiumListStack}
                 initialParams={{category:'theme'}}
-                options={{
-                    title:"Themes",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Themes')}} />
             <Stack.Screen name="Ritual"
                 component={CompendiumListStack}
                 initialParams={{category:'ritual'}}
-                options={{
-                    title:"Rituals",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Rituals')}} />
             <Stack.Screen name="Race"
                 component={CompendiumListStack}
                 initialParams={{category:'race'}}
-                options={{
-                    title:"Races",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Races')}} />
             <Stack.Screen name="Power"
                 component={CompendiumListStack}
                 initialParams={{category:'power'}}
-                options={{
-                    title:"Powers",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Powers')}}/>
             <Stack.Screen name="ParagonPower"
                 component={CompendiumListStack}
                 initialParams={{category:'paragonpower'}}
-                options={{
-                    title:"Paragon Powers",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Paragon Powers')}} />
             <Stack.Screen name="EpicPower"
                 component={CompendiumListStack}
                 initialParams={{category:'epicdestinypower'}}
-                options={{
-                    title:"Epic Destiny Powers",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Epic Destiny Powers')}} />
              <Stack.Screen name="ThemePower"
                 component={CompendiumListStack}
                 initialParams={{category:'themepower'}}
-                options={{
-                    title:"Theme Powers",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Theme Powers')}} />
             <Stack.Screen name="Poison"
                 component={CompendiumListStack}
                 initialParams={{category:'poison'}}
-                options={{
-                    
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Poison')}} />
             <Stack.Screen name="ParagonPath"
                 component={CompendiumListStack}
                 initialParams={{category:'paragonpath'}}
-                options={{
-                    title:"Paragon pathes",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Paragon Pathes')}} />
             <Stack.Screen name="Item"
                 component={CompendiumListStack}
                 initialParams={{category:'item'}}
-                options={{
-                    title:"Items",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Items')}} />
             <Stack.Screen name="Implement"
                 component={CompendiumListStack}
                 initialParams={{category:'implement'}}
-                options={{
-                    title:"Implements",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Implements')}} />
             <Stack.Screen name="Glossary"
                 component={CompendiumListStack}
                 initialParams={{category:'glossary'}}
-                options={{
-                    
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Glossary')}} />
             <Stack.Screen name="Feat"
                 component={CompendiumListStack}
                 initialParams={{category:'feat'}}
-                options={{
-                    title:"Feats",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Feats')}} />
             <Stack.Screen name="EpicDestiny"
                 component={CompendiumListStack}
                 initialParams={{category:'epicdestiny'}}
-                options={{
-                    title:"Epic Destinies",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Epic Destinies')}} />
             <Stack.Screen name="Disease"
                 component={CompendiumListStack}
                 initialParams={{category:'disease'}}
-                options={{
-                    title:"Diseases",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Diseases')}} />
             <Stack.Screen name="Deity"
                 component={CompendiumListStack}
                 initialParams={{category:'deity'}}
-                options={{
-                    title:"Deities",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Deities')}} />
             <Stack.Screen name="Companion"
                 component={CompendiumListStack}
                 initialParams={{category:'companion'}}
-                options={{
-                    title:"Companions",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Companions')}} />
             <Stack.Screen name="Class"
                 component={CompendiumListStack}
                 initialParams={{category:'class'}}
-                options={{
-                    title:"Classes",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Classes')}}/>
             <Stack.Screen name="Background"
                 component={CompendiumListStack}
                 initialParams={{category:'background'}}
-                options={{
-                    title:"Backgrounds",
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Backgrounds')}} />
             <Stack.Screen name="Armor"
                 component={CompendiumListStack}
                 initialParams={{category:'armor'}}
-                options={{
-                    
-                }} />
+                options={({route})=>{return configMainScreenTitle(route,'Armor')}}/>
         </Stack.Navigator>
     )
 }

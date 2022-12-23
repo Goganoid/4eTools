@@ -12,10 +12,9 @@ import { v4 as uuid } from 'uuid';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { EncounterContext } from '../App';
 // import { EncounterContext } from '../Navigators/EncounterStackNavigator';
-import { sortByInitiative } from './sortByInitiative';
+import { sortByInitiative } from '../helpers/sortByInitiative';
 import { createEnemy } from '../helpers/entities';
 export const Encounter = ({ navigation, route, groupView = false }) => {
-
     const theme = useTheme();
     const [loading, setLoading] = useState(true);
     const [state, setState] = useState({ open: false });

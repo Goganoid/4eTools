@@ -4,7 +4,6 @@ import BigList from "react-native-big-list";
 import DropDownPicker from 'react-native-dropdown-picker';
 import { ActivityIndicator, Divider, Searchbar, Text, useTheme, TextInput } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { combat_roles, group_roles, maxLevel, monster_sizes, races } from '../data/monsterFilterSettings';
 import capitalize from '../helpers/capitalize';
 import limitLength from '../helpers/limitLength';
 var clone = require('clone');
@@ -110,6 +109,7 @@ export const CompendiumListViewer = ({ navigation, route }) => {
 
     useEffect(() => {
 
+        if (category == 'monster') import(`../data/monster/data.js`).then(data => configure(Object.assign({}, data)));
         if (category == 'weapons') import(`../data/weapons/data.js`).then(data => configure(Object.assign({}, data)));
         if (category == 'trap') import(`../data/trap/data.js`).then(data => configure(Object.assign({}, data)));
         if (category == 'theme') import(`../data/theme/data.js`).then(data => configure(Object.assign({}, data)));

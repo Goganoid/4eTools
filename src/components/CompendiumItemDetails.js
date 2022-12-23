@@ -1,11 +1,13 @@
 import React from 'react';
-import { Alert, ScrollView, useWindowDimensions,Text,View } from 'react-native';
-import FlashMessage from 'react-native-flash-message';
+import { ScrollView, useWindowDimensions } from 'react-native';
+import FlashMessage, { showMessage } from 'react-native-flash-message';
 import { useTheme } from 'react-native-paper';
-import RenderHtml,{HTMLContentModel,defaultHTMLElementModels} from 'react-native-render-html';
+import RenderHtml, { defaultHTMLElementModels, HTMLContentModel } from 'react-native-render-html';
+import { EncounterContext } from '../App';
+import { GroupContext } from '../Navigators/GroupStackNavigator';
 import { CustomThemeProvider } from './ThemeProvider';
-
-
+import { IconButton } from 'react-native-paper'
+import { createEnemy } from '../helpers/entities';
 const headStyle = {
     fontSize: 20,
     // lineHeight: 30,
@@ -13,31 +15,31 @@ const headStyle = {
 };
 
 const classesStyles = {
-    mihead: {...headStyle},
-    thHead: {...headStyle },
+    mihead: { ...headStyle },
+    thHead: { ...headStyle },
     player: { ...headStyle },
     trap: {
         fontSize: 20,
-        padding:0,
+        padding: 0,
         backgroundColor: "#BBF"
     },
     encounterpower: {
-        backgroundColor:"#F44"
+        backgroundColor: "#F44"
     },
     atwillpower: {
-        backgroundColor:"#4F4"
+        backgroundColor: "#4F4"
     },
     flavor: {
-        backgroundColor:"#CCC"
+        backgroundColor: "#CCC"
     },
     dailypower: {
-        backgroundColor:"#888"
+        backgroundColor: "#888"
     },
     milevel: {
         fontSize: 14,
     },
     miflavor: {
-        backgroundColor:"#CCC",
+        backgroundColor: "#CCC",
         lineHeight: 25,
     },
     alt: {
@@ -61,10 +63,26 @@ const classesStyles = {
         marginVertical: 0,
     },
     mic4: {
-        width:0,
+        width: 0,
     },
     trapblocktitle: {
-        fontWeight:"bold"
+        fontWeight: "bold"
+    },
+    monster: {
+        fontSize: 20,
+        lineHeight: 30,
+        backgroundColor: "#BBF"
+    },
+    flavor: {
+        lineHeight: 25,
+    },
+    alt: {
+        lineHeight: 20,
+        backgroundColor: "#CCC"
+    },
+    flavorIndent: {
+        marginLeft: 30,
+        marginVertical: 0,
     }
 };
 const tagsStyles = {
@@ -81,11 +99,11 @@ const tagsStyles = {
     },
     td: {
         color: "black",
-        backgroundColor:"#e0e0e0",
+        backgroundColor: "#e0e0e0",
     },
     table: {
         padding: 5,
-        fontSize:10,
+        fontSize: 10,
     },
 
 }
@@ -93,7 +111,11 @@ const tagsStyles = {
 export const CompendiumItemDetails = ({ route, navigation }) => {
     const theme = useTheme();
     const { id, category } = route.params;
+    const mode = route?.params.mode ?? null;
+    const context = mode == 'group' ? React.useContext(GroupContext) :
+        mode == 'encounter' ? React.useContext(EncounterContext) : null;
     let details = {};
+    if (category == 'monster') details = require('../data/monster/data.json');
     if (category == 'weapons') details = require('../data/weapons/data.json');
     if (category == 'trap') details = require('../data/trap/data.json');
     if (category == 'theme') details = require('../data/theme/data.json');
@@ -122,12 +144,39 @@ export const CompendiumItemDetails = ({ route, navigation }) => {
     }
     const customHTMLElementModels = {
         span: defaultHTMLElementModels.span.extend({
-          contentModel: HTMLContentModel.block,
+            contentModel: HTMLContentModel.block,
         }),
-      };
+    };
+
+    React.useEffect(() => {
+
+        navigation.setOptions({
+            headerRight: () => (
+                <>
+                    {context &&
+                        <IconButton
+                            icon='check'
+                            onPress={create} />}
+                </>
+            ),
+        });
+    }, [navigation, context]);
+
+    const create = async () => {
+        if (context != null && category == 'monster') {
+            let entity = createEnemy(id);
+            context.addEntity(entity);
+            showMessage({
+                message: `Monster was added`,
+                type: "info",
+                backgroundColor: theme.colors.primary
+            });
+        }
+
+    }
     return (
         <CustomThemeProvider>
-            <ScrollView style={{paddingHorizontal:10, backgroundColor:"#f8f8f8"}}>
+            <ScrollView style={{ paddingHorizontal: 10, backgroundColor: "#f8f8f8" }}>
                 <RenderHtml
                     contentWidth={width}
                     source={source}

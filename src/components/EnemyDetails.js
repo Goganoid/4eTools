@@ -45,7 +45,6 @@ const tagsStyles = {
 
 export const EnemyDetails = ({ route, navigation }) => {
     const mode = route?.params.mode ?? null;
-    console.log("Mode ", mode);
     const context = mode == 'group' ? React.useContext(GroupContext) :
         mode == 'encounter' ? React.useContext(EncounterContext) : null;
     const theme = useTheme();

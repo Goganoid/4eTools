@@ -12,11 +12,12 @@ import { BestiaryStackNavigator } from './Navigators/BestiaryStackNavigator';
 import { EncounterStackNavigator } from './Navigators/EncounterStackNavigator';
 import { GroupsStackNavigator } from './Navigators/GroupsStackNavigator';
 import { IconButton } from 'react-native-paper';
-import { sortByInitiative } from './components/sortByInitiative';
+import { sortByInitiative } from './helpers/sortByInitiative';
 import { saveCurrentEncounter } from './data/storage';
 import { Compendium } from './components/Compendium';
 import { CompendiumStackNavigator } from './Navigators/CompendiumStackNavigator';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { isOnMainScreen } from './helpers/isOnMainScreen';
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
@@ -25,10 +26,6 @@ export const EncounterContext = React.createContext(null);
 export default function Main() {
 
   const { width } = useWindowDimensions();
-  const isOnMainScreen = (route, mainScreenName) => {
-    const routeName = getFocusedRouteNameFromRoute(route);
-    return routeName == null || routeName == mainScreenName
-  }
 
   const initialContextState = {
     id: null,

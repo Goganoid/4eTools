@@ -1,0 +1,4 @@
+{
+    "name": "name",
+    "stats": ["level",{"value":"combatrole","label":"Combat Role"},{"value":"grouprole","label":"Group Role"}]
+}

@@ -17,11 +17,10 @@ import { EncounterContext } from '../App';
 import { InputStats,InputStat } from './InputStats';
 import { SavedEntitiesTab } from './SavedEntitiesTab';
 import { CustomThemeProvider } from './ThemeProvider';
-import { sortByInitiative } from './sortByInitiative';
+import { sortByInitiative } from '../helpers/sortByInitiative';
 import { GroupContext } from '../Navigators/GroupStackNavigator';
 export const AddEntity = ({ navigation, route }) => {
     const mode = route?.params.mode ?? null;
-    console.log("Mode ", mode);
     const context = mode == 'group' ? React.useContext(GroupContext) :
         mode == 'encounter' ? React.useContext(EncounterContext) : null;
     const theme = useTheme();

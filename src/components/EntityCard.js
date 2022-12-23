@@ -10,9 +10,9 @@ export const EntityCard = ({ navigation, route, entity, setStat,
   highlight = false,
   mode,
   showInitiative = true }) => {
-  console.log("Mode ", mode);
   const context = mode == 'group' ? React.useContext(GroupContext) :
-    mode=='encounter' ? React.useContext(EncounterContext): null;
+    mode == 'encounter' ? React.useContext(EncounterContext) : null;
+  console.log("Entity: ", entity);
   const initiative = parseInt(entity.stats.initiative);
   const initiativeRoll = parseInt(entity.initiativeRoll);
   const theme = useTheme();

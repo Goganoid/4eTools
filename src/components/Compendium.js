@@ -9,7 +9,7 @@ export const Compendium = ({navigation}) => {
             <List.Item
                 title="Bestiary"
                 left={props => <List.Icon {...props} icon="emoticon-devil" />}
-                onPress={()=>navigation.navigate("Bestiary")}
+                onPress={()=>navigation.navigate("Monster")}
             />
             <List.Item
                 title="Weapons"

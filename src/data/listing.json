@@ -1,4 +1,22 @@
 {
+    "monster5452": {
+        "id": "monster5452",
+        "name": "Shuffling Zombie",
+        "level": "0",
+        "combatrole": "No Role",
+        "grouprole": "Conjured",
+        "size": "Medium",
+        "creaturetype": "Animate, Natural, Undead",
+        "sourcebook": "Dun182",
+        "stats": {
+            "hp": 0,
+            "initiative": "0",
+            "ac": 0,
+            "fort": 0,
+            "ref": 0,
+            "will": 0
+        }
+    },
     "monster4759": {
         "id": "monster4759",
         "name": "Anise the Chaos Warrior",
@@ -13600,7 +13618,7 @@
         "source": "AV",
         "stats": {
             "hp": 8,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 17,
             "fort": 17,
             "ref": 14,
@@ -13636,7 +13654,7 @@
         "source": "AV",
         "stats": {
             "hp": 9,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 16,
             "fort": 15,
             "ref": 14,
@@ -22474,7 +22492,7 @@
         "source": "Dra381",
         "stats": {
             "hp": 11,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 20,
             "fort": 17,
             "ref": 19,
@@ -29998,7 +30016,7 @@
         "source": "AV",
         "stats": {
             "hp": 1,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 18,
             "fort": 17,
             "ref": 18,
@@ -31852,7 +31870,7 @@
         "source": "AV",
         "stats": {
             "hp": 13,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 23,
             "fort": 23,
             "ref": 20,
@@ -32878,7 +32896,7 @@
         "source": "AV",
         "stats": {
             "hp": 14,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 17,
             "fort": 17,
             "ref": 15,
@@ -39448,7 +39466,7 @@
         "source": "AV",
         "stats": {
             "hp": 16,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 22,
             "fort": 21,
             "ref": 20,
@@ -40294,7 +40312,7 @@
         "source": "AV",
         "stats": {
             "hp": 14,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 18,
             "fort": 16,
             "ref": 16,
@@ -41050,7 +41068,7 @@
         "source": "AV",
         "stats": {
             "hp": 9,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 21,
             "fort": 20,
             "ref": 19,
@@ -41068,7 +41086,7 @@
         "source": "Dra381",
         "stats": {
             "hp": 15,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 20,
             "fort": 18,
             "ref": 20,
@@ -41536,7 +41554,7 @@
         "source": "AV",
         "stats": {
             "hp": 15,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 20,
             "fort": 20,
             "ref": 16,
@@ -49816,7 +49834,7 @@
         "source": "AV",
         "stats": {
             "hp": 17,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 23,
             "fort": 21,
             "ref": 22,
@@ -52660,7 +52678,7 @@
         "source": "Dra384",
         "stats": {
             "hp": 27,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 24,
             "fort": 22,
             "ref": 24,
@@ -57826,7 +57844,7 @@
         "source": "Dra384",
         "stats": {
             "hp": 19,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 25,
             "fort": 25,
             "ref": 23,
@@ -66916,7 +66934,7 @@
         "source": "Dra384",
         "stats": {
             "hp": 21,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 27,
             "fort": 25,
             "ref": 26,
@@ -67870,7 +67888,7 @@
         "source": "Dra368",
         "stats": {
             "hp": 50,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 29,
             "fort": 32,
             "ref": 26,
@@ -70624,7 +70642,7 @@
         "source": "Dra384",
         "stats": {
             "hp": 22,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 28,
             "fort": 26,
             "ref": 27,
@@ -71902,7 +71920,7 @@
         "source": "AV",
         "stats": {
             "hp": 1,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 32,
             "fort": 30,
             "ref": 30,
@@ -74782,7 +74800,7 @@
         "source": "Dra384",
         "stats": {
             "hp": 24,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 30,
             "fort": 30,
             "ref": 29,
@@ -79300,7 +79318,7 @@
         "source": "Dra384",
         "stats": {
             "hp": 26,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 33,
             "fort": 31,
             "ref": 32,
@@ -79570,7 +79588,7 @@
         "source": "Dun171, Dra386",
         "stats": {
             "hp": 50,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 35,
             "fort": 33,
             "ref": 35,
@@ -84214,7 +84232,7 @@
         "source": "Dra384",
         "stats": {
             "hp": 28,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 34,
             "fort": 35,
             "ref": 30,
@@ -86860,7 +86878,7 @@
         "source": "Dra384",
         "stats": {
             "hp": 30,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 37,
             "fort": 36,
             "ref": 33,
@@ -91972,7 +91990,7 @@
         "source": "AV",
         "stats": {
             "hp": 1,
-            "initiative": "as conjurer",
+            "initiative": "0",
             "ac": 38,
             "fort": 38,
             "ref": 36,
