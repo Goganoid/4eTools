@@ -1,12 +1,10 @@
 import React, { useContext, useState } from 'react';
-import { ScrollView, View } from 'react-native';
-import { ActivityIndicator, IconButton, useTheme, TextInput } from 'react-native-paper';
-import { GroupsContext } from '../Navigators/GroupsStackNavigator';
-import { GroupContext } from '../Navigators/GroupStackNavigator';
-import { styles } from './Encounter';
-import { EncounterControls } from './EncounterControls';
-import { EntityCard } from './EntityCard';
-import { CustomThemeProvider } from './ThemeProvider';
+import { ScrollView } from 'react-native';
+import { IconButton, TextInput, useTheme } from 'react-native-paper';
+import { GroupsContext } from '../../Navigators/GroupsStackNavigator';
+import { EncounterControls } from '../Encounter/EncounterControls';
+import { EntityCard } from '../Encounter/EntityCard';
+import { CustomThemeProvider } from '../ThemeProvider';
 export const Group = ({ navigation, route }) => {
     const groupId = route?.params.groupId;
     console.log("Group Id ", groupId)
@@ -47,11 +45,21 @@ export const Group = ({ navigation, route }) => {
 
     const setEntityStat = (entity, statName, statValue) => {
         statValue = parseInt(statValue) || 0;
-        let newEntities = entities.map(e => {
+        let newEntities = encounter.entities.map(e => {
             console.log(e.uuid, entity.uuid, e.uuid === entity.uuid);
             if (e.uuid === entity.uuid) {
                 console.log("Found");
                 e.stats[statName] = statValue;
+            }
+            return e;
+        })
+        setEntities(newEntities)
+    }
+    const setConditions = (entity, conditions) => {
+        let newEntities = encounter.entities.map(e => {
+            console.log(e.uuid, entity.uuid, e.uuid === entity.uuid);
+            if (e.uuid === entity.uuid) {
+                e.conditions = conditions;
             }
             return e;
         })
@@ -80,6 +88,7 @@ export const Group = ({ navigation, route }) => {
                         entity={entity}
                         key={entity.uuid}
                         setStat={setEntityStat}
+                        setConditions={setConditions}
                         highlight={false}
                         removeEntity={removeEntity}
                         mode={'group'}

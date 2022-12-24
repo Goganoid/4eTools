@@ -1,10 +1,8 @@
-import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { Compendium } from '../components/Compendium';
-import { BestiaryStackNavigator } from './BestiaryStackNavigator';
-import { CompendiumListViewer } from '../components/CompendiumListViewer';
-import { CompendiumListStack } from './CompendiumListStack';
+import React from 'react';
+import { Compendium } from '../components/Compendium/Compendium';
 import { configMainScreenTitle } from '../helpers/configMainScreenTitle';
+import { CompendiumListStack } from './CompendiumListStack';
 const Stack = createNativeStackNavigator();
 
 export const CompendiumStackNavigator = () => {

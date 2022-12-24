@@ -6,6 +6,7 @@ const stored_entities_key = "stored_entities";
 const stored_heroes_key = "stored_heroes";
 const encounter_key = "encounter";
 const saved_groups_key = "saved_groups";
+const tracker_key = "tracker";
 
 export const saveEntity = async (entity, isHero = false) => {
     const key = isHero ? stored_heroes_key : stored_entities_key
@@ -157,5 +158,33 @@ export const updateGroup = async (group) => {
     }
     catch (e) {
         Alert.alert("Error while updating entity")
+    }
+}
+
+export const savePowerTracker = async (tracker) => {
+    try {
+        console.log("Storing encounter in savePowerTracker ");
+        const savedTracker = await AsyncStorage.getItem(tracker_key);
+        let trackerString = JSON.stringify(tracker);
+        console.log("Stringified tracker", trackerString);
+        await AsyncStorage.setItem(tracker_key, trackerString);
+    }
+    catch (e) {
+        Alert.alert("Error while storing tracker");
+        console.log("Error")
+        console.log(e);
+    }
+}
+export const getSavedTracker = async () => {
+    try {
+        console.log("Call to getSavedTracker");
+        const savedTracker = await AsyncStorage.getItem(tracker_key);
+        if (savedTracker == null) return null;
+        console.log("Entities from storage", savedTracker);
+        return JSON.parse(savedTracker);
+    }
+    catch (e) {
+        Alert.alert("Error while loading encounter");
+        console.log(e);
     }
 }

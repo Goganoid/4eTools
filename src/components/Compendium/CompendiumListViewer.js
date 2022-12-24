@@ -2,15 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import BigList from "react-native-big-list";
 import DropDownPicker from 'react-native-dropdown-picker';
-import { ActivityIndicator, Divider, Searchbar, Text, useTheme, TextInput } from 'react-native-paper';
+import { ActivityIndicator, Divider, Searchbar, Text, useTheme } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import capitalize from '../helpers/capitalize';
-import limitLength from '../helpers/limitLength';
+import capitalize from '../../helpers/capitalize';
+import limitLength from '../../helpers/limitLength';
 var clone = require('clone');
-
-const routes = {
-    'weapons': '../data/weapons/data.js'
-}
 
 
 export const CompendiumListViewer = ({ navigation, route }) => {
@@ -109,29 +105,29 @@ export const CompendiumListViewer = ({ navigation, route }) => {
 
     useEffect(() => {
 
-        if (category == 'monster') import(`../data/monster/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'weapons') import(`../data/weapons/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'trap') import(`../data/trap/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'theme') import(`../data/theme/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'ritual') import(`../data/ritual/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'race') import(`../data/race/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'power') import(`../data/power/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'paragonpower') import(`../data/paragonpower/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'themepower') import(`../data/themepower/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'epicdestinypower') import(`../data/epicdestinypower/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'poison') import(`../data/poison/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'paragonpath') import(`../data/paragonpath/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'item') import(`../data/item/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'implement') import(`../data/implement/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'glossary') import(`../data/glossary/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'feat') import(`../data/feat/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'epicdestiny') import(`../data/epicdestiny/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'disease') import(`../data/disease/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'deity') import(`../data/deity/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'companion') import(`../data/companion/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'class') import(`../data/class/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'background') import(`../data/background/data.js`).then(data => configure(Object.assign({}, data)));
-        if (category == 'armor') import(`../data/armor/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'monster') import(`../../data/monster/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'weapons') import(`../../data/weapons/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'trap') import(`../../data/trap/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'theme') import(`../../data/theme/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'ritual') import(`../../data/ritual/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'race') import(`../../data/race/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'power') import(`../../data/power/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'paragonpower') import(`../../data/paragonpower/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'themepower') import(`../../data/themepower/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'epicdestinypower') import(`../../data/epicdestinypower/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'poison') import(`../../data/poison/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'paragonpath') import(`../../data/paragonpath/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'item') import(`../../data/item/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'implement') import(`../../data/implement/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'glossary') import(`../../data/glossary/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'feat') import(`../../data/feat/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'epicdestiny') import(`../../data/epicdestiny/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'disease') import(`../../data/disease/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'deity') import(`../../data/deity/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'companion') import(`../../data/companion/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'class') import(`../../data/class/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'background') import(`../../data/background/data.js`).then(data => configure(Object.assign({}, data)));
+        if (category == 'armor') import(`../../data/armor/data.js`).then(data => configure(Object.assign({}, data)));
     }, [])
 
 

@@ -1,15 +1,18 @@
 import React from 'react';
+import reactDom from 'react-dom';
 import { ScrollView, useWindowDimensions } from 'react-native';
 import FlashMessage, { showMessage } from 'react-native-flash-message';
-import { useTheme } from 'react-native-paper';
+import { IconButton, useTheme } from 'react-native-paper';
 import RenderHtml, { defaultHTMLElementModels, HTMLContentModel } from 'react-native-render-html';
-import { EncounterContext } from '../App';
-import { GroupContext } from '../Navigators/GroupStackNavigator';
-import { CustomThemeProvider } from './ThemeProvider';
-import { IconButton } from 'react-native-paper'
-import { createEnemy } from '../helpers/entities';
+// import { EncounterContext } from '../../App';
+import { EncounterContext } from '../../Navigators/MainDrawer';
+import { createEnemy, createPower } from '../../helpers/entities';
+import { GroupContext } from '../../Navigators/GroupStackNavigator';
+import { PowerTrackerContext } from '../../Navigators/PowerTrackerStack';
+import { CustomThemeProvider } from '../ThemeProvider';
 const headStyle = {
     fontSize: 20,
+    padding: 0,
     // lineHeight: 30,
     backgroundColor: "#BBF"
 };
@@ -18,11 +21,7 @@ const classesStyles = {
     mihead: { ...headStyle },
     thHead: { ...headStyle },
     player: { ...headStyle },
-    trap: {
-        fontSize: 20,
-        padding: 0,
-        backgroundColor: "#BBF"
-    },
+    trap: headStyle,
     encounterpower: {
         backgroundColor: "#F44"
     },
@@ -68,11 +67,7 @@ const classesStyles = {
     trapblocktitle: {
         fontWeight: "bold"
     },
-    monster: {
-        fontSize: 20,
-        lineHeight: 30,
-        backgroundColor: "#BBF"
-    },
+    monster: headStyle,
     flavor: {
         lineHeight: 25,
     },
@@ -112,32 +107,34 @@ export const CompendiumItemDetails = ({ route, navigation }) => {
     const theme = useTheme();
     const { id, category } = route.params;
     const mode = route?.params.mode ?? null;
-    const context = mode == 'group' ? React.useContext(GroupContext) :
-        mode == 'encounter' ? React.useContext(EncounterContext) : null;
+    const context =
+        mode == 'group' ? React.useContext(GroupContext) :
+            mode == 'encounter' ? React.useContext(EncounterContext) :
+                mode == 'power' ? React.useContext(PowerTrackerContext) : null;
     let details = {};
-    if (category == 'monster') details = require('../data/monster/data.json');
-    if (category == 'weapons') details = require('../data/weapons/data.json');
-    if (category == 'trap') details = require('../data/trap/data.json');
-    if (category == 'theme') details = require('../data/theme/data.json');
-    if (category == 'ritual') details = require('../data/ritual/data.json');
-    if (category == 'race') details = require('../data/race/data.json');
-    if (category == 'power') details = require('../data/power/data.json');
-    if (category == 'paragonpower') details = require('../data/paragonpower/data.json');
-    if (category == 'themepower') details = require('../data/themepower/data.json');
-    if (category == 'epicdestinypower') details = require('../data/epicdestinypower/data.json');
-    if (category == 'poison') details = require('../data/poison/data.json');
-    if (category == 'paragonpath') details = require('../data/paragonpath/data.json');
-    if (category == 'item') details = require('../data/item/data.json');
-    if (category == 'implement') details = require('../data/implement/data.json');
-    if (category == 'glossary') details = require('../data/glossary/data.json');
-    if (category == 'feat') details = require('../data/feat/data.json');
-    if (category == 'epicdestiny') details = require('../data/epicdestiny/data.json');
-    if (category == 'disease') details = require('../data/disease/data.json');
-    if (category == 'deity') details = require('../data/deity/data.json');
-    if (category == 'companion') details = require('../data/companion/data.json');
-    if (category == 'class') details = require('../data/class/data.json');
-    if (category == 'background') details = require('../data/background/data.json');
-    if (category == 'armor') details = require('../data/armor/data.json');
+    if (category == 'monster') details = require('../../data/monster/data.json');
+    if (category == 'weapons') details = require('../../data/weapons/data.json');
+    if (category == 'trap') details = require('../../data/trap/data.json');
+    if (category == 'theme') details = require('../../data/theme/data.json');
+    if (category == 'ritual') details = require('../../data/ritual/data.json');
+    if (category == 'race') details = require('../../data/race/data.json');
+    if (category == 'power') details = require('../../data/power/data.json');
+    if (category == 'paragonpower') details = require('../../data/paragonpower/data.json');
+    if (category == 'themepower') details = require('../../data/themepower/data.json');
+    if (category == 'epicdestinypower') details = require('../../data/epicdestinypower/data.json');
+    if (category == 'poison') details = require('../../data/poison/data.json');
+    if (category == 'paragonpath') details = require('../../data/paragonpath/data.json');
+    if (category == 'item') details = require('../../data/item/data.json');
+    if (category == 'implement') details = require('../../data/implement/data.json');
+    if (category == 'glossary') details = require('../../data/glossary/data.json');
+    if (category == 'feat') details = require('../../data/feat/data.json');
+    if (category == 'epicdestiny') details = require('../../data/epicdestiny/data.json');
+    if (category == 'disease') details = require('../../data/disease/data.json');
+    if (category == 'deity') details = require('../../data/deity/data.json');
+    if (category == 'companion') details = require('../../data/companion/data.json');
+    if (category == 'class') details = require('../../data/class/data.json');
+    if (category == 'background') details = require('../../data/background/data.json');
+    if (category == 'armor') details = require('../../data/armor/data.json');
     const { width } = useWindowDimensions();
     const source = {
         html: details[id]
@@ -172,7 +169,15 @@ export const CompendiumItemDetails = ({ route, navigation }) => {
                 backgroundColor: theme.colors.primary
             });
         }
-
+        if (context != null && category == 'power') {
+            let power = createPower(id)
+            context.addPower(power);
+            showMessage({
+                message: `Power was added`,
+                type: "info",
+                backgroundColor: theme.colors.primary
+            });
+        }
     }
     return (
         <CustomThemeProvider>

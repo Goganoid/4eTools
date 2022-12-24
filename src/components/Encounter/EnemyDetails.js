@@ -3,11 +3,11 @@ import { DeviceEventEmitter, ScrollView, useWindowDimensions } from 'react-nativ
 import FlashMessage, { showMessage } from 'react-native-flash-message';
 import { IconButton, useTheme } from 'react-native-paper';
 import RenderHtml from 'react-native-render-html';
-import { monsters_details } from '../data/monsters';
-import { createEnemy } from '../helpers/entities';
-import { EncounterContext } from '../App';
-import { GroupContext } from '../Navigators/GroupStackNavigator';
-import { CustomThemeProvider } from './ThemeProvider';
+import { monsters_details } from '../../data/monsters';
+import { createEnemy } from '../../helpers/entities';
+import { EncounterContext } from '../../Navigators/MainDrawer';
+import { GroupContext } from '../../Navigators/GroupStackNavigator';
+import { CustomThemeProvider } from '../ThemeProvider';
 const classesStyles = {
     monster: {
         fontSize: 20,

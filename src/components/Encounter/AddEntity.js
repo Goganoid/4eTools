@@ -1,24 +1,20 @@
-import React, { useEffect, useState,useContext } from 'react';
-import { DeviceEventEmitter, ScrollView, StyleSheet, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { ScrollView, StyleSheet, View } from 'react-native';
 import FlashMessage, { showMessage } from 'react-native-flash-message';
 import {
-    IconButton,
-    Divider,
-    RadioButton,
+    IconButton, RadioButton,
     Text,
     TextInput,
     useTheme
 } from 'react-native-paper';
 import { v4 as uuid } from 'uuid';
-import { getSavedEntities, saveEntity, updateEntity } from '../data/storage';
-import { createEntity } from '../helpers/entities';
-// import { EncounterContext } from '../Navigators/EncounterStackNavigator';
-import { EncounterContext } from '../App';
-import { InputStats,InputStat } from './InputStats';
+import { getSavedEntities, saveEntity, updateEntity } from '../../data/storage';
+import { createEntity } from '../../helpers/entities';
+import { EncounterContext } from '../../Navigators/MainDrawer';
+import { GroupContext } from '../../Navigators/GroupStackNavigator';
+import { CustomThemeProvider } from '../ThemeProvider';
+import { InputStat, InputStats } from './InputStats';
 import { SavedEntitiesTab } from './SavedEntitiesTab';
-import { CustomThemeProvider } from './ThemeProvider';
-import { sortByInitiative } from '../helpers/sortByInitiative';
-import { GroupContext } from '../Navigators/GroupStackNavigator';
 export const AddEntity = ({ navigation, route }) => {
     const mode = route?.params.mode ?? null;
     const context = mode == 'group' ? React.useContext(GroupContext) :

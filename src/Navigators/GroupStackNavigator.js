@@ -1,14 +1,12 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 import { IconButton } from 'react-native-paper';
-import { AddEntity } from '../components/AddEntity';
-import { Encounter } from '../components/Encounter';
-import { EnemyDetails } from '../components/EnemyDetails';
-import { Group } from '../components/Group';
-import { GroupsScreen } from '../components/GroupsScreen';
-import { GroupsContext } from './GroupsStackNavigator';
-import { CompendiumListStack } from './CompendiumListStack';
+import { AddEntity } from '../components/Encounter/AddEntity';
+import { EnemyDetails } from '../components/Encounter/EnemyDetails';
+import { Group } from '../components/Group/Group';
 import { configMainScreenTitle } from '../helpers/configMainScreenTitle';
+import { CompendiumListStack } from './CompendiumListStack';
+import { GroupsContext } from './GroupsStackNavigator';
 const Stack = createNativeStackNavigator();
 
 

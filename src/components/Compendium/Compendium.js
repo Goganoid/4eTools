@@ -1,6 +1,5 @@
 import React from 'react'
-import { View,ScrollView } from 'react-native'
-import { Text } from 'react-native-paper'
+import { ScrollView } from 'react-native'
 import { List } from 'react-native-paper'
 export const Compendium = ({navigation}) => {
     return (

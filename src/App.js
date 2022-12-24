@@ -11,22 +11,26 @@ import { CustomThemeProvider } from './components/ThemeProvider';
 import { BestiaryStackNavigator } from './Navigators/BestiaryStackNavigator';
 import { EncounterStackNavigator } from './Navigators/EncounterStackNavigator';
 import { GroupsStackNavigator } from './Navigators/GroupsStackNavigator';
-import { IconButton } from 'react-native-paper';
+import { IconButton, useTheme } from 'react-native-paper';
 import { sortByInitiative } from './helpers/sortByInitiative';
 import { saveCurrentEncounter } from './data/storage';
-import { Compendium } from './components/Compendium';
+import { Compendium } from './components/Compendium/Compendium';
 import { CompendiumStackNavigator } from './Navigators/CompendiumStackNavigator';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { isOnMainScreen } from './helpers/isOnMainScreen';
+import PowerTracker from './components/PlayerSheet/PowerTracker';
+import { PowerTrackerStack } from './Navigators/PowerTrackerStack';
+import MainDrawer from './Navigators/MainDrawer';
+
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
-export const EncounterContext = React.createContext(null);
+// export const EncounterContext = React.createContext(null);
 
 export default function Main() {
-
+  // AsyncStorage.clear();
   const { width } = useWindowDimensions();
-
+  const theme = useTheme();
   const initialContextState = {
     id: null,
     name: null,
@@ -66,41 +70,7 @@ export default function Main() {
 
   return (
     <CustomThemeProvider>
-      <EncounterContext.Provider value={{ ...encounter, ...encounterContextSetters }} >
-        <NavigationContainer>
-          <Drawer.Navigator initialRouteName="EncounterStack">
-            <Drawer.Screen name="EncounterStack" component={EncounterStackNavigator}
-              options={({ route }) => {
-                const routeName = getFocusedRouteNameFromRoute(route) ?? 'Encounter';
-                const swipeEnabled = routeName == "Encounter";
-                return {
-                  title: "Encounter",
-                  headerShown: false,
-                  swipeEnabled: isOnMainScreen(route, 'Encounter')
-                }
-              }}
-            />
-            <Drawer.Screen name="Groups" component={GroupsStackNavigator}
-              options={({ route }) => {
-                return {
-                  headerShown: false,
-                  swipeEnabled: isOnMainScreen(route, 'GroupsTable')
-                }
-              }}
-            />
-            <Drawer.Screen name="Compendium" component={CompendiumStackNavigator}
-              options={({ route }) => {
-                return {
-                  headerShown: false,
-                  swipeEnabled: isOnMainScreen(route, 'CompendiumMainPage')
-                }
-              }}
-            />
-
-          </Drawer.Navigator>
-        </NavigationContainer>
-      </EncounterContext.Provider >
-
+     <MainDrawer/>
     </CustomThemeProvider >
   );
 }

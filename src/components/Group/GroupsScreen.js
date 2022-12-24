@@ -1,14 +1,11 @@
 import React, { useContext, useEffect } from 'react'
-import { View, StyleSheet, TouchableOpacity,ScrollView } from 'react-native'
-import { Text, Surface, IconButton, Dialog, Portal, Provider, TextInput, Button, TouchableRipple } from 'react-native-paper'
-import { GroupsContext } from '../Navigators/GroupsStackNavigator'
+import { ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native'
+import { Button, Dialog, IconButton, Portal, Surface, Text, TextInput } from 'react-native-paper'
 import { v4 as uuid } from 'uuid'
-import { CustomThemeProvider } from './ThemeProvider'
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
-import { EncounterContext } from '../App'
-import { getSavedGroups } from '../data/storage'
-import { GroupContext } from '../Navigators/GroupStackNavigator'
-// import { EncounterContext } from '../Navigators/EncounterStackNavigator';
+import { EncounterContext } from '../../Navigators/MainDrawer';
+import { getSavedGroups } from '../../data/storage'
+import { GroupsContext } from '../../Navigators/GroupsStackNavigator'
+import { CustomThemeProvider } from '../ThemeProvider'
 export const GroupsScreen = ({ navigation, route }) => {
 
     const [loading, setLoading] = React.useState(true);

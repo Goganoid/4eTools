@@ -2,18 +2,18 @@ import React, { useState, useContext } from 'react';
 import { DeviceEventEmitter, ScrollView, StyleSheet, View } from 'react-native';
 import { IconButton, Text, ActivityIndicator, Button, TouchableRipple, Surface } from 'react-native-paper';
 import { EntityCard } from './EntityCard';
-import { roll20 } from "../helpers/roll20";
-import { getCurrentEncounter, saveCurrentEncounter } from '../data/storage';
-import { CustomThemeProvider } from './ThemeProvider';
+import { roll20 } from "../../helpers/roll20";
+import { getCurrentEncounter, saveCurrentEncounter } from '../../data/storage';
+import { CustomThemeProvider } from '../ThemeProvider';
 import { EncounterControls } from './EncounterControls';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { useTheme } from 'react-native-paper';
 import { v4 as uuid } from 'uuid';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { EncounterContext } from '../App';
+import { EncounterContext } from '../../Navigators/MainDrawer';
 // import { EncounterContext } from '../Navigators/EncounterStackNavigator';
-import { sortByInitiative } from '../helpers/sortByInitiative';
-import { createEnemy } from '../helpers/entities';
+import { sortByInitiative } from '../../helpers/sortByInitiative';
+import { createEnemy } from '../../helpers/entities';
 export const Encounter = ({ navigation, route, groupView = false }) => {
     const theme = useTheme();
     const [loading, setLoading] = useState(true);
@@ -41,6 +41,16 @@ export const Encounter = ({ navigation, route, groupView = false }) => {
             if (e.uuid === entity.uuid) {
                 console.log("Found");
                 e.stats[statName] = statValue;
+            }
+            return e;
+        })
+        context.setEntities(newEntities)
+    }
+    const setConditions = (entity, conditions) => {
+        let newEntities = context.entities.map(e => {
+            console.log(e.uuid, entity.uuid, e.uuid === entity.uuid);
+            if (e.uuid === entity.uuid) {
+                e.conditions = conditions;
             }
             return e;
         })
@@ -93,6 +103,8 @@ export const Encounter = ({ navigation, route, groupView = false }) => {
                             entity={entity}
                             key={index}
                             setStat={setEntityStat}
+                            setConditions={setConditions}
+                            mode='encounter'
                             highlight={index == turn}
                         />
                     )}

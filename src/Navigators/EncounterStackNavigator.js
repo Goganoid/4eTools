@@ -2,11 +2,12 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 import { IconButton } from 'react-native-paper';
-import { AddEntity } from '../components/AddEntity';
-import { Encounter } from '../components/Encounter';
-import { EnemyDetails } from '../components/EnemyDetails';
+import { AddEntity } from '../components/Encounter/AddEntity';
+import { Encounter } from '../components/Encounter/Encounter';
+import { EnemyDetails } from '../components/Encounter/EnemyDetails';
 import { CompendiumListStack } from './CompendiumListStack';
 import { configMainScreenTitle } from '../helpers/configMainScreenTitle';
+import { CompendiumItemDetails } from '../components/Compendium/CompendiumItemDetails';
 const Stack = createNativeStackNavigator();
 
 
@@ -23,15 +24,11 @@ export const EncounterStackNavigator = () => {
           headerRight: () => <IconButton icon="dice-d20" />
         }} />
       <Stack.Screen name="Details"
-        component={EnemyDetails} />
-      <Stack.Screen name="MonsterDetails" component={EnemyDetails}
-        initialParams={{ mode: 'encounter' }}
-        options={{
-          title: "Details",
-          headerRight: () => <>
-            <IconButton icon="check" />
-          </>,
-        }} />
+        component={CompendiumItemDetails}
+        initialParams={{ category: "monster" }} />
+      <Stack.Screen name="ConditionDetails"
+        component={CompendiumItemDetails}
+        initialParams={{category:"glossary"}}/>
       <Stack.Screen
         name="AddCardCustom"
         component={AddEntity}
