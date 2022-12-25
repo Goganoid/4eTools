@@ -14,6 +14,7 @@ import { EncounterContext } from '../../Navigators/MainDrawer';
 // import { EncounterContext } from '../Navigators/EncounterStackNavigator';
 import { sortByInitiative } from '../../helpers/sortByInitiative';
 import { createEnemy } from '../../helpers/entities';
+import MenuDrawer from '../shared/MenuDrawer';
 export const Encounter = ({ navigation, route, groupView = false }) => {
     const theme = useTheme();
     const [loading, setLoading] = useState(true);
@@ -68,12 +69,13 @@ export const Encounter = ({ navigation, route, groupView = false }) => {
             });
         }
         else {
-            if (context.entities.length-1 < turn) setTurn(context.entities.length - 1);
+            if (context.entities.length == 0) setTurn(0);
+            else if (context.entities.length-1 < turn) setTurn(context.entities.length - 1);
         }
     }, [context.entities])
     React.useEffect(() => {
         navigation.setOptions({
-            headerLeft: () => <IconButton icon="menu" style={{ padding: 0, margin: 0 }} onPress={() => navigation.openDrawer()} />,
+            headerLeft: () => MenuDrawer(navigation),
             headerRight: () => (
                 <>
                     <IconButton icon="dice-d20"

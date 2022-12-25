@@ -79,7 +79,7 @@ export const GroupStackNavigator = ({ navigation, route }) => {
                     component={AddEntity}
                     initialParams={{ mode: 'group' }}
                     options={{
-                        title: 'Add Entity',
+                        title: 'Add Hero',
                         headerRight: () => <>
                             <IconButton icon="content-save" />
                             <IconButton icon="check" />

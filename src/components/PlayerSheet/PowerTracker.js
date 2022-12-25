@@ -1,15 +1,78 @@
-import { useState, useContext,useEffect } from 'react';
+import { useState, useContext, useEffect } from 'react';
 import { StyleSheet } from 'react-native';
 import { useTheme, withTheme } from 'react-native-paper';
 import { View, ScrollView, TouchableOpacity } from 'react-native';
-import { TextInput, Text, List, DataTable, Badge, Divider, IconButton, Checkbox } from 'react-native-paper';
+import { TextInput, Text, List, DataTable, Badge, IconButton, Checkbox, Divider,Portal } from 'react-native-paper';
 import { CustomThemeProvider } from '../ThemeProvider';
 import { PowerTrackerControls } from './PowerTrackerControls';
 import { PowerTrackerContext } from '../../Navigators/PowerTrackerStack';
 import { getSavedTracker } from '../../data/storage';
-
+import MenuDrawer from '../shared/MenuDrawer';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { StatEditor } from '../shared/StatEditor';
 const arraySort = require('array-sort');
 
+
+const setFormatedStatValue = (value, maxValue, minValue, setValue) => {
+    console.log(`${value}:${typeof value}, ${maxValue}:${typeof maxValue} ${value>maxValue}`);
+    if (value > maxValue) return;
+    else if (value < minValue) return;
+    else setValue(value);
+}
+
+const PlayerStat = ({ name, setValue, value, maxValue, allowNegative = true, setEditorVisible }) => {
+
+    const minValue = allowNegative ? -99 : 0
+    const [text, setText] = useState(value.toString());
+
+    useEffect(() => {
+        setText(typeof (value) === 'number' ? value.toString() : value);
+    }, [value]);
+
+    return <View style={styles.player_stat}>
+        <TouchableOpacity onPress={()=>setEditorVisible(true)}>
+            <View style={{ flexDirection: "row", alignItems: "center" }}>
+                <Text>{name}</Text>
+                <Icon name='pencil' style={styles.icon} />
+            </View>
+        </TouchableOpacity>
+        <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center" }} >
+            <IconButton icon='minus' style={styles.icon}
+                onPress={() => {
+                    const newValue = value - 1;
+                    if (newValue > maxValue || (!allowNegative && newValue < 0)) return;
+                    setValue(newValue);
+                }} />
+            <TextInput mode='outlined'
+                style={styles.statInput}
+                onChangeText={newText => {
+                    let newValue = newText.replace(/[,\.\s]/g, "");
+                    let parsedNewValue = parseInt(newValue)
+                    if (!isNaN(parsedNewValue)) {
+                        if (parsedNewValue <= maxValue && parsedNewValue > minValue) {
+                            setText(parsedNewValue.toString());
+                        }
+                    }
+                    else {
+                        setText(newValue);
+                    }
+                }}
+                onSubmitEditing={() => {
+                    let parsedNewValue = parseInt(text) || 0;
+                    setFormatedStatValue(parsedNewValue, maxValue, minValue, setValue);
+                }}
+                value={text}
+                keyboardType='number-pad' />
+            <IconButton icon='plus' style={styles.icon}
+                onPress={() => {
+                    const newValue = value + 1;
+                    if (newValue > maxValue || (!allowNegative && newValue < 0)) return;
+                    setValue(newValue)
+                }}
+            />
+        </View>
+    </View>
+}
 const PowerTracker = ({ navigation, route }) => {
     const context = useContext(PowerTrackerContext);
     const theme = useTheme();
@@ -17,9 +80,13 @@ const PowerTracker = ({ navigation, route }) => {
     const [state, setState] = useState({ open: false });
     const onStateChange = ({ open }) => setState({ open });
     const { open } = state;
+
+    const [maxHpEditorVisible, setMaxHpEditorVisible] = useState(false)
+    const [maxSurgesEditorVisible, setMaxSurgesEditorVisible] = useState(false);
+
     useEffect(() => {
         navigation.setOptions({
-            headerLeft: () => <IconButton icon="menu" style={{ padding: 0, margin: 0 }} onPress={() => navigation.openDrawer()} />,
+            headerLeft: () => MenuDrawer(navigation),
         });
     }, [navigation]);
 
@@ -76,9 +143,26 @@ const PowerTracker = ({ navigation, route }) => {
         </View>
     )
 
+   
+
     return (
         <CustomThemeProvider>
+
             <ScrollView style={{ backgroundColor: theme.colors.background }}>
+                <View style={styles.player_stats}>
+                    <PlayerStat name='HP'
+                        value={context.hp}
+                        setValue={value => context.setHp(value)}
+                        maxValue={context.maxHp}
+                        setMaxValue={value => context.setMaxValue(value)}
+                        setEditorVisible={setMaxHpEditorVisible} />
+                     <PlayerStat name='Surges'
+                        value={context.surges}
+                        setValue={value => context.setSurges(value)}
+                        maxValue={context.maxSurges}
+                        setMaxValue={value => context.setMaxSurges(value)}
+                        setEditorVisible={setMaxSurgesEditorVisible} />
+                </View>
                 {sections.map(({ label, filterCriteria }, index) =>
                 (
                     <List.Accordion title={label} key={label} >
@@ -88,17 +172,48 @@ const PowerTracker = ({ navigation, route }) => {
                     </List.Accordion>
                 ))}
             </ScrollView>
-            {<PowerTrackerControls
-                open={open}
-                navigation={navigation}
-                onStateChange={onStateChange}
+                {<PowerTrackerControls
+                    open={open}
+                    navigation={navigation}
+                    onStateChange={onStateChange}
             />}
+            <Portal>
+                <StatEditor
+                    isDialogVisible={maxHpEditorVisible}
+                    setIsDialogVisible={setMaxHpEditorVisible}
+                    setValue={(value) => context.setMaxHp(value)}
+                    statName={"Max HP"}
+                    value={context.maxHp.toString()} />
+                <StatEditor
+                    isDialogVisible={maxSurgesEditorVisible}
+                    setIsDialogVisible={setMaxSurgesEditorVisible}
+                    setValue={(value) => context.setMaxSurges(value)}
+                    statName={"Max Surges"}
+                    value={context.maxSurges.toString()}/>
+            </Portal>
         </CustomThemeProvider>
 
     )
 }
 
 const styles = StyleSheet.create({
+    player_stats: {
+        flexDirection: "row",
+        justifyContent: "space-around",
+        flexWrap: "wrap",
+        paddingVertical: 20,
+    },
+    player_stat: {
+        flexBasis: "50%",
+        alignItems: "center"
+    },
+    statInput: {
+        height: 50,
+        textAlign:"center",
+        marginBottom: 3,
+        marginTop: 3,
+        color: "black"
+    },
     stat: {
         flexBasis: "50%",
         paddingVertical: 3,
@@ -137,7 +252,8 @@ const styles = StyleSheet.create({
         width: "70%"
     },
     icon: {
-        padding: 0, margin: 0
+        padding: 0, margin: 0,
+        color: "#000"
     },
 })
 

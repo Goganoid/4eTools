@@ -8,7 +8,6 @@ import {
     useTheme
 } from 'react-native-paper';
 import { v4 as uuid } from 'uuid';
-import { getSavedEntities, saveEntity, updateEntity } from '../../data/storage';
 import { createCustomPower, createEntity } from '../../helpers/entities';
 
 import { GroupContext } from '../../Navigators/GroupStackNavigator';
@@ -178,7 +177,7 @@ export const AddCustomPower = ({ navigation, route }) => {
                     />
                 </View>
             </View>
-            <FlashMessage position={'bottom'} />
+            {/* <FlashMessage position={'bottom'} /> */}
         </CustomThemeProvider>
     );
 };

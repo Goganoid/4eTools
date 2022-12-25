@@ -8,6 +8,20 @@ const encounter_key = "encounter";
 const saved_groups_key = "saved_groups";
 const tracker_key = "tracker";
 
+
+
+export const setSavedEntities = async (entities, isHero = false) => {
+    const key = isHero ? stored_heroes_key : stored_entities_key
+    try {
+        await AsyncStorage.setItem(key, JSON.stringify(entities));
+    }
+    catch (e) {
+        Alert.alert("Error in setSavedEntities");
+        console.log(e);
+    }
+}
+
+
 export const saveEntity = async (entity, isHero = false) => {
     const key = isHero ? stored_heroes_key : stored_entities_key
     try {
@@ -29,6 +43,26 @@ export const saveEntity = async (entity, isHero = false) => {
         Alert.alert(e)
     }
 }
+
+export const removeEntity = async (entity, isHero = false) => {
+    const key = isHero ? stored_heroes_key : stored_entities_key
+    try {
+        const stored_entities = await AsyncStorage.getItem(key);
+        console.log("Stringified entity", entity_string)
+        if (stored_entities == null) {
+            console.log("Nothing to remove");
+        }
+        else {
+            let newEntities = JSON.parse(stored_entities);
+            delete newEntities[entity.uuid];
+            await AsyncStorage.setItem(key, JSON.stringify(newEntities));
+        }
+    }
+    catch (e) {
+        Alert.alert(e)
+    }
+}
+
 export const updateEntity = async (entity, isHero = false) => {
     const key = isHero ? stored_heroes_key : stored_entities_key
     try {

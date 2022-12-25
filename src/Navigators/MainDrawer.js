@@ -66,7 +66,8 @@ export default function MainDrawer() {
       <EncounterContext.Provider value={{ ...encounter, ...encounterContextSetters }} >
         <NavigationContainer>
           <Drawer.Navigator initialRouteName="EncounterStack" screenOptions={{
-            drawerActiveBackgroundColor: theme.colors.primaryContainer
+            drawerActiveBackgroundColor: theme.colors.primaryContainer,
+            headerMode:"float",
           }}>
             <Drawer.Screen name="EncounterStack" component={EncounterStackNavigator}
               options={({ route }) => {
@@ -75,6 +76,9 @@ export default function MainDrawer() {
                 return {
                   title: "Encounter",
                   headerShown: false,
+                  headerStyle: {
+                    height: 1,
+                  },
                   swipeEnabled: isOnMainScreen(route, 'Encounter')
                 }
               }}

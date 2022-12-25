@@ -88,7 +88,7 @@ export const EnemyDetails = ({ route, navigation }) => {
                     tagsStyles={tagsStyles}
                 />
             </ScrollView>
-            <FlashMessage position={"bottom"} />
+            {/* <FlashMessage position={"bottom"} /> */}
         </CustomThemeProvider>
     )
 }

@@ -12,23 +12,26 @@ import { AddCustomPower } from '../components/PlayerSheet/AddCustomPower';
 import { CompendiumItemDetails } from '../components/Compendium/CompendiumItemDetails';
 import { CustomPowerDetails } from '../components/PlayerSheet/CustomPowerDetails';
 import { savePowerTracker } from '../data/storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 const Stack = createNativeStackNavigator();
 
 export const PowerTrackerContext = React.createContext(null);
 
 export const PowerTrackerStack = () => {
-
     const initialContextState = {
         attacks: [],
         damageTypes: [],
         powers: [],
+        surges: 0,
+        maxSurges:6,
+        hp: 0,
+        maxHp: 30,
     }
 
     const [tracker, setTracker] = React.useState(initialContextState);
     const setTrackerAndSave = (newTrackerState) => {
         console.log("Setting tracker and saving ")
         savePowerTracker(newTrackerState);
-        // saveCurrentEncounter(newTrackerState);
         setTracker(newTrackerState);
     }
 
@@ -49,7 +52,12 @@ export const PowerTrackerStack = () => {
     }
 
     const setPowers = (powers) => setTrackerAndSave({ ...tracker, powers });
-    const addPower = (power) => add('powers', power);
+    const addPower = (power) => {
+        if (power.power_id) {
+            if (tracker.powers.find(otherPower => otherPower.power_id == power.power_id)) return;
+        }
+        add('powers', power)
+    };
     const removePower = (power) => remove('powers', power);
     const setAttacks = (attacks) => setTrackerAndSave({ ...tracker, attacks });
     const addAttack = (attack) => add('attacks', attack);
@@ -66,6 +74,10 @@ export const PowerTrackerStack = () => {
             return p;
         })
     })
+    const setHp = (hp) => setTrackerAndSave({ ...tracker, hp });
+    const setMaxHp = (maxHp) => setTrackerAndSave({ ...tracker, maxHp });
+    const setSurges = (surges) => setTrackerAndSave({ ...tracker, surges });
+    const setMaxSurges = (maxSurges) => setTrackerAndSave({ ...tracker, maxSurges });
     const trackerContextSetters = {
         setTracker,
         setPowers,
@@ -77,23 +89,37 @@ export const PowerTrackerStack = () => {
         addAttack,
         removeAttack,
         addDamageType,
-        removeDamageType
+        removeDamageType,
+        setHp,
+        setMaxHp,
+        setSurges,
+        setMaxSurges,
     }
 
     return (
         <PowerTrackerContext.Provider value={{ ...tracker, ...trackerContextSetters }} >
-            <Stack.Navigator initialRouteName="PowerTracker">
+            <Stack.Navigator initialRouteName="PowerTracker" screenOptions={{
+                gestureEnabled: false,
+                animationEnabled: false,
+            }}>
                 <Stack.Screen
                     name="PowerTracker" component={PowerTracker}
                     options={{
-                        headerLeft: () => <IconButton icon="menu" style={{ padding: 0, margin: 0 }} />,
+                        title:"Power Tracker"
                     }} />
                 <Stack.Screen
                     name="PowerDetails" component={CompendiumItemDetails}
-                    initialParams={{category:"power"}}
+                    initialParams={{ category: "power" }}
+                    options={{
+                        title:"Power Details"
+                    }}
                 />
                 <Stack.Screen
-                    name="CustomPowerDetails" component={CustomPowerDetails}
+                    name="CustomPowerDetails"
+                    component={CustomPowerDetails}
+                    options={{
+                        title:"Power Details"
+                    }}
                 />
                 <Stack.Screen
                     name="AddCustomPower"

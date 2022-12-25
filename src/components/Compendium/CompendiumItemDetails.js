@@ -14,7 +14,7 @@ const headStyle = {
     fontSize: 20,
     padding: 0,
     // lineHeight: 30,
-    backgroundColor: "#BBF"
+    // backgroundColor: "#BBF"
 };
 
 const classesStyles = {
@@ -22,18 +22,6 @@ const classesStyles = {
     thHead: { ...headStyle },
     player: { ...headStyle },
     trap: headStyle,
-    encounterpower: {
-        backgroundColor: "#F44"
-    },
-    atwillpower: {
-        backgroundColor: "#4F4"
-    },
-    flavor: {
-        backgroundColor: "#CCC"
-    },
-    dailypower: {
-        backgroundColor: "#888"
-    },
     milevel: {
         fontSize: 14,
     },
@@ -139,6 +127,7 @@ export const CompendiumItemDetails = ({ route, navigation }) => {
     const source = {
         html: details[id]
     }
+    console.log(source);
     const customHTMLElementModels = {
         span: defaultHTMLElementModels.span.extend({
             contentModel: HTMLContentModel.block,
@@ -190,7 +179,7 @@ export const CompendiumItemDetails = ({ route, navigation }) => {
                     customHTMLElementModels={customHTMLElementModels}
                 />
             </ScrollView>
-            <FlashMessage position={"bottom"} />
+            {/* <FlashMessage position={"bottom"} /> */}
         </CustomThemeProvider>
     )
 }

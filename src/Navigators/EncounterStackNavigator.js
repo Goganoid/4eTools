@@ -20,7 +20,6 @@ export const EncounterStackNavigator = () => {
       <Stack.Screen
         name="Encounter" component={Encounter}
         options={{
-          headerLeft: () => <IconButton icon="menu" style={{ padding: 0, margin: 0 }} />,
           headerRight: () => <IconButton icon="dice-d20" />
         }} />
       <Stack.Screen name="Details"
@@ -28,7 +27,10 @@ export const EncounterStackNavigator = () => {
         initialParams={{ category: "monster" }} />
       <Stack.Screen name="ConditionDetails"
         component={CompendiumItemDetails}
-        initialParams={{category:"glossary"}}/>
+        initialParams={{ category: "glossary" }}
+        options={{
+          title: "Condition",
+        }} />
       <Stack.Screen
         name="AddCardCustom"
         component={AddEntity}
@@ -45,7 +47,7 @@ export const EncounterStackNavigator = () => {
         component={AddEntity}
         initialParams={{ mode: 'encounter' }}
         options={{
-          title: 'Add Entity',
+          title: 'Add Hero',
           headerRight: () => <>
             <IconButton icon="content-save" />
             <IconButton icon="check" />

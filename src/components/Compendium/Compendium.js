@@ -1,9 +1,17 @@
 import React from 'react'
 import { ScrollView } from 'react-native'
 import { List } from 'react-native-paper'
-export const Compendium = ({navigation}) => {
-    return (
+import MenuDrawer from '../shared/MenuDrawer'
+export const Compendium = ({ navigation }) => {
+    
 
+    React.useEffect(() => {
+        navigation.setOptions({
+            headerLeft: ()=>MenuDrawer(navigation),
+        });
+    }, [navigation]);
+
+    return (
         <ScrollView>
             <List.Item
                 title="Bestiary"

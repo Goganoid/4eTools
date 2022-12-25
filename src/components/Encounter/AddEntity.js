@@ -8,7 +8,7 @@ import {
     useTheme
 } from 'react-native-paper';
 import { v4 as uuid } from 'uuid';
-import { getSavedEntities, saveEntity, updateEntity } from '../../data/storage';
+import { getSavedEntities, saveEntity, updateEntity,removeEntity,setSavedEntities } from '../../data/storage';
 import { createEntity } from '../../helpers/entities';
 import { EncounterContext } from '../../Navigators/MainDrawer';
 import { GroupContext } from '../../Navigators/GroupStackNavigator';
@@ -93,14 +93,16 @@ export const AddEntity = ({ navigation, route }) => {
         });
     };
     const save = async () => {
+        if (stored_entities == null) return;
         const values = getFieldValues();
         if (!validateName(values.name)) return;
         let entity = createEntity(
             values.entity_type,
             values.name,
             values.stats,
-            (custom_id = id),
+            custom_id = id,
         );
+        setSavedEntities
         let ents = await getSavedEntities();
         console.log('Saving entity with id', id);
         if (ents[id] != undefined) {
@@ -116,12 +118,19 @@ export const AddEntity = ({ navigation, route }) => {
         await updateDisplayedStoredEntities();
         setId(uuid());
     };
+    const removeSavedEntityHook = (entity) => {
+        let newEntities = { ...stored_entities };
+        delete newEntities[entity.uuid]
+        setStored_entities(newEntities);
+        setSavedEntities(newEntities,isHeroTab);
+    }
 
-  
+    const [stored_entities, setStored_entities] = useState(null);
+
     const updateDisplayedStoredEntities = async () =>
         setStored_entities(await getSavedEntities(isHeroTab));
 
-    const [stored_entities, setStored_entities] = useState({});
+    
     useEffect(() => {
         updateDisplayedStoredEntities();
     }, []);
@@ -136,6 +145,7 @@ export const AddEntity = ({ navigation, route }) => {
                     setType,
                     setId,
                     setStats,
+                    removeSavedEntityHook
                 )}
                 <View style={styles.add_entity_view}>
                     <Text variant="titleLarge">{isHeroTab ? 'Hero' : 'Entity'}</Text>
@@ -175,7 +185,7 @@ export const AddEntity = ({ navigation, route }) => {
                     {InputStats(stats, setStats)}
                 </View>
             </ScrollView>
-            <FlashMessage position={'bottom'} />
+            {/* <FlashMessage position={'bottom'} /> */}
         </CustomThemeProvider>
     );
 };
