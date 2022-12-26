@@ -4,7 +4,7 @@ import { IconButton, Text, ActivityIndicator, Button, TouchableRipple, Surface }
 import { EntityCard } from './EntityCard';
 import { roll20 } from "../../helpers/roll20";
 import { getCurrentEncounter, saveCurrentEncounter } from '../../data/storage';
-import { CustomThemeProvider } from '../ThemeProvider';
+import { CustomThemeProvider } from '../shared/ThemeProvider';
 import { EncounterControls } from './EncounterControls';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { useTheme } from 'react-native-paper';

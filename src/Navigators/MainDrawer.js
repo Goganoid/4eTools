@@ -7,7 +7,7 @@ import { StyleSheet, useWindowDimensions } from 'react-native';
 import 'react-native-gesture-handler';
 import 'react-native-get-random-values';
 import { useTheme } from 'react-native-paper';
-import { CustomThemeProvider } from '../components/ThemeProvider';
+import { CustomThemeProvider } from '../components/shared/ThemeProvider';
 import { saveCurrentEncounter } from '../data/storage';
 import { isOnMainScreen } from '../helpers/isOnMainScreen';
 import { sortByInitiative } from '../helpers/sortByInitiative';

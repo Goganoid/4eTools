@@ -9,7 +9,7 @@ import { EncounterContext } from '../../Navigators/MainDrawer';
 import { createEnemy, createPower } from '../../helpers/entities';
 import { GroupContext } from '../../Navigators/GroupStackNavigator';
 import { PowerTrackerContext } from '../../Navigators/PowerTrackerStack';
-import { CustomThemeProvider } from '../ThemeProvider';
+import { CustomThemeProvider } from '../shared/ThemeProvider';
 const headStyle = {
     fontSize: 20,
     padding: 0,

@@ -4,7 +4,7 @@ import { IconButton, TextInput, useTheme } from 'react-native-paper';
 import { GroupsContext } from '../../Navigators/GroupsStackNavigator';
 import { EncounterControls } from '../Encounter/EncounterControls';
 import { EntityCard } from '../Encounter/EntityCard';
-import { CustomThemeProvider } from '../ThemeProvider';
+import { CustomThemeProvider } from '../shared/ThemeProvider';
 export const Group = ({ navigation, route }) => {
     const groupId = route?.params.groupId;
     console.log("Group Id ", groupId)
@@ -81,7 +81,7 @@ export const Group = ({ navigation, route }) => {
     return (
         <CustomThemeProvider>
             <TextInput label='Name' value={encounter.name} onChangeText={setEncounterName} />
-            <ScrollView contentContainerStyle={{ paddingBottom: 100 }}>
+            <ScrollView contentContainerStyle={{ paddingBottom: 100 }} style={{backgroundColor:theme.colors.background}}>
                 {encounter.entities.map((entity, index) =>
                     <EntityCard
                         navigation={navigation}

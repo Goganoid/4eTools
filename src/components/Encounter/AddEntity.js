@@ -12,7 +12,7 @@ import { getSavedEntities, saveEntity, updateEntity,removeEntity,setSavedEntitie
 import { createEntity } from '../../helpers/entities';
 import { EncounterContext } from '../../Navigators/MainDrawer';
 import { GroupContext } from '../../Navigators/GroupStackNavigator';
-import { CustomThemeProvider } from '../ThemeProvider';
+import { CustomThemeProvider } from '../shared/ThemeProvider';
 import { InputStat, InputStats } from './InputStats';
 import { SavedEntitiesTab } from './SavedEntitiesTab';
 export const AddEntity = ({ navigation, route }) => {
@@ -185,29 +185,7 @@ export const AddEntity = ({ navigation, route }) => {
                     {InputStats(stats, setStats)}
                 </View>
             </ScrollView>
-            {/* <FlashMessage position={'bottom'} /> */}
         </CustomThemeProvider>
     );
 };
 
-export const styles = StyleSheet.create({
-    radio_item: {
-        flexDirection: 'row',
-        alignItems: 'center',
-    },
-    add_entity_view: {
-        padding: 15,
-    },
-    stats: {
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        justifyContent: 'center',
-    },
-    stat_input: {
-        flexGrow: 0,
-        flexShrink: 0,
-        marginHorizontal: '2.5%',
-        marginVertical: 10,
-        flexBasis: '30%',
-    },
-});

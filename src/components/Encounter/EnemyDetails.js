@@ -7,7 +7,7 @@ import { monsters_details } from '../../data/monsters';
 import { createEnemy } from '../../helpers/entities';
 import { EncounterContext } from '../../Navigators/MainDrawer';
 import { GroupContext } from '../../Navigators/GroupStackNavigator';
-import { CustomThemeProvider } from '../ThemeProvider';
+import { CustomThemeProvider } from '../shared/ThemeProvider';
 const classesStyles = {
     monster: {
         fontSize: 20,

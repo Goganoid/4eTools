@@ -75,7 +75,12 @@ export const EntityCard = ({ navigation, route, entity, setStat, setConditions,
         <View style={{ ...styles.background }}>
           <View style={styles.entity_card_left_side}>
             <View>
-              <Image source={entity.type == "enemy" ? require("../../../img/enemy.png") : require("../../../img/hero.png")} style={styles.entity_icon} />
+              <Icon
+                size={30}
+                name={entity.type == "enemy" ? 'emoticon-devil-outline' : 'emoticon-outline'}
+                color={theme.colors.text}
+                style={styles.entity_icon} />
+              {/* <Image source={entity.type == "enemy" ? require("../../../img/enemy.png") : require("../../../img/hero.png")} style={styles.entity_icon} /> */}
             </View>
             {showInitiative
               ? (
@@ -231,8 +236,8 @@ const styles = StyleSheet.create({
     padding: 0, margin: 0
   },
   entity_icon: {
-    width: 30,
-    height: 30,
+    // width: 30,
+    // height: 30,
     marginBottom: 15,
   },
   def_stats: {

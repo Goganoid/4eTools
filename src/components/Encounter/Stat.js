@@ -5,8 +5,9 @@ import {
 } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { StatEditor } from '../shared/StatEditor';
-
+import { useTheme } from 'react-native-paper';
 export const Stat = ({ statName, statValue, maxValue = 2000, onChange, minimalistic = false, style }) => {
+    const theme = useTheme();
     const [isDialogVisible, setIsDialogVisible] = useState(false);
     const [newStatValue, setNewStatValueRaw] = useState('');
     useEffect(() => {
@@ -25,7 +26,7 @@ export const Stat = ({ statName, statValue, maxValue = 2000, onChange, minimalis
             <View style={{ ...styles.def_stat, ...style }} >
                 {minimalistic ? null : <Text style={styles.bold_text} >{statName}:</Text>}
                 <Text onPress={() => setIsDialogVisible(true)}>{statValue}</Text>
-                <Icon name="pencil" size={12} color="black" style={{ paddingTop: 2.5, paddingLeft: 2.5 }} onPress={() => setIsDialogVisible(true)} />
+                <Icon name="pencil" size={12} color={theme.colors.text} style={{ paddingTop: 2.5, paddingLeft: 2.5 }} onPress={() => setIsDialogVisible(true)} />
             </View>
             <Portal>
                 {StatEditor({ isDialogVisible, setIsDialogVisible, statName, value:newStatValue, setValue:setNewStatValue, onChange })}

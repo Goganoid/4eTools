@@ -11,7 +11,7 @@ import { v4 as uuid } from 'uuid';
 import { createCustomPower, createEntity } from '../../helpers/entities';
 
 import { GroupContext } from '../../Navigators/GroupStackNavigator';
-import { CustomThemeProvider } from '../ThemeProvider';
+import { CustomThemeProvider } from '../shared/ThemeProvider';
 import { InputStat, InputStats } from './InputStats';
 import { SavedPowerTab } from './SavedPowerTab';
 import { PowerTrackerContext } from '../../Navigators/PowerTrackerStack';

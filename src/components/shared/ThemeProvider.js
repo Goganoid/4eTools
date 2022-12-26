@@ -1,53 +1,11 @@
 import React from 'react'
 import { Provider } from 'react-native-paper';
 import { MD3LightTheme as DefaultTheme } from 'react-native-paper';
-const theme = {
+const lightTheme = {
   ...DefaultTheme,
   mode: 'adaptive',
-  // colors: {
-  //     "primary": "rgb(192, 1, 0)",
-  //     "onPrimary": "rgb(255, 255, 255)",
-  //     "primaryContainer": "rgb(255, 218, 212)",
-  //     "onPrimaryContainer": "rgb(65, 0, 0)",
-  //     "secondary": "rgb(119, 86, 81)",
-  //     "onSecondary": "rgb(255, 255, 255)",
-  //     "secondaryContainer": "rgb(255, 218, 212)",
-  //     "onSecondaryContainer": "rgb(44, 21, 18)",
-  //     "tertiary": "rgb(112, 92, 46)",
-  //     "onTertiary": "rgb(255, 255, 255)",
-  //     "tertiaryContainer": "rgb(251, 223, 166)",
-  //     "onTertiaryContainer": "rgb(37, 26, 0)",
-  //     "error": "rgb(186, 26, 26)",
-  //     "onError": "rgb(255, 255, 255)",
-  //     "errorContainer": "rgb(255, 218, 214)",
-  //     "onErrorContainer": "rgb(65, 0, 2)",
-  //     "background": "rgb(255, 251, 255)",
-  //     "onBackground": "rgb(32, 26, 25)",
-  //     "surface": "rgb(255, 251, 255)",
-  //     "onSurface": "rgb(32, 26, 25)",
-  //     "surfaceVariant": "rgb(245, 221, 218)",
-  //     "onSurfaceVariant": "rgb(83, 67, 65)",
-  //     "outline": "rgb(133, 115, 112)",
-  //     "outlineVariant": "rgb(216, 194, 190)",
-  //     "shadow": "rgb(0, 0, 0)",
-  //     "scrim": "rgb(0, 0, 0)",
-  //     "inverseSurface": "rgb(54, 47, 46)",
-  //     "inverseOnSurface": "rgb(251, 238, 236)",
-  //     "inversePrimary": "rgb(255, 180, 168)",
-  //     "elevation": {
-  //       "level0": "transparent",
-  //       "level1": "rgb(252, 239, 242)",
-  //       "level2": "rgb(250, 231, 235)",
-  //       "level3": "rgb(248, 224, 227)",
-  //       "level4": "rgb(247, 221, 224)",
-  //       "level5": "rgb(246, 216, 219)"
-  //     },
-  //     "surfaceDisabled": "rgba(32, 26, 25, 0.12)",
-  //     "onSurfaceDisabled": "rgba(32, 26, 25, 0.38)",
-  //     "backdrop": "rgba(59, 45, 43, 0.4)"
-  //   }
-  // }
   colors: {
+    "text":"#000",
     "primary": "rgb(158, 42, 155)",
     "onPrimary": "rgb(255, 255, 255)",
     "primaryContainer": "rgb(255, 215, 245)",
@@ -90,9 +48,58 @@ const theme = {
     "backdrop": "rgba(55, 46, 52, 0.4)"
   }
 }
+const darkTheme = {
+  ...DefaultTheme,
+  mode: 'adaptive',
+  colors: {
+    "text":"#fff",
+    "primary": "rgb(255, 170, 243)",
+    "onPrimary": "rgb(91, 0, 91)",
+    "primaryContainer": "rgb(129, 1, 129)",
+    "onPrimaryContainer": "rgb(255, 215, 245)",
+    "secondary": "rgb(218, 191, 210)",
+    "onSecondary": "rgb(61, 43, 58)",
+    "secondaryContainer": "rgb(85, 65, 81)",
+    "onSecondaryContainer": "rgb(247, 218, 239)",
+    "tertiary": "rgb(245, 184, 167)",
+    "onTertiary": "rgb(76, 38, 27)",
+    "tertiaryContainer": "rgb(102, 60, 47)",
+    "onTertiaryContainer": "rgb(255, 219, 209)",
+    "error": "rgb(255, 180, 171)",
+    "onError": "rgb(105, 0, 5)",
+    "errorContainer": "rgb(147, 0, 10)",
+    "onErrorContainer": "rgb(255, 180, 171)",
+    "background": "rgb(30, 26, 29)",
+    "onBackground": "rgb(233, 224, 228)",
+    "surface": "rgb(30, 26, 29)",
+    "onSurface": "rgb(233, 224, 228)",
+    "surfaceVariant": "rgb(78, 68, 75)",
+    "onSurfaceVariant": "rgb(209, 194, 203)",
+    "outline": "rgb(154, 141, 149)",
+    "outlineVariant": "rgb(78, 68, 75)",
+    "shadow": "rgb(0, 0, 0)",
+    "scrim": "rgb(0, 0, 0)",
+    "inverseSurface": "rgb(233, 224, 228)",
+    "inverseOnSurface": "rgb(52, 47, 50)",
+    "inversePrimary": "rgb(158, 42, 155)",
+    "elevation": {
+      "level0": "transparent",
+      "level1": "rgb(41, 33, 40)",
+      "level2": "rgb(48, 38, 46)",
+      "level3": "rgb(55, 42, 53)",
+      "level4": "rgb(57, 43, 55)",
+      "level5": "rgb(62, 46, 59)"
+    },
+    "surfaceDisabled": "rgba(233, 224, 228, 0.12)",
+    "onSurfaceDisabled": "rgba(233, 224, 228, 0.38)",
+    "backdrop": "rgba(55, 46, 52, 0.4)"
+  }
+}
+
+
   export const CustomThemeProvider = ({ children }) => {
     return (
-      <Provider theme={theme}>
+      <Provider theme={darkTheme}>
         {children}
       </Provider>
     )

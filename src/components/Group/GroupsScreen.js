@@ -7,7 +7,7 @@ import { getSavedGroups } from '../../data/storage';
 import { GroupsContext } from '../../Navigators/GroupsStackNavigator';
 import { EncounterContext } from '../../Navigators/MainDrawer';
 import MenuDrawer from '../shared/MenuDrawer';
-import { CustomThemeProvider } from '../ThemeProvider';
+import { CustomThemeProvider } from '../shared/ThemeProvider';
 import limitLength from '../../helpers/limitLength';
 export const GroupsScreen = ({ navigation, route }) => {
     const theme = useTheme();
@@ -51,7 +51,7 @@ export const GroupsScreen = ({ navigation, route }) => {
     
     return (
         <CustomThemeProvider>
-            <ScrollView>
+            <ScrollView style={{backgroundColor:theme.colors.background}}>
                 <View style={styles.groups_table}>
                     {context.groups.map((group, index) => {
                         return (

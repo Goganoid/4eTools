@@ -2,8 +2,8 @@ import { useState, useContext, useEffect } from 'react';
 import { StyleSheet } from 'react-native';
 import { useTheme, withTheme } from 'react-native-paper';
 import { View, ScrollView, TouchableOpacity } from 'react-native';
-import { TextInput, Text, List, DataTable, Badge, IconButton, Checkbox, Divider,Portal } from 'react-native-paper';
-import { CustomThemeProvider } from '../ThemeProvider';
+import { TextInput, Text, List, DataTable, Badge, IconButton, Checkbox, Divider, Portal } from 'react-native-paper';
+import { CustomThemeProvider } from '../shared/ThemeProvider';
 import { PowerTrackerControls } from './PowerTrackerControls';
 import { PowerTrackerContext } from '../../Navigators/PowerTrackerStack';
 import { getSavedTracker } from '../../data/storage';
@@ -14,7 +14,7 @@ const arraySort = require('array-sort');
 
 
 const setFormatedStatValue = (value, maxValue, minValue, setValue) => {
-    console.log(`${value}:${typeof value}, ${maxValue}:${typeof maxValue} ${value>maxValue}`);
+    console.log(`${value}:${typeof value}, ${maxValue}:${typeof maxValue} ${value > maxValue}`);
     if (value > maxValue) return;
     else if (value < minValue) return;
     else setValue(value);
@@ -30,12 +30,9 @@ const PlayerStat = ({ name, setValue, value, maxValue, allowNegative = true, set
     }, [value]);
 
     return <View style={styles.player_stat}>
-        <TouchableOpacity onPress={()=>setEditorVisible(true)}>
-            <View style={{ flexDirection: "row", alignItems: "center" }}>
-                <Text>{name}</Text>
-                <Icon name='pencil' style={styles.icon} />
-            </View>
-        </TouchableOpacity>
+        <View >
+            <Text>{name}</Text>
+        </View>
         <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center" }} >
             <IconButton icon='minus' style={styles.icon}
                 onPress={() => {
@@ -70,6 +67,9 @@ const PlayerStat = ({ name, setValue, value, maxValue, allowNegative = true, set
                     setValue(newValue)
                 }}
             />
+        </View>
+        <View>
+            <IconButton icon='pencil' style={styles.icon} onPress={() => setEditorVisible(true)}  size={14} />
         </View>
     </View>
 }
@@ -143,7 +143,7 @@ const PowerTracker = ({ navigation, route }) => {
         </View>
     )
 
-   
+
 
     return (
         <CustomThemeProvider>
@@ -156,7 +156,7 @@ const PowerTracker = ({ navigation, route }) => {
                         maxValue={context.maxHp}
                         setMaxValue={value => context.setMaxValue(value)}
                         setEditorVisible={setMaxHpEditorVisible} />
-                     <PlayerStat name='Surges'
+                    <PlayerStat name='Surges'
                         value={context.surges}
                         setValue={value => context.setSurges(value)}
                         maxValue={context.maxSurges}
@@ -172,10 +172,10 @@ const PowerTracker = ({ navigation, route }) => {
                     </List.Accordion>
                 ))}
             </ScrollView>
-                {<PowerTrackerControls
-                    open={open}
-                    navigation={navigation}
-                    onStateChange={onStateChange}
+            {<PowerTrackerControls
+                open={open}
+                navigation={navigation}
+                onStateChange={onStateChange}
             />}
             <Portal>
                 <StatEditor
@@ -189,7 +189,7 @@ const PowerTracker = ({ navigation, route }) => {
                     setIsDialogVisible={setMaxSurgesEditorVisible}
                     setValue={(value) => context.setMaxSurges(value)}
                     statName={"Max Surges"}
-                    value={context.maxSurges.toString()}/>
+                    value={context.maxSurges.toString()} />
             </Portal>
         </CustomThemeProvider>
 
@@ -209,8 +209,8 @@ const styles = StyleSheet.create({
     },
     statInput: {
         height: 50,
-        textAlign:"center",
-        marginBottom: 3,
+        textAlign: "center",
+        marginBottom: 0,
         marginTop: 3,
         color: "black"
     },
