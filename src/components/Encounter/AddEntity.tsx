@@ -15,10 +15,14 @@ import { GroupContext } from '../../Navigators/GroupStackNavigator';
 import { CustomThemeProvider } from '../shared/ThemeProvider';
 import { InputStat, InputStats } from './InputStats';
 import { SavedEntitiesTab } from './SavedEntitiesTab';
-export const AddEntity = ({ navigation, route }) => {
-    const mode = route?.params.mode ?? null;
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { EncounterStackParamList } from '../../Navigators/EncounterStackNavigator';
+export const AddEntity = ({ navigation, route }: NativeStackScreenProps<EncounterStackParamList, 'AddCardCustom'|'AddHero'>) => {
+    
+    const mode = route.params.mode;
     const context = mode == 'group' ? React.useContext(GroupContext) :
         mode == 'encounter' ? React.useContext(EncounterContext) : null;
+    
     const theme = useTheme();
     const { isHeroTab } = route.params;
     const [id, setId] = useState(uuid());
@@ -61,7 +65,7 @@ export const AddEntity = ({ navigation, route }) => {
         };
     };
 
-    const validateName = name => {
+    const validateName = (name:string) => {
         if (name.length == 0) {
             showMessage({
                 message: 'Name is required!',
@@ -189,3 +193,24 @@ export const AddEntity = ({ navigation, route }) => {
     );
 };
 
+export const styles = StyleSheet.create({
+    radio_item: {
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    add_entity_view: {
+        padding: 15,
+    },
+    stats: {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+    },
+    stat_input: {
+        flexGrow: 0,
+        flexShrink: 0,
+        marginHorizontal: '2.5%',
+        marginVertical: 10,
+        flexBasis: '30%',
+    },
+});

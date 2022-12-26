@@ -4,30 +4,45 @@ import React from 'react';
 import { IconButton } from 'react-native-paper';
 import { AddEntity } from '../components/Encounter/AddEntity';
 import { Encounter } from '../components/Encounter/Encounter';
-import { EnemyDetails } from '../components/Encounter/EnemyDetails';
 import { CompendiumListStack } from './CompendiumListStack';
 import { configMainScreenTitle } from '../helpers/configMainScreenTitle';
 import { CompendiumItemDetails } from '../components/Compendium/CompendiumItemDetails';
-const Stack = createNativeStackNavigator();
+import { CompendiumCategory, CompendiumCategoryMode } from './CompendiumStackNavigator';
 
 
+export enum AddCardMode{
+  group,
+  encounter
+}
+
+export type EncounterStackParamList = {
+  Encounter: undefined;
+  Details: { id: string, category: string };
+  ConditionDetails: { id: string, category: string };
+  AddCardCustom: { isHeroTab: boolean, mode: AddCardMode };
+  AddHero: { isHeroTab: boolean, mode: AddCardMode };
+  AddMonster:{category:CompendiumCategory, mode:CompendiumCategoryMode};
+};
+
+const Stack = createNativeStackNavigator<EncounterStackParamList>();
 
 export const EncounterStackNavigator = () => {
 
 
   return (
     <Stack.Navigator initialRouteName="Encounter">
-      <Stack.Screen
-        name="Encounter" component={Encounter}
+      <Stack.Screen name="Encounter" component={Encounter}
         options={{
           headerRight: () => <IconButton icon="dice-d20" />
         }} />
       <Stack.Screen name="Details"
+        // @ts-ignore
         component={CompendiumItemDetails}
-        initialParams={{ category: "monster" }} />
+        initialParams={{ category: CompendiumCategory.bestiary }} />
       <Stack.Screen name="ConditionDetails"
+         // @ts-ignore
         component={CompendiumItemDetails}
-        initialParams={{ category: "glossary" }}
+        initialParams={{ category: CompendiumCategory.glossary }}
         options={{
           title: "Condition",
         }} />
@@ -54,8 +69,9 @@ export const EncounterStackNavigator = () => {
           </>,
         }} />
       <Stack.Screen name="AddMonster"
+        // @ts-ignore
         component={CompendiumListStack}
-        initialParams={{ category: 'monster', mode:'encounter' }}
+        initialParams={{category:CompendiumCategory.bestiary,mode:CompendiumCategoryMode.encounter}}
         options={({ route }) => { return configMainScreenTitle(route, 'Add Monster') }} />
     </Stack.Navigator>
   )

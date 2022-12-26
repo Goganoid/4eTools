@@ -16,38 +16,81 @@ import { EncounterStackNavigator } from './EncounterStackNavigator';
 import { GroupsStackNavigator } from './GroupsStackNavigator';
 import { PowerTrackerStack } from './PowerTrackerStack';
 
-const Stack = createNativeStackNavigator();
-const Drawer = createDrawerNavigator();
 
-export const EncounterContext = React.createContext(null);
+
+
+
+
+enum EntityType{
+  Hero = "Hero",
+  Enemy = "Enemy"
+}
+
+export interface Entity{
+  uuid: string,
+  name: string,
+  type: EntityType,
+  stats: {
+    hp: number,
+    initiative: number,
+    ac: number,
+    fort: number,
+    ref: number,
+    will: number
+  }
+  initiativeRoll: number,
+  conditions:Array<string>
+}
+
+export interface Encounter{
+  id: string,
+  name: string,
+  entities: Array<Entity>
+}
+
+export interface EncounterContextSetters{
+  setEncounterId:(newId:string)=>void,
+  setEncounterName:(newName:string)=>void,
+  setEntities:(entities:Array<Entity>)=>void,
+  addEntity:(entity:Entity)=>void,
+  addEntities:(entities:Array<Entity>)=>void,
+  removeEntity:(entityId: string)=>void,
+}
+
+type MainDrawerParamList = {
+  EncounterStack: undefined;
+  Groups: undefined;
+  Compendium: undefined;
+  Tracker: undefined;
+};
+const Drawer = createDrawerNavigator<MainDrawerParamList>();
+
+export const EncounterContext = React.createContext<null | Encounter & EncounterContextSetters>(null);
+
+
 
 export default function MainDrawer() {
   const { width } = useWindowDimensions();
   const theme = useTheme();
-  const initialContextState = {
-    id: null,
-    name: null,
-    entities: null,
-  }
 
-  const [encounter, setEncounter] = React.useState(initialContextState);
-  const setEncounterAndSave = (newEncounter) => {
+  const [encounter, setEncounter] = React.useState<Encounter>({} as Encounter);
+  const setEncounterAndSave = (newEncounter:Encounter) => {
     console.log("Setting encounter and saving ")
     saveCurrentEncounter(newEncounter);
     setEncounter(newEncounter);
   }
-  const setEncounterId = (newId) => setEncounter({ ...encounter, id: newId });
-  const setEncounterName = (newName) => setEncounter({ ...encounter, name: newName });
-  const setEntities = (entities) => setEncounterAndSave({ ...encounter, entities: sortByInitiative(entities) });
-  const addEntity = (entity) => setEncounterAndSave({
+  const setEncounterId = (newId:string) => setEncounter({ ...encounter, id: newId });
+  const setEncounterName = (newName:string) => setEncounter({ ...encounter, name: newName });
+  const setEntities = (entities:Array<Entity>) => setEncounterAndSave({ ...encounter, entities: sortByInitiative(entities) });
+  const addEntity = (entity:Entity) => setEncounterAndSave({
     ...encounter,
     entities: sortByInitiative([...encounter.entities, entity])
   });
-  const addEntities = (entities) => setEncounterAndSave({
+  const addEntities = (entities:Array<Entity>) => setEncounterAndSave({
     ...encounter,
     entities: sortByInitiative([...encounter.entities, ...entities])
   });
-  const removeEntity = (entityId) => setEncounterAndSave({
+  const removeEntity = (entityId: string) => setEncounterAndSave({
     ...encounter,
     entities: encounter.entities.filter(entity => entity.uuid != entityId)
   });
@@ -61,13 +104,13 @@ export default function MainDrawer() {
     removeEntity,
   }
 
+  
   return (
     <CustomThemeProvider>
       <EncounterContext.Provider value={{ ...encounter, ...encounterContextSetters }} >
         <NavigationContainer>
           <Drawer.Navigator initialRouteName="EncounterStack" screenOptions={{
             drawerActiveBackgroundColor: theme.colors.primaryContainer,
-            headerMode:"float",
           }}>
             <Drawer.Screen name="EncounterStack" component={EncounterStackNavigator}
               options={({ route }) => {

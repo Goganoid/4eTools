@@ -1,30 +1,31 @@
-import React, { useState, useContext } from 'react';
-import { DeviceEventEmitter, ScrollView, StyleSheet, View } from 'react-native';
-import { IconButton, Text, ActivityIndicator, Button, TouchableRipple, Surface } from 'react-native-paper';
-import { EntityCard } from './EntityCard';
+import React, { useContext, useState } from 'react';
+import { ScrollView, StyleSheet, View } from 'react-native';
+import { ActivityIndicator, IconButton, Text, TouchableRipple, useTheme } from 'react-native-paper';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import { getCurrentEncounter } from '../../data/storage';
 import { roll20 } from "../../helpers/roll20";
-import { getCurrentEncounter, saveCurrentEncounter } from '../../data/storage';
+import { EncounterContext, Entity } from '../../Navigators/MainDrawer';
 import { CustomThemeProvider } from '../shared/ThemeProvider';
 import { EncounterControls } from './EncounterControls';
-import Icon from 'react-native-vector-icons/MaterialIcons';
-import { useTheme } from 'react-native-paper';
-import { v4 as uuid } from 'uuid';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import { EncounterContext } from '../../Navigators/MainDrawer';
-// import { EncounterContext } from '../Navigators/EncounterStackNavigator';
+import { EntityCard } from './EntityCard';
 import { sortByInitiative } from '../../helpers/sortByInitiative';
-import { createEnemy } from '../../helpers/entities';
 import MenuDrawer from '../shared/MenuDrawer';
-export const Encounter = ({ navigation, route, groupView = false }) => {
+import { NavigationProp } from '@react-navigation/native';
+import { EncounterStackParamList } from '../../Navigators/EncounterStackNavigator';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+
+
+
+export const Encounter = ({ navigation, route }:NativeStackScreenProps<EncounterStackParamList,'Encounter'>) => {
     const theme = useTheme();
     const [loading, setLoading] = useState(true);
     const [state, setState] = useState({ open: false });
-    const onStateChange = ({ open }) => setState({ open });
+    const onStateChange = ({ open }:{open:boolean}) => setState({ open });
     const { open } = state;
     const [turn, setTurn] = useState(0);
 
     const context = useContext(EncounterContext);
-  
+    if(context==null) return <Text>Context is null</Text>
 
     const prevTurn = () => {
         if (turn > 0) setTurn(turn - 1);
@@ -35,19 +36,19 @@ export const Encounter = ({ navigation, route, groupView = false }) => {
     const nextRound = () => {
         setTurn(0);
     }
-    const setEntityStat = (entity, statName, statValue) => {
+    const setEntityStat = (entity:Entity, statName:string, statValue:any) => {
         statValue = parseInt(statValue) || 0;
         let newEntities = context.entities.map(e => {
             console.log(e.uuid, entity.uuid, e.uuid === entity.uuid);
             if (e.uuid === entity.uuid) {
                 console.log("Found");
-                e.stats[statName] = statValue;
+                (e.stats as any)[statName] = statValue;
             }
             return e;
         })
         context.setEntities(newEntities)
     }
-    const setConditions = (entity, conditions) => {
+    const setConditions = (entity:Entity, conditions:Array<string>) => {
         let newEntities = context.entities.map(e => {
             console.log(e.uuid, entity.uuid, e.uuid === entity.uuid);
             if (e.uuid === entity.uuid) {
@@ -95,7 +96,7 @@ export const Encounter = ({ navigation, route, groupView = false }) => {
     return (
         <CustomThemeProvider>
             {loading
-                ? <View styles={styles.activity_indicator_container}>
+                ? <View style={styles.activity_indicator_container}>
                     <ActivityIndicator animating={true} />
                 </View>
                 : <ScrollView contentContainerStyle={{ paddingBottom: 100 }}>
@@ -125,7 +126,11 @@ export const Encounter = ({ navigation, route, groupView = false }) => {
                     <Icon name='chevron-right' size={40} style={{ color: "black" }} />
                 </TouchableRipple>
             </View>
-            {<EncounterControls open={open} navigation={navigation} onStateChange={onStateChange} addEntity={(entity)=>context.addEntity(entity)} />}
+            {<EncounterControls
+                open={open}
+                navigation={navigation}
+                onStateChange={onStateChange}
+                />}
         </CustomThemeProvider>
     )
 }

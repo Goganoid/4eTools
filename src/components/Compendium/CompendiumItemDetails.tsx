@@ -1,20 +1,20 @@
 import React from 'react';
-import reactDom from 'react-dom';
 import { ScrollView, useWindowDimensions } from 'react-native';
-import FlashMessage, { showMessage } from 'react-native-flash-message';
+import { showMessage } from 'react-native-flash-message';
 import { IconButton, useTheme } from 'react-native-paper';
 import RenderHtml, { defaultHTMLElementModels, HTMLContentModel } from 'react-native-render-html';
 // import { EncounterContext } from '../../App';
-import { EncounterContext } from '../../Navigators/MainDrawer';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { createEnemy, createPower } from '../../helpers/entities';
+import { CompendiumCategoryParams } from '../../Navigators/CompendiumListStack';
+import { CompendiumCategory, CompendiumCategoryMode } from '../../Navigators/CompendiumStackNavigator';
 import { GroupContext } from '../../Navigators/GroupStackNavigator';
+import { EncounterContext } from '../../Navigators/MainDrawer';
 import { PowerTrackerContext } from '../../Navigators/PowerTrackerStack';
 import { CustomThemeProvider } from '../shared/ThemeProvider';
 const headStyle = {
     fontSize: 20,
     padding: 0,
-    // lineHeight: 30,
-    // backgroundColor: "#BBF"
 };
 
 const classesStyles = {
@@ -59,10 +59,6 @@ const classesStyles = {
     flavor: {
         lineHeight: 25,
     },
-    alt: {
-        lineHeight: 20,
-        backgroundColor: "#CCC"
-    },
     flavorIndent: {
         marginLeft: 30,
         marginVertical: 0,
@@ -91,43 +87,44 @@ const tagsStyles = {
 
 }
 
-export const CompendiumItemDetails = ({ route, navigation }) => {
+export const CompendiumItemDetails = ({ route, navigation }: NativeStackScreenProps<CompendiumCategoryParams, 'ItemDetails'>) => {
     const theme = useTheme();
     const { id, category } = route.params;
-    const mode = route?.params.mode ?? null;
-    const context =
-        mode == 'group' ? React.useContext(GroupContext) :
-            mode == 'encounter' ? React.useContext(EncounterContext) :
-                mode == 'power' ? React.useContext(PowerTrackerContext) : null;
-    let details = {};
-    if (category == 'monster') details = require('../../data/monster/data.json');
-    if (category == 'weapons') details = require('../../data/weapons/data.json');
-    if (category == 'trap') details = require('../../data/trap/data.json');
-    if (category == 'theme') details = require('../../data/theme/data.json');
-    if (category == 'ritual') details = require('../../data/ritual/data.json');
-    if (category == 'race') details = require('../../data/race/data.json');
-    if (category == 'power') details = require('../../data/power/data.json');
-    if (category == 'paragonpower') details = require('../../data/paragonpower/data.json');
-    if (category == 'themepower') details = require('../../data/themepower/data.json');
-    if (category == 'epicdestinypower') details = require('../../data/epicdestinypower/data.json');
-    if (category == 'poison') details = require('../../data/poison/data.json');
-    if (category == 'paragonpath') details = require('../../data/paragonpath/data.json');
-    if (category == 'item') details = require('../../data/item/data.json');
-    if (category == 'implement') details = require('../../data/implement/data.json');
-    if (category == 'glossary') details = require('../../data/glossary/data.json');
-    if (category == 'feat') details = require('../../data/feat/data.json');
-    if (category == 'epicdestiny') details = require('../../data/epicdestiny/data.json');
-    if (category == 'disease') details = require('../../data/disease/data.json');
-    if (category == 'deity') details = require('../../data/deity/data.json');
-    if (category == 'companion') details = require('../../data/companion/data.json');
-    if (category == 'class') details = require('../../data/class/data.json');
-    if (category == 'background') details = require('../../data/background/data.json');
-    if (category == 'armor') details = require('../../data/armor/data.json');
+    const mode = route.params.mode;
+    const context: any =
+        mode == CompendiumCategoryMode.group ? React.useContext(GroupContext) :
+            mode ==  CompendiumCategoryMode.encounter ? React.useContext(EncounterContext) :
+                mode == CompendiumCategoryMode.power ? React.useContext(PowerTrackerContext) : null;
+    console.log(CompendiumCategory[category],mode, CompendiumCategoryMode[mode], context, mode ==  CompendiumCategoryMode.encounter);
+    let details:any = {};
+    if (category == CompendiumCategory.bestiary) details = require('../../data/monster/data.json');
+    if (category == CompendiumCategory.weapons) details = require('../../data/weapons/data.json');
+    if (category == CompendiumCategory.trap) details = require('../../data/trap/data.json');
+    if (category == CompendiumCategory.theme) details = require('../../data/theme/data.json');
+    if (category == CompendiumCategory.ritual) details = require('../../data/ritual/data.json');
+    if (category == CompendiumCategory.race) details = require('../../data/race/data.json');
+    if (category == CompendiumCategory.power) details = require('../../data/power/data.json');
+    if (category == CompendiumCategory.paragonpower) details = require('../../data/paragonpower/data.json');
+    if (category == CompendiumCategory.themepower) details = require('../../data/themepower/data.json');
+    if (category == CompendiumCategory.epicdestinypower) details = require('../../data/epicdestinypower/data.json');
+    if (category == CompendiumCategory.poison) details = require('../../data/poison/data.json');
+    if (category == CompendiumCategory.paragonpath) details = require('../../data/paragonpath/data.json');
+    if (category == CompendiumCategory.item) details = require('../../data/item/data.json');
+    if (category == CompendiumCategory.implement) details = require('../../data/implement/data.json');
+    if (category == CompendiumCategory.glossary) details = require('../../data/glossary/data.json');
+    if (category == CompendiumCategory.feat) details = require('../../data/feat/data.json');
+    if (category == CompendiumCategory.epicdestiny) details = require('../../data/epicdestiny/data.json');
+    if (category == CompendiumCategory.disease) details = require('../../data/disease/data.json');
+    if (category == CompendiumCategory.deity) details = require('../../data/deity/data.json');
+    if (category == CompendiumCategory.companion) details = require('../../data/companion/data.json');
+    if (category == CompendiumCategory.class) details = require('../../data/class/data.json');
+    if (category == CompendiumCategory.background) details = require('../../data/background/data.json');
+    if (category == CompendiumCategory.armor) details = require('../../data/armor/data.json');
     const { width } = useWindowDimensions();
     const source = {
         html: details[id]
     }
-    console.log(source);
+    // console.log(source);
     const customHTMLElementModels = {
         span: defaultHTMLElementModels.span.extend({
             contentModel: HTMLContentModel.block,
@@ -149,7 +146,7 @@ export const CompendiumItemDetails = ({ route, navigation }) => {
     }, [navigation, context]);
 
     const create = async () => {
-        if (context != null && category == 'monster') {
+        if (context != null && category == CompendiumCategory.bestiary) {
             let entity = createEnemy(id);
             context.addEntity(entity);
             showMessage({
@@ -158,7 +155,7 @@ export const CompendiumItemDetails = ({ route, navigation }) => {
                 backgroundColor: theme.colors.primary
             });
         }
-        if (context != null && category == 'power') {
+        if (context != null && category == CompendiumCategory.power) {
             let power = createPower(id)
             context.addPower(power);
             showMessage({
@@ -174,12 +171,12 @@ export const CompendiumItemDetails = ({ route, navigation }) => {
                 <RenderHtml
                     contentWidth={width}
                     source={source}
+                    // @ts-ignore
                     classesStyles={classesStyles}
                     tagsStyles={tagsStyles}
                     customHTMLElementModels={customHTMLElementModels}
                 />
             </ScrollView>
-            {/* <FlashMessage position={"bottom"} /> */}
         </CustomThemeProvider>
     )
 }

@@ -31,7 +31,7 @@ const conditions = {
 
 
 
-export const EntityCard = ({ navigation, route, entity, setStat, setConditions,
+export const EntityCard = ({ navigation, entity, setStat, setConditions,
   highlight = false,
   mode,
   showInitiative = true }) => {

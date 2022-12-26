@@ -1,8 +1,17 @@
 import React from 'react';
 import { FAB, Portal } from 'react-native-paper';
 import { StyleSheet } from 'react-native';
+import { NativeStackNavigationProp, NativeStackScreenProps } from '@react-navigation/native-stack';
+import { EncounterStackParamList } from '../../Navigators/EncounterStackNavigator';
+import { CompendiumCategoryMode,CompendiumCategory } from '../../Navigators/CompendiumStackNavigator';
 
-export function EncounterControls({ open, navigation, onStateChange, addEntity }) {
+type Props = {
+    navigation: NativeStackNavigationProp<EncounterStackParamList, 'Encounter'>,
+    open: boolean,
+    onStateChange: ({open}:{open:boolean}) => void
+}
+
+export function EncounterControls({ open, navigation, onStateChange }:Props) {
     return <Portal>
         <FAB.Group fabStyle={styles.fab}
 
@@ -14,18 +23,21 @@ export function EncounterControls({ open, navigation, onStateChange, addEntity }
                 {
                     icon: 'plus',
                     label: 'Custom',
+                    // @ts-ignore
                     onPress: () => navigation.navigate("AddCardCustom", { isHeroTab: false })
                 },
 
                 {
                     icon: 'emoticon-happy',
                     label: 'Hero',
+                     // @ts-ignore
                     onPress: () => navigation.navigate("AddCardCustom", { isHeroTab: true }),
                 },
                 {
                     icon: 'emoticon-devil',
                     label: 'Enemy',
-                    onPress: () => navigation.navigate("AddMonster", { showAddScreen: true }),
+                     // @ts-ignore
+                    onPress: () => navigation.navigate("AddMonster",{category:CompendiumCategory.bestiary}),
                 },
             ]}
             onStateChange={onStateChange} />
