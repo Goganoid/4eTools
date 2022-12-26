@@ -172,7 +172,7 @@ export const CompendiumListViewer = ({ navigation, route }) => {
             icon={({ size, color }) => (
                 <Icon name="search" size={16} color="#000" />
             )} />
-        <View style={{ ...styles.dropdowns }}>
+        <View style={{ ...styles.dropdowns, backgroundColor:theme.colors.onSecondary }}>
 
             {
                 Object.keys(filters).map((key, index) => {

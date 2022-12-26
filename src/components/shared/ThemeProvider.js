@@ -99,7 +99,7 @@ const darkTheme = {
 
   export const CustomThemeProvider = ({ children }) => {
     return (
-      <Provider theme={darkTheme}>
+      <Provider theme={lightTheme}>
         {children}
       </Provider>
     )
