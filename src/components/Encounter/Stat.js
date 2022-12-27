@@ -6,7 +6,7 @@ import {
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { StatEditor } from '../shared/StatEditor';
 import { useTheme } from 'react-native-paper';
-export const Stat = ({ statName, statValue, maxValue = 2000, onChange, minimalistic = false, style }) => {
+export const Stat = ({ statName, statValue, maxValue = 2000, onChange, minimalistic = false, style={} }) => {
     const theme = useTheme();
     const [isDialogVisible, setIsDialogVisible] = useState(false);
     const [newStatValue, setNewStatValueRaw] = useState('');
@@ -18,7 +18,7 @@ export const Stat = ({ statName, statValue, maxValue = 2000, onChange, minimalis
         let parsed = parseInt(cleanValue);
         if (parsed > maxValue) return;
         else if (parsed < -maxValue)return;
-        else setNewStatValueRaw(parsed.toString())
+        else setNewStatValueRaw(cleanValue)
     }
     return (
         <><View>

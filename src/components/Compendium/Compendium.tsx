@@ -2,7 +2,8 @@ import { NativeStackScreenProps } from '@react-navigation/native-stack'
 import React from 'react'
 import { ScrollView } from 'react-native'
 import { List } from 'react-native-paper'
-import { CompendiumCategory, CompendiumCategoryMode, CompendiumListParams } from '../../Navigators/CompendiumStackNavigator'
+import { CompendiumCategory, CompendiumCategoryMode } from '../../Navigators/entityTypes'
+import { CompendiumListParams } from '../../Navigators/navigatorTypes'
 import MenuDrawer from '../shared/MenuDrawer'
 export const Compendium = ({ navigation } : NativeStackScreenProps<CompendiumListParams,'CompendiumMainPage'>) => {
     

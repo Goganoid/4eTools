@@ -9,8 +9,10 @@ import MainDrawer from './Navigators/MainDrawer';
 export default function Main() {
   return (
     <CustomThemeProvider>
-      <MainDrawer />
-      <FlashMessage position={'bottom'} />
+      <>
+        <MainDrawer />
+        <FlashMessage position={'bottom'} />
+      </>
     </CustomThemeProvider >
   );
 }

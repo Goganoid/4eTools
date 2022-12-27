@@ -2,11 +2,11 @@ import React from 'react';
 import { FAB, Portal } from 'react-native-paper';
 import { StyleSheet } from 'react-native';
 import { NativeStackNavigationProp, NativeStackScreenProps } from '@react-navigation/native-stack';
-import { EncounterStackParamList } from '../../Navigators/EncounterStackNavigator';
-import { CompendiumCategoryMode,CompendiumCategory } from '../../Navigators/CompendiumStackNavigator';
-
+import { EncounterStackParamList, GroupStackParamList } from '../../Navigators/navigatorTypes';
+import { CompendiumCategory } from '../../Navigators/entityTypes';
 type Props = {
-    navigation: NativeStackNavigationProp<EncounterStackParamList, 'Encounter'>,
+    navigation: NativeStackNavigationProp<EncounterStackParamList, 'Encounter'>
+    |NativeStackNavigationProp<GroupStackParamList, "EntitiesList">,
     open: boolean,
     onStateChange: ({open}:{open:boolean}) => void
 }

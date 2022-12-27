@@ -4,22 +4,14 @@ import { IconButton, Text } from 'react-native-paper';
 import { AddEntity } from '../components/Encounter/AddEntity';
 import { configMainScreenTitle } from '../helpers/configMainScreenTitle';
 import { CompendiumListStack } from './CompendiumListStack';
-import { GroupsContext, GroupsStackParamList } from './GroupsStackNavigator';
-import { Entity } from './MainDrawer';
-import { GroupEntity } from './GroupsStackNavigator';
 import { Group } from '../components/Group/Group';
-import { CompendiumCategory, CompendiumCategoryMode } from './CompendiumStackNavigator';
 import { CompendiumItemDetails } from '../components/Compendium/CompendiumItemDetails';
+import { CompendiumCategory, CompendiumCategoryMode, Entity, GroupEntity } from './entityTypes';
+import { EntityMode, GroupsStackParamList, GroupStackParamList } from './navigatorTypes';
+import { GroupsContext } from './GroupsStackNavigator';
 
 
-export type GroupStackParamList = {
-    EntitiesList: {groupId: string};
-    Details: { id: string, category: string };
-    ConditionDetails: { id: string, category: string };
-    AddCardCustom: { isHeroTab: boolean, mode: string };
-    AddHero: { isHeroTab: boolean, mode: string };
-    AddMonster:{category:CompendiumCategory, mode:CompendiumCategoryMode};
-  };
+
 
 
 const Stack = createNativeStackNavigator<GroupStackParamList>();
@@ -75,6 +67,7 @@ export const GroupStackNavigator = ({ navigation, route }: NativeStackScreenProp
         <GroupContext.Provider value={{ ...encounter, ...encounterContextSetters }} >
             <Stack.Navigator initialRouteName="EntitiesList">
                 <Stack.Screen name="EntitiesList"
+                    // @ts-ignore
                     component={Group}
                     initialParams={{ groupId: id }}
                     options={{
@@ -98,8 +91,9 @@ export const GroupStackNavigator = ({ navigation, route }: NativeStackScreenProp
                     options={({ route }) => { return configMainScreenTitle(route, 'Add Monster') }} />
                 <Stack.Screen
                     name="AddCardCustom"
+                     // @ts-ignore
                     component={AddEntity}
-                    initialParams={{ mode: 'group' }}
+                    initialParams={{ mode: EntityMode.group }}
                     options={{
                         title: 'Add Entity',
                         headerRight: () => <>
@@ -109,8 +103,9 @@ export const GroupStackNavigator = ({ navigation, route }: NativeStackScreenProp
                     }} />
                 <Stack.Screen
                     name="AddHero"
+                     // @ts-ignore
                     component={AddEntity}
-                    initialParams={{ mode: 'group' }}
+                    initialParams={{ mode:EntityMode.group }}
                     options={{
                         title: 'Add Hero',
                         headerRight: () => <>

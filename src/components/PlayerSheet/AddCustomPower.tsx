@@ -1,21 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import { ScrollView, StyleSheet, View } from 'react-native';
-import FlashMessage, { showMessage } from 'react-native-flash-message';
+import { StyleSheet, View } from 'react-native';
+import { showMessage } from 'react-native-flash-message';
 import {
-    IconButton, RadioButton,
-    Text,
-    TextInput,
+    IconButton, TextInput,
     useTheme
 } from 'react-native-paper';
-import { v4 as uuid } from 'uuid';
-import { createCustomPower, createEntity } from '../../helpers/entities';
-
-import { GroupContext } from '../../Navigators/GroupStackNavigator';
-import { CustomThemeProvider } from '../shared/ThemeProvider';
-import { SavedPowerTab } from './SavedPowerTab';
-import { PowerTrackerContext } from '../../Navigators/PowerTrackerStack';
+import { createCustomPower } from '../../helpers/entities';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import DropDownPicker from 'react-native-dropdown-picker';
 import { filters } from '../../data/power/data';
+import { PowerTrackerParams } from '../../Navigators/navigatorTypes';
+import { PowerTrackerContext } from '../../Navigators/PowerTrackerStack';
+import { CustomThemeProvider } from '../shared/ThemeProvider';
 
 
 const powerItems =
@@ -42,12 +38,17 @@ const actionItems = [
 ]
 const levelItems = filters.level.items.map(item => { return { label: item, value: item } })
 
-export const AddCustomPower = ({ navigation, route }) => {
+export const AddCustomPower = ({ navigation, route }:NativeStackScreenProps<PowerTrackerParams,'AddCustomPower'>) => {
     const context = React.useContext(PowerTrackerContext);
+
+    if (context == null) {
+        console.log("Power tracker context is null");
+        return;
+    }
     const theme = useTheme();
     const [name, setName] = useState("")
-    const [powerType, setPowerType] = useState(null);
-    const [actionType, setActionType] = useState(null);
+    const [powerType, setPowerType] = useState<string|null>(null);
+    const [actionType, setActionType] = useState<string|null>(null);
     const [notes, setNotes] = useState("");
     const [level, setLevel] = useState("");
 
@@ -75,7 +76,7 @@ export const AddCustomPower = ({ navigation, route }) => {
         });
     }, [navigation, context, powerType, actionType, notes, name]);
 
-    const showValidationError = (message) => {
+    const showValidationError = (message:string) => {
         showMessage({
             message: message,
             type: 'warning',
@@ -109,8 +110,8 @@ export const AddCustomPower = ({ navigation, route }) => {
         let power = createCustomPower({
             name,
             level,
-            type: powerType,
-            action: actionType,
+            type: powerType!,
+            action: actionType!,
             notes
         })
         console.log("Adding power");
@@ -176,7 +177,6 @@ export const AddCustomPower = ({ navigation, route }) => {
                     />
                 </View>
             </View>
-            {/* <FlashMessage position={'bottom'} /> */}
         </CustomThemeProvider>
     );
 };

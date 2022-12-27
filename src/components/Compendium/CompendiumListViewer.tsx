@@ -7,8 +7,8 @@ import { ActivityIndicator, Divider, Searchbar, Text, useTheme } from 'react-nat
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import capitalize from '../../helpers/capitalize';
 import limitLength from '../../helpers/limitLength';
-import { CompendiumCategoryParams } from '../../Navigators/CompendiumListStack';
-import { CompendiumCategory, CompendiumCategoryMode } from '../../Navigators/CompendiumStackNavigator';
+import { CompendiumCategory } from '../../Navigators/entityTypes';
+import { CompendiumCategoryParams } from '../../Navigators/navigatorTypes';
 var clone = require('clone');
 
 interface DisplayConfig{
@@ -188,7 +188,7 @@ export const CompendiumListViewer = ({ navigation, route }: NativeStackScreenPro
             icon={({ size, color }) => (
                 <Icon name="search" size={16} color="#000" />
             )} />
-        <View style={{ ...styles.dropdowns, backgroundColor: theme.colors.onSecondary }}>
+        <View style={{ ...styles.dropdowns}}>
 
             {
                 Object.keys(filters).map((key, index) => {

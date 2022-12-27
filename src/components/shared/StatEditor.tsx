@@ -3,9 +3,17 @@ import { View } from 'react-native';
 import { Button, Dialog, TextInput } from 'react-native-paper';
 import { styles } from '../Encounter/Stat';
 
-export function StatEditor({ isDialogVisible, setIsDialogVisible, statName, value, setValue, onChange }) {
-    console.log("New stat value ", value);
-    const ChangeByButton = ({ modifier }) => {
+type Props = {
+    isDialogVisible: boolean,
+    setIsDialogVisible: (visible: boolean) => void,
+    statName: string,
+    value: any,
+    setValue: (value: any) => void,
+    onChange?: (value: any) => void,
+}
+
+export function StatEditor({ isDialogVisible, setIsDialogVisible, statName, value, setValue, onChange }:Props) {
+    const ChangeByButton = ({ modifier }:{modifier:number}) => {
         return <Button style={styles.changeby} mode="contained" onPress={() => {
             const parsed = parseInt(value) || 0;
             let newValue = (parsed + modifier);
@@ -40,7 +48,7 @@ export function StatEditor({ isDialogVisible, setIsDialogVisible, statName, valu
         </Dialog.Content>
         <Dialog.Actions>
             <Button onPress={() => {
-                if(onChange)
+                if (onChange)
                     onChange(value);
                 setIsDialogVisible(false);
             }}>Done</Button>

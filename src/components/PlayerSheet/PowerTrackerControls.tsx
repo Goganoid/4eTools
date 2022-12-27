@@ -1,8 +1,17 @@
 import React from 'react';
 import { FAB, Portal } from 'react-native-paper';
 import { StyleSheet } from 'react-native';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { PowerTrackerParams } from '../../Navigators/navigatorTypes';
+import { CompendiumCategory, CompendiumCategoryMode } from '../../Navigators/entityTypes';
 
-export function PowerTrackerControls({ open, navigation, onStateChange }) {
+type Props = {
+    open: boolean,
+    navigation: NativeStackNavigationProp<PowerTrackerParams, 'PowerTracker'>,
+    onStateChange:({open}:{open:boolean})=>void,
+}
+
+export function PowerTrackerControls({ open, navigation, onStateChange }:Props) {
     return <Portal>
         <FAB.Group fabStyle={styles.fab}
 
@@ -19,7 +28,7 @@ export function PowerTrackerControls({ open, navigation, onStateChange }) {
                 {
                     icon: 'star-four-points',
                     label: 'Power',
-                    onPress: () => navigation.navigate("AddPower"),
+                    onPress: () => navigation.navigate("AddPower",{category:CompendiumCategory.power,mode:CompendiumCategoryMode.power}),
                 },
             ]}
             onStateChange={onStateChange} />
@@ -27,11 +36,8 @@ export function PowerTrackerControls({ open, navigation, onStateChange }) {
 }
 export const styles = StyleSheet.create({
     fab: {
-        // position: 'absolute',
         margin: 8,
         padding:0,
-        // marginBottom:70,
         right: 0,
-        // bottom: 50,
     },
 })

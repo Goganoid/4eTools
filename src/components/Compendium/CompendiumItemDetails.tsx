@@ -6,12 +6,12 @@ import RenderHtml, { defaultHTMLElementModels, HTMLContentModel } from 'react-na
 // import { EncounterContext } from '../../App';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { createEnemy, createPower } from '../../helpers/entities';
-import { CompendiumCategoryParams } from '../../Navigators/CompendiumListStack';
-import { CompendiumCategory, CompendiumCategoryMode } from '../../Navigators/CompendiumStackNavigator';
 import { GroupContext } from '../../Navigators/GroupStackNavigator';
 import { EncounterContext } from '../../Navigators/MainDrawer';
 import { PowerTrackerContext } from '../../Navigators/PowerTrackerStack';
 import { CustomThemeProvider } from '../shared/ThemeProvider';
+import { CompendiumCategoryMode, CompendiumCategory } from '../../Navigators/entityTypes';
+import { CompendiumCategoryParams } from '../../Navigators/navigatorTypes';
 const headStyle = {
     fontSize: 20,
     padding: 0,
@@ -95,7 +95,7 @@ export const CompendiumItemDetails = ({ route, navigation }: NativeStackScreenPr
         mode == CompendiumCategoryMode.group ? React.useContext(GroupContext) :
             mode ==  CompendiumCategoryMode.encounter ? React.useContext(EncounterContext) :
                 mode == CompendiumCategoryMode.power ? React.useContext(PowerTrackerContext) : null;
-    console.log(CompendiumCategory[category],mode, CompendiumCategoryMode[mode], context, mode ==  CompendiumCategoryMode.encounter);
+    console.log(CompendiumCategory[category],mode, CompendiumCategoryMode[mode!], context, mode ==  CompendiumCategoryMode.encounter);
     let details:any = {};
     if (category == CompendiumCategory.bestiary) details = require('../../data/monster/data.json');
     if (category == CompendiumCategory.weapons) details = require('../../data/weapons/data.json');

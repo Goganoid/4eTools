@@ -6,9 +6,12 @@ import { useTheme } from 'react-native-paper';
 import { EncounterContext } from '../../Navigators/MainDrawer';
 import { GroupContext } from '../../Navigators/GroupStackNavigator';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { EncounterStackParamList, EntityMode, GroupStackParamList } from '../../Navigators/navigatorTypes';
+import { CompendiumCategory, Entity, EntityType } from '../../Navigators/entityTypes';
 
 
-const conditions = {
+const conditions:any = {
   "glossary132": "Blinded",
   "glossary133": "Dazed",
   "glossary134": "Deafened",
@@ -29,17 +32,30 @@ const conditions = {
   "glossary147": "Weakened",
 }
 
+type Props = {
+  navigation: (NativeStackNavigationProp<EncounterStackParamList, 'Encounter'>
+  | NativeStackNavigationProp<GroupStackParamList, "EntitiesList">),
+  entity: Entity,
+  setStat: (entity: Entity, propName: string, value: any) => void,
+  setConditions: (entity: Entity, conditions: Array<string>) => void,
+  mode: EntityMode,
+  showInitiative?: boolean,
+  highlight:boolean
+}
 
 
 export const EntityCard = ({ navigation, entity, setStat, setConditions,
   highlight = false,
   mode,
-  showInitiative = true }) => {
-  const context = mode == 'group' ? React.useContext(GroupContext) :
-    mode == 'encounter' ? React.useContext(EncounterContext) : null;
+  showInitiative = true }: Props) => {
+  const context = mode == EntityMode.group ? React.useContext(GroupContext) :
+    mode == EntityMode.encounter ? React.useContext(EncounterContext) : null;
+  if (context == null) return null;
   console.log("Entity: ", entity);
-  const initiative = parseInt(entity.stats.initiative);
-  const initiativeRoll = parseInt(entity.initiativeRoll);
+  // const initiative = parseInt(entity.stats.initiative);
+  // const initiativeRoll = parseInt(entity.initiativeRoll);
+  const initiative = entity.stats.initiative;
+  const initiativeRoll = entity.initiativeRoll;
   const theme = useTheme();
 
 
@@ -57,17 +73,19 @@ export const EntityCard = ({ navigation, entity, setStat, setConditions,
     setNewCondition(null);
     hideDialog();
   }
-  const removeCondition = (id) => {
+  const removeCondition = (id:string) => {
     setConditions(entity, entity.conditions.filter(condition=>condition!=id));
   }
 
 
-  function EntityInformationButton(informationType) {
-    return <IconButton
+  function EntityInformationButton() {
+    console.log("MONSTER ID ", entity.monster_id);
+    if(entity.monster_id!=null) return <IconButton
       style={{ marginVertical: 0, marginHorizontal: 0, padding: 0 }}
       icon="information-outline"
       size={20}
-      onPress={() => navigation.navigate("Details", { id: entity.monster_id })} />;
+      // @ts-ignore
+      onPress={() => navigation.navigate("Details", { id: entity.monster_id!, category:CompendiumCategory.bestiary,mode:null })} />;
   }
   return (
     <>
@@ -77,10 +95,9 @@ export const EntityCard = ({ navigation, entity, setStat, setConditions,
             <View>
               <Icon
                 size={30}
-                name={entity.type == "enemy" ? 'emoticon-devil-outline' : 'emoticon-outline'}
-                color={theme.colors.text}
+                name={entity.type == EntityType.Enemy ? 'emoticon-devil-outline' : 'emoticon-outline'}
+                color={(theme.colors as any).text}
                 style={styles.entity_icon} />
-              {/* <Image source={entity.type == "enemy" ? require("../../../img/enemy.png") : require("../../../img/hero.png")} style={styles.entity_icon} /> */}
             </View>
             {showInitiative
               ? (
@@ -90,7 +107,7 @@ export const EntityCard = ({ navigation, entity, setStat, setConditions,
                     statValue={entity.stats.initiative}
                     style={styles.rollDescription}
                     minimalistic={true}
-                    onChange={(value) => setStat(entity, "initiative", value)}
+                    onChange={(value:any) => setStat(entity, "initiative", value)}
                   />
                   <Text style={styles.rollDescription} >({entity.initiativeRoll}{initiative >= 0 ? "+" : ""}{initiative})</Text>
                 </>
@@ -109,12 +126,12 @@ export const EntityCard = ({ navigation, entity, setStat, setConditions,
                 </View>
                 <Text variant="bodySmall">{entity.group_role}</Text>
               </View>
-              {entity.type == "enemy" && entity.monster_id != undefined ?
+              {entity.type == EntityType.Enemy && entity.monster_id != undefined ?
                 EntityInformationButton() : null}
             </View>
             <Divider />
             <View style={styles.def_stats}>
-              <Stat statName={"HP"} statValue={entity.stats.hp} onChange={(value) => setStat(entity, "hp", value)}></Stat>
+              <Stat statName={"HP"} statValue={entity.stats.hp} onChange={(value:any) => setStat(entity, "hp", value)}></Stat>
               <Text style={styles.def_stat}><Text style={styles.bold_text}>AC:</Text>{entity.stats.ac}</Text>
               <Text style={styles.def_stat}><Text style={styles.bold_text}>FOR:</Text>{entity.stats.fort}</Text>
               <Text style={styles.def_stat}><Text style={styles.bold_text}>REF:</Text>{entity.stats.ref}</Text>
@@ -130,16 +147,20 @@ export const EntityCard = ({ navigation, entity, setStat, setConditions,
                     removeCondition(condition_id)
                   }}
                   onPress={() => {
-                    navigation.navigate("ConditionDetails",{id:condition_id})
+                    // @ts-ignore
+                    navigation.navigate("ConditionDetails",{id:condition_id as string, category:CompendiumCategory.glossary,mode:null})
                   }}
-                >{conditions[condition_id]}</Chip>
+                >{conditions[condition_id as string]}</Chip>
               )}
               <View style={{ ...styles.condition, alignItems:"center", justifyContent:"center" }}>
                 <Badge style={{
                   backgroundColor: theme.colors.primary,
                 }}
                   onPress={showDialog}
-                ><Icon name='plus' /></Badge>
+                >
+                  {/* @ts-ignore */}
+                  <Icon name='plus' />
+                </Badge>
               </View>
             </View>
           </View>
@@ -150,7 +171,7 @@ export const EntityCard = ({ navigation, entity, setStat, setConditions,
           <Dialog.Title>New Condition</Dialog.Title>
           <Dialog.ScrollArea>
             <ScrollView contentContainerStyle={{ paddingHorizontal: 24 }} style={{ height:"60%"}}>
-              <RadioButton.Group onValueChange={newValue => setNewCondition(newValue)} value={newCondition}>
+              <RadioButton.Group onValueChange={(newValue:any) => setNewCondition(newValue)} value={newCondition!}>
                 {
                   Object.keys(conditions).map(key => 
                     <View style={styles.radio_item} key={key}>

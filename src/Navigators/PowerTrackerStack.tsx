@@ -9,28 +9,10 @@ import PowerTracker from '../components/PlayerSheet/PowerTracker';
 import { savePowerTracker } from '../data/storage';
 import { configMainScreenTitle } from '../helpers/configMainScreenTitle';
 import { CompendiumListStack } from './CompendiumListStack';
-import { CompendiumCategory, CompendiumCategoryMode } from './CompendiumStackNavigator';
+import { CompendiumCategory, CompendiumCategoryMode, Tracker } from './entityTypes';
 
 
-interface Power{
-    checked:boolean,
-    id: string,
-    name: string,
-    level: string,
-    type: string,
-    action: string,
-    notes: string,
-    power_id?: string
-}
-export interface Tracker{
-    attacks: Array<any>,
-    damageTypes: Array<any>,
-    powers: Array<any>,
-    surges: number,
-    maxSurges:number,
-    hp: number,
-    maxHp: number,
-}
+
 export interface TrackerSetters{
     setTracker:(tracker:Tracker)=>void,
     setPowers:(powers:Array<any>)=>void,
@@ -49,13 +31,7 @@ export interface TrackerSetters{
     setMaxSurges:(maxSurges:number)=>void,
 }
 
-interface PowerTrackerParams{
-    PowerTracker: undefined;
-    PowerDetails: { id: string, category: string,mode: CompendiumCategoryMode };
-    AddCustomPower: undefined;
-    CustomPowerDetails: {power:Power};
-    AddPower: { category: CompendiumCategory, mode: CompendiumCategoryMode };
-}
+
 // @ts-ignore
 const Stack = createNativeStackNavigator<PowerTrackerParams>();
 
@@ -146,6 +122,7 @@ export const PowerTrackerStack = () => {
             <Stack.Navigator initialRouteName="PowerTracker" screenOptions={{
             }}>
                 <Stack.Screen
+                    // @ts-ignore
                     name="PowerTracker" component={PowerTracker}
                     options={{
                         title:"Power Tracker"
@@ -160,6 +137,7 @@ export const PowerTrackerStack = () => {
                 />
                 <Stack.Screen
                     name="CustomPowerDetails"
+                    // @ts-ignore
                     component={CustomPowerDetails}
                     options={{
                         title:"Power Details"
@@ -167,6 +145,7 @@ export const PowerTrackerStack = () => {
                 />
                 <Stack.Screen
                     name="AddCustomPower"
+                    // @ts-ignore
                     component={AddCustomPower}
                     options={{
                         title: 'Add Power',

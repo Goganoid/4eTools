@@ -1,7 +1,9 @@
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import React from 'react'
 import { View,StyleSheet } from 'react-native';
 import { Text } from 'react-native-paper'
-export const CustomPowerDetails = ({ navigation, route }) => {
+import { PowerTrackerParams } from '../../Navigators/navigatorTypes';
+export const CustomPowerDetails = ({ navigation, route }:NativeStackScreenProps<PowerTrackerParams,'CustomPowerDetails'>) => {
     const power = route.params.power;
     return (
         <View style={{padding:30}}>

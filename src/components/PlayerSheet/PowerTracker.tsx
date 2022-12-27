@@ -10,17 +10,29 @@ import { getSavedTracker } from '../../data/storage';
 import MenuDrawer from '../shared/MenuDrawer';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { StatEditor } from '../shared/StatEditor';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { PowerTrackerParams } from '../../Navigators/navigatorTypes';
+import { CompendiumCategory, CompendiumCategoryMode, Power } from '../../Navigators/entityTypes';
 const arraySort = require('array-sort');
 
 
-const setFormatedStatValue = (value, maxValue, minValue, setValue) => {
+const setFormatedStatValue = (value: number, maxValue: number, minValue: number, setValue: (value: number) => void) => {
     console.log(`${value}:${typeof value}, ${maxValue}:${typeof maxValue} ${value > maxValue}`);
     if (value > maxValue) return;
     else if (value < minValue) return;
     else setValue(value);
 }
 
-const PlayerStat = ({ name, setValue, value, maxValue, allowNegative = true, setEditorVisible }) => {
+type Props = {
+    name: string,
+    setValue: (value: number) => void,
+    value: number,
+    maxValue: number,
+    allowNegative?: boolean,
+    setEditorVisible: (visible: boolean) => void,
+}
+
+const PlayerStat = ({ name, setValue, value, maxValue, allowNegative = true, setEditorVisible }: Props) => {
 
     const minValue = allowNegative ? -99 : 0
     const [text, setText] = useState(value.toString());
@@ -69,16 +81,22 @@ const PlayerStat = ({ name, setValue, value, maxValue, allowNegative = true, set
             />
         </View>
         <View>
-            <IconButton icon='pencil' style={styles.icon} onPress={() => setEditorVisible(true)}  size={14} />
+            <IconButton icon='pencil' style={styles.icon} onPress={() => setEditorVisible(true)} size={14} />
         </View>
     </View>
 }
-const PowerTracker = ({ navigation, route }) => {
+const PowerTracker = ({ navigation, route }: NativeStackScreenProps<PowerTrackerParams, 'PowerTracker'>) => {
     const context = useContext(PowerTrackerContext);
+
+    if (context == null) {
+        console.log("Power tracker context is null");
+        return;
+    }
+
     const theme = useTheme();
     const [loading, setLoading] = useState(true);
     const [state, setState] = useState({ open: false });
-    const onStateChange = ({ open }) => setState({ open });
+    const onStateChange = ({ open }: { open: boolean }) => setState({ open });
     const { open } = state;
 
     const [maxHpEditorVisible, setMaxHpEditorVisible] = useState(false)
@@ -111,13 +129,13 @@ const PowerTracker = ({ navigation, route }) => {
     ]
 
 
-    const PowerItem = (power, key) =>
+    const PowerItem = (power: Power, key: any) =>
     (
         <View key={key}>
             <View style={styles.element} >
                 <View style={styles.nameSection}>
                     <TouchableOpacity style={styles.title} onPress={() => power.power_id != null
-                        ? navigation.navigate("PowerDetails", { id: power.power_id })
+                        ? navigation.navigate("PowerDetails", { id: power.power_id, category: CompendiumCategory.power, mode:null })
                         : navigation.navigate("CustomPowerDetails", { power })
                     }>
                         <View style={{ flexDirection: "row", alignItems: "center" }}>
@@ -147,50 +165,55 @@ const PowerTracker = ({ navigation, route }) => {
 
     return (
         <CustomThemeProvider>
-
-            <ScrollView style={{ backgroundColor: theme.colors.background }}>
-                <View style={styles.player_stats}>
-                    <PlayerStat name='HP'
-                        value={context.hp}
-                        setValue={value => context.setHp(value)}
-                        maxValue={context.maxHp}
-                        setMaxValue={value => context.setMaxValue(value)}
-                        setEditorVisible={setMaxHpEditorVisible} />
-                    <PlayerStat name='Surges'
-                        value={context.surges}
-                        setValue={value => context.setSurges(value)}
-                        maxValue={context.maxSurges}
-                        setMaxValue={value => context.setMaxSurges(value)}
-                        setEditorVisible={setMaxSurgesEditorVisible} />
-                </View>
-                {sections.map(({ label, filterCriteria }, index) =>
-                (
-                    <List.Accordion title={label} key={label} >
-                        {arraySort(context.powers
-                            .filter(power => power.type.includes(filterCriteria)), ['level', 'action', 'name'])
-                            .map((power, ind) => PowerItem(power, power.id))}
-                    </List.Accordion>
-                ))}
-            </ScrollView>
-            {<PowerTrackerControls
-                open={open}
-                navigation={navigation}
-                onStateChange={onStateChange}
-            />}
-            <Portal>
-                <StatEditor
-                    isDialogVisible={maxHpEditorVisible}
-                    setIsDialogVisible={setMaxHpEditorVisible}
-                    setValue={(value) => context.setMaxHp(value)}
-                    statName={"Max HP"}
-                    value={context.maxHp.toString()} />
-                <StatEditor
-                    isDialogVisible={maxSurgesEditorVisible}
-                    setIsDialogVisible={setMaxSurgesEditorVisible}
-                    setValue={(value) => context.setMaxSurges(value)}
-                    statName={"Max Surges"}
-                    value={context.maxSurges.toString()} />
-            </Portal>
+            <>
+                <ScrollView style={{ backgroundColor: theme.colors.background }}>
+                    <View style={styles.player_stats}>
+                        <PlayerStat name='HP'
+                            value={context.hp}
+                            setValue={value => context.setHp(value)}
+                            maxValue={context.maxHp}
+                            setEditorVisible={setMaxHpEditorVisible} />
+                        <PlayerStat name='Surges'
+                            value={context.surges}
+                            setValue={value => context.setSurges(value)}
+                            maxValue={context.maxSurges}
+                            setEditorVisible={setMaxSurgesEditorVisible} />
+                    </View>
+                    {sections.map(({ label, filterCriteria }, index) =>
+                    (
+                        <List.Accordion title={label} key={label} >
+                            {arraySort(context.powers
+                                .filter(power => power.type.includes(filterCriteria)), ['level', 'action', 'name'])
+                                .map((power: Power, ind: number) => PowerItem(power, power.id))}
+                        </List.Accordion>
+                    ))}
+                </ScrollView>
+                {<PowerTrackerControls
+                    open={open}
+                    navigation={navigation}
+                    onStateChange={onStateChange}
+                />}
+                <Portal>
+                    <StatEditor
+                        isDialogVisible={maxHpEditorVisible}
+                        setIsDialogVisible={setMaxHpEditorVisible}
+                        setValue={(value) => {
+                            context.setMaxHp(value)
+                            if (context.hp > value) context.setHp(value);
+                        }}
+                        statName={"Max HP"}
+                        value={context.maxHp.toString()} />
+                    <StatEditor
+                        isDialogVisible={maxSurgesEditorVisible}
+                        setIsDialogVisible={setMaxSurgesEditorVisible}
+                        setValue={(value) => {
+                            context.setMaxSurges(value)
+                            if(context.surges>value) context.setSurges(value)
+                        }}
+                        statName={"Max Surges"}
+                        value={context.maxSurges.toString()} />
+                </Portal>
+            </>
         </CustomThemeProvider>
 
     )
@@ -236,12 +259,6 @@ const styles = StyleSheet.create({
     bold_text: {
         fontWeight: "bold"
     },
-    stat: {
-        flexBasis: "50%",
-        paddingVertical: 3,
-        flex: 1,
-        // paddingHorizontal: 10,
-    },
     nameSection: {
         flexDirection: "row",
         justifyContent: "space-between",
@@ -258,4 +275,4 @@ const styles = StyleSheet.create({
 })
 
 
-export default withTheme(PowerTracker);  
+export default PowerTracker;  

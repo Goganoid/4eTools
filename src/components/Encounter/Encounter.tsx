@@ -4,28 +4,29 @@ import { ActivityIndicator, IconButton, Text, TouchableRipple, useTheme } from '
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { getCurrentEncounter } from '../../data/storage';
 import { roll20 } from "../../helpers/roll20";
-import { EncounterContext, Entity } from '../../Navigators/MainDrawer';
 import { CustomThemeProvider } from '../shared/ThemeProvider';
 import { EncounterControls } from './EncounterControls';
 import { EntityCard } from './EntityCard';
 import { sortByInitiative } from '../../helpers/sortByInitiative';
 import MenuDrawer from '../shared/MenuDrawer';
 import { NavigationProp } from '@react-navigation/native';
-import { EncounterStackParamList } from '../../Navigators/EncounterStackNavigator';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { Entity } from '../../Navigators/entityTypes';
+import { EncounterContext } from '../../Navigators/MainDrawer';
+import { EncounterStackParamList, EntityMode } from '../../Navigators/navigatorTypes';
 
 
 
-export const Encounter = ({ navigation, route }:NativeStackScreenProps<EncounterStackParamList,'Encounter'>) => {
+export const Encounter = ({ navigation, route }: NativeStackScreenProps<EncounterStackParamList, 'Encounter'>) => {
     const theme = useTheme();
     const [loading, setLoading] = useState(true);
     const [state, setState] = useState({ open: false });
-    const onStateChange = ({ open }:{open:boolean}) => setState({ open });
+    const onStateChange = ({ open }: { open: boolean }) => setState({ open });
     const { open } = state;
     const [turn, setTurn] = useState(0);
 
     const context = useContext(EncounterContext);
-    if(context==null) return <Text>Context is null</Text>
+    if (context == null) return <Text>Context is null</Text>
 
     const prevTurn = () => {
         if (turn > 0) setTurn(turn - 1);
@@ -36,7 +37,7 @@ export const Encounter = ({ navigation, route }:NativeStackScreenProps<Encounter
     const nextRound = () => {
         setTurn(0);
     }
-    const setEntityStat = (entity:Entity, statName:string, statValue:any) => {
+    const setEntityStat = (entity: Entity, statName: string, statValue: any) => {
         statValue = parseInt(statValue) || 0;
         let newEntities = context.entities.map(e => {
             console.log(e.uuid, entity.uuid, e.uuid === entity.uuid);
@@ -48,7 +49,7 @@ export const Encounter = ({ navigation, route }:NativeStackScreenProps<Encounter
         })
         context.setEntities(newEntities)
     }
-    const setConditions = (entity:Entity, conditions:Array<string>) => {
+    const setConditions = (entity: Entity, conditions: Array<string>) => {
         let newEntities = context.entities.map(e => {
             console.log(e.uuid, entity.uuid, e.uuid === entity.uuid);
             if (e.uuid === entity.uuid) {
@@ -71,7 +72,7 @@ export const Encounter = ({ navigation, route }:NativeStackScreenProps<Encounter
         }
         else {
             if (context.entities.length == 0) setTurn(0);
-            else if (context.entities.length-1 < turn) setTurn(context.entities.length - 1);
+            else if (context.entities.length - 1 < turn) setTurn(context.entities.length - 1);
         }
     }, [context.entities])
     React.useEffect(() => {
@@ -95,42 +96,44 @@ export const Encounter = ({ navigation, route }:NativeStackScreenProps<Encounter
     console.log("Render encounter entities:", context.entities?.length);
     return (
         <CustomThemeProvider>
-            {loading
-                ? <View style={styles.activity_indicator_container}>
-                    <ActivityIndicator animating={true} />
-                </View>
-                : <ScrollView contentContainerStyle={{ paddingBottom: 100 }}>
-                    {context.entities.map((entity, index) =>
-                        <EntityCard
-                            navigation={navigation}
-                            entity={entity}
-                            key={index}
-                            setStat={setEntityStat}
-                            setConditions={setConditions}
-                            mode='encounter'
-                            highlight={index == turn}
-                        />
-                    )}
-                </ScrollView>
-            }
-            <View style={{ ...styles.bottom_bar, backgroundColor: theme.colors.primaryContainer, }}>
-                <TouchableRipple style={styles.bottom_side_item} onPress={() => prevTurn()}>
-                    <Icon name='chevron-left' size={40} style={{ color: "black" }} />
-                </TouchableRipple>
-                <TouchableRipple style={styles.bottom_center_item} onPress={() => nextRound()}>
-                    <View>
-                        <Text>NEXT ROUND</Text>
+            <>
+                {loading
+                    ? <View style={styles.activity_indicator_container}>
+                        <ActivityIndicator animating={true} />
                     </View>
-                </TouchableRipple>
-                <TouchableRipple style={styles.bottom_side_item} onPress={() => nextTurn()}>
-                    <Icon name='chevron-right' size={40} style={{ color: "black" }} />
-                </TouchableRipple>
-            </View>
-            {<EncounterControls
-                open={open}
-                navigation={navigation}
-                onStateChange={onStateChange}
+                    : <ScrollView contentContainerStyle={{ paddingBottom: 100 }}>
+                        {context.entities.map((entity, index) =>
+                            <EntityCard
+                                navigation={navigation}
+                                entity={entity}
+                                key={index}
+                                setStat={setEntityStat}
+                                setConditions={setConditions}
+                                mode={EntityMode.encounter}
+                                highlight={index == turn}
+                            />
+                        )}
+                    </ScrollView>
+                }
+                <View style={{ ...styles.bottom_bar, backgroundColor: theme.colors.primaryContainer, }}>
+                    <TouchableRipple style={styles.bottom_side_item} onPress={() => prevTurn()}>
+                        <Icon name='chevron-left' size={40} style={{ color: "black" }} />
+                    </TouchableRipple>
+                    <TouchableRipple style={styles.bottom_center_item} onPress={() => nextRound()}>
+                        <View>
+                            <Text>NEXT ROUND</Text>
+                        </View>
+                    </TouchableRipple>
+                    <TouchableRipple style={styles.bottom_side_item} onPress={() => nextTurn()}>
+                        <Icon name='chevron-right' size={40} style={{ color: "black" }} />
+                    </TouchableRipple>
+                </View>
+                {<EncounterControls
+                    open={open}
+                    navigation={navigation}
+                    onStateChange={onStateChange}
                 />}
+            </>
         </CustomThemeProvider>
     )
 }

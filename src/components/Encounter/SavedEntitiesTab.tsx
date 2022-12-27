@@ -1,7 +1,14 @@
 import React from 'react';
 import { List } from 'react-native-paper';
 import { IconButton } from 'react-native-paper';
-export function SavedEntitiesTab(isHeroTab, stored_entities, setName, setType, setId, setStats, removeEntity) {
+import { Entity } from '../../Navigators/entityTypes';
+export function SavedEntitiesTab(isHeroTab: boolean,
+    stored_entities: any,
+    setName: (name:string) => void,
+    setType: (type: any) => void,
+    setId: (id: string) => void,
+    setStats: (stats: any) => void,
+    removeEntity:(entity:Entity)=>void) {
 
 
     const content = () => {

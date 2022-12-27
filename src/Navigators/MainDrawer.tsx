@@ -13,40 +13,10 @@ import { isOnMainScreen } from '../helpers/isOnMainScreen';
 import { sortByInitiative } from '../helpers/sortByInitiative';
 import { CompendiumStackNavigator } from './CompendiumStackNavigator';
 import { EncounterStackNavigator } from './EncounterStackNavigator';
+import { Entity, Encounter } from './entityTypes';
 import { GroupsStackNavigator } from './GroupsStackNavigator';
+import { MainDrawerParamList } from './navigatorTypes';
 import { PowerTrackerStack } from './PowerTrackerStack';
-
-
-
-
-
-
-enum EntityType{
-  Hero = "Hero",
-  Enemy = "Enemy"
-}
-
-export interface Entity{
-  uuid: string,
-  name: string,
-  type: EntityType,
-  stats: {
-    hp: number,
-    initiative: number,
-    ac: number,
-    fort: number,
-    ref: number,
-    will: number
-  }
-  initiativeRoll: number,
-  conditions:Array<string>
-}
-
-export interface Encounter{
-  id: string,
-  name: string,
-  entities: Array<Entity>
-}
 
 export interface EncounterContextSetters{
   setEncounterId:(newId:string)=>void,
@@ -57,12 +27,7 @@ export interface EncounterContextSetters{
   removeEntity:(entityId: string)=>void,
 }
 
-type MainDrawerParamList = {
-  EncounterStack: undefined;
-  Groups: undefined;
-  Compendium: undefined;
-  Tracker: undefined;
-};
+
 const Drawer = createDrawerNavigator<MainDrawerParamList>();
 
 export const EncounterContext = React.createContext<null | Encounter & EncounterContextSetters>(null);

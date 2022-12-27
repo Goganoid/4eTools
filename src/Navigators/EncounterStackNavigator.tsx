@@ -7,22 +7,13 @@ import { Encounter } from '../components/Encounter/Encounter';
 import { CompendiumListStack } from './CompendiumListStack';
 import { configMainScreenTitle } from '../helpers/configMainScreenTitle';
 import { CompendiumItemDetails } from '../components/Compendium/CompendiumItemDetails';
-import { CompendiumCategory, CompendiumCategoryMode } from './CompendiumStackNavigator';
+import { CompendiumCategory, CompendiumCategoryMode } from './entityTypes';
+import { EntityMode, EncounterStackParamList } from './navigatorTypes';
 
 
-export enum AddCardMode{
-  group,
-  encounter
-}
 
-export type EncounterStackParamList = {
-  Encounter: undefined;
-  Details: { id: string, category: string };
-  ConditionDetails: { id: string, category: string };
-  AddCardCustom: { isHeroTab: boolean, mode: AddCardMode };
-  AddHero: { isHeroTab: boolean, mode: AddCardMode };
-  AddMonster:{category:CompendiumCategory, mode:CompendiumCategoryMode};
-};
+
+
 
 const Stack = createNativeStackNavigator<EncounterStackParamList>();
 
@@ -49,7 +40,7 @@ export const EncounterStackNavigator = () => {
       <Stack.Screen
         name="AddCardCustom"
         component={AddEntity}
-        initialParams={{ mode: 'encounter' }}
+        initialParams={{ mode: EntityMode.encounter }}
         options={{
           title: 'Add Entity',
           headerRight: () => <>
@@ -60,7 +51,7 @@ export const EncounterStackNavigator = () => {
       <Stack.Screen
         name="AddHero"
         component={AddEntity}
-        initialParams={{ mode: 'encounter' }}
+        initialParams={{ mode: EntityMode.encounter }}
         options={{
           title: 'Add Hero',
           headerRight: () => <>

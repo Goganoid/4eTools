@@ -4,18 +4,20 @@ import React from 'react';
 import { IconButton } from 'react-native-paper';
 import { CompendiumItemDetails } from '../components/Compendium/CompendiumItemDetails';
 import { CompendiumListViewer } from '../components/Compendium/CompendiumListViewer';
-import { CompendiumCategory, CompendiumCategoryMode, CompendiumListParams } from './CompendiumStackNavigator';
+import { CompendiumCategory, CompendiumCategoryMode } from './entityTypes';
+import { CompendiumCategoryParams, CompendiumListParams, PowerTrackerParams } from './navigatorTypes';
 
 
-export type CompendiumCategoryParams = {
-    Listing: { category: CompendiumCategory, mode:CompendiumCategoryMode },
-    ItemDetails: { category: CompendiumCategory, id: string, mode:CompendiumCategoryMode}
-}
+
 
 
 const Stack = createNativeStackNavigator<CompendiumCategoryParams>();
 
-export const CompendiumListStack = ({ navigation, route } : NativeStackScreenProps<CompendiumListParams,'CompendiumList'>) => {
+export const CompendiumListStack = ({ navigation, route }:
+    NativeStackScreenProps<CompendiumListParams, 'CompendiumList'>
+    | NativeStackScreenProps<PowerTrackerParams, 'AddPower'>
+
+    ) => {
     const category = route.params.category ?? {};
     if (category == undefined) throw 'Category is undefined';
 

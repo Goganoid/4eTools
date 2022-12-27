@@ -3,46 +3,12 @@ import React from 'react';
 import { Compendium } from '../components/Compendium/Compendium';
 import { configMainScreenTitle } from '../helpers/configMainScreenTitle';
 import { CompendiumListStack } from './CompendiumListStack';
+import { CompendiumListParams } from './navigatorTypes';
 
 
-export enum CompendiumCategory {
-    bestiary,
-    weapons,
-    trap,
-    theme,
-    ritual,
-    race,
-    power,
-    paragonpower,
-    epicdestinypower,
-    themepower,
-    poison,
-    paragonpath,
-    item,
-    implement,
-    glossary,
-    feat,
-    epicdestiny,
-    disease,
-    deity,
-    campaign,
-    class,
-    companion,
-    background,
-    armor
-}
-export enum CompendiumCategoryMode{
-    encounter,
-    group,
-    power,
-    compendium
-}
 
 
-export type CompendiumListParams = {
-    CompendiumMainPage: undefined,
-    CompendiumList: {category:CompendiumCategory, mode:CompendiumCategoryMode},
-};
+
 
 const Stack = createNativeStackNavigator<CompendiumListParams>();
 

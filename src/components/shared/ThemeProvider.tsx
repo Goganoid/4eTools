@@ -1,9 +1,8 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import { Provider } from 'react-native-paper';
 import { MD3LightTheme as DefaultTheme } from 'react-native-paper';
 const lightTheme = {
   ...DefaultTheme,
-  mode: 'adaptive',
   colors: {
     "text":"#000",
     "primary": "rgb(158, 42, 155)",
@@ -50,7 +49,6 @@ const lightTheme = {
 }
 const darkTheme = {
   ...DefaultTheme,
-  mode: 'adaptive',
   colors: {
     "text":"#fff",
     "primary": "rgb(255, 170, 243)",
@@ -97,7 +95,7 @@ const darkTheme = {
 }
 
 
-  export const CustomThemeProvider = ({ children }) => {
+  export const CustomThemeProvider = ({ children }:{children:ReactElement}) => {
     return (
       <Provider theme={lightTheme}>
         {children}

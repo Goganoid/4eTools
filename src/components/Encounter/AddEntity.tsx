@@ -8,7 +8,7 @@ import {
     useTheme
 } from 'react-native-paper';
 import { v4 as uuid } from 'uuid';
-import { getSavedEntities, saveEntity, updateEntity,removeEntity,setSavedEntities } from '../../data/storage';
+import { getSavedEntities, saveEntity, updateEntity, removeEntity, setSavedEntities } from '../../data/storage';
 import { createEntity } from '../../helpers/entities';
 import { EncounterContext } from '../../Navigators/MainDrawer';
 import { GroupContext } from '../../Navigators/GroupStackNavigator';
@@ -16,18 +16,21 @@ import { CustomThemeProvider } from '../shared/ThemeProvider';
 import { InputStat, InputStats } from './InputStats';
 import { SavedEntitiesTab } from './SavedEntitiesTab';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { EncounterStackParamList } from '../../Navigators/EncounterStackNavigator';
-export const AddEntity = ({ navigation, route }: NativeStackScreenProps<EncounterStackParamList, 'AddCardCustom'|'AddHero'>) => {
-    
+import { EntityMode, EncounterStackParamList } from '../../Navigators/navigatorTypes';
+import { Entity, EntityType } from '../../Navigators/entityTypes';
+export const AddEntity = ({ navigation, route }: NativeStackScreenProps<EncounterStackParamList, 'AddCardCustom' | 'AddHero'>) => {
+
     const mode = route.params.mode;
-    const context = mode == 'group' ? React.useContext(GroupContext) :
-        mode == 'encounter' ? React.useContext(EncounterContext) : null;
-    
+
+    console.log("Add entity mode ",mode)
+    const context = mode == EntityMode.group ? React.useContext(GroupContext) :
+        mode == EntityMode.encounter ? React.useContext(EncounterContext) : null;
+
     const theme = useTheme();
     const { isHeroTab } = route.params;
     const [id, setId] = useState(uuid());
     const [name, setName] = useState('');
-    const [entity_type, setType] = React.useState('enemy');
+    const [entity_type, setType] = React.useState<EntityType>(EntityType.Enemy);
     const [stats, setStats] = useState({
         hp: '',
         ac: '',
@@ -39,16 +42,17 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
 
     useEffect(() => {
         console.log('Setting hero type');
-        setType(isHeroTab ? 'hero' : entity_type);
+        setType(isHeroTab ? EntityType.Hero: entity_type);
     }, [isHeroTab]);
     useEffect(() => {
+        if (context == null) return;
         navigation.setOptions({
             headerRight: () => context && <>
                 <IconButton icon="content-save" onPress={save} />
                 <IconButton icon="check" onPress={create} />
             </>,
         });
-    }, [navigation, name, entity_type, stats,context]);
+    }, [navigation, name, entity_type, stats, context]);
 
     const getFieldValues = () => {
         return {
@@ -65,7 +69,7 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
         };
     };
 
-    const validateName = (name:string) => {
+    const validateName = (name: string) => {
         if (name.length == 0) {
             showMessage({
                 message: 'Name is required!',
@@ -77,19 +81,19 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
         return true;
     };
     const create = async () => {
+
         const values = getFieldValues();
 
         if (!validateName(values.name)) return;
 
         let entity = createEntity(
-            values.entity_type,
-            values.name,
-            values.stats,
+            {type:values.entity_type,
+            name:values.name,
+            stats:values.stats,}
         );
-        // DeviceEventEmitter.emit('event.addEntity', entity);
         console.log("Adding entity");
         console.log("Entity ", entity);
-        context.addEntity(entity);
+        context!.addEntity(entity);
         showMessage({
             message: `${isHeroTab ? 'Hero' : 'Entity'} was added`,
             type: 'info',
@@ -101,10 +105,12 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
         const values = getFieldValues();
         if (!validateName(values.name)) return;
         let entity = createEntity(
-            values.entity_type,
-            values.name,
-            values.stats,
-            custom_id = id,
+            {
+                type: values.entity_type,
+                name: values.name,
+                stats: values.stats,
+                custom_id: id as any,
+            }
         );
         setSavedEntities
         let ents = await getSavedEntities();
@@ -122,19 +128,19 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
         await updateDisplayedStoredEntities();
         setId(uuid());
     };
-    const removeSavedEntityHook = (entity) => {
+    const removeSavedEntityHook = (entity:Entity) => {
         let newEntities = { ...stored_entities };
-        delete newEntities[entity.uuid]
+        delete (newEntities as any)[entity.uuid]
         setStored_entities(newEntities);
-        setSavedEntities(newEntities,isHeroTab);
+        setSavedEntities(newEntities, isHeroTab);
     }
 
-    const [stored_entities, setStored_entities] = useState(null);
+    const [stored_entities, setStored_entities] = useState<object>({});
 
     const updateDisplayedStoredEntities = async () =>
         setStored_entities(await getSavedEntities(isHeroTab));
 
-    
+
     useEffect(() => {
         updateDisplayedStoredEntities();
     }, []);
@@ -161,16 +167,19 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
                     />
 
                     <RadioButton.Group
-                        onValueChange={newValue => setType(newValue)}
+                        onValueChange={newValue => {
+                            console.log("RADIO BUTTON ",newValue,newValue as EntityType);
+                            setType(newValue as EntityType)
+                        }}
                         value={entity_type}>
                         {isHeroTab ? null : (
                             <>
                                 <View style={styles.radio_item}>
-                                    <RadioButton value="enemy" />
+                                    <RadioButton value={EntityType.Enemy} />
                                     <Text>Enemy</Text>
                                 </View>
                                 <View style={styles.radio_item}>
-                                    <RadioButton value="hero" />
+                                    <RadioButton value={EntityType.Hero} />
                                     <Text>Hero</Text>
                                 </View>
                             </>
