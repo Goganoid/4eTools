@@ -135,7 +135,7 @@ const PowerTracker = ({ navigation, route }: NativeStackScreenProps<PowerTracker
             <View style={styles.element} >
                 <View style={styles.nameSection}>
                     <TouchableOpacity style={styles.title} onPress={() => power.power_id != null
-                        ? navigation.navigate("PowerDetails", { id: power.power_id, category: CompendiumCategory.power, mode:null })
+                        ? navigation.navigate("PowerDetails", { id: power.power_id, category: CompendiumCategory.power, mode:CompendiumCategoryMode.modal })
                         : navigation.navigate("CustomPowerDetails", { power })
                     }>
                         <View style={{ flexDirection: "row", alignItems: "center" }}>

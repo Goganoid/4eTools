@@ -94,16 +94,14 @@ export const getSavedEntities = async (isHero = false) => {
     }
 }
 
-export const saveCurrentEncounter = async ({ entities, id, name }) => {
+export const saveCurrentEncounter = async ({ entities }) => {
     try {
         console.log("Storing encounter in storeEncounterEntities ");
         const encounter = await AsyncStorage.getItem(encounter_key);
         let entities_string = JSON.stringify({
-            id,
-            name,
             entities: [...entities]
         });
-        console.log("Stringified entities", entities_string);
+        // console.log("Stringified entities", entities_string);
         await AsyncStorage.setItem(encounter_key, entities_string);
     }
     catch (e) {
@@ -117,9 +115,9 @@ export const getCurrentEncounter = async () => {
         console.log("Call to getCurrentEncounter");
         const entities = await AsyncStorage.getItem(encounter_key);
         if (entities == null) return [];
-        console.log("Entities from storage", entities);
+        // console.log("Entities from storage", entities);
         console.log("Parsed Entities from storage", JSON.parse(entities).entities);
-        console.log("Will return that", Object.values(JSON.parse(entities).entities));
+        // console.log("Will return that", Object.values(JSON.parse(entities).entities));
         return JSON.parse(entities);
     }
     catch (e) {

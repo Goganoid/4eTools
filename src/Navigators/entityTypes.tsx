@@ -6,7 +6,8 @@ export interface Power {
     type: string,
     action: string,
     notes: string,
-    power_id?: string
+    power_id?: string,
+    image_uri:string|null,
 }
 export interface Tracker {
     attacks: Array<any>,
@@ -39,6 +40,7 @@ export interface Entity {
     stats: Stats,
     initiativeRoll: number,
     conditions: Array<string>,
+    image_uri:string|null,
     monster_id?: string,
     combat_role?: string,
     group_role?: string,
@@ -47,9 +49,10 @@ export interface Entity {
 }
 
 export interface Encounter {
-    id: string,
-    name: string,
-    entities: Array<Entity>
+    id?: string,
+    name?: string,
+    entities: Array<Entity>,
+    loading: boolean,
 }
 
 export enum CompendiumCategory {
@@ -82,11 +85,17 @@ export enum CompendiumCategoryMode {
     encounter,
     group,
     power,
-    compendium
+    compendium,
+    modal,
 }
 
 export interface GroupEntity {
     id: string,
     name: string,
     entities: Array<Entity>,
+}
+
+export type Loading = {
+    loading: boolean
+    setLoading: (loading:boolean)=>void,
 }

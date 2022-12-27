@@ -1,4 +1,4 @@
-import { CompendiumCategoryMode, CompendiumCategory } from "./entityTypes";
+import { CompendiumCategoryMode, CompendiumCategory, Entity } from "./entityTypes";
 import { Power } from "./entityTypes";
 
 export enum EntityMode{
@@ -11,7 +11,7 @@ type ItemDetailsParams = { id: string, category: CompendiumCategory, mode: Compe
 type AddCardParams = { isHeroTab: boolean, mode: EntityMode };
 
 export type MainDrawerParamList = {
-    EncounterStack: undefined;
+    EncounterStack: {mode:EntityMode, groupId?:string};
     Groups: undefined;
     Compendium: undefined;
     Tracker: undefined;
@@ -38,9 +38,10 @@ export type GroupStackParamList = {
 };
   
 export type EncounterStackParamList = {
-    Encounter: undefined;
+    Encounter: {mode:EntityMode, groupId?:string};
     Details: ItemDetailsParams;
     ConditionDetails: ItemDetailsParams;
+    CustomEntityDetails: { entity: Entity };
     AddCardCustom: AddCardParams;
     AddHero: AddCardParams;
     AddMonster:{category:CompendiumCategory, mode:CompendiumCategoryMode};
@@ -48,7 +49,7 @@ export type EncounterStackParamList = {
   
 export type GroupsStackParamList = {
     GroupsTable: undefined,
-    Group: { id: string },
+    Group: { groupId: string, mode:EntityMode.group },
 };
 export type CompendiumCategoryParams = {
     Listing: CompendiumParams,

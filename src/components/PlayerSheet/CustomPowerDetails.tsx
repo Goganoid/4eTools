@@ -3,29 +3,38 @@ import React from 'react'
 import { View,StyleSheet } from 'react-native';
 import { Text } from 'react-native-paper'
 import { PowerTrackerParams } from '../../Navigators/navigatorTypes';
+import { URImage } from '../shared/ImageGallery';
+import { ModalContainer } from '../shared/ModalContainer';
 export const CustomPowerDetails = ({ navigation, route }:NativeStackScreenProps<PowerTrackerParams,'CustomPowerDetails'>) => {
     const power = route.params.power;
     return (
-        <View style={{padding:30}}>
-            <Text style={styles.bold_text}>{power.name}</Text>
-            <View style={styles.stats}>
-                <Text style={styles.stat}><Text style={styles.bold_text}>Level: </Text>{power.level}</Text>
-                <Text style={styles.stat}><Text style={styles.bold_text}>Action: </Text>{power.action}</Text>
-                <Text style={styles.stat}><Text style={styles.bold_text}>Type: </Text>{power.type}</Text>
+        <ModalContainer navigation={navigation}>
+            <View style={{justifyContent:"space-around",paddingVertical:"10%"}}>
+                <Text style={styles.name}>{power.name}</Text>
+                <View style={styles.stats}>
+                    <Text style={styles.stat}><Text style={styles.bold_text}>Level: </Text>{power.level}</Text>
+                    <Text style={styles.stat}><Text style={styles.bold_text}>Action: </Text>{power.action}</Text>
+                    <Text style={styles.stat}><Text style={styles.bold_text}>Type: </Text>{power.type}</Text>
+                </View>
+                {power.notes.length>0 && <Text style={styles.stat}><Text style={styles.bold_text}>Notes: </Text>{power.notes}</Text>}
+                {power.image_uri && URImage(power.image_uri)}
             </View>
-            <Text style={styles.stat}><Text style={styles.bold_text}>Notes: </Text>{power.notes}</Text>
-        </View>
+        </ModalContainer>
     )
 }
 
 const styles = StyleSheet.create({
     stat: {
         paddingVertical: 3,
+        fontSize:15,
+    },
+    name: {
+        fontWeight: "bold",
         fontSize:25,
     },
     bold_text: {
         fontWeight: "bold",
-        fontSize:25,
+        fontSize:15,
     },
     stats: {
         flexDirection: 'column',

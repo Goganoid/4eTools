@@ -10,7 +10,7 @@ import MenuDrawer from '../shared/MenuDrawer';
 import { CustomThemeProvider } from '../shared/ThemeProvider';
 import limitLength from '../../helpers/limitLength';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { GroupsStackParamList } from '../../Navigators/navigatorTypes';
+import { EntityMode, GroupsStackParamList } from '../../Navigators/navigatorTypes';
 export const GroupsScreen = ({ navigation, route }: NativeStackScreenProps<GroupsStackParamList, 'GroupsTable'>) => {
     const theme = useTheme();
     const [loading, setLoading] = React.useState(true);
@@ -62,7 +62,7 @@ export const GroupsScreen = ({ navigation, route }: NativeStackScreenProps<Group
                         {context.groups.map((group, index) => {
                             return (
                                 <Surface style={styles.group} key={index}>
-                                    <TouchableOpacity style={styles.groupContainer} key={index} onPress={() => navigation.navigate("Group", { id: group.id })}>
+                                    <TouchableOpacity style={styles.groupContainer} key={index} onPress={() => navigation.navigate("Group", { groupId: group.id, mode:EntityMode.group })}>
                                         <View style={styles.title}>
                                             <Text variant='titleMedium' style={styles.encounter_name}> {limitLength(group.name, 15)}</Text>
                                             <IconButton icon="plus-circle-outline" size={20} onPress={() => {

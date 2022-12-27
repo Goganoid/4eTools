@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, useWindowDimensions } from 'react-native';
+import { ScrollView, StyleSheet, useWindowDimensions } from 'react-native';
 import { showMessage } from 'react-native-flash-message';
 import { IconButton, useTheme } from 'react-native-paper';
 import RenderHtml, { defaultHTMLElementModels, HTMLContentModel } from 'react-native-render-html';
@@ -12,6 +12,7 @@ import { PowerTrackerContext } from '../../Navigators/PowerTrackerStack';
 import { CustomThemeProvider } from '../shared/ThemeProvider';
 import { CompendiumCategoryMode, CompendiumCategory } from '../../Navigators/entityTypes';
 import { CompendiumCategoryParams } from '../../Navigators/navigatorTypes';
+import { ModalContainer } from '../shared/ModalContainer';
 const headStyle = {
     fontSize: 20,
     padding: 0,
@@ -67,7 +68,6 @@ const classesStyles = {
 const tagsStyles = {
     body: {
         color: "black",
-        backgroundColor: "#f8f8f8"
     },
     p: {
         paddingHorizontal: 5,
@@ -93,10 +93,10 @@ export const CompendiumItemDetails = ({ route, navigation }: NativeStackScreenPr
     const mode = route.params.mode;
     const context: any =
         mode == CompendiumCategoryMode.group ? React.useContext(GroupContext) :
-            mode ==  CompendiumCategoryMode.encounter ? React.useContext(EncounterContext) :
+            mode == CompendiumCategoryMode.encounter ? React.useContext(EncounterContext) :
                 mode == CompendiumCategoryMode.power ? React.useContext(PowerTrackerContext) : null;
-    console.log(CompendiumCategory[category],mode, CompendiumCategoryMode[mode!], context, mode ==  CompendiumCategoryMode.encounter);
-    let details:any = {};
+    console.log(CompendiumCategory[category], mode, CompendiumCategoryMode[mode!], context, mode == CompendiumCategoryMode.encounter);
+    let details: any = {};
     if (category == CompendiumCategory.bestiary) details = require('../../data/monster/data.json');
     if (category == CompendiumCategory.weapons) details = require('../../data/weapons/data.json');
     if (category == CompendiumCategory.trap) details = require('../../data/trap/data.json');
@@ -165,20 +165,26 @@ export const CompendiumItemDetails = ({ route, navigation }: NativeStackScreenPr
             });
         }
     }
+
+    const view = <ScrollView style={{ paddingHorizontal: 10 }}>
+        <RenderHtml
+            contentWidth={width}
+            source={source}
+            // @ts-ignore
+            classesStyles={classesStyles}
+            tagsStyles={tagsStyles}
+            customHTMLElementModels={customHTMLElementModels}
+        />
+    </ScrollView>
+
     return (
         <CustomThemeProvider>
-            <ScrollView style={{ paddingHorizontal: 10, backgroundColor: "#f8f8f8" }}>
-                <RenderHtml
-                    contentWidth={width}
-                    source={source}
-                    // @ts-ignore
-                    classesStyles={classesStyles}
-                    tagsStyles={tagsStyles}
-                    customHTMLElementModels={customHTMLElementModels}
-                />
-            </ScrollView>
+            {
+                mode == CompendiumCategoryMode.modal
+                    ? <ModalContainer navigation={navigation}>{view}</ModalContainer>
+                    : view
+            }
         </CustomThemeProvider>
     )
 }
-
 

@@ -12,13 +12,15 @@ import { saveCurrentEncounter } from '../data/storage';
 import { isOnMainScreen } from '../helpers/isOnMainScreen';
 import { sortByInitiative } from '../helpers/sortByInitiative';
 import { CompendiumStackNavigator } from './CompendiumStackNavigator';
+import { EncounterStack } from './EncounterStack';
 import { EncounterStackNavigator } from './EncounterStackNavigator';
-import { Entity, Encounter } from './entityTypes';
+import { Entity, Encounter, Loading } from './entityTypes';
 import { GroupsStackNavigator } from './GroupsStackNavigator';
-import { MainDrawerParamList } from './navigatorTypes';
+import { EntityMode, MainDrawerParamList } from './navigatorTypes';
 import { PowerTrackerStack } from './PowerTrackerStack';
 
 export interface EncounterContextSetters{
+  setEncounter:(encounter:Encounter)=>void,
   setEncounterId:(newId:string)=>void,
   setEncounterName:(newName:string)=>void,
   setEntities:(entities:Array<Entity>)=>void,
@@ -30,20 +32,24 @@ export interface EncounterContextSetters{
 
 const Drawer = createDrawerNavigator<MainDrawerParamList>();
 
-export const EncounterContext = React.createContext<null | Encounter & EncounterContextSetters>(null);
+export const EncounterContext = React.createContext<null | Encounter & EncounterContextSetters & Loading>(null);
 
 
 
 export default function MainDrawer() {
   const { width } = useWindowDimensions();
   const theme = useTheme();
-
-  const [encounter, setEncounter] = React.useState<Encounter>({} as Encounter);
+  const initialContextState: Encounter = {
+    entities: [],
+    loading:true
+  }
+  const [encounter, setEncounter] = React.useState<Encounter>(initialContextState);
   const setEncounterAndSave = (newEncounter:Encounter) => {
-    console.log("Setting encounter and saving ")
+    console.log("Setting encounter and saving ",newEncounter)
     saveCurrentEncounter(newEncounter);
     setEncounter(newEncounter);
   }
+  const setLoading = (loading:boolean) => setEncounter({...encounter,loading:loading})
   const setEncounterId = (newId:string) => setEncounter({ ...encounter, id: newId });
   const setEncounterName = (newName:string) => setEncounter({ ...encounter, name: newName });
   const setEntities = (entities:Array<Entity>) => setEncounterAndSave({ ...encounter, entities: sortByInitiative(entities) });
@@ -61,6 +67,7 @@ export default function MainDrawer() {
   });
 
   const encounterContextSetters = {
+    setEncounter,
     setEncounterId,
     setEncounterName,
     setEntities,
@@ -72,12 +79,13 @@ export default function MainDrawer() {
   
   return (
     <CustomThemeProvider>
-      <EncounterContext.Provider value={{ ...encounter, ...encounterContextSetters }} >
+      <EncounterContext.Provider value={{ ...encounter, ...encounterContextSetters,setLoading }} >
         <NavigationContainer>
           <Drawer.Navigator initialRouteName="EncounterStack" screenOptions={{
             drawerActiveBackgroundColor: theme.colors.primaryContainer,
           }}>
-            <Drawer.Screen name="EncounterStack" component={EncounterStackNavigator}
+            <Drawer.Screen name="EncounterStack" component={EncounterStack}
+              initialParams={{mode:EntityMode.encounter}}
               options={({ route }) => {
                 const routeName = getFocusedRouteNameFromRoute(route) ?? 'Encounter';
                 const swipeEnabled = routeName == "Encounter";

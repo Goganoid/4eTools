@@ -12,6 +12,7 @@ import { filters } from '../../data/power/data';
 import { PowerTrackerParams } from '../../Navigators/navigatorTypes';
 import { PowerTrackerContext } from '../../Navigators/PowerTrackerStack';
 import { CustomThemeProvider } from '../shared/ThemeProvider';
+import { ImageSelector } from '../shared/ImageGallery';
 
 
 const powerItems =
@@ -51,7 +52,7 @@ export const AddCustomPower = ({ navigation, route }:NativeStackScreenProps<Powe
     const [actionType, setActionType] = useState<string|null>(null);
     const [notes, setNotes] = useState("");
     const [level, setLevel] = useState("");
-
+    const [imageUri, setImageUri] = useState<null | string>(null)
     const [powerTypeOpen, setPowerTypeOpen] = useState(false);
     const [actionTypeOpen, setActionTypeOpen] = useState(false);
     const [levelOpen, setLevelOpen] = useState(false);
@@ -74,7 +75,7 @@ export const AddCustomPower = ({ navigation, route }:NativeStackScreenProps<Powe
                 <IconButton icon="check" onPress={create} />
             </>,
         });
-    }, [navigation, context, powerType, actionType, notes, name]);
+    }, [navigation, context, powerType, actionType, notes, name,imageUri]);
 
     const showValidationError = (message:string) => {
         showMessage({
@@ -112,7 +113,8 @@ export const AddCustomPower = ({ navigation, route }:NativeStackScreenProps<Powe
             level,
             type: powerType!,
             action: actionType!,
-            notes
+            notes,
+            image_uri:imageUri
         })
         console.log("Adding power");
         console.log("power ", power);
@@ -175,6 +177,7 @@ export const AddCustomPower = ({ navigation, route }:NativeStackScreenProps<Powe
                         value={notes}
                         onChangeText={value => setNotes(value)}
                     />
+                    {ImageSelector(imageUri,setImageUri)}
                 </View>
             </View>
         </CustomThemeProvider>

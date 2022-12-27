@@ -127,22 +127,24 @@ export const PowerTrackerStack = () => {
                     options={{
                         title:"Power Tracker"
                     }} />
-                <Stack.Screen
-                    // @ts-ignore
-                    name="PowerDetails" component={CompendiumItemDetails}
-                    initialParams={{ category: "power" }}
-                    options={{
-                        title:"Power Details"
-                    }}
-                />
-                <Stack.Screen
-                    name="CustomPowerDetails"
-                    // @ts-ignore
-                    component={CustomPowerDetails}
-                    options={{
-                        title:"Power Details"
-                    }}
-                />
+                <Stack.Group screenOptions={{presentation:'containedTransparentModal',headerShown:false}}>
+                    <Stack.Screen
+                        // @ts-ignore
+                        name="PowerDetails" component={CompendiumItemDetails}
+                        initialParams={{ category: "power" }}
+                        options={{
+                            title:"Power Details"
+                        }}
+                    />
+                    <Stack.Screen
+                        name="CustomPowerDetails"
+                        // @ts-ignore
+                        component={CustomPowerDetails}
+                        options={{
+                            title: "Power Details",
+                        }}
+                    />
+                </Stack.Group>
                 <Stack.Screen
                     name="AddCustomPower"
                     // @ts-ignore

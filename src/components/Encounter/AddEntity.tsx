@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { ScrollView, StyleSheet, View } from 'react-native';
+import { ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
 import FlashMessage, { showMessage } from 'react-native-flash-message';
 import {
+    Button,
+    Divider,
     IconButton, RadioButton,
     Text,
     TextInput,
@@ -18,11 +20,12 @@ import { SavedEntitiesTab } from './SavedEntitiesTab';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { EntityMode, EncounterStackParamList } from '../../Navigators/navigatorTypes';
 import { Entity, EntityType } from '../../Navigators/entityTypes';
+import { ImageSelector, ShowImagePicker, URImage } from '../shared/ImageGallery';
 export const AddEntity = ({ navigation, route }: NativeStackScreenProps<EncounterStackParamList, 'AddCardCustom' | 'AddHero'>) => {
-
+    const { width } = useWindowDimensions();
     const mode = route.params.mode;
 
-    console.log("Add entity mode ",mode)
+    console.log("Add entity mode ", mode)
     const context = mode == EntityMode.group ? React.useContext(GroupContext) :
         mode == EntityMode.encounter ? React.useContext(EncounterContext) : null;
 
@@ -31,6 +34,7 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
     const [id, setId] = useState(uuid());
     const [name, setName] = useState('');
     const [entity_type, setType] = React.useState<EntityType>(EntityType.Enemy);
+    const [imageUri, setImageUri] = useState<null | string>(null)
     const [stats, setStats] = useState({
         hp: '',
         ac: '',
@@ -42,7 +46,7 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
 
     useEffect(() => {
         console.log('Setting hero type');
-        setType(isHeroTab ? EntityType.Hero: entity_type);
+        setType(isHeroTab ? EntityType.Hero : entity_type);
     }, [isHeroTab]);
     useEffect(() => {
         if (context == null) return;
@@ -52,7 +56,7 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
                 <IconButton icon="check" onPress={create} />
             </>,
         });
-    }, [navigation, name, entity_type, stats, context]);
+    }, [navigation, name, entity_type, stats, context, imageUri]);
 
     const getFieldValues = () => {
         return {
@@ -87,9 +91,12 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
         if (!validateName(values.name)) return;
 
         let entity = createEntity(
-            {type:values.entity_type,
-            name:values.name,
-            stats:values.stats,}
+            {
+                type: values.entity_type,
+                name: values.name,
+                stats: values.stats,
+                image_uri: imageUri,
+            }
         );
         console.log("Adding entity");
         console.log("Entity ", entity);
@@ -110,6 +117,7 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
                 name: values.name,
                 stats: values.stats,
                 custom_id: id as any,
+                image_uri:imageUri,
             }
         );
         setSavedEntities
@@ -128,7 +136,7 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
         await updateDisplayedStoredEntities();
         setId(uuid());
     };
-    const removeSavedEntityHook = (entity:Entity) => {
+    const removeSavedEntityHook = (entity: Entity) => {
         let newEntities = { ...stored_entities };
         delete (newEntities as any)[entity.uuid]
         setStored_entities(newEntities);
@@ -155,6 +163,7 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
                     setType,
                     setId,
                     setStats,
+                    setImageUri,
                     removeSavedEntityHook
                 )}
                 <View style={styles.add_entity_view}>
@@ -168,7 +177,6 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
 
                     <RadioButton.Group
                         onValueChange={newValue => {
-                            console.log("RADIO BUTTON ",newValue,newValue as EntityType);
                             setType(newValue as EntityType)
                         }}
                         value={entity_type}>
@@ -196,6 +204,7 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
                     />
                     <Text variant="titleLarge">Stats</Text>
                     {InputStats(stats, setStats)}
+                    {ImageSelector(imageUri,setImageUri)}
                 </View>
             </ScrollView>
         </CustomThemeProvider>

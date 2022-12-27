@@ -8,6 +8,7 @@ export function SavedEntitiesTab(isHeroTab: boolean,
     setType: (type: any) => void,
     setId: (id: string) => void,
     setStats: (stats: any) => void,
+    setImageUri:(uri:string) => void,
     removeEntity:(entity:Entity)=>void) {
 
 
@@ -26,6 +27,7 @@ export function SavedEntitiesTab(isHeroTab: boolean,
                             setName(entity.name);
                             setType(entity.type);
                             setId(entity.uuid);
+                            setImageUri(entity.image_uri);
                             console.log(entity.stats);
                             const newStats = {
                                 hp: entity.stats.hp.toString(),
