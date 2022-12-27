@@ -2,7 +2,7 @@ import { NativeStackScreenProps } from '@react-navigation/native-stack'
 import React from 'react'
 import { View, ScrollView, StyleSheet } from 'react-native'
 import { Text } from 'react-native-paper'
-import { EncounterStackParamList } from '../../Navigators/navigatorTypes'
+import { EncounterStackParamList } from '../../types/navigatorTypes'
 import { URImage } from '../shared/ImageGallery'
 import { ModalContainer } from '../shared/ModalContainer'
 export const CustomEntityDetails = ({ navigation, route }: NativeStackScreenProps<EncounterStackParamList, 'CustomEntityDetails'>) => {

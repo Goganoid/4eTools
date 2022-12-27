@@ -7,8 +7,8 @@ import { ActivityIndicator, Divider, Searchbar, Text, useTheme } from 'react-nat
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import capitalize from '../../helpers/capitalize';
 import limitLength from '../../helpers/limitLength';
-import { CompendiumCategory } from '../../Navigators/entityTypes';
-import { CompendiumCategoryParams } from '../../Navigators/navigatorTypes';
+import { Category } from '../../types/entityTypes';
+import { CompendiumCategoryParams } from '../../types/navigatorTypes';
 var clone = require('clone');
 
 interface DisplayConfig{
@@ -24,8 +24,8 @@ export interface CompendiumData {
 }
 
 export const CompendiumListViewer = ({ navigation, route }: NativeStackScreenProps<CompendiumCategoryParams, 'Listing'>) => {
-    const category = route?.params.category;
-    console.log("Category ", category);
+    const category = route.params.category;
+    if (category == undefined) throw "Undefined category in CompendiumListViewer";
     const theme = useTheme();
 
     const [loading, setLoading] = useState(true);
@@ -55,7 +55,7 @@ export const CompendiumListViewer = ({ navigation, route }: NativeStackScreenPro
                                     value = limitLength(value, 30)
                                 }
                                 else {
-                                    console.log(`Strange value ${value} in ${item}`);
+                                    console.log(`Strange value ${value} in ${item} detected while rendering item in CompendiumListViewer`);
                                 }
                                 return <Text style={styles.stat} key={index}><Text style={styles.bold_text}>{label}: </Text>{value}</Text>
                             })
@@ -81,14 +81,6 @@ export const CompendiumListViewer = ({ navigation, route }: NativeStackScreenPro
                         if (isArray) return item[filterKey].some((value:string) => value.toLowerCase().includes(filter.value.toLowerCase()));
                     }
                     else if (filter.searchMethod == 'equal') {
-                        if (item.name == "Communal Weapon") {
-                            console.log(item.name);
-                            console.log({
-                                isString,
-                                isArray,
-                                check: item[filterKey] != filter.value
-                            })
-                        }
                         if (isString && item[filterKey] != filter.value) return false;
                         if (isArray) return item[filterKey].some((value:string) => value == filter.value);
                     }
@@ -101,7 +93,6 @@ export const CompendiumListViewer = ({ navigation, route }: NativeStackScreenPro
         );
 
     const configure = (data: CompendiumData) => {
-        console.log("Configuring using data ", Object.keys(data));
         setListing(data.listing);
         setItemDisplayConfig(data.itemDisplayConfig);
         let categoryDataFilters = clone(data.filters);
@@ -121,29 +112,29 @@ export const CompendiumListViewer = ({ navigation, route }: NativeStackScreenPro
 
     useEffect(() => {
 
-        if (category == CompendiumCategory.bestiary) import(`../../data/monster/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.weapons) import(`../../data/weapons/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.trap) import(`../../data/trap/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.theme) import(`../../data/theme/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.ritual) import(`../../data/ritual/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.race) import(`../../data/race/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.power) import(`../../data/power/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.paragonpower) import(`../../data/paragonpower/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.themepower) import(`../../data/themepower/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.epicdestinypower) import(`../../data/epicdestinypower/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.poison) import(`../../data/poison/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.paragonpath) import(`../../data/paragonpath/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.item) import(`../../data/item/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.implement) import(`../../data/implement/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.glossary) import(`../../data/glossary/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.feat) import(`../../data/feat/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.epicdestiny) import(`../../data/epicdestiny/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.disease) import(`../../data/disease/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.deity) import(`../../data/deity/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.companion) import(`../../data/companion/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.class) import(`../../data/class/data.js`).then(data => configure(data as unknown as CompendiumData));
-        if (category == CompendiumCategory.background) import(`../../data/background/data.js`).then(data => configure(data as CompendiumData));
-        if (category == CompendiumCategory.armor) import(`../../data/armor/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.bestiary) import(`../../data/monster/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.weapons) import(`../../data/weapons/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.trap) import(`../../data/trap/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.theme) import(`../../data/theme/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.ritual) import(`../../data/ritual/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.race) import(`../../data/race/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.power) import(`../../data/power/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.paragonpower) import(`../../data/paragonpower/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.themepower) import(`../../data/themepower/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.epicdestinypower) import(`../../data/epicdestinypower/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.poison) import(`../../data/poison/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.paragonpath) import(`../../data/paragonpath/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.item) import(`../../data/item/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.implement) import(`../../data/implement/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.glossary) import(`../../data/glossary/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.feat) import(`../../data/feat/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.epicdestiny) import(`../../data/epicdestiny/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.disease) import(`../../data/disease/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.deity) import(`../../data/deity/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.companion) import(`../../data/companion/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.class) import(`../../data/class/data.js`).then(data => configure(data as unknown as CompendiumData));
+        if (category == Category.background) import(`../../data/background/data.js`).then(data => configure(data as CompendiumData));
+        if (category == Category.armor) import(`../../data/armor/data.js`).then(data => configure(data as CompendiumData));
     }, [])
 
 
@@ -157,8 +148,6 @@ export const CompendiumListViewer = ({ navigation, route }: NativeStackScreenPro
         setFilters(newFilters);
     }
     const setValueOrUnselect = (newValue:string, currentValue:string, setValue:(value:any)=>void) => {
-        console.log("Setting value");
-        console.log(`From ${currentValue} to ${newValue}`);
         if (currentValue == newValue) {
             setValue(null);
         }
@@ -170,12 +159,8 @@ export const CompendiumListViewer = ({ navigation, route }: NativeStackScreenPro
 
     const setProp = (key:string, propName:string, propValue:any) => {
         let newFilters = { ...filters };
-        console.log(`Setting ${propName} from ${newFilters[key][propName]} to ${propValue} in ${key}`);
         newFilters[key][propName] = propValue;
-        console.log("ERROR");
-        console.log(newFilters);
         setFilters(newFilters);
-        console.log("AFTER SET")
     }
 
     return (<>

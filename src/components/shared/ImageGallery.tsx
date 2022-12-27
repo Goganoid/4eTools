@@ -1,10 +1,7 @@
-import { launchImageLibrary, ImageLibraryOptions, ErrorCode } from 'react-native-image-picker';
-import { Image, StyleSheet } from 'react-native';
-import { Alert } from 'react-native';
-import { View } from 'react-native';
-import { Button, Text, useTheme } from 'react-native-paper';
-import { useWindowDimensions } from 'react-native';
 import React from 'react';
+import { Alert, Image, StyleSheet, View } from 'react-native';
+import { ImageLibraryOptions, launchImageLibrary } from 'react-native-image-picker';
+import { Button } from 'react-native-paper';
 
 const options: ImageLibraryOptions = {
     mediaType: 'photo',
@@ -67,4 +64,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export { ShowImagePicker, URImage, ImageSelector }
+export { ShowImagePicker, URImage, ImageSelector };

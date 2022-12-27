@@ -1,40 +1,34 @@
 import React, { useContext, useState } from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
-import { ActivityIndicator, IconButton, Text,TextInput, TouchableRipple, useTheme } from 'react-native-paper';
+import { ActivityIndicator, IconButton, Text, TextInput, TouchableRipple, useTheme } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { getCurrentEncounter } from '../../data/storage';
 import { roll20 } from "../../helpers/roll20";
 import { CustomThemeProvider } from '../shared/ThemeProvider';
 import { EncounterControls } from './EncounterControls';
-import { EntityCard } from './EntityCard';
+import { EntityCard } from './EntityCard/EntityCard';
 import { sortByInitiative } from '../../helpers/sortByInitiative';
 import MenuDrawer from '../shared/MenuDrawer';
 import { NavigationProp } from '@react-navigation/native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { Entity } from '../../Navigators/entityTypes';
-import { EncounterContext } from '../../Navigators/MainDrawer';
-import { EncounterStackParamList, EntityMode } from '../../Navigators/navigatorTypes';
-import { GroupContext, GroupContextType } from '../../Navigators/GroupStackNavigator';
+import { Entity } from '../../types/entityTypes';
+import { EncounterContext } from '../../context/EncounterContext';
+import { EncounterStackParamList, EncounterMode } from '../../types/navigatorTypes';
+import { GroupContext, GroupContextType } from '../../context/GroupContext';
 
 
 
 export const Encounter = ({ navigation, route }: NativeStackScreenProps<EncounterStackParamList, 'Encounter'>) => {
     const mode = route.params.mode;
-    console.log("ENCOUNTER MODE ", EntityMode[route.params.mode]);
-
     const theme = useTheme();
-    const [loading, setLoading] = useState(true);
     const [state, setState] = useState({ open: false });
     const onStateChange = ({ open }: { open: boolean }) => setState({ open });
     const { open } = state;
     const [turn, setTurn] = useState(0);
 
-    const context = mode == EntityMode.encounter
+    const context = mode == EncounterMode.encounter
         ? useContext(EncounterContext)
-        : mode == EntityMode.group ? useContext(GroupContext) : null;
-    
-    console.log("CONTEXT ", context);
-
+        : mode == EncounterMode.group ? useContext(GroupContext) : null;
     if (context == null) throw "Unknown mode passed to Encounter";
 
     const prevTurn = () => {
@@ -49,9 +43,7 @@ export const Encounter = ({ navigation, route }: NativeStackScreenProps<Encounte
     const setEntityStat = (entity: Entity, statName: string, statValue: any) => {
         statValue = parseInt(statValue) || 0;
         let newEntities = context.entities.map(e => {
-            console.log(e.uuid, entity.uuid, e.uuid === entity.uuid);
             if (e.uuid === entity.uuid) {
-                console.log("Found");
                 (e.stats as any)[statName] = statValue;
             }
             return e;
@@ -60,7 +52,6 @@ export const Encounter = ({ navigation, route }: NativeStackScreenProps<Encounte
     }
     const setConditions = (entity: Entity, conditions: Array<string>) => {
         let newEntities = context.entities.map(e => {
-            console.log(e.uuid, entity.uuid, e.uuid === entity.uuid);
             if (e.uuid === entity.uuid) {
                 e.conditions = conditions;
             }
@@ -69,38 +60,21 @@ export const Encounter = ({ navigation, route }: NativeStackScreenProps<Encounte
         context.setEntities(newEntities)
     }
     React.useEffect(() => {
-        if (loading) {
-            if (mode == EntityMode.group) {
-                setLoading(false);
-                return;
-            }
-            // console.log("Loading entities first time");
-            // getCurrentEncounter().then(value => {
-            //     console.log("Loaded:", value);
-            //     if (value.id != undefined) context.setEncounterId(value.id);
-            //     if (value.name != undefined) context.setEncounterName(value.name);
-            //     context.setEntities(value.entities ?? []);
-            //     setLoading(false);
-            // });
-        }
-        else {
+        if ("loading" in context && !context.loading) {
             if (context.entities.length == 0) setTurn(0);
             else if (context.entities.length - 1 < turn) setTurn(context.entities.length - 1);
         }
     }, [context.entities])
-
-
-
     React.useEffect(() => {
         navigation.setOptions({
-            headerLeft: () => MenuDrawer(navigation),
+            headerLeft: () =>mode==EncounterMode.encounter && MenuDrawer(navigation),
             headerRight: () => (
                 <>
-                    {mode == EntityMode.encounter
+                    {mode == EncounterMode.encounter
                         ? <IconButton icon="dice-d20" onPress={reroll} />
                         : <IconButton icon="delete" onPress={() => {
                             navigation.goBack();
-                            if("removeGroup" in context) context!.removeGroup();
+                            if ("removeGroup" in context) context!.removeGroup();
                         }} />}
                 </>
             ),
@@ -114,29 +88,30 @@ export const Encounter = ({ navigation, route }: NativeStackScreenProps<Encounte
         context.setEntities(sortByInitiative(newEntities));
     }
     console.log("Render encounter entities:", context.entities?.length);
-    const InitiativeControl = <View style={{ ...styles.bottom_bar, backgroundColor: theme.colors.primaryContainer, }}>
-        <TouchableRipple style={styles.bottom_side_item} onPress={() => prevTurn()}>
-            <Icon name='chevron-left' size={40} style={{ color: "black" }} />
-        </TouchableRipple>
-        <TouchableRipple style={styles.bottom_center_item} onPress={() => nextRound()}>
-            <View>
-                <Text>NEXT ROUND</Text>
-            </View>
-        </TouchableRipple>
-        <TouchableRipple style={styles.bottom_side_item} onPress={() => nextTurn()}>
-            <Icon name='chevron-right' size={40} style={{ color: "black" }} />
-        </TouchableRipple>
-    </View>;
+    const InitiativeControl =
+        <View style={{ ...styles.bottom_bar, backgroundColor: theme.colors.primaryContainer, }}>
+            <TouchableRipple style={styles.bottom_side_item} onPress={() => prevTurn()}>
+                <Icon name='chevron-left' size={40} style={{ color: "black" }} />
+            </TouchableRipple>
+            <TouchableRipple style={styles.bottom_center_item} onPress={() => nextRound()}>
+                <View>
+                    <Text>NEXT ROUND</Text>
+                </View>
+            </TouchableRipple>
+            <TouchableRipple style={styles.bottom_side_item} onPress={() => nextTurn()}>
+                <Icon name='chevron-right' size={40} style={{ color: "black" }} />
+            </TouchableRipple>
+        </View>;
     return (
         <CustomThemeProvider>
             <>
-                { (context as any).loading
+                {(context as any).loading
                     ? <View style={styles.activity_indicator_container}>
                         <ActivityIndicator animating={true} />
                     </View>
                     : <ScrollView contentContainerStyle={{ paddingBottom: 100 }}>
 
-                        {mode == EntityMode.group &&
+                        {mode == EncounterMode.group && "name" in context &&
                             <TextInput label='Name' value={context.name} onChangeText={context.setEncounterName} />}
                         {context.entities.map((entity, index) =>
                             <EntityCard
@@ -146,13 +121,13 @@ export const Encounter = ({ navigation, route }: NativeStackScreenProps<Encounte
                                 setStat={setEntityStat}
                                 setConditions={setConditions}
                                 mode={mode}
-                                highlight={index == turn && mode==EntityMode.encounter}
-                                showInitiative = {mode==EntityMode.encounter}
+                                highlight={index == turn && mode == EncounterMode.encounter}
+                                showInitiative={mode == EncounterMode.encounter}
                             />
                         )}
                     </ScrollView>
                 }
-                {mode==EntityMode.encounter && InitiativeControl}
+                {mode == EncounterMode.encounter && InitiativeControl}
                 {<EncounterControls
                     open={open}
                     navigation={navigation}

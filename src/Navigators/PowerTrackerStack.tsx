@@ -3,13 +3,14 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 import { IconButton } from 'react-native-paper';
 import { CompendiumItemDetails } from '../components/Compendium/CompendiumItemDetails';
-import { AddCustomPower } from '../components/PlayerSheet/AddCustomPower';
-import { CustomPowerDetails } from '../components/PlayerSheet/CustomPowerDetails';
-import PowerTracker from '../components/PlayerSheet/PowerTracker';
+import { AddCustomPower } from '../components/PowerTracker/AddCustomPower';
+import { CustomPowerDetails } from '../components/PowerTracker/CustomPowerDetails';
+import PowerTracker from '../components/PowerTracker/PowerTracker';
 import { savePowerTracker } from '../data/storage';
-import { configMainScreenTitle } from '../helpers/configMainScreenTitle';
+import { configListingTitle } from '../helpers/configListingTitle';
 import { CompendiumListStack } from './CompendiumListStack';
-import { CompendiumCategory, CompendiumCategoryMode, Tracker } from './entityTypes';
+import { Category, CategoryMode, Tracker } from '../types/entityTypes';
+import { PowerTrackerParams } from '../types/navigatorTypes';
 
 
 
@@ -32,7 +33,6 @@ export interface TrackerSetters{
 }
 
 
-// @ts-ignore
 const Stack = createNativeStackNavigator<PowerTrackerParams>();
 
 
@@ -100,7 +100,7 @@ export const PowerTrackerStack = () => {
     const setSurges = (surges:number) => setTrackerAndSave({ ...tracker, surges });
     const setMaxSurges = (maxSurges:number) => setTrackerAndSave({ ...tracker, maxSurges });
     const trackerContextSetters = {
-        setTracker,
+        setTracker:setTrackerAndSave,
         setPowers,
         setChecked,
         setAttacks,
@@ -131,7 +131,7 @@ export const PowerTrackerStack = () => {
                     <Stack.Screen
                         // @ts-ignore
                         name="PowerDetails" component={CompendiumItemDetails}
-                        initialParams={{ category: "power" }}
+                        initialParams={{ category: Category.power, mode:CategoryMode.modal }}
                         options={{
                             title:"Power Details"
                         }}
@@ -158,8 +158,8 @@ export const PowerTrackerStack = () => {
                 <Stack.Screen name="AddPower"
                      // @ts-ignore
                     component={CompendiumListStack}
-                    initialParams={{ category: CompendiumCategory.power, mode: CompendiumCategoryMode.power }}
-                    options={({ route }) => { return configMainScreenTitle(route, 'AddPower') }}
+                    initialParams={{ category: Category.power, mode: CategoryMode.power }}
+                    options={({ route }) => { return configListingTitle(route, 'Add Power') }}
                 />
             </Stack.Navigator>
         </PowerTrackerContext.Provider>

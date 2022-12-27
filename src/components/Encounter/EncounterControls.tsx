@@ -2,8 +2,8 @@ import React from 'react';
 import { FAB, Portal } from 'react-native-paper';
 import { StyleSheet } from 'react-native';
 import { NativeStackNavigationProp, NativeStackScreenProps } from '@react-navigation/native-stack';
-import { EncounterStackParamList, GroupStackParamList } from '../../Navigators/navigatorTypes';
-import { CompendiumCategory } from '../../Navigators/entityTypes';
+import { EncounterStackParamList, GroupStackParamList } from '../../types/navigatorTypes';
+import { Category } from '../../types/entityTypes';
 type Props = {
     navigation: NativeStackNavigationProp<EncounterStackParamList, 'Encounter'>
     |NativeStackNavigationProp<GroupStackParamList, "EntitiesList">,
@@ -37,7 +37,7 @@ export function EncounterControls({ open, navigation, onStateChange }:Props) {
                     icon: 'emoticon-devil',
                     label: 'Enemy',
                      // @ts-ignore
-                    onPress: () => navigation.navigate("AddMonster",{category:CompendiumCategory.bestiary}),
+                    onPress: () => navigation.navigate("AddMonster"),
                 },
             ]}
             onStateChange={onStateChange} />

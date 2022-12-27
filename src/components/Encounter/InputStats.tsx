@@ -1,8 +1,6 @@
 import React from 'react';
-import { StyleSheet } from 'react-native';
-import { View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { TextInput } from 'react-native-paper';
-import { AnchorTagName } from 'react-native-render-html';
 export const statNames = {
     hp: 'HP',
     ac: 'AC',

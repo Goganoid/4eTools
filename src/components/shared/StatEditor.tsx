@@ -1,25 +1,38 @@
-import React from 'react';
-import { View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { StyleSheet, View } from 'react-native';
 import { Button, Dialog, TextInput } from 'react-native-paper';
-import { styles } from '../Encounter/Stat';
 
 type Props = {
     isDialogVisible: boolean,
     setIsDialogVisible: (visible: boolean) => void,
     statName: string,
-    value: any,
-    setValue: (value: any) => void,
-    onChange?: (value: any) => void,
+    value: number,
+    onSubmit?: (value: number) => void,
 }
 
-export function StatEditor({ isDialogVisible, setIsDialogVisible, statName, value, setValue, onChange }:Props) {
-    const ChangeByButton = ({ modifier }:{modifier:number}) => {
+export function StatEditor({ isDialogVisible, setIsDialogVisible, statName, value, onSubmit }: Props) {
+
+    const [text, setText] = useState(value.toString())
+
+    const ChangeByButton = ({ modifier }: { modifier: number }) => {
         return <Button style={styles.changeby} mode="contained" onPress={() => {
-            const parsed = parseInt(value) || 0;
+            const parsed = parseInt(text) || 0;
             let newValue = (parsed + modifier);
-            setValue(newValue.toString());
+            setText(newValue.toString());
         }}>{modifier > 0 && '+'}{modifier}</Button>;
     };
+
+    useEffect(() => {
+        setText(value.toString() || '');
+    },[value])
+
+    const onChangeText = (newText:string) => {
+        const cleanText = newText.replace(/[,\.\s]/g, "");
+        let parsed = parseInt(cleanText);
+        if (parsed > 2000) return;
+        else if (parsed < -2000) return;
+        else setText(cleanText)
+    }
 
     return <Dialog
         visible={isDialogVisible}
@@ -35,9 +48,9 @@ export function StatEditor({ isDialogVisible, setIsDialogVisible, statName, valu
                 <TextInput
                     keyboardType='number-pad'
                     mode='outlined'
-                    value={value}
+                    value={text}
                     maxLength={5}
-                    onChangeText={value => setValue(value)}
+                    onChangeText={onChangeText}
                     style={styles.input} />
                 <View>
                     <ChangeByButton modifier={-1} />
@@ -48,10 +61,22 @@ export function StatEditor({ isDialogVisible, setIsDialogVisible, statName, valu
         </Dialog.Content>
         <Dialog.Actions>
             <Button onPress={() => {
-                if (onChange)
-                    onChange(value);
+                if (onSubmit) {
+                    onSubmit(parseInt(text)||0);
+                }
+
                 setIsDialogVisible(false);
             }}>Done</Button>
         </Dialog.Actions>
     </Dialog>;
 }
+
+const styles = StyleSheet.create({
+    input: {
+        marginHorizontal: 10,
+        padding: 10
+    },
+    changeby: {
+        marginTop: 10,
+    }
+});

@@ -1,34 +1,29 @@
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import React, { useEffect, useState } from 'react';
 import { ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
-import FlashMessage, { showMessage } from 'react-native-flash-message';
+import { showMessage } from 'react-native-flash-message';
 import {
-    Button,
-    Divider,
     IconButton, RadioButton,
     Text,
     TextInput,
     useTheme
 } from 'react-native-paper';
 import { v4 as uuid } from 'uuid';
-import { getSavedEntities, saveEntity, updateEntity, removeEntity, setSavedEntities } from '../../data/storage';
+import { EncounterContext } from '../../context/EncounterContext';
+import { GroupContext } from '../../context/GroupContext';
+import { getSavedEntities, saveEntity, setSavedEntities, updateEntity } from '../../data/storage';
 import { createEntity } from '../../helpers/entities';
-import { EncounterContext } from '../../Navigators/MainDrawer';
-import { GroupContext } from '../../Navigators/GroupStackNavigator';
+import { Entity, EntityType } from '../../types/entityTypes';
+import { EncounterMode, EncounterStackParamList } from '../../types/navigatorTypes';
+import { ImageSelector } from '../shared/ImageGallery';
 import { CustomThemeProvider } from '../shared/ThemeProvider';
 import { InputStat, InputStats } from './InputStats';
 import { SavedEntitiesTab } from './SavedEntitiesTab';
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { EntityMode, EncounterStackParamList } from '../../Navigators/navigatorTypes';
-import { Entity, EntityType } from '../../Navigators/entityTypes';
-import { ImageSelector, ShowImagePicker, URImage } from '../shared/ImageGallery';
 export const AddEntity = ({ navigation, route }: NativeStackScreenProps<EncounterStackParamList, 'AddCardCustom' | 'AddHero'>) => {
-    const { width } = useWindowDimensions();
     const mode = route.params.mode;
 
-    console.log("Add entity mode ", mode)
-    const context = mode == EntityMode.group ? React.useContext(GroupContext) :
-        mode == EntityMode.encounter ? React.useContext(EncounterContext) : null;
-
+    const context = mode == EncounterMode.group ? React.useContext(GroupContext) :
+        mode == EncounterMode.encounter ? React.useContext(EncounterContext) : null;
     const theme = useTheme();
     const { isHeroTab } = route.params;
     const [id, setId] = useState(uuid());
@@ -45,7 +40,6 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
     });
 
     useEffect(() => {
-        console.log('Setting hero type');
         setType(isHeroTab ? EntityType.Hero : entity_type);
     }, [isHeroTab]);
     useEffect(() => {
@@ -85,7 +79,6 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
         return true;
     };
     const create = async () => {
-
         const values = getFieldValues();
 
         if (!validateName(values.name)) return;
@@ -120,7 +113,6 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
                 image_uri:imageUri,
             }
         );
-        setSavedEntities
         let ents = await getSavedEntities();
         console.log('Saving entity with id', id);
         if (ents[id] != undefined) {
@@ -153,6 +145,24 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
         updateDisplayedStoredEntities();
     }, []);
 
+    const EnemyTypeSelector = <RadioButton.Group
+        onValueChange={newValue => {
+            setType(newValue as EntityType);
+        } }
+        value={entity_type}>
+        {isHeroTab ? null : (
+            <>
+                <View style={styles.radio_item}>
+                    <RadioButton value={EntityType.Enemy} />
+                    <Text>Enemy</Text>
+                </View>
+                <View style={styles.radio_item}>
+                    <RadioButton value={EntityType.Hero} />
+                    <Text>Hero</Text>
+                </View>
+            </>
+        )}
+    </RadioButton.Group>;
     return (
         <CustomThemeProvider>
             <ScrollView>
@@ -174,27 +184,8 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
                         value={name}
                         onChangeText={value => setName(value)}
                     />
-
-                    <RadioButton.Group
-                        onValueChange={newValue => {
-                            setType(newValue as EntityType)
-                        }}
-                        value={entity_type}>
-                        {isHeroTab ? null : (
-                            <>
-                                <View style={styles.radio_item}>
-                                    <RadioButton value={EntityType.Enemy} />
-                                    <Text>Enemy</Text>
-                                </View>
-                                <View style={styles.radio_item}>
-                                    <RadioButton value={EntityType.Hero} />
-                                    <Text>Hero</Text>
-                                </View>
-                            </>
-                        )}
-                    </RadioButton.Group>
+                    {EnemyTypeSelector}
                     <Text variant="titleLarge">Initiative</Text>
-
                     <InputStat
                         statName={'Initiative'}
                         setStats={setStats}

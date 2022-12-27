@@ -6,12 +6,12 @@ import RenderHtml, { defaultHTMLElementModels, HTMLContentModel } from 'react-na
 // import { EncounterContext } from '../../App';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { createEnemy, createPower } from '../../helpers/entities';
-import { GroupContext } from '../../Navigators/GroupStackNavigator';
-import { EncounterContext } from '../../Navigators/MainDrawer';
+import { GroupContext } from '../../context/GroupContext';
+import { EncounterContext } from '../../context/EncounterContext';
 import { PowerTrackerContext } from '../../Navigators/PowerTrackerStack';
 import { CustomThemeProvider } from '../shared/ThemeProvider';
-import { CompendiumCategoryMode, CompendiumCategory } from '../../Navigators/entityTypes';
-import { CompendiumCategoryParams } from '../../Navigators/navigatorTypes';
+import { CategoryMode, Category } from '../../types/entityTypes';
+import { CompendiumCategoryParams } from '../../types/navigatorTypes';
 import { ModalContainer } from '../shared/ModalContainer';
 const headStyle = {
     fontSize: 20,
@@ -91,40 +91,42 @@ export const CompendiumItemDetails = ({ route, navigation }: NativeStackScreenPr
     const theme = useTheme();
     const { id, category } = route.params;
     const mode = route.params.mode;
+
+    if (category == undefined) throw "Category is undefined in CompendiumItemDetails";
+    if (mode == undefined) throw "Mode is undefined in CompendiumItemDetails";
+
     const context: any =
-        mode == CompendiumCategoryMode.group ? React.useContext(GroupContext) :
-            mode == CompendiumCategoryMode.encounter ? React.useContext(EncounterContext) :
-                mode == CompendiumCategoryMode.power ? React.useContext(PowerTrackerContext) : null;
-    console.log(CompendiumCategory[category], mode, CompendiumCategoryMode[mode!], context, mode == CompendiumCategoryMode.encounter);
+        mode == CategoryMode.group ? React.useContext(GroupContext) :
+            mode == CategoryMode.encounter ? React.useContext(EncounterContext) :
+                mode == CategoryMode.power ? React.useContext(PowerTrackerContext) : null;
     let details: any = {};
-    if (category == CompendiumCategory.bestiary) details = require('../../data/monster/data.json');
-    if (category == CompendiumCategory.weapons) details = require('../../data/weapons/data.json');
-    if (category == CompendiumCategory.trap) details = require('../../data/trap/data.json');
-    if (category == CompendiumCategory.theme) details = require('../../data/theme/data.json');
-    if (category == CompendiumCategory.ritual) details = require('../../data/ritual/data.json');
-    if (category == CompendiumCategory.race) details = require('../../data/race/data.json');
-    if (category == CompendiumCategory.power) details = require('../../data/power/data.json');
-    if (category == CompendiumCategory.paragonpower) details = require('../../data/paragonpower/data.json');
-    if (category == CompendiumCategory.themepower) details = require('../../data/themepower/data.json');
-    if (category == CompendiumCategory.epicdestinypower) details = require('../../data/epicdestinypower/data.json');
-    if (category == CompendiumCategory.poison) details = require('../../data/poison/data.json');
-    if (category == CompendiumCategory.paragonpath) details = require('../../data/paragonpath/data.json');
-    if (category == CompendiumCategory.item) details = require('../../data/item/data.json');
-    if (category == CompendiumCategory.implement) details = require('../../data/implement/data.json');
-    if (category == CompendiumCategory.glossary) details = require('../../data/glossary/data.json');
-    if (category == CompendiumCategory.feat) details = require('../../data/feat/data.json');
-    if (category == CompendiumCategory.epicdestiny) details = require('../../data/epicdestiny/data.json');
-    if (category == CompendiumCategory.disease) details = require('../../data/disease/data.json');
-    if (category == CompendiumCategory.deity) details = require('../../data/deity/data.json');
-    if (category == CompendiumCategory.companion) details = require('../../data/companion/data.json');
-    if (category == CompendiumCategory.class) details = require('../../data/class/data.json');
-    if (category == CompendiumCategory.background) details = require('../../data/background/data.json');
-    if (category == CompendiumCategory.armor) details = require('../../data/armor/data.json');
+    if (category == Category.bestiary) details = require('../../data/monster/data.json');
+    if (category == Category.weapons) details = require('../../data/weapons/data.json');
+    if (category == Category.trap) details = require('../../data/trap/data.json');
+    if (category == Category.theme) details = require('../../data/theme/data.json');
+    if (category == Category.ritual) details = require('../../data/ritual/data.json');
+    if (category == Category.race) details = require('../../data/race/data.json');
+    if (category == Category.power) details = require('../../data/power/data.json');
+    if (category == Category.paragonpower) details = require('../../data/paragonpower/data.json');
+    if (category == Category.themepower) details = require('../../data/themepower/data.json');
+    if (category == Category.epicdestinypower) details = require('../../data/epicdestinypower/data.json');
+    if (category == Category.poison) details = require('../../data/poison/data.json');
+    if (category == Category.paragonpath) details = require('../../data/paragonpath/data.json');
+    if (category == Category.item) details = require('../../data/item/data.json');
+    if (category == Category.implement) details = require('../../data/implement/data.json');
+    if (category == Category.glossary) details = require('../../data/glossary/data.json');
+    if (category == Category.feat) details = require('../../data/feat/data.json');
+    if (category == Category.epicdestiny) details = require('../../data/epicdestiny/data.json');
+    if (category == Category.disease) details = require('../../data/disease/data.json');
+    if (category == Category.deity) details = require('../../data/deity/data.json');
+    if (category == Category.companion) details = require('../../data/companion/data.json');
+    if (category == Category.class) details = require('../../data/class/data.json');
+    if (category == Category.background) details = require('../../data/background/data.json');
+    if (category == Category.armor) details = require('../../data/armor/data.json');
     const { width } = useWindowDimensions();
     const source = {
         html: details[id]
     }
-    // console.log(source);
     const customHTMLElementModels = {
         span: defaultHTMLElementModels.span.extend({
             contentModel: HTMLContentModel.block,
@@ -146,7 +148,7 @@ export const CompendiumItemDetails = ({ route, navigation }: NativeStackScreenPr
     }, [navigation, context]);
 
     const create = async () => {
-        if (context != null && category == CompendiumCategory.bestiary) {
+        if (context != null && category == Category.bestiary) {
             let entity = createEnemy(id);
             context.addEntity(entity);
             showMessage({
@@ -155,7 +157,7 @@ export const CompendiumItemDetails = ({ route, navigation }: NativeStackScreenPr
                 backgroundColor: theme.colors.primary
             });
         }
-        if (context != null && category == CompendiumCategory.power) {
+        if (context != null && category == Category.power) {
             let power = createPower(id)
             context.addPower(power);
             showMessage({
@@ -180,7 +182,7 @@ export const CompendiumItemDetails = ({ route, navigation }: NativeStackScreenPr
     return (
         <CustomThemeProvider>
             {
-                mode == CompendiumCategoryMode.modal
+                mode == CategoryMode.modal
                     ? <ModalContainer navigation={navigation}>{view}</ModalContainer>
                     : view
             }

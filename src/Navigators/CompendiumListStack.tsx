@@ -4,8 +4,8 @@ import React from 'react';
 import { IconButton } from 'react-native-paper';
 import { CompendiumItemDetails } from '../components/Compendium/CompendiumItemDetails';
 import { CompendiumListViewer } from '../components/Compendium/CompendiumListViewer';
-import { CompendiumCategory, CompendiumCategoryMode } from './entityTypes';
-import { CompendiumCategoryParams, CompendiumListParams, PowerTrackerParams } from './navigatorTypes';
+import { Category, CategoryMode } from '../types/entityTypes';
+import { CompendiumCategoryParams, CompendiumListParams, PowerTrackerParams } from '../types/navigatorTypes';
 
 
 
@@ -15,18 +15,16 @@ const Stack = createNativeStackNavigator<CompendiumCategoryParams>();
 
 export const CompendiumListStack = ({ navigation, route }:
     NativeStackScreenProps<CompendiumListParams, 'CompendiumList'>
-    | NativeStackScreenProps<PowerTrackerParams, 'AddPower'>
-
-    ) => {
-    const category = route.params.category ?? {};
-    if (category == undefined) throw 'Category is undefined';
-
+    | NativeStackScreenProps<PowerTrackerParams, 'AddPower'>) => {
+    if(route.params==undefined) throw 'Route params are undefined';
+    const category = route.params.category;
     const mode = route.params.mode;
-    console.log("STACK ", category, mode ,CompendiumCategoryMode[mode]);
+    if (category == undefined) throw 'Category is undefined';
+    if (mode == undefined) throw 'Mode is undefined';
     return (
         <Stack.Navigator initialRouteName="Listing">
             <Stack.Screen name="ItemDetails" component={CompendiumItemDetails}
-                initialParams={{mode:mode}}
+                initialParams={{category:category,mode:mode}}
                 options={{
                     title: "Details",
                     headerRight: () =>

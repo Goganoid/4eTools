@@ -83,9 +83,8 @@ export const updateEntity = async (entity, isHero = false) => {
 export const getSavedEntities = async (isHero = false) => {
     const key = isHero ? stored_heroes_key : stored_entities_key
     try {
-        console.log("Call to getStoredEntities");
+        console.log("Call to getSavedEntities");
         const entities = await AsyncStorage.getItem(key);
-        console.log("Stored Entities: ", entities);
         if (entities == null) return {};
         return JSON.parse(entities);
     }
@@ -96,18 +95,15 @@ export const getSavedEntities = async (isHero = false) => {
 
 export const saveCurrentEncounter = async ({ entities }) => {
     try {
-        console.log("Storing encounter in storeEncounterEntities ");
-        const encounter = await AsyncStorage.getItem(encounter_key);
+        console.log("Saving encounter in saveCurrentEntities ");
         let entities_string = JSON.stringify({
             entities: [...entities]
         });
-        // console.log("Stringified entities", entities_string);
         await AsyncStorage.setItem(encounter_key, entities_string);
     }
     catch (e) {
-        Alert.alert("Error while storing encounter");
-        console.log("Error")
-        console.log(e);
+        Alert.alert("Error while saving encounter");
+        console.log("Error ", e)
     }
 }
 export const getCurrentEncounter = async () => {
@@ -115,9 +111,7 @@ export const getCurrentEncounter = async () => {
         console.log("Call to getCurrentEncounter");
         const entities = await AsyncStorage.getItem(encounter_key);
         if (entities == null) return [];
-        // console.log("Entities from storage", entities);
         console.log("Parsed Entities from storage", JSON.parse(entities).entities);
-        // console.log("Will return that", Object.values(JSON.parse(entities).entities));
         return JSON.parse(entities);
     }
     catch (e) {
@@ -136,13 +130,11 @@ export const saveGroup = async ({ entities, id, name }) => {
                 entities: [...entities]
             }
         });
-        console.log("Stringified encounter", encounter_string)
+        console.log("Stringified group", encounter_string)
         if (savedGroups == null) {
-            console.log("Creating new item")
             await AsyncStorage.setItem(saved_groups_key, encounter_string);
         }
         else {
-            console.log("Merging")
             await AsyncStorage.mergeItem(saved_groups_key, encounter_string);
         }
     }
@@ -153,7 +145,6 @@ export const saveGroup = async ({ entities, id, name }) => {
 }
 export const saveGroups = async (groups) => {
     try {
-        const savedGroups = AsyncStorage.getItem(saved_groups_key)
         console.log("Saving groups ", groups);
         const groups_string = JSON.stringify(groups);
         console.log("Stringified groups", groups_string)
@@ -167,9 +158,9 @@ export const saveGroups = async (groups) => {
 export const getSavedGroups = async () => {
     try {
         console.log("getSavedGroups");
-        const encounters = await AsyncStorage.getItem(saved_groups_key);
-        if (encounters == null) return {};
-        return JSON.parse(encounters);
+        const groups = await AsyncStorage.getItem(saved_groups_key);
+        if (groups == null) return null;
+        return Object.values(JSON.parse(groups));
     }
     catch (e) {
         Alert.alert("erorr")
@@ -178,7 +169,6 @@ export const getSavedGroups = async () => {
 
 export const updateGroup = async (group) => {
     try {
-        const stored_groups = await AsyncStorage.getItem(saved_groups_key);
         console.log("Updating group")
         let groups = await getSavedEntities(isHero);
         if (groups[group.id] == undefined) {
@@ -196,15 +186,13 @@ export const updateGroup = async (group) => {
 export const savePowerTracker = async (tracker) => {
     try {
         console.log("Storing encounter in savePowerTracker ");
-        const savedTracker = await AsyncStorage.getItem(tracker_key);
         let trackerString = JSON.stringify(tracker);
         console.log("Stringified tracker", trackerString);
         await AsyncStorage.setItem(tracker_key, trackerString);
     }
     catch (e) {
         Alert.alert("Error while storing tracker");
-        console.log("Error")
-        console.log(e);
+        console.log("Error ",e)
     }
 }
 export const getSavedTracker = async () => {
@@ -217,6 +205,6 @@ export const getSavedTracker = async () => {
     }
     catch (e) {
         Alert.alert("Error while loading encounter");
-        console.log(e);
+        console.log("Error ", e);
     }
 }
