@@ -185,9 +185,8 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
                         onChangeText={value => setName(value)}
                     />
                     {EnemyTypeSelector}
-                    <Text variant="titleLarge">Initiative</Text>
                     <InputStat
-                        statName={'Initiative'}
+                        statName={'Initiative bonus'}
                         setStats={setStats}
                         stat={'initiative'}
                         stats={stats}

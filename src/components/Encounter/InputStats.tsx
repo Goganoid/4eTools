@@ -32,7 +32,7 @@ export function InputStat({ statName, stats, stat, setStats, style }:Props) {
             mode="outlined"
             style={{ ...styles.stat_input,...styles }}
             label={statName}
-            maxLength={3}
+            maxLength={4}
             keyboardType={'numeric'}
             value={(stats as any)[stat]}
             onChangeText={value => setStats({ ...stats, [stat]: value })}></TextInput>

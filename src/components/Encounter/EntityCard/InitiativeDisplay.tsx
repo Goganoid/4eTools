@@ -15,7 +15,7 @@ export function InitiativeDisplay({ entity, setStat }: InitiativeDisplayProps) {
     <Text style={styles.total_initiative}>{initiativeRoll + initiative}</Text>
     <Stat statName={"Initiative"}
       statValue={entity.stats.initiative}
-      style={styles.rollDescription}
+      // textStyle={styles.rollDescription}
       minimalistic={true}
       onChange={(value: any) => setStat(entity, "initiative", value)} />
     <Text style={styles.rollDescription}>({entity.initiativeRoll}{initiative >= 0 ? "+" : ""}{initiative})</Text>
