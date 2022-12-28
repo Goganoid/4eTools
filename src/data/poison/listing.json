@@ -1,266 +1,266 @@
 {
     "poison0710": {
         "id": "poison0710",
-        "name": "Bloodroot Poison",
+        "name": "Poison",
         "level": "1",
         "cost": "None",
         "sourcebook": "HoS"
     },
     "poison0835": {
         "id": "poison0835",
-        "name": "Carrion Crawler Brain Juice",
+        "name": "Poison",
         "level": "1",
         "cost": "None",
         "sourcebook": "HoS"
     },
     "poison01483": {
         "id": "poison01483",
-        "name": "Greenblood Oil",
+        "name": "Poison",
         "level": "1",
         "cost": "None",
         "sourcebook": "HoS"
     },
     "poison01595": {
         "id": "poison01595",
-        "name": "Id Moss Powder",
+        "name": "Poison",
         "level": "1",
         "cost": "None",
         "sourcebook": "HoS"
     },
     "poison01919": {
         "id": "poison01919",
-        "name": "Nitharit Poison",
+        "name": "Poison",
         "level": "1",
         "cost": "None",
         "sourcebook": "HoS"
     },
     "poison02955": {
         "id": "poison02955",
-        "name": "Ungol Dust",
+        "name": "Poison",
         "level": "1",
         "cost": "None",
         "sourcebook": "HoS"
     },
     "poison3": {
         "id": "poison3",
-        "name": "Carrion Crawler Brain Juice",
+        "name": "Poison",
         "level": "5",
         "cost": "250",
         "sourcebook": "DMG"
     },
     "poison2": {
         "id": "poison2",
-        "name": "Deathjump Spider Venom",
+        "name": "Poison",
         "level": "5",
         "cost": "250",
         "sourcebook": "DMG"
     },
     "poison19": {
         "id": "poison19",
-        "name": "Granny's Grief",
+        "name": "Poison",
         "level": "5",
         "cost": "50",
         "sourcebook": "Dun211"
     },
     "poison5": {
         "id": "poison5",
-        "name": "Ground Thassil Root",
+        "name": "Poison",
         "level": "5",
         "cost": "250",
         "sourcebook": "DMG"
     },
     "poison14": {
         "id": "poison14",
-        "name": "Skull Rot",
+        "name": "Poison",
         "level": "5",
         "cost": "250",
         "sourcebook": "Dra367"
     },
     "poison1": {
         "id": "poison1",
-        "name": "Stormclaw Scorpion Venom",
+        "name": "Poison",
         "level": "5",
         "cost": "250",
         "sourcebook": "DMG"
     },
     "poison6": {
         "id": "poison6",
-        "name": "Dark Toxin",
+        "name": "Poison",
         "level": "10",
         "cost": "1250",
         "sourcebook": "DMG"
     },
     "poison18": {
         "id": "poison18",
-        "name": "Dreamclay Powder",
+        "name": "Poison",
         "level": "10",
         "cost": "1000",
         "sourcebook": "Dun188"
     },
     "poison7": {
         "id": "poison7",
-        "name": "Drow Poison",
+        "name": "Poison",
         "level": "10",
         "cost": "1250",
         "sourcebook": "DMG"
     },
     "poison15": {
         "id": "poison15",
-        "name": "Eyeburn Paste",
+        "name": "Poison",
         "level": "10",
         "cost": "1250",
         "sourcebook": "Dra367"
     },
     "poison4": {
         "id": "poison4",
-        "name": "Fiend's Breath",
+        "name": "Poison",
         "level": "10",
         "cost": "1250",
         "sourcebook": "Vor Rukoth"
     },
     "poison03561": {
         "id": "poison03561",
-        "name": "Aboleth Slime Concentrate",
+        "name": "Poison",
         "level": "15",
         "cost": "None",
         "sourcebook": "Dra423"
     },
     "poison11": {
         "id": "poison11",
-        "name": "Black Lotus",
+        "name": "Poison",
         "level": "15",
         "cost": "6250",
         "sourcebook": "DMG"
     },
     "poison0670": {
         "id": "poison0670",
-        "name": "Black Lotus Extract",
+        "name": "Poison",
         "level": "15",
         "cost": "None",
         "sourcebook": "HoS"
     },
     "poison9": {
         "id": "poison9",
-        "name": "Blood of Zehir",
+        "name": "Poison",
         "level": "15",
         "cost": "6250",
         "sourcebook": "DMG"
     },
     "poison10": {
         "id": "poison10",
-        "name": "Demonweb Terror Venom",
+        "name": "Poison",
         "level": "15",
         "cost": "6250",
         "sourcebook": "DMG"
     },
     "poison03562": {
         "id": "poison03562",
-        "name": "Gibbering Grind",
+        "name": "Poison",
         "level": "15",
         "cost": "None",
         "sourcebook": "Dra423"
     },
     "poison03563": {
         "id": "poison03563",
-        "name": "Grell Bile",
+        "name": "Poison",
         "level": "15",
         "cost": "None",
         "sourcebook": "Dra423"
     },
     "poison8": {
         "id": "poison8",
-        "name": "Hellstinger Scorpion Venom",
+        "name": "Poison",
         "level": "15",
         "cost": "6250",
         "sourcebook": "DMG"
     },
     "poison01628": {
         "id": "poison01628",
-        "name": "Insanity Mist",
+        "name": "Poison",
         "level": "15",
         "cost": "None",
         "sourcebook": "HoS"
     },
     "poison01722": {
         "id": "poison01722",
-        "name": "Lich Dust",
+        "name": "Poison",
         "level": "15",
         "cost": "None",
         "sourcebook": "HoS"
     },
     "poison16": {
         "id": "poison16",
-        "name": "Mindscorch",
+        "name": "Poison",
         "level": "15",
         "cost": "6250",
         "sourcebook": "Dra367"
     },
     "poison03564": {
         "id": "poison03564",
-        "name": "Umber Dust",
+        "name": "Poison",
         "level": "15",
         "cost": "None",
         "sourcebook": "Dra423"
     },
     "poison12": {
         "id": "poison12",
-        "name": "Insanity Mist",
+        "name": "Poison",
         "level": "20",
         "cost": "31250",
         "sourcebook": "DMG"
     },
     "poison17": {
         "id": "poison17",
-        "name": "The Calling",
+        "name": "Poison",
         "level": "20",
         "cost": "31250",
         "sourcebook": "Dra367"
     },
     "poison03105": {
         "id": "poison03105",
-        "name": "Wyvern Venom",
+        "name": "Poison",
         "level": "20",
         "cost": "None",
         "sourcebook": "HoS"
     },
     "poison01009": {
         "id": "poison01009",
-        "name": "Dark Reaver Powder",
+        "name": "Poison",
         "level": "25",
         "cost": "None",
         "sourcebook": "HoS"
     },
     "poison01108": {
         "id": "poison01108",
-        "name": "Dragon Bile",
+        "name": "Poison",
         "level": "25",
         "cost": "None",
         "sourcebook": "HoS"
     },
     "poison01234": {
         "id": "poison01234",
-        "name": "Eye of Basilisk Powder",
+        "name": "Poison",
         "level": "25",
         "cost": "None",
         "sourcebook": "HoS"
     },
     "poison03565": {
         "id": "poison03565",
-        "name": "Heart of Mimic Powder",
+        "name": "Poison",
         "level": "25",
         "cost": "None",
         "sourcebook": "Dra423"
     },
     "poison03566": {
         "id": "poison03566",
-        "name": "Mind Flayer Tentacle Extract",
+        "name": "Poison",
         "level": "25",
         "cost": "None",
         "sourcebook": "Dra423"
     },
     "poison13": {
         "id": "poison13",
-        "name": "Pit Toxin",
+        "name": "Poison",
         "level": "25",
         "cost": "156250",
         "sourcebook": "DMG"

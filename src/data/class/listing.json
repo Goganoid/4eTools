@@ -1,7 +1,7 @@
 {
     "class529": {
         "id": "class529",
-        "name": "Ardent",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Psionic",
         "keyabilities": "Cha",
@@ -9,7 +9,7 @@
     },
     "class125": {
         "id": "class125",
-        "name": "Artificer",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Arcane",
         "keyabilities": "Int",
@@ -17,7 +17,7 @@
     },
     "class466": {
         "id": "class466",
-        "name": "Assassin",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Shadow",
         "keyabilities": "Dex",
@@ -25,7 +25,7 @@
     },
     "class811": {
         "id": "class811",
-        "name": "Assassin (Executioner)",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Martial and Shadow",
         "keyabilities": "Dex",
@@ -33,7 +33,7 @@
     },
     "class129": {
         "id": "class129",
-        "name": "Avenger",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Divine",
         "keyabilities": "Wis",
@@ -41,7 +41,7 @@
     },
     "class148": {
         "id": "class148",
-        "name": "Barbarian",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Primal",
         "keyabilities": "Str",
@@ -49,7 +49,7 @@
     },
     "class906": {
         "id": "class906",
-        "name": "Barbarian (Berserker)",
+        "name": "Class Name",
         "rolename": "Defender and Striker",
         "powersourcetext": "Martial and Primal",
         "keyabilities": "Str",
@@ -57,7 +57,7 @@
     },
     "class104": {
         "id": "class104",
-        "name": "Bard",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Arcane",
         "keyabilities": "Cha",
@@ -65,7 +65,7 @@
     },
     "class907": {
         "id": "class907",
-        "name": "Bard (Skald)",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Arcane and Martial",
         "keyabilities": "Cha",
@@ -73,7 +73,7 @@
     },
     "class124": {
         "id": "class124",
-        "name": "Battlemind",
+        "name": "Class Name",
         "rolename": "Defender",
         "powersourcetext": "Psionic",
         "keyabilities": "Con",
@@ -81,7 +81,7 @@
     },
     "class2": {
         "id": "class2",
-        "name": "Cleric (Templar)",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Divine",
         "keyabilities": "Str, Wis",
@@ -89,7 +89,7 @@
     },
     "class705": {
         "id": "class705",
-        "name": "Cleric (Warpriest)",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Divine",
         "keyabilities": "Wis",
@@ -97,7 +97,7 @@
     },
     "class126": {
         "id": "class126",
-        "name": "Druid",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Primal",
         "keyabilities": "Wis",
@@ -105,7 +105,7 @@
     },
     "class909": {
         "id": "class909",
-        "name": "Druid (Protector)",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Primal",
         "keyabilities": "Wis",
@@ -113,7 +113,7 @@
     },
     "class779": {
         "id": "class779",
-        "name": "Druid (Sentinel)",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Primal",
         "keyabilities": "Wis",
@@ -121,7 +121,7 @@
     },
     "class713": {
         "id": "class713",
-        "name": "Fighter (Knight)",
+        "name": "Class Name",
         "rolename": "Defender",
         "powersourcetext": "Martial",
         "keyabilities": "Str",
@@ -129,7 +129,7 @@
     },
     "class716": {
         "id": "class716",
-        "name": "Fighter (Slayer)",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Martial",
         "keyabilities": "Str",
@@ -137,7 +137,7 @@
     },
     "class3": {
         "id": "class3",
-        "name": "Fighter (Weaponmaster)",
+        "name": "Class Name",
         "rolename": "Defender",
         "powersourcetext": "Martial",
         "keyabilities": "Str",
@@ -145,7 +145,7 @@
     },
     "class127": {
         "id": "class127",
-        "name": "Invoker",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Divine",
         "keyabilities": "Wis",
@@ -153,7 +153,7 @@
     },
     "class362": {
         "id": "class362",
-        "name": "Monk",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Psionic",
         "keyabilities": "Dex",
@@ -161,7 +161,7 @@
     },
     "class4": {
         "id": "class4",
-        "name": "Paladin",
+        "name": "Class Name",
         "rolename": "Defender",
         "powersourcetext": "Divine",
         "keyabilities": "Str, Cha",
@@ -169,7 +169,7 @@
     },
     "class813": {
         "id": "class813",
-        "name": "Paladin (Blackguard)",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Divine",
         "keyabilities": "Str",
@@ -177,7 +177,7 @@
     },
     "class784": {
         "id": "class784",
-        "name": "Paladin (Cavalier)",
+        "name": "Class Name",
         "rolename": "Defender",
         "powersourcetext": "Divine",
         "keyabilities": "Str",
@@ -185,7 +185,7 @@
     },
     "class437": {
         "id": "class437",
-        "name": "Psion",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Psionic",
         "keyabilities": "Int",
@@ -193,7 +193,7 @@
     },
     "class5": {
         "id": "class5",
-        "name": "Ranger",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Martial",
         "keyabilities": "Str, Dex",
@@ -201,7 +201,7 @@
     },
     "class788": {
         "id": "class788",
-        "name": "Ranger (Hunter)",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Martial and Primal",
         "keyabilities": "Dex or Str",
@@ -209,7 +209,7 @@
     },
     "class790": {
         "id": "class790",
-        "name": "Ranger (Scout)",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Martial and Primal",
         "keyabilities": "Dex",
@@ -217,7 +217,7 @@
     },
     "class6": {
         "id": "class6",
-        "name": "Rogue (Scoundrel)",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Martial",
         "keyabilities": "Dex",
@@ -225,7 +225,7 @@
     },
     "class719": {
         "id": "class719",
-        "name": "Rogue (Thief)",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Martial",
         "keyabilities": "Dex or Str",
@@ -233,7 +233,7 @@
     },
     "class602": {
         "id": "class602",
-        "name": "Runepriest",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Divine",
         "keyabilities": "Str",
@@ -241,7 +241,7 @@
     },
     "class472": {
         "id": "class472",
-        "name": "Seeker",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Primal",
         "keyabilities": "Wis",
@@ -249,7 +249,7 @@
     },
     "class147": {
         "id": "class147",
-        "name": "Shaman",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Primal",
         "keyabilities": "Wis",
@@ -257,7 +257,7 @@
     },
     "class128": {
         "id": "class128",
-        "name": "Sorcerer",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Arcane",
         "keyabilities": "Cha",
@@ -265,7 +265,7 @@
     },
     "class956": {
         "id": "class956",
-        "name": "Sorcerer (Elementalist)",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Arcane",
         "keyabilities": "Cha",
@@ -273,7 +273,7 @@
     },
     "class53": {
         "id": "class53",
-        "name": "Swordmage",
+        "name": "Class Name",
         "rolename": "Defender",
         "powersourcetext": "Arcane",
         "keyabilities": "Int",
@@ -281,7 +281,7 @@
     },
     "class817": {
         "id": "class817",
-        "name": "Vampire",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Shadow",
         "keyabilities": "Dex",
@@ -289,7 +289,7 @@
     },
     "class134": {
         "id": "class134",
-        "name": "Warden",
+        "name": "Class Name",
         "rolename": "Defender",
         "powersourcetext": "Primal",
         "keyabilities": "Str",
@@ -297,7 +297,7 @@
     },
     "class7": {
         "id": "class7",
-        "name": "Warlock",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Arcane",
         "keyabilities": "Con, Cha",
@@ -305,7 +305,7 @@
     },
     "class821": {
         "id": "class821",
-        "name": "Warlock (Binder)",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Arcane",
         "keyabilities": "Cha",
@@ -313,7 +313,7 @@
     },
     "class793": {
         "id": "class793",
-        "name": "Warlock (Hexblade)",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Arcane",
         "keyabilities": "Cha",
@@ -321,7 +321,7 @@
     },
     "class8": {
         "id": "class8",
-        "name": "Warlord (Marshal)",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Martial",
         "keyabilities": "Str",
@@ -329,7 +329,7 @@
     },
     "class9": {
         "id": "class9",
-        "name": "Wizard (Arcanist)",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Arcane",
         "keyabilities": "Int",
@@ -337,7 +337,7 @@
     },
     "class883": {
         "id": "class883",
-        "name": "Wizard (Bladesinger)",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Arcane",
         "keyabilities": "Int",
@@ -345,7 +345,7 @@
     },
     "class722": {
         "id": "class722",
-        "name": "Wizard (Mage)",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Arcane",
         "keyabilities": "Int",
@@ -353,7 +353,7 @@
     },
     "class958": {
         "id": "class958",
-        "name": "Wizard (Sha'ir)",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Arcane",
         "keyabilities": "Int",
@@ -361,7 +361,7 @@
     },
     "class908": {
         "id": "class908",
-        "name": "Wizard (Witch)",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Arcane",
         "keyabilities": "Int",
@@ -369,7 +369,7 @@
     },
     "class588": {
         "id": "class588",
-        "name": "Hybrid Ardent",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Psionic",
         "keyabilities": "Cha",
@@ -377,7 +377,7 @@
     },
     "class536": {
         "id": "class536",
-        "name": "Hybrid Artificer",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Arcane",
         "keyabilities": "Int",
@@ -385,7 +385,7 @@
     },
     "class641": {
         "id": "class641",
-        "name": "Hybrid Assassin",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Shadow",
         "keyabilities": "Dex",
@@ -393,7 +393,7 @@
     },
     "class891": {
         "id": "class891",
-        "name": "Hybrid Assassin (Executioner)",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Martial and Shadow",
         "keyabilities": "Dex",
@@ -401,7 +401,7 @@
     },
     "class439": {
         "id": "class439",
-        "name": "Hybrid Avenger",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Divine",
         "keyabilities": "Wis",
@@ -409,7 +409,7 @@
     },
     "class440": {
         "id": "class440",
-        "name": "Hybrid Barbarian",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Primal",
         "keyabilities": "Str",
@@ -417,7 +417,7 @@
     },
     "class441": {
         "id": "class441",
-        "name": "Hybrid Bard",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Arcane",
         "keyabilities": "Cha",
@@ -425,7 +425,7 @@
     },
     "class590": {
         "id": "class590",
-        "name": "Hybrid Battlemind",
+        "name": "Class Name",
         "rolename": "Defender",
         "powersourcetext": "Psionic",
         "keyabilities": "Con",
@@ -433,7 +433,7 @@
     },
     "class352": {
         "id": "class352",
-        "name": "Hybrid Cleric",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Divine",
         "keyabilities": "Str, Wis",
@@ -441,7 +441,7 @@
     },
     "class442": {
         "id": "class442",
-        "name": "Hybrid Druid",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Primal",
         "keyabilities": "Wis",
@@ -449,7 +449,7 @@
     },
     "class894": {
         "id": "class894",
-        "name": "Hybrid Druid (Sentinel)",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Primal",
         "keyabilities": "Wis",
@@ -457,7 +457,7 @@
     },
     "class353": {
         "id": "class353",
-        "name": "Hybrid Fighter",
+        "name": "Class Name",
         "rolename": "Defender",
         "powersourcetext": "Martial",
         "keyabilities": "Str",
@@ -465,7 +465,7 @@
     },
     "class443": {
         "id": "class443",
-        "name": "Hybrid Invoker",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Divine",
         "keyabilities": "Wis",
@@ -473,7 +473,7 @@
     },
     "class609": {
         "id": "class609",
-        "name": "Hybrid Monk",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Psionic",
         "keyabilities": "Dex",
@@ -481,7 +481,7 @@
     },
     "class354": {
         "id": "class354",
-        "name": "Hybrid Paladin",
+        "name": "Class Name",
         "rolename": "Defender",
         "powersourcetext": "Divine",
         "keyabilities": "Str, Cha",
@@ -489,7 +489,7 @@
     },
     "class892": {
         "id": "class892",
-        "name": "Hybrid Paladin (Blackguard)",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Divine",
         "keyabilities": "Str, Cha",
@@ -497,7 +497,7 @@
     },
     "class895": {
         "id": "class895",
-        "name": "Hybrid Paladin (Cavalier)",
+        "name": "Class Name",
         "rolename": "Defender",
         "powersourcetext": "Divine",
         "keyabilities": "Str, Cha",
@@ -505,7 +505,7 @@
     },
     "class610": {
         "id": "class610",
-        "name": "Hybrid Psion",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Psionic",
         "keyabilities": "Int",
@@ -513,7 +513,7 @@
     },
     "class355": {
         "id": "class355",
-        "name": "Hybrid Ranger",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Martial",
         "keyabilities": "Str, Dex",
@@ -521,7 +521,7 @@
     },
     "class356": {
         "id": "class356",
-        "name": "Hybrid Rogue",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Martial",
         "keyabilities": "Dex",
@@ -529,7 +529,7 @@
     },
     "class611": {
         "id": "class611",
-        "name": "Hybrid Runepriest",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Divine",
         "keyabilities": "Str",
@@ -537,7 +537,7 @@
     },
     "class612": {
         "id": "class612",
-        "name": "Hybrid Seeker",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Primal",
         "keyabilities": "Wis",
@@ -545,7 +545,7 @@
     },
     "class444": {
         "id": "class444",
-        "name": "Hybrid Shaman",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Primal",
         "keyabilities": "Wis",
@@ -553,7 +553,7 @@
     },
     "class445": {
         "id": "class445",
-        "name": "Hybrid Sorcerer",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Arcane",
         "keyabilities": "Cha",
@@ -561,7 +561,7 @@
     },
     "class357": {
         "id": "class357",
-        "name": "Hybrid Swordmage",
+        "name": "Class Name",
         "rolename": "Defender",
         "powersourcetext": "Arcane",
         "keyabilities": "Int",
@@ -569,7 +569,7 @@
     },
     "class893": {
         "id": "class893",
-        "name": "Hybrid Vampire",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Shadow",
         "keyabilities": "Dex",
@@ -577,7 +577,7 @@
     },
     "class446": {
         "id": "class446",
-        "name": "Hybrid Warden",
+        "name": "Class Name",
         "rolename": "Defender",
         "powersourcetext": "Primal",
         "keyabilities": "Str",
@@ -585,7 +585,7 @@
     },
     "class358": {
         "id": "class358",
-        "name": "Hybrid Warlock",
+        "name": "Class Name",
         "rolename": "Striker",
         "powersourcetext": "Arcane",
         "keyabilities": "Con, Cha",
@@ -593,7 +593,7 @@
     },
     "class896": {
         "id": "class896",
-        "name": "Hybrid Warlock (Binder)",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Arcane",
         "keyabilities": "Con, Cha",
@@ -601,7 +601,7 @@
     },
     "class359": {
         "id": "class359",
-        "name": "Hybrid Warlord",
+        "name": "Class Name",
         "rolename": "Leader",
         "powersourcetext": "Martial",
         "keyabilities": "Str",
@@ -609,7 +609,7 @@
     },
     "class360": {
         "id": "class360",
-        "name": "Hybrid Wizard",
+        "name": "Class Name",
         "rolename": "Controller",
         "powersourcetext": "Arcane",
         "keyabilities": "Int",

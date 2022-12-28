@@ -1,7 +1,7 @@
 {
     "race38": {
         "id": "race38",
-        "name": "Bladeling",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Wis, Dex or Str",
         "size": "Medium",
@@ -9,7 +9,7 @@
     },
     "race67": {
         "id": "race67",
-        "name": "Bozak Draconian",
+        "name": "Race",
         "origin": "Natural Reptile",
         "descriptionattribute": "Cha, Con or Str",
         "size": "Medium",
@@ -17,7 +17,7 @@
     },
     "race10": {
         "id": "race10",
-        "name": "Bugbear",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Dex, Str",
         "size": "Medium",
@@ -25,7 +25,7 @@
     },
     "race41": {
         "id": "race41",
-        "name": "Bullywug",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Con, Dex",
         "size": "Medium",
@@ -33,7 +33,7 @@
     },
     "race14": {
         "id": "race14",
-        "name": "Changeling",
+        "name": "Race",
         "origin": "Natural Shapechanger",
         "descriptionattribute": "Cha, Dex or Int",
         "size": "Medium",
@@ -41,7 +41,7 @@
     },
     "race35": {
         "id": "race35",
-        "name": "Deva",
+        "name": "Race",
         "origin": "Immortal",
         "descriptionattribute": "Wis, Cha or Int",
         "size": "Medium",
@@ -49,7 +49,7 @@
     },
     "race1": {
         "id": "race1",
-        "name": "Dragonborn",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Cha, Con or Str",
         "size": "Medium",
@@ -57,7 +57,7 @@
     },
     "race16": {
         "id": "race16",
-        "name": "Drow",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Dex, Cha or Wis",
         "size": "Medium",
@@ -65,7 +65,7 @@
     },
     "race42": {
         "id": "race42",
-        "name": "Duergar",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Con, Wis",
         "size": "Medium",
@@ -73,7 +73,7 @@
     },
     "race2": {
         "id": "race2",
-        "name": "Dwarf",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Con, Str or Wis",
         "size": "Medium",
@@ -81,7 +81,7 @@
     },
     "race3": {
         "id": "race3",
-        "name": "Eladrin",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Int, Cha or Dex",
         "size": "Medium",
@@ -89,7 +89,7 @@
     },
     "race4": {
         "id": "race4",
-        "name": "Elf",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Dex, Int or Wis",
         "size": "Medium",
@@ -97,7 +97,7 @@
     },
     "race33": {
         "id": "race33",
-        "name": "Genasi",
+        "name": "Race",
         "origin": "Elemental",
         "descriptionattribute": "Int, Con or Str",
         "size": "Medium",
@@ -105,7 +105,7 @@
     },
     "race17": {
         "id": "race17",
-        "name": "Githyanki",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Con, Int",
         "size": "Medium",
@@ -113,7 +113,7 @@
     },
     "race18": {
         "id": "race18",
-        "name": "Githzerai",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Wis, Dex or Int",
         "size": "Medium",
@@ -121,7 +121,7 @@
     },
     "race19": {
         "id": "race19",
-        "name": "Gnoll",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Con, Dex",
         "size": "Medium",
@@ -129,7 +129,7 @@
     },
     "race20": {
         "id": "race20",
-        "name": "Gnome",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Int, Cha or Dex",
         "size": "Small",
@@ -137,7 +137,7 @@
     },
     "race21": {
         "id": "race21",
-        "name": "Goblin",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Dex, Cha or Wis",
         "size": "Small",
@@ -145,7 +145,7 @@
     },
     "race54": {
         "id": "race54",
-        "name": "Gold Dwarf",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Con, Str or Wis",
         "size": "Medium",
@@ -153,7 +153,7 @@
     },
     "race37": {
         "id": "race37",
-        "name": "Goliath",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Str, Con or Wis",
         "size": "Medium",
@@ -161,7 +161,7 @@
     },
     "race6": {
         "id": "race6",
-        "name": "Half-Elf",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Con, Cha or Wis",
         "size": "Medium",
@@ -169,7 +169,7 @@
     },
     "race36": {
         "id": "race36",
-        "name": "Half-Orc",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Dex, Con or Str",
         "size": "Medium",
@@ -177,7 +177,7 @@
     },
     "race5": {
         "id": "race5",
-        "name": "Halfling",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Dex, Cha or Con",
         "size": "Small",
@@ -185,7 +185,7 @@
     },
     "race60": {
         "id": "race60",
-        "name": "Hamadryad",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Wis, Cha or Int",
         "size": "Medium",
@@ -193,7 +193,7 @@
     },
     "race65": {
         "id": "race65",
-        "name": "Hengeyokai",
+        "name": "Race",
         "origin": "Fey Shapechanger",
         "descriptionattribute": "Dex, Cha or Wis",
         "size": "Medium",
@@ -201,7 +201,7 @@
     },
     "race22": {
         "id": "race22",
-        "name": "Hobgoblin",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Con, Cha or Int",
         "size": "Medium",
@@ -209,7 +209,7 @@
     },
     "race7": {
         "id": "race7",
-        "name": "Human",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Any",
         "size": "Medium",
@@ -217,7 +217,7 @@
     },
     "race46": {
         "id": "race46",
-        "name": "Kalashtar",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Cha, Int or Wis",
         "size": "Medium",
@@ -225,7 +225,7 @@
     },
     "race68": {
         "id": "race68",
-        "name": "Kapak Draconian",
+        "name": "Race",
         "origin": "Natural Reptile",
         "descriptionattribute": "Dex, Cha",
         "size": "Medium",
@@ -233,7 +233,7 @@
     },
     "race43": {
         "id": "race43",
-        "name": "Kenku",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Cha, Dex or Int",
         "size": "Medium",
@@ -241,7 +241,7 @@
     },
     "race23": {
         "id": "race23",
-        "name": "Kobold",
+        "name": "Race",
         "origin": "Natural Reptile",
         "descriptionattribute": "Con, Cha or Dex",
         "size": "Small",
@@ -249,7 +249,7 @@
     },
     "race64": {
         "id": "race64",
-        "name": "Llewyrr Elf",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Int, Cha or Dex",
         "size": "Medium",
@@ -257,7 +257,7 @@
     },
     "race27": {
         "id": "race27",
-        "name": "Longtooth Shifter",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Str, Wis",
         "size": "Medium",
@@ -265,7 +265,7 @@
     },
     "race24": {
         "id": "race24",
-        "name": "Minotaur",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Str, Con or Wis",
         "size": "Medium",
@@ -273,7 +273,7 @@
     },
     "race56": {
         "id": "race56",
-        "name": "Moon Elf (Eladrin)",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Int, Cha or Dex",
         "size": "Medium",
@@ -281,7 +281,7 @@
     },
     "race50": {
         "id": "race50",
-        "name": "Mul",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Con, Str or Wis",
         "size": "Medium",
@@ -289,7 +289,7 @@
     },
     "race25": {
         "id": "race25",
-        "name": "Orc",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Con, Str",
         "size": "Medium",
@@ -297,7 +297,7 @@
     },
     "race61": {
         "id": "race61",
-        "name": "Pixie",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Cha, Dex or Int",
         "size": "Tiny",
@@ -305,7 +305,7 @@
     },
     "race30": {
         "id": "race30",
-        "name": "Razorclaw Shifter",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Dex, Wis",
         "size": "Medium",
@@ -313,7 +313,7 @@
     },
     "race47": {
         "id": "race47",
-        "name": "Revenant",
+        "name": "Race",
         "origin": "Living Undead",
         "descriptionattribute": "Dex, Cha or Con",
         "size": "Medium",
@@ -321,7 +321,7 @@
     },
     "race62": {
         "id": "race62",
-        "name": "Satyr",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Cha, Con or Dex",
         "size": "Medium",
@@ -329,7 +329,7 @@
     },
     "race26": {
         "id": "race26",
-        "name": "Shadar-kai",
+        "name": "Race",
         "origin": "Shadow",
         "descriptionattribute": "Dex, Int or Wis",
         "size": "Medium",
@@ -337,7 +337,7 @@
     },
     "race52": {
         "id": "race52",
-        "name": "Shade",
+        "name": "Race",
         "origin": "Shadow",
         "descriptionattribute": "Cha, Dex or Int",
         "size": "Medium",
@@ -345,7 +345,7 @@
     },
     "race49": {
         "id": "race49",
-        "name": "Shardmind",
+        "name": "Race",
         "origin": "Immortal Construct",
         "descriptionattribute": "Int, Cha or Wis",
         "size": "Medium",
@@ -353,7 +353,7 @@
     },
     "race55": {
         "id": "race55",
-        "name": "Shield Dwarf",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Con, Str or Wis",
         "size": "Medium",
@@ -361,7 +361,7 @@
     },
     "race57": {
         "id": "race57",
-        "name": "Sun Elf (Eladrin)",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Int, Cha or Dex",
         "size": "Medium",
@@ -369,7 +369,7 @@
     },
     "race66": {
         "id": "race66",
-        "name": "Svirfneblin",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Wis, Con or Str",
         "size": "Small",
@@ -377,7 +377,7 @@
     },
     "race51": {
         "id": "race51",
-        "name": "Thri-Kreen",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Dex, Str or Wis",
         "size": "Medium",
@@ -385,7 +385,7 @@
     },
     "race8": {
         "id": "race8",
-        "name": "Tiefling",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Cha, Con or Int",
         "size": "Medium",
@@ -393,7 +393,7 @@
     },
     "race69": {
         "id": "race69",
-        "name": "Tinker Gnome",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Int, Con or Dex",
         "size": "Small",
@@ -401,7 +401,7 @@
     },
     "race53": {
         "id": "race53",
-        "name": "Vryloka",
+        "name": "Race",
         "origin": "Living Undead",
         "descriptionattribute": "Cha, Dex or Str",
         "size": "Medium",
@@ -409,7 +409,7 @@
     },
     "race28": {
         "id": "race28",
-        "name": "Warforged",
+        "name": "Race",
         "origin": "Natural",
         "descriptionattribute": "Con, Int or Str",
         "size": "Medium",
@@ -417,7 +417,7 @@
     },
     "race58": {
         "id": "race58",
-        "name": "Wild Elf",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Dex, Int or Wis",
         "size": "Medium",
@@ -425,7 +425,7 @@
     },
     "race44": {
         "id": "race44",
-        "name": "Wilden",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Wis, Con or Dex",
         "size": "Medium",
@@ -433,7 +433,7 @@
     },
     "race59": {
         "id": "race59",
-        "name": "Wood Elf",
+        "name": "Race",
         "origin": "Fey",
         "descriptionattribute": "Dex, Int or Wis",
         "size": "Medium",

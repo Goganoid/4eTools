@@ -1,7 +1,7 @@
 {
     "armor95": {
         "id": "armor95",
-        "name": "Banded Mail",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "None",
         "cost": "55",
@@ -10,7 +10,7 @@
     },
     "armor99": {
         "id": "armor99",
-        "name": "Barbed Shield",
+        "name": "Armor Name",
         "type": "Heavy Shield",
         "level": "None",
         "cost": "20",
@@ -19,7 +19,7 @@
     },
     "armor4": {
         "id": "armor4",
-        "name": "Chainmail",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "None",
         "cost": "40",
@@ -28,7 +28,7 @@
     },
     "armor1": {
         "id": "armor1",
-        "name": "Cloth Armor (Basic Clothing)",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": "None",
         "cost": "1",
@@ -37,7 +37,7 @@
     },
     "armor98": {
         "id": "armor98",
-        "name": "Full Plate",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "None",
         "cost": "65",
@@ -46,7 +46,7 @@
     },
     "armor51": {
         "id": "armor51",
-        "name": "Heavy Barding",
+        "name": "Armor Name",
         "type": "Barding",
         "level": "None",
         "cost": "150",
@@ -55,7 +55,7 @@
     },
     "armor52": {
         "id": "armor52",
-        "name": "Heavy Barding (Huge creature)",
+        "name": "Armor Name",
         "type": "Barding",
         "level": "None",
         "cost": "150",
@@ -64,7 +64,7 @@
     },
     "armor8": {
         "id": "armor8",
-        "name": "Heavy Shield",
+        "name": "Armor Name",
         "type": "Heavy Shield",
         "level": "None",
         "cost": "10",
@@ -73,7 +73,7 @@
     },
     "armor3": {
         "id": "armor3",
-        "name": "Hide Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": "None",
         "cost": "30",
@@ -82,7 +82,7 @@
     },
     "armor2": {
         "id": "armor2",
-        "name": "Leather Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "None",
         "cost": "25",
@@ -91,7 +91,7 @@
     },
     "armor49": {
         "id": "armor49",
-        "name": "Light Barding",
+        "name": "Armor Name",
         "type": "Barding",
         "level": "None",
         "cost": "75",
@@ -100,7 +100,7 @@
     },
     "armor50": {
         "id": "armor50",
-        "name": "Light Barding (Huge creature)",
+        "name": "Armor Name",
         "type": "Barding",
         "level": "None",
         "cost": "75",
@@ -109,7 +109,7 @@
     },
     "armor7": {
         "id": "armor7",
-        "name": "Light Shield",
+        "name": "Armor Name",
         "type": "Light Shield",
         "level": "None",
         "cost": "5",
@@ -118,7 +118,7 @@
     },
     "armor6": {
         "id": "armor6",
-        "name": "Plate Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "None",
         "cost": "50",
@@ -127,7 +127,7 @@
     },
     "armor94": {
         "id": "armor94",
-        "name": "Ring Mail",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "None",
         "cost": "40",
@@ -136,7 +136,7 @@
     },
     "armor5": {
         "id": "armor5",
-        "name": "Scale Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "None",
         "cost": "45",
@@ -145,7 +145,7 @@
     },
     "armor97": {
         "id": "armor97",
-        "name": "Spiked Plate",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "None",
         "cost": "55",
@@ -154,7 +154,7 @@
     },
     "armor96": {
         "id": "armor96",
-        "name": "Splint Mail",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "None",
         "cost": "50",
@@ -163,7 +163,7 @@
     },
     "armor93": {
         "id": "armor93",
-        "name": "Studded Leather",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "None",
         "cost": "35",
@@ -172,7 +172,7 @@
     },
     "armor85": {
         "id": "armor85",
-        "name": "Baazrag Bone Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +2",
         "cost": "None",
@@ -181,7 +181,7 @@
     },
     "armor71": {
         "id": "armor71",
-        "name": "Bonemail Armor",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +2",
         "cost": "None",
@@ -190,7 +190,7 @@
     },
     "armor38": {
         "id": "armor38",
-        "name": "Drakescale Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +2",
         "cost": "None",
@@ -199,7 +199,7 @@
     },
     "armor33": {
         "id": "armor33",
-        "name": "Finemail",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +2",
         "cost": "None",
@@ -208,7 +208,7 @@
     },
     "armor44": {
         "id": "armor44",
-        "name": "Layered Plate Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +2",
         "cost": "None",
@@ -217,7 +217,7 @@
     },
     "armor86": {
         "id": "armor86",
-        "name": "Mekillot Shell Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +2",
         "cost": "None",
@@ -226,7 +226,7 @@
     },
     "armor43": {
         "id": "armor43",
-        "name": "Rimefire Plate Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +2",
         "cost": "None",
@@ -235,7 +235,7 @@
     },
     "armor78": {
         "id": "armor78",
-        "name": "Scorpion Scale Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +2",
         "cost": "None",
@@ -244,7 +244,7 @@
     },
     "armor34": {
         "id": "armor34",
-        "name": "Braidmail Armor",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +3",
         "cost": "None",
@@ -253,7 +253,7 @@
     },
     "armor25": {
         "id": "armor25",
-        "name": "Drowmesh",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "Min +3",
         "cost": "None",
@@ -262,7 +262,7 @@
     },
     "armor29": {
         "id": "armor29",
-        "name": "Earthhide Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": "Min +3",
         "cost": "None",
@@ -271,7 +271,7 @@
     },
     "armor45": {
         "id": "armor45",
-        "name": "Gith Plate Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +3",
         "cost": "None",
@@ -280,7 +280,7 @@
     },
     "armor87": {
         "id": "armor87",
-        "name": "Gith Shell Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +3",
         "cost": "None",
@@ -289,7 +289,7 @@
     },
     "armor21": {
         "id": "armor21",
-        "name": "Githweave Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": "Min +3",
         "cost": "None",
@@ -298,7 +298,7 @@
     },
     "armor59": {
         "id": "armor59",
-        "name": "Inix Leather Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "Min +3",
         "cost": "None",
@@ -307,7 +307,7 @@
     },
     "armor53": {
         "id": "armor53",
-        "name": "Kestrekel Feather Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": "Min +3",
         "cost": "None",
@@ -316,7 +316,7 @@
     },
     "armor79": {
         "id": "armor79",
-        "name": "Mekillot Scale Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +3",
         "cost": "None",
@@ -325,7 +325,7 @@
     },
     "armor72": {
         "id": "armor72",
-        "name": "Stonemail Armor",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +3",
         "cost": "None",
@@ -334,7 +334,7 @@
     },
     "armor65": {
         "id": "armor65",
-        "name": "Tembo Hide Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": "Min +3",
         "cost": "None",
@@ -343,7 +343,7 @@
     },
     "armor39": {
         "id": "armor39",
-        "name": "Wyvernscale Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +3",
         "cost": "None",
@@ -352,7 +352,7 @@
     },
     "armor54": {
         "id": "armor54",
-        "name": "Aarakocra Feather Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": "Min +4",
         "cost": "None",
@@ -361,7 +361,7 @@
     },
     "armor60": {
         "id": "armor60",
-        "name": "Baazrag Leather Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "Min +4",
         "cost": "None",
@@ -370,7 +370,7 @@
     },
     "armor89": {
         "id": "armor89",
-        "name": "Braxat Shell Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +4",
         "cost": "None",
@@ -379,7 +379,7 @@
     },
     "armor88": {
         "id": "armor88",
-        "name": "Chathrang Shell Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +4",
         "cost": "None",
@@ -388,7 +388,7 @@
     },
     "armor35": {
         "id": "armor35",
-        "name": "Crysteel Armor",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +4",
         "cost": "None",
@@ -397,7 +397,7 @@
     },
     "armor13": {
         "id": "armor13",
-        "name": "Darkhide Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": "Min +4",
         "cost": "None",
@@ -406,7 +406,7 @@
     },
     "armor30": {
         "id": "armor30",
-        "name": "Feyhide Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": "Min +4",
         "cost": "None",
@@ -415,7 +415,7 @@
     },
     "armor11": {
         "id": "armor11",
-        "name": "Feyleather Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "Min +4",
         "cost": "None",
@@ -424,7 +424,7 @@
     },
     "armor9": {
         "id": "armor9",
-        "name": "Feyweave Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": "Min +4",
         "cost": "None",
@@ -433,7 +433,7 @@
     },
     "armor15": {
         "id": "armor15",
-        "name": "Forgemail",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +4",
         "cost": "None",
@@ -442,7 +442,7 @@
     },
     "armor80": {
         "id": "armor80",
-        "name": "Inix Shell Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +4",
         "cost": "None",
@@ -451,7 +451,7 @@
     },
     "armor61": {
         "id": "armor61",
-        "name": "Jhakarskin Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "Min +4",
         "cost": "None",
@@ -460,7 +460,7 @@
     },
     "armor66": {
         "id": "armor66",
-        "name": "Kank Hide Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": "Min +4",
         "cost": "None",
@@ -469,7 +469,7 @@
     },
     "armor74": {
         "id": "armor74",
-        "name": "Kankmail Armor",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +4",
         "cost": "None",
@@ -478,7 +478,7 @@
     },
     "armor67": {
         "id": "armor67",
-        "name": "Kirre Hide Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": "Min +4",
         "cost": "None",
@@ -487,7 +487,7 @@
     },
     "armor81": {
         "id": "armor81",
-        "name": "Kreen Scale Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +4",
         "cost": "None",
@@ -496,7 +496,7 @@
     },
     "armor22": {
         "id": "armor22",
-        "name": "Mindweave Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": "Min +4",
         "cost": "None",
@@ -505,7 +505,7 @@
     },
     "armor73": {
         "id": "armor73",
-        "name": "Obsidianmail Armor",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +4",
         "cost": "None",
@@ -514,7 +514,7 @@
     },
     "armor26": {
         "id": "armor26",
-        "name": "Snakeskin Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "Min +4",
         "cost": "None",
@@ -523,7 +523,7 @@
     },
     "armor46": {
         "id": "armor46",
-        "name": "Specter Plate Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +4",
         "cost": "None",
@@ -532,7 +532,7 @@
     },
     "armor55": {
         "id": "armor55",
-        "name": "Spidersilk Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": "Min +4",
         "cost": "None",
@@ -541,7 +541,7 @@
     },
     "armor40": {
         "id": "armor40",
-        "name": "Stormscale Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +4",
         "cost": "None",
@@ -550,7 +550,7 @@
     },
     "armor19": {
         "id": "armor19",
-        "name": "Warplate Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +4",
         "cost": "None",
@@ -559,7 +559,7 @@
     },
     "armor17": {
         "id": "armor17",
-        "name": "Wyrmscale Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +4",
         "cost": "None",
@@ -568,7 +568,7 @@
     },
     "armor27": {
         "id": "armor27",
-        "name": "Anathema Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "Min +5",
         "cost": "None",
@@ -577,7 +577,7 @@
     },
     "armor75": {
         "id": "armor75",
-        "name": "Cilops Carapace Armor",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +5",
         "cost": "None",
@@ -586,7 +586,7 @@
     },
     "armor23": {
         "id": "armor23",
-        "name": "Efreetweave Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": "Min +5",
         "cost": "None",
@@ -595,7 +595,7 @@
     },
     "armor90": {
         "id": "armor90",
-        "name": "Gaj Carapace Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +5",
         "cost": "None",
@@ -604,7 +604,7 @@
     },
     "armor56": {
         "id": "armor56",
-        "name": "Giantweave Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": "Min +5",
         "cost": "None",
@@ -613,7 +613,7 @@
     },
     "armor47": {
         "id": "armor47",
-        "name": "Legion Plate Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +5",
         "cost": "None",
@@ -622,7 +622,7 @@
     },
     "armor68": {
         "id": "armor68",
-        "name": "Mekillot Hide Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": "Min +5",
         "cost": "None",
@@ -631,7 +631,7 @@
     },
     "armor41": {
         "id": "armor41",
-        "name": "Nagascale Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +5",
         "cost": "None",
@@ -640,7 +640,7 @@
     },
     "armor82": {
         "id": "armor82",
-        "name": "Rampager Scale Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +5",
         "cost": "None",
@@ -649,7 +649,7 @@
     },
     "armor62": {
         "id": "armor62",
-        "name": "Ray Leather Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "Min +5",
         "cost": "None",
@@ -658,7 +658,7 @@
     },
     "armor31": {
         "id": "armor31",
-        "name": "Stalkerhide Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": "Min +5",
         "cost": "None",
@@ -667,7 +667,7 @@
     },
     "armor36": {
         "id": "armor36",
-        "name": "Weavemail Armor",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +5",
         "cost": "None",
@@ -676,7 +676,7 @@
     },
     "armor92": {
         "id": "armor92",
-        "name": "Braxat Lord Shell Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +6",
         "cost": "None",
@@ -685,7 +685,7 @@
     },
     "armor58": {
         "id": "armor58",
-        "name": "Dragoncloth Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": "Min +6",
         "cost": "None",
@@ -694,7 +694,7 @@
     },
     "armor84": {
         "id": "armor84",
-        "name": "Dragonscale Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +6",
         "cost": "None",
@@ -703,7 +703,7 @@
     },
     "armor63": {
         "id": "armor63",
-        "name": "Drake Leather Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "Min +6",
         "cost": "None",
@@ -712,7 +712,7 @@
     },
     "armor91": {
         "id": "armor91",
-        "name": "Drakeplate Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +6",
         "cost": "None",
@@ -721,7 +721,7 @@
     },
     "armor14": {
         "id": "armor14",
-        "name": "Elderhide Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": "Min +6",
         "cost": "None",
@@ -730,7 +730,7 @@
     },
     "armor18": {
         "id": "armor18",
-        "name": "Elderscale Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +6",
         "cost": "None",
@@ -739,7 +739,7 @@
     },
     "armor83": {
         "id": "armor83",
-        "name": "Elemental Drake Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +6",
         "cost": "None",
@@ -748,7 +748,7 @@
     },
     "armor20": {
         "id": "armor20",
-        "name": "Godplate Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +6",
         "cost": "None",
@@ -757,7 +757,7 @@
     },
     "armor77": {
         "id": "armor77",
-        "name": "Kingmail Armor",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +6",
         "cost": "None",
@@ -766,7 +766,7 @@
     },
     "armor64": {
         "id": "armor64",
-        "name": "Mantle Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "Min +6",
         "cost": "None",
@@ -775,7 +775,7 @@
     },
     "armor24": {
         "id": "armor24",
-        "name": "Mindpatterned Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": "Min +6",
         "cost": "None",
@@ -784,7 +784,7 @@
     },
     "armor70": {
         "id": "armor70",
-        "name": "Nightmare Hide Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": "Min +6",
         "cost": "None",
@@ -793,7 +793,7 @@
     },
     "armor37": {
         "id": "armor37",
-        "name": "Pitmail Armor",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +6",
         "cost": "None",
@@ -802,7 +802,7 @@
     },
     "armor69": {
         "id": "armor69",
-        "name": "Roc Hide Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": "Min +6",
         "cost": "None",
@@ -811,7 +811,7 @@
     },
     "armor16": {
         "id": "armor16",
-        "name": "Spiritmail",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +6",
         "cost": "None",
@@ -820,7 +820,7 @@
     },
     "armor12": {
         "id": "armor12",
-        "name": "Starleather Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "Min +6",
         "cost": "None",
@@ -829,7 +829,7 @@
     },
     "armor10": {
         "id": "armor10",
-        "name": "Starweave Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": "Min +6",
         "cost": "None",
@@ -838,7 +838,7 @@
     },
     "armor28": {
         "id": "armor28",
-        "name": "Swordwing Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": "Min +6",
         "cost": "None",
@@ -847,7 +847,7 @@
     },
     "armor48": {
         "id": "armor48",
-        "name": "Tarrasque Plate Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Min +6",
         "cost": "None",
@@ -856,7 +856,7 @@
     },
     "armor76": {
         "id": "armor76",
-        "name": "Templar Mail Armor",
+        "name": "Armor Name",
         "type": "Chainmail",
         "level": "Min +6",
         "cost": "None",
@@ -865,7 +865,7 @@
     },
     "armor42": {
         "id": "armor42",
-        "name": "Titanscale Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": "Min +6",
         "cost": "None",
@@ -874,7 +874,7 @@
     },
     "armor32": {
         "id": "armor32",
-        "name": "Voidhide",
+        "name": "Armor Name",
         "type": "Hide",
         "level": "Min +6",
         "cost": "None",
@@ -883,7 +883,7 @@
     },
     "armor57": {
         "id": "armor57",
-        "name": "Wyrmsilk Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": "Min +6",
         "cost": "None",
@@ -892,7 +892,7 @@
     },
     "armor1281": {
         "id": "armor1281",
-        "name": "Fighting Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "1",
         "cost": "360",
@@ -901,7 +901,7 @@
     },
     "armor1322": {
         "id": "armor1322",
-        "name": "Floating Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "1",
         "cost": "360",
@@ -910,7 +910,7 @@
     },
     "armor1772": {
         "id": "armor1772",
-        "name": "Magic Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -935,7 +935,7 @@
     },
     "armor462": {
         "id": "armor462",
-        "name": "Agile Resolve Vestments",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -960,7 +960,7 @@
     },
     "armor531": {
         "id": "armor531",
-        "name": "Armor of Aegis Expansion",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -985,7 +985,7 @@
     },
     "armor537": {
         "id": "armor537",
-        "name": "Armor of Dwarven Vigor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -1010,7 +1010,7 @@
     },
     "armor3117": {
         "id": "armor3117",
-        "name": "Armor of Escape",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -1035,7 +1035,7 @@
     },
     "armor541": {
         "id": "armor541",
-        "name": "Armor of Eyes",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -1060,7 +1060,7 @@
     },
     "armor544": {
         "id": "armor544",
-        "name": "Armor of Resistance",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -1085,7 +1085,7 @@
     },
     "armor561": {
         "id": "armor561",
-        "name": "Astral Fire Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -1110,7 +1110,7 @@
     },
     "armor579": {
         "id": "armor579",
-        "name": "Awakening Armor",
+        "name": "Armor Name",
         "type": "Hide or chain",
         "level": [
             
@@ -1135,7 +1135,7 @@
     },
     "armor702": {
         "id": "armor702",
-        "name": "Bloodguard Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -1154,7 +1154,7 @@
     },
     "armor960": {
         "id": "armor960",
-        "name": "Coruscating Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -1179,7 +1179,7 @@
     },
     "armor1013": {
         "id": "armor1013",
-        "name": "Darkleaf Shield",
+        "name": "Armor Name",
         "type": "Light shield",
         "level": [
             
@@ -1198,7 +1198,7 @@
     },
     "armor1044": {
         "id": "armor1044",
-        "name": "Deathsteel Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -1223,7 +1223,7 @@
     },
     "armor1147": {
         "id": "armor1147",
-        "name": "Dwarven Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -1248,7 +1248,7 @@
     },
     "armor1198": {
         "id": "armor1198",
-        "name": "Elusive Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -1273,7 +1273,7 @@
     },
     "armor1212": {
         "id": "armor1212",
-        "name": "Enduring Spirit Vestments",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -1298,7 +1298,7 @@
     },
     "armor1423": {
         "id": "armor1423",
-        "name": "Gleaming Armor",
+        "name": "Armor Name",
         "type": "Chain or scale",
         "level": [
             
@@ -1323,7 +1323,7 @@
     },
     "armor1513": {
         "id": "armor1513",
-        "name": "Haunted Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -1348,7 +1348,7 @@
     },
     "armor1552": {
         "id": "armor1552",
-        "name": "Hero's Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -1373,7 +1373,7 @@
     },
     "armor1569": {
         "id": "armor1569",
-        "name": "Horn Tusk Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -1398,7 +1398,7 @@
     },
     "armor1586": {
         "id": "armor1586",
-        "name": "Hunting Beast Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -1423,7 +1423,7 @@
     },
     "armor1600": {
         "id": "armor1600",
-        "name": "Immunizing Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -1448,7 +1448,7 @@
     },
     "armor1617": {
         "id": "armor1617",
-        "name": "Indomitable Resolve Vestments",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -1473,7 +1473,7 @@
     },
     "armor1673": {
         "id": "armor1673",
-        "name": "Jousting Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -1492,7 +1492,7 @@
     },
     "armor1765": {
         "id": "armor1765",
-        "name": "Luring Withdrawal Armor",
+        "name": "Armor Name",
         "type": "Leather or chain",
         "level": [
             
@@ -1517,7 +1517,7 @@
     },
     "armor1808": {
         "id": "armor1808",
-        "name": "Martyr's Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -1542,7 +1542,7 @@
     },
     "armor1859": {
         "id": "armor1859",
-        "name": "Mind Hunter's Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -1567,7 +1567,7 @@
     },
     "armor1872": {
         "id": "armor1872",
-        "name": "Mithral Plating",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -1592,7 +1592,7 @@
     },
     "armor2098": {
         "id": "armor2098",
-        "name": "Preservation Shield",
+        "name": "Armor Name",
         "type": "Light shield",
         "level": "2",
         "cost": "520",
@@ -1601,7 +1601,7 @@
     },
     "armor2137": {
         "id": "armor2137",
-        "name": "Rat Killer's Coat",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -1626,7 +1626,7 @@
     },
     "armor2140": {
         "id": "armor2140",
-        "name": "Razor Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": [
             
@@ -1651,7 +1651,7 @@
     },
     "armor2142": {
         "id": "armor2142",
-        "name": "Razor Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -1670,7 +1670,7 @@
     },
     "armor2170": {
         "id": "armor2170",
-        "name": "Repulsion Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -1695,7 +1695,7 @@
     },
     "armor2281": {
         "id": "armor2281",
-        "name": "Robe of Eyes",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -1720,7 +1720,7 @@
     },
     "armor2285": {
         "id": "armor2285",
-        "name": "Robe of Scintillation",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -1745,7 +1745,7 @@
     },
     "armor3130": {
         "id": "armor3130",
-        "name": "Robe of Useful Items",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -1770,7 +1770,7 @@
     },
     "armor2397": {
         "id": "armor2397",
-        "name": "Savage Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -1795,7 +1795,7 @@
     },
     "armor2417": {
         "id": "armor2417",
-        "name": "Screaming Armor",
+        "name": "Armor Name",
         "type": "Hide, scale or plate",
         "level": [
             
@@ -1820,7 +1820,7 @@
     },
     "armor2441": {
         "id": "armor2441",
-        "name": "Shadow Hunter Hide",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -1845,7 +1845,7 @@
     },
     "armor2474": {
         "id": "armor2474",
-        "name": "Shield of Deflection",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -1864,7 +1864,7 @@
     },
     "armor2484": {
         "id": "armor2484",
-        "name": "Shield of the Guardian",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -1883,7 +1883,7 @@
     },
     "armor2534": {
         "id": "armor2534",
-        "name": "Slick Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -1908,7 +1908,7 @@
     },
     "armor3211": {
         "id": "armor3211",
-        "name": "Tusk Shield",
+        "name": "Armor Name",
         "type": "Light shield",
         "level": "2",
         "cost": "520",
@@ -1917,7 +1917,7 @@
     },
     "armor2986": {
         "id": "armor2986",
-        "name": "Veteran's Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -1942,7 +1942,7 @@
     },
     "armor2992": {
         "id": "armor2992",
-        "name": "Vigorous Resolve Vestments",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -1967,7 +1967,7 @@
     },
     "armor3040": {
         "id": "armor3040",
-        "name": "Warding Spirit Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": [
             
@@ -1992,7 +1992,7 @@
     },
     "armor454": {
         "id": "armor454",
-        "name": "Addergrease Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -2017,7 +2017,7 @@
     },
     "armor533": {
         "id": "armor533",
-        "name": "Armor of Cleansing",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -2042,7 +2042,7 @@
     },
     "armor540": {
         "id": "armor540",
-        "name": "Armor of Exploits",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -2067,7 +2067,7 @@
     },
     "armor549": {
         "id": "armor549",
-        "name": "Armor of Sudden Recovery",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -2092,7 +2092,7 @@
     },
     "armor664": {
         "id": "armor664",
-        "name": "Bestial Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -2117,7 +2117,7 @@
     },
     "armor805": {
         "id": "armor805",
-        "name": "Breaching Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -2142,7 +2142,7 @@
     },
     "armor1001": {
         "id": "armor1001",
-        "name": "Curseforged Armor",
+        "name": "Armor Name",
         "type": "Chain or scale",
         "level": [
             
@@ -2167,7 +2167,7 @@
     },
     "armor1055": {
         "id": "armor1055",
-        "name": "Defensive Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -2192,7 +2192,7 @@
     },
     "armor1061": {
         "id": "armor1061",
-        "name": "Delver's Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -2217,7 +2217,7 @@
     },
     "armor1103": {
         "id": "armor1103",
-        "name": "Divine Retribution Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -2242,7 +2242,7 @@
     },
     "armor3123": {
         "id": "armor3123",
-        "name": "Ebon Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -2267,7 +2267,7 @@
     },
     "armor1176": {
         "id": "armor1176",
-        "name": "Eladrin Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -2292,7 +2292,7 @@
     },
     "armor1288": {
         "id": "armor1288",
-        "name": "Fireburst Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -2317,7 +2317,7 @@
     },
     "armor1529": {
         "id": "armor1529",
-        "name": "Heartening Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -2342,7 +2342,7 @@
     },
     "armor1558": {
         "id": "armor1558",
-        "name": "Holy Adversary's Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -2367,7 +2367,7 @@
     },
     "armor1654": {
         "id": "armor1654",
-        "name": "Ironclad Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -2392,7 +2392,7 @@
     },
     "armor1727": {
         "id": "armor1727",
-        "name": "Life Vine Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -2417,7 +2417,7 @@
     },
     "armor1732": {
         "id": "armor1732",
-        "name": "Lifegiving Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -2442,7 +2442,7 @@
     },
     "armor1848": {
         "id": "armor1848",
-        "name": "Meliorating Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -2467,7 +2467,7 @@
     },
     "armor1877": {
         "id": "armor1877",
-        "name": "Moon Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -2492,7 +2492,7 @@
     },
     "armor1911": {
         "id": "armor1911",
-        "name": "Nightmare Ward Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -2517,7 +2517,7 @@
     },
     "armor2094": {
         "id": "armor2094",
-        "name": "Predator Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -2542,7 +2542,7 @@
     },
     "armor2095": {
         "id": "armor2095",
-        "name": "Predator's Hide",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -2567,7 +2567,7 @@
     },
     "armor2275": {
         "id": "armor2275",
-        "name": "Robe of Avoidance",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -2592,7 +2592,7 @@
     },
     "armor2283": {
         "id": "armor2283",
-        "name": "Robe of Quills",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -2617,7 +2617,7 @@
     },
     "armor2366": {
         "id": "armor2366",
-        "name": "Runic Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -2642,7 +2642,7 @@
     },
     "armor2391": {
         "id": "armor2391",
-        "name": "Sanguine Vestments",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -2667,7 +2667,7 @@
     },
     "armor2434": {
         "id": "armor2434",
-        "name": "Serpentskin Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -2692,7 +2692,7 @@
     },
     "armor2460": {
         "id": "armor2460",
-        "name": "Shaper's Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -2717,7 +2717,7 @@
     },
     "armor2477": {
         "id": "armor2477",
-        "name": "Shield of Protection",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -2736,7 +2736,7 @@
     },
     "armor2519": {
         "id": "armor2519",
-        "name": "Skald's Armor",
+        "name": "Armor Name",
         "type": "Leather or chain",
         "level": [
             
@@ -2761,7 +2761,7 @@
     },
     "armor2582": {
         "id": "armor2582",
-        "name": "Spiked Jacket",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -2786,7 +2786,7 @@
     },
     "armor2660": {
         "id": "armor2660",
-        "name": "Stanching Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -2811,7 +2811,7 @@
     },
     "armor2684": {
         "id": "armor2684",
-        "name": "Stoneborn Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -2836,7 +2836,7 @@
     },
     "armor2688": {
         "id": "armor2688",
-        "name": "Stoneskin Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -2861,7 +2861,7 @@
     },
     "armor2754": {
         "id": "armor2754",
-        "name": "Sylvan Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -2886,7 +2886,7 @@
     },
     "armor2870": {
         "id": "armor2870",
-        "name": "Thought-Eater Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -2911,7 +2911,7 @@
     },
     "armor3213": {
         "id": "armor3213",
-        "name": "Vanguard's Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "3",
         "cost": "680",
@@ -2920,7 +2920,7 @@
     },
     "armor2983": {
         "id": "armor2983",
-        "name": "Versatile Armor",
+        "name": "Armor Name",
         "type": "Chain or plate",
         "level": [
             
@@ -2945,7 +2945,7 @@
     },
     "armor3015": {
         "id": "armor3015",
-        "name": "Wall Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -2970,7 +2970,7 @@
     },
     "armor3042": {
         "id": "armor3042",
-        "name": "Warmage's Uniform",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -2995,7 +2995,7 @@
     },
     "armor3072": {
         "id": "armor3072",
-        "name": "Whiteflame Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -3020,7 +3020,7 @@
     },
     "armor451": {
         "id": "armor451",
-        "name": "Adamantine Plating",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -3045,7 +3045,7 @@
     },
     "armor507": {
         "id": "armor507",
-        "name": "Anakore",
+        "name": "Armor Name",
         "type": "Leather, hide or scale",
         "level": [
             
@@ -3070,7 +3070,7 @@
     },
     "armor530": {
         "id": "armor530",
-        "name": "Armor of Adaptable Resistance",
+        "name": "Armor Name",
         "type": "Hide or chain",
         "level": [
             
@@ -3095,7 +3095,7 @@
     },
     "armor535": {
         "id": "armor535",
-        "name": "Armor of Dark Majesty",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -3120,7 +3120,7 @@
     },
     "armor536": {
         "id": "armor536",
-        "name": "Armor of Durability",
+        "name": "Armor Name",
         "type": "Hide, chain, scale or plate",
         "level": [
             
@@ -3145,7 +3145,7 @@
     },
     "armor610": {
         "id": "armor610",
-        "name": "Battle Harness",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -3170,7 +3170,7 @@
     },
     "armor627": {
         "id": "armor627",
-        "name": "Battleforged Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -3189,7 +3189,7 @@
     },
     "armor632": {
         "id": "armor632",
-        "name": "Bear Spirit Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": [
             
@@ -3214,7 +3214,7 @@
     },
     "armor669": {
         "id": "armor669",
-        "name": "Black Iron Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -3239,7 +3239,7 @@
     },
     "armor699": {
         "id": "armor699",
-        "name": "Bloodcut Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -3264,7 +3264,7 @@
     },
     "armor728": {
         "id": "armor728",
-        "name": "Bold Victory Armor",
+        "name": "Armor Name",
         "type": "Leather or chain",
         "level": [
             
@@ -3289,7 +3289,7 @@
     },
     "armor993": {
         "id": "armor993",
-        "name": "Crystal Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -3314,7 +3314,7 @@
     },
     "armor1012": {
         "id": "armor1012",
-        "name": "Darkleaf Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -3339,7 +3339,7 @@
     },
     "armor1024": {
         "id": "armor1024",
-        "name": "Dazzling Plate",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -3364,7 +3364,7 @@
     },
     "armor1111": {
         "id": "armor1111",
-        "name": "Dragonclaw Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -3389,7 +3389,7 @@
     },
     "armor1175": {
         "id": "armor1175",
-        "name": "Ectoplasmic Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -3414,7 +3414,7 @@
     },
     "armor1181": {
         "id": "armor1181",
-        "name": "Eldritch Serpent Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": [
             
@@ -3439,7 +3439,7 @@
     },
     "armor1258": {
         "id": "armor1258",
-        "name": "Feedback Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -3464,7 +3464,7 @@
     },
     "armor1324": {
         "id": "armor1324",
-        "name": "Flowform Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -3489,7 +3489,7 @@
     },
     "armor1352": {
         "id": "armor1352",
-        "name": "Fortification Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -3514,7 +3514,7 @@
     },
     "armor1366": {
         "id": "armor1366",
-        "name": "Frozen Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -3539,7 +3539,7 @@
     },
     "armor1392": {
         "id": "armor1392",
-        "name": "Genasi Soul Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -3564,7 +3564,7 @@
     },
     "armor1674": {
         "id": "armor1674",
-        "name": "Joyous Armor",
+        "name": "Armor Name",
         "type": "Chain or scale",
         "level": [
             
@@ -3589,7 +3589,7 @@
     },
     "armor1731": {
         "id": "armor1731",
-        "name": "Lifefont Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -3614,7 +3614,7 @@
     },
     "armor1870": {
         "id": "armor1870",
-        "name": "Mithral Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -3639,7 +3639,7 @@
     },
     "armor1893": {
         "id": "armor1893",
-        "name": "Mountain Shield",
+        "name": "Armor Name",
         "type": "Heavy shield",
         "level": [
             
@@ -3656,7 +3656,7 @@
     },
     "armor2017": {
         "id": "armor2017",
-        "name": "Parchment Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -3681,7 +3681,7 @@
     },
     "armor2023": {
         "id": "armor2023",
-        "name": "Pelaurum Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -3706,7 +3706,7 @@
     },
     "armor2046": {
         "id": "armor2046",
-        "name": "Phrenic Armor",
+        "name": "Armor Name",
         "type": "Chain or scale",
         "level": [
             
@@ -3731,7 +3731,7 @@
     },
     "armor2088": {
         "id": "armor2088",
-        "name": "Pouncing Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -3756,7 +3756,7 @@
     },
     "armor2089": {
         "id": "armor2089",
-        "name": "Pouncing Beast Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -3781,7 +3781,7 @@
     },
     "armor3207": {
         "id": "armor3207",
-        "name": "Ranging Defender Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -3800,7 +3800,7 @@
     },
     "armor2151": {
         "id": "armor2151",
-        "name": "Rebuking Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -3825,7 +3825,7 @@
     },
     "armor2158": {
         "id": "armor2158",
-        "name": "Reflexive Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -3850,7 +3850,7 @@
     },
     "armor2162": {
         "id": "armor2162",
-        "name": "Reinforcing Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -3875,7 +3875,7 @@
     },
     "armor2277": {
         "id": "armor2277",
-        "name": "Robe of Contingency",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -3900,7 +3900,7 @@
     },
     "armor2380": {
         "id": "armor2380",
-        "name": "Salubrious Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -3925,7 +3925,7 @@
     },
     "armor2401": {
         "id": "armor2401",
-        "name": "Scale of the Serpent",
+        "name": "Armor Name",
         "type": "Scale",
         "level": [
             
@@ -3950,7 +3950,7 @@
     },
     "armor2413": {
         "id": "armor2413",
-        "name": "Scorpion Carapace Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -3975,7 +3975,7 @@
     },
     "armor2431": {
         "id": "armor2431",
-        "name": "Serpentine Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": [
             
@@ -4000,7 +4000,7 @@
     },
     "armor2475": {
         "id": "armor2475",
-        "name": "Shield of Eyes",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "4",
         "cost": "840",
@@ -4009,7 +4009,7 @@
     },
     "armor2478": {
         "id": "armor2478",
-        "name": "Shield of Silver Light",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "4",
         "cost": "840",
@@ -4018,7 +4018,7 @@
     },
     "armor2479": {
         "id": "armor2479",
-        "name": "Shield of Speed and Evasion",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "4",
         "cost": "840",
@@ -4027,7 +4027,7 @@
     },
     "armor2491": {
         "id": "armor2491",
-        "name": "Shimmering Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -4052,7 +4052,7 @@
     },
     "armor2887": {
         "id": "armor2887",
-        "name": "Time Link Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -4077,7 +4077,7 @@
     },
     "armor2985": {
         "id": "armor2985",
-        "name": "Verve Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -4102,7 +4102,7 @@
     },
     "armor3132": {
         "id": "armor3132",
-        "name": "Wintersnap Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -4127,7 +4127,7 @@
     },
     "armor461": {
         "id": "armor461",
-        "name": "Agile Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -4152,7 +4152,7 @@
     },
     "armor466": {
         "id": "armor466",
-        "name": "Alchemical Defense Nodes",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -4177,7 +4177,7 @@
     },
     "armor545": {
         "id": "armor545",
-        "name": "Armor of Sacrifice",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -4202,7 +4202,7 @@
     },
     "armor3119": {
         "id": "armor3119",
-        "name": "Armor of the Charging Wind",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -4227,7 +4227,7 @@
     },
     "armor603": {
         "id": "armor603",
-        "name": "Barkskin Armor",
+        "name": "Armor Name",
         "type": "Hide or scale",
         "level": [
             
@@ -4252,7 +4252,7 @@
     },
     "armor606": {
         "id": "armor606",
-        "name": "Bashing Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -4271,7 +4271,7 @@
     },
     "armor626": {
         "id": "armor626",
-        "name": "Battleforged Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -4296,7 +4296,7 @@
     },
     "armor721": {
         "id": "armor721",
-        "name": "Bloodthread Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -4321,7 +4321,7 @@
     },
     "armor3424": {
         "id": "armor3424",
-        "name": "Brassburn Armor",
+        "name": "Armor Name",
         "type": "Chain or scale",
         "level": [
             
@@ -4346,7 +4346,7 @@
     },
     "armor3425": {
         "id": "armor3425",
-        "name": "Chromatic Robe",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -4371,7 +4371,7 @@
     },
     "armor935": {
         "id": "armor935",
-        "name": "Cold Iron Shield",
+        "name": "Armor Name",
         "type": "Heavy shield",
         "level": [
             
@@ -4390,7 +4390,7 @@
     },
     "armor1041": {
         "id": "armor1041",
-        "name": "Deathcut Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -4415,7 +4415,7 @@
     },
     "armor1094": {
         "id": "armor1094",
-        "name": "Direbeast Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -4434,7 +4434,7 @@
     },
     "armor3122": {
         "id": "armor3122",
-        "name": "Doppelganger Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -4459,7 +4459,7 @@
     },
     "armor1211": {
         "id": "armor1211",
-        "name": "Enduring Beast Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -4484,7 +4484,7 @@
     },
     "armor1227": {
         "id": "armor1227",
-        "name": "Exalted Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -4509,7 +4509,7 @@
     },
     "armor3125": {
         "id": "armor3125",
-        "name": "Gloaming Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -4534,7 +4534,7 @@
     },
     "armor1522": {
         "id": "armor1522",
-        "name": "Healer's Armor",
+        "name": "Armor Name",
         "type": "Hide or chain",
         "level": [
             
@@ -4559,7 +4559,7 @@
     },
     "armor2013": {
         "id": "armor2013",
-        "name": "Panther Spirit Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": [
             
@@ -4584,7 +4584,7 @@
     },
     "armor2049": {
         "id": "armor2049",
-        "name": "Piecemeal Armor",
+        "name": "Armor Name",
         "type": "Chain or scale",
         "level": [
             
@@ -4609,7 +4609,7 @@
     },
     "armor2124": {
         "id": "armor2124",
-        "name": "Quicksilver Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -4634,7 +4634,7 @@
     },
     "armor2445": {
         "id": "armor2445",
-        "name": "Shadow-Shroud Armor",
+        "name": "Armor Name",
         "type": "Chain or scale",
         "level": [
             
@@ -4659,7 +4659,7 @@
     },
     "armor2446": {
         "id": "armor2446",
-        "name": "Shadowdance Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -4684,7 +4684,7 @@
     },
     "armor2465": {
         "id": "armor2465",
-        "name": "Shared Suffering Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -4709,7 +4709,7 @@
     },
     "armor2492": {
         "id": "armor2492",
-        "name": "Shimmering Light",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -4728,7 +4728,7 @@
     },
     "armor2497": {
         "id": "armor2497",
-        "name": "Shockweave Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -4753,7 +4753,7 @@
     },
     "armor2529": {
         "id": "armor2529",
-        "name": "Skybound Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -4778,7 +4778,7 @@
     },
     "armor2727": {
         "id": "armor2727",
-        "name": "Supporting Armor",
+        "name": "Armor Name",
         "type": "Plate or scale",
         "level": [
             
@@ -4803,7 +4803,7 @@
     },
     "armor2814": {
         "id": "armor2814",
-        "name": "Tactician's Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -4828,7 +4828,7 @@
     },
     "armor1302": {
         "id": "armor1302",
-        "name": "Flamedrinker Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -4847,7 +4847,7 @@
     },
     "armor1334": {
         "id": "armor1334",
-        "name": "Foe Fending Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -4866,7 +4866,7 @@
     },
     "armor1375": {
         "id": "armor1375",
-        "name": "Gambler's Suit",
+        "name": "Armor Name",
         "type": "Leather",
         "level": [
             
@@ -4889,7 +4889,7 @@
     },
     "armor1615": {
         "id": "armor1615",
-        "name": "Imposter's Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -4912,7 +4912,7 @@
     },
     "armor2715": {
         "id": "armor2715",
-        "name": "Summoned Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -4935,7 +4935,7 @@
     },
     "armor2875": {
         "id": "armor2875",
-        "name": "Throwing Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -4954,7 +4954,7 @@
     },
     "armor3116": {
         "id": "armor3116",
-        "name": "Armor of Dogged Grit",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -4977,7 +4977,7 @@
     },
     "armor608": {
         "id": "armor608",
-        "name": "Bastion Armor",
+        "name": "Armor Name",
         "type": "Plate or scale",
         "level": [
             
@@ -5000,7 +5000,7 @@
     },
     "armor1037": {
         "id": "armor1037",
-        "name": "Death's Brink Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -5023,7 +5023,7 @@
     },
     "armor1039": {
         "id": "armor1039",
-        "name": "Deathburst Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -5046,7 +5046,7 @@
     },
     "armor1125": {
         "id": "armor1125",
-        "name": "Dragontooth Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "7",
         "cost": "2,600",
@@ -5055,7 +5055,7 @@
     },
     "armor1261": {
         "id": "armor1261",
-        "name": "Feral Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -5078,7 +5078,7 @@
     },
     "armor1598": {
         "id": "armor1598",
-        "name": "Immolating Armor",
+        "name": "Armor Name",
         "type": "Chain or scale",
         "level": [
             
@@ -5101,7 +5101,7 @@
     },
     "armor1660": {
         "id": "armor1660",
-        "name": "Irrefutable Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -5124,7 +5124,7 @@
     },
     "armor1803": {
         "id": "armor1803",
-        "name": "Marauder's Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -5147,7 +5147,7 @@
     },
     "armor2024": {
         "id": "armor2024",
-        "name": "Pelaurum Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -5166,7 +5166,7 @@
     },
     "armor2127": {
         "id": "armor2127",
-        "name": "Radiant Temple Uniform",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -5189,7 +5189,7 @@
     },
     "armor2440": {
         "id": "armor2440",
-        "name": "Shadow Hound Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -5212,7 +5212,7 @@
     },
     "armor2494": {
         "id": "armor2494",
-        "name": "Shipboard Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": [
             
@@ -5235,7 +5235,7 @@
     },
     "armor2541": {
         "id": "armor2541",
-        "name": "Snake's Lair Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -5258,7 +5258,7 @@
     },
     "armor2725": {
         "id": "armor2725",
-        "name": "Sunleaf Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -5281,7 +5281,7 @@
     },
     "armor2936": {
         "id": "armor2936",
-        "name": "Trauma Bracers",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -5298,7 +5298,7 @@
     },
     "armor3000": {
         "id": "armor3000",
-        "name": "Vitality Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -5321,7 +5321,7 @@
     },
     "armor634": {
         "id": "armor634",
-        "name": "Beastlord Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -5344,7 +5344,7 @@
     },
     "armor689": {
         "id": "armor689",
-        "name": "Blink Shirt",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -5367,7 +5367,7 @@
     },
     "armor705": {
         "id": "armor705",
-        "name": "Bloodiron Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -5390,7 +5390,7 @@
     },
     "armor808": {
         "id": "armor808",
-        "name": "Briartwine Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -5413,7 +5413,7 @@
     },
     "armor1199": {
         "id": "armor1199",
-        "name": "Elven Battle Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -5436,7 +5436,7 @@
     },
     "armor3124": {
         "id": "armor3124",
-        "name": "Fishscale Armor",
+        "name": "Armor Name",
         "type": "Hide or scale",
         "level": [
             
@@ -5459,7 +5459,7 @@
     },
     "armor3206": {
         "id": "armor3206",
-        "name": "Greater Storm Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -5478,7 +5478,7 @@
     },
     "armor1501": {
         "id": "armor1501",
-        "name": "Hammer Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "8",
         "cost": "3,400",
@@ -5487,7 +5487,7 @@
     },
     "armor1684": {
         "id": "armor1684",
-        "name": "Kemstone Armor",
+        "name": "Armor Name",
         "type": "Plate or scale",
         "level": [
             
@@ -5510,7 +5510,7 @@
     },
     "armor1794": {
         "id": "armor1794",
-        "name": "Manticore Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -5529,7 +5529,7 @@
     },
     "armor1873": {
         "id": "armor1873",
-        "name": "Mithral Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -5548,7 +5548,7 @@
     },
     "armor1892": {
         "id": "armor1892",
-        "name": "Mountain Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -5571,7 +5571,7 @@
     },
     "armor2053": {
         "id": "armor2053",
-        "name": "Pincer Shield",
+        "name": "Armor Name",
         "type": "Heavy shield",
         "level": "8",
         "cost": "3,400",
@@ -5580,7 +5580,7 @@
     },
     "armor2136": {
         "id": "armor2136",
-        "name": "Rat Form Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": [
             
@@ -5603,7 +5603,7 @@
     },
     "armor2172": {
         "id": "armor2172",
-        "name": "Resolute Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -5626,7 +5626,7 @@
     },
     "armor2412": {
         "id": "armor2412",
-        "name": "Scintillating Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -5649,7 +5649,7 @@
     },
     "armor2466": {
         "id": "armor2466",
-        "name": "Shared Valor Armor",
+        "name": "Armor Name",
         "type": "Leather or chain",
         "level": [
             
@@ -5672,7 +5672,7 @@
     },
     "armor2473": {
         "id": "armor2473",
-        "name": "Shield of Defiance",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -5691,7 +5691,7 @@
     },
     "armor2535": {
         "id": "armor2535",
-        "name": "Slime Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -5714,7 +5714,7 @@
     },
     "armor2542": {
         "id": "armor2542",
-        "name": "Snakefang Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -5737,7 +5737,7 @@
     },
     "armor2581": {
         "id": "armor2581",
-        "name": "Spiderweb Robes",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -5760,7 +5760,7 @@
     },
     "armor2686": {
         "id": "armor2686",
-        "name": "Stonemeld Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -5783,7 +5783,7 @@
     },
     "armor2692": {
         "id": "armor2692",
-        "name": "Storm Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -5802,7 +5802,7 @@
     },
     "armor3212": {
         "id": "armor3212",
-        "name": "Twilight Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "8",
         "cost": "3,400",
@@ -5811,7 +5811,7 @@
     },
     "armor3101": {
         "id": "armor3101",
-        "name": "Wyrmguard Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -5828,7 +5828,7 @@
     },
     "armor514": {
         "id": "armor514",
-        "name": "Angelsteel Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -5847,7 +5847,7 @@
     },
     "armor3118": {
         "id": "armor3118",
-        "name": "Armor of Scintillating Colors",
+        "name": "Armor Name",
         "type": "Cloth, leather, hide or chain",
         "level": [
             
@@ -5870,7 +5870,7 @@
     },
     "armor661": {
         "id": "armor661",
-        "name": "Benefactor Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -5893,7 +5893,7 @@
     },
     "armor3120": {
         "id": "armor3120",
-        "name": "Blending Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -5916,7 +5916,7 @@
     },
     "armor712": {
         "id": "armor712",
-        "name": "Bloodshored Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -5935,7 +5935,7 @@
     },
     "armor714": {
         "id": "armor714",
-        "name": "Bloodsoaked Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -5954,7 +5954,7 @@
     },
     "armor852": {
         "id": "armor852",
-        "name": "Champion's Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -5977,7 +5977,7 @@
     },
     "armor1067": {
         "id": "armor1067",
-        "name": "Demonscale",
+        "name": "Armor Name",
         "type": "Scale",
         "level": [
             
@@ -6000,7 +6000,7 @@
     },
     "armor1353": {
         "id": "armor1353",
-        "name": "Fortified Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -6023,7 +6023,7 @@
     },
     "armor1401": {
         "id": "armor1401",
-        "name": "Ghostphase Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -6046,7 +6046,7 @@
     },
     "armor1625": {
         "id": "armor1625",
-        "name": "Inner Warmth Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -6069,7 +6069,7 @@
     },
     "armor1682": {
         "id": "armor1682",
-        "name": "Keeper's Shield",
+        "name": "Armor Name",
         "type": "Heavy shield",
         "level": "9",
         "cost": "4,200",
@@ -6078,7 +6078,7 @@
     },
     "armor1708": {
         "id": "armor1708",
-        "name": "Laughing Death Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -6101,7 +6101,7 @@
     },
     "armor1751": {
         "id": "armor1751",
-        "name": "Loamweave Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -6124,7 +6124,7 @@
     },
     "armor1785": {
         "id": "armor1785",
-        "name": "Magnetic Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -6147,7 +6147,7 @@
     },
     "armor1869": {
         "id": "armor1869",
-        "name": "Mirrorsheen Coat",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -6170,7 +6170,7 @@
     },
     "armor2155": {
         "id": "armor2155",
-        "name": "Recoil Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "9",
         "cost": "4,200",
@@ -6179,7 +6179,7 @@
     },
     "armor2194": {
         "id": "armor2194",
-        "name": "Righteous Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -6202,7 +6202,7 @@
     },
     "armor2455": {
         "id": "armor2455",
-        "name": "Shadowflow Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -6221,7 +6221,7 @@
     },
     "armor3131": {
         "id": "armor3131",
-        "name": "Shallow Grave Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -6244,7 +6244,7 @@
     },
     "armor2483": {
         "id": "armor2483",
-        "name": "Shield of the Barrier Sentinels",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -6263,7 +6263,7 @@
     },
     "armor2545": {
         "id": "armor2545",
-        "name": "Solar Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -6286,7 +6286,7 @@
     },
     "armor2737": {
         "id": "armor2737",
-        "name": "Survivor's Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -6309,7 +6309,7 @@
     },
     "armor2881": {
         "id": "armor2881",
-        "name": "Thunderhead Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -6332,7 +6332,7 @@
     },
     "armor550": {
         "id": "armor550",
-        "name": "Armor of Transport",
+        "name": "Armor Name",
         "type": "Chain or scale",
         "level": [
             
@@ -6355,7 +6355,7 @@
     },
     "armor730": {
         "id": "armor730",
-        "name": "Bolstering Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -6374,7 +6374,7 @@
     },
     "armor962": {
         "id": "armor962",
-        "name": "Counterstrike Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -6397,7 +6397,7 @@
     },
     "armor1223": {
         "id": "armor1223",
-        "name": "Ever-Fading Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -6420,7 +6420,7 @@
     },
     "armor1487": {
         "id": "armor1487",
-        "name": "Guardian Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -6439,7 +6439,7 @@
     },
     "armor1525": {
         "id": "armor1525",
-        "name": "Healer's Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -6458,7 +6458,7 @@
     },
     "armor1729": {
         "id": "armor1729",
-        "name": "Lifeblood Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -6481,7 +6481,7 @@
     },
     "armor3484": {
         "id": "armor3484",
-        "name": "Powered Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -6504,7 +6504,7 @@
     },
     "armor2444": {
         "id": "armor2444",
-        "name": "Shadow Warlock Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": [
             
@@ -6527,7 +6527,7 @@
     },
     "armor3043": {
         "id": "armor3043",
-        "name": "Warsheath Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -6550,7 +6550,7 @@
     },
     "armor105": {
         "id": "armor105",
-        "name": "Shield of Prator",
+        "name": "Armor Name",
         "type": "Heavy shield",
         "level": "Heroic",
         "cost": "None",
@@ -6559,7 +6559,7 @@
     },
     "armor117": {
         "id": "armor117",
-        "name": "The Invulnerable Coat of Arnd",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": "Heroic",
         "cost": "None",
@@ -6568,7 +6568,7 @@
     },
     "armor1114": {
         "id": "armor1114",
-        "name": "Dragonrider Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": [
             
@@ -6589,7 +6589,7 @@
     },
     "armor1343": {
         "id": "armor1343",
-        "name": "Force Shield",
+        "name": "Armor Name",
         "type": "Heavy shield",
         "level": "11",
         "cost": "9,000",
@@ -6598,7 +6598,7 @@
     },
     "armor671": {
         "id": "armor671",
-        "name": "Blackflock Robe",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -6619,7 +6619,7 @@
     },
     "armor1011": {
         "id": "armor1011",
-        "name": "Darkforged Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -6640,7 +6640,7 @@
     },
     "armor1016": {
         "id": "armor1016",
-        "name": "Darkstrike Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -6661,7 +6661,7 @@
     },
     "armor1279": {
         "id": "armor1279",
-        "name": "Feytouched Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -6682,7 +6682,7 @@
     },
     "armor1320": {
         "id": "armor1320",
-        "name": "Flickersight Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -6703,7 +6703,7 @@
     },
     "armor3127": {
         "id": "armor3127",
-        "name": "Hide of Worms",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -6724,7 +6724,7 @@
     },
     "armor3520": {
         "id": "armor3520",
-        "name": "Karach Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -6745,7 +6745,7 @@
     },
     "armor2191": {
         "id": "armor2191",
-        "name": "Ricochet Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "12",
         "cost": "13,000",
@@ -6754,7 +6754,7 @@
     },
     "armor2196": {
         "id": "armor2196",
-        "name": "Rimewrought Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -6775,7 +6775,7 @@
     },
     "armor2836": {
         "id": "armor2836",
-        "name": "Tauran Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "12",
         "cost": "13,000",
@@ -6784,7 +6784,7 @@
     },
     "armor2841": {
         "id": "armor2841",
-        "name": "Teleporting Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -6805,7 +6805,7 @@
     },
     "armor539": {
         "id": "armor539",
-        "name": "Armor of Essence Inviolate",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -6826,7 +6826,7 @@
     },
     "armor548": {
         "id": "armor548",
-        "name": "Armor of Starlight",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -6847,7 +6847,7 @@
     },
     "armor700": {
         "id": "armor700",
-        "name": "Bloodfire Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -6868,7 +6868,7 @@
     },
     "armor853": {
         "id": "armor853",
-        "name": "Champion's Hauberk",
+        "name": "Armor Name",
         "type": "Chain or scale",
         "level": [
             
@@ -6889,7 +6889,7 @@
     },
     "armor953": {
         "id": "armor953",
-        "name": "Coral Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -6910,7 +6910,7 @@
     },
     "armor3426": {
         "id": "armor3426",
-        "name": "Demonskin Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -6931,7 +6931,7 @@
     },
     "armor1073": {
         "id": "armor1073",
-        "name": "Desperate Resolve Vestments",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -6952,7 +6952,7 @@
     },
     "armor3585": {
         "id": "armor3585",
-        "name": "Dilatory Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -6973,7 +6973,7 @@
     },
     "armor1195": {
         "id": "armor1195",
-        "name": "Elukian Clay Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -6994,7 +6994,7 @@
     },
     "armor1329": {
         "id": "armor1329",
-        "name": "Focused Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "13",
         "cost": "17,000",
@@ -7003,7 +7003,7 @@
     },
     "armor1374": {
         "id": "armor1374",
-        "name": "Gambit Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -7024,7 +7024,7 @@
     },
     "armor1406": {
         "id": "armor1406",
-        "name": "Giantdodger Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": [
             
@@ -7045,7 +7045,7 @@
     },
     "armor3205": {
         "id": "armor3205",
-        "name": "Greater Stonewall Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -7062,7 +7062,7 @@
     },
     "armor1589": {
         "id": "armor1589",
-        "name": "Hydra Armor",
+        "name": "Armor Name",
         "type": "Scale",
         "level": [
             
@@ -7083,7 +7083,7 @@
     },
     "armor1868": {
         "id": "armor1868",
-        "name": "Mirrored Plate",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -7104,7 +7104,7 @@
     },
     "armor1907": {
         "id": "armor1907",
-        "name": "Netherdark Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -7121,7 +7121,7 @@
     },
     "armor2130": {
         "id": "armor2130",
-        "name": "Rageblood Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -7142,7 +7142,7 @@
     },
     "armor2278": {
         "id": "armor2278",
-        "name": "Robe of Defying Flames",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -7163,7 +7163,7 @@
     },
     "armor2279": {
         "id": "armor2279",
-        "name": "Robe of Defying Frost",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -7184,7 +7184,7 @@
     },
     "armor2286": {
         "id": "armor2286",
-        "name": "Robe of Stars",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -7205,7 +7205,7 @@
     },
     "armor3208": {
         "id": "armor3208",
-        "name": "Searing Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "13",
         "cost": "17,000",
@@ -7214,7 +7214,7 @@
     },
     "armor2454": {
         "id": "armor2454",
-        "name": "Shadowflow Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -7235,7 +7235,7 @@
     },
     "armor2485": {
         "id": "armor2485",
-        "name": "Shield of the World Tree",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "13",
         "cost": "17,000",
@@ -7244,7 +7244,7 @@
     },
     "armor2524": {
         "id": "armor2524",
-        "name": "Skin of Agonies",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -7265,7 +7265,7 @@
     },
     "armor2543": {
         "id": "armor2543",
-        "name": "Snaketongue Robe",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -7286,7 +7286,7 @@
     },
     "armor2587": {
         "id": "armor2587",
-        "name": "Spirit Shield Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": [
             
@@ -7307,7 +7307,7 @@
     },
     "armor2690": {
         "id": "armor2690",
-        "name": "Stonewall Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -7324,7 +7324,7 @@
     },
     "armor2721": {
         "id": "armor2721",
-        "name": "Sun Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "13",
         "cost": "13,000",
@@ -7333,7 +7333,7 @@
     },
     "armor2735": {
         "id": "armor2735",
-        "name": "Surge Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -7354,7 +7354,7 @@
     },
     "armor3038": {
         "id": "armor3038",
-        "name": "Warding Light Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -7375,7 +7375,7 @@
     },
     "armor3081": {
         "id": "armor3081",
-        "name": "Winged Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -7396,7 +7396,7 @@
     },
     "armor522": {
         "id": "armor522",
-        "name": "Aqueous Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -7417,7 +7417,7 @@
     },
     "armor532": {
         "id": "armor532",
-        "name": "Armor of Attraction",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -7438,7 +7438,7 @@
     },
     "armor534": {
         "id": "armor534",
-        "name": "Armor of Dark Deeds",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -7459,7 +7459,7 @@
     },
     "armor543": {
         "id": "armor543",
-        "name": "Armor of Night",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -7480,7 +7480,7 @@
     },
     "armor737": {
         "id": "armor737",
-        "name": "Bonegrim Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -7501,7 +7501,7 @@
     },
     "armor860": {
         "id": "armor860",
-        "name": "Chaos Weave Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -7522,7 +7522,7 @@
     },
     "armor974": {
         "id": "armor974",
-        "name": "Crowd Killer Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "14",
         "cost": "21,000",
@@ -7531,7 +7531,7 @@
     },
     "armor1099": {
         "id": "armor1099",
-        "name": "Displacer Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -7552,7 +7552,7 @@
     },
     "armor1272": {
         "id": "armor1272",
-        "name": "Feymind Armor",
+        "name": "Armor Name",
         "type": "Cloth or leather",
         "level": [
             
@@ -7573,7 +7573,7 @@
     },
     "armor1301": {
         "id": "armor1301",
-        "name": "Flamedrinker Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -7594,7 +7594,7 @@
     },
     "armor1309": {
         "id": "armor1309",
-        "name": "Flaring Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "14",
         "cost": "21,000",
@@ -7603,7 +7603,7 @@
     },
     "armor1351": {
         "id": "armor1351",
-        "name": "Formidable Armor",
+        "name": "Armor Name",
         "type": "Hide or chain",
         "level": [
             
@@ -7624,7 +7624,7 @@
     },
     "armor1364": {
         "id": "armor1364",
-        "name": "Frostburn Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -7645,7 +7645,7 @@
     },
     "armor3126": {
         "id": "armor3126",
-        "name": "Greater Armor of Eyes",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -7666,7 +7666,7 @@
     },
     "armor1591": {
         "id": "armor1591",
-        "name": "Hypnotic Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "14",
         "cost": "21,000",
@@ -7675,7 +7675,7 @@
     },
     "armor1715": {
         "id": "armor1715",
-        "name": "Legendmaker Armor",
+        "name": "Armor Name",
         "type": "Leather or chain",
         "level": [
             
@@ -7696,7 +7696,7 @@
     },
     "armor2280": {
         "id": "armor2280",
-        "name": "Robe of Defying Storms",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -7717,7 +7717,7 @@
     },
     "armor2482": {
         "id": "armor2482",
-        "name": "Shield of Warding",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -7734,7 +7734,7 @@
     },
     "armor2575": {
         "id": "armor2575",
-        "name": "Spellshield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "14",
         "cost": "21,000",
@@ -7743,7 +7743,7 @@
     },
     "armor2584": {
         "id": "armor2584",
-        "name": "Spirit Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -7764,7 +7764,7 @@
     },
     "armor2687": {
         "id": "armor2687",
-        "name": "Stonesign, Dwarf Guardian (Shield of Warding)",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -7781,7 +7781,7 @@
     },
     "armor2893": {
         "id": "armor2893",
-        "name": "Tombforged Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -7802,7 +7802,7 @@
     },
     "armor2932": {
         "id": "armor2932",
-        "name": "Translocating Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -7823,7 +7823,7 @@
     },
     "armor3003": {
         "id": "armor3003",
-        "name": "Voidcrystal Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -7844,7 +7844,7 @@
     },
     "armor3009": {
         "id": "armor3009",
-        "name": "Vortex Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "14",
         "cost": "21,000",
@@ -7853,7 +7853,7 @@
     },
     "armor542": {
         "id": "armor542",
-        "name": "Armor of Negation",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -7874,7 +7874,7 @@
     },
     "armor547": {
         "id": "armor547",
-        "name": "Armor of Shared Valor",
+        "name": "Armor Name",
         "type": "Chain or leather",
         "level": [
             
@@ -7895,7 +7895,7 @@
     },
     "armor557": {
         "id": "armor557",
-        "name": "Assassinbane Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -7916,7 +7916,7 @@
     },
     "armor722": {
         "id": "armor722",
-        "name": "Bloodvine Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -7937,7 +7937,7 @@
     },
     "armor995": {
         "id": "armor995",
-        "name": "Crystalline Breastplate",
+        "name": "Armor Name",
         "type": "Leather, hide, chain, scale or plate",
         "level": [
             
@@ -7958,7 +7958,7 @@
     },
     "armor1046": {
         "id": "armor1046",
-        "name": "Deathward Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -7975,7 +7975,7 @@
     },
     "armor1054": {
         "id": "armor1054",
-        "name": "Defender's Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -7996,7 +7996,7 @@
     },
     "armor1488": {
         "id": "armor1488",
-        "name": "Guardian's Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -8017,7 +8017,7 @@
     },
     "armor1562": {
         "id": "armor1562",
-        "name": "Holy Radiance Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -8038,7 +8038,7 @@
     },
     "armor1596": {
         "id": "armor1596",
-        "name": "Illithid Robes",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -8059,7 +8059,7 @@
     },
     "armor2027": {
         "id": "armor2027",
-        "name": "Penance Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -8080,7 +8080,7 @@
     },
     "armor3209": {
         "id": "armor3209",
-        "name": "Shield of Aversion",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "15",
         "cost": "25,000",
@@ -8089,7 +8089,7 @@
     },
     "armor2476": {
         "id": "armor2476",
-        "name": "Shield of Fellowship",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "15",
         "cost": "25,000",
@@ -8098,7 +8098,7 @@
     },
     "armor2589": {
         "id": "armor2589",
-        "name": "Spiritlink Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -8119,7 +8119,7 @@
     },
     "armor2699": {
         "id": "armor2699",
-        "name": "Stormlord Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -8140,7 +8140,7 @@
     },
     "armor2885": {
         "id": "armor2885",
-        "name": "Tiamat's Bloody Bulwark",
+        "name": "Armor Name",
         "type": "Heavy shield",
         "level": "15",
         "cost": "25,000",
@@ -8149,7 +8149,7 @@
     },
     "armor2943": {
         "id": "armor2943",
-        "name": "Trollskin Armor",
+        "name": "Armor Name",
         "type": "Hide or scale",
         "level": [
             
@@ -8170,7 +8170,7 @@
     },
     "armor3084": {
         "id": "armor3084",
-        "name": "Winged Shield",
+        "name": "Armor Name",
         "type": "Light shield",
         "level": "15",
         "cost": "25,000",
@@ -8179,7 +8179,7 @@
     },
     "armor3107": {
         "id": "armor3107",
-        "name": "Zealot's Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -8200,7 +8200,7 @@
     },
     "armor1112": {
         "id": "armor1112",
-        "name": "Dragondaunt Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -8217,7 +8217,7 @@
     },
     "armor1304": {
         "id": "armor1304",
-        "name": "Flameward Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -8234,7 +8234,7 @@
     },
     "armor2480": {
         "id": "armor2480",
-        "name": "Shield of Turathi Defiance",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "16",
         "cost": "45,000",
@@ -8243,7 +8243,7 @@
     },
     "armor2701": {
         "id": "armor2701",
-        "name": "Stormward Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -8260,7 +8260,7 @@
     },
     "armor3088": {
         "id": "armor3088",
-        "name": "Winterward Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -8277,7 +8277,7 @@
     },
     "armor444": {
         "id": "armor444",
-        "name": "Absorbing Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "17",
         "cost": "65,000",
@@ -8286,7 +8286,7 @@
     },
     "armor511": {
         "id": "armor511",
-        "name": "Anchoring Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -8305,7 +8305,7 @@
     },
     "armor1881": {
         "id": "armor1881",
-        "name": "Mooncloth Robes",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -8324,7 +8324,7 @@
     },
     "armor3128": {
         "id": "armor3128",
-        "name": "Plate Mail of Etherealness",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -8343,7 +8343,7 @@
     },
     "armor2276": {
         "id": "armor2276",
-        "name": "Robe of Bloodwalking",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -8362,7 +8362,7 @@
     },
     "armor2284": {
         "id": "armor2284",
-        "name": "Robe of Sapping",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -8381,7 +8381,7 @@
     },
     "armor2472": {
         "id": "armor2472",
-        "name": "Shield of Blocking",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -8398,7 +8398,7 @@
     },
     "armor3076": {
         "id": "armor3076",
-        "name": "Wildleaf Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -8417,7 +8417,7 @@
     },
     "armor3121": {
         "id": "armor3121",
-        "name": "Blessed Armor of Kord",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -8436,7 +8436,7 @@
     },
     "armor1115": {
         "id": "armor1115",
-        "name": "Dragonscale Armor, Black",
+        "name": "Armor Name",
         "type": "Scale",
         "level": [
             
@@ -8455,7 +8455,7 @@
     },
     "armor1119": {
         "id": "armor1119",
-        "name": "Dragonscale Armor, White",
+        "name": "Armor Name",
         "type": "Scale",
         "level": [
             
@@ -8474,7 +8474,7 @@
     },
     "armor1131": {
         "id": "armor1131",
-        "name": "Driftmetal Armor",
+        "name": "Armor Name",
         "type": "Chain or scale",
         "level": [
             
@@ -8493,7 +8493,7 @@
     },
     "armor2288": {
         "id": "armor2288",
-        "name": "Roc Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -8512,7 +8512,7 @@
     },
     "armor2560": {
         "id": "armor2560",
-        "name": "Soul Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "18",
         "cost": "85,000",
@@ -8521,7 +8521,7 @@
     },
     "armor2658": {
         "id": "armor2658",
-        "name": "Stalker's Armor",
+        "name": "Armor Name",
         "type": "Leather or hide",
         "level": [
             
@@ -8540,7 +8540,7 @@
     },
     "armor513": {
         "id": "armor513",
-        "name": "Angelsteel Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": [
             
@@ -8559,7 +8559,7 @@
     },
     "armor717": {
         "id": "armor717",
-        "name": "Bloodtheft Armor",
+        "name": "Armor Name",
         "type": "Leather",
         "level": [
             
@@ -8578,7 +8578,7 @@
     },
     "armor1116": {
         "id": "armor1116",
-        "name": "Dragonscale Armor, Blue",
+        "name": "Armor Name",
         "type": "Scale",
         "level": [
             
@@ -8597,7 +8597,7 @@
     },
     "armor1117": {
         "id": "armor1117",
-        "name": "Dragonscale Armor, Green",
+        "name": "Armor Name",
         "type": "Scale",
         "level": [
             
@@ -8616,7 +8616,7 @@
     },
     "armor1121": {
         "id": "armor1121",
-        "name": "Dragonscale Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": [
             
@@ -8633,7 +8633,7 @@
     },
     "armor1206": {
         "id": "armor1206",
-        "name": "Empyreal Breastplate",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -8652,7 +8652,7 @@
     },
     "armor1471": {
         "id": "armor1471",
-        "name": "Great Cat Armor",
+        "name": "Armor Name",
         "type": "Hide",
         "level": [
             
@@ -8671,7 +8671,7 @@
     },
     "armor2103": {
         "id": "armor2103",
-        "name": "Prismatic Robe",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -8690,7 +8690,7 @@
     },
     "armor2521": {
         "id": "armor2521",
-        "name": "Skeletal Armor",
+        "name": "Armor Name",
         "type": "Chain, plate or scale",
         "level": [
             
@@ -8709,7 +8709,7 @@
     },
     "armor2566": {
         "id": "armor2566",
-        "name": "Soulforged Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -8728,7 +8728,7 @@
     },
     "armor2970": {
         "id": "armor2970",
-        "name": "Vaporform Armor",
+        "name": "Armor Name",
         "type": "Cloth, leather or hide",
         "level": [
             
@@ -8747,7 +8747,7 @@
     },
     "armor1022": {
         "id": "armor1022",
-        "name": "Dawn Warrior Armor",
+        "name": "Armor Name",
         "type": "Any",
         "level": [
             
@@ -8766,7 +8766,7 @@
     },
     "armor1118": {
         "id": "armor1118",
-        "name": "Dragonscale Armor, Red",
+        "name": "Armor Name",
         "type": "Scale",
         "level": [
             
@@ -8785,7 +8785,7 @@
     },
     "armor2036": {
         "id": "armor2036",
-        "name": "Perpetual Resolve Vestments",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -8804,7 +8804,7 @@
     },
     "armor2287": {
         "id": "armor2287",
-        "name": "Robe of the Archfiend",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -8823,7 +8823,7 @@
     },
     "armor3129": {
         "id": "armor3129",
-        "name": "Robe of the Archmage",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -8842,7 +8842,7 @@
     },
     "armor2572": {
         "id": "armor2572",
-        "name": "Spectral Plate",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -8861,7 +8861,7 @@
     },
     "armor2846": {
         "id": "armor2846",
-        "name": "Temporal Armor",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -8880,7 +8880,7 @@
     },
     "armor139": {
         "id": "armor139",
-        "name": "Plastron of Tziphal",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "Paragon",
         "cost": "None",
@@ -8889,7 +8889,7 @@
     },
     "armor1059": {
         "id": "armor1059",
-        "name": "Deflection Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -8906,7 +8906,7 @@
     },
     "armor538": {
         "id": "armor538",
-        "name": "Armor of Enduring Health",
+        "name": "Armor Name",
         "type": "Hide or chain",
         "level": [
             
@@ -8923,7 +8923,7 @@
     },
     "armor1070": {
         "id": "armor1070",
-        "name": "Demonwrought Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": [
             
@@ -8940,7 +8940,7 @@
     },
     "armor1798": {
         "id": "armor1798",
-        "name": "Mantle of the Seventh Wind",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -8957,7 +8957,7 @@
     },
     "armor1857": {
         "id": "armor1857",
-        "name": "Mind Armor",
+        "name": "Armor Name",
         "type": "Scale or plate",
         "level": [
             
@@ -8974,7 +8974,7 @@
     },
     "armor3210": {
         "id": "armor3210",
-        "name": "Shield of the Doomed",
+        "name": "Armor Name",
         "type": "Heavy shield",
         "level": "23",
         "cost": "425,000",
@@ -8983,7 +8983,7 @@
     },
     "armor2891": {
         "id": "armor2891",
-        "name": "Tinkersuit",
+        "name": "Armor Name",
         "type": "Leather",
         "level": [
             
@@ -9000,7 +9000,7 @@
     },
     "armor2282": {
         "id": "armor2282",
-        "name": "Robe of Forbearance",
+        "name": "Armor Name",
         "type": "Cloth",
         "level": [
             
@@ -9017,7 +9017,7 @@
     },
     "armor2567": {
         "id": "armor2567",
-        "name": "Soulwarding Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -9034,7 +9034,7 @@
     },
     "armor2935": {
         "id": "armor2935",
-        "name": "Trapping Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "24",
         "cost": "525,000",
@@ -9043,7 +9043,7 @@
     },
     "armor729": {
         "id": "armor729",
-        "name": "Bolstering Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": [
             
@@ -9060,7 +9060,7 @@
     },
     "armor1373": {
         "id": "armor1373",
-        "name": "Gallant Armor",
+        "name": "Armor Name",
         "type": "Plate",
         "level": "27",
         "cost": "1,625,000",
@@ -9069,7 +9069,7 @@
     },
     "armor2157": {
         "id": "armor2157",
-        "name": "Reflective Shield",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "27",
         "cost": "1,625,000",
@@ -9078,7 +9078,7 @@
     },
     "armor2496": {
         "id": "armor2496",
-        "name": "Shocking Armor",
+        "name": "Armor Name",
         "type": "Chain, scale or plate",
         "level": "27",
         "cost": "1,625,000",
@@ -9087,7 +9087,7 @@
     },
     "armor2712": {
         "id": "armor2712",
-        "name": "Sudden Escape Armor",
+        "name": "Armor Name",
         "type": "Chain",
         "level": "28",
         "cost": "2,125,000",
@@ -9096,7 +9096,7 @@
     },
     "armor546": {
         "id": "armor546",
-        "name": "Armor of Shared Health",
+        "name": "Armor Name",
         "type": "Chain",
         "level": "30",
         "cost": "3,125,000",
@@ -9105,7 +9105,7 @@
     },
     "armor2481": {
         "id": "armor2481",
-        "name": "Shield of Ultimate Protection",
+        "name": "Armor Name",
         "type": "Any shield",
         "level": "30",
         "cost": "3,125,000",

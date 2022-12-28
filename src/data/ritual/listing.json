@@ -1,7 +1,7 @@
 {
     "ritual357": {
         "id": "ritual357",
-        "name": "Alarm",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "5, plus a set of focuses",
         "price": "50",
@@ -10,7 +10,7 @@
     },
     "ritual135": {
         "id": "ritual135",
-        "name": "Alchemist's Acid",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "See Alchemical Item",
         "price": "70",
@@ -19,7 +19,7 @@
     },
     "ritual136": {
         "id": "ritual136",
-        "name": "Alchemist's Fire",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "See Alchemical Item",
         "price": "70",
@@ -28,7 +28,7 @@
     },
     "ritual137": {
         "id": "ritual137",
-        "name": "Alchemist's Frost",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "See Alchemical Item",
         "price": "70",
@@ -37,7 +37,7 @@
     },
     "ritual75": {
         "id": "ritual75",
-        "name": "Amanuensis",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "20",
@@ -46,7 +46,7 @@
     },
     "ritual40": {
         "id": "ritual40",
-        "name": "Animal Messenger",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -55,7 +55,7 @@
     },
     "ritual138": {
         "id": "ritual138",
-        "name": "Antivenom",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "See Alchemical Item",
         "price": "70",
@@ -64,7 +64,7 @@
     },
     "ritual77": {
         "id": "ritual77",
-        "name": "Arcane Mark",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "20",
@@ -73,7 +73,7 @@
     },
     "ritual101": {
         "id": "ritual101",
-        "name": "Banish Vermin",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "30",
@@ -82,7 +82,7 @@
     },
     "ritual1": {
         "id": "ritual1",
-        "name": "Brew Potion",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "Special",
         "price": "75",
@@ -91,7 +91,7 @@
     },
     "ritual143": {
         "id": "ritual143",
-        "name": "Clearsense Powder",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "See Alchemical Item",
         "price": "80",
@@ -100,7 +100,7 @@
     },
     "ritual144": {
         "id": "ritual144",
-        "name": "Clearwater Solution",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "See Alchemical Item",
         "price": "100",
@@ -109,7 +109,7 @@
     },
     "ritual39": {
         "id": "ritual39",
-        "name": "Comprehend Language",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -118,7 +118,7 @@
     },
     "ritual297": {
         "id": "ritual297",
-        "name": "Comrades' Succor",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "150",
@@ -127,7 +127,7 @@
     },
     "ritual256": {
         "id": "ritual256",
-        "name": "Conceal Dragon mark",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -136,7 +136,7 @@
     },
     "ritual195": {
         "id": "ritual195",
-        "name": "Create Campsite",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "15",
         "price": "50",
@@ -145,7 +145,7 @@
     },
     "ritual273": {
         "id": "ritual273",
-        "name": "Create Holy Water",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "Special",
         "price": "50",
@@ -154,7 +154,7 @@
     },
     "ritual363": {
         "id": "ritual363",
-        "name": "Dancing Lights",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10 or 1 healing surge",
         "price": "50",
@@ -163,7 +163,7 @@
     },
     "ritual285": {
         "id": "ritual285",
-        "name": "Dowsing Rod",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -172,7 +172,7 @@
     },
     "ritual111": {
         "id": "ritual111",
-        "name": "Explorer's Fire",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -181,7 +181,7 @@
     },
     "ritual113": {
         "id": "ritual113",
-        "name": "Fastidiousness",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -190,7 +190,7 @@
     },
     "ritual47": {
         "id": "ritual47",
-        "name": "Gentle Repose",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -199,7 +199,7 @@
     },
     "ritual197": {
         "id": "ritual197",
-        "name": "Glib Limerick",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10, plus a focus worth 5gp",
         "price": "50",
@@ -208,7 +208,7 @@
     },
     "ritual369": {
         "id": "ritual369",
-        "name": "Hold Portal",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "1 healing surge",
         "price": "50",
@@ -217,7 +217,7 @@
     },
     "ritual50": {
         "id": "ritual50",
-        "name": "Magic Mouth",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -226,7 +226,7 @@
     },
     "ritual51": {
         "id": "ritual51",
-        "name": "Make Whole",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "Special",
         "price": "50",
@@ -235,7 +235,7 @@
     },
     "ritual314": {
         "id": "ritual314",
-        "name": "Master Artisan",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "Special",
         "price": "50",
@@ -244,7 +244,7 @@
     },
     "ritual375": {
         "id": "ritual375",
-        "name": "Pass Without Trace",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -253,7 +253,7 @@
     },
     "ritual287": {
         "id": "ritual287",
-        "name": "Portend Weather",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -262,7 +262,7 @@
     },
     "ritual227": {
         "id": "ritual227",
-        "name": "Purify Water",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -271,7 +271,7 @@
     },
     "ritual187": {
         "id": "ritual187",
-        "name": "Raise Beast Companion",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "50",
         "price": "None",
@@ -280,7 +280,7 @@
     },
     "ritual54": {
         "id": "ritual54",
-        "name": "Secret Page",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -289,7 +289,7 @@
     },
     "ritual58": {
         "id": "ritual58",
-        "name": "Silence",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "30",
         "price": "75",
@@ -298,7 +298,7 @@
     },
     "ritual384": {
         "id": "ritual384",
-        "name": "Silent Image",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -307,7 +307,7 @@
     },
     "ritual91": {
         "id": "ritual91",
-        "name": "Simbul's Conversion",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "25",
         "price": "125",
@@ -316,7 +316,7 @@
     },
     "ritual319": {
         "id": "ritual319",
-        "name": "Temporary Fix",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "1 healing surge",
         "price": "50",
@@ -325,7 +325,7 @@
     },
     "ritual60": {
         "id": "ritual60",
-        "name": "Tenser's Floating Disk",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -334,7 +334,7 @@
     },
     "ritual321": {
         "id": "ritual321",
-        "name": "Tracker's Eye",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "1 healing surge",
         "price": "50",
@@ -343,7 +343,7 @@
     },
     "ritual322": {
         "id": "ritual322",
-        "name": "Travel Sense",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "1 healing surge",
         "price": "50",
@@ -352,7 +352,7 @@
     },
     "ritual291": {
         "id": "ritual291",
-        "name": "Traveler's Camouflage",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10",
         "price": "50",
@@ -361,7 +361,7 @@
     },
     "ritual206": {
         "id": "ritual206",
-        "name": "Traveler's Chant",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "10, plus a focus worth 5",
         "price": "75",
@@ -370,7 +370,7 @@
     },
     "ritual230": {
         "id": "ritual230",
-        "name": "Unseen Servant",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "20, plus a focus worth at least 25",
         "price": "50",
@@ -379,7 +379,7 @@
     },
     "ritual131": {
         "id": "ritual131",
-        "name": "Wizard's Curtain",
+        "name": "Ritual",
         "level": "1",
         "componentcost": "30",
         "price": "75",
@@ -388,7 +388,7 @@
     },
     "ritual358": {
         "id": "ritual358",
-        "name": "Animate Rope",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "5, a focus, and 1 healing surge",
         "price": "100",
@@ -397,7 +397,7 @@
     },
     "ritual191": {
         "id": "ritual191",
-        "name": "Bloom",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "20",
         "price": "100",
@@ -406,7 +406,7 @@
     },
     "ritual362": {
         "id": "ritual362",
-        "name": "Continual Light",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "20 or 1 healing surge",
         "price": "100",
@@ -415,7 +415,7 @@
     },
     "ritual182": {
         "id": "ritual182",
-        "name": "Corpse Light",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "25",
         "price": "100",
@@ -424,7 +424,7 @@
     },
     "ritual341": {
         "id": "ritual341",
-        "name": "Create Primal Element",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "see primal element",
         "price": "100",
@@ -433,7 +433,7 @@
     },
     "ritual108": {
         "id": "ritual108",
-        "name": "Delver's Fire",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "25",
         "price": "100",
@@ -442,7 +442,7 @@
     },
     "ritual306": {
         "id": "ritual306",
-        "name": "Embalm",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "20 plus 1 healing surge",
         "price": "50",
@@ -451,7 +451,7 @@
     },
     "ritual10": {
         "id": "ritual10",
-        "name": "Endure Elements",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "20",
         "price": "100",
@@ -460,7 +460,7 @@
     },
     "ritual365": {
         "id": "ritual365",
-        "name": "Explosive Runes",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "10 and 1 healing surge",
         "price": "100",
@@ -469,7 +469,7 @@
     },
     "ritual11": {
         "id": "ritual11",
-        "name": "Eye of Alarm",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "25",
         "price": "100",
@@ -478,7 +478,7 @@
     },
     "ritual261": {
         "id": "ritual261",
-        "name": "Fluid Funds",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "0, plus a focus worth 100",
         "price": "100",
@@ -487,7 +487,7 @@
     },
     "ritual183": {
         "id": "ritual183",
-        "name": "Last Sight Vision",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "25",
         "price": "100",
@@ -496,7 +496,7 @@
     },
     "ritual223": {
         "id": "ritual223",
-        "name": "Lower Water",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "25",
         "price": "100",
@@ -505,7 +505,7 @@
     },
     "ritual247": {
         "id": "ritual247",
-        "name": "Panther Tears",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "25",
         "price": "100",
@@ -514,7 +514,7 @@
     },
     "ritual119": {
         "id": "ritual119",
-        "name": "Preservation",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "25",
         "price": "100",
@@ -523,7 +523,7 @@
     },
     "ritual200": {
         "id": "ritual200",
-        "name": "Pyrotechnics",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "20",
         "price": "50",
@@ -532,7 +532,7 @@
     },
     "ritual378": {
         "id": "ritual378",
-        "name": "Read Omens",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "1 healing surge and a focus",
         "price": "100",
@@ -541,7 +541,7 @@
     },
     "ritual87": {
         "id": "ritual87",
-        "name": "Seek Rumor",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "20",
         "price": "50",
@@ -550,7 +550,7 @@
     },
     "ritual301": {
         "id": "ritual301",
-        "name": "Spirit Fetch",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "20",
         "price": "50",
@@ -559,7 +559,7 @@
     },
     "ritual318": {
         "id": "ritual318",
-        "name": "Survivor's Preparation",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "1 healing surge",
         "price": "100",
@@ -568,7 +568,7 @@
     },
     "ritual155": {
         "id": "ritual155",
-        "name": "Tanglefoot Bag",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "See Alchemical Item",
         "price": "100",
@@ -577,7 +577,7 @@
     },
     "ritual207": {
         "id": "ritual207",
-        "name": "Tree Shape",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "20",
         "price": "100",
@@ -586,7 +586,7 @@
     },
     "ritual61": {
         "id": "ritual61",
-        "name": "Water Walk",
+        "name": "Ritual",
         "level": "2",
         "componentcost": "20",
         "price": "100",
@@ -595,7 +595,7 @@
     },
     "ritual188": {
         "id": "ritual188",
-        "name": "Affect Normal Fire",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "25",
         "price": "125",
@@ -604,7 +604,7 @@
     },
     "ritual238": {
         "id": "ritual238",
-        "name": "Alchemist's Spark",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "See below",
         "price": "120",
@@ -613,7 +613,7 @@
     },
     "ritual102": {
         "id": "ritual102",
-        "name": "Battlefield Elocution",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "25",
         "price": "125",
@@ -622,7 +622,7 @@
     },
     "ritual141": {
         "id": "ritual141",
-        "name": "Blinding Bomb",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "See Alchemical Item",
         "price": "120",
@@ -631,7 +631,7 @@
     },
     "ritual142": {
         "id": "ritual142",
-        "name": "Bloodstinger Poison",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "See Alchemical Item",
         "price": "120",
@@ -640,7 +640,7 @@
     },
     "ritual282": {
         "id": "ritual282",
-        "name": "Bravery Powder",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "See below",
         "price": "30",
@@ -649,7 +649,7 @@
     },
     "ritual360": {
         "id": "ritual360",
-        "name": "Calm Emotions",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "2 healing surges",
         "price": "175",
@@ -658,7 +658,7 @@
     },
     "ritual281": {
         "id": "ritual281",
-        "name": "Corrosive Oil",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "See below.",
         "price": "400",
@@ -667,7 +667,7 @@
     },
     "ritual42": {
         "id": "ritual42",
-        "name": "Detect Secret Doors",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "25",
         "price": "125",
@@ -676,7 +676,7 @@
     },
     "ritual145": {
         "id": "ritual145",
-        "name": "Dragonfire Tar",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "See Alchemical Item",
         "price": "120",
@@ -685,7 +685,7 @@
     },
     "ritual219": {
         "id": "ritual219",
-        "name": "Fool's Gold",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "Varies",
         "price": "125",
@@ -694,7 +694,7 @@
     },
     "ritual146": {
         "id": "ritual146",
-        "name": "Ghoststrike Oil",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "See Alchemical Item",
         "price": "500",
@@ -703,7 +703,7 @@
     },
     "ritual242": {
         "id": "ritual242",
-        "name": "Heartflow",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "See below",
         "price": "90",
@@ -712,7 +712,7 @@
     },
     "ritual148": {
         "id": "ritual148",
-        "name": "Herbal Poultice",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "See Alchemical Item",
         "price": "90",
@@ -721,7 +721,7 @@
     },
     "ritual300": {
         "id": "ritual300",
-        "name": "Hunter's Curse",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "50",
         "price": "250",
@@ -730,7 +730,7 @@
     },
     "ritual371": {
         "id": "ritual371",
-        "name": "Leomund's Trap",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "35",
         "price": "125",
@@ -739,7 +739,7 @@
     },
     "ritual373": {
         "id": "ritual373",
-        "name": "Light Ward",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "25 or 1 healing surge",
         "price": "125",
@@ -748,7 +748,7 @@
     },
     "ritual199": {
         "id": "ritual199",
-        "name": "Lullaby",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "25, plus a focus worth 20",
         "price": "125",
@@ -757,7 +757,7 @@
     },
     "ritual152": {
         "id": "ritual152",
-        "name": "Slow-Step Oil",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "See Alchemical Item",
         "price": "120",
@@ -766,7 +766,7 @@
     },
     "ritual295": {
         "id": "ritual295",
-        "name": "Speech Without Words",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "1 healing surge",
         "price": "50",
@@ -775,7 +775,7 @@
     },
     "ritual269": {
         "id": "ritual269",
-        "name": "Summon Winds",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "50",
         "price": "125",
@@ -784,7 +784,7 @@
     },
     "ritual252": {
         "id": "ritual252",
-        "name": "Tethercord",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "See below",
         "price": "120",
@@ -793,7 +793,7 @@
     },
     "ritual186": {
         "id": "ritual186",
-        "name": "Undead Ward",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "35",
         "price": "130",
@@ -802,7 +802,7 @@
     },
     "ritual325": {
         "id": "ritual325",
-        "name": "Warded Campsite",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "1 healing surge",
         "price": "50",
@@ -811,7 +811,7 @@
     },
     "ritual389": {
         "id": "ritual389",
-        "name": "Wind Words",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "25",
         "price": "125",
@@ -820,7 +820,7 @@
     },
     "ritual253": {
         "id": "ritual253",
-        "name": "Woundpatch",
+        "name": "Ritual",
         "level": "3",
         "componentcost": "See below",
         "price": "120",
@@ -829,7 +829,7 @@
     },
     "ritual23": {
         "id": "ritual23",
-        "name": "Arcane Lock",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "25",
         "price": "150",
@@ -838,7 +838,7 @@
     },
     "ritual216": {
         "id": "ritual216",
-        "name": "Beast Growth",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "70",
         "price": "175",
@@ -847,7 +847,7 @@
     },
     "ritual139": {
         "id": "ritual139",
-        "name": "Beastbane",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "See Alchemical Item",
         "price": "160",
@@ -856,7 +856,7 @@
     },
     "ritual140": {
         "id": "ritual140",
-        "name": "Blastpatch",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "See Alchemical Item",
         "price": "120",
@@ -865,7 +865,7 @@
     },
     "ritual217": {
         "id": "ritual217",
-        "name": "Call of Friendship",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "50, plus a focus worth 50",
         "price": "215",
@@ -874,7 +874,7 @@
     },
     "ritual348": {
         "id": "ritual348",
-        "name": "Clarity Salts",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "See the item's price",
         "price": "120",
@@ -883,7 +883,7 @@
     },
     "ritual240": {
         "id": "ritual240",
-        "name": "Clockwork Bomb",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "See below",
         "price": "160",
@@ -892,7 +892,7 @@
     },
     "ritual79": {
         "id": "ritual79",
-        "name": "Dark Light",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "30",
         "price": "150",
@@ -901,7 +901,7 @@
     },
     "ritual107": {
         "id": "ritual107",
-        "name": "Delay Affliction",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "50",
         "price": "175",
@@ -910,7 +910,7 @@
     },
     "ritual233": {
         "id": "ritual233",
-        "name": "Drowsy Dust",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "see alchemical item Drowsy Dust",
         "price": "160",
@@ -919,7 +919,7 @@
     },
     "ritual257": {
         "id": "ritual257",
-        "name": "Eavesdropper's Foil",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "80",
         "price": "175",
@@ -928,7 +928,7 @@
     },
     "ritual9": {
         "id": "ritual9",
-        "name": "Enchant Magic Item",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "Special",
         "price": "175",
@@ -937,7 +937,7 @@
     },
     "ritual234": {
         "id": "ritual234",
-        "name": "Eyesting",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "see alchemical item Eyesting",
         "price": "240",
@@ -946,7 +946,7 @@
     },
     "ritual304": {
         "id": "ritual304",
-        "name": "Familiar Mount",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "25",
         "price": "175",
@@ -955,7 +955,7 @@
     },
     "ritual83": {
         "id": "ritual83",
-        "name": "Feat of Strength",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "30",
         "price": "75",
@@ -964,7 +964,7 @@
     },
     "ritual366": {
         "id": "ritual366",
-        "name": "Find Traps",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "25 and 1 healing surge",
         "price": "175",
@@ -973,7 +973,7 @@
     },
     "ritual308": {
         "id": "ritual308",
-        "name": "Forge Armor",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "See table",
         "price": "175",
@@ -982,7 +982,7 @@
     },
     "ritual309": {
         "id": "ritual309",
-        "name": "Forge Weapon",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "See table",
         "price": "175",
@@ -991,7 +991,7 @@
     },
     "ritual16": {
         "id": "ritual16",
-        "name": "Hand of Fate",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "70",
         "price": "175",
@@ -1000,7 +1000,7 @@
     },
     "ritual276": {
         "id": "ritual276",
-        "name": "Iron Vigil",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "35",
         "price": "170",
@@ -1009,7 +1009,7 @@
     },
     "ritual22": {
         "id": "ritual22",
-        "name": "Knock",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "35, plus 1 healing surge",
         "price": "175",
@@ -1018,7 +1018,7 @@
     },
     "ritual150": {
         "id": "ritual150",
-        "name": "Lockburst Chalk",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "See Alchemical Item",
         "price": "160",
@@ -1027,7 +1027,7 @@
     },
     "ritual248": {
         "id": "ritual248",
-        "name": "Resonance Crystal",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "See below",
         "price": "160",
@@ -1036,7 +1036,7 @@
     },
     "ritual382": {
         "id": "ritual382",
-        "name": "Shatter",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "35",
         "price": "175",
@@ -1045,7 +1045,7 @@
     },
     "ritual184": {
         "id": "ritual184",
-        "name": "Skull Watch",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "80",
         "price": "175",
@@ -1054,7 +1054,7 @@
     },
     "ritual202": {
         "id": "ritual202",
-        "name": "Snare",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "25",
         "price": "150",
@@ -1063,7 +1063,7 @@
     },
     "ritual250": {
         "id": "ritual250",
-        "name": "Suppression Crystal",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "See below",
         "price": "120",
@@ -1072,7 +1072,7 @@
     },
     "ritual251": {
         "id": "ritual251",
-        "name": "Tension Wheel",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "See below",
         "price": "120",
@@ -1081,7 +1081,7 @@
     },
     "ritual157": {
         "id": "ritual157",
-        "name": "Tracking Dust",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "See Alchemical Item",
         "price": "160",
@@ -1090,7 +1090,7 @@
     },
     "ritual212": {
         "id": "ritual212",
-        "name": "Transfer Enchantment",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "25",
         "price": "175",
@@ -1099,7 +1099,7 @@
     },
     "ritual32": {
         "id": "ritual32",
-        "name": "Travelers' Feast",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "35",
         "price": "175",
@@ -1108,7 +1108,7 @@
     },
     "ritual338": {
         "id": "ritual338",
-        "name": "Wavestrider Enchantment",
+        "name": "Ritual",
         "level": "4",
         "componentcost": "Focus (wavestrider boots)",
         "price": "175",
@@ -1117,7 +1117,7 @@
     },
     "ritual237": {
         "id": "ritual237",
-        "name": "Acidic Fire",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "See below",
         "price": "200",
@@ -1126,7 +1126,7 @@
     },
     "ritual134": {
         "id": "ritual134",
-        "name": "Alchemical Silver",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "See Alchemical Item",
         "price": "200",
@@ -1135,7 +1135,7 @@
     },
     "ritual62": {
         "id": "ritual62",
-        "name": "Animal Friendship",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "50",
         "price": "250",
@@ -1144,7 +1144,7 @@
     },
     "ritual359": {
         "id": "ritual359",
-        "name": "Breach Disguise",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "50",
         "price": "250",
@@ -1153,7 +1153,7 @@
     },
     "ritual364": {
         "id": "ritual364",
-        "name": "Deep Pockets",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "50 and a focus",
         "price": "250",
@@ -1162,7 +1162,7 @@
     },
     "ritual310": {
         "id": "ritual310",
-        "name": "Fortify Beast",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "1 healing surge",
         "price": "250",
@@ -1171,7 +1171,7 @@
     },
     "ritual65": {
         "id": "ritual65",
-        "name": "Hallucinatory Item",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "25",
         "price": "250",
@@ -1180,7 +1180,7 @@
     },
     "ritual312": {
         "id": "ritual312",
-        "name": "Hidden Pocket",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "1 healing surge",
         "price": "80",
@@ -1189,7 +1189,7 @@
     },
     "ritual299": {
         "id": "ritual299",
-        "name": "Hunter's Blessing",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "50",
         "price": "250",
@@ -1198,7 +1198,7 @@
     },
     "ritual243": {
         "id": "ritual243",
-        "name": "Inferno Oil",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "See below",
         "price": "200",
@@ -1207,7 +1207,7 @@
     },
     "ritual372": {
         "id": "ritual372",
-        "name": "Lesser Telepathy",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "30 and 1 healing surge",
         "price": "250",
@@ -1216,7 +1216,7 @@
     },
     "ritual245": {
         "id": "ritual245",
-        "name": "Lodret Leaf",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "See below",
         "price": "200",
@@ -1225,7 +1225,7 @@
     },
     "ritual49": {
         "id": "ritual49",
-        "name": "Magic Circle",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "100",
         "price": "250",
@@ -1234,7 +1234,7 @@
     },
     "ritual271": {
         "id": "ritual271",
-        "name": "Mindshape Warwing Drake",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "100",
         "price": "250",
@@ -1243,7 +1243,7 @@
     },
     "ritual225": {
         "id": "ritual225",
-        "name": "Object Reading",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "25",
         "price": "250",
@@ -1252,7 +1252,7 @@
     },
     "ritual294": {
         "id": "ritual294",
-        "name": "Precise Forgery",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "1 healing surge",
         "price": "80",
@@ -1261,7 +1261,7 @@
     },
     "ritual316": {
         "id": "ritual316",
-        "name": "Reliable Balance",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "1 healing surge",
         "price": "100",
@@ -1270,7 +1270,7 @@
     },
     "ritual284": {
         "id": "ritual284",
-        "name": "Rite of Arkentaash",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "50",
         "price": "None",
@@ -1279,7 +1279,7 @@
     },
     "ritual280": {
         "id": "ritual280",
-        "name": "Rust Bomb",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "See below.",
         "price": "200",
@@ -1288,7 +1288,7 @@
     },
     "ritual381": {
         "id": "ritual381",
-        "name": "Seal Death's Door",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "50 and 1 healing surge",
         "price": "200",
@@ -1297,7 +1297,7 @@
     },
     "ritual336": {
         "id": "ritual336",
-        "name": "Self-Holding Bag",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "Focus (bag of holding)",
         "price": "250",
@@ -1306,7 +1306,7 @@
     },
     "ritual205": {
         "id": "ritual205",
-        "name": "Speak with Nature",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "80",
         "price": "250",
@@ -1315,7 +1315,7 @@
     },
     "ritual290": {
         "id": "ritual290",
-        "name": "Starshine",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "40",
         "price": "250",
@@ -1324,7 +1324,7 @@
     },
     "ritual320": {
         "id": "ritual320",
-        "name": "Thorough Search",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "1 healing surge",
         "price": "75",
@@ -1333,7 +1333,7 @@
     },
     "ritual156": {
         "id": "ritual156",
-        "name": "Thunderstone",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "See Alchemical Item",
         "price": "200",
@@ -1342,7 +1342,7 @@
     },
     "ritual388": {
         "id": "ritual388",
-        "name": "Tongues",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "25 and 1 healing surge",
         "price": "200",
@@ -1351,7 +1351,7 @@
     },
     "ritual323": {
         "id": "ritual323",
-        "name": "Uncanny Strength",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "1 healing surge",
         "price": "100",
@@ -1360,7 +1360,7 @@
     },
     "ritual302": {
         "id": "ritual302",
-        "name": "Vistani Passkey",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "100, plus a focus worth 100",
         "price": "250",
@@ -1369,7 +1369,7 @@
     },
     "ritual351": {
         "id": "ritual351",
-        "name": "Walking Death",
+        "name": "Ritual",
         "level": "5",
         "componentcost": "See the item's price",
         "price": "400",
@@ -1378,7 +1378,7 @@
     },
     "ritual254": {
         "id": "ritual254",
-        "name": "Ancestral Whispers",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "140",
         "price": "360",
@@ -1387,7 +1387,7 @@
     },
     "ritual103": {
         "id": "ritual103",
-        "name": "Bolster Object",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "150",
         "price": "300",
@@ -1396,7 +1396,7 @@
     },
     "ritual192": {
         "id": "ritual192",
-        "name": "Call Wilderness Guide",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "144",
         "price": "360",
@@ -1405,7 +1405,7 @@
     },
     "ritual361": {
         "id": "ritual361",
-        "name": "Change Self",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "35 and 1 healing surge",
         "price": "360",
@@ -1414,7 +1414,7 @@
     },
     "ritual78": {
         "id": "ritual78",
-        "name": "Clear the Path",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "70",
         "price": "150",
@@ -1423,7 +1423,7 @@
     },
     "ritual41": {
         "id": "ritual41",
-        "name": "Commune With Nature",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "140",
         "price": "360",
@@ -1432,7 +1432,7 @@
     },
     "ritual328": {
         "id": "ritual328",
-        "name": "Corpselike Visage",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "Focus (amulet of false life)",
         "price": "360",
@@ -1441,7 +1441,7 @@
     },
     "ritual6": {
         "id": "ritual6",
-        "name": "Cure Disease",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "150",
         "price": "360",
@@ -1450,7 +1450,7 @@
     },
     "ritual80": {
         "id": "ritual80",
-        "name": "Deathly Shroud",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "140",
         "price": "600",
@@ -1459,7 +1459,7 @@
     },
     "ritual305": {
         "id": "ritual305",
-        "name": "Decipher Script",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "1 healing surge",
         "price": "150",
@@ -1468,7 +1468,7 @@
     },
     "ritual44": {
         "id": "ritual44",
-        "name": "Discern Lies",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "140",
         "price": "360",
@@ -1477,7 +1477,7 @@
     },
     "ritual7": {
         "id": "ritual7",
-        "name": "Disenchant Magic Item",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "25",
         "price": "360",
@@ -1486,7 +1486,7 @@
     },
     "ritual82": {
         "id": "ritual82",
-        "name": "Duplicate",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "70",
         "price": "150",
@@ -1495,7 +1495,7 @@
     },
     "ritual109": {
         "id": "ritual109",
-        "name": "Earthen Ramparts",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "80",
         "price": "360",
@@ -1504,7 +1504,7 @@
     },
     "ritual162": {
         "id": "ritual162",
-        "name": "Easy Passage",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "150",
         "price": "360",
@@ -1513,7 +1513,7 @@
     },
     "ritual110": {
         "id": "ritual110",
-        "name": "Excavation",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "70",
         "price": "300",
@@ -1522,7 +1522,7 @@
     },
     "ritual173": {
         "id": "ritual173",
-        "name": "Fey Passage",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "140",
         "price": "360",
@@ -1531,7 +1531,7 @@
     },
     "ritual260": {
         "id": "ritual260",
-        "name": "Find the Path",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "144",
         "price": "360",
@@ -1540,7 +1540,7 @@
     },
     "ritual196": {
         "id": "ritual196",
-        "name": "Fool's Speech",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "50",
         "price": "360",
@@ -1549,7 +1549,7 @@
     },
     "ritual147": {
         "id": "ritual147",
-        "name": "Goodnight Tincture",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "See Alchemical Item",
         "price": "750",
@@ -1558,7 +1558,7 @@
     },
     "ritual198": {
         "id": "ritual198",
-        "name": "Ironwood",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "75",
         "price": "360",
@@ -1567,7 +1567,7 @@
     },
     "ritual48": {
         "id": "ritual48",
-        "name": "Leomund's Secret Chest",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "140, plus a focus worth 200",
         "price": "360",
@@ -1576,7 +1576,7 @@
     },
     "ritual313": {
         "id": "ritual313",
-        "name": "Long-Distance Runner",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "1 healing surge",
         "price": "150",
@@ -1585,7 +1585,7 @@
     },
     "ritual333": {
         "id": "ritual333",
-        "name": "Memory of a Thousand Deaths",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "Focus (deathcut armor)",
         "price": "360",
@@ -1594,7 +1594,7 @@
     },
     "ritual115": {
         "id": "ritual115",
-        "name": "Mordenkainen's Ascent",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "75",
         "price": "360",
@@ -1603,7 +1603,7 @@
     },
     "ritual116": {
         "id": "ritual116",
-        "name": "Mordenkainen's Joining",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "50",
         "price": "360",
@@ -1612,7 +1612,7 @@
     },
     "ritual26": {
         "id": "ritual26",
-        "name": "Phantom Steed",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "70",
         "price": "360",
@@ -1621,7 +1621,7 @@
     },
     "ritual376": {
         "id": "ritual376",
-        "name": "Portal Jump",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "75 and 1 healing surge",
         "price": "360",
@@ -1630,7 +1630,7 @@
     },
     "ritual118": {
         "id": "ritual118",
-        "name": "Preserve Flame",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "75",
         "price": "360",
@@ -1639,7 +1639,7 @@
     },
     "ritual55": {
         "id": "ritual55",
-        "name": "Sending",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "50",
         "price": "360",
@@ -1648,7 +1648,7 @@
     },
     "ritual228": {
         "id": "ritual228",
-        "name": "Shrink",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "50",
         "price": "360",
@@ -1657,7 +1657,7 @@
     },
     "ritual153": {
         "id": "ritual153",
-        "name": "Smokestick",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "See Alchemical",
         "price": "450",
@@ -1666,7 +1666,7 @@
     },
     "ritual59": {
         "id": "ritual59",
-        "name": "Speak with Dead",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "140",
         "price": "360",
@@ -1675,7 +1675,7 @@
     },
     "ritual385": {
         "id": "ritual385",
-        "name": "Steady Strength",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "50",
         "price": "360",
@@ -1684,7 +1684,7 @@
     },
     "ritual268": {
         "id": "ritual268",
-        "name": "Steed Summons",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "75",
         "price": "360",
@@ -1693,7 +1693,7 @@
     },
     "ritual279": {
         "id": "ritual279",
-        "name": "Thief's Lament",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "140, plus 2 healing surges",
         "price": "360",
@@ -1702,7 +1702,7 @@
     },
     "ritual95": {
         "id": "ritual95",
-        "name": "Tiny Lanterns",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "60",
         "price": "100",
@@ -1711,7 +1711,7 @@
     },
     "ritual208": {
         "id": "ritual208",
-        "name": "Tree Stride",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "50",
         "price": "360",
@@ -1720,7 +1720,7 @@
     },
     "ritual185": {
         "id": "ritual185",
-        "name": "Undead Servitor",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "150",
         "price": "360",
@@ -1729,7 +1729,7 @@
     },
     "ritual132": {
         "id": "ritual132",
-        "name": "Wizard's Escape",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "150",
         "price": "520",
@@ -1738,7 +1738,7 @@
     },
     "ritual210": {
         "id": "ritual210",
-        "name": "Wyvern Watch",
+        "name": "Ritual",
         "level": "6",
         "componentcost": "100",
         "price": "360",
@@ -1747,7 +1747,7 @@
     },
     "ritual367": {
         "id": "ritual367",
-        "name": "Glyph of Warding",
+        "name": "Ritual",
         "level": "7",
         "componentcost": "75 and 2 healing surges",
         "price": "520",
@@ -1756,7 +1756,7 @@
     },
     "ritual377": {
         "id": "ritual377",
-        "name": "Protection from Energy",
+        "name": "Ritual",
         "level": "7",
         "componentcost": "75 and 1 healing surge",
         "price": "520",
@@ -1765,7 +1765,7 @@
     },
     "ritual379": {
         "id": "ritual379",
-        "name": "Reduce Beast",
+        "name": "Ritual",
         "level": "7",
         "componentcost": "75 and 1 healing surge",
         "price": "520",
@@ -1774,7 +1774,7 @@
     },
     "ritual267": {
         "id": "ritual267",
-        "name": "Spirit Idol",
+        "name": "Ritual",
         "level": "7",
         "componentcost": "150, plus a focus worth 150",
         "price": "520",
@@ -1783,7 +1783,7 @@
     },
     "ritual387": {
         "id": "ritual387",
-        "name": "Sundered Skies",
+        "name": "Ritual",
         "level": "7",
         "componentcost": "125",
         "price": "500",
@@ -1792,7 +1792,7 @@
     },
     "ritual293": {
         "id": "ritual293",
-        "name": "Alter Ego",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "50 plus 1 healing surge",
         "price": "275",
@@ -1801,7 +1801,7 @@
     },
     "ritual76": {
         "id": "ritual76",
-        "name": "Analyze Portal",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "250",
         "price": "800",
@@ -1810,7 +1810,7 @@
     },
     "ritual214": {
         "id": "ritual214",
-        "name": "Anthem of Unity",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "135, plus a focus worth 680",
         "price": "680",
@@ -1819,7 +1819,7 @@
     },
     "ritual159": {
         "id": "ritual159",
-        "name": "Aura Mask",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "10",
         "price": "250",
@@ -1828,7 +1828,7 @@
     },
     "ritual239": {
         "id": "ritual239",
-        "name": "Clear-Path Mist",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "see below",
         "price": "375",
@@ -1837,7 +1837,7 @@
     },
     "ritual307": {
         "id": "ritual307",
-        "name": "Feign Death",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "1 healing surge",
         "price": "275",
@@ -1846,7 +1846,7 @@
     },
     "ritual235": {
         "id": "ritual235",
-        "name": "Flashbang Powder",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "see alchemical item Flashbang Powder",
         "price": "500",
@@ -1855,7 +1855,7 @@
     },
     "ritual181": {
         "id": "ritual181",
-        "name": "Gravesight",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "250",
         "price": "680",
@@ -1864,7 +1864,7 @@
     },
     "ritual368": {
         "id": "ritual368",
-        "name": "Hallucinatory Terrain",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "125",
         "price": "680",
@@ -1873,7 +1873,7 @@
     },
     "ritual311": {
         "id": "ritual311",
-        "name": "Handle Steed",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "1 healing surge",
         "price": "275",
@@ -1882,7 +1882,7 @@
     },
     "ritual262": {
         "id": "ritual262",
-        "name": "Inquisitive's Eyes",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "125",
         "price": "680",
@@ -1891,7 +1891,7 @@
     },
     "ritual350": {
         "id": "ritual350",
-        "name": "Kinetic Oil",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "See the item's price",
         "price": "500",
@@ -1900,7 +1900,7 @@
     },
     "ritual370": {
         "id": "ritual370",
-        "name": "Leomund's Tiny Hut",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "100",
         "price": "680",
@@ -1909,7 +1909,7 @@
     },
     "ritual2": {
         "id": "ritual2",
-        "name": "Linked Portal",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "135 (see text)",
         "price": "680",
@@ -1918,7 +1918,7 @@
     },
     "ritual27": {
         "id": "ritual27",
-        "name": "Raise Dead",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "500",
         "price": "680",
@@ -1927,7 +1927,7 @@
     },
     "ritual28": {
         "id": "ritual28",
-        "name": "Remove Affliction",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "250",
         "price": "680",
@@ -1936,7 +1936,7 @@
     },
     "ritual151": {
         "id": "ritual151",
-        "name": "Salve of Slipperiness",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "See Alchemical Item",
         "price": "375",
@@ -1945,7 +1945,7 @@
     },
     "ritual179": {
         "id": "ritual179",
-        "name": "Seal Portal",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "100",
         "price": "680",
@@ -1954,7 +1954,7 @@
     },
     "ritual88": {
         "id": "ritual88",
-        "name": "Shadow Bridge",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "135",
         "price": "600",
@@ -1963,7 +1963,7 @@
     },
     "ritual178": {
         "id": "ritual178",
-        "name": "Shadow Passage",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "135",
         "price": "680",
@@ -1972,7 +1972,7 @@
     },
     "ritual89": {
         "id": "ritual89",
-        "name": "Share Husk",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "150",
         "price": "400",
@@ -1981,7 +1981,7 @@
     },
     "ritual123": {
         "id": "ritual123",
-        "name": "Signal of Pursuit",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "125",
         "price": "680",
@@ -1990,7 +1990,7 @@
     },
     "ritual204": {
         "id": "ritual204",
-        "name": "Song of Sustenance",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "135, plus a focus worth 680",
         "price": "680",
@@ -1999,7 +1999,7 @@
     },
     "ritual154": {
         "id": "ritual154",
-        "name": "Sovereign Glue",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "See Alchemical Item",
         "price": "375",
@@ -2008,7 +2008,7 @@
     },
     "ritual93": {
         "id": "ritual93",
-        "name": "Status",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "135",
         "price": "250",
@@ -2017,7 +2017,7 @@
     },
     "ritual386": {
         "id": "ritual386",
-        "name": "Stone Shape",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "150 and 1 healing surge",
         "price": "680",
@@ -2026,7 +2026,7 @@
     },
     "ritual127": {
         "id": "ritual127",
-        "name": "Tenser's Lift",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "125",
         "price": "680",
@@ -2035,7 +2035,7 @@
     },
     "ritual37": {
         "id": "ritual37",
-        "name": "Water Breathing",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "135",
         "price": "680",
@@ -2044,7 +2044,7 @@
     },
     "ritual3": {
         "id": "ritual3",
-        "name": "Wizard's Sight",
+        "name": "Ritual",
         "level": "8",
         "componentcost": "270, plus a focus worth 200",
         "price": "680",
@@ -2053,7 +2053,7 @@
     },
     "ritual218": {
         "id": "ritual218",
-        "name": "Detect Treasure",
+        "name": "Ritual",
         "level": "9",
         "componentcost": "325, plus a focus worth 1000",
         "price": "800",
@@ -2062,7 +2062,7 @@
     },
     "ritual298": {
         "id": "ritual298",
-        "name": "Ghost Walk",
+        "name": "Ritual",
         "level": "9",
         "componentcost": "325, plus a focus worth 100",
         "price": "800",
@@ -2071,7 +2071,7 @@
     },
     "ritual349": {
         "id": "ritual349",
-        "name": "Giggle Gas",
+        "name": "Ritual",
         "level": "9",
         "componentcost": "See the item's price",
         "price": "1280",
@@ -2080,7 +2080,7 @@
     },
     "ritual224": {
         "id": "ritual224",
-        "name": "Magic Map",
+        "name": "Ritual",
         "level": "9",
         "componentcost": "325, plus a focus worth 100",
         "price": "800",
@@ -2089,7 +2089,7 @@
     },
     "ritual380": {
         "id": "ritual380",
-        "name": "Reflecting Pool",
+        "name": "Ritual",
         "level": "9",
         "componentcost": "325 and a focus",
         "price": "840",
@@ -2098,7 +2098,7 @@
     },
     "ritual383": {
         "id": "ritual383",
-        "name": "Shatter Bonds",
+        "name": "Ritual",
         "level": "9",
         "componentcost": "150 and 2 healing surges",
         "price": "800",
@@ -2107,7 +2107,7 @@
     },
     "ritual209": {
         "id": "ritual209",
-        "name": "Tune of Merriment",
+        "name": "Ritual",
         "level": "9",
         "componentcost": "160, plus a focus worth, 840",
         "price": "900",
@@ -2116,7 +2116,7 @@
     },
     "ritual283": {
         "id": "ritual283",
-        "name": "Argent Portal",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "500",
         "price": "None",
@@ -2125,7 +2125,7 @@
     },
     "ritual190": {
         "id": "ritual190",
-        "name": "Aria of Revelation",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "400, plus a focus worth 1000",
         "price": "1000",
@@ -2134,7 +2134,7 @@
     },
     "ritual104": {
         "id": "ritual104",
-        "name": "Chameleon's Cloak",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "200",
         "price": "1000",
@@ -2143,7 +2143,7 @@
     },
     "ritual193": {
         "id": "ritual193",
-        "name": "Chorus of Truth",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "200, plus a focus worth 1000",
         "price": "1000",
@@ -2152,7 +2152,7 @@
     },
     "ritual105": {
         "id": "ritual105",
-        "name": "Conceal Object",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "400",
         "price": "2000",
@@ -2161,7 +2161,7 @@
     },
     "ritual4": {
         "id": "ritual4",
-        "name": "Consult Mystic Sages",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "400",
         "price": "1000",
@@ -2170,7 +2170,7 @@
     },
     "ritual43": {
         "id": "ritual43",
-        "name": "Detect Object",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "400",
         "price": "1000",
@@ -2179,7 +2179,7 @@
     },
     "ritual161": {
         "id": "ritual161",
-        "name": "Disorienting Portal",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "400",
         "price": "1000",
@@ -2188,7 +2188,7 @@
     },
     "ritual330": {
         "id": "ritual330",
-        "name": "Dragonward",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "Focus (dragondaunt shield)",
         "price": "1000",
@@ -2197,7 +2197,7 @@
     },
     "ritual286": {
         "id": "ritual286",
-        "name": "Eagle's Flight",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "400",
         "price": "1000",
@@ -2206,7 +2206,7 @@
     },
     "ritual258": {
         "id": "ritual258",
-        "name": "Enhance Vessel",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "400",
         "price": "1000",
@@ -2215,7 +2215,7 @@
     },
     "ritual331": {
         "id": "ritual331",
-        "name": "Evard's Extensible Rope",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "Focus (rope of climbing)",
         "price": "1000",
@@ -2224,7 +2224,7 @@
     },
     "ritual241": {
         "id": "ritual241",
-        "name": "Grayflower Perfume",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "200",
         "price": "800",
@@ -2233,7 +2233,7 @@
     },
     "ritual270": {
         "id": "ritual270",
-        "name": "Imprint Anaxim",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "400",
         "price": "1000",
@@ -2242,7 +2242,7 @@
     },
     "ritual149": {
         "id": "ritual149",
-        "name": "Jolt Flask",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "See Alchemical Item",
         "price": "800",
@@ -2251,7 +2251,7 @@
     },
     "ritual244": {
         "id": "ritual244",
-        "name": "Keen Oil",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "200",
         "price": "600",
@@ -2260,7 +2260,7 @@
     },
     "ritual374": {
         "id": "ritual374",
-        "name": "Object Meld",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "200",
         "price": "1000",
@@ -2269,7 +2269,7 @@
     },
     "ritual73": {
         "id": "ritual73",
-        "name": "Pact of the Iron Ring",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "400, plus a Warlock Knight iron ring as a focus",
         "price": "1000",
@@ -2278,7 +2278,7 @@
     },
     "ritual352": {
         "id": "ritual352",
-        "name": "Reordination",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "400, plus 4 healing surges",
         "price": "1000",
@@ -2287,7 +2287,7 @@
     },
     "ritual122": {
         "id": "ritual122",
-        "name": "Scribe",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "200",
         "price": "1000",
@@ -2296,7 +2296,7 @@
     },
     "ritual265": {
         "id": "ritual265",
-        "name": "Secure Shelter",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "200",
         "price": "1000",
@@ -2305,7 +2305,7 @@
     },
     "ritual203": {
         "id": "ritual203",
-        "name": "Song of Restfulness",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "400",
         "price": "1000",
@@ -2314,7 +2314,7 @@
     },
     "ritual249": {
         "id": "ritual249",
-        "name": "Spotted Toadstool Venom",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "See below",
         "price": "600",
@@ -2323,7 +2323,7 @@
     },
     "ritual126": {
         "id": "ritual126",
-        "name": "Tenser's Binding",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "400",
         "price": "1000",
@@ -2332,7 +2332,7 @@
     },
     "ritual96": {
         "id": "ritual96",
-        "name": "Trailblaze",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "200",
         "price": "500",
@@ -2341,7 +2341,7 @@
     },
     "ritual158": {
         "id": "ritual158",
-        "name": "Universal Solvent",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "See Alchemical Item",
         "price": "600",
@@ -2350,7 +2350,7 @@
     },
     "ritual292": {
         "id": "ritual292",
-        "name": "Water's Gift",
+        "name": "Ritual",
         "level": "10",
         "componentcost": "400",
         "price": "1000",
@@ -2359,7 +2359,7 @@
     },
     "ritual255": {
         "id": "ritual255",
-        "name": "Banish Illusions",
+        "name": "Ritual",
         "level": "11",
         "componentcost": "720",
         "price": "1800",
@@ -2368,7 +2368,7 @@
     },
     "ritual72": {
         "id": "ritual72",
-        "name": "Dark Gift of the Undying",
+        "name": "Ritual",
         "level": "11",
         "componentcost": "5000 per level of the subject",
         "price": "75000",
@@ -2377,7 +2377,7 @@
     },
     "ritual391": {
         "id": "ritual391",
-        "name": "Dream Concordance",
+        "name": "Ritual",
         "level": "11",
         "componentcost": "600",
         "price": "2900",
@@ -2386,7 +2386,7 @@
     },
     "ritual221": {
         "id": "ritual221",
-        "name": "History Revealed",
+        "name": "Ritual",
         "level": "11",
         "componentcost": "600",
         "price": "2900",
@@ -2395,7 +2395,7 @@
     },
     "ritual343": {
         "id": "ritual343",
-        "name": "Land Ward",
+        "name": "Ritual",
         "level": "11",
         "componentcost": "500, plus 2 healing surges",
         "price": "2600",
@@ -2404,7 +2404,7 @@
     },
     "ritual246": {
         "id": "ritual246",
-        "name": "Noxious Grenade",
+        "name": "Ritual",
         "level": "11",
         "componentcost": "See below",
         "price": "700",
@@ -2413,7 +2413,7 @@
     },
     "ritual326": {
         "id": "ritual326",
-        "name": "Word on the Street",
+        "name": "Ritual",
         "level": "11",
         "componentcost": "50 plus 1 healing surge",
         "price": "360",
@@ -2422,7 +2422,7 @@
     },
     "ritual100": {
         "id": "ritual100",
-        "name": "Arcane Barrier",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "1000",
         "price": "3200",
@@ -2431,7 +2431,7 @@
     },
     "ritual171": {
         "id": "ritual171",
-        "name": "Demicache",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "1000",
         "price": "2600",
@@ -2440,7 +2440,7 @@
     },
     "ritual329": {
         "id": "ritual329",
-        "name": "Donning Trollflesh",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "Focus (trollskin armor)",
         "price": "2600",
@@ -2449,7 +2449,7 @@
     },
     "ritual46": {
         "id": "ritual46",
-        "name": "Drawmij's Instant Summons",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "500",
         "price": "2600",
@@ -2458,7 +2458,7 @@
     },
     "ritual172": {
         "id": "ritual172",
-        "name": "Elemental Transference",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "1000",
         "price": "2600",
@@ -2467,7 +2467,7 @@
     },
     "ritual275": {
         "id": "ritual275",
-        "name": "Hallowed Temple",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "520",
         "price": "1300",
@@ -2476,7 +2476,7 @@
     },
     "ritual64": {
         "id": "ritual64",
-        "name": "Hallucinatory Creature",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "500",
         "price": "2600",
@@ -2485,7 +2485,7 @@
     },
     "ritual277": {
         "id": "ritual277",
-        "name": "Mark of Justice",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "1000",
         "price": "2600",
@@ -2494,7 +2494,7 @@
     },
     "ritual334": {
         "id": "ritual334",
-        "name": "Memory of the Dragon",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "Focus (dragonslayer weapon)",
         "price": "2600",
@@ -2503,7 +2503,7 @@
     },
     "ritual53": {
         "id": "ritual53",
-        "name": "Passwall",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "1000",
         "price": "2600",
@@ -2512,7 +2512,7 @@
     },
     "ritual315": {
         "id": "ritual315",
-        "name": "Peerless Exploration",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "1 healing surge",
         "price": "1000",
@@ -2521,7 +2521,7 @@
     },
     "ritual335": {
         "id": "ritual335",
-        "name": "Quench the Flame",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "Focus (flamedrinker armor)",
         "price": "2600",
@@ -2530,7 +2530,7 @@
     },
     "ritual201": {
         "id": "ritual201",
-        "name": "Reverse Portal",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "500",
         "price": "2600",
@@ -2539,7 +2539,7 @@
     },
     "ritual176": {
         "id": "ritual176",
-        "name": "Rope Trick",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "1000, plus a focus worth 2000",
         "price": "2500",
@@ -2548,7 +2548,7 @@
     },
     "ritual266": {
         "id": "ritual266",
-        "name": "Seeming",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "680",
         "price": "1700",
@@ -2557,7 +2557,7 @@
     },
     "ritual56": {
         "id": "ritual56",
-        "name": "Shadow Walk",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "500",
         "price": "2600",
@@ -2566,7 +2566,7 @@
     },
     "ritual345": {
         "id": "ritual345",
-        "name": "Silt Walk",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "500",
         "price": "2600",
@@ -2575,7 +2575,7 @@
     },
     "ritual236": {
         "id": "ritual236",
-        "name": "Solace Bole",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "500",
         "price": "2600",
@@ -2584,7 +2584,7 @@
     },
     "ritual392": {
         "id": "ritual392",
-        "name": "Summon Gargoyle",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "500 and two healing surges",
         "price": "2600",
@@ -2593,7 +2593,7 @@
     },
     "ritual129": {
         "id": "ritual129",
-        "name": "Visage of Life",
+        "name": "Ritual",
         "level": "12",
         "componentcost": "500",
         "price": "2600",
@@ -2602,7 +2602,7 @@
     },
     "ritual347": {
         "id": "ritual347",
-        "name": "Aberrant Totemic Link",
+        "name": "Ritual",
         "level": "13",
         "componentcost": "750 (see text)",
         "price": "3200",
@@ -2611,7 +2611,7 @@
     },
     "ritual168": {
         "id": "ritual168",
-        "name": "Astral Guide",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "700, plus 1 healing surge",
         "price": "2200",
@@ -2620,7 +2620,7 @@
     },
     "ritual194": {
         "id": "ritual194",
-        "name": "Control Weather",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "1800",
         "price": "4500",
@@ -2629,7 +2629,7 @@
     },
     "ritual180": {
         "id": "ritual180",
-        "name": "Corpse Gate",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "800",
         "price": "4200",
@@ -2638,7 +2638,7 @@
     },
     "ritual346": {
         "id": "ritual346",
-        "name": "Create Scarecrow",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "5000",
         "price": "22500",
@@ -2647,7 +2647,7 @@
     },
     "ritual63": {
         "id": "ritual63",
-        "name": "Eye of Warning",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "800",
         "price": "4200",
@@ -2656,7 +2656,7 @@
     },
     "ritual71": {
         "id": "ritual71",
-        "name": "Lich Transformation",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "100000",
         "price": "250000",
@@ -2665,7 +2665,7 @@
     },
     "ritual263": {
         "id": "ritual263",
-        "name": "Masking Shroud",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "840",
         "price": "4200",
@@ -2674,7 +2674,7 @@
     },
     "ritual120": {
         "id": "ritual120",
-        "name": "Planar Sending",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "700",
         "price": "4200",
@@ -2683,7 +2683,7 @@
     },
     "ritual289": {
         "id": "ritual289",
-        "name": "Primal Prison",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "1600",
         "price": "4200",
@@ -2692,7 +2692,7 @@
     },
     "ritual165": {
         "id": "ritual165",
-        "name": "Ritual of Retrieval",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "250",
         "price": "None",
@@ -2701,7 +2701,7 @@
     },
     "ritual177": {
         "id": "ritual177",
-        "name": "Scramble Portal",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "1600",
         "price": "4000",
@@ -2710,7 +2710,7 @@
     },
     "ritual163": {
         "id": "ritual163",
-        "name": "Sentinel Eye",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "800",
         "price": "4200",
@@ -2719,7 +2719,7 @@
     },
     "ritual337": {
         "id": "ritual337",
-        "name": "Snowstorm Summons",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "Focus (staff of winter)",
         "price": "4500",
@@ -2728,7 +2728,7 @@
     },
     "ritual229": {
         "id": "ritual229",
-        "name": "Telepathic Bond",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "1100",
         "price": "4200",
@@ -2737,7 +2737,7 @@
     },
     "ritual94": {
         "id": "ritual94",
-        "name": "Time Ravager",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "1800",
         "price": "3200",
@@ -2746,7 +2746,7 @@
     },
     "ritual34": {
         "id": "ritual34",
-        "name": "View Location",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "1600, plus focus worth 1000",
         "price": "4200",
@@ -2755,7 +2755,7 @@
     },
     "ritual130": {
         "id": "ritual130",
-        "name": "Voicecatcher Veil",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "1600, plus 1 healing surge",
         "price": "4200",
@@ -2764,7 +2764,7 @@
     },
     "ritual97": {
         "id": "ritual97",
-        "name": "Walk Crossroads",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "850",
         "price": "4250",
@@ -2773,7 +2773,7 @@
     },
     "ritual98": {
         "id": "ritual98",
-        "name": "Waterborn",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "850",
         "price": "2000",
@@ -2782,7 +2782,7 @@
     },
     "ritual231": {
         "id": "ritual231",
-        "name": "Whispers of the Edifice",
+        "name": "Ritual",
         "level": "14",
         "componentcost": "800",
         "price": "4200",
@@ -2791,7 +2791,7 @@
     },
     "ritual169": {
         "id": "ritual169",
-        "name": "Astral Sojourn",
+        "name": "Ritual",
         "level": "15",
         "componentcost": "3800",
         "price": "7000",
@@ -2800,7 +2800,7 @@
     },
     "ritual327": {
         "id": "ritual327",
-        "name": "Aura of True Vision",
+        "name": "Ritual",
         "level": "15",
         "componentcost": "Focus (ring of true seeing)",
         "price": "5000",
@@ -2809,7 +2809,7 @@
     },
     "ritual166": {
         "id": "ritual166",
-        "name": "Cauldron's Rebirth",
+        "name": "Ritual",
         "level": "15",
         "componentcost": "500",
         "price": "1000",
@@ -2818,7 +2818,7 @@
     },
     "ritual170": {
         "id": "ritual170",
-        "name": "Create Teleportation Circle",
+        "name": "Ritual",
         "level": "15",
         "componentcost": "1000 per square filled by the teleportation circle, plus 5 healing surges",
         "price": "10000",
@@ -2827,7 +2827,7 @@
     },
     "ritual344": {
         "id": "ritual344",
-        "name": "Revitalize",
+        "name": "Ritual",
         "level": "15",
         "componentcost": "3000",
         "price": "8000",
@@ -2836,7 +2836,7 @@
     },
     "ritual324": {
         "id": "ritual324",
-        "name": "Use Scroll",
+        "name": "Ritual",
         "level": "15",
         "componentcost": "1 healing surge",
         "price": "1000",
@@ -2845,7 +2845,7 @@
     },
     "ritual272": {
         "id": "ritual272",
-        "name": "Adjure",
+        "name": "Ritual",
         "level": "16",
         "componentcost": "3000",
         "price": "7500",
@@ -2854,7 +2854,7 @@
     },
     "ritual5": {
         "id": "ritual5",
-        "name": "Consult Oracle",
+        "name": "Ritual",
         "level": "16",
         "componentcost": "3600",
         "price": "9000",
@@ -2863,7 +2863,7 @@
     },
     "ritual296": {
         "id": "ritual296",
-        "name": "False Aura",
+        "name": "Ritual",
         "level": "16",
         "componentcost": "1800",
         "price": "4500",
@@ -2872,7 +2872,7 @@
     },
     "ritual259": {
         "id": "ritual259",
-        "name": "Fantastic Recuperation",
+        "name": "Ritual",
         "level": "16",
         "componentcost": "3600",
         "price": "9000",
@@ -2881,7 +2881,7 @@
     },
     "ritual174": {
         "id": "ritual174",
-        "name": "Far Sending",
+        "name": "Ritual",
         "level": "16",
         "componentcost": "800",
         "price": "4200",
@@ -2890,7 +2890,7 @@
     },
     "ritual112": {
         "id": "ritual112",
-        "name": "Farsight",
+        "name": "Ritual",
         "level": "16",
         "componentcost": "3600, plus a focus worth 2500",
         "price": "9000",
@@ -2899,7 +2899,7 @@
     },
     "ritual332": {
         "id": "ritual332",
-        "name": "Follow the Voice",
+        "name": "Ritual",
         "level": "16",
         "componentcost": "Focus (sending stones)",
         "price": "9000",
@@ -2908,7 +2908,7 @@
     },
     "ritual121": {
         "id": "ritual121",
-        "name": "Safeguard",
+        "name": "Ritual",
         "level": "16",
         "componentcost": "3600 and 3 healing surges",
         "price": "13500",
@@ -2917,7 +2917,7 @@
     },
     "ritual124": {
         "id": "ritual124",
-        "name": "Stasis Shell",
+        "name": "Ritual",
         "level": "16",
         "componentcost": "1800",
         "price": "9000",
@@ -2926,7 +2926,7 @@
     },
     "ritual340": {
         "id": "ritual340",
-        "name": "Summon Demon",
+        "name": "Ritual",
         "level": "16",
         "componentcost": "3600, plus a focus worth 5000",
         "price": "9000",
@@ -2935,7 +2935,7 @@
     },
     "ritual303": {
         "id": "ritual303",
-        "name": "Endure Primordial Elements",
+        "name": "Ritual",
         "level": "17",
         "componentcost": "4300",
         "price": "12000",
@@ -2944,7 +2944,7 @@
     },
     "ritual317": {
         "id": "ritual317",
-        "name": "Survivor's Assurance",
+        "name": "Ritual",
         "level": "17",
         "componentcost": "1 healing surge",
         "price": "4500",
@@ -2953,7 +2953,7 @@
     },
     "ritual220": {
         "id": "ritual220",
-        "name": "Guards and Wards",
+        "name": "Ritual",
         "level": "18",
         "componentcost": "5000, plus 5 healing surges",
         "price": "17000",
@@ -2962,7 +2962,7 @@
     },
     "ritual114": {
         "id": "ritual114",
-        "name": "Memory Seal",
+        "name": "Ritual",
         "level": "18",
         "componentcost": "7000",
         "price": "25000",
@@ -2971,7 +2971,7 @@
     },
     "ritual14": {
         "id": "ritual14",
-        "name": "Planar Portal",
+        "name": "Ritual",
         "level": "18",
         "componentcost": "5000",
         "price": "17000",
@@ -2980,7 +2980,7 @@
     },
     "ritual175": {
         "id": "ritual175",
-        "name": "Plane Shift",
+        "name": "Ritual",
         "level": "18",
         "componentcost": "1000, plus a vehicle with a navigation focus",
         "price": "17000",
@@ -2989,7 +2989,7 @@
     },
     "ritual85": {
         "id": "ritual85",
-        "name": "Purify Spellscarred",
+        "name": "Ritual",
         "level": "18",
         "componentcost": "7000",
         "price": "20000",
@@ -2998,7 +2998,7 @@
     },
     "ritual125": {
         "id": "ritual125",
-        "name": "Teleport Catcher",
+        "name": "Ritual",
         "level": "18",
         "componentcost": "7000",
         "price": "20000",
@@ -3007,7 +3007,7 @@
     },
     "ritual35": {
         "id": "ritual35",
-        "name": "View Object",
+        "name": "Ritual",
         "level": "18",
         "componentcost": "7000, plus a focus worth 5000",
         "price": "17000",
@@ -3016,7 +3016,7 @@
     },
     "ritual288": {
         "id": "ritual288",
-        "name": "Primal Grove",
+        "name": "Ritual",
         "level": "19",
         "componentcost": "12000 to create a grove and entrance; 4000 grp to create an entrance",
         "price": "21000",
@@ -3025,7 +3025,7 @@
     },
     "ritual160": {
         "id": "ritual160",
-        "name": "Chamber of Vulnerability",
+        "name": "Ritual",
         "level": "20",
         "componentcost": "5000",
         "price": "25000",
@@ -3034,7 +3034,7 @@
     },
     "ritual12": {
         "id": "ritual12",
-        "name": "Forbiddance",
+        "name": "Ritual",
         "level": "20",
         "componentcost": "5000, plus 5 healing surges",
         "price": "25000",
@@ -3043,7 +3043,7 @@
     },
     "ritual117": {
         "id": "ritual117",
-        "name": "Overland Flight",
+        "name": "Ritual",
         "level": "20",
         "componentcost": "5000",
         "price": "25000",
@@ -3052,7 +3052,7 @@
     },
     "ritual393": {
         "id": "ritual393",
-        "name": "Ritual of Rebirth",
+        "name": "Ritual",
         "level": "20",
         "componentcost": "Special",
         "price": "None",
@@ -3061,7 +3061,7 @@
     },
     "ritual264": {
         "id": "ritual264",
-        "name": "Scry Trap",
+        "name": "Ritual",
         "level": "20",
         "componentcost": "5000",
         "price": "25000",
@@ -3070,7 +3070,7 @@
     },
     "ritual92": {
         "id": "ritual92",
-        "name": "Soulguard",
+        "name": "Ritual",
         "level": "20",
         "componentcost": "5000",
         "price": "20000",
@@ -3079,7 +3079,7 @@
     },
     "ritual394": {
         "id": "ritual394",
-        "name": "Speak to the Youth Within",
+        "name": "Ritual",
         "level": "20",
         "componentcost": "2 healing surges and a focus (torc of the younger self)",
         "price": "None",
@@ -3088,7 +3088,7 @@
     },
     "ritual278": {
         "id": "ritual278",
-        "name": "Succor",
+        "name": "Ritual",
         "level": "20",
         "componentcost": "5000, plus 4 healing surges and a focus worth 5000",
         "price": "25000",
@@ -3097,7 +3097,7 @@
     },
     "ritual128": {
         "id": "ritual128",
-        "name": "True Sending",
+        "name": "Ritual",
         "level": "20",
         "componentcost": "4000",
         "price": "25000",
@@ -3106,7 +3106,7 @@
     },
     "ritual339": {
         "id": "ritual339",
-        "name": "Windmaster's Mantle",
+        "name": "Ritual",
         "level": "20",
         "componentcost": "Focus (mantle of the seventh wind)",
         "price": "25000",
@@ -3115,7 +3115,7 @@
     },
     "ritual81": {
         "id": "ritual81",
-        "name": "Divine Sight",
+        "name": "Ritual",
         "level": "22",
         "componentcost": "13000",
         "price": "65000",
@@ -3124,7 +3124,7 @@
     },
     "ritual21": {
         "id": "ritual21",
-        "name": "Loremaster's Bargain",
+        "name": "Ritual",
         "level": "22",
         "componentcost": "13000",
         "price": "65000",
@@ -3133,7 +3133,7 @@
     },
     "ritual24": {
         "id": "ritual24",
-        "name": "Observe Creature",
+        "name": "Ritual",
         "level": "24",
         "componentcost": "21000, plus a focus worth 10000",
         "price": "105000",
@@ -3142,7 +3142,7 @@
     },
     "ritual84": {
         "id": "ritual84",
-        "name": "Purge Spellplague",
+        "name": "Ritual",
         "level": "24",
         "componentcost": "25000",
         "price": "150000",
@@ -3151,7 +3151,7 @@
     },
     "ritual342": {
         "id": "ritual342",
-        "name": "Create Tree of Life",
+        "name": "Ritual",
         "level": "25",
         "componentcost": "25000",
         "price": "200000",
@@ -3160,7 +3160,7 @@
     },
     "ritual274": {
         "id": "ritual274",
-        "name": "Ease Spirit",
+        "name": "Ritual",
         "level": "25",
         "componentcost": "25000",
         "price": "70000",
@@ -3169,7 +3169,7 @@
     },
     "ritual106": {
         "id": "ritual106",
-        "name": "Deceive Sensor",
+        "name": "Ritual",
         "level": "26",
         "componentcost": "45000",
         "price": "325000",
@@ -3178,7 +3178,7 @@
     },
     "ritual74": {
         "id": "ritual74",
-        "name": "Ritual of Twin Burnings",
+        "name": "Ritual",
         "level": "26",
         "componentcost": "50000, plus special",
         "price": "None",
@@ -3187,7 +3187,7 @@
     },
     "ritual90": {
         "id": "ritual90",
-        "name": "Shift Mote",
+        "name": "Ritual",
         "level": "26",
         "componentcost": "50000 and five healing surges",
         "price": "300000",
@@ -3196,7 +3196,7 @@
     },
     "ritual36": {
         "id": "ritual36",
-        "name": "Voice of Fate",
+        "name": "Ritual",
         "level": "26",
         "componentcost": "45000, plus 5 healing surges",
         "price": "225000",
@@ -3205,7 +3205,7 @@
     },
     "ritual164": {
         "id": "ritual164",
-        "name": "Ward the True Name",
+        "name": "Ritual",
         "level": "26",
         "componentcost": "22500",
         "price": "125000",
@@ -3214,7 +3214,7 @@
     },
     "ritual222": {
         "id": "ritual222",
-        "name": "Imprisonment",
+        "name": "Ritual",
         "level": "28",
         "componentcost": "170000, plus 5 healing surges",
         "price": "500000",
@@ -3223,7 +3223,7 @@
     },
     "ritual15": {
         "id": "ritual15",
-        "name": "True Portal",
+        "name": "Ritual",
         "level": "28",
         "componentcost": "50000 (see text)",
         "price": "425000",
@@ -3232,7 +3232,7 @@
     },
     "ritual86": {
         "id": "ritual86",
-        "name": "Raise Land",
+        "name": "Ritual",
         "level": "30",
         "componentcost": "125000gp",
         "price": "600000",

@@ -1,7 +1,7 @@
 {
     "weapon219": {
         "id": "weapon219",
-        "name": "Arrow",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": "None",
         "cost": "None",
@@ -10,7 +10,7 @@
     },
     "weapon176": {
         "id": "weapon176",
-        "name": "Arrows",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": "None",
         "cost": "1",
@@ -19,7 +19,7 @@
     },
     "weapon259": {
         "id": "weapon259",
-        "name": "Blowgun Needles",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": "None",
         "cost": "1",
@@ -28,7 +28,7 @@
     },
     "weapon220": {
         "id": "weapon220",
-        "name": "Crossbow Bolt",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": "None",
         "cost": "None",
@@ -37,7 +37,7 @@
     },
     "weapon180": {
         "id": "weapon180",
-        "name": "Crossbow Bolts",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": "None",
         "cost": "1",
@@ -46,7 +46,7 @@
     },
     "weapon221": {
         "id": "weapon221",
-        "name": "Magazine",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": "None",
         "cost": "1",
@@ -55,7 +55,7 @@
     },
     "weapon222": {
         "id": "weapon222",
-        "name": "Sling Bullet",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": "None",
         "cost": "None",
@@ -64,7 +64,7 @@
     },
     "weapon181": {
         "id": "weapon181",
-        "name": "Sling Bullets",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": "None",
         "cost": "1",
@@ -73,7 +73,7 @@
     },
     "weapon3634": {
         "id": "weapon3634",
-        "name": "Any ranged",
+        "name": "Weapon",
         "type": "Improvised",
         "level": "Improvised",
         "cost": "None",
@@ -82,7 +82,7 @@
     },
     "weapon3624": {
         "id": "weapon3624",
-        "name": "Any small melee",
+        "name": "Weapon",
         "type": "Improvised",
         "level": "Improvised",
         "cost": "None",
@@ -91,7 +91,7 @@
     },
     "weapon3626": {
         "id": "weapon3626",
-        "name": "Improvised large melee",
+        "name": "Weapon",
         "type": "Improvised",
         "level": "Improvised",
         "cost": "None",
@@ -100,7 +100,7 @@
     },
     "weapon3625": {
         "id": "weapon3625",
-        "name": "Unarmed attack",
+        "name": "Weapon",
         "type": "Unarmed",
         "level": "Improvised",
         "cost": "None",
@@ -109,7 +109,7 @@
     },
     "weapon3593": {
         "id": "weapon3593",
-        "name": "Club",
+        "name": "Weapon",
         "type": "Mace",
         "level": "Simple",
         "cost": "1",
@@ -118,7 +118,7 @@
     },
     "weapon3629": {
         "id": "weapon3629",
-        "name": "Crossbow",
+        "name": "Weapon",
         "type": "Crossbow",
         "level": "Simple",
         "cost": "25",
@@ -127,7 +127,7 @@
     },
     "weapon3594": {
         "id": "weapon3594",
-        "name": "Dagger",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Simple",
         "cost": "1",
@@ -136,7 +136,7 @@
     },
     "weapon3715": {
         "id": "weapon3715",
-        "name": "Dejada",
+        "name": "Weapon",
         "type": "Sling",
         "level": "Simple",
         "cost": "10",
@@ -145,7 +145,7 @@
     },
     "weapon3599": {
         "id": "weapon3599",
-        "name": "Greatclub",
+        "name": "Weapon",
         "type": "Mace",
         "level": "Simple",
         "cost": "1",
@@ -154,7 +154,7 @@
     },
     "weapon3627": {
         "id": "weapon3627",
-        "name": "Hand crossbow",
+        "name": "Weapon",
         "type": "Crossbow",
         "level": "Simple",
         "cost": "25",
@@ -163,7 +163,7 @@
     },
     "weapon3595": {
         "id": "weapon3595",
-        "name": "Javelin",
+        "name": "Weapon",
         "type": "Spear",
         "level": "Simple",
         "cost": "5",
@@ -172,7 +172,7 @@
     },
     "weapon3745": {
         "id": "weapon3745",
-        "name": "Light mace",
+        "name": "Weapon",
         "type": "Mace",
         "level": "Simple",
         "cost": "3",
@@ -181,7 +181,7 @@
     },
     "weapon3596": {
         "id": "weapon3596",
-        "name": "Mace",
+        "name": "Weapon",
         "type": "Mace",
         "level": "Simple",
         "cost": "5",
@@ -190,7 +190,7 @@
     },
     "weapon3678": {
         "id": "weapon3678",
-        "name": "Monk unarmed strike",
+        "name": "Weapon",
         "type": "Unarmed",
         "level": "Simple",
         "cost": "None",
@@ -199,7 +199,7 @@
     },
     "weapon3600": {
         "id": "weapon3600",
-        "name": "Morningstar",
+        "name": "Weapon",
         "type": "Mace",
         "level": "Simple",
         "cost": "10",
@@ -208,7 +208,7 @@
     },
     "weapon3601": {
         "id": "weapon3601",
-        "name": "Quarterstaff",
+        "name": "Weapon",
         "type": "Staff",
         "level": "Simple",
         "cost": "5",
@@ -217,7 +217,7 @@
     },
     "weapon3657": {
         "id": "weapon3657",
-        "name": "Repeating crossbow",
+        "name": "Weapon",
         "type": "Crossbow",
         "level": "Simple",
         "cost": "35",
@@ -226,7 +226,7 @@
     },
     "weapon3602": {
         "id": "weapon3602",
-        "name": "Scythe",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Simple",
         "cost": "5",
@@ -235,7 +235,7 @@
     },
     "weapon3746": {
         "id": "weapon3746",
-        "name": "Short spear",
+        "name": "Weapon",
         "type": "Spear",
         "level": "Simple",
         "cost": "2",
@@ -244,7 +244,7 @@
     },
     "weapon3597": {
         "id": "weapon3597",
-        "name": "Sickle",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Simple",
         "cost": "2",
@@ -253,7 +253,7 @@
     },
     "weapon3628": {
         "id": "weapon3628",
-        "name": "Sling",
+        "name": "Weapon",
         "type": "Sling",
         "level": "Simple",
         "cost": "1",
@@ -262,7 +262,7 @@
     },
     "weapon3598": {
         "id": "weapon3598",
-        "name": "Spear",
+        "name": "Weapon",
         "type": "Spear",
         "level": "Simple",
         "cost": "5",
@@ -271,7 +271,7 @@
     },
     "weapon3635": {
         "id": "weapon3635",
-        "name": "Spiked gauntlet",
+        "name": "Weapon",
         "type": "Unarmed",
         "level": "Simple",
         "cost": "5",
@@ -280,7 +280,7 @@
     },
     "weapon3724": {
         "id": "weapon3724",
-        "name": "Talid",
+        "name": "Weapon",
         "type": "Unarmed",
         "level": "Simple",
         "cost": "5",
@@ -289,7 +289,7 @@
     },
     "weapon3727": {
         "id": "weapon3727",
-        "name": "Widow's knife",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Simple",
         "cost": "1",
@@ -298,7 +298,7 @@
     },
     "weapon3728": {
         "id": "weapon3728",
-        "name": "Wrist razors",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Simple",
         "cost": "1",
@@ -307,7 +307,7 @@
     },
     "weapon3710": {
         "id": "weapon3710",
-        "name": "Alhulak",
+        "name": "Weapon",
         "type": "Flail",
         "level": "Military",
         "cost": "20",
@@ -316,7 +316,7 @@
     },
     "weapon3603": {
         "id": "weapon3603",
-        "name": "Battleaxe",
+        "name": "Weapon",
         "type": "Axe",
         "level": "Military",
         "cost": "15",
@@ -325,7 +325,7 @@
     },
     "weapon3636": {
         "id": "weapon3636",
-        "name": "Broadsword",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Military",
         "cost": "20",
@@ -334,7 +334,7 @@
     },
     "weapon3713": {
         "id": "weapon3713",
-        "name": "Carrikal",
+        "name": "Weapon",
         "type": "Axe",
         "level": "Military",
         "cost": "15",
@@ -343,7 +343,7 @@
     },
     "weapon3714": {
         "id": "weapon3714",
-        "name": "Chatkcha",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Military",
         "cost": "10",
@@ -352,7 +352,7 @@
     },
     "weapon3633": {
         "id": "weapon3633",
-        "name": "Falchion",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Military",
         "cost": "25",
@@ -361,7 +361,7 @@
     },
     "weapon3605": {
         "id": "weapon3605",
-        "name": "Flail",
+        "name": "Weapon",
         "type": "Flail",
         "level": "Military",
         "cost": "10",
@@ -370,7 +370,7 @@
     },
     "weapon3614": {
         "id": "weapon3614",
-        "name": "Glaive",
+        "name": "Weapon",
         "type": "Heavy blade, Polearm",
         "level": "Military",
         "cost": "25",
@@ -379,7 +379,7 @@
     },
     "weapon3612": {
         "id": "weapon3612",
-        "name": "Greataxe",
+        "name": "Weapon",
         "type": "Axe",
         "level": "Military",
         "cost": "30",
@@ -388,7 +388,7 @@
     },
     "weapon3618": {
         "id": "weapon3618",
-        "name": "Greatsword",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Military",
         "cost": "30",
@@ -397,7 +397,7 @@
     },
     "weapon3615": {
         "id": "weapon3615",
-        "name": "Halberd",
+        "name": "Weapon",
         "type": "Axe, Polearm",
         "level": "Military",
         "cost": "25",
@@ -406,7 +406,7 @@
     },
     "weapon3604": {
         "id": "weapon3604",
-        "name": "Handaxe",
+        "name": "Weapon",
         "type": "Axe",
         "level": "Military",
         "cost": "5",
@@ -415,7 +415,7 @@
     },
     "weapon3613": {
         "id": "weapon3613",
-        "name": "Heavy flail",
+        "name": "Weapon",
         "type": "Flail",
         "level": "Military",
         "cost": "25",
@@ -424,7 +424,7 @@
     },
     "weapon3641": {
         "id": "weapon3641",
-        "name": "Heavy war pick",
+        "name": "Weapon",
         "type": "Pick",
         "level": "Military",
         "cost": "20",
@@ -433,7 +433,7 @@
     },
     "weapon3637": {
         "id": "weapon3637",
-        "name": "Khopesh",
+        "name": "Weapon",
         "type": "Axe, Heavy blade",
         "level": "Military",
         "cost": "20",
@@ -442,7 +442,7 @@
     },
     "weapon3747": {
         "id": "weapon3747",
-        "name": "Lance",
+        "name": "Weapon",
         "type": "Spear",
         "level": "Military",
         "cost": "12",
@@ -451,7 +451,7 @@
     },
     "weapon3638": {
         "id": "weapon3638",
-        "name": "Light war pick",
+        "name": "Weapon",
         "type": "Pick",
         "level": "Military",
         "cost": "10",
@@ -460,7 +460,7 @@
     },
     "weapon3631": {
         "id": "weapon3631",
-        "name": "Longbow",
+        "name": "Weapon",
         "type": "Bow",
         "level": "Military",
         "cost": "30",
@@ -469,7 +469,7 @@
     },
     "weapon3617": {
         "id": "weapon3617",
-        "name": "Longspear",
+        "name": "Weapon",
         "type": "Polearm, Spear",
         "level": "Military",
         "cost": "10",
@@ -478,7 +478,7 @@
     },
     "weapon3610": {
         "id": "weapon3610",
-        "name": "Longsword",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Military",
         "cost": "15",
@@ -487,7 +487,7 @@
     },
     "weapon3616": {
         "id": "weapon3616",
-        "name": "Maul",
+        "name": "Weapon",
         "type": "Hammer",
         "level": "Military",
         "cost": "30",
@@ -496,7 +496,7 @@
     },
     "weapon3748": {
         "id": "weapon3748",
-        "name": "Pike",
+        "name": "Weapon",
         "type": "Polearm, Spear",
         "level": "Military",
         "cost": "15",
@@ -505,7 +505,7 @@
     },
     "weapon3620": {
         "id": "weapon3620",
-        "name": "Rapier",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Military",
         "cost": "25",
@@ -514,7 +514,7 @@
     },
     "weapon3609": {
         "id": "weapon3609",
-        "name": "Scimitar",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Military",
         "cost": "10",
@@ -523,7 +523,7 @@
     },
     "weapon3639": {
         "id": "weapon3639",
-        "name": "Scourge",
+        "name": "Weapon",
         "type": "Flail",
         "level": "Military",
         "cost": "3",
@@ -532,7 +532,7 @@
     },
     "weapon3611": {
         "id": "weapon3611",
-        "name": "Short sword",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Military",
         "cost": "10",
@@ -541,7 +541,7 @@
     },
     "weapon3630": {
         "id": "weapon3630",
-        "name": "Shortbow",
+        "name": "Weapon",
         "type": "Bow",
         "level": "Military",
         "cost": "25",
@@ -550,7 +550,7 @@
     },
     "weapon3606": {
         "id": "weapon3606",
-        "name": "Throwing hammer",
+        "name": "Weapon",
         "type": "Hammer",
         "level": "Military",
         "cost": "5",
@@ -559,7 +559,7 @@
     },
     "weapon3640": {
         "id": "weapon3640",
-        "name": "Trident",
+        "name": "Weapon",
         "type": "Spear",
         "level": "Military",
         "cost": "10",
@@ -568,7 +568,7 @@
     },
     "weapon3726": {
         "id": "weapon3726",
-        "name": "Trikal",
+        "name": "Weapon",
         "type": "Axe, Polearm",
         "level": "Military",
         "cost": "25",
@@ -577,7 +577,7 @@
     },
     "weapon3608": {
         "id": "weapon3608",
-        "name": "War Pick",
+        "name": "Weapon",
         "type": "Pick",
         "level": "Military",
         "cost": "15",
@@ -586,7 +586,7 @@
     },
     "weapon3607": {
         "id": "weapon3607",
-        "name": "Warhammer",
+        "name": "Weapon",
         "type": "Hammer",
         "level": "Military",
         "cost": "15",
@@ -595,7 +595,7 @@
     },
     "weapon3621": {
         "id": "weapon3621",
-        "name": "Bastard sword",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Superior",
         "cost": "30",
@@ -604,7 +604,7 @@
     },
     "weapon3662": {
         "id": "weapon3662",
-        "name": "Blowgun",
+        "name": "Weapon",
         "type": "Blowgun",
         "level": "Superior",
         "cost": "5",
@@ -613,7 +613,7 @@
     },
     "weapon3661": {
         "id": "weapon3661",
-        "name": "Bola",
+        "name": "Weapon",
         "type": "Flail",
         "level": "Superior",
         "cost": "5",
@@ -622,7 +622,7 @@
     },
     "weapon3711": {
         "id": "weapon3711",
-        "name": "Cahulaks",
+        "name": "Weapon",
         "type": "Flail",
         "level": "Superior",
         "cost": "25",
@@ -631,7 +631,7 @@
     },
     "weapon3712": {
         "id": "weapon3712",
-        "name": "Cahulaks - secondary end",
+        "name": "Weapon",
         "type": "Flail",
         "level": "Superior",
         "cost": "None",
@@ -640,7 +640,7 @@
     },
     "weapon3642": {
         "id": "weapon3642",
-        "name": "Craghammer",
+        "name": "Weapon",
         "type": "Hammer",
         "level": "Superior",
         "cost": "20",
@@ -649,7 +649,7 @@
     },
     "weapon3664": {
         "id": "weapon3664",
-        "name": "Cutting wheel",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "10",
@@ -658,7 +658,7 @@
     },
     "weapon3653": {
         "id": "weapon3653",
-        "name": "Double axe",
+        "name": "Weapon",
         "type": "Axe",
         "level": "Superior",
         "cost": "40",
@@ -667,7 +667,7 @@
     },
     "weapon3672": {
         "id": "weapon3672",
-        "name": "Double axe - secondary end",
+        "name": "Weapon",
         "type": "Axe",
         "level": "Superior",
         "cost": "None",
@@ -676,7 +676,7 @@
     },
     "weapon3654": {
         "id": "weapon3654",
-        "name": "Double flail",
+        "name": "Weapon",
         "type": "Flail",
         "level": "Superior",
         "cost": "30",
@@ -685,7 +685,7 @@
     },
     "weapon3673": {
         "id": "weapon3673",
-        "name": "Double flail - secondary end",
+        "name": "Weapon",
         "type": "Flail",
         "level": "Superior",
         "cost": "None",
@@ -694,7 +694,7 @@
     },
     "weapon3668": {
         "id": "weapon3668",
-        "name": "Double scimitar",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Superior",
         "cost": "40",
@@ -703,7 +703,7 @@
     },
     "weapon3677": {
         "id": "weapon3677",
-        "name": "Double scimitar - secondary end",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Superior",
         "cost": "None",
@@ -712,7 +712,7 @@
     },
     "weapon3655": {
         "id": "weapon3655",
-        "name": "Double sword",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "40",
@@ -721,7 +721,7 @@
     },
     "weapon3674": {
         "id": "weapon3674",
-        "name": "Double sword - secondary end",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "None",
@@ -730,7 +730,7 @@
     },
     "weapon3716": {
         "id": "weapon3716",
-        "name": "Dragon paw",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Superior",
         "cost": "40",
@@ -739,7 +739,7 @@
     },
     "weapon3717": {
         "id": "weapon3717",
-        "name": "Dragon paw - secondary end",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "None",
@@ -748,7 +748,7 @@
     },
     "weapon3665": {
         "id": "weapon3665",
-        "name": "Drow long knife",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Superior",
         "cost": "15",
@@ -757,7 +757,7 @@
     },
     "weapon3649": {
         "id": "weapon3649",
-        "name": "Execution axe",
+        "name": "Weapon",
         "type": "Axe",
         "level": "Superior",
         "cost": "30",
@@ -766,7 +766,7 @@
     },
     "weapon3650": {
         "id": "weapon3650",
-        "name": "Fullblade",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Superior",
         "cost": "30",
@@ -775,7 +775,7 @@
     },
     "weapon3663": {
         "id": "weapon3663",
-        "name": "Garrote",
+        "name": "Weapon",
         "type": "Garrote",
         "level": "Superior",
         "cost": "1",
@@ -784,7 +784,7 @@
     },
     "weapon3718": {
         "id": "weapon3718",
-        "name": "Gauntlet axe",
+        "name": "Weapon",
         "type": "Axe",
         "level": "Superior",
         "cost": "25",
@@ -793,7 +793,7 @@
     },
     "weapon3719": {
         "id": "weapon3719",
-        "name": "Gouge",
+        "name": "Weapon",
         "type": "Axe, Spear",
         "level": "Superior",
         "cost": "30",
@@ -802,7 +802,7 @@
     },
     "weapon3658": {
         "id": "weapon3658",
-        "name": "Greatbow",
+        "name": "Weapon",
         "type": "Bow",
         "level": "Superior",
         "cost": "30",
@@ -811,7 +811,7 @@
     },
     "weapon3651": {
         "id": "weapon3651",
-        "name": "Greatspear",
+        "name": "Weapon",
         "type": "Polearm, Spear",
         "level": "Superior",
         "cost": "25",
@@ -820,7 +820,7 @@
     },
     "weapon3720": {
         "id": "weapon3720",
-        "name": "Gythka",
+        "name": "Weapon",
         "type": "Spear",
         "level": "Superior",
         "cost": "25",
@@ -829,7 +829,7 @@
     },
     "weapon3729": {
         "id": "weapon3729",
-        "name": "Gythka - secondary end",
+        "name": "Weapon",
         "type": "Spear",
         "level": "Superior",
         "cost": "None",
@@ -838,7 +838,7 @@
     },
     "weapon3619": {
         "id": "weapon3619",
-        "name": "Katar",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "3",
@@ -847,7 +847,7 @@
     },
     "weapon3643": {
         "id": "weapon3643",
-        "name": "Kukri",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "10",
@@ -856,7 +856,7 @@
     },
     "weapon3750": {
         "id": "weapon3750",
-        "name": "Kusari-gama",
+        "name": "Weapon",
         "type": "Flail",
         "level": "Superior",
         "cost": "10",
@@ -865,7 +865,7 @@
     },
     "weapon3751": {
         "id": "weapon3751",
-        "name": "Kusari-gama - secondary end",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "None",
@@ -874,7 +874,7 @@
     },
     "weapon3721": {
         "id": "weapon3721",
-        "name": "Lotulis",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Superior",
         "cost": "40",
@@ -883,7 +883,7 @@
     },
     "weapon3730": {
         "id": "weapon3730",
-        "name": "Lotulis - secondary end",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Superior",
         "cost": "None",
@@ -892,7 +892,7 @@
     },
     "weapon3652": {
         "id": "weapon3652",
-        "name": "Mordenkrad",
+        "name": "Weapon",
         "type": "Hammer",
         "level": "Superior",
         "cost": "30",
@@ -901,7 +901,7 @@
     },
     "weapon3660": {
         "id": "weapon3660",
-        "name": "Net",
+        "name": "Weapon",
         "type": "Flail",
         "level": "Superior",
         "cost": "20",
@@ -910,7 +910,7 @@
     },
     "weapon3644": {
         "id": "weapon3644",
-        "name": "Parrying dagger",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "5",
@@ -919,7 +919,7 @@
     },
     "weapon3722": {
         "id": "weapon3722",
-        "name": "Puchik",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "3",
@@ -928,7 +928,7 @@
     },
     "weapon3749": {
         "id": "weapon3749",
-        "name": "Serrated pick",
+        "name": "Weapon",
         "type": "Pick",
         "level": "Superior",
         "cost": "15",
@@ -937,7 +937,7 @@
     },
     "weapon3632": {
         "id": "weapon3632",
-        "name": "Shuriken",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "None",
@@ -946,7 +946,7 @@
     },
     "weapon3723": {
         "id": "weapon3723",
-        "name": "Singing stick",
+        "name": "Weapon",
         "type": "Mace",
         "level": "Superior",
         "cost": "40",
@@ -955,7 +955,7 @@
     },
     "weapon3623": {
         "id": "weapon3623",
-        "name": "Spiked chain",
+        "name": "Weapon",
         "type": "Flail",
         "level": "Superior",
         "cost": "30",
@@ -964,7 +964,7 @@
     },
     "weapon3645": {
         "id": "weapon3645",
-        "name": "Spiked shield",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "10",
@@ -973,7 +973,7 @@
     },
     "weapon3659": {
         "id": "weapon3659",
-        "name": "Superior crossbow",
+        "name": "Weapon",
         "type": "Crossbow",
         "level": "Superior",
         "cost": "30",
@@ -982,7 +982,7 @@
     },
     "weapon3670": {
         "id": "weapon3670",
-        "name": "Talenta boomerang",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "5",
@@ -991,7 +991,7 @@
     },
     "weapon3667": {
         "id": "weapon3667",
-        "name": "Talenta sharrash",
+        "name": "Weapon",
         "type": "Heavy blade, Polearm",
         "level": "Superior",
         "cost": "30",
@@ -1000,7 +1000,7 @@
     },
     "weapon3666": {
         "id": "weapon3666",
-        "name": "Talenta tangat",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Superior",
         "cost": "20",
@@ -1009,7 +1009,7 @@
     },
     "weapon3725": {
         "id": "weapon3725",
-        "name": "Tortoise blade",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "10",
@@ -1018,7 +1018,7 @@
     },
     "weapon3646": {
         "id": "weapon3646",
-        "name": "Tratnyr",
+        "name": "Weapon",
         "type": "Spear",
         "level": "Superior",
         "cost": "10",
@@ -1027,7 +1027,7 @@
     },
     "weapon3647": {
         "id": "weapon3647",
-        "name": "Triple-headed flail",
+        "name": "Weapon",
         "type": "Flail",
         "level": "Superior",
         "cost": "15",
@@ -1036,7 +1036,7 @@
     },
     "weapon3656": {
         "id": "weapon3656",
-        "name": "Urgrosh",
+        "name": "Weapon",
         "type": "Axe",
         "level": "Superior",
         "cost": "10",
@@ -1045,7 +1045,7 @@
     },
     "weapon3675": {
         "id": "weapon3675",
-        "name": "Urgrosh - secondary end",
+        "name": "Weapon",
         "type": "Spear",
         "level": "Superior",
         "cost": "None",
@@ -1054,7 +1054,7 @@
     },
     "weapon3648": {
         "id": "weapon3648",
-        "name": "Waraxe",
+        "name": "Weapon",
         "type": "Axe",
         "level": "Superior",
         "cost": "30",
@@ -1063,7 +1063,7 @@
     },
     "weapon3622": {
         "id": "weapon3622",
-        "name": "Whip",
+        "name": "Weapon",
         "type": "Whip",
         "level": "Superior",
         "cost": "1",
@@ -1072,7 +1072,7 @@
     },
     "weapon3671": {
         "id": "weapon3671",
-        "name": "Xen'drik boomerang",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "Superior",
         "cost": "10",
@@ -1081,7 +1081,7 @@
     },
     "weapon3739": {
         "id": "weapon3739",
-        "name": "Zadatl",
+        "name": "Weapon",
         "type": "Polearm, Spear",
         "level": "Superior",
         "cost": "30",
@@ -1090,7 +1090,7 @@
     },
     "weapon3669": {
         "id": "weapon3669",
-        "name": "Zulaat",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Superior",
         "cost": "30",
@@ -1099,7 +1099,7 @@
     },
     "weapon3676": {
         "id": "weapon3676",
-        "name": "Zulaat - secondary end",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "Superior",
         "cost": "None",
@@ -1108,7 +1108,7 @@
     },
     "weapon601": {
         "id": "weapon601",
-        "name": "Bard's Songblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "1",
@@ -1131,7 +1131,7 @@
     },
     "weapon602": {
         "id": "weapon602",
-        "name": "Bard's Songbow",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "1",
@@ -1154,7 +1154,7 @@
     },
     "weapon849": {
         "id": "weapon849",
-        "name": "Challenge-Seeking Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "1",
@@ -1177,7 +1177,7 @@
     },
     "weapon3391": {
         "id": "weapon3391",
-        "name": "Cursed Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "1",
@@ -1200,7 +1200,7 @@
     },
     "weapon1101": {
         "id": "weapon1101",
-        "name": "Distance Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "1",
@@ -1223,7 +1223,7 @@
     },
     "weapon1157": {
         "id": "weapon1157",
-        "name": "Earth-Wrought Hammer",
+        "name": "Weapon",
         "type": "Hammer",
         "level": [
             "1",
@@ -1246,7 +1246,7 @@
     },
     "weapon1166": {
         "id": "weapon1166",
-        "name": "Eberron Shard of Animosity",
+        "name": "Weapon",
         "type": "Dragonshard",
         "level": [
             "1",
@@ -1263,7 +1263,7 @@
     },
     "weapon1169": {
         "id": "weapon1169",
-        "name": "Eberron Shard of Ruin",
+        "name": "Weapon",
         "type": "Dragonshard",
         "level": [
             "1",
@@ -1280,7 +1280,7 @@
     },
     "weapon1782": {
         "id": "weapon1782",
-        "name": "Magic Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "1",
@@ -1303,7 +1303,7 @@
     },
     "weapon459": {
         "id": "weapon459",
-        "name": "Aftershock Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "2",
@@ -1326,7 +1326,7 @@
     },
     "weapon528": {
         "id": "weapon528",
-        "name": "Armblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade ",
         "level": [
             "2",
@@ -1349,7 +1349,7 @@
     },
     "weapon581": {
         "id": "weapon581",
-        "name": "Axe of Sundering",
+        "name": "Weapon",
         "type": "Axe",
         "level": [
             "2",
@@ -1372,7 +1372,7 @@
     },
     "weapon696": {
         "id": "weapon696",
-        "name": "Bloodclaw Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "2",
@@ -1395,7 +1395,7 @@
     },
     "weapon1028": {
         "id": "weapon1028",
-        "name": "Deadstone Weapon",
+        "name": "Weapon",
         "type": "Axe, hammer, heavy blade or mace",
         "level": [
             "2",
@@ -1410,7 +1410,7 @@
     },
     "weapon1045": {
         "id": "weapon1045",
-        "name": "Deathsteel Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "2",
@@ -1433,7 +1433,7 @@
     },
     "weapon1057": {
         "id": "weapon1057",
-        "name": "Defensive Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "2",
@@ -1456,7 +1456,7 @@
     },
     "weapon1138": {
         "id": "weapon1138",
-        "name": "Duelist's Bow",
+        "name": "Weapon",
         "type": "Bow",
         "level": [
             "2",
@@ -1479,7 +1479,7 @@
     },
     "weapon1150": {
         "id": "weapon1150",
-        "name": "Dwarven Thrower",
+        "name": "Weapon",
         "type": "Hammer or axe",
         "level": [
             "2",
@@ -1502,7 +1502,7 @@
     },
     "weapon1168": {
         "id": "weapon1168",
-        "name": "Eberron Shard of Lightning",
+        "name": "Weapon",
         "type": "Dragonshard",
         "level": [
             "2",
@@ -1519,7 +1519,7 @@
     },
     "weapon1214": {
         "id": "weapon1214",
-        "name": "Entrapping Weapon",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "2",
@@ -1542,7 +1542,7 @@
     },
     "weapon1252": {
         "id": "weapon1252",
-        "name": "Farbond Spellblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "2",
@@ -1565,7 +1565,7 @@
     },
     "weapon1319": {
         "id": "weapon1319",
-        "name": "Flesh Seeker",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "2",
@@ -1588,7 +1588,7 @@
     },
     "weapon1348": {
         "id": "weapon1348",
-        "name": "Forester's Axe",
+        "name": "Weapon",
         "type": "Axe",
         "level": [
             "2",
@@ -1611,7 +1611,7 @@
     },
     "weapon1359": {
         "id": "weapon1359",
-        "name": "Frightful Weapon",
+        "name": "Weapon",
         "type": "Axe",
         "level": [
             "2",
@@ -1634,7 +1634,7 @@
     },
     "weapon1376": {
         "id": "weapon1376",
-        "name": "Gambler's Weapon",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "2",
@@ -1657,7 +1657,7 @@
     },
     "weapon1446": {
         "id": "weapon1446",
-        "name": "Goblin Totem",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "2",
@@ -1680,7 +1680,7 @@
     },
     "weapon1490": {
         "id": "weapon1490",
-        "name": "Guardian's Call",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "2",
@@ -1703,7 +1703,7 @@
     },
     "weapon1505": {
         "id": "weapon1505",
-        "name": "Harmonic Songblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "2",
@@ -1726,7 +1726,7 @@
     },
     "weapon1561": {
         "id": "weapon1561",
-        "name": "Holy Healer's Weapon",
+        "name": "Weapon",
         "type": "Mace or staff",
         "level": [
             "2",
@@ -1749,7 +1749,7 @@
     },
     "weapon1568": {
         "id": "weapon1568",
-        "name": "Horn Totem",
+        "name": "Weapon",
         "type": "Dagger",
         "level": "2",
         "cost": "520",
@@ -1758,7 +1758,7 @@
     },
     "weapon1580": {
         "id": "weapon1580",
-        "name": "Howling Songbow",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "2",
@@ -1781,7 +1781,7 @@
     },
     "weapon1582": {
         "id": "weapon1582",
-        "name": "Hungry Spear",
+        "name": "Weapon",
         "type": "Spear",
         "level": [
             "2",
@@ -1804,7 +1804,7 @@
     },
     "weapon1689": {
         "id": "weapon1689",
-        "name": "Khyber Shard of the Fiery Depth",
+        "name": "Weapon",
         "type": "Dragonshard",
         "level": [
             "2",
@@ -1821,7 +1821,7 @@
     },
     "weapon3140": {
         "id": "weapon3140",
-        "name": "Lesser Cloaked Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "2",
@@ -1844,7 +1844,7 @@
     },
     "weapon1771": {
         "id": "weapon1771",
-        "name": "Mage's Weapon",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "2",
@@ -1867,7 +1867,7 @@
     },
     "weapon1793": {
         "id": "weapon1793",
-        "name": "Manifester Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "2",
@@ -1890,7 +1890,7 @@
     },
     "weapon1931": {
         "id": "weapon1931",
-        "name": "Onslaught Arrow",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "2",
@@ -1913,7 +1913,7 @@
     },
     "weapon2008": {
         "id": "weapon2008",
-        "name": "Pact Bow",
+        "name": "Weapon",
         "type": "Bow",
         "level": [
             "2",
@@ -1936,7 +1936,7 @@
     },
     "weapon2009": {
         "id": "weapon2009",
-        "name": "Pact Hammer",
+        "name": "Weapon",
         "type": "Hammer",
         "level": [
             "2",
@@ -1959,7 +1959,7 @@
     },
     "weapon2010": {
         "id": "weapon2010",
-        "name": "Pact Sword",
+        "name": "Weapon",
         "type": "Longsword",
         "level": [
             "2",
@@ -1982,7 +1982,7 @@
     },
     "weapon2019": {
         "id": "weapon2019",
-        "name": "Parrying Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "2",
@@ -2005,7 +2005,7 @@
     },
     "weapon2054": {
         "id": "weapon2054",
-        "name": "Pinning Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "2",
@@ -2028,7 +2028,7 @@
     },
     "weapon2100": {
         "id": "weapon2100",
-        "name": "Prime Shot Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "2",
@@ -2051,7 +2051,7 @@
     },
     "weapon2108": {
         "id": "weapon2108",
-        "name": "Psychokinetic Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "2",
@@ -2074,7 +2074,7 @@
     },
     "weapon2125": {
         "id": "weapon2125",
-        "name": "Quicksilver Blade",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "2",
@@ -2097,7 +2097,7 @@
     },
     "weapon2150": {
         "id": "weapon2150",
-        "name": "Rebounding Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "2",
@@ -2120,7 +2120,7 @@
     },
     "weapon2165": {
         "id": "weapon2165",
-        "name": "Relentless Weapon",
+        "name": "Weapon",
         "type": "Flail, hammer or mace",
         "level": [
             "2",
@@ -2143,7 +2143,7 @@
     },
     "weapon2169": {
         "id": "weapon2169",
-        "name": "Reproachful weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "2",
@@ -2166,7 +2166,7 @@
     },
     "weapon2175": {
         "id": "weapon2175",
-        "name": "Resounding Weapon",
+        "name": "Weapon",
         "type": "Hammer, flail, mace, sling or staff",
         "level": [
             "2",
@@ -2189,7 +2189,7 @@
     },
     "weapon2503": {
         "id": "weapon2503",
-        "name": "Siberys Shard of Merciless Cold",
+        "name": "Weapon",
         "type": "Dragonshard",
         "level": [
             "2",
@@ -2206,7 +2206,7 @@
     },
     "weapon2528": {
         "id": "weapon2528",
-        "name": "Skull Totem",
+        "name": "Weapon",
         "type": "Mace",
         "level": "2",
         "cost": "520",
@@ -2215,7 +2215,7 @@
     },
     "weapon2657": {
         "id": "weapon2657",
-        "name": "Staggering Weapon",
+        "name": "Weapon",
         "type": "Axe, flail, hammer, heavy blade or mace",
         "level": [
             "2",
@@ -2238,7 +2238,7 @@
     },
     "weapon2731": {
         "id": "weapon2731",
-        "name": "Supremely Vicious Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "2",
@@ -2261,7 +2261,7 @@
     },
     "weapon2926": {
         "id": "weapon2926",
-        "name": "Totemic Spear",
+        "name": "Weapon",
         "type": "Spear",
         "level": [
             "2",
@@ -2284,7 +2284,7 @@
     },
     "weapon2927": {
         "id": "weapon2927",
-        "name": "Totemic Warclub",
+        "name": "Weapon",
         "type": "Mace",
         "level": [
             "2",
@@ -2307,7 +2307,7 @@
     },
     "weapon2988": {
         "id": "weapon2988",
-        "name": "Vicious Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "2",
@@ -2330,7 +2330,7 @@
     },
     "weapon3011": {
         "id": "weapon3011",
-        "name": "Wailing Songbow",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "2",
@@ -2353,7 +2353,7 @@
     },
     "weapon3156": {
         "id": "weapon3156",
-        "name": "Weapon of Long Range",
+        "name": "Weapon",
         "type": "Any ranged or any thrown",
         "level": [
             "2",
@@ -2376,7 +2376,7 @@
     },
     "weapon3060": {
         "id": "weapon3060",
-        "name": "Weapon of Shared Wrath",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "2",
@@ -2399,7 +2399,7 @@
     },
     "weapon3069": {
         "id": "weapon3069",
-        "name": "Whistling Songbow",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "2",
@@ -2422,7 +2422,7 @@
     },
     "weapon3074": {
         "id": "weapon3074",
-        "name": "Wild Flare Dagger",
+        "name": "Weapon",
         "type": "Dagger",
         "level": [
             "2",
@@ -2445,7 +2445,7 @@
     },
     "weapon3103": {
         "id": "weapon3103",
-        "name": "Wyrmtooth Dagger",
+        "name": "Weapon",
         "type": "Dagger",
         "level": [
             "2",
@@ -2468,7 +2468,7 @@
     },
     "weapon457": {
         "id": "weapon457",
-        "name": "Aegis Blade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "3",
@@ -2491,7 +2491,7 @@
     },
     "weapon478": {
         "id": "weapon478",
-        "name": "Alfsair Spear",
+        "name": "Weapon",
         "type": "Spear",
         "level": [
             "3",
@@ -2514,7 +2514,7 @@
     },
     "weapon510": {
         "id": "weapon510",
-        "name": "Anathema Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "3",
@@ -2537,7 +2537,7 @@
     },
     "weapon517": {
         "id": "weapon517",
-        "name": "Anointed Mace",
+        "name": "Weapon",
         "type": "Mace",
         "level": [
             "3",
@@ -2560,7 +2560,7 @@
     },
     "weapon529": {
         "id": "weapon529",
-        "name": "Armbow",
+        "name": "Weapon",
         "type": "Crossbow ",
         "level": [
             "3",
@@ -2583,7 +2583,7 @@
     },
     "weapon565": {
         "id": "weapon565",
-        "name": "Attention-Stealing Bullet",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "3",
@@ -2606,7 +2606,7 @@
     },
     "weapon567": {
         "id": "weapon567",
-        "name": "Aura Killer Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "3",
@@ -2629,7 +2629,7 @@
     },
     "weapon691": {
         "id": "weapon691",
-        "name": "Blood Fury Weapon",
+        "name": "Weapon",
         "type": "Axe or heavy blade",
         "level": [
             "3",
@@ -2652,7 +2652,7 @@
     },
     "weapon828": {
         "id": "weapon828",
-        "name": "Byeshk Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "3",
@@ -2675,7 +2675,7 @@
     },
     "weapon834": {
         "id": "weapon834",
-        "name": "Carnage Weapon",
+        "name": "Weapon",
         "type": "Axe, heavy blade or mace",
         "level": [
             "3",
@@ -2698,7 +2698,7 @@
     },
     "weapon845": {
         "id": "weapon845",
-        "name": "Cavern Explorer's Weapon",
+        "name": "Weapon",
         "type": "Axe, hammer, spear or staff",
         "level": [
             "3",
@@ -2721,7 +2721,7 @@
     },
     "weapon3459": {
         "id": "weapon3459",
-        "name": "Chaos Storm Dagger",
+        "name": "Weapon",
         "type": "Dagger",
         "level": [
             "3",
@@ -2744,7 +2744,7 @@
     },
     "weapon867": {
         "id": "weapon867",
-        "name": "Chieftain's Weapon",
+        "name": "Weapon",
         "type": "Polearm or spear",
         "level": [
             "3",
@@ -2767,7 +2767,7 @@
     },
     "weapon1120": {
         "id": "weapon1120",
-        "name": "Dragonscale Dagger",
+        "name": "Weapon",
         "type": "Dagger",
         "level": [
             "3",
@@ -2790,7 +2790,7 @@
     },
     "weapon1139": {
         "id": "weapon1139",
-        "name": "Duelist's Weapon",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "3",
@@ -2813,7 +2813,7 @@
     },
     "weapon1155": {
         "id": "weapon1155",
-        "name": "Eager Weapon",
+        "name": "Weapon",
         "type": "Light blade or spear",
         "level": [
             "3",
@@ -2836,7 +2836,7 @@
     },
     "weapon1292": {
         "id": "weapon1292",
-        "name": "Firestorm Arrow",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "3",
@@ -2859,7 +2859,7 @@
     },
     "weapon1295": {
         "id": "weapon1295",
-        "name": "Flail of Winds",
+        "name": "Weapon",
         "type": "Flail",
         "level": [
             "3",
@@ -2882,7 +2882,7 @@
     },
     "weapon1300": {
         "id": "weapon1300",
-        "name": "Flameburst Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "3",
@@ -2905,7 +2905,7 @@
     },
     "weapon1318": {
         "id": "weapon1318",
-        "name": "Flesh Grinder",
+        "name": "Weapon",
         "type": "Axe, heavy blade or polearm",
         "level": [
             "3",
@@ -2928,7 +2928,7 @@
     },
     "weapon1335": {
         "id": "weapon1335",
-        "name": "Foe Maker Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "3",
@@ -2951,7 +2951,7 @@
     },
     "weapon1337": {
         "id": "weapon1337",
-        "name": "Foe-Seeking Bow",
+        "name": "Weapon",
         "type": "Bow",
         "level": [
             "3",
@@ -2974,7 +2974,7 @@
     },
     "weapon1357": {
         "id": "weapon1357",
-        "name": "Freezing Arrow",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "3",
@@ -2997,7 +2997,7 @@
     },
     "weapon1361": {
         "id": "weapon1361",
-        "name": "Frost Fury Weapon",
+        "name": "Weapon",
         "type": "Axe",
         "level": [
             "3",
@@ -3020,7 +3020,7 @@
     },
     "weapon1363": {
         "id": "weapon1363",
-        "name": "Frost Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "3",
@@ -3043,7 +3043,7 @@
     },
     "weapon1397": {
         "id": "weapon1397",
-        "name": "Ghost Dance Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "3",
@@ -3066,7 +3066,7 @@
     },
     "weapon1473": {
         "id": "weapon1473",
-        "name": "Great Hunger Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "3",
@@ -3089,7 +3089,7 @@
     },
     "weapon1489": {
         "id": "weapon1489",
-        "name": "Guardian's Brand",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "3",
@@ -3112,7 +3112,7 @@
     },
     "weapon1497": {
         "id": "weapon1497",
-        "name": "Gutting Weapon",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "3",
@@ -3135,7 +3135,7 @@
     },
     "weapon1510": {
         "id": "weapon1510",
-        "name": "Harsh Songblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "3",
@@ -3158,7 +3158,7 @@
     },
     "weapon1556": {
         "id": "weapon1556",
-        "name": "Hidden Weapon",
+        "name": "Weapon",
         "type": "Light blade or mace",
         "level": [
             "3",
@@ -3181,7 +3181,7 @@
     },
     "weapon3558": {
         "id": "weapon3558",
-        "name": "Hyrsam Fiddlestick",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "3",
@@ -3204,7 +3204,7 @@
     },
     "weapon1618": {
         "id": "weapon1618",
-        "name": "Inertial Weapon",
+        "name": "Weapon",
         "type": "Flail, hammer or mace",
         "level": [
             "3",
@@ -3227,7 +3227,7 @@
     },
     "weapon1619": {
         "id": "weapon1619",
-        "name": "Inescapable Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "3",
@@ -3250,7 +3250,7 @@
     },
     "weapon1621": {
         "id": "weapon1621",
-        "name": "Infectious Flame Weapon",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "3",
@@ -3273,7 +3273,7 @@
     },
     "weapon1630": {
         "id": "weapon1630",
-        "name": "Inspiring Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "3",
@@ -3296,7 +3296,7 @@
     },
     "weapon1690": {
         "id": "weapon1690",
-        "name": "Ki Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "3",
@@ -3319,7 +3319,7 @@
     },
     "weapon1735": {
         "id": "weapon1735",
-        "name": "Lightning Arrow",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "3",
@@ -3342,7 +3342,7 @@
     },
     "weapon1757": {
         "id": "weapon1757",
-        "name": "Luckblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "3",
@@ -3365,7 +3365,7 @@
     },
     "weapon2005": {
         "id": "weapon2005",
-        "name": "Pact Blade",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "3",
@@ -3388,7 +3388,7 @@
     },
     "weapon2006": {
         "id": "weapon2006",
-        "name": "Pact Blade - Raiment of Shadows",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "3",
@@ -3411,7 +3411,7 @@
     },
     "weapon2007": {
         "id": "weapon2007",
-        "name": "Pact Blade - Zy Tormtor's Trinkets",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "3",
@@ -3434,7 +3434,7 @@
     },
     "weapon2011": {
         "id": "weapon2011",
-        "name": "Paired Weapon",
+        "name": "Weapon",
         "type": "Any one",
         "level": [
             "3",
@@ -3457,7 +3457,7 @@
     },
     "weapon2060": {
         "id": "weapon2060",
-        "name": "Point Blank Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "3",
@@ -3480,7 +3480,7 @@
     },
     "weapon2116": {
         "id": "weapon2116",
-        "name": "Quick Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "3",
@@ -3503,7 +3503,7 @@
     },
     "weapon2154": {
         "id": "weapon2154",
-        "name": "Reckless Weapon",
+        "name": "Weapon",
         "type": "Any melee except reach weapon",
         "level": [
             "3",
@@ -3526,7 +3526,7 @@
     },
     "weapon2188": {
         "id": "weapon2188",
-        "name": "Rhythm Blade",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "3",
@@ -3549,7 +3549,7 @@
     },
     "weapon2402": {
         "id": "weapon2402",
-        "name": "Scalebane Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "3",
@@ -3572,7 +3572,7 @@
     },
     "weapon3146": {
         "id": "weapon3146",
-        "name": "Seeker Weapon",
+        "name": "Weapon",
         "type": "Any ranged or any thrown",
         "level": [
             "3",
@@ -3595,7 +3595,7 @@
     },
     "weapon3422": {
         "id": "weapon3422",
-        "name": "Sentinel's Cudgel",
+        "name": "Weapon",
         "type": "Mace",
         "level": [
             "3",
@@ -3618,7 +3618,7 @@
     },
     "weapon3147": {
         "id": "weapon3147",
-        "name": "Shock Weapon",
+        "name": "Weapon",
         "type": "Spear",
         "level": [
             "3",
@@ -3641,7 +3641,7 @@
     },
     "weapon2504": {
         "id": "weapon2504",
-        "name": "Siberys Shard of Radiance",
+        "name": "Weapon",
         "type": "Dragonshard",
         "level": [
             "3",
@@ -3658,7 +3658,7 @@
     },
     "weapon2505": {
         "id": "weapon2505",
-        "name": "Siberys Shard of the Mage",
+        "name": "Weapon",
         "type": "Dragonshard",
         "level": [
             "3",
@@ -3675,7 +3675,7 @@
     },
     "weapon2523": {
         "id": "weapon2523",
-        "name": "Skewering Weapon",
+        "name": "Weapon",
         "type": "Pick or spear",
         "level": [
             "3",
@@ -3698,7 +3698,7 @@
     },
     "weapon2554": {
         "id": "weapon2554",
-        "name": "Songbow of Vanishment",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "3",
@@ -3721,7 +3721,7 @@
     },
     "weapon2576": {
         "id": "weapon2576",
-        "name": "Spider Bolt",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "3",
@@ -3744,7 +3744,7 @@
     },
     "weapon2709": {
         "id": "weapon2709",
-        "name": "Strongheart Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "3",
@@ -3767,7 +3767,7 @@
     },
     "weapon2711": {
         "id": "weapon2711",
-        "name": "Subtle Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "3",
@@ -3790,7 +3790,7 @@
     },
     "weapon2736": {
         "id": "weapon2736",
-        "name": "Surprise Bullet",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "3",
@@ -3813,7 +3813,7 @@
     },
     "weapon2744": {
         "id": "weapon2744",
-        "name": "Swiftshot Weapon",
+        "name": "Weapon",
         "type": "Crossbow",
         "level": [
             "3",
@@ -3836,7 +3836,7 @@
     },
     "weapon2821": {
         "id": "weapon2821",
-        "name": "Targeting Weapon",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "3",
@@ -3859,7 +3859,7 @@
     },
     "weapon2882": {
         "id": "weapon2882",
-        "name": "Thundering Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "3",
@@ -3882,7 +3882,7 @@
     },
     "weapon2965": {
         "id": "weapon2965",
-        "name": "Vanguard Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "3",
@@ -3905,7 +3905,7 @@
     },
     "weapon2978": {
         "id": "weapon2978",
-        "name": "Venomous Songblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "3",
@@ -3928,7 +3928,7 @@
     },
     "weapon2979": {
         "id": "weapon2979",
-        "name": "Venomous Songbow",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "3",
@@ -3951,7 +3951,7 @@
     },
     "weapon3002": {
         "id": "weapon3002",
-        "name": "Vitriolic Weapon",
+        "name": "Weapon",
         "type": "Flail, hammer or mace",
         "level": [
             "3",
@@ -3974,7 +3974,7 @@
     },
     "weapon3044": {
         "id": "weapon3044",
-        "name": "Warsoul Weapon",
+        "name": "Weapon",
         "type": "Any one",
         "level": [
             "3",
@@ -3997,7 +3997,7 @@
     },
     "weapon3155": {
         "id": "weapon3155",
-        "name": "Weapon of Accuracy",
+        "name": "Weapon",
         "type": "Any ranged or any thrown",
         "level": [
             "3",
@@ -4020,7 +4020,7 @@
     },
     "weapon3154": {
         "id": "weapon3154",
-        "name": "Weapon of Surrounding",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "3",
@@ -4043,7 +4043,7 @@
     },
     "weapon3066": {
         "id": "weapon3066",
-        "name": "Whirlwind Weapon",
+        "name": "Weapon",
         "type": "Polearm or spear",
         "level": [
             "3",
@@ -4066,7 +4066,7 @@
     },
     "weapon447": {
         "id": "weapon447",
-        "name": "Acidic Weapon",
+        "name": "Weapon",
         "type": "Heavy blade, light blade or spear",
         "level": [
             "4",
@@ -4089,7 +4089,7 @@
     },
     "weapon474": {
         "id": "weapon474",
-        "name": "Alchemist's Spark Ammunition",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "4",
@@ -4112,7 +4112,7 @@
     },
     "weapon571": {
         "id": "weapon571",
-        "name": "Avalanche Hammer",
+        "name": "Weapon",
         "type": "Hammer",
         "level": [
             "4",
@@ -4135,7 +4135,7 @@
     },
     "weapon605": {
         "id": "weapon605",
-        "name": "Barulg's Magma Weapon",
+        "name": "Weapon",
         "type": "Warhammer",
         "level": [
             "4",
@@ -4158,7 +4158,7 @@
     },
     "weapon625": {
         "id": "weapon625",
-        "name": "Battlecrazed Weapon",
+        "name": "Weapon",
         "type": "Axe or heavy blade",
         "level": [
             "4",
@@ -4181,7 +4181,7 @@
     },
     "weapon3486": {
         "id": "weapon3486",
-        "name": "Chainsaw Sword",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "4",
@@ -4204,7 +4204,7 @@
     },
     "weapon939": {
         "id": "weapon939",
-        "name": "Communal Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "4",
@@ -4227,7 +4227,7 @@
     },
     "weapon1043": {
         "id": "weapon1043",
-        "name": "Deathstalker Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "4",
@@ -4250,7 +4250,7 @@
     },
     "weapon1096": {
         "id": "weapon1096",
-        "name": "Dislocation Weapon",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "4",
@@ -4273,7 +4273,7 @@
     },
     "weapon3427": {
         "id": "weapon3427",
-        "name": "Earth-Splitter Weapon",
+        "name": "Weapon",
         "type": "Axe",
         "level": [
             "4",
@@ -4296,7 +4296,7 @@
     },
     "weapon1174": {
         "id": "weapon1174",
-        "name": "Echoing Songblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "4",
@@ -4319,7 +4319,7 @@
     },
     "weapon1231": {
         "id": "weapon1231",
-        "name": "Exsiccating Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "4",
@@ -4342,7 +4342,7 @@
     },
     "weapon3428": {
         "id": "weapon3428",
-        "name": "Firewind Blade",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "4",
@@ -4365,7 +4365,7 @@
     },
     "weapon1460": {
         "id": "weapon1460",
-        "name": "Goring Weapon",
+        "name": "Weapon",
         "type": "Pick or spear",
         "level": [
             "4",
@@ -4388,7 +4388,7 @@
     },
     "weapon1502": {
         "id": "weapon1502",
-        "name": "Hammer of Victory",
+        "name": "Weapon",
         "type": "Hammer",
         "level": [
             "4",
@@ -4411,7 +4411,7 @@
     },
     "weapon1507": {
         "id": "weapon1507",
-        "name": "Harmony Blade",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "4",
@@ -4434,7 +4434,7 @@
     },
     "weapon1610": {
         "id": "weapon1610",
-        "name": "Impaler's Pick",
+        "name": "Weapon",
         "type": "Pick",
         "level": [
             "4",
@@ -4457,7 +4457,7 @@
     },
     "weapon1633": {
         "id": "weapon1633",
-        "name": "Intensifying Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "4",
@@ -4480,7 +4480,7 @@
     },
     "weapon1699": {
         "id": "weapon1699",
-        "name": "Knockback Weapon",
+        "name": "Weapon",
         "type": "Hammer or mace",
         "level": [
             "4",
@@ -4503,7 +4503,7 @@
     },
     "weapon3141": {
         "id": "weapon3141",
-        "name": "Lifestealer Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "4",
@@ -4526,7 +4526,7 @@
     },
     "weapon1762": {
         "id": "weapon1762",
-        "name": "Lullaby Weapon",
+        "name": "Weapon",
         "type": "Flail, hammer, mace or staff",
         "level": [
             "4",
@@ -4549,7 +4549,7 @@
     },
     "weapon1820": {
         "id": "weapon1820",
-        "name": "Master's Blade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "4",
@@ -4572,7 +4572,7 @@
     },
     "weapon1840": {
         "id": "weapon1840",
-        "name": "Maw of the Guardian",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "4",
@@ -4595,7 +4595,7 @@
     },
     "weapon1846": {
         "id": "weapon1846",
-        "name": "Medic's Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "4",
@@ -4618,7 +4618,7 @@
     },
     "weapon1924": {
         "id": "weapon1924",
-        "name": "Oathblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "4",
@@ -4641,7 +4641,7 @@
     },
     "weapon1935": {
         "id": "weapon1935",
-        "name": "Opportunistic Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "4",
@@ -4664,7 +4664,7 @@
     },
     "weapon2167": {
         "id": "weapon2167",
-        "name": "Rending Weapon",
+        "name": "Weapon",
         "type": "Axe",
         "level": [
             "4",
@@ -4687,7 +4687,7 @@
     },
     "weapon2185": {
         "id": "weapon2185",
-        "name": "Retributive Weapon",
+        "name": "Weapon",
         "type": "Bow or spear",
         "level": [
             "4",
@@ -4710,7 +4710,7 @@
     },
     "weapon3505": {
         "id": "weapon3505",
-        "name": "Rose Scythe of Chauntea",
+        "name": "Weapon",
         "type": "Scythe",
         "level": [
             "4",
@@ -4733,7 +4733,7 @@
     },
     "weapon2409": {
         "id": "weapon2409",
-        "name": "Scepter of Bane",
+        "name": "Weapon",
         "type": "Mace",
         "level": [
             "4",
@@ -4756,7 +4756,7 @@
     },
     "weapon2418": {
         "id": "weapon2418",
-        "name": "Screaming Bow",
+        "name": "Weapon",
         "type": "Bow",
         "level": [
             "4",
@@ -4779,7 +4779,7 @@
     },
     "weapon2486": {
         "id": "weapon2486",
-        "name": "Shielding Blade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "4",
@@ -4802,7 +4802,7 @@
     },
     "weapon2694": {
         "id": "weapon2694",
-        "name": "Stormbiter Warblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "4",
@@ -4825,7 +4825,7 @@
     },
     "weapon2723": {
         "id": "weapon2723",
-        "name": "Sunblade",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "4",
@@ -4848,7 +4848,7 @@
     },
     "weapon2729": {
         "id": "weapon2729",
-        "name": "Suppression Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "4",
@@ -4871,7 +4871,7 @@
     },
     "weapon2842": {
         "id": "weapon2842",
-        "name": "Temblor Weapon",
+        "name": "Weapon",
         "type": "Hammer or mace",
         "level": [
             "4",
@@ -4894,7 +4894,7 @@
     },
     "weapon2853": {
         "id": "weapon2853",
-        "name": "Terror Weapon",
+        "name": "Weapon",
         "type": "Axe, hammer or heavy blade",
         "level": [
             "4",
@@ -4917,7 +4917,7 @@
     },
     "weapon2878": {
         "id": "weapon2878",
-        "name": "Thunderburst Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "4",
@@ -4940,7 +4940,7 @@
     },
     "weapon3430": {
         "id": "weapon3430",
-        "name": "Tidal Weapon",
+        "name": "Weapon",
         "type": "Hammer",
         "level": [
             "4",
@@ -4963,7 +4963,7 @@
     },
     "weapon2901": {
         "id": "weapon2901",
-        "name": "Tooth of Chaos",
+        "name": "Weapon",
         "type": "Dagger",
         "level": [
             "4",
@@ -4986,7 +4986,7 @@
     },
     "weapon2941": {
         "id": "weapon2941",
-        "name": "Triflik's Blade",
+        "name": "Weapon",
         "type": "Dagger",
         "level": [
             "4",
@@ -5009,7 +5009,7 @@
     },
     "weapon2946": {
         "id": "weapon2946",
-        "name": "Tuning Songblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "4",
@@ -5032,7 +5032,7 @@
     },
     "weapon2959": {
         "id": "weapon2959",
-        "name": "Unraveling Weapon",
+        "name": "Weapon",
         "type": "Bow or spear",
         "level": [
             "4",
@@ -5055,7 +5055,7 @@
     },
     "weapon2990": {
         "id": "weapon2990",
-        "name": "Vigilant Blade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "4",
@@ -5078,7 +5078,7 @@
     },
     "weapon3150": {
         "id": "weapon3150",
-        "name": "Warning Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "4",
@@ -5101,7 +5101,7 @@
     },
     "weapon3151": {
         "id": "weapon3151",
-        "name": "Way-Leader Weapon",
+        "name": "Weapon",
         "type": "Spear",
         "level": [
             "4",
@@ -5124,7 +5124,7 @@
     },
     "weapon3053": {
         "id": "weapon3053",
-        "name": "Weapon of Arcane Bonds",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "4",
@@ -5147,7 +5147,7 @@
     },
     "weapon3152": {
         "id": "weapon3152",
-        "name": "Weapon of Defense",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "4",
@@ -5170,7 +5170,7 @@
     },
     "weapon3058": {
         "id": "weapon3058",
-        "name": "Weapon of Myrdroon's Shard",
+        "name": "Weapon",
         "type": "Spear",
         "level": [
             "4",
@@ -5193,7 +5193,7 @@
     },
     "weapon3059": {
         "id": "weapon3059",
-        "name": "Weapon of Oaths Fulfilled",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "4",
@@ -5216,7 +5216,7 @@
     },
     "weapon3153": {
         "id": "weapon3153",
-        "name": "Weapon of Submission",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "4",
@@ -5239,7 +5239,7 @@
     },
     "weapon3092": {
         "id": "weapon3092",
-        "name": "Wounding Weapon",
+        "name": "Weapon",
         "type": "Axe, bow, crossbow, heavy blade, light blade or spear",
         "level": [
             "4",
@@ -5262,7 +5262,7 @@
     },
     "weapon456": {
         "id": "weapon456",
-        "name": "Aecris Weapon",
+        "name": "Weapon",
         "type": "Longsword",
         "level": "5",
         "cost": "1000",
@@ -5271,7 +5271,7 @@
     },
     "weapon660": {
         "id": "weapon660",
-        "name": "Bending Bullet",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "5",
@@ -5294,7 +5294,7 @@
     },
     "weapon694": {
         "id": "weapon694",
-        "name": "Blood Obsidian Weapon",
+        "name": "Weapon",
         "type": "Axe, heavy blade, light blade or spear",
         "level": [
             "5",
@@ -5317,7 +5317,7 @@
     },
     "weapon778": {
         "id": "weapon778",
-        "name": "Bow of True Arrows",
+        "name": "Weapon",
         "type": "Bow",
         "level": [
             "5",
@@ -5340,7 +5340,7 @@
     },
     "weapon848": {
         "id": "weapon848",
-        "name": "Chainreach Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "5",
@@ -5363,7 +5363,7 @@
     },
     "weapon1167": {
         "id": "weapon1167",
-        "name": "Eberron Shard of Bleeding Wounds",
+        "name": "Weapon",
         "type": "Dragonshard",
         "level": "5",
         "cost": "1000",
@@ -5372,7 +5372,7 @@
     },
     "weapon1266": {
         "id": "weapon1266",
-        "name": "Fey Strike Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "5",
@@ -5395,7 +5395,7 @@
     },
     "weapon1284": {
         "id": "weapon1284",
-        "name": "Final Word Weapon",
+        "name": "Weapon",
         "type": "Axe or heavy blade",
         "level": [
             "5",
@@ -5418,7 +5418,7 @@
     },
     "weapon1306": {
         "id": "weapon1306",
-        "name": "Flaming Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "5",
@@ -5441,7 +5441,7 @@
     },
     "weapon1317": {
         "id": "weapon1317",
-        "name": "Flensing Weapon",
+        "name": "Weapon",
         "type": "Axe, light blade, heavy blade or spear",
         "level": [
             "5",
@@ -5464,7 +5464,7 @@
     },
     "weapon3487": {
         "id": "weapon3487",
-        "name": "Laser Pistol",
+        "name": "Weapon",
         "type": "Crossbow",
         "level": [
             "5",
@@ -5487,7 +5487,7 @@
     },
     "weapon1711": {
         "id": "weapon1711",
-        "name": "Learning Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "5",
@@ -5510,7 +5510,7 @@
     },
     "weapon1730": {
         "id": "weapon1730",
-        "name": "Lifedrinker Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "5",
@@ -5533,7 +5533,7 @@
     },
     "weapon1739": {
         "id": "weapon1739",
-        "name": "Lightning Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "5",
@@ -5556,7 +5556,7 @@
     },
     "weapon1861": {
         "id": "weapon1861",
-        "name": "Mindcrusher Weapon",
+        "name": "Weapon",
         "type": "Hammer or mace",
         "level": [
             "5",
@@ -5579,7 +5579,7 @@
     },
     "weapon1905": {
         "id": "weapon1905",
-        "name": "Necroshard Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "5",
@@ -5602,7 +5602,7 @@
     },
     "weapon2062": {
         "id": "weapon2062",
-        "name": "Poisoned Weapon",
+        "name": "Weapon",
         "type": "Bow, crossbow, light blade, pick or spear",
         "level": [
             "5",
@@ -5625,7 +5625,7 @@
     },
     "weapon3471": {
         "id": "weapon3471",
-        "name": "Quarrel of Biting",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "5",
@@ -5648,7 +5648,7 @@
     },
     "weapon2132": {
         "id": "weapon2132",
-        "name": "Raider's Crossbow",
+        "name": "Weapon",
         "type": "Crossbow",
         "level": [
             "5",
@@ -5671,7 +5671,7 @@
     },
     "weapon2357": {
         "id": "weapon2357",
-        "name": "Rousing Hammer",
+        "name": "Weapon",
         "type": "Hammer",
         "level": [
             "5",
@@ -5694,7 +5694,7 @@
     },
     "weapon2367": {
         "id": "weapon2367",
-        "name": "Runic Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "5",
@@ -5717,7 +5717,7 @@
     },
     "weapon3452": {
         "id": "weapon3452",
-        "name": "Sentinel Marshal Honor Blade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "5",
@@ -5740,7 +5740,7 @@
     },
     "weapon3408": {
         "id": "weapon3408",
-        "name": "Serpentine Knife of Zannad",
+        "name": "Weapon",
         "type": "Dagger",
         "level": [
             "5",
@@ -5763,7 +5763,7 @@
     },
     "weapon2437": {
         "id": "weapon2437",
-        "name": "Shade Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "5",
@@ -5786,7 +5786,7 @@
     },
     "weapon3163": {
         "id": "weapon3163",
-        "name": "Shadowshaft Ammunition",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "5",
@@ -5809,7 +5809,7 @@
     },
     "weapon3164": {
         "id": "weapon3164",
-        "name": "Shiver-Strike Ammunition",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "5",
@@ -5832,7 +5832,7 @@
     },
     "weapon2855": {
         "id": "weapon2855",
-        "name": "Thane Blood Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "5",
@@ -5855,7 +5855,7 @@
     },
     "weapon2866": {
         "id": "weapon2866",
-        "name": "The Skinsplitter",
+        "name": "Weapon",
         "type": "Scourge, triple",
         "level": [
             "5",
@@ -5878,7 +5878,7 @@
     },
     "weapon2867": {
         "id": "weapon2867",
-        "name": "Thieving Weapon",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "5",
@@ -5901,7 +5901,7 @@
     },
     "weapon2871": {
         "id": "weapon2871",
-        "name": "Thoughtspike Weapon",
+        "name": "Weapon",
         "type": "Heavy blade, light blade or spear",
         "level": [
             "5",
@@ -5924,7 +5924,7 @@
     },
     "weapon2976": {
         "id": "weapon2976",
-        "name": "Vengeful Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "5",
@@ -5947,7 +5947,7 @@
     },
     "weapon3056": {
         "id": "weapon3056",
-        "name": "Weapon of Great Opportunity",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "5",
@@ -5970,7 +5970,7 @@
     },
     "weapon3157": {
         "id": "weapon3157",
-        "name": "Weapon of Speed",
+        "name": "Weapon",
         "type": "Any ranged or any thrown",
         "level": [
             "5",
@@ -5993,7 +5993,7 @@
     },
     "weapon3085": {
         "id": "weapon3085",
-        "name": "Winged Weapon",
+        "name": "Weapon",
         "type": "Dagger",
         "level": [
             "5",
@@ -6016,7 +6016,7 @@
     },
     "weapon1153": {
         "id": "weapon1153",
-        "name": "Dynamic Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "6",
@@ -6037,7 +6037,7 @@
     },
     "weapon1468": {
         "id": "weapon1468",
-        "name": "Grasping Weapon",
+        "name": "Weapon",
         "type": "Polearm or spear",
         "level": [
             "6",
@@ -6058,7 +6058,7 @@
     },
     "weapon2373": {
         "id": "weapon2373",
-        "name": "Sacrificial Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "6",
@@ -6079,7 +6079,7 @@
     },
     "weapon709": {
         "id": "weapon709",
-        "name": "Bloodmaul Weapon",
+        "name": "Weapon",
         "type": "Mace or hammer",
         "level": [
             "7",
@@ -6100,7 +6100,7 @@
     },
     "weapon734": {
         "id": "weapon734",
-        "name": "Boltshard Crossbow",
+        "name": "Weapon",
         "type": "Crossbow",
         "level": [
             "7",
@@ -6121,7 +6121,7 @@
     },
     "weapon1078": {
         "id": "weapon1078",
-        "name": "Devil's Tongue Polearm",
+        "name": "Weapon",
         "type": "Polearm",
         "level": [
             "7",
@@ -6142,7 +6142,7 @@
     },
     "weapon1079": {
         "id": "weapon1079",
-        "name": "Devilblind Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "7",
@@ -6163,7 +6163,7 @@
     },
     "weapon3136": {
         "id": "weapon3136",
-        "name": "Giantslayer Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "7",
@@ -6184,7 +6184,7 @@
     },
     "weapon1566": {
         "id": "weapon1566",
-        "name": "Homing Weapon",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "7",
@@ -6205,7 +6205,7 @@
     },
     "weapon1623": {
         "id": "weapon1623",
-        "name": "Infighting Blade",
+        "name": "Weapon",
         "type": "Light blade or axe ",
         "level": [
             "7",
@@ -6226,7 +6226,7 @@
     },
     "weapon3488": {
         "id": "weapon3488",
-        "name": "Needler Pistol",
+        "name": "Weapon",
         "type": "Hand crossbow",
         "level": [
             "7",
@@ -6247,7 +6247,7 @@
     },
     "weapon2052": {
         "id": "weapon2052",
-        "name": "Piercing Weapon",
+        "name": "Weapon",
         "type": "Spear",
         "level": [
             "7",
@@ -6268,7 +6268,7 @@
     },
     "weapon2114": {
         "id": "weapon2114",
-        "name": "Quenchquiver Weapon",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "7",
@@ -6289,7 +6289,7 @@
     },
     "weapon2183": {
         "id": "weapon2183",
-        "name": "Retribution Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "7",
@@ -6310,7 +6310,7 @@
     },
     "weapon2579": {
         "id": "weapon2579",
-        "name": "Spiderkissed Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "7",
@@ -6331,7 +6331,7 @@
     },
     "weapon2590": {
         "id": "weapon2590",
-        "name": "Splitting Weapon",
+        "name": "Weapon",
         "type": "Flail",
         "level": [
             "7",
@@ -6352,7 +6352,7 @@
     },
     "weapon2931": {
         "id": "weapon2931",
-        "name": "Transference Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "7",
@@ -6373,7 +6373,7 @@
     },
     "weapon2981": {
         "id": "weapon2981",
-        "name": "Verdant Silence Weapon",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "7",
@@ -6394,7 +6394,7 @@
     },
     "weapon453": {
         "id": "weapon453",
-        "name": "Adamantine Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "8",
@@ -6415,7 +6415,7 @@
     },
     "weapon460": {
         "id": "weapon460",
-        "name": "Aggressive Weapon",
+        "name": "Weapon",
         "type": "Flail, hammer or mace",
         "level": [
             "8",
@@ -6436,7 +6436,7 @@
     },
     "weapon556": {
         "id": "weapon556",
-        "name": "Assassin's Weapon",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "8",
@@ -6457,7 +6457,7 @@
     },
     "weapon678": {
         "id": "weapon678",
-        "name": "Blade of Vengeance",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "8",
@@ -6478,7 +6478,7 @@
     },
     "weapon692": {
         "id": "weapon692",
-        "name": "Blood Harvest Blade",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "8",
@@ -6499,7 +6499,7 @@
     },
     "weapon732": {
         "id": "weapon732",
-        "name": "Bolt of Clumsiness",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "8",
@@ -6520,7 +6520,7 @@
     },
     "weapon733": {
         "id": "weapon733",
-        "name": "Bolt of Transit",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "8",
@@ -6541,7 +6541,7 @@
     },
     "weapon820": {
         "id": "weapon820",
-        "name": "Bronzewood Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "8",
@@ -6562,7 +6562,7 @@
     },
     "weapon924": {
         "id": "weapon924",
-        "name": "Cloaked Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "8",
@@ -6583,7 +6583,7 @@
     },
     "weapon936": {
         "id": "weapon936",
-        "name": "Cold Iron Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "8",
@@ -6604,7 +6604,7 @@
     },
     "weapon951": {
         "id": "weapon951",
-        "name": "Controlling Weapon",
+        "name": "Weapon",
         "type": "Polearm",
         "level": [
             "8",
@@ -6625,7 +6625,7 @@
     },
     "weapon997": {
         "id": "weapon997",
-        "name": "Cunning Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "8",
@@ -6646,7 +6646,7 @@
     },
     "weapon1048": {
         "id": "weapon1048",
-        "name": "Decerebrate Weapon",
+        "name": "Weapon",
         "type": "Hammer or mace",
         "level": [
             "8",
@@ -6667,7 +6667,7 @@
     },
     "weapon1075": {
         "id": "weapon1075",
-        "name": "Determined Weapon",
+        "name": "Weapon",
         "type": "Any thrown",
         "level": [
             "8",
@@ -6688,7 +6688,7 @@
     },
     "weapon1097": {
         "id": "weapon1097",
-        "name": "Dispelling Bolt",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "8",
@@ -6709,7 +6709,7 @@
     },
     "weapon1100": {
         "id": "weapon1100",
-        "name": "Disrupting Weapon",
+        "name": "Weapon",
         "type": "Flail, hammer or mace",
         "level": [
             "8",
@@ -6730,7 +6730,7 @@
     },
     "weapon1128": {
         "id": "weapon1128",
-        "name": "Dread Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "8",
@@ -6751,7 +6751,7 @@
     },
     "weapon1159": {
         "id": "weapon1159",
-        "name": "Earthbreaker Weapon",
+        "name": "Weapon",
         "type": "Axe, flail, hammer, mace, pick or sling",
         "level": [
             "8",
@@ -6772,7 +6772,7 @@
     },
     "weapon1308": {
         "id": "weapon1308",
-        "name": "Flanking Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "8",
@@ -6793,7 +6793,7 @@
     },
     "weapon1346": {
         "id": "weapon1346",
-        "name": "Force Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "8",
@@ -6814,7 +6814,7 @@
     },
     "weapon3135": {
         "id": "weapon3135",
-        "name": "Frost Brand Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "8",
@@ -6835,7 +6835,7 @@
     },
     "weapon1466": {
         "id": "weapon1466",
-        "name": "Graceful Weapon",
+        "name": "Weapon",
         "type": "Flail, heavy blade, light blade or spear",
         "level": [
             "8",
@@ -6856,7 +6856,7 @@
     },
     "weapon1467": {
         "id": "weapon1467",
-        "name": "Graefling",
+        "name": "Weapon",
         "type": "Bastard sword",
         "level": "8",
         "cost": "3400",
@@ -6865,7 +6865,7 @@
     },
     "weapon1557": {
         "id": "weapon1557",
-        "name": "Hideous Weapon",
+        "name": "Weapon",
         "type": "Flail, hammer or pick",
         "level": [
             "8",
@@ -6886,7 +6886,7 @@
     },
     "weapon1672": {
         "id": "weapon1672",
-        "name": "Jolting Guard Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "8",
@@ -6907,7 +6907,7 @@
     },
     "weapon1687": {
         "id": "weapon1687",
-        "name": "Khyber Shard of Death's Embrace",
+        "name": "Weapon",
         "type": "Dragonshard",
         "level": [
             "8",
@@ -6924,7 +6924,7 @@
     },
     "weapon1688": {
         "id": "weapon1688",
-        "name": "Khyber Shard of Life Drinking",
+        "name": "Weapon",
         "type": "Dragonshard",
         "level": [
             "8",
@@ -6941,7 +6941,7 @@
     },
     "weapon3451": {
         "id": "weapon3451",
-        "name": "Leaping Weapon",
+        "name": "Weapon",
         "type": "Any one",
         "level": [
             "8",
@@ -6962,7 +6962,7 @@
     },
     "weapon1839": {
         "id": "weapon1839",
-        "name": "Mauling Weapon",
+        "name": "Weapon",
         "type": "Hammer, heavy blade or mace",
         "level": [
             "8",
@@ -6983,7 +6983,7 @@
     },
     "weapon1874": {
         "id": "weapon1874",
-        "name": "Mithrendain Steel Weapon",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "8",
@@ -7004,7 +7004,7 @@
     },
     "weapon1890": {
         "id": "weapon1890",
-        "name": "Mordant Weapon",
+        "name": "Weapon",
         "type": "Heavy blade, light blade or spear",
         "level": [
             "8",
@@ -7025,7 +7025,7 @@
     },
     "weapon2030": {
         "id": "weapon2030",
-        "name": "Performer's Blade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "8",
@@ -7046,7 +7046,7 @@
     },
     "weapon3145": {
         "id": "weapon3145",
-        "name": "Punishing Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "8",
@@ -7067,7 +7067,7 @@
     },
     "weapon2139": {
         "id": "weapon2139",
-        "name": "Ravenclaw Warblade",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "8",
@@ -7088,7 +7088,7 @@
     },
     "weapon3162": {
         "id": "weapon3162",
-        "name": "Reaving Ammunition",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "8",
@@ -7109,7 +7109,7 @@
     },
     "weapon2358": {
         "id": "weapon2358",
-        "name": "Rovikar's Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "8",
@@ -7130,7 +7130,7 @@
     },
     "weapon2359": {
         "id": "weapon2359",
-        "name": "Rubicant Blade",
+        "name": "Weapon",
         "type": "Any one",
         "level": [
             "8",
@@ -7151,7 +7151,7 @@
     },
     "weapon2389": {
         "id": "weapon2389",
-        "name": "Sandstorm Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "8",
@@ -7172,7 +7172,7 @@
     },
     "weapon2416": {
         "id": "weapon2416",
-        "name": "Scout's Bow",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "8",
@@ -7193,7 +7193,7 @@
     },
     "weapon2435": {
         "id": "weapon2435",
-        "name": "Severing Weapon",
+        "name": "Weapon",
         "type": "Axe or heavy blade",
         "level": [
             "8",
@@ -7214,7 +7214,7 @@
     },
     "weapon2495": {
         "id": "weapon2495",
-        "name": "Shivli, White Wyrmling (Frost Weapon)",
+        "name": "Weapon",
         "type": "Spear",
         "level": [
             "8",
@@ -7235,7 +7235,7 @@
     },
     "weapon2570": {
         "id": "weapon2570",
-        "name": "Space-Shifting Bolt",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "8",
@@ -7256,7 +7256,7 @@
     },
     "weapon2703": {
         "id": "weapon2703",
-        "name": "Stout Weapon",
+        "name": "Weapon",
         "type": "Axe, hammer, mace, pick or staff",
         "level": [
             "8",
@@ -7277,7 +7277,7 @@
     },
     "weapon2718": {
         "id": "weapon2718",
-        "name": "Summoning Bullet",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "8",
@@ -7298,7 +7298,7 @@
     },
     "weapon3411": {
         "id": "weapon3411",
-        "name": "The First Sword of Tyr",
+        "name": "Weapon",
         "type": "Short sword",
         "level": "8",
         "cost": "3400",
@@ -7307,7 +7307,7 @@
     },
     "weapon2886": {
         "id": "weapon2886",
-        "name": "Tigerclaw Gauntlets",
+        "name": "Weapon",
         "type": "Spiked gauntlet",
         "level": [
             "8",
@@ -7328,7 +7328,7 @@
     },
     "weapon2950": {
         "id": "weapon2950",
-        "name": "Tyrant's Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "8",
@@ -7349,7 +7349,7 @@
     },
     "weapon2954": {
         "id": "weapon2954",
-        "name": "Unforgettable Cudgel",
+        "name": "Weapon",
         "type": "Mace",
         "level": [
             "8",
@@ -7370,7 +7370,7 @@
     },
     "weapon2989": {
         "id": "weapon2989",
-        "name": "Victory Flash Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "8",
@@ -7391,7 +7391,7 @@
     },
     "weapon3037": {
         "id": "weapon3037",
-        "name": "Warding Blade",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "8",
@@ -7412,7 +7412,7 @@
     },
     "weapon3050": {
         "id": "weapon3050",
-        "name": "Waterbane Weapon",
+        "name": "Weapon",
         "type": "Axe, crossbow, heavy blade, light blade or spear",
         "level": [
             "8",
@@ -7433,7 +7433,7 @@
     },
     "weapon3057": {
         "id": "weapon3057",
-        "name": "Weapon of Healing",
+        "name": "Weapon",
         "type": "Mace",
         "level": [
             "8",
@@ -7454,7 +7454,7 @@
     },
     "weapon3099": {
         "id": "weapon3099",
-        "name": "Writhing Vine Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "8",
@@ -7475,7 +7475,7 @@
     },
     "weapon551": {
         "id": "weapon551",
-        "name": "Arrow of Revelation",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "9",
@@ -7496,7 +7496,7 @@
     },
     "weapon3485": {
         "id": "weapon3485",
-        "name": "Blaster Rifle",
+        "name": "Weapon",
         "type": "Bow",
         "level": [
             "9",
@@ -7517,7 +7517,7 @@
     },
     "weapon690": {
         "id": "weapon690",
-        "name": "Blood Drinker",
+        "name": "Weapon",
         "type": "Axe or heavy blade",
         "level": [
             "9",
@@ -7538,7 +7538,7 @@
     },
     "weapon968": {
         "id": "weapon968",
-        "name": "Crashing Weapon",
+        "name": "Weapon",
         "type": "Axe, hammer or pick",
         "level": [
             "9",
@@ -7559,7 +7559,7 @@
     },
     "weapon991": {
         "id": "weapon991",
-        "name": "Crusader's Weapon",
+        "name": "Weapon",
         "type": "Hammer or mace",
         "level": [
             "9",
@@ -7580,7 +7580,7 @@
     },
     "weapon1065": {
         "id": "weapon1065",
-        "name": "Demonbane Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "9",
@@ -7601,7 +7601,7 @@
     },
     "weapon1069": {
         "id": "weapon1069",
-        "name": "Demonslayer Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "9",
@@ -7622,7 +7622,7 @@
     },
     "weapon1123": {
         "id": "weapon1123",
-        "name": "Dragonslayer Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "9",
@@ -7643,7 +7643,7 @@
     },
     "weapon1185": {
         "id": "weapon1185",
-        "name": "Elementalbane Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "9",
@@ -7664,7 +7664,7 @@
     },
     "weapon1275": {
         "id": "weapon1275",
-        "name": "Feyslaughter Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "9",
@@ -7685,7 +7685,7 @@
     },
     "weapon1341": {
         "id": "weapon1341",
-        "name": "Forbiddance Bolt",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "9",
@@ -7706,7 +7706,7 @@
     },
     "weapon1419": {
         "id": "weapon1419",
-        "name": "Githyanki Silver Weapon",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "9",
@@ -7727,7 +7727,7 @@
     },
     "weapon3450": {
         "id": "weapon3450",
-        "name": "Gleaming Weapon",
+        "name": "Weapon",
         "type": "Axe, heavy blade or light blade",
         "level": [
             "9",
@@ -7748,7 +7748,7 @@
     },
     "weapon1616": {
         "id": "weapon1616",
-        "name": "Incisive Dagger",
+        "name": "Weapon",
         "type": "Dagger",
         "level": [
             "9",
@@ -7769,7 +7769,7 @@
     },
     "weapon1676": {
         "id": "weapon1676",
-        "name": "Kamesti Crossbow",
+        "name": "Weapon",
         "type": "Crossbow",
         "level": [
             "9",
@@ -7790,7 +7790,7 @@
     },
     "weapon1702": {
         "id": "weapon1702",
-        "name": "Kordium Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "9",
@@ -7811,7 +7811,7 @@
     },
     "weapon1761": {
         "id": "weapon1761",
-        "name": "Lucky Halfling's Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "9",
@@ -7832,7 +7832,7 @@
     },
     "weapon1880": {
         "id": "weapon1880",
-        "name": "Moonclaw",
+        "name": "Weapon",
         "type": "Longsword",
         "level": "9",
         "cost": "4200",
@@ -7841,7 +7841,7 @@
     },
     "weapon2459": {
         "id": "weapon2459",
-        "name": "Shapechanger's Sorrow",
+        "name": "Weapon",
         "type": "Axe, heavy blade or light blade",
         "level": [
             "9",
@@ -7862,7 +7862,7 @@
     },
     "weapon2498": {
         "id": "weapon2498",
-        "name": "Shoulderbow",
+        "name": "Weapon",
         "type": "Hand crossbow",
         "level": [
             "9",
@@ -7883,7 +7883,7 @@
     },
     "weapon2516": {
         "id": "weapon2516",
-        "name": "Singing Weapon",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "9",
@@ -7904,7 +7904,7 @@
     },
     "weapon2531": {
         "id": "weapon2531",
-        "name": "Skyrender Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "9",
@@ -7925,7 +7925,7 @@
     },
     "weapon2552": {
         "id": "weapon2552",
-        "name": "Songbow of Lullabies",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "9",
@@ -7946,7 +7946,7 @@
     },
     "weapon3148": {
         "id": "weapon3148",
-        "name": "Stinging Weapon",
+        "name": "Weapon",
         "type": "Spear",
         "level": [
             "9",
@@ -7967,7 +7967,7 @@
     },
     "weapon3429": {
         "id": "weapon3429",
-        "name": "Stormshard Weapon",
+        "name": "Weapon",
         "type": "Spear",
         "level": [
             "9",
@@ -7988,7 +7988,7 @@
     },
     "weapon2872": {
         "id": "weapon2872",
-        "name": "Thoughtstealer Weapon",
+        "name": "Weapon",
         "type": "Any thrown",
         "level": [
             "9",
@@ -8009,7 +8009,7 @@
     },
     "weapon3149": {
         "id": "weapon3149",
-        "name": "True Dragonslayer Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "9",
@@ -8030,7 +8030,7 @@
     },
     "weapon2964": {
         "id": "weapon2964",
-        "name": "Vampiric Weapon",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "9",
@@ -8051,7 +8051,7 @@
     },
     "weapon3091": {
         "id": "weapon3091",
-        "name": "Wolfen Weapon",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "9",
@@ -8072,7 +8072,7 @@
     },
     "weapon553": {
         "id": "weapon553",
-        "name": "Ashurta's Blade",
+        "name": "Weapon",
         "type": "Broadsword, dagger, longsword, shuriken or short sword",
         "level": "10",
         "cost": "5000",
@@ -8081,7 +8081,7 @@
     },
     "weapon662": {
         "id": "weapon662",
-        "name": "Berserker Weapon",
+        "name": "Weapon",
         "type": "Axe or heavy blade",
         "level": [
             "10",
@@ -8102,7 +8102,7 @@
     },
     "weapon674": {
         "id": "weapon674",
-        "name": "Blackshroud Weapon",
+        "name": "Weapon",
         "type": "Axe, heavy blade or light blade",
         "level": [
             "10",
@@ -8123,7 +8123,7 @@
     },
     "weapon1051": {
         "id": "weapon1051",
-        "name": "Deep Wounding Weapon",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "10",
@@ -8144,7 +8144,7 @@
     },
     "weapon3555": {
         "id": "weapon3555",
-        "name": "Dragonlance",
+        "name": "Weapon",
         "type": "Spear",
         "level": [
             "10",
@@ -8165,7 +8165,7 @@
     },
     "weapon1136": {
         "id": "weapon1136",
-        "name": "Dual Arrow",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "10",
@@ -8186,7 +8186,7 @@
     },
     "weapon1184": {
         "id": "weapon1184",
-        "name": "Elemental Twist Weapon",
+        "name": "Weapon",
         "type": "Dagger",
         "level": [
             "10",
@@ -8207,7 +8207,7 @@
     },
     "weapon3160": {
         "id": "weapon3160",
-        "name": "Firesight Ammunition",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "10",
@@ -8228,7 +8228,7 @@
     },
     "weapon3134": {
         "id": "weapon3134",
-        "name": "Flame Tongue Weapon",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "10",
@@ -8249,7 +8249,7 @@
     },
     "weapon1340": {
         "id": "weapon1340",
-        "name": "Footpad's Friend",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "10",
@@ -8270,7 +8270,7 @@
     },
     "weapon1494": {
         "id": "weapon1494",
-        "name": "Guarding Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "10",
@@ -8291,7 +8291,7 @@
     },
     "weapon1536": {
         "id": "weapon1536",
-        "name": "Hellthorn Weapon",
+        "name": "Weapon",
         "type": "Flail, heavy blade, spear or staff",
         "level": [
             "10",
@@ -8312,7 +8312,7 @@
     },
     "weapon1737": {
         "id": "weapon1737",
-        "name": "Lightning Strike Bow",
+        "name": "Weapon",
         "type": "Longbow or shortbow",
         "level": [
             "10",
@@ -8333,7 +8333,7 @@
     },
     "weapon3510": {
         "id": "weapon3510",
-        "name": "Moonbane",
+        "name": "Weapon",
         "type": "Longsword",
         "level": "10",
         "cost": "5000",
@@ -8342,7 +8342,7 @@
     },
     "weapon2195": {
         "id": "weapon2195",
-        "name": "Righteous Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "10",
@@ -8363,7 +8363,7 @@
     },
     "weapon2405": {
         "id": "weapon2405",
-        "name": "Scarblade",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "10",
         "cost": "5000",
@@ -8372,7 +8372,7 @@
     },
     "weapon2730": {
         "id": "weapon2730",
-        "name": "Supreme Skirmisher's Bow",
+        "name": "Weapon",
         "type": "Bow",
         "level": [
             "10",
@@ -8393,7 +8393,7 @@
     },
     "weapon3412": {
         "id": "weapon3412",
-        "name": "The Second Sword of Tyr",
+        "name": "Weapon",
         "type": "Rapier",
         "level": "10",
         "cost": "5000",
@@ -8402,7 +8402,7 @@
     },
     "weapon3001": {
         "id": "weapon3001",
-        "name": "Vitality Drinking Weapon",
+        "name": "Weapon",
         "type": "Light blade or heavy blade",
         "level": [
             "10",
@@ -8423,7 +8423,7 @@
     },
     "weapon3142": {
         "id": "weapon3142",
-        "name": "Weapon of Disruption",
+        "name": "Weapon",
         "type": "Maces",
         "level": [
             "10",
@@ -8444,7 +8444,7 @@
     },
     "weapon3055": {
         "id": "weapon3055",
-        "name": "Weapon of Evil Undone",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "10",
@@ -8465,7 +8465,7 @@
     },
     "weapon3096": {
         "id": "weapon3096",
-        "name": "Wraithblade",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "10",
@@ -8486,7 +8486,7 @@
     },
     "weapon119": {
         "id": "weapon119",
-        "name": "Spear of Urrok the Brave",
+        "name": "Weapon",
         "type": "Longspear",
         "level": "Heroic",
         "cost": "None",
@@ -8495,7 +8495,7 @@
     },
     "weapon609": {
         "id": "weapon609",
-        "name": "Battering Weapon",
+        "name": "Weapon",
         "type": "Hammer",
         "level": [
             "11",
@@ -8514,7 +8514,7 @@
     },
     "weapon675": {
         "id": "weapon675",
-        "name": "Blacksmelt Weapon",
+        "name": "Weapon",
         "type": "Flail, hammer or mace",
         "level": [
             "11",
@@ -8533,7 +8533,7 @@
     },
     "weapon2192": {
         "id": "weapon2192",
-        "name": "Ricochet Weapon",
+        "name": "Weapon",
         "type": "Sling",
         "level": [
             "11",
@@ -8552,7 +8552,7 @@
     },
     "weapon677": {
         "id": "weapon677",
-        "name": "Blade of Night",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "12",
@@ -8571,7 +8571,7 @@
     },
     "weapon1130": {
         "id": "weapon1130",
-        "name": "Dreamstone Weapon",
+        "name": "Weapon",
         "type": "Hammer",
         "level": [
             "12",
@@ -8590,7 +8590,7 @@
     },
     "weapon1196": {
         "id": "weapon1196",
-        "name": "Elukian Clay Weapon",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "12",
@@ -8609,7 +8609,7 @@
     },
     "weapon3161": {
         "id": "weapon3161",
-        "name": "Foe-Seeker Ammunition",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "12",
@@ -8628,7 +8628,7 @@
     },
     "weapon1620": {
         "id": "weapon1620",
-        "name": "Inevitable Bow",
+        "name": "Weapon",
         "type": "Bow",
         "level": [
             "12",
@@ -8647,7 +8647,7 @@
     },
     "weapon1665": {
         "id": "weapon1665",
-        "name": "Jagged Weapon",
+        "name": "Weapon",
         "type": "Axe, heavy blade or light blade",
         "level": [
             "12",
@@ -8666,7 +8666,7 @@
     },
     "weapon1847": {
         "id": "weapon1847",
-        "name": "Melegaunt's Darkblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "12",
@@ -8685,7 +8685,7 @@
     },
     "weapon3405": {
         "id": "weapon3405",
-        "name": "Midnight Blade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "12",
@@ -8704,7 +8704,7 @@
     },
     "weapon2145": {
         "id": "weapon2145",
-        "name": "Razortail",
+        "name": "Weapon",
         "type": "Whip",
         "level": [
             "12",
@@ -8723,7 +8723,7 @@
     },
     "weapon2456": {
         "id": "weapon2456",
-        "name": "Shadowrift Blade",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "12",
@@ -8742,7 +8742,7 @@
     },
     "weapon2726": {
         "id": "weapon2726",
-        "name": "Sunwrath",
+        "name": "Weapon",
         "type": "Longsword",
         "level": "12",
         "cost": "13000",
@@ -8751,7 +8751,7 @@
     },
     "weapon3413": {
         "id": "weapon3413",
-        "name": "The Third Sword of Tyr",
+        "name": "Weapon",
         "type": "Scimitar",
         "level": "12",
         "cost": "13000",
@@ -8760,7 +8760,7 @@
     },
     "weapon2952": {
         "id": "weapon2952",
-        "name": "Unbroken Lance",
+        "name": "Weapon",
         "type": "Spear",
         "level": [
             "12",
@@ -8779,7 +8779,7 @@
     },
     "weapon3139": {
         "id": "weapon3139",
-        "name": "Weapon of Storms",
+        "name": "Weapon",
         "type": "Hammer",
         "level": [
             "12",
@@ -8798,7 +8798,7 @@
     },
     "weapon3100": {
         "id": "weapon3100",
-        "name": "Wyrdwarped Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "12",
@@ -8817,7 +8817,7 @@
     },
     "weapon707": {
         "id": "weapon707",
-        "name": "Bloodiron Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "13",
@@ -8836,7 +8836,7 @@
     },
     "weapon720": {
         "id": "weapon720",
-        "name": "Bloodthirsty Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "13",
@@ -8855,7 +8855,7 @@
     },
     "weapon731": {
         "id": "weapon731",
-        "name": "Bolstering Weapon",
+        "name": "Weapon",
         "type": "Heavy blade or spear",
         "level": [
             "13",
@@ -8874,7 +8874,7 @@
     },
     "weapon800": {
         "id": "weapon800",
-        "name": "Bradaman's Weapon",
+        "name": "Weapon",
         "type": "Heavy blade, axe or hammer",
         "level": [
             "13",
@@ -8893,7 +8893,7 @@
     },
     "weapon3133": {
         "id": "weapon3133",
-        "name": "Captain's Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "13",
@@ -8912,7 +8912,7 @@
     },
     "weapon861": {
         "id": "weapon861",
-        "name": "Chaos Weave Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "13",
@@ -8931,7 +8931,7 @@
     },
     "weapon966": {
         "id": "weapon966",
-        "name": "Coverbreaker Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "13",
@@ -8950,7 +8950,7 @@
     },
     "weapon1036": {
         "id": "weapon1036",
-        "name": "Death Weapon",
+        "name": "Weapon",
         "type": "Pick or spear",
         "level": [
             "13",
@@ -8969,7 +8969,7 @@
     },
     "weapon1072": {
         "id": "weapon1072",
-        "name": "Desiccating Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "13",
@@ -8988,7 +8988,7 @@
     },
     "weapon1254": {
         "id": "weapon1254",
-        "name": "Farslayer Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "13",
@@ -9007,7 +9007,7 @@
     },
     "weapon1394": {
         "id": "weapon1394",
-        "name": "General's Weapon",
+        "name": "Weapon",
         "type": "Polearm",
         "level": [
             "13",
@@ -9026,7 +9026,7 @@
     },
     "weapon3421": {
         "id": "weapon3421",
-        "name": "Ironhand's Reckoning",
+        "name": "Weapon",
         "type": "Greatsword",
         "level": "13",
         "cost": "17000",
@@ -9035,7 +9035,7 @@
     },
     "weapon1860": {
         "id": "weapon1860",
-        "name": "Mind-Rending Weapon",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "13",
@@ -9054,7 +9054,7 @@
     },
     "weapon1879": {
         "id": "weapon1879",
-        "name": "Moonbow",
+        "name": "Weapon",
         "type": "Bow",
         "level": [
             "13",
@@ -9073,7 +9073,7 @@
     },
     "weapon1906": {
         "id": "weapon1906",
-        "name": "Necrotic Weapon",
+        "name": "Weapon",
         "type": "Axe, heavy blade or light blade",
         "level": [
             "13",
@@ -9092,7 +9092,7 @@
     },
     "weapon2016": {
         "id": "weapon2016",
-        "name": "Paralyzing Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "13",
@@ -9111,7 +9111,7 @@
     },
     "weapon2051": {
         "id": "weapon2051",
-        "name": "Piercing Songblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "13",
@@ -9130,7 +9130,7 @@
     },
     "weapon2096": {
         "id": "weapon2096",
-        "name": "Predatory Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "13",
@@ -9149,7 +9149,7 @@
     },
     "weapon2184": {
         "id": "weapon2184",
-        "name": "Retributive Bow",
+        "name": "Weapon",
         "type": "Bow",
         "level": [
             "13",
@@ -9168,7 +9168,7 @@
     },
     "weapon2399": {
         "id": "weapon2399",
-        "name": "Savage Weapon",
+        "name": "Weapon",
         "type": "Flail, hammer or mace",
         "level": [
             "13",
@@ -9187,7 +9187,7 @@
     },
     "weapon2415": {
         "id": "weapon2415",
-        "name": "Scorpion Tail Blade",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "13",
@@ -9206,7 +9206,7 @@
     },
     "weapon2458": {
         "id": "weapon2458",
-        "name": "Shadowstrike Weapon",
+        "name": "Weapon",
         "type": "Light blade or spear",
         "level": [
             "13",
@@ -9225,7 +9225,7 @@
     },
     "weapon2470": {
         "id": "weapon2470",
-        "name": "Shepherd's Arms",
+        "name": "Weapon",
         "type": "Polearm or spear",
         "level": [
             "13",
@@ -9244,7 +9244,7 @@
     },
     "weapon2499": {
         "id": "weapon2499",
-        "name": "Shrieking Songbow",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "13",
@@ -9263,7 +9263,7 @@
     },
     "weapon2544": {
         "id": "weapon2544",
-        "name": "Sniper's Weapon",
+        "name": "Weapon",
         "type": "Crossbow",
         "level": [
             "13",
@@ -9282,7 +9282,7 @@
     },
     "weapon2877": {
         "id": "weapon2877",
-        "name": "Thunderbolt Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "13",
@@ -9301,7 +9301,7 @@
     },
     "weapon2880": {
         "id": "weapon2880",
-        "name": "Thundergod Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "13",
@@ -9320,7 +9320,7 @@
     },
     "weapon3073": {
         "id": "weapon3073",
-        "name": "Wicked Fang",
+        "name": "Weapon",
         "type": "Longsword",
         "level": [
             "13",
@@ -9339,7 +9339,7 @@
     },
     "weapon3090": {
         "id": "weapon3090",
-        "name": "Withering Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "13",
@@ -9358,7 +9358,7 @@
     },
     "weapon598": {
         "id": "weapon598",
-        "name": "Banishing Spellblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "14",
@@ -9377,7 +9377,7 @@
     },
     "weapon628": {
         "id": "weapon628",
-        "name": "Battlemaster's Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "14",
@@ -9396,7 +9396,7 @@
     },
     "weapon665": {
         "id": "weapon665",
-        "name": "Bilethorn Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "14",
@@ -9415,7 +9415,7 @@
     },
     "weapon680": {
         "id": "weapon680",
-        "name": "Blade of the Stalking Predator",
+        "name": "Weapon",
         "type": "Sickle",
         "level": [
             "14",
@@ -9434,7 +9434,7 @@
     },
     "weapon708": {
         "id": "weapon708",
-        "name": "Bloodletting Weapon",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "14",
@@ -9453,7 +9453,7 @@
     },
     "weapon1050": {
         "id": "weapon1050",
-        "name": "Deep Impact Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "14",
@@ -9472,7 +9472,7 @@
     },
     "weapon1124": {
         "id": "weapon1124",
-        "name": "Dragontooth Blade",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "14",
@@ -9491,7 +9491,7 @@
     },
     "weapon3448": {
         "id": "weapon3448",
-        "name": "Farbane",
+        "name": "Weapon",
         "type": "Warhammer",
         "level": "14",
         "cost": "21000",
@@ -9500,7 +9500,7 @@
     },
     "weapon1342": {
         "id": "weapon1342",
-        "name": "Forbidding Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "14",
@@ -9519,7 +9519,7 @@
     },
     "weapon1526": {
         "id": "weapon1526",
-        "name": "Healing Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "14",
@@ -9538,7 +9538,7 @@
     },
     "weapon1863": {
         "id": "weapon1863",
-        "name": "Mindiron Weapon",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "14",
@@ -9557,7 +9557,7 @@
     },
     "weapon1916": {
         "id": "weapon1916",
-        "name": "Nightstalker's Poniard",
+        "name": "Weapon",
         "type": "Dagger",
         "level": "14",
         "cost": "21000",
@@ -9566,7 +9566,7 @@
     },
     "weapon2041": {
         "id": "weapon2041",
-        "name": "Phasing Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "14",
@@ -9585,7 +9585,7 @@
     },
     "weapon2557": {
         "id": "weapon2557",
-        "name": "Soul Drinker Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "14",
@@ -9604,7 +9604,7 @@
     },
     "weapon3521": {
         "id": "weapon3521",
-        "name": "Spellsoul Blade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "14",
@@ -9623,7 +9623,7 @@
     },
     "weapon3165": {
         "id": "weapon3165",
-        "name": "Stonehold Ammunition",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "14",
@@ -9642,7 +9642,7 @@
     },
     "weapon2695": {
         "id": "weapon2695",
-        "name": "Stormbolt Weapon",
+        "name": "Weapon",
         "type": "Hammer or spear",
         "level": [
             "14",
@@ -9661,7 +9661,7 @@
     },
     "weapon2706": {
         "id": "weapon2706",
-        "name": "Striker's Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "14",
@@ -9680,7 +9680,7 @@
     },
     "weapon2748": {
         "id": "weapon2748",
-        "name": "Sword of Melancholy",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "14",
@@ -9699,7 +9699,7 @@
     },
     "weapon3414": {
         "id": "weapon3414",
-        "name": "The Fourth Sword of Tyr",
+        "name": "Weapon",
         "type": "Longsword",
         "level": "14",
         "cost": "21000",
@@ -9708,7 +9708,7 @@
     },
     "weapon2933": {
         "id": "weapon2933",
-        "name": "Transposing Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "14",
@@ -9727,7 +9727,7 @@
     },
     "weapon3004": {
         "id": "weapon3004",
-        "name": "Voidcrystal Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "14",
@@ -9746,7 +9746,7 @@
     },
     "weapon3590": {
         "id": "weapon3590",
-        "name": "Weapon of Chronal Omission",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "14",
@@ -9765,7 +9765,7 @@
     },
     "weapon3054": {
         "id": "weapon3054",
-        "name": "Weapon of Cruel Persuasion",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "14",
@@ -9784,7 +9784,7 @@
     },
     "weapon3158": {
         "id": "weapon3158",
-        "name": "Wind Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "14",
@@ -9803,7 +9803,7 @@
     },
     "weapon3552": {
         "id": "weapon3552",
-        "name": "Wyrmslayer",
+        "name": "Weapon",
         "type": "Greatsword",
         "level": "14",
         "cost": "21000",
@@ -9812,7 +9812,7 @@
     },
     "weapon611": {
         "id": "weapon611",
-        "name": "Battle Spirit Weapon",
+        "name": "Weapon",
         "type": "Axe, flail, hammer, heavy blade, mace or spear",
         "level": [
             "15",
@@ -9831,7 +9831,7 @@
     },
     "weapon679": {
         "id": "weapon679",
-        "name": "Blade of the Eldritch Knight",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "15",
@@ -9850,7 +9850,7 @@
     },
     "weapon3549": {
         "id": "weapon3549",
-        "name": "Brightblade",
+        "name": "Weapon",
         "type": "Greatsword",
         "level": "15",
         "cost": "25000",
@@ -9859,7 +9859,7 @@
     },
     "weapon868": {
         "id": "weapon868",
-        "name": "Chill Wind Weapon",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "15",
@@ -9878,7 +9878,7 @@
     },
     "weapon1026": {
         "id": "weapon1026",
-        "name": "Dazzling Weapon",
+        "name": "Weapon",
         "type": "Axe, hammer or heavy blade",
         "level": [
             "15",
@@ -9897,7 +9897,7 @@
     },
     "weapon3568": {
         "id": "weapon3568",
-        "name": "Flame's Champion",
+        "name": "Weapon",
         "type": "Longsword",
         "level": "15",
         "cost": "25000",
@@ -9906,7 +9906,7 @@
     },
     "weapon3373": {
         "id": "weapon3373",
-        "name": "Golden Blade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "15",
@@ -9925,7 +9925,7 @@
     },
     "weapon3137": {
         "id": "weapon3137",
-        "name": "Greater Dancing Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "15",
@@ -9944,7 +9944,7 @@
     },
     "weapon3138": {
         "id": "weapon3138",
-        "name": "Greater Luckblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "15",
@@ -9963,7 +9963,7 @@
     },
     "weapon1476": {
         "id": "weapon1476",
-        "name": "Greatsword of Impiltur",
+        "name": "Weapon",
         "type": "Greatsword",
         "level": "15",
         "cost": "25000",
@@ -9972,7 +9972,7 @@
     },
     "weapon1728": {
         "id": "weapon1728",
-        "name": "Lifebane Weapon",
+        "name": "Weapon",
         "type": "Heavy blade, light blade, pick or spear",
         "level": [
             "15",
@@ -9991,7 +9991,7 @@
     },
     "weapon1792": {
         "id": "weapon1792",
-        "name": "Malaeura, the Emerald-Eyed (Poisoned Weapon)",
+        "name": "Weapon",
         "type": "Longbow",
         "level": [
             "15",
@@ -10010,7 +10010,7 @@
     },
     "weapon3144": {
         "id": "weapon3144",
-        "name": "Mighty Dwarven Thrower",
+        "name": "Weapon",
         "type": "Hammer",
         "level": [
             "15",
@@ -10029,7 +10029,7 @@
     },
     "weapon2128": {
         "id": "weapon2128",
-        "name": "Radiant Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "15",
@@ -10048,7 +10048,7 @@
     },
     "weapon2148": {
         "id": "weapon2148",
-        "name": "Reaper's Axe",
+        "name": "Weapon",
         "type": "Axe",
         "level": [
             "15",
@@ -10067,7 +10067,7 @@
     },
     "weapon2553": {
         "id": "weapon2553",
-        "name": "Songbow of Summoning",
+        "name": "Weapon",
         "type": "Bow or crossbow",
         "level": [
             "15",
@@ -10086,7 +10086,7 @@
     },
     "weapon3061": {
         "id": "weapon3061",
-        "name": "Weapon of Summer",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "15",
@@ -10105,7 +10105,7 @@
     },
     "weapon3062": {
         "id": "weapon3062",
-        "name": "Weapon of the Conqueror",
+        "name": "Weapon",
         "type": "Axe or heavy blade",
         "level": [
             "15",
@@ -10124,7 +10124,7 @@
     },
     "weapon3065": {
         "id": "weapon3065",
-        "name": "Whirlpool Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "15",
@@ -10143,7 +10143,7 @@
     },
     "weapon1347": {
         "id": "weapon1347",
-        "name": "Forceful Weapon",
+        "name": "Weapon",
         "type": "Bow",
         "level": [
             "16",
@@ -10160,7 +10160,7 @@
     },
     "weapon3415": {
         "id": "weapon3415",
-        "name": "The Fifth Sword of Tyr",
+        "name": "Weapon",
         "type": "Broadsword",
         "level": "16",
         "cost": "45000",
@@ -10169,7 +10169,7 @@
     },
     "weapon3159": {
         "id": "weapon3159",
-        "name": "Armor-Sapping Ammunition",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "17",
@@ -10186,7 +10186,7 @@
     },
     "weapon576": {
         "id": "weapon576",
-        "name": "Avandra's Whisper",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "17",
@@ -10203,7 +10203,7 @@
     },
     "weapon3509": {
         "id": "weapon3509",
-        "name": "Everdare",
+        "name": "Weapon",
         "type": "Short sword",
         "level": "17",
         "cost": "None",
@@ -10212,7 +10212,7 @@
     },
     "weapon1744": {
         "id": "weapon1744",
-        "name": "Lion's Heart Hammer",
+        "name": "Weapon",
         "type": "Hammer",
         "level": [
             "17",
@@ -10229,7 +10229,7 @@
     },
     "weapon3449": {
         "id": "weapon3449",
-        "name": "Shearing Weapon",
+        "name": "Weapon",
         "type": "Axe or heavy blade",
         "level": [
             "17",
@@ -10246,7 +10246,7 @@
     },
     "weapon3457": {
         "id": "weapon3457",
-        "name": "Sword of Croodle",
+        "name": "Weapon",
         "type": "Longsword",
         "level": "17",
         "cost": "65000",
@@ -10255,7 +10255,7 @@
     },
     "weapon1554": {
         "id": "weapon1554",
-        "name": "Hestavar Dueling Blade",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "18",
@@ -10272,7 +10272,7 @@
     },
     "weapon1611": {
         "id": "weapon1611",
-        "name": "Impaling Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "18",
@@ -10289,7 +10289,7 @@
     },
     "weapon2430": {
         "id": "weapon2430",
-        "name": "Serpent's Kiss Bow",
+        "name": "Weapon",
         "type": "Bow",
         "level": [
             "18",
@@ -10306,7 +10306,7 @@
     },
     "weapon3416": {
         "id": "weapon3416",
-        "name": "The Sixth Sword of Tyr",
+        "name": "Weapon",
         "type": "Falchion",
         "level": "18",
         "cost": "85000",
@@ -10315,7 +10315,7 @@
     },
     "weapon3143": {
         "id": "weapon3143",
-        "name": "Weapon of the Titans",
+        "name": "Weapon",
         "type": "Hammer",
         "level": [
             "18",
@@ -10332,7 +10332,7 @@
     },
     "weapon458": {
         "id": "weapon458",
-        "name": "Aegis Fang",
+        "name": "Weapon",
         "type": "Craghammer",
         "level": "19",
         "cost": "105000",
@@ -10341,7 +10341,7 @@
     },
     "weapon3458": {
         "id": "weapon3458",
-        "name": "Axe of the Glacial Rift",
+        "name": "Weapon",
         "type": "Greataxe",
         "level": "19",
         "cost": "105000",
@@ -10350,7 +10350,7 @@
     },
     "weapon676": {
         "id": "weapon676",
-        "name": "Blade of Bahamut",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "19",
@@ -10367,7 +10367,7 @@
     },
     "weapon1888": {
         "id": "weapon1888",
-        "name": "Moradin's Weapon",
+        "name": "Weapon",
         "type": "Hammer",
         "level": [
             "19",
@@ -10384,7 +10384,7 @@
     },
     "weapon2058": {
         "id": "weapon2058",
-        "name": "Planesplitter Weapon",
+        "name": "Weapon",
         "type": "Axe or heavy blade",
         "level": [
             "19",
@@ -10401,7 +10401,7 @@
     },
     "weapon3550": {
         "id": "weapon3550",
-        "name": "Rabbitslayer",
+        "name": "Weapon",
         "type": "Dagger",
         "level": "19",
         "cost": "105000",
@@ -10410,7 +10410,7 @@
     },
     "weapon2451": {
         "id": "weapon2451",
-        "name": "Shadowfell Blade",
+        "name": "Weapon",
         "type": "Axe, heavy blade or light blade",
         "level": [
             "19",
@@ -10427,7 +10427,7 @@
     },
     "weapon2569": {
         "id": "weapon2569",
-        "name": "Space-Bending Weapon",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "19",
@@ -10444,7 +10444,7 @@
     },
     "weapon2847": {
         "id": "weapon2847",
-        "name": "Tenacious Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "19",
@@ -10461,7 +10461,7 @@
     },
     "weapon519": {
         "id": "weapon519",
-        "name": "Answerer",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": [
             "20",
@@ -10478,7 +10478,7 @@
     },
     "weapon723": {
         "id": "weapon723",
-        "name": "Bloody Maul of Kord",
+        "name": "Weapon",
         "type": "Hammer",
         "level": "20",
         "cost": "125000",
@@ -10487,7 +10487,7 @@
     },
     "weapon1006": {
         "id": "weapon1006",
-        "name": "Dancing Weapon",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "20",
@@ -10504,7 +10504,7 @@
     },
     "weapon1023": {
         "id": "weapon1023",
-        "name": "Dawn Warrior Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "20",
@@ -10521,7 +10521,7 @@
     },
     "weapon1669": {
         "id": "weapon1669",
-        "name": "Jarring Weapon",
+        "name": "Weapon",
         "type": "Flail, hammer or mace",
         "level": [
             "20",
@@ -10538,7 +10538,7 @@
     },
     "weapon1741": {
         "id": "weapon1741",
-        "name": "Lilting Songblade",
+        "name": "Weapon",
         "type": "Heavy blade or light blade",
         "level": [
             "20",
@@ -10555,7 +10555,7 @@
     },
     "weapon1758": {
         "id": "weapon1758",
-        "name": "Lucklender",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "20",
@@ -10572,7 +10572,7 @@
     },
     "weapon3417": {
         "id": "weapon3417",
-        "name": "The Seventh Sword of Tyr",
+        "name": "Weapon",
         "type": "Bastard sword",
         "level": "20",
         "cost": "125000",
@@ -10581,7 +10581,7 @@
     },
     "weapon108": {
         "id": "weapon108",
-        "name": "Broken Blade of Banatruul",
+        "name": "Weapon",
         "type": "Greatsword",
         "level": "Paragon",
         "cost": "None",
@@ -10590,7 +10590,7 @@
     },
     "weapon150": {
         "id": "weapon150",
-        "name": "Heartwood Spear",
+        "name": "Weapon",
         "type": "Spear",
         "level": "Paragon",
         "cost": "None",
@@ -10599,7 +10599,7 @@
     },
     "weapon152": {
         "id": "weapon152",
-        "name": "Nightbringer",
+        "name": "Weapon",
         "type": "Longsword",
         "level": "Paragon",
         "cost": "None",
@@ -10608,7 +10608,7 @@
     },
     "weapon142": {
         "id": "weapon142",
-        "name": "Ruinblade",
+        "name": "Weapon",
         "type": "Greatsword",
         "level": "Paragon",
         "cost": "None",
@@ -10617,7 +10617,7 @@
     },
     "weapon125": {
         "id": "weapon125",
-        "name": "Soul Sword",
+        "name": "Weapon",
         "type": "Greatsword",
         "level": "Paragon",
         "cost": "None",
@@ -10626,7 +10626,7 @@
     },
     "weapon107": {
         "id": "weapon107",
-        "name": "Spear of the Skylord",
+        "name": "Weapon",
         "type": "Longspear",
         "level": "Paragon",
         "cost": "None",
@@ -10635,7 +10635,7 @@
     },
     "weapon128": {
         "id": "weapon128",
-        "name": "Von Zarovich Family Sword",
+        "name": "Weapon",
         "type": "Longsword",
         "level": "Paragon",
         "cost": "None",
@@ -10644,7 +10644,7 @@
     },
     "weapon141": {
         "id": "weapon141",
-        "name": "Wave",
+        "name": "Weapon",
         "type": "Trident",
         "level": "Paragon",
         "cost": "None",
@@ -10653,7 +10653,7 @@
     },
     "weapon129": {
         "id": "weapon129",
-        "name": "Whelm",
+        "name": "Weapon",
         "type": "Warhammer",
         "level": "Paragon",
         "cost": "None",
@@ -10662,7 +10662,7 @@
     },
     "weapon1883": {
         "id": "weapon1883",
-        "name": "Moonlight, First Blade of Night (Blade of Night)",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "22",
@@ -10677,7 +10677,7 @@
     },
     "weapon2443": {
         "id": "weapon2443",
-        "name": "Shadow Spike",
+        "name": "Weapon",
         "type": "Light blade",
         "level": [
             "22",
@@ -10692,7 +10692,7 @@
     },
     "weapon3418": {
         "id": "weapon3418",
-        "name": "The Eighth Sword of Tyr",
+        "name": "Weapon",
         "type": "Greatsword",
         "level": "22",
         "cost": "325000",
@@ -10701,7 +10701,7 @@
     },
     "weapon1030": {
         "id": "weapon1030",
-        "name": "Death Mark Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "23",
@@ -10716,7 +10716,7 @@
     },
     "weapon3419": {
         "id": "weapon3419",
-        "name": "The Ninth Sword of Tyr",
+        "name": "Weapon",
         "type": "Fullblade",
         "level": "24",
         "cost": "525000",
@@ -10725,7 +10725,7 @@
     },
     "weapon814": {
         "id": "weapon814",
-        "name": "Brilliant Energy Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "25",
@@ -10740,7 +10740,7 @@
     },
     "weapon1215": {
         "id": "weapon1215",
-        "name": "Entreri's Jeweled Dagger",
+        "name": "Weapon",
         "type": "Dagger",
         "level": "25",
         "cost": "625000",
@@ -10749,7 +10749,7 @@
     },
     "weapon1396": {
         "id": "weapon1396",
-        "name": "Ghost Chain Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": [
             "25",
@@ -10764,7 +10764,7 @@
     },
     "weapon1559": {
         "id": "weapon1559",
-        "name": "Holy Avenger",
+        "name": "Weapon",
         "type": "Axe, hammer or heavy blade",
         "level": [
             "25",
@@ -10779,7 +10779,7 @@
     },
     "weapon1593": {
         "id": "weapon1593",
-        "name": "Icingdeath",
+        "name": "Weapon",
         "type": "Scimitar",
         "level": "25",
         "cost": "625000",
@@ -10788,7 +10788,7 @@
     },
     "weapon1686": {
         "id": "weapon1686",
-        "name": "Khazid'hea",
+        "name": "Weapon",
         "type": "Longsword",
         "level": "25",
         "cost": "625000",
@@ -10797,7 +10797,7 @@
     },
     "weapon1714": {
         "id": "weapon1714",
-        "name": "Legendary Weapon",
+        "name": "Weapon",
         "type": "Any",
         "level": [
             "25",
@@ -10812,7 +10812,7 @@
     },
     "weapon2004": {
         "id": "weapon2004",
-        "name": "Overreaching Weapon",
+        "name": "Weapon",
         "type": "Polearm",
         "level": [
             "25",
@@ -10827,7 +10827,7 @@
     },
     "weapon2040": {
         "id": "weapon2040",
-        "name": "Phasing Arrow",
+        "name": "Weapon",
         "type": "Ammunition",
         "level": [
             "25",
@@ -10842,7 +10842,7 @@
     },
     "weapon2835": {
         "id": "weapon2835",
-        "name": "Taulmaril the Heartseeker",
+        "name": "Weapon",
         "type": "Longbow",
         "level": "25",
         "cost": "625000",
@@ -10851,7 +10851,7 @@
     },
     "weapon2939": {
         "id": "weapon2939",
-        "name": "Trespasser's Bane Weapon",
+        "name": "Weapon",
         "type": "Any melee",
         "level": [
             "25",
@@ -10866,7 +10866,7 @@
     },
     "weapon2949": {
         "id": "weapon2949",
-        "name": "Twinkle",
+        "name": "Weapon",
         "type": "Scimitar",
         "level": "25",
         "cost": "625000",
@@ -10875,7 +10875,7 @@
     },
     "weapon2747": {
         "id": "weapon2747",
-        "name": "Sword of Black Ice",
+        "name": "Weapon",
         "type": "Longsword",
         "level": "27",
         "cost": "1625000",
@@ -10884,7 +10884,7 @@
     },
     "weapon3328": {
         "id": "weapon3328",
-        "name": "Scepter of the Chosen Tyrant",
+        "name": "Weapon",
         "type": "Morningstar",
         "level": "28",
         "cost": "None",
@@ -10893,7 +10893,7 @@
     },
     "weapon3070": {
         "id": "weapon3070",
-        "name": "White Kingdom Boneclaw",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "28",
         "cost": "2125000",
@@ -10902,7 +10902,7 @@
     },
     "weapon2555": {
         "id": "weapon2555",
-        "name": "Sorrowsong Blade",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "29",
         "cost": "2625000",
@@ -10911,7 +10911,7 @@
     },
     "weapon2029": {
         "id": "weapon2029",
-        "name": "Perfect Hunter's Weapon",
+        "name": "Weapon",
         "type": "Any ranged",
         "level": "30",
         "cost": "3125000",
@@ -10920,7 +10920,7 @@
     },
     "weapon3007": {
         "id": "weapon3007",
-        "name": "Vorpal Weapon",
+        "name": "Weapon",
         "type": "Axe or heavy blade",
         "level": "30",
         "cost": "3125000",
@@ -10929,7 +10929,7 @@
     },
     "weapon3051": {
         "id": "weapon3051",
-        "name": "Wave of Sorrow",
+        "name": "Weapon",
         "type": "Greatsword",
         "level": "30",
         "cost": "3125000",
@@ -10938,7 +10938,7 @@
     },
     "weapon147": {
         "id": "weapon147",
-        "name": "Arrow of Fate",
+        "name": "Weapon",
         "type": "Spear, arrow or bolt",
         "level": "Epic",
         "cost": "None",
@@ -10947,7 +10947,7 @@
     },
     "weapon114": {
         "id": "weapon114",
-        "name": "Axe of the Dwarvish Lords",
+        "name": "Weapon",
         "type": "Greataxe",
         "level": "Epic",
         "cost": "None",
@@ -10956,7 +10956,7 @@
     },
     "weapon102": {
         "id": "weapon102",
-        "name": "Hammer of Thunderbolts",
+        "name": "Weapon",
         "type": "Warhammer",
         "level": "Epic",
         "cost": "None",
@@ -10965,7 +10965,7 @@
     },
     "weapon162": {
         "id": "weapon162",
-        "name": "Justice's Edge",
+        "name": "Weapon",
         "type": "Longsword",
         "level": "Epic",
         "cost": "None",
@@ -10974,7 +10974,7 @@
     },
     "weapon126": {
         "id": "weapon126",
-        "name": "Sword of Kas",
+        "name": "Weapon",
         "type": "Short sword",
         "level": "Epic",
         "cost": "None",
@@ -10983,7 +10983,7 @@
     },
     "weapon158": {
         "id": "weapon158",
-        "name": "Wand of Orcus",
+        "name": "Weapon",
         "type": "Mace",
         "level": "Epic",
         "cost": "None",
@@ -10992,7 +10992,7 @@
     },
     "weapon3741": {
         "id": "weapon3741",
-        "name": "Blade of Annihilation",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "(Level)",
         "cost": "None",
@@ -11001,7 +11001,7 @@
     },
     "weapon3752": {
         "id": "weapon3752",
-        "name": "Blade of Chaos",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "(Level)",
         "cost": "None",
@@ -11010,7 +11010,7 @@
     },
     "weapon3740": {
         "id": "weapon3740",
-        "name": "Blade of Winter's Mourning",
+        "name": "Weapon",
         "type": "Light blade",
         "level": "(Level)",
         "cost": "None",
@@ -11019,7 +11019,7 @@
     },
     "weapon3744": {
         "id": "weapon3744",
-        "name": "Scourge of Exquisite Agony",
+        "name": "Weapon",
         "type": "Flail",
         "level": "(Level)",
         "cost": "None",
@@ -11028,7 +11028,7 @@
     },
     "weapon3742": {
         "id": "weapon3742",
-        "name": "Starshadow Blade",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "(Level)",
         "cost": "None",
@@ -11037,7 +11037,7 @@
     },
     "weapon3743": {
         "id": "weapon3743",
-        "name": "Sword of the White Well",
+        "name": "Weapon",
         "type": "Heavy blade",
         "level": "(Level)",
         "cost": "None",

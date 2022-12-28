@@ -1,31 +1,31 @@
 {
     "trap943": {
         "id": "trap943",
-        "name": "Brazier of Silver Fire",
-        "type": "None",
+        "name": "Trap",
+        "type": "",
         "grouprole": "None",
-        "level": "None",
+        "level": "",
         "sourcebook": "Madness at Gardmore Abbey"
     },
     "trap947": {
         "id": "trap947",
-        "name": "Damaged Door",
-        "type": "None",
+        "name": "Trap",
+        "type": "",
         "grouprole": "None",
-        "level": "None",
+        "level": "",
         "sourcebook": "Madness at Gardmore Abbey"
     },
     "trap948": {
         "id": "trap948",
-        "name": "Portcullis",
-        "type": "None",
+        "name": "Trap",
+        "type": "",
         "grouprole": "None",
-        "level": "None",
+        "level": "",
         "sourcebook": "Madness at Gardmore Abbey"
     },
     "trap1029": {
         "id": "trap1029",
-        "name": "Crystalshock Stalagmite",
+        "name": "Trap",
         "type": "Blaster",
         "grouprole": "None",
         "level": "10",
@@ -33,15 +33,15 @@
     },
     "trap481": {
         "id": "trap481",
-        "name": "Abyssal Portal",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
-        "level": "None",
+        "level": "",
         "sourcebook": "Demonomicon"
     },
     "trap204": {
         "id": "trap204",
-        "name": "Bloody Fingertips",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "1",
@@ -49,7 +49,7 @@
     },
     "trap277": {
         "id": "trap277",
-        "name": "Bloody Fingertips (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "1",
@@ -57,7 +57,7 @@
     },
     "trap509": {
         "id": "trap509",
-        "name": "Detached Float",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "1",
@@ -65,7 +65,7 @@
     },
     "trap910": {
         "id": "trap910",
-        "name": "Hurrum",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "1",
@@ -73,7 +73,7 @@
     },
     "trap282": {
         "id": "trap282",
-        "name": "Prophecy Mark",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "1",
@@ -81,7 +81,7 @@
     },
     "trap37": {
         "id": "trap37",
-        "name": "Razor Spores",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "1",
@@ -89,7 +89,7 @@
     },
     "trap263": {
         "id": "trap263",
-        "name": "Razor Spores (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "1",
@@ -97,7 +97,7 @@
     },
     "trap901": {
         "id": "trap901",
-        "name": "Rockslide",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "1",
@@ -105,7 +105,7 @@
     },
     "trap73": {
         "id": "trap73",
-        "name": "Treacherous Ice",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "1",
@@ -113,7 +113,7 @@
     },
     "trap518": {
         "id": "trap518",
-        "name": "Chokedust Cloud",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "2",
@@ -121,7 +121,7 @@
     },
     "trap120": {
         "id": "trap120",
-        "name": "Collapsing Ceiling",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "2",
@@ -129,7 +129,7 @@
     },
     "trap38": {
         "id": "trap38",
-        "name": "Glittermist",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "2",
@@ -137,7 +137,7 @@
     },
     "trap380": {
         "id": "trap380",
-        "name": "Hidden Quagmire Hazard",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "2",
@@ -145,7 +145,7 @@
     },
     "trap62": {
         "id": "trap62",
-        "name": "Raging Fire",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "2",
@@ -153,7 +153,7 @@
     },
     "trap431": {
         "id": "trap431",
-        "name": "Treacherous Floor",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "2",
@@ -161,7 +161,7 @@
     },
     "trap8": {
         "id": "trap8",
-        "name": "Doomspore",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "3",
@@ -169,7 +169,7 @@
     },
     "trap254": {
         "id": "trap254",
-        "name": "Doomspore (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "3",
@@ -177,7 +177,7 @@
     },
     "trap143": {
         "id": "trap143",
-        "name": "Frigid Aura",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "3",
@@ -185,7 +185,7 @@
     },
     "trap450": {
         "id": "trap450",
-        "name": "Gibbet Zombies",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "3",
@@ -193,7 +193,7 @@
     },
     "trap1042": {
         "id": "trap1042",
-        "name": "Malfunctioning Gravity Glyphs",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "3",
@@ -201,7 +201,7 @@
     },
     "trap527": {
         "id": "trap527",
-        "name": "Rock Cactus Field",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "3",
@@ -209,7 +209,7 @@
     },
     "trap335": {
         "id": "trap335",
-        "name": "Shadowseed (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "3",
@@ -217,7 +217,7 @@
     },
     "trap451": {
         "id": "trap451",
-        "name": "Shallow Grave",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "3",
@@ -225,7 +225,7 @@
     },
     "trap29": {
         "id": "trap29",
-        "name": "Spider Cactus",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "3",
@@ -233,7 +233,7 @@
     },
     "trap39": {
         "id": "trap39",
-        "name": "Vicious Animal",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "3",
@@ -241,7 +241,7 @@
     },
     "trap264": {
         "id": "trap264",
-        "name": "Vicious Animal (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "3",
@@ -249,7 +249,7 @@
     },
     "trap79": {
         "id": "trap79",
-        "name": "Burning Floor",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "4",
@@ -257,7 +257,7 @@
     },
     "trap27": {
         "id": "trap27",
-        "name": "Dew Frond",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "4",
@@ -265,7 +265,7 @@
     },
     "trap510": {
         "id": "trap510",
-        "name": "Sorrowstone",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "4",
@@ -273,7 +273,7 @@
     },
     "trap913": {
         "id": "trap913",
-        "name": "Water Pit",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "4",
@@ -281,7 +281,7 @@
     },
     "trap519": {
         "id": "trap519",
-        "name": "Badlands Tremor",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "5",
@@ -289,7 +289,7 @@
     },
     "trap927": {
         "id": "trap927",
-        "name": "Crumbling Trail",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "5",
@@ -297,7 +297,7 @@
     },
     "trap508": {
         "id": "trap508",
-        "name": "Cursed Idol",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "5",
@@ -305,7 +305,7 @@
     },
     "trap1136": {
         "id": "trap1136",
-        "name": "Krakenweed",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "5",
@@ -313,7 +313,7 @@
     },
     "trap1040": {
         "id": "trap1040",
-        "name": "Necrotic Energy Field",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "5",
@@ -321,7 +321,7 @@
     },
     "trap351": {
         "id": "trap351",
-        "name": "Niter Patch",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "5",
@@ -329,7 +329,7 @@
     },
     "trap357": {
         "id": "trap357",
-        "name": "Niter Patch (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "5",
@@ -337,15 +337,15 @@
     },
     "trap475": {
         "id": "trap475",
-        "name": "Stonefang Pass Quake",
+        "name": "Trap",
         "type": "Hazard",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "5",
         "sourcebook": "HS2"
     },
     "trap454": {
         "id": "trap454",
-        "name": "Tainted Pool",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "5",
@@ -353,7 +353,7 @@
     },
     "trap11": {
         "id": "trap11",
-        "name": "Treacherous Ice Sheet",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "5",
@@ -361,7 +361,7 @@
     },
     "trap256": {
         "id": "trap256",
-        "name": "Treacherous Ice Sheet (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "5",
@@ -369,7 +369,7 @@
     },
     "trap928": {
         "id": "trap928",
-        "name": "Collapsing Trail",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "6",
@@ -377,7 +377,7 @@
     },
     "trap459": {
         "id": "trap459",
-        "name": "Explosive Pollen Bramble",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "6",
@@ -385,7 +385,7 @@
     },
     "trap1014": {
         "id": "trap1014",
-        "name": "Lunacy Mist",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "6",
@@ -393,7 +393,7 @@
     },
     "trap28": {
         "id": "trap28",
-        "name": "Sand Cactus",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "6",
@@ -401,7 +401,7 @@
     },
     "trap356": {
         "id": "trap356",
-        "name": "Support Pillar",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "6",
@@ -409,7 +409,7 @@
     },
     "trap941": {
         "id": "trap941",
-        "name": "The Crowd",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "6",
@@ -417,7 +417,7 @@
     },
     "trap468": {
         "id": "trap468",
-        "name": "Altar of Pain",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "7",
@@ -425,7 +425,7 @@
     },
     "trap138": {
         "id": "trap138",
-        "name": "Boneslide",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "7",
@@ -433,7 +433,7 @@
     },
     "trap14": {
         "id": "trap14",
-        "name": "Daggerthorn Briar",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "7",
@@ -441,7 +441,7 @@
     },
     "trap259": {
         "id": "trap259",
-        "name": "Daggerthorn Briar (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "7",
@@ -449,7 +449,7 @@
     },
     "trap930": {
         "id": "trap930",
-        "name": "Gusting Wind",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "7",
@@ -457,7 +457,7 @@
     },
     "trap938": {
         "id": "trap938",
-        "name": "Hungry Shadow",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Minion",
         "level": "7",
@@ -465,7 +465,7 @@
     },
     "trap461": {
         "id": "trap461",
-        "name": "Revolving Training Post",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "7",
@@ -473,7 +473,7 @@
     },
     "trap1089": {
         "id": "trap1089",
-        "name": "Silt Pit",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "7",
@@ -481,7 +481,7 @@
     },
     "trap106": {
         "id": "trap106",
-        "name": "Animating Spirit",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "8",
@@ -489,7 +489,7 @@
     },
     "trap921": {
         "id": "trap921",
-        "name": "Black Sleep Briar",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "8",
@@ -497,7 +497,7 @@
     },
     "trap80": {
         "id": "trap80",
-        "name": "Claw of Yeenoghu",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "8",
@@ -505,7 +505,7 @@
     },
     "trap929": {
         "id": "trap929",
-        "name": "Flash Flood",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "8",
@@ -513,7 +513,7 @@
     },
     "trap391": {
         "id": "trap391",
-        "name": "Gorgon Mud",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "8",
@@ -521,7 +521,7 @@
     },
     "trap392": {
         "id": "trap392",
-        "name": "Gorgon Mud (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "8",
@@ -529,7 +529,7 @@
     },
     "trap520": {
         "id": "trap520",
-        "name": "Silt Sink",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "8",
@@ -537,7 +537,7 @@
     },
     "trap920": {
         "id": "trap920",
-        "name": "Sinkhole",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "8",
@@ -545,7 +545,7 @@
     },
     "trap515": {
         "id": "trap515",
-        "name": "Worthy Sacrifices",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "8",
@@ -553,7 +553,7 @@
     },
     "trap939": {
         "id": "trap939",
-        "name": "Ash Tree",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "9",
@@ -561,7 +561,7 @@
     },
     "trap516": {
         "id": "trap516",
-        "name": "Blood Tree",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "9",
@@ -569,7 +569,7 @@
     },
     "trap16": {
         "id": "trap16",
-        "name": "Caustic Geyser",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "9",
@@ -577,7 +577,7 @@
     },
     "trap933": {
         "id": "trap933",
-        "name": "Chaos Shard Delirium I",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "9",
@@ -585,7 +585,7 @@
     },
     "trap934": {
         "id": "trap934",
-        "name": "Chaos Shard Delirium II",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "9",
@@ -593,7 +593,7 @@
     },
     "trap521": {
         "id": "trap521",
-        "name": "Devil Dune",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "9",
@@ -601,7 +601,7 @@
     },
     "trap146": {
         "id": "trap146",
-        "name": "Heart of Madness",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "9",
@@ -609,7 +609,7 @@
     },
     "trap43": {
         "id": "trap43",
-        "name": "Madness Gas",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "9",
@@ -617,7 +617,7 @@
     },
     "trap936": {
         "id": "trap936",
-        "name": "Murder of Crows",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "9",
@@ -625,7 +625,7 @@
     },
     "trap1088": {
         "id": "trap1088",
-        "name": "Small Avalanche",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "9",
@@ -633,7 +633,7 @@
     },
     "trap935": {
         "id": "trap935",
-        "name": "Chaos Shard",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "10",
@@ -641,7 +641,7 @@
     },
     "trap362": {
         "id": "trap362",
-        "name": "Curse of the Dragon's Death",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "10",
@@ -649,7 +649,7 @@
     },
     "trap363": {
         "id": "trap363",
-        "name": "Curse of the Dragon's Death (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "10",
@@ -657,7 +657,7 @@
     },
     "trap48": {
         "id": "trap48",
-        "name": "Falsecap",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "10",
@@ -665,7 +665,7 @@
     },
     "trap955": {
         "id": "trap955",
-        "name": "Foul Eggs",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "10",
@@ -673,7 +673,7 @@
     },
     "trap116": {
         "id": "trap116",
-        "name": "Lake of Dreams",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "10",
@@ -681,7 +681,7 @@
     },
     "trap155": {
         "id": "trap155",
-        "name": "Phycomid Infestation",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "10",
@@ -689,7 +689,7 @@
     },
     "trap147": {
         "id": "trap147",
-        "name": "Prismatic Vortex",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "10",
@@ -697,7 +697,7 @@
     },
     "trap309": {
         "id": "trap309",
-        "name": "Stake Trap",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "10",
@@ -705,7 +705,7 @@
     },
     "trap922": {
         "id": "trap922",
-        "name": "Swampfire",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "10",
@@ -713,7 +713,7 @@
     },
     "trap108": {
         "id": "trap108",
-        "name": "The Teeth",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "10",
@@ -721,7 +721,7 @@
     },
     "trap419": {
         "id": "trap419",
-        "name": "The Worm Bridge",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "10",
@@ -729,7 +729,7 @@
     },
     "trap311": {
         "id": "trap311",
-        "name": "Vicious Vipers",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "10",
@@ -737,7 +737,7 @@
     },
     "trap105": {
         "id": "trap105",
-        "name": "Weakened Floor (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "10",
@@ -745,7 +745,7 @@
     },
     "trap152": {
         "id": "trap152",
-        "name": "Burning Pitch",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "11",
@@ -753,7 +753,7 @@
     },
     "trap196": {
         "id": "trap196",
-        "name": "Burning Vapor",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "11",
@@ -761,7 +761,7 @@
     },
     "trap281": {
         "id": "trap281",
-        "name": "Dead-Gray Mist",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "11",
@@ -769,7 +769,7 @@
     },
     "trap954": {
         "id": "trap954",
-        "name": "Far Realm Taint",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "11",
@@ -777,7 +777,7 @@
     },
     "trap393": {
         "id": "trap393",
-        "name": "Luminous Node",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "11",
@@ -785,7 +785,7 @@
     },
     "trap394": {
         "id": "trap394",
-        "name": "Luminous Node (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "11",
@@ -793,7 +793,7 @@
     },
     "trap932": {
         "id": "trap932",
-        "name": "Magic Rift Explosion",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "11",
@@ -801,7 +801,7 @@
     },
     "trap153": {
         "id": "trap153",
-        "name": "Muck Tentacle",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "11",
@@ -809,7 +809,7 @@
     },
     "trap953": {
         "id": "trap953",
-        "name": "Waterfall",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "11",
@@ -817,7 +817,7 @@
     },
     "trap156": {
         "id": "trap156",
-        "name": "Abyssal Breach",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "12",
@@ -825,7 +825,7 @@
     },
     "trap110": {
         "id": "trap110",
-        "name": "Apathy Mist",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "12",
@@ -833,7 +833,7 @@
     },
     "trap497": {
         "id": "trap497",
-        "name": "Charnel Floor",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "12",
@@ -841,7 +841,7 @@
     },
     "trap1114": {
         "id": "trap1114",
-        "name": "Death Mold",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "12",
@@ -849,7 +849,7 @@
     },
     "trap1010": {
         "id": "trap1010",
-        "name": "Death Mold",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "12",
@@ -857,7 +857,7 @@
     },
     "trap47": {
         "id": "trap47",
-        "name": "Deathcap",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "12",
@@ -865,7 +865,7 @@
     },
     "trap270": {
         "id": "trap270",
-        "name": "Deathcap (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "12",
@@ -873,7 +873,7 @@
     },
     "trap1113": {
         "id": "trap1113",
-        "name": "Muck Pit",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "12",
@@ -881,7 +881,7 @@
     },
     "trap169": {
         "id": "trap169",
-        "name": "Volatile Haze",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "12",
@@ -889,7 +889,7 @@
     },
     "trap273": {
         "id": "trap273",
-        "name": "Volatile Haze (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "12",
@@ -897,7 +897,7 @@
     },
     "trap925": {
         "id": "trap925",
-        "name": "Arcane Tempest",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "13",
@@ -905,7 +905,7 @@
     },
     "trap477": {
         "id": "trap477",
-        "name": "Bush of Black Roses",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "13",
@@ -913,7 +913,7 @@
     },
     "trap414": {
         "id": "trap414",
-        "name": "Capture Crystal",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "13",
@@ -921,7 +921,7 @@
     },
     "trap19": {
         "id": "trap19",
-        "name": "Cave-In",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "13",
@@ -929,7 +929,7 @@
     },
     "trap418": {
         "id": "trap418",
-        "name": "Death Frost",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "13",
@@ -937,7 +937,7 @@
     },
     "trap323": {
         "id": "trap323",
-        "name": "Falling Rocks",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "13",
@@ -945,7 +945,7 @@
     },
     "trap522": {
         "id": "trap522",
-        "name": "False Oasis",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "13",
@@ -953,7 +953,7 @@
     },
     "trap926": {
         "id": "trap926",
-        "name": "Frenzied Horde",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "13",
@@ -961,7 +961,7 @@
     },
     "trap494": {
         "id": "trap494",
-        "name": "Fungus Pit",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "13",
@@ -969,7 +969,7 @@
     },
     "trap424": {
         "id": "trap424",
-        "name": "Mindscouring Gust",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "13",
@@ -977,7 +977,7 @@
     },
     "trap425": {
         "id": "trap425",
-        "name": "Mindscouring Gust (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "13",
@@ -985,7 +985,7 @@
     },
     "trap70": {
         "id": "trap70",
-        "name": "Underwater Vortexes",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "13",
@@ -993,7 +993,7 @@
     },
     "trap365": {
         "id": "trap365",
-        "name": "Webs of Elemental Ice",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "13",
@@ -1001,7 +1001,7 @@
     },
     "trap366": {
         "id": "trap366",
-        "name": "Webs of Elemental Ice (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "13",
@@ -1009,7 +1009,7 @@
     },
     "trap430": {
         "id": "trap430",
-        "name": "Weeping Bole",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "13",
@@ -1017,7 +1017,7 @@
     },
     "trap917": {
         "id": "trap917",
-        "name": "Archtus Gargoyle Statue",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Minion",
         "level": "14",
@@ -1025,7 +1025,7 @@
     },
     "trap117": {
         "id": "trap117",
-        "name": "Bitter Glass",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "14",
@@ -1033,7 +1033,7 @@
     },
     "trap202": {
         "id": "trap202",
-        "name": "Cloud of Elemental Steam",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "14",
@@ -1041,7 +1041,7 @@
     },
     "trap916": {
         "id": "trap916",
-        "name": "Lethos Gargoyle Statue",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Minion",
         "level": "14",
@@ -1049,7 +1049,7 @@
     },
     "trap1092": {
         "id": "trap1092",
-        "name": "Possessed Debris",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Minion",
         "level": "14",
@@ -1057,7 +1057,7 @@
     },
     "trap197": {
         "id": "trap197",
-        "name": "Vacuum Rift",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "14",
@@ -1065,7 +1065,7 @@
     },
     "trap452": {
         "id": "trap452",
-        "name": "Abyssal Miasma",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "15",
@@ -1073,7 +1073,7 @@
     },
     "trap453": {
         "id": "trap453",
-        "name": "Acidic Pools",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "15",
@@ -1081,7 +1081,7 @@
     },
     "trap172": {
         "id": "trap172",
-        "name": "Cinder Storm",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "15",
@@ -1089,7 +1089,7 @@
     },
     "trap523": {
         "id": "trap523",
-        "name": "Dust Funnel",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "15",
@@ -1097,7 +1097,7 @@
     },
     "trap1011": {
         "id": "trap1011",
-        "name": "Far Realm Anomaly",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "15",
@@ -1105,7 +1105,7 @@
     },
     "trap496": {
         "id": "trap496",
-        "name": "Force Bridge",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "15",
@@ -1113,7 +1113,7 @@
     },
     "trap471": {
         "id": "trap471",
-        "name": "Garden of Rot",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "15",
@@ -1121,7 +1121,7 @@
     },
     "trap495": {
         "id": "trap495",
-        "name": "Planar Vats",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "15",
@@ -1129,7 +1129,7 @@
     },
     "trap171": {
         "id": "trap171",
-        "name": "Quake",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "15",
@@ -1137,7 +1137,7 @@
     },
     "trap395": {
         "id": "trap395",
-        "name": "Steel Rain",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "15",
@@ -1145,7 +1145,7 @@
     },
     "trap396": {
         "id": "trap396",
-        "name": "Steel Rain (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "15",
@@ -1153,7 +1153,7 @@
     },
     "trap174": {
         "id": "trap174",
-        "name": "Tumescent Pustule",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "15",
@@ -1161,7 +1161,7 @@
     },
     "trap397": {
         "id": "trap397",
-        "name": "Voidblight",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "15",
@@ -1169,7 +1169,7 @@
     },
     "trap398": {
         "id": "trap398",
-        "name": "Voidblight (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "15",
@@ -1177,7 +1177,7 @@
     },
     "trap203": {
         "id": "trap203",
-        "name": "Chaos Storm",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "16",
@@ -1185,7 +1185,7 @@
     },
     "trap491": {
         "id": "trap491",
-        "name": "Crumbling Ledges",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "16",
@@ -1193,7 +1193,7 @@
     },
     "trap198": {
         "id": "trap198",
-        "name": "Demonic Slime",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "16",
@@ -1201,7 +1201,7 @@
     },
     "trap399": {
         "id": "trap399",
-        "name": "Gates of Winter",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "16",
@@ -1209,7 +1209,7 @@
     },
     "trap400": {
         "id": "trap400",
-        "name": "Gates of Winter (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "16",
@@ -1217,7 +1217,7 @@
     },
     "trap1110": {
         "id": "trap1110",
-        "name": "Naphtha Fumes",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "16",
@@ -1225,7 +1225,7 @@
     },
     "trap306": {
         "id": "trap306",
-        "name": "Astral Nexus (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "17",
@@ -1233,7 +1233,7 @@
     },
     "trap166": {
         "id": "trap166",
-        "name": "Burning Mote",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "17",
@@ -1241,7 +1241,7 @@
     },
     "trap524": {
         "id": "trap524",
-        "name": "Desert Glass",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "17",
@@ -1249,7 +1249,7 @@
     },
     "trap492": {
         "id": "trap492",
-        "name": "Necrotic Rain",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "17",
@@ -1257,7 +1257,7 @@
     },
     "trap161": {
         "id": "trap161",
-        "name": "Zombie Mob",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "17",
@@ -1265,7 +1265,7 @@
     },
     "trap199": {
         "id": "trap199",
-        "name": "Avernus Cinderstorm",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "18",
@@ -1273,7 +1273,7 @@
     },
     "trap275": {
         "id": "trap275",
-        "name": "Avernus Cinderstorm (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "18",
@@ -1281,7 +1281,7 @@
     },
     "trap162": {
         "id": "trap162",
-        "name": "Crawler Nest",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "18",
@@ -1289,7 +1289,7 @@
     },
     "trap401": {
         "id": "trap401",
-        "name": "Elemental Eruptions",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "18",
@@ -1297,7 +1297,7 @@
     },
     "trap402": {
         "id": "trap402",
-        "name": "Elemental Eruptions (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "18",
@@ -1305,7 +1305,7 @@
     },
     "trap403": {
         "id": "trap403",
-        "name": "Elemental Transformation Field",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "18",
@@ -1313,7 +1313,7 @@
     },
     "trap417": {
         "id": "trap417",
-        "name": "Elemental Transformation Field (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "18",
@@ -1321,7 +1321,7 @@
     },
     "trap1004": {
         "id": "trap1004",
-        "name": "Field of Everflame",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "18",
@@ -1329,7 +1329,7 @@
     },
     "trap21": {
         "id": "trap21",
-        "name": "Field of Everflame",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "18",
@@ -1337,7 +1337,7 @@
     },
     "trap181": {
         "id": "trap181",
-        "name": "Field of Everflame (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "18",
@@ -1345,7 +1345,7 @@
     },
     "trap1061": {
         "id": "trap1061",
-        "name": "Fumarole",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "18",
@@ -1353,7 +1353,7 @@
     },
     "trap337": {
         "id": "trap337",
-        "name": "Sulfur Spewers",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "18",
@@ -1361,7 +1361,7 @@
     },
     "trap308": {
         "id": "trap308",
-        "name": "Ballista Platform",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "19",
@@ -1369,7 +1369,7 @@
     },
     "trap332": {
         "id": "trap332",
-        "name": "Lava Pool",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "19",
@@ -1377,7 +1377,7 @@
     },
     "trap405": {
         "id": "trap405",
-        "name": "Skystone Field",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "19",
@@ -1385,7 +1385,7 @@
     },
     "trap406": {
         "id": "trap406",
-        "name": "Skystone Field (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "19",
@@ -1393,7 +1393,7 @@
     },
     "trap478": {
         "id": "trap478",
-        "name": "Corrosive Salt Stream",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "20",
@@ -1401,7 +1401,7 @@
     },
     "trap76": {
         "id": "trap76",
-        "name": "Force Pods",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "20",
@@ -1409,7 +1409,7 @@
     },
     "trap480": {
         "id": "trap480",
-        "name": "Necroclasm Cloud",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "20",
@@ -1417,7 +1417,7 @@
     },
     "trap307": {
         "id": "trap307",
-        "name": "Portal Fall (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "20",
@@ -1425,7 +1425,7 @@
     },
     "trap407": {
         "id": "trap407",
-        "name": "Lightningstone Field",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "21",
@@ -1433,7 +1433,7 @@
     },
     "trap408": {
         "id": "trap408",
-        "name": "Lightningstone Field (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "21",
@@ -1441,7 +1441,7 @@
     },
     "trap1150": {
         "id": "trap1150",
-        "name": "Salt Karst Collapse",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "21",
@@ -1449,7 +1449,7 @@
     },
     "trap525": {
         "id": "trap525",
-        "name": "Venomous Spines",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "21",
@@ -1457,7 +1457,7 @@
     },
     "trap77": {
         "id": "trap77",
-        "name": "View Beyond",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "21",
@@ -1465,7 +1465,7 @@
     },
     "trap504": {
         "id": "trap504",
-        "name": "Eldritch Storm",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "22",
@@ -1473,7 +1473,7 @@
     },
     "trap200": {
         "id": "trap200",
-        "name": "Entropic Fissure",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "22",
@@ -1481,15 +1481,15 @@
     },
     "trap320": {
         "id": "trap320",
-        "name": "Life Eater Haze",
+        "name": "Trap",
         "type": "Hazard",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "22",
         "sourcebook": "DMG2"
     },
     "trap1149": {
         "id": "trap1149",
-        "name": "Maelstrom",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "22",
@@ -1497,7 +1497,7 @@
     },
     "trap479": {
         "id": "trap479",
-        "name": "Viper Tree",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "22",
@@ -1505,7 +1505,7 @@
     },
     "trap409": {
         "id": "trap409",
-        "name": "Void Crust",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "22",
@@ -1513,7 +1513,7 @@
     },
     "trap1091": {
         "id": "trap1091",
-        "name": "Astral Lodestone",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "23",
@@ -1521,7 +1521,7 @@
     },
     "trap91": {
         "id": "trap91",
-        "name": "Chaos Haze",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "23",
@@ -1529,7 +1529,7 @@
     },
     "trap410": {
         "id": "trap410",
-        "name": "Chaotic Planar Rift",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "23",
@@ -1537,7 +1537,7 @@
     },
     "trap1096": {
         "id": "trap1096",
-        "name": "Collector's Dancing Sword",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "23",
@@ -1545,7 +1545,7 @@
     },
     "trap1005": {
         "id": "trap1005",
-        "name": "Entropic Collapse",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "23",
@@ -1553,7 +1553,7 @@
     },
     "trap23": {
         "id": "trap23",
-        "name": "Entropic Collapse",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "23",
@@ -1561,7 +1561,7 @@
     },
     "trap382": {
         "id": "trap382",
-        "name": "Sentient Forest (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "23",
@@ -1569,7 +1569,7 @@
     },
     "trap526": {
         "id": "trap526",
-        "name": "Defiled Plain",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "24",
@@ -1577,7 +1577,7 @@
     },
     "trap384": {
         "id": "trap384",
-        "name": "Undulating Walkways (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "24",
@@ -1585,7 +1585,7 @@
     },
     "trap188": {
         "id": "trap188",
-        "name": "Elemental Conduit",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "25",
@@ -1593,7 +1593,7 @@
     },
     "trap339": {
         "id": "trap339",
-        "name": "The Ghost Door",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "25",
@@ -1601,7 +1601,7 @@
     },
     "trap444": {
         "id": "trap444",
-        "name": "Thin Ice",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "25",
@@ -1609,7 +1609,7 @@
     },
     "trap1099": {
         "id": "trap1099",
-        "name": "Demonweb Doomspore",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Minion",
         "level": "26",
@@ -1617,7 +1617,7 @@
     },
     "trap426": {
         "id": "trap426",
-        "name": "Entropic Nexus",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "26",
@@ -1625,7 +1625,7 @@
     },
     "trap201": {
         "id": "trap201",
-        "name": "Time Wrinkle",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "26",
@@ -1633,7 +1633,7 @@
     },
     "trap276": {
         "id": "trap276",
-        "name": "Time Wrinkle (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "26",
@@ -1641,7 +1641,7 @@
     },
     "trap482": {
         "id": "trap482",
-        "name": "Brine Blast",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "27",
@@ -1649,7 +1649,7 @@
     },
     "trap341": {
         "id": "trap341",
-        "name": "Black Door (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "28",
@@ -1657,7 +1657,7 @@
     },
     "trap411": {
         "id": "trap411",
-        "name": "Corruption Sludge Pool",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "28",
@@ -1665,7 +1665,7 @@
     },
     "trap412": {
         "id": "trap412",
-        "name": "Corruption Sludge Pool (Elite)",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Elite",
         "level": "28",
@@ -1673,7 +1673,7 @@
     },
     "trap427": {
         "id": "trap427",
-        "name": "Elemental Rift",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "28",
@@ -1681,7 +1681,7 @@
     },
     "trap1085": {
         "id": "trap1085",
-        "name": "Geometric Impossibility",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "None",
         "level": "28",
@@ -1689,7 +1689,7 @@
     },
     "trap343": {
         "id": "trap343",
-        "name": "Lightning Spire",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "28",
@@ -1697,7 +1697,7 @@
     },
     "trap413": {
         "id": "trap413",
-        "name": "Multielemental Transformation Field",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "28",
@@ -1705,7 +1705,7 @@
     },
     "trap344": {
         "id": "trap344",
-        "name": "Forgestorm",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "29",
@@ -1713,7 +1713,7 @@
     },
     "trap442": {
         "id": "trap442",
-        "name": "Magma Geyser",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "29",
@@ -1721,7 +1721,7 @@
     },
     "trap441": {
         "id": "trap441",
-        "name": "Shard of Annihilation",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "29",
@@ -1729,7 +1729,7 @@
     },
     "trap26": {
         "id": "trap26",
-        "name": "Sphere of Annihilation",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "29",
@@ -1737,7 +1737,7 @@
     },
     "trap440": {
         "id": "trap440",
-        "name": "Dragon-Eye Disintegrator Beams",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Solo",
         "level": "30",
@@ -1745,7 +1745,7 @@
     },
     "trap474": {
         "id": "trap474",
-        "name": "Field of Doom",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "30",
@@ -1753,7 +1753,7 @@
     },
     "trap340": {
         "id": "trap340",
-        "name": "Malfunctioning Anarch Sphere",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "30",
@@ -1761,7 +1761,7 @@
     },
     "trap345": {
         "id": "trap345",
-        "name": "Corruption Storm",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "32",
@@ -1769,7 +1769,7 @@
     },
     "trap35": {
         "id": "trap35",
-        "name": "Angry Crowd",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "Party's Level",
@@ -1777,15 +1777,15 @@
     },
     "trap464": {
         "id": "trap464",
-        "name": "Cacodemon Possession",
+        "name": "Trap",
         "type": "Hazard",
-        "grouprole": "None",
-        "level": "Variable",
+        "grouprole": "",
+        "level": "variable",
         "sourcebook": "Demonomicon"
     },
     "trap517": {
         "id": "trap517",
-        "name": "Obsidian Facade",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "(Level)",
@@ -1793,7 +1793,7 @@
     },
     "trap284": {
         "id": "trap284",
-        "name": "Sewer Valves",
+        "name": "Trap",
         "type": "Hazard",
         "grouprole": "Standard",
         "level": "Variable",
@@ -1801,7 +1801,7 @@
     },
     "trap1028": {
         "id": "trap1028",
-        "name": "Stirge Swarm Trap",
+        "name": "Trap",
         "type": "Lurker",
         "grouprole": "None",
         "level": "12",
@@ -1809,7 +1809,7 @@
     },
     "trap1027": {
         "id": "trap1027",
-        "name": "Rockfall Trap",
+        "name": "Trap",
         "type": "Lurker",
         "grouprole": "None",
         "level": "14",
@@ -1817,7 +1817,7 @@
     },
     "trap1032": {
         "id": "trap1032",
-        "name": "Exploding Iron Chest",
+        "name": "Trap",
         "type": "Lurker",
         "grouprole": "None",
         "level": "15",
@@ -1825,7 +1825,7 @@
     },
     "trap1030": {
         "id": "trap1030",
-        "name": "Living Fungus Chest",
+        "name": "Trap",
         "type": "Lurker",
         "grouprole": "None",
         "level": "15",
@@ -1833,7 +1833,7 @@
     },
     "trap1116": {
         "id": "trap1116",
-        "name": "Tears of the Crocodile God",
+        "name": "Trap",
         "type": "Lurker",
         "grouprole": "None",
         "level": "15",
@@ -1841,7 +1841,7 @@
     },
     "trap1031": {
         "id": "trap1031",
-        "name": "Icefang Pit",
+        "name": "Trap",
         "type": "Obstacle",
         "grouprole": "Elite",
         "level": "16",
@@ -1849,1199 +1849,1199 @@
     },
     "terrain99": {
         "id": "terrain99",
-        "name": "Abyssal Wellspring",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "MotP"
     },
     "terrain35": {
         "id": "terrain35",
-        "name": "Acidic Mire",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain148": {
         "id": "terrain148",
-        "name": "Agony Amplifier",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "The Book of Vile Darkness"
     },
     "terrain100": {
         "id": "terrain100",
-        "name": "Angelic Lantern",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "MotP"
     },
     "terrain67": {
         "id": "terrain67",
-        "name": "Ash Field",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain101": {
         "id": "terrain101",
-        "name": "Astral Flame",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "MotP"
     },
     "terrain65": {
         "id": "terrain65",
-        "name": "Barbed Cacti",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain68": {
         "id": "terrain68",
-        "name": "Black Sand",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain3": {
         "id": "terrain3",
-        "name": "Blast Cloud",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain58": {
         "id": "terrain58",
-        "name": "Blood Grate",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "Underdark"
     },
     "terrain4": {
         "id": "terrain4",
-        "name": "Blood Midge Cloud",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain82": {
         "id": "terrain82",
-        "name": "Blood Rock",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMK, DMG"
     },
     "terrain5": {
         "id": "terrain5",
-        "name": "Bolt Stone",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2, DMK"
     },
     "terrain36": {
         "id": "terrain36",
-        "name": "Bonepowder Haze",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain143": {
         "id": "terrain143",
-        "name": "Bookcase",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "Dun165"
     },
     "terrain116": {
         "id": "terrain116",
-        "name": "Boulder",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain66": {
         "id": "terrain66",
-        "name": "Brambleweed",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain118": {
         "id": "terrain118",
-        "name": "Brazier",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "Dun177"
     },
     "trap1020": {
         "id": "trap1020",
-        "name": "Brazier Topple",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Single-Use",
-        "level": "None",
+        "level": "-",
         "sourcebook": "Dun196"
     },
     "terrain149": {
         "id": "terrain149",
-        "name": "Carnage Stone",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "The Book of Vile Darkness"
     },
     "terrain25": {
         "id": "terrain25",
-        "name": "Carpet of Serpents",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPA"
     },
     "terrain62": {
         "id": "terrain62",
-        "name": "Caught Breath",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "Underdark"
     },
     "terrain83": {
         "id": "terrain83",
-        "name": "Cave Slime",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMK, DMG"
     },
     "terrain129": {
         "id": "terrain129",
-        "name": "Chandelier",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain37": {
         "id": "terrain37",
-        "name": "Chaos Breath",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain34": {
         "id": "terrain34",
-        "name": "Chaos Spots",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPA"
     },
     "terrain88": {
         "id": "terrain88",
-        "name": "Choke Frost",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG"
     },
     "terrain26": {
         "id": "terrain26",
-        "name": "Choking Vapors",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPA"
     },
     "terrain89": {
         "id": "terrain89",
-        "name": "Cloudspore",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG"
     },
     "terrain38": {
         "id": "terrain38",
-        "name": "Crawling Earth",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain6": {
         "id": "terrain6",
-        "name": "Creeping Ice",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain27": {
         "id": "terrain27",
-        "name": "Cursed Obelisk",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPA"
     },
     "terrain69": {
         "id": "terrain69",
-        "name": "Dead Magic",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain7": {
         "id": "terrain7",
-        "name": "Defiled Ground",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2, DMK"
     },
     "terrain39": {
         "id": "terrain39",
-        "name": "Demon Jags",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain40": {
         "id": "terrain40",
-        "name": "Demon Slick",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain8": {
         "id": "terrain8",
-        "name": "Dimensional Turbulence",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain102": {
         "id": "terrain102",
-        "name": "Divine Blood",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "MotP"
     },
     "trap1018": {
         "id": "trap1018",
-        "name": "Donjon's Cave-In",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Single-Use",
-        "level": "None",
+        "level": "-",
         "sourcebook": "Dun196"
     },
     "terrain9": {
         "id": "terrain9",
-        "name": "Doomlight Crystal",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain109": {
         "id": "terrain109",
-        "name": "Earth Nodes",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "FRCG"
     },
     "terrain28": {
         "id": "terrain28",
-        "name": "Earthen Maw",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPA"
     },
     "terrain41": {
         "id": "terrain41",
-        "name": "Earthflow",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain110": {
         "id": "terrain110",
-        "name": "Earthmotes",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "FRCG"
     },
     "terrain10": {
         "id": "terrain10",
-        "name": "Eldritch Influx",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain103": {
         "id": "terrain103",
-        "name": "Elemental Seepage",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "MotP"
     },
     "terrain42": {
         "id": "terrain42",
-        "name": "Elemental Spout",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain11": {
         "id": "terrain11",
-        "name": "Elemental Windchurn",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain90": {
         "id": "terrain90",
-        "name": "Ember Moss",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG"
     },
     "terrain43": {
         "id": "terrain43",
-        "name": "Energy Alteration Field",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain108": {
         "id": "terrain108",
-        "name": "Energy Crystals",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "MotP"
     },
     "terrain12": {
         "id": "terrain12",
-        "name": "Energy Node",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain104": {
         "id": "terrain104",
-        "name": "Erratic Portal",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "MotP"
     },
     "terrain142": {
         "id": "terrain142",
-        "name": "Exotic Fruit Trees",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "Dun165"
     },
     "terrain59": {
         "id": "terrain59",
-        "name": "Eye Unblinking",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "Underdark"
     },
     "terrain150": {
         "id": "terrain150",
-        "name": "Festering Corruption",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "The Book of Vile Darkness"
     },
     "terrain13": {
         "id": "terrain13",
-        "name": "Fey Circle",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2, DMK"
     },
     "terrain111": {
         "id": "terrain111",
-        "name": "Fey Crossroads",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "FRCG"
     },
     "terrain115": {
         "id": "terrain115",
-        "name": "Fey Mounds",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "FRCG"
     },
     "terrain91": {
         "id": "terrain91",
-        "name": "Font of Power",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG"
     },
     "terrain151": {
         "id": "terrain151",
-        "name": "Forgotten Soul",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "The Book of Vile Darkness"
     },
     "terrain44": {
         "id": "terrain44",
-        "name": "Frozen Fire",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain71": {
         "id": "terrain71",
-        "name": "Glimmering Mirage",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain57": {
         "id": "terrain57",
-        "name": "Godsblood",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "Underdark"
     },
     "terrain61": {
         "id": "terrain61",
-        "name": "Godsrock",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "Underdark"
     },
     "terrain92": {
         "id": "terrain92",
-        "name": "Grab Grass",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG"
     },
     "terrain14": {
         "id": "terrain14",
-        "name": "Grasping Bog",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain93": {
         "id": "terrain93",
-        "name": "Grasping Slime",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG"
     },
     "terrain32": {
         "id": "terrain32",
-        "name": "Grasping Vines",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPA"
     },
     "terrain152": {
         "id": "terrain152",
-        "name": "Green Fog",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "The Book of Vile Darkness"
     },
     "terrain54": {
         "id": "terrain54",
-        "name": "Ground Swarms",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "Underdark"
     },
     "terrain15": {
         "id": "terrain15",
-        "name": "Healing Ground",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain105": {
         "id": "terrain105",
-        "name": "Hellfire",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "MotP"
     },
     "terrain153": {
         "id": "terrain153",
-        "name": "Hellfire",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "The Book of Vile Darkness"
     },
     "terrain63": {
         "id": "terrain63",
-        "name": "Hungry Void",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "Underdark"
     },
     "terrain45": {
         "id": "terrain45",
-        "name": "Ice Maws",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain84": {
         "id": "terrain84",
-        "name": "Illusions",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMK, DMG"
     },
     "terrain46": {
         "id": "terrain46",
-        "name": "Infectious Pallor",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain135": {
         "id": "terrain135",
-        "name": "Infernal Brazier",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain16": {
         "id": "terrain16",
-        "name": "Infernal Fumes",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain53": {
         "id": "terrain53",
-        "name": "Insect Cloud",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "Underdark"
     },
     "terrain33": {
         "id": "terrain33",
-        "name": "Insect Swarm",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPA"
     },
     "terrain17": {
         "id": "terrain17",
-        "name": "Jade Flame",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain154": {
         "id": "terrain154",
-        "name": "Larvae Pool",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "The Book of Vile Darkness"
     },
     "terrain127": {
         "id": "terrain127",
-        "name": "Lava Pit",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "Dun179"
     },
     "terrain47": {
         "id": "terrain47",
-        "name": "Lightning Mist",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain72": {
         "id": "terrain72",
-        "name": "Lightning Pillar",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain120": {
         "id": "terrain120",
-        "name": "Lightning Pillar Strike",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain155": {
         "id": "terrain155",
-        "name": "Lingering Evil",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "The Book of Vile Darkness"
     },
     "terrain48": {
         "id": "terrain48",
-        "name": "Liquid Thunder",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain94": {
         "id": "terrain94",
-        "name": "Loadstone",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG"
     },
     "terrain18": {
         "id": "terrain18",
-        "name": "Martyr's Monument",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain85": {
         "id": "terrain85",
-        "name": "Mirror Crystal",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMK, DMG"
     },
     "terrain144": {
         "id": "terrain144",
-        "name": "Mud Sink",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain73": {
         "id": "terrain73",
-        "name": "Mudflats",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain55": {
         "id": "terrain55",
-        "name": "Mushroom Arch",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "Underdark"
     },
     "terrain112": {
         "id": "terrain112",
-        "name": "Mythals",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "FRCG"
     },
     "terrain19": {
         "id": "terrain19",
-        "name": "Necrotic Ground",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain20": {
         "id": "terrain20",
-        "name": "Needle Hedge",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain49": {
         "id": "terrain49",
-        "name": "Phase Crystal",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain21": {
         "id": "terrain21",
-        "name": "Phase Mist",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain106": {
         "id": "terrain106",
-        "name": "Phase Rock",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "MotP"
     },
     "terrain95": {
         "id": "terrain95",
-        "name": "Pillar of Life",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG"
     },
     "terrain113": {
         "id": "terrain113",
-        "name": "Plaguelands",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "FRCG"
     },
     "terrain29": {
         "id": "terrain29",
-        "name": "Pocket of Night",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPA"
     },
     "terrain114": {
         "id": "terrain114",
-        "name": "Portals",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "FRCG"
     },
     "terrain56": {
         "id": "terrain56",
-        "name": "Primal Mud",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "Underdark"
     },
     "terrain50": {
         "id": "terrain50",
-        "name": "Primordial Font",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain74": {
         "id": "terrain74",
-        "name": "Psychic Reservoir",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain22": {
         "id": "terrain22",
-        "name": "Quick Sear",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain23": {
         "id": "terrain23",
-        "name": "Rage Stone",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain107": {
         "id": "terrain107",
-        "name": "Razorvine",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "MotP"
     },
     "terrain156": {
         "id": "terrain156",
-        "name": "Red Pipe",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "Dun195"
     },
     "terrain75": {
         "id": "terrain75",
-        "name": "Rocky Badlands",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain130": {
         "id": "terrain130",
-        "name": "Rope Bridge",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "trap1019": {
         "id": "trap1019",
-        "name": "Rubble Topple",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Single-Use",
-        "level": "None",
+        "level": "-",
         "sourcebook": "Dun196"
     },
     "terrain131": {
         "id": "terrain131",
-        "name": "Ruined Wall",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain96": {
         "id": "terrain96",
-        "name": "Sacred Circle",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG"
     },
     "terrain76": {
         "id": "terrain76",
-        "name": "Salt Flats",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain122": {
         "id": "terrain122",
-        "name": "Salt Pile",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain77": {
         "id": "terrain77",
-        "name": "Sandy Wastes",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain119": {
         "id": "terrain119",
-        "name": "Settled Ash",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain117": {
         "id": "terrain117",
-        "name": "Shattering Crystal",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain70": {
         "id": "terrain70",
-        "name": "Sickening Heat",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain125": {
         "id": "terrain125",
-        "name": "Silt Deep Spot",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain78": {
         "id": "terrain78",
-        "name": "Silt Pool",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain86": {
         "id": "terrain86",
-        "name": "Slides",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMK, DMG"
     },
     "terrain79": {
         "id": "terrain79",
-        "name": "Slipsand",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain124": {
         "id": "terrain124",
-        "name": "Small Dune",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain64": {
         "id": "terrain64",
-        "name": "Soul Shard Clusters",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "Underdark"
     },
     "terrain30": {
         "id": "terrain30",
-        "name": "Soul Venom",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPA"
     },
     "terrain87": {
         "id": "terrain87",
-        "name": "Spiderwebs",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMK, DMG"
     },
     "terrain60": {
         "id": "terrain60",
-        "name": "Spore Field",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "Underdark"
     },
     "terrain51": {
         "id": "terrain51",
-        "name": "Strangling Wind",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain141": {
         "id": "terrain141",
-        "name": "Swinging Rope or Vine",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain147": {
         "id": "terrain147",
-        "name": "Swinging Rope or Vine",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain133": {
         "id": "terrain133",
-        "name": "Table of Combustibles",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain134": {
         "id": "terrain134",
-        "name": "Tapestry",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2, Dun180"
     },
     "terrain123": {
         "id": "terrain123",
-        "name": "Teetering Stone Pillar",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain97": {
         "id": "terrain97",
-        "name": "Teleporters",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG"
     },
     "terrain24": {
         "id": "terrain24",
-        "name": "Thunder Shards",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG2"
     },
     "terrain80": {
         "id": "terrain80",
-        "name": "Tree of Life",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain140": {
         "id": "terrain140",
-        "name": "Tree of Life Defiling",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "terrain145": {
         "id": "terrain145",
-        "name": "Unstable Monolith",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Terrain Power",
-        "level": "None",
+        "level": "",
         "sourcebook": "Dun181"
     },
     "terrain31": {
         "id": "terrain31",
-        "name": "Venomous Air",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPA"
     },
     "terrain98": {
         "id": "terrain98",
-        "name": "Whirlwind",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DMG"
     },
     "terrain52": {
         "id": "terrain52",
-        "name": "Wrath Mud",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "TPB"
     },
     "terrain81": {
         "id": "terrain81",
-        "name": "Z'tal Horde",
+        "name": "Trap",
         "type": "Terrain",
         "grouprole": "Fantastic Terrain",
-        "level": "None",
+        "level": "",
         "sourcebook": "DSCC"
     },
     "trap190": {
         "id": "trap190",
-        "name": "Spiked Swinging Gate",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
-        "level": "None",
+        "grouprole": "",
+        "level": "",
         "sourcebook": "FR1"
     },
     "trap952": {
         "id": "trap952",
-        "name": "Concealed Pit",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "1",
@@ -3049,7 +3049,7 @@
     },
     "trap1105": {
         "id": "trap1105",
-        "name": "Covered Pit",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "1",
@@ -3057,7 +3057,7 @@
     },
     "trap463": {
         "id": "trap463",
-        "name": "Covered Spiked Pit Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "1",
@@ -3065,7 +3065,7 @@
     },
     "trap456": {
         "id": "trap456",
-        "name": "Dart Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "1",
@@ -3073,7 +3073,7 @@
     },
     "trap189": {
         "id": "trap189",
-        "name": "Dart-Thrower",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "1",
@@ -3081,7 +3081,7 @@
     },
     "trap1074": {
         "id": "trap1074",
-        "name": "Dreaming Door",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "1",
@@ -3089,7 +3089,7 @@
     },
     "trap900": {
         "id": "trap900",
-        "name": "False-Floor Pit",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "1",
@@ -3097,7 +3097,7 @@
     },
     "trap1038": {
         "id": "trap1038",
-        "name": "False-Floor Pit",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "1",
@@ -3105,7 +3105,7 @@
     },
     "trap5": {
         "id": "trap5",
-        "name": "False-Floor Pit (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "1",
@@ -3113,7 +3113,7 @@
     },
     "trap279": {
         "id": "trap279",
-        "name": "Flamejet Statues",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "1",
@@ -3121,7 +3121,7 @@
     },
     "trap36": {
         "id": "trap36",
-        "name": "Forest of Stone",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "1",
@@ -3129,7 +3129,7 @@
     },
     "trap262": {
         "id": "trap262",
-        "name": "Forest of Stone (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "1",
@@ -3137,7 +3137,7 @@
     },
     "trap1041": {
         "id": "trap1041",
-        "name": "Freezing Hall",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "1",
@@ -3145,7 +3145,7 @@
     },
     "trap1122": {
         "id": "trap1122",
-        "name": "Haunted River",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "1",
@@ -3153,7 +3153,7 @@
     },
     "trap1131": {
         "id": "trap1131",
-        "name": "Hidden Pit",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "1",
@@ -3161,7 +3161,7 @@
     },
     "trap1104": {
         "id": "trap1104",
-        "name": "Kobold Tripwire",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "1",
@@ -3169,7 +3169,7 @@
     },
     "trap911": {
         "id": "trap911",
-        "name": "Magic Crossbow Turret (Dungeon 183)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "1",
@@ -3177,7 +3177,7 @@
     },
     "trap1035": {
         "id": "trap1035",
-        "name": "Poisoned Needle",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "1",
@@ -3185,7 +3185,7 @@
     },
     "trap1084": {
         "id": "trap1084",
-        "name": "Punishment Arm",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "1",
@@ -3193,7 +3193,7 @@
     },
     "trap1123": {
         "id": "trap1123",
-        "name": "Rat Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "1",
@@ -3201,7 +3201,7 @@
     },
     "trap457": {
         "id": "trap457",
-        "name": "Skull-Skull Stone",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "1",
@@ -3209,7 +3209,7 @@
     },
     "trap1067": {
         "id": "trap1067",
-        "name": "Slumbering Portal",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "1",
@@ -3217,7 +3217,7 @@
     },
     "trap1124": {
         "id": "trap1124",
-        "name": "The Thing in the Mirror",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "1",
@@ -3225,7 +3225,7 @@
     },
     "trap423": {
         "id": "trap423",
-        "name": "Warded Desk",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "1",
@@ -3233,7 +3233,7 @@
     },
     "trap191": {
         "id": "trap191",
-        "name": "Water-Filled Pit",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "1",
@@ -3241,7 +3241,7 @@
     },
     "trap195": {
         "id": "trap195",
-        "name": "Acid Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "2",
@@ -3249,15 +3249,15 @@
     },
     "trap530": {
         "id": "trap530",
-        "name": "Cauldron Feeder",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "2",
         "sourcebook": "Marauders of the Dune Sea"
     },
     "trap531": {
         "id": "trap531",
-        "name": "Defiling Sigil",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "2",
@@ -3265,7 +3265,7 @@
     },
     "trap1098": {
         "id": "trap1098",
-        "name": "Demonweb Glyph",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3273,7 +3273,7 @@
     },
     "trap283": {
         "id": "trap283",
-        "name": "Eldritch Machine (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "2",
@@ -3281,7 +3281,7 @@
     },
     "trap1021": {
         "id": "trap1021",
-        "name": "Explosive Runes",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3289,7 +3289,7 @@
     },
     "trap192": {
         "id": "trap192",
-        "name": "Explosive Runes",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "2",
@@ -3297,7 +3297,7 @@
     },
     "trap1036": {
         "id": "trap1036",
-        "name": "Fire-Spewing Bed",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3305,7 +3305,7 @@
     },
     "trap1126": {
         "id": "trap1126",
-        "name": "Flesh-Eating Dust Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3313,7 +3313,7 @@
     },
     "trap1047": {
         "id": "trap1047",
-        "name": "Glyph of Warding (Fire)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3321,7 +3321,7 @@
     },
     "trap1133": {
         "id": "trap1133",
-        "name": "Glyph of Warding (Lightning)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3329,7 +3329,7 @@
     },
     "trap428": {
         "id": "trap428",
-        "name": "Glyph of Warding (level 2)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "2",
@@ -3337,7 +3337,7 @@
     },
     "trap1013": {
         "id": "trap1013",
-        "name": "Iron Boot",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "2",
@@ -3345,7 +3345,7 @@
     },
     "trap280": {
         "id": "trap280",
-        "name": "Iron Maiden-in-Chains",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "2",
@@ -3353,7 +3353,7 @@
     },
     "trap1083": {
         "id": "trap1083",
-        "name": "Leghold Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3361,7 +3361,7 @@
     },
     "trap1037": {
         "id": "trap1037",
-        "name": "Magic Missile Ballista",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "2",
@@ -3369,7 +3369,7 @@
     },
     "trap54": {
         "id": "trap54",
-        "name": "Noose Trap (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "2",
@@ -3377,7 +3377,7 @@
     },
     "trap1045": {
         "id": "trap1045",
-        "name": "Radiant Floor",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "2",
@@ -3385,7 +3385,7 @@
     },
     "trap1046": {
         "id": "trap1046",
-        "name": "Red Energy Curtain",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3393,7 +3393,7 @@
     },
     "trap902": {
         "id": "trap902",
-        "name": "Spear Gauntlet",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3401,7 +3401,7 @@
     },
     "trap6": {
         "id": "trap6",
-        "name": "Spear Gauntlet",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "2",
@@ -3409,7 +3409,7 @@
     },
     "trap253": {
         "id": "trap253",
-        "name": "Spear Gauntlet (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "2",
@@ -3417,7 +3417,7 @@
     },
     "trap1081": {
         "id": "trap1081",
-        "name": "Spring Noose Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3425,7 +3425,7 @@
     },
     "trap1039": {
         "id": "trap1039",
-        "name": "Teleportation Rune",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3433,7 +3433,7 @@
     },
     "trap1146": {
         "id": "trap1146",
-        "name": "Thunder Glyph",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3441,7 +3441,7 @@
     },
     "trap1050": {
         "id": "trap1050",
-        "name": "Vanishing Floor",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3449,7 +3449,7 @@
     },
     "trap1147": {
         "id": "trap1147",
-        "name": "Water Tentacle",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "2",
@@ -3457,7 +3457,7 @@
     },
     "trap529": {
         "id": "trap529",
-        "name": "Whipping Tail",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "2",
@@ -3465,7 +3465,7 @@
     },
     "trap1128": {
         "id": "trap1128",
-        "name": "Wooden Caltrops",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "2",
@@ -3473,7 +3473,7 @@
     },
     "trap1130": {
         "id": "trap1130",
-        "name": "Chest of Darts",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "3",
@@ -3481,7 +3481,7 @@
     },
     "trap1127": {
         "id": "trap1127",
-        "name": "Child Scarecrow",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "3",
@@ -3489,7 +3489,7 @@
     },
     "trap135": {
         "id": "trap135",
-        "name": "Crossbow Turret",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "3",
@@ -3497,7 +3497,7 @@
     },
     "trap476": {
         "id": "trap476",
-        "name": "Dwarven Crossbow Turret",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "3",
@@ -3505,7 +3505,7 @@
     },
     "trap137": {
         "id": "trap137",
-        "name": "Elemental Vortex",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "3",
@@ -3513,7 +3513,7 @@
     },
     "trap136": {
         "id": "trap136",
-        "name": "Grasping Dead",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "3",
@@ -3521,7 +3521,7 @@
     },
     "trap1049": {
         "id": "trap1049",
-        "name": "Gravity Well",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "3",
@@ -3529,7 +3529,7 @@
     },
     "trap1043": {
         "id": "trap1043",
-        "name": "Grim Statue",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "3",
@@ -3537,7 +3537,7 @@
     },
     "trap1033": {
         "id": "trap1033",
-        "name": "Hall of Heroes Statue",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "3",
@@ -3545,7 +3545,7 @@
     },
     "trap528": {
         "id": "trap528",
-        "name": "Lightning Obelisk",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "3",
@@ -3553,7 +3553,7 @@
     },
     "trap903": {
         "id": "trap903",
-        "name": "Magic Crossbow Turret",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "3",
@@ -3561,7 +3561,7 @@
     },
     "trap7": {
         "id": "trap7",
-        "name": "Magic Crossbow Turret",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "3",
@@ -3569,7 +3569,7 @@
     },
     "trap63": {
         "id": "trap63",
-        "name": "Magic Crossbow Turret (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "3",
@@ -3577,7 +3577,7 @@
     },
     "trap1132": {
         "id": "trap1132",
-        "name": "Poison Gas Chest",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "3",
@@ -3585,7 +3585,7 @@
     },
     "trap131": {
         "id": "trap131",
-        "name": "Roaring Terror",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "3",
@@ -3593,7 +3593,7 @@
     },
     "trap458": {
         "id": "trap458",
-        "name": "Rolling Boulder",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "3",
@@ -3601,7 +3601,7 @@
     },
     "trap1120": {
         "id": "trap1120",
-        "name": "Spiked Pit (5 Feet Deep)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "3",
@@ -3609,7 +3609,7 @@
     },
     "trap1129": {
         "id": "trap1129",
-        "name": "Spring-Loaded Javelin",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "3",
@@ -3617,7 +3617,7 @@
     },
     "trap1044": {
         "id": "trap1044",
-        "name": "Warded Scroll",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "3",
@@ -3625,7 +3625,7 @@
     },
     "trap1137": {
         "id": "trap1137",
-        "name": "Cage Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "4",
@@ -3633,7 +3633,7 @@
     },
     "trap1034": {
         "id": "trap1034",
-        "name": "Collapsing Ceiling",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "4",
@@ -3641,7 +3641,7 @@
     },
     "trap512": {
         "id": "trap512",
-        "name": "Crystalline Web",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "4",
@@ -3649,7 +3649,7 @@
     },
     "trap511": {
         "id": "trap511",
-        "name": "Crystalline Web",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "4",
@@ -3657,7 +3657,7 @@
     },
     "trap1069": {
         "id": "trap1069",
-        "name": "Fearsome Portal",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "4",
@@ -3665,7 +3665,7 @@
     },
     "trap336": {
         "id": "trap336",
-        "name": "Flame Vent",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "4",
@@ -3673,7 +3673,7 @@
     },
     "trap193": {
         "id": "trap193",
-        "name": "Flooding Room",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "4",
@@ -3681,7 +3681,7 @@
     },
     "trap1079": {
         "id": "trap1079",
-        "name": "Kissing Maiden",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "4",
@@ -3689,7 +3689,7 @@
     },
     "trap30": {
         "id": "trap30",
-        "name": "Kissing Maiden",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "4",
@@ -3697,7 +3697,7 @@
     },
     "trap1108": {
         "id": "trap1108",
-        "name": "Net of Exploding Casks",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "4",
@@ -3705,7 +3705,7 @@
     },
     "trap904": {
         "id": "trap904",
-        "name": "Pendulum Scythes",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "4",
@@ -3713,7 +3713,7 @@
     },
     "trap9": {
         "id": "trap9",
-        "name": "Pendulum Scythes",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "4",
@@ -3721,7 +3721,7 @@
     },
     "trap255": {
         "id": "trap255",
-        "name": "Pendulum Scythes (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "4",
@@ -3729,7 +3729,7 @@
     },
     "trap466": {
         "id": "trap466",
-        "name": "Pillars of Chaos",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "4",
@@ -3737,7 +3737,7 @@
     },
     "trap119": {
         "id": "trap119",
-        "name": "Poison Mist",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "4",
@@ -3745,7 +3745,7 @@
     },
     "trap266": {
         "id": "trap266",
-        "name": "Pyrotechnics Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Solo",
         "level": "4",
@@ -3753,7 +3753,7 @@
     },
     "trap40": {
         "id": "trap40",
-        "name": "Pyrotechnics Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "4",
@@ -3761,7 +3761,7 @@
     },
     "trap265": {
         "id": "trap265",
-        "name": "Pyrotechnics Trap (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "4",
@@ -3769,7 +3769,7 @@
     },
     "trap1016": {
         "id": "trap1016",
-        "name": "Rot Grub Pit",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "4",
@@ -3777,7 +3777,7 @@
     },
     "trap176": {
         "id": "trap176",
-        "name": "Sand Cascade Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "4",
@@ -3785,7 +3785,7 @@
     },
     "trap915": {
         "id": "trap915",
-        "name": "Scything Blades",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "4",
@@ -3793,7 +3793,7 @@
     },
     "trap1138": {
         "id": "trap1138",
-        "name": "Slide Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "4",
@@ -3801,7 +3801,7 @@
     },
     "trap1125": {
         "id": "trap1125",
-        "name": "Spiked Pit",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "4",
@@ -3809,7 +3809,7 @@
     },
     "trap1082": {
         "id": "trap1082",
-        "name": "Trapdoor Aloft",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "4",
@@ -3817,7 +3817,7 @@
     },
     "trap1073": {
         "id": "trap1073",
-        "name": "Blinding Portal",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "5",
@@ -3825,7 +3825,7 @@
     },
     "trap1134": {
         "id": "trap1134",
-        "name": "Charming Door",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "5",
@@ -3833,7 +3833,7 @@
     },
     "trap61": {
         "id": "trap61",
-        "name": "Cresset Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "5",
@@ -3841,7 +3841,7 @@
     },
     "trap940": {
         "id": "trap940",
-        "name": "Evard's Tentacle Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "5",
@@ -3849,7 +3849,7 @@
     },
     "trap1048": {
         "id": "trap1048",
-        "name": "Falling Blocks",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "5",
@@ -3857,7 +3857,7 @@
     },
     "trap460": {
         "id": "trap460",
-        "name": "Falling Log Barrier",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "5",
@@ -3865,7 +3865,7 @@
     },
     "trap1135": {
         "id": "trap1135",
-        "name": "Foot Crusher",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "5",
@@ -3873,7 +3873,7 @@
     },
     "trap909": {
         "id": "trap909",
-        "name": "Footchopper Alarm Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "5",
@@ -3881,7 +3881,7 @@
     },
     "trap312": {
         "id": "trap312",
-        "name": "Force Burst Wall",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "5",
@@ -3889,7 +3889,7 @@
     },
     "trap167": {
         "id": "trap167",
-        "name": "Golden Spines",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "5",
@@ -3897,7 +3897,7 @@
     },
     "trap271": {
         "id": "trap271",
-        "name": "Golden Spines (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "5",
@@ -3905,7 +3905,7 @@
     },
     "trap178": {
         "id": "trap178",
-        "name": "Ice Cell",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "5",
@@ -3913,7 +3913,7 @@
     },
     "trap41": {
         "id": "trap41",
-        "name": "Leg Breaker Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "5",
@@ -3921,7 +3921,7 @@
     },
     "trap267": {
         "id": "trap267",
-        "name": "Leg Breaker Trap (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "5",
@@ -3929,15 +3929,15 @@
     },
     "trap314": {
         "id": "trap314",
-        "name": "Lightning Hallway",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "5",
         "sourcebook": "Dun169"
     },
     "trap1119": {
         "id": "trap1119",
-        "name": "Springing Spear",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "5",
@@ -3945,7 +3945,7 @@
     },
     "trap905": {
         "id": "trap905",
-        "name": "Whirling Blades",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "5",
@@ -3953,7 +3953,7 @@
     },
     "trap10": {
         "id": "trap10",
-        "name": "Whirling Blades",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "5",
@@ -3961,23 +3961,23 @@
     },
     "trap299": {
         "id": "trap299",
-        "name": "Arcane Turret",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "6",
         "sourcebook": "Dun167, DunAnnual"
     },
     "trap300": {
         "id": "trap300",
-        "name": "Ceiling Scythe",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "6",
         "sourcebook": "Dun167, DunAnnual"
     },
     "trap937": {
         "id": "trap937",
-        "name": "Corpse Wall",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "6",
@@ -3985,7 +3985,7 @@
     },
     "trap467": {
         "id": "trap467",
-        "name": "Demon Face Idol",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "6",
@@ -3993,7 +3993,7 @@
     },
     "trap177": {
         "id": "trap177",
-        "name": "Exploding Braziers",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "6",
@@ -4001,7 +4001,7 @@
     },
     "trap57": {
         "id": "trap57",
-        "name": "Field of Snares",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "6",
@@ -4009,7 +4009,7 @@
     },
     "trap914": {
         "id": "trap914",
-        "name": "Offal Filled Pit",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "6",
@@ -4017,7 +4017,7 @@
     },
     "trap313": {
         "id": "trap313",
-        "name": "Poisoned Dart Passage",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "6",
@@ -4025,7 +4025,7 @@
     },
     "trap906": {
         "id": "trap906",
-        "name": "Poisoned Dart Wall",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "6",
@@ -4033,7 +4033,7 @@
     },
     "trap12": {
         "id": "trap12",
-        "name": "Poisoned Dart Wall",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "6",
@@ -4041,7 +4041,7 @@
     },
     "trap257": {
         "id": "trap257",
-        "name": "Poisoned Dart Wall (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "6",
@@ -4049,7 +4049,7 @@
     },
     "trap908": {
         "id": "trap908",
-        "name": "Possessed Skull",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "6",
@@ -4057,15 +4057,15 @@
     },
     "trap301": {
         "id": "trap301",
-        "name": "Razormesh Nets",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "6",
         "sourcebook": "Dun167, DunAnnual"
     },
     "trap69": {
         "id": "trap69",
-        "name": "Shadow Dart Wall",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "6",
@@ -4073,7 +4073,7 @@
     },
     "trap931": {
         "id": "trap931",
-        "name": "Spiked Chain Pinwheel",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "6",
@@ -4081,7 +4081,7 @@
     },
     "trap429": {
         "id": "trap429",
-        "name": "Arcane Generator",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "7",
@@ -4089,7 +4089,7 @@
     },
     "trap304": {
         "id": "trap304",
-        "name": "Calmachia's Forge (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "7",
@@ -4097,15 +4097,15 @@
     },
     "trap303": {
         "id": "trap303",
-        "name": "Catwalk Deadfall and Mesh",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "7",
         "sourcebook": "Dun167, DunAnnual"
     },
     "trap145": {
         "id": "trap145",
-        "name": "Clamping Stairs",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "7",
@@ -4113,15 +4113,15 @@
     },
     "trap315": {
         "id": "trap315",
-        "name": "Curse of the Devouring Darkness",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "7",
         "sourcebook": "Dun169"
     },
     "trap358": {
         "id": "trap358",
-        "name": "Dragontooth Passageway",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "7",
@@ -4129,7 +4129,7 @@
     },
     "trap919": {
         "id": "trap919",
-        "name": "Elemental Turret",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "7",
@@ -4137,7 +4137,7 @@
     },
     "trap1101": {
         "id": "trap1101",
-        "name": "Elite Glyph of Warding",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "7",
@@ -4145,7 +4145,7 @@
     },
     "trap31": {
         "id": "trap31",
-        "name": "Falling Iron Portcullis",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "7",
@@ -4153,7 +4153,7 @@
     },
     "trap1076": {
         "id": "trap1076",
-        "name": "Forced Lightning Door",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "7",
@@ -4161,7 +4161,7 @@
     },
     "trap206": {
         "id": "trap206",
-        "name": "Gibbering Head",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "7",
@@ -4169,7 +4169,7 @@
     },
     "trap142": {
         "id": "trap142",
-        "name": "Glyph of Ioun",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "7",
@@ -4177,7 +4177,7 @@
     },
     "trap907": {
         "id": "trap907",
-        "name": "Glyph of Warding",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "7",
@@ -4185,7 +4185,7 @@
     },
     "trap13": {
         "id": "trap13",
-        "name": "Glyph of Warding",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "7",
@@ -4193,7 +4193,7 @@
     },
     "trap258": {
         "id": "trap258",
-        "name": "Glyph of Warding (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "7",
@@ -4201,7 +4201,7 @@
     },
     "trap1100": {
         "id": "trap1100",
-        "name": "Glyph of Warding (necrotic)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "7",
@@ -4209,7 +4209,7 @@
     },
     "trap42": {
         "id": "trap42",
-        "name": "Gravity Sphere",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "7",
@@ -4217,7 +4217,7 @@
     },
     "trap268": {
         "id": "trap268",
-        "name": "Gravity Sphere (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "7",
@@ -4225,7 +4225,7 @@
     },
     "trap139": {
         "id": "trap139",
-        "name": "Pivoting Floor and Wall",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "7",
@@ -4233,7 +4233,7 @@
     },
     "trap1087": {
         "id": "trap1087",
-        "name": "Psychic Glyph",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "7",
@@ -4241,7 +4241,7 @@
     },
     "trap144": {
         "id": "trap144",
-        "name": "Shifting Stairs",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "7",
@@ -4249,7 +4249,7 @@
     },
     "trap1008": {
         "id": "trap1008",
-        "name": "Spinning Statue",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "7",
@@ -4257,7 +4257,7 @@
     },
     "trap1118": {
         "id": "trap1118",
-        "name": "Spring-Loaded Scythe Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "7",
@@ -4265,7 +4265,7 @@
     },
     "trap1025": {
         "id": "trap1025",
-        "name": "Tempest Glyph",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "7",
@@ -4273,7 +4273,7 @@
     },
     "trap298": {
         "id": "trap298",
-        "name": "Warding Hall Glyph (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "7",
@@ -4281,7 +4281,7 @@
     },
     "trap140": {
         "id": "trap140",
-        "name": "Water Pipe",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "7",
@@ -4289,7 +4289,7 @@
     },
     "trap912": {
         "id": "trap912",
-        "name": "Yarnath's Glyph of Warding",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "7",
@@ -4297,7 +4297,7 @@
     },
     "trap1140": {
         "id": "trap1140",
-        "name": "Animated Armory",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "8",
@@ -4305,7 +4305,7 @@
     },
     "trap1143": {
         "id": "trap1143",
-        "name": "Animated Crossbow",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "8",
@@ -4313,7 +4313,7 @@
     },
     "trap1144": {
         "id": "trap1144",
-        "name": "Animated Maul",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "8",
@@ -4321,7 +4321,7 @@
     },
     "trap1141": {
         "id": "trap1141",
-        "name": "Animated Rapier",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "8",
@@ -4329,7 +4329,7 @@
     },
     "trap1145": {
         "id": "trap1145",
-        "name": "Animated Shield",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "8",
@@ -4337,7 +4337,7 @@
     },
     "trap56": {
         "id": "trap56",
-        "name": "Blade Bridges",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "8",
@@ -4345,7 +4345,7 @@
     },
     "trap946": {
         "id": "trap946",
-        "name": "Caltrops",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "8",
@@ -4353,7 +4353,7 @@
     },
     "trap1001": {
         "id": "trap1001",
-        "name": "Flame Jet",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "8",
@@ -4361,7 +4361,7 @@
     },
     "trap15": {
         "id": "trap15",
-        "name": "Flame Jet",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "8",
@@ -4369,7 +4369,7 @@
     },
     "trap260": {
         "id": "trap260",
-        "name": "Flame Jet (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "8",
@@ -4377,7 +4377,7 @@
     },
     "trap53": {
         "id": "trap53",
-        "name": "Frost Jet Door Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "8",
@@ -4385,15 +4385,15 @@
     },
     "trap302": {
         "id": "trap302",
-        "name": "Ghostly Flame Jets",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "8",
         "sourcebook": "Dun167, DunAnnual"
     },
     "trap1121": {
         "id": "trap1121",
-        "name": "Gorgon Mud",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "8",
@@ -4401,7 +4401,7 @@
     },
     "trap67": {
         "id": "trap67",
-        "name": "Hellfire Spout",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "8",
@@ -4409,7 +4409,7 @@
     },
     "trap1139": {
         "id": "trap1139",
-        "name": "Illusory Monster",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "8",
@@ -4417,7 +4417,7 @@
     },
     "trap141": {
         "id": "trap141",
-        "name": "Inferno Room/Teleport Hall",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "8",
@@ -4425,7 +4425,7 @@
     },
     "trap1068": {
         "id": "trap1068",
-        "name": "Magic Gate",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "8",
@@ -4433,7 +4433,7 @@
     },
     "trap469": {
         "id": "trap469",
-        "name": "Mirror of Madness",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "8",
@@ -4441,7 +4441,7 @@
     },
     "trap1071": {
         "id": "trap1071",
-        "name": "Negation Portal",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "8",
@@ -4449,7 +4449,7 @@
     },
     "trap359": {
         "id": "trap359",
-        "name": "Scatter Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "8",
@@ -4457,7 +4457,7 @@
     },
     "trap360": {
         "id": "trap360",
-        "name": "Scatter Trap (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "8",
@@ -4465,7 +4465,7 @@
     },
     "trap1142": {
         "id": "trap1142",
-        "name": "Suit of Animated Armor",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "8",
@@ -4473,7 +4473,7 @@
     },
     "trap32": {
         "id": "trap32",
-        "name": "Water-Filling Chamber (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "8",
@@ -4481,7 +4481,7 @@
     },
     "trap60": {
         "id": "trap60",
-        "name": "Burning Adhesive",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "9",
@@ -4489,7 +4489,7 @@
     },
     "trap65": {
         "id": "trap65",
-        "name": "Collapsing Tracks",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "9",
@@ -4497,7 +4497,7 @@
     },
     "trap361": {
         "id": "trap361",
-        "name": "Fire Egg Fabrication",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "9",
@@ -4505,7 +4505,7 @@
     },
     "trap168": {
         "id": "trap168",
-        "name": "Ghoul Teeth",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "9",
@@ -4513,7 +4513,7 @@
     },
     "trap272": {
         "id": "trap272",
-        "name": "Ghoul Teeth (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "9",
@@ -4521,7 +4521,7 @@
     },
     "trap100": {
         "id": "trap100",
-        "name": "Spike Tube",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "9",
@@ -4529,7 +4529,7 @@
     },
     "trap1090": {
         "id": "trap1090",
-        "name": "Storm Ward",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "9",
@@ -4537,7 +4537,7 @@
     },
     "trap923": {
         "id": "trap923",
-        "name": "Blood Feast Ward",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "10",
@@ -4545,7 +4545,7 @@
     },
     "trap194": {
         "id": "trap194",
-        "name": "Caustic Blast (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "10",
@@ -4553,7 +4553,7 @@
     },
     "trap102": {
         "id": "trap102",
-        "name": "Daggerspring Floor",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "10",
@@ -4561,7 +4561,7 @@
     },
     "trap49": {
         "id": "trap49",
-        "name": "Deathgrasp Sarcophagus",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "10",
@@ -4569,7 +4569,7 @@
     },
     "trap1002": {
         "id": "trap1002",
-        "name": "Electrified Floor",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "10",
@@ -4577,7 +4577,7 @@
     },
     "trap17": {
         "id": "trap17",
-        "name": "Electrified Floor",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "10",
@@ -4585,7 +4585,7 @@
     },
     "trap261": {
         "id": "trap261",
-        "name": "Electrified Floor (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "10",
@@ -4593,7 +4593,7 @@
     },
     "trap1026": {
         "id": "trap1026",
-        "name": "Far Transport",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "10",
@@ -4601,7 +4601,7 @@
     },
     "trap44": {
         "id": "trap44",
-        "name": "Fighter-Flinger",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "10",
@@ -4609,7 +4609,7 @@
     },
     "trap269": {
         "id": "trap269",
-        "name": "Fighter-Flinger (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "10",
@@ -4617,7 +4617,7 @@
     },
     "trap149": {
         "id": "trap149",
-        "name": "Grasping Bones",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "10",
@@ -4625,7 +4625,7 @@
     },
     "trap484": {
         "id": "trap484",
-        "name": "Lidded-Eye Obelisk",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "10",
@@ -4633,7 +4633,7 @@
     },
     "trap1015": {
         "id": "trap1015",
-        "name": "Mirror of Life Trapping",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "10",
@@ -4641,7 +4641,7 @@
     },
     "trap58": {
         "id": "trap58",
-        "name": "Phantasmal Maw (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "10",
@@ -4649,7 +4649,7 @@
     },
     "trap150": {
         "id": "trap150",
-        "name": "Stranglemist Death Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Solo",
         "level": "10",
@@ -4657,7 +4657,7 @@
     },
     "trap1151": {
         "id": "trap1151",
-        "name": "Trapped Chest",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "10",
@@ -4665,7 +4665,7 @@
     },
     "trap59": {
         "id": "trap59",
-        "name": "Venomous Floor (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "10",
@@ -4673,7 +4673,7 @@
     },
     "trap944": {
         "id": "trap944",
-        "name": "Warped Magic",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "10",
@@ -4681,7 +4681,7 @@
     },
     "trap470": {
         "id": "trap470",
-        "name": "Altar of Pazuzu",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "11",
@@ -4689,7 +4689,7 @@
     },
     "trap33": {
         "id": "trap33",
-        "name": "Crushing Walls Room (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "11",
@@ -4697,7 +4697,7 @@
     },
     "trap486": {
         "id": "trap486",
-        "name": "Game Table",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "11",
@@ -4705,7 +4705,7 @@
     },
     "trap1075": {
         "id": "trap1075",
-        "name": "Mirroring Portal",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "11",
@@ -4713,7 +4713,7 @@
     },
     "trap1070": {
         "id": "trap1070",
-        "name": "Portal of Powerlessness",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "11",
@@ -4721,7 +4721,7 @@
     },
     "trap443": {
         "id": "trap443",
-        "name": "Rising and Falling Blocks",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "11",
@@ -4729,7 +4729,7 @@
     },
     "trap485": {
         "id": "trap485",
-        "name": "Water Serpent",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "11",
@@ -4737,7 +4737,7 @@
     },
     "trap115": {
         "id": "trap115",
-        "name": "Booby-Trapped Passage",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "12",
@@ -4745,7 +4745,7 @@
     },
     "trap109": {
         "id": "trap109",
-        "name": "Crushing Walls and Ceiling",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "12",
@@ -4753,7 +4753,7 @@
     },
     "trap364": {
         "id": "trap364",
-        "name": "Fake Lair Entrance",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Solo",
         "level": "12",
@@ -4761,7 +4761,7 @@
     },
     "trap329": {
         "id": "trap329",
-        "name": "Ooze Tile",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "12",
@@ -4769,7 +4769,7 @@
     },
     "trap50": {
         "id": "trap50",
-        "name": "Phaseweb",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "12",
@@ -4777,7 +4777,7 @@
     },
     "trap107": {
         "id": "trap107",
-        "name": "Psychic Sinkhole (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "12",
@@ -4785,7 +4785,7 @@
     },
     "trap207": {
         "id": "trap207",
-        "name": "Anefsina's Spectral Tendrils",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "13",
@@ -4793,7 +4793,7 @@
     },
     "trap330": {
         "id": "trap330",
-        "name": "Arcane Cage",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "13",
@@ -4801,7 +4801,7 @@
     },
     "trap64": {
         "id": "trap64",
-        "name": "Collapsing Tunnel",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "13",
@@ -4809,7 +4809,7 @@
     },
     "trap1078": {
         "id": "trap1078",
-        "name": "Dread Portal",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "13",
@@ -4817,7 +4817,7 @@
     },
     "trap487": {
         "id": "trap487",
-        "name": "Lightning Doors",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "13",
@@ -4825,7 +4825,7 @@
     },
     "trap1022": {
         "id": "trap1022",
-        "name": "Picket Skull",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "13",
@@ -4833,7 +4833,7 @@
     },
     "trap104": {
         "id": "trap104",
-        "name": "Radiant Tendrils",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "13",
@@ -4841,7 +4841,7 @@
     },
     "trap325": {
         "id": "trap325",
-        "name": "River Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "13",
@@ -4849,7 +4849,7 @@
     },
     "trap1003": {
         "id": "trap1003",
-        "name": "Spectral Tendrils",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "13",
@@ -4857,7 +4857,7 @@
     },
     "trap18": {
         "id": "trap18",
-        "name": "Spectral Tendrils",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "13",
@@ -4865,7 +4865,7 @@
     },
     "trap324": {
         "id": "trap324",
-        "name": "Steel Maw",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "13",
@@ -4873,7 +4873,7 @@
     },
     "trap1023": {
         "id": "trap1023",
-        "name": "Wall of Madness",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "13",
@@ -4881,7 +4881,7 @@
     },
     "trap112": {
         "id": "trap112",
-        "name": "False Orrery",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Solo",
         "level": "14",
@@ -4889,7 +4889,7 @@
     },
     "trap158": {
         "id": "trap158",
-        "name": "Gauntlet Trap (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "14",
@@ -4897,7 +4897,7 @@
     },
     "trap34": {
         "id": "trap34",
-        "name": "Giant Rolling Boulder",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "14",
@@ -4905,7 +4905,7 @@
     },
     "trap326": {
         "id": "trap326",
-        "name": "Lightning Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "14",
@@ -4913,7 +4913,7 @@
     },
     "trap489": {
         "id": "trap489",
-        "name": "Perilous Archways",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "14",
@@ -4921,7 +4921,7 @@
     },
     "trap1093": {
         "id": "trap1093",
-        "name": "Possessed Boom",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "14",
@@ -4929,7 +4929,7 @@
     },
     "trap1094": {
         "id": "trap1094",
-        "name": "Possessed Hatch",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "14",
@@ -4937,7 +4937,7 @@
     },
     "trap1095": {
         "id": "trap1095",
-        "name": "Possessed Sails",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "14",
@@ -4945,7 +4945,7 @@
     },
     "trap71": {
         "id": "trap71",
-        "name": "Rock Flingers",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "14",
@@ -4953,7 +4953,7 @@
     },
     "trap151": {
         "id": "trap151",
-        "name": "Stone Cauldron",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "14",
@@ -4961,7 +4961,7 @@
     },
     "trap918": {
         "id": "trap918",
-        "name": "Stone Tentacle",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "14",
@@ -4969,7 +4969,7 @@
     },
     "trap20": {
         "id": "trap20",
-        "name": "Altar of Zealotry",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "15",
@@ -4977,7 +4977,7 @@
     },
     "trap179": {
         "id": "trap179",
-        "name": "Altar of Zealotry (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "15",
@@ -4985,7 +4985,7 @@
     },
     "trap488": {
         "id": "trap488",
-        "name": "Blind Devourer",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "15",
@@ -4993,7 +4993,7 @@
     },
     "trap1109": {
         "id": "trap1109",
-        "name": "Crocodile Font",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "15",
@@ -5001,7 +5001,7 @@
     },
     "trap180": {
         "id": "trap180",
-        "name": "Crushing Manacles",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "15",
@@ -5009,7 +5009,7 @@
     },
     "trap367": {
         "id": "trap367",
-        "name": "Dragon Simulacrum",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "15",
@@ -5017,7 +5017,7 @@
     },
     "trap368": {
         "id": "trap368",
-        "name": "Dragon Simulacrum (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "15",
@@ -5025,7 +5025,7 @@
     },
     "trap1111": {
         "id": "trap1111",
-        "name": "Drowning Vault",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "15",
@@ -5033,7 +5033,7 @@
     },
     "trap490": {
         "id": "trap490",
-        "name": "Eternal Tapestries",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "15",
@@ -5041,7 +5041,7 @@
     },
     "trap1097": {
         "id": "trap1097",
-        "name": "Gate of Zealotry",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "15",
@@ -5049,7 +5049,7 @@
     },
     "trap72": {
         "id": "trap72",
-        "name": "Mind-Control Pillars",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "15",
@@ -5057,7 +5057,7 @@
     },
     "trap1115": {
         "id": "trap1115",
-        "name": "Mold King's Casket",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "15",
@@ -5065,7 +5065,7 @@
     },
     "trap205": {
         "id": "trap205",
-        "name": "Spectral Hands",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "15",
@@ -5073,7 +5073,7 @@
     },
     "trap278": {
         "id": "trap278",
-        "name": "Spectral Hands (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "15",
@@ -5081,7 +5081,7 @@
     },
     "trap45": {
         "id": "trap45",
-        "name": "Spinning Column of Death (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "15",
@@ -5089,7 +5089,7 @@
     },
     "trap208": {
         "id": "trap208",
-        "name": "Ssra-Tauroch's Altar of Zealotry",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "15",
@@ -5097,7 +5097,7 @@
     },
     "trap1106": {
         "id": "trap1106",
-        "name": "Tapestry of Breathtaking Beauty",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "15",
@@ -5105,7 +5105,7 @@
     },
     "trap114": {
         "id": "trap114",
-        "name": "True Orrery (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "15",
@@ -5113,7 +5113,7 @@
     },
     "trap514": {
         "id": "trap514",
-        "name": "Widow's Web",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "15",
@@ -5121,7 +5121,7 @@
     },
     "trap513": {
         "id": "trap513",
-        "name": "Widow's Web",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "15",
@@ -5129,7 +5129,7 @@
     },
     "trap316": {
         "id": "trap316",
-        "name": "Death Strangler Statue",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "16",
@@ -5137,15 +5137,15 @@
     },
     "trap317": {
         "id": "trap317",
-        "name": "Elemental Tiles",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "16",
         "sourcebook": "DMG2"
     },
     "trap182": {
         "id": "trap182",
-        "name": "Far Realm Insanity Portal",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "16",
@@ -5153,7 +5153,7 @@
     },
     "trap328": {
         "id": "trap328",
-        "name": "Fire Cage",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "16",
@@ -5161,7 +5161,7 @@
     },
     "trap331": {
         "id": "trap331",
-        "name": "Flash Frost Shaft",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "16",
@@ -5169,7 +5169,7 @@
     },
     "trap1102": {
         "id": "trap1102",
-        "name": "Hollow Locked Doors",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "16",
@@ -5177,7 +5177,7 @@
     },
     "trap160": {
         "id": "trap160",
-        "name": "Howling Skulls",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "16",
@@ -5185,7 +5185,7 @@
     },
     "trap113": {
         "id": "trap113",
-        "name": "Malachi's Grasping Mist (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "16",
@@ -5193,7 +5193,7 @@
     },
     "trap111": {
         "id": "trap111",
-        "name": "Psychic Scream Ward (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "16",
@@ -5201,7 +5201,7 @@
     },
     "trap327": {
         "id": "trap327",
-        "name": "Spiked Floor",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "16",
@@ -5209,7 +5209,7 @@
     },
     "trap1103": {
         "id": "trap1103",
-        "name": "Starwarp Vortex",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Solo",
         "level": "16",
@@ -5217,7 +5217,7 @@
     },
     "trap170": {
         "id": "trap170",
-        "name": "Thief's Curse",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "16",
@@ -5225,7 +5225,7 @@
     },
     "trap274": {
         "id": "trap274",
-        "name": "Thief's Curse (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "16",
@@ -5233,7 +5233,7 @@
     },
     "trap1058": {
         "id": "trap1058",
-        "name": "Acid Spray Chest",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "17",
@@ -5241,7 +5241,7 @@
     },
     "trap369": {
         "id": "trap369",
-        "name": "Echo Gems",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "17",
@@ -5249,7 +5249,7 @@
     },
     "trap370": {
         "id": "trap370",
-        "name": "Echo Gems (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "17",
@@ -5257,7 +5257,7 @@
     },
     "trap159": {
         "id": "trap159",
-        "name": "Ghoul Gate",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "17",
@@ -5265,7 +5265,7 @@
     },
     "trap163": {
         "id": "trap163",
-        "name": "Necrotized Floor",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "17",
@@ -5273,7 +5273,7 @@
     },
     "trap506": {
         "id": "trap506",
-        "name": "Pillars of Shadow",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "17",
@@ -5281,7 +5281,7 @@
     },
     "trap1064": {
         "id": "trap1064",
-        "name": "Tectuktitlay's Narrows",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "17",
@@ -5289,7 +5289,7 @@
     },
     "trap493": {
         "id": "trap493",
-        "name": "Warded Doors",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "17",
@@ -5297,7 +5297,7 @@
     },
     "trap130": {
         "id": "trap130",
-        "name": "Angel of Desolation",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "18",
@@ -5305,7 +5305,7 @@
     },
     "trap129": {
         "id": "trap129",
-        "name": "Angel of Madness",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "18",
@@ -5313,7 +5313,7 @@
     },
     "trap1055": {
         "id": "trap1055",
-        "name": "Billowing Cauldron",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "18",
@@ -5321,7 +5321,7 @@
     },
     "trap310": {
         "id": "trap310",
-        "name": "Breath of Tiamat",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "18",
@@ -5329,7 +5329,7 @@
     },
     "trap1009": {
         "id": "trap1009",
-        "name": "Crypt Thing",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "18",
@@ -5337,7 +5337,7 @@
     },
     "trap333": {
         "id": "trap333",
-        "name": "Freezing Moat",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "18",
@@ -5345,7 +5345,7 @@
     },
     "trap499": {
         "id": "trap499",
-        "name": "Golden Mist",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "18",
@@ -5353,7 +5353,7 @@
     },
     "trap165": {
         "id": "trap165",
-        "name": "Ice Ring",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "18",
@@ -5361,7 +5361,7 @@
     },
     "trap1053": {
         "id": "trap1053",
-        "name": "Inferno Pillars",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "18",
@@ -5369,7 +5369,7 @@
     },
     "trap164": {
         "id": "trap164",
-        "name": "Lightning Obelisk (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "18",
@@ -5377,7 +5377,7 @@
     },
     "trap1086": {
         "id": "trap1086",
-        "name": "Mechanical Arm",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "18",
@@ -5385,7 +5385,7 @@
     },
     "trap1112": {
         "id": "trap1112",
-        "name": "Medusa Statue",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "18",
@@ -5393,7 +5393,7 @@
     },
     "trap498": {
         "id": "trap498",
-        "name": "Moilian Heart",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "18",
@@ -5401,7 +5401,7 @@
     },
     "trap1052": {
         "id": "trap1052",
-        "name": "Obsidian Doors",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "18",
@@ -5409,15 +5409,15 @@
     },
     "trap318": {
         "id": "trap318",
-        "name": "Phantom Hunter",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "18",
         "sourcebook": "DMG2, Dun180"
     },
     "trap118": {
         "id": "trap118",
-        "name": "Seed of Winter",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "18",
@@ -5425,7 +5425,7 @@
     },
     "trap1054": {
         "id": "trap1054",
-        "name": "Soul Mirror",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "18",
@@ -5433,7 +5433,7 @@
     },
     "trap1066": {
         "id": "trap1066",
-        "name": "Tectuktitlay's Slow Death",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "18",
@@ -5441,7 +5441,7 @@
     },
     "trap209": {
         "id": "trap209",
-        "name": "Vecna's Revenge (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "18",
@@ -5449,7 +5449,7 @@
     },
     "trap1060": {
         "id": "trap1060",
-        "name": "Wall of Tentacles",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "18",
@@ -5457,7 +5457,7 @@
     },
     "trap1059": {
         "id": "trap1059",
-        "name": "Altar of the Eye",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "19",
@@ -5465,15 +5465,15 @@
     },
     "trap305": {
         "id": "trap305",
-        "name": "Astral Vents",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "19",
         "sourcebook": "Dun167"
     },
     "trap128": {
         "id": "trap128",
-        "name": "Breath of Bahamut",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "19",
@@ -5481,7 +5481,7 @@
     },
     "trap1062": {
         "id": "trap1062",
-        "name": "Crystal Idol of Imix",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "19",
@@ -5489,7 +5489,7 @@
     },
     "trap500": {
         "id": "trap500",
-        "name": "Defaced Devourer",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "19",
@@ -5497,7 +5497,7 @@
     },
     "trap472": {
         "id": "trap472",
-        "name": "Demonskin Tapestry",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "19",
@@ -5505,7 +5505,7 @@
     },
     "trap122": {
         "id": "trap122",
-        "name": "Kinetic Arches",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "19",
@@ -5513,7 +5513,7 @@
     },
     "trap22": {
         "id": "trap22",
-        "name": "Kinetic Wave",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "19",
@@ -5521,7 +5521,7 @@
     },
     "trap371": {
         "id": "trap371",
-        "name": "Lightning Siphon",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "19",
@@ -5529,7 +5529,7 @@
     },
     "trap372": {
         "id": "trap372",
-        "name": "Lightning Siphon (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "19",
@@ -5537,7 +5537,7 @@
     },
     "trap373": {
         "id": "trap373",
-        "name": "Lightning Siphon (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "19",
@@ -5545,7 +5545,7 @@
     },
     "trap374": {
         "id": "trap374",
-        "name": "Lightning Siphon (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "19",
@@ -5553,7 +5553,7 @@
     },
     "trap447": {
         "id": "trap447",
-        "name": "Magic Force Bridge",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "19",
@@ -5561,7 +5561,7 @@
     },
     "trap1065": {
         "id": "trap1065",
-        "name": "Tectuktitlay's Observer",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "19",
@@ -5569,7 +5569,7 @@
     },
     "trap123": {
         "id": "trap123",
-        "name": "Void Extrusion",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "19",
@@ -5577,7 +5577,7 @@
     },
     "trap501": {
         "id": "trap501",
-        "name": "White Altar",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Solo",
         "level": "19",
@@ -5585,7 +5585,7 @@
     },
     "trap46": {
         "id": "trap46",
-        "name": "Bouncing Barrage (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "20",
@@ -5593,7 +5593,7 @@
     },
     "trap1012": {
         "id": "trap1012",
-        "name": "Glyph of Changes",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "20",
@@ -5601,15 +5601,15 @@
     },
     "trap319": {
         "id": "trap319",
-        "name": "Pain Vault",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "20",
         "sourcebook": "DMG2"
     },
     "trap287": {
         "id": "trap287",
-        "name": "Pillar of Zealotry",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "20",
@@ -5617,7 +5617,7 @@
     },
     "trap1063": {
         "id": "trap1063",
-        "name": "Rockfire Obelisk",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "20",
@@ -5625,7 +5625,7 @@
     },
     "trap379": {
         "id": "trap379",
-        "name": "That Which Should Not Be",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "20",
@@ -5633,7 +5633,7 @@
     },
     "trap1148": {
         "id": "trap1148",
-        "name": "Collapsing Floor Puzzle",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "21",
@@ -5641,7 +5641,7 @@
     },
     "trap375": {
         "id": "trap375",
-        "name": "Grasping Stalagmites",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "21",
@@ -5649,7 +5649,7 @@
     },
     "trap376": {
         "id": "trap376",
-        "name": "Grasping Stalagmites (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "21",
@@ -5657,7 +5657,7 @@
     },
     "trap75": {
         "id": "trap75",
-        "name": "Pain Pyramid",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "21",
@@ -5665,7 +5665,7 @@
     },
     "trap81": {
         "id": "trap81",
-        "name": "Force Cascade",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "22",
@@ -5673,7 +5673,7 @@
     },
     "trap1051": {
         "id": "trap1051",
-        "name": "Rolling Ball of Ice",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "22",
@@ -5681,7 +5681,7 @@
     },
     "trap125": {
         "id": "trap125",
-        "name": "Acid Pit",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "23",
@@ -5689,7 +5689,7 @@
     },
     "trap124": {
         "id": "trap124",
-        "name": "Altar of Compassion",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "23",
@@ -5697,7 +5697,7 @@
     },
     "trap126": {
         "id": "trap126",
-        "name": "Endless Fall",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "23",
@@ -5705,7 +5705,7 @@
     },
     "trap416": {
         "id": "trap416",
-        "name": "Entropic Collapse",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "23",
@@ -5713,7 +5713,7 @@
     },
     "trap127": {
         "id": "trap127",
-        "name": "Mist of Storm",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "23",
@@ -5721,7 +5721,7 @@
     },
     "trap187": {
         "id": "trap187",
-        "name": "Necrotic Tiles (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "23",
@@ -5729,7 +5729,7 @@
     },
     "trap507": {
         "id": "trap507",
-        "name": "Nerull's Claws",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "23",
@@ -5737,7 +5737,7 @@
     },
     "trap186": {
         "id": "trap186",
-        "name": "Primordial Flame Jet",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "23",
@@ -5745,7 +5745,7 @@
     },
     "trap82": {
         "id": "trap82",
-        "name": "Radiant Blades",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "23",
@@ -5753,7 +5753,7 @@
     },
     "trap473": {
         "id": "trap473",
-        "name": "Slaughter Monolith",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "23",
@@ -5761,7 +5761,7 @@
     },
     "trap121": {
         "id": "trap121",
-        "name": "Stasis Vault",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "23",
@@ -5769,7 +5769,7 @@
     },
     "trap383": {
         "id": "trap383",
-        "name": "Tiamat Mosaic",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "23",
@@ -5777,7 +5777,7 @@
     },
     "trap502": {
         "id": "trap502",
-        "name": "Blade Cluster",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "24",
@@ -5785,7 +5785,7 @@
     },
     "trap86": {
         "id": "trap86",
-        "name": "Death Forest",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "24",
@@ -5793,7 +5793,7 @@
     },
     "trap210": {
         "id": "trap210",
-        "name": "Demon Brazier",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "24",
@@ -5801,7 +5801,7 @@
     },
     "trap184": {
         "id": "trap184",
-        "name": "Eye of Eradication (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "24",
@@ -5809,7 +5809,7 @@
     },
     "trap183": {
         "id": "trap183",
-        "name": "Four Winds Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "24",
@@ -5817,7 +5817,7 @@
     },
     "trap285": {
         "id": "trap285",
-        "name": "Grounding Fire Braziers",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "24",
@@ -5825,7 +5825,7 @@
     },
     "trap377": {
         "id": "trap377",
-        "name": "Haunting Conscience",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "24",
@@ -5833,7 +5833,7 @@
     },
     "trap378": {
         "id": "trap378",
-        "name": "Haunting Conscience (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "24",
@@ -5841,7 +5841,7 @@
     },
     "trap288": {
         "id": "trap288",
-        "name": "Pillar of Kinetic Waves",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "24",
@@ -5849,7 +5849,7 @@
     },
     "trap286": {
         "id": "trap286",
-        "name": "Roaming Toad",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "24",
@@ -5857,7 +5857,7 @@
     },
     "trap24": {
         "id": "trap24",
-        "name": "Symbol of Suffering",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "24",
@@ -5865,7 +5865,7 @@
     },
     "trap84": {
         "id": "trap84",
-        "name": "Symbols of Insanity",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "24",
@@ -5873,7 +5873,7 @@
     },
     "trap381": {
         "id": "trap381",
-        "name": "Venomous Tree",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "24",
@@ -5881,7 +5881,7 @@
     },
     "trap85": {
         "id": "trap85",
-        "name": "Vileshadow Mist",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "24",
@@ -5889,7 +5889,7 @@
     },
     "trap93": {
         "id": "trap93",
-        "name": "Breathing Door (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "25",
@@ -5897,7 +5897,7 @@
     },
     "trap97": {
         "id": "trap97",
-        "name": "Claws of Sand",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "25",
@@ -5905,7 +5905,7 @@
     },
     "trap94": {
         "id": "trap94",
-        "name": "Dragon Blades",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "25",
@@ -5913,7 +5913,7 @@
     },
     "trap422": {
         "id": "trap422",
-        "name": "Forgeworks",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "25",
@@ -5921,7 +5921,7 @@
     },
     "trap289": {
         "id": "trap289",
-        "name": "Gorgimrith's Maw (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "25",
@@ -5929,7 +5929,7 @@
     },
     "trap173": {
         "id": "trap173",
-        "name": "Hellish Halberd (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "25",
@@ -5937,7 +5937,7 @@
     },
     "trap1107": {
         "id": "trap1107",
-        "name": "Imprisoning Threads",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "25",
@@ -5945,7 +5945,7 @@
     },
     "trap98": {
         "id": "trap98",
-        "name": "Jaws of Death (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "25",
@@ -5953,7 +5953,7 @@
     },
     "trap420": {
         "id": "trap420",
-        "name": "Platinum Seal",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "25",
@@ -5961,7 +5961,7 @@
     },
     "trap96": {
         "id": "trap96",
-        "name": "Sweeping Halberd (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "25",
@@ -5969,7 +5969,7 @@
     },
     "trap505": {
         "id": "trap505",
-        "name": "White Pool",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "25",
@@ -5977,7 +5977,7 @@
     },
     "trap291": {
         "id": "trap291",
-        "name": "Blood-Filling Chamber",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "26",
@@ -5985,7 +5985,7 @@
     },
     "trap385": {
         "id": "trap385",
-        "name": "Dawnbell",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "26",
@@ -5993,7 +5993,7 @@
     },
     "trap89": {
         "id": "trap89",
-        "name": "Dread Pit (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "26",
@@ -6001,7 +6001,7 @@
     },
     "trap99": {
         "id": "trap99",
-        "name": "Earthen Wyvern",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "26",
@@ -6009,7 +6009,7 @@
     },
     "trap421": {
         "id": "trap421",
-        "name": "Eye of Bahamut",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Solo",
         "level": "26",
@@ -6017,7 +6017,7 @@
     },
     "trap51": {
         "id": "trap51",
-        "name": "False Demilich",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Solo",
         "level": "26",
@@ -6025,7 +6025,7 @@
     },
     "trap445": {
         "id": "trap445",
-        "name": "Far Realm Gate",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "26",
@@ -6033,7 +6033,7 @@
     },
     "trap321": {
         "id": "trap321",
-        "name": "Far Realm Star Trap (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "26",
@@ -6041,15 +6041,15 @@
     },
     "trap90": {
         "id": "trap90",
-        "name": "Mirrors of Dark Visions",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "26",
         "sourcebook": "Dun160"
     },
     "trap415": {
         "id": "trap415",
-        "name": "Serpent-Twined Statue",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "26",
@@ -6057,7 +6057,7 @@
     },
     "trap88": {
         "id": "trap88",
-        "name": "Slashing Portcullis (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "26",
@@ -6065,7 +6065,7 @@
     },
     "trap1006": {
         "id": "trap1006",
-        "name": "Soul Gem",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "26",
@@ -6073,7 +6073,7 @@
     },
     "trap25": {
         "id": "trap25",
-        "name": "Soul Gem",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Solo",
         "level": "26",
@@ -6081,7 +6081,7 @@
     },
     "trap292": {
         "id": "trap292",
-        "name": "Soul Gem",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Solo",
         "level": "26",
@@ -6089,7 +6089,7 @@
     },
     "trap290": {
         "id": "trap290",
-        "name": "Symbol of Suffering",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "26",
@@ -6097,7 +6097,7 @@
     },
     "trap87": {
         "id": "trap87",
-        "name": "Tiamat Doors (Elite)",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Elite",
         "level": "26",
@@ -6105,7 +6105,7 @@
     },
     "trap92": {
         "id": "trap92",
-        "name": "Eye of Zaggoth",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Solo",
         "level": "27",
@@ -6113,7 +6113,7 @@
     },
     "trap483": {
         "id": "trap483",
-        "name": "Portal to Abysm",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "27",
@@ -6121,7 +6121,7 @@
     },
     "trap83": {
         "id": "trap83",
-        "name": "Shooting Star",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "27",
@@ -6129,7 +6129,7 @@
     },
     "trap446": {
         "id": "trap446",
-        "name": "Death Strangler Vines",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "28",
@@ -6137,7 +6137,7 @@
     },
     "trap342": {
         "id": "trap342",
-        "name": "Forgesong",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "28",
@@ -6145,15 +6145,15 @@
     },
     "trap322": {
         "id": "trap322",
-        "name": "Maddening Mural",
+        "name": "Trap",
         "type": "Trap",
-        "grouprole": "None",
+        "grouprole": "",
         "level": "29",
         "sourcebook": "DMG2"
     },
     "trap1007": {
         "id": "trap1007",
-        "name": "Sphere of Annihilation",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
         "level": "29",
@@ -6161,7 +6161,7 @@
     },
     "trap1017": {
         "id": "trap1017",
-        "name": "Symbol of Death",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "29",
@@ -6169,7 +6169,7 @@
     },
     "trap346": {
         "id": "trap346",
-        "name": "Alluring Obelisks",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "30",
@@ -6177,7 +6177,7 @@
     },
     "trap175": {
         "id": "trap175",
-        "name": "Five-Headed Trap",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Standard",
         "level": "30",
@@ -6185,7 +6185,7 @@
     },
     "trap448": {
         "id": "trap448",
-        "name": "Tornado Alley",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "Minion",
         "level": "30",
@@ -6193,18 +6193,18 @@
     },
     "trap1072": {
         "id": "trap1072",
-        "name": "Reanimation Doorway",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
-        "level": "Variable",
+        "level": "Varies",
         "sourcebook": "Dun201"
     },
     "trap1077": {
         "id": "trap1077",
-        "name": "Summoning Portal",
+        "name": "Trap",
         "type": "Trap",
         "grouprole": "None",
-        "level": "Variable",
+        "level": "Varies",
         "sourcebook": "Dun201"
     }
 }

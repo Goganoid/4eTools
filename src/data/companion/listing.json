@@ -1,7 +1,7 @@
 {
     "associate5": {
         "id": "associate5",
-        "name": "Bear Animal Companion",
+        "name": "Companion",
         "type": "Animal Companion",
         "size": "Medium",
         "creaturetype": "Beast, Natural",
@@ -9,7 +9,7 @@
     },
     "associate64": {
         "id": "associate64",
-        "name": "Living Zephyr",
+        "name": "Companion",
         "type": "Animal Companion",
         "size": "Medium",
         "creaturetype": "Beast, Elemental, Magical",
@@ -17,7 +17,7 @@
     },
     "associate58": {
         "id": "associate58",
-        "name": "Quasit Companion",
+        "name": "Companion",
         "type": "Animal Companion",
         "size": "Tiny",
         "creaturetype": "Demon, Elemental, Humanoid",
@@ -25,7 +25,7 @@
     },
     "associate1": {
         "id": "associate1",
-        "name": "Wolf Animal Companion",
+        "name": "Companion",
         "type": "Animal Companion",
         "size": "Medium",
         "creaturetype": "Beast, Natural",
@@ -33,7 +33,7 @@
     },
     "companion1": {
         "id": "companion1",
-        "name": "Bear",
+        "name": "Companion",
         "type": "Companion",
         "size": "Medium",
         "creaturetype": "Beast, Natural",
@@ -41,7 +41,7 @@
     },
     "companion2": {
         "id": "companion2",
-        "name": "Boar",
+        "name": "Companion",
         "type": "Companion",
         "size": "Medium",
         "creaturetype": "Beast, Natural",
@@ -49,7 +49,7 @@
     },
     "companion3": {
         "id": "companion3",
-        "name": "Cat",
+        "name": "Companion",
         "type": "Companion",
         "size": "Medium",
         "creaturetype": "Beast, Natural",
@@ -57,7 +57,7 @@
     },
     "companion90": {
         "id": "companion90",
-        "name": "Horse",
+        "name": "Companion",
         "type": "Companion",
         "size": "Medium or Large",
         "creaturetype": "Beast, Mount, Natural",
@@ -65,7 +65,7 @@
     },
     "companion4": {
         "id": "companion4",
-        "name": "Lizard",
+        "name": "Companion",
         "type": "Companion",
         "size": "Medium",
         "creaturetype": "Beast, Natural, Reptile",
@@ -73,7 +73,7 @@
     },
     "companion5": {
         "id": "companion5",
-        "name": "Raptor",
+        "name": "Companion",
         "type": "Companion",
         "size": "Small",
         "creaturetype": "Beast, Natural",
@@ -81,7 +81,7 @@
     },
     "companion6": {
         "id": "companion6",
-        "name": "Serpent",
+        "name": "Companion",
         "type": "Companion",
         "size": "Medium",
         "creaturetype": "Beast, Natural, Reptile",
@@ -89,7 +89,7 @@
     },
     "companion91": {
         "id": "companion91",
-        "name": "Simian",
+        "name": "Companion",
         "type": "Companion",
         "size": "Small or Medium",
         "creaturetype": "Beast, Natural",
@@ -97,7 +97,7 @@
     },
     "companion7": {
         "id": "companion7",
-        "name": "Spider",
+        "name": "Companion",
         "type": "Companion",
         "size": "Medium",
         "creaturetype": "Beast, Natural",
@@ -105,7 +105,7 @@
     },
     "companion54": {
         "id": "companion54",
-        "name": "Vadalis-bred Griffon",
+        "name": "Companion",
         "type": "Companion",
         "size": "Large",
         "creaturetype": "Beast, Mount, Natural",
@@ -113,7 +113,7 @@
     },
     "companion8": {
         "id": "companion8",
-        "name": "Wolf",
+        "name": "Companion",
         "type": "Companion",
         "size": "Medium",
         "creaturetype": "Beast, Natural",
@@ -121,7 +121,7 @@
     },
     "associate79": {
         "id": "associate79",
-        "name": "Arctine",
+        "name": "Companion",
         "type": "Elemental Companion",
         "size": "Small",
         "creaturetype": "Cold, Elemental, Humanoid",
@@ -129,7 +129,7 @@
     },
     "associate80": {
         "id": "associate80",
-        "name": "Automaton",
+        "name": "Companion",
         "type": "Elemental Companion",
         "size": "Small",
         "creaturetype": "Construct, Elemental, Humanoid",
@@ -137,7 +137,7 @@
     },
     "associate81": {
         "id": "associate81",
-        "name": "Chaos Phage",
+        "name": "Companion",
         "type": "Elemental Companion",
         "size": "Small",
         "creaturetype": "Beast, Elemental, Magical",
@@ -145,7 +145,7 @@
     },
     "associate84": {
         "id": "associate84",
-        "name": "Crysmalite",
+        "name": "Companion",
         "type": "Elemental Companion",
         "size": "Small",
         "creaturetype": "Beast, Elemental, Magical, Spider",
@@ -153,7 +153,7 @@
     },
     "associate85": {
         "id": "associate85",
-        "name": "Flame Serpent",
+        "name": "Companion",
         "type": "Elemental Companion",
         "size": "Small",
         "creaturetype": "Beast, Elemental, Fire, Magical",
@@ -161,7 +161,7 @@
     },
     "associate86": {
         "id": "associate86",
-        "name": "Hordeling",
+        "name": "Companion",
         "type": "Elemental Companion",
         "size": "Small",
         "creaturetype": "Demon, Elemental, Humanoid",
@@ -169,7 +169,7 @@
     },
     "associate88": {
         "id": "associate88",
-        "name": "Magmin",
+        "name": "Companion",
         "type": "Elemental Companion",
         "size": "Medium",
         "creaturetype": "Earth, Elemental, Fire, Humanoid",
@@ -177,7 +177,7 @@
     },
     "associate87": {
         "id": "associate87",
-        "name": "Mud Wretch",
+        "name": "Companion",
         "type": "Elemental Companion",
         "size": "Small",
         "creaturetype": "Beast, Earth, Elemental, Magical, Water",
@@ -185,7 +185,7 @@
     },
     "associate89": {
         "id": "associate89",
-        "name": "Nereid",
+        "name": "Companion",
         "type": "Elemental Companion",
         "size": "Small",
         "creaturetype": "Aquatic, Elemental, Humanoid, Water",
@@ -193,7 +193,7 @@
     },
     "associate90": {
         "id": "associate90",
-        "name": "Pech",
+        "name": "Companion",
         "type": "Elemental Companion",
         "size": "Small",
         "creaturetype": "Earth, Elemental, Humanoid",
@@ -201,7 +201,7 @@
     },
     "associate91": {
         "id": "associate91",
-        "name": "Storm Talon",
+        "name": "Companion",
         "type": "Elemental Companion",
         "size": "Small",
         "creaturetype": "Beast, Elemental, Magical",
@@ -209,7 +209,7 @@
     },
     "associate92": {
         "id": "associate92",
-        "name": "Sylph",
+        "name": "Companion",
         "type": "Elemental Companion",
         "size": "Medium",
         "creaturetype": "Air, Elemental, Humanoid",
@@ -217,7 +217,7 @@
     },
     "companion36": {
         "id": "companion36",
-        "name": "Air Mephit",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -225,7 +225,7 @@
     },
     "companion70": {
         "id": "companion70",
-        "name": "Ambush Vine Shoot",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -233,7 +233,7 @@
     },
     "companion23": {
         "id": "companion23",
-        "name": "Arcane Eye",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -241,7 +241,7 @@
     },
     "companion37": {
         "id": "companion37",
-        "name": "Arcane Wisp",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -249,7 +249,7 @@
     },
     "companion24": {
         "id": "companion24",
-        "name": "Badger",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -257,7 +257,7 @@
     },
     "companion56": {
         "id": "companion56",
-        "name": "Bantam Fastieth",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -265,7 +265,7 @@
     },
     "companion9": {
         "id": "companion9",
-        "name": "Bat",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -273,7 +273,7 @@
     },
     "companion38": {
         "id": "companion38",
-        "name": "Beholderkin",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -281,7 +281,7 @@
     },
     "companion39": {
         "id": "companion39",
-        "name": "Blackspawn Darkling",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -289,7 +289,7 @@
     },
     "companion50": {
         "id": "companion50",
-        "name": "Blazing Skull",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -297,7 +297,7 @@
     },
     "companion57": {
         "id": "companion57",
-        "name": "Bloodthorn Vine Barb",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -305,7 +305,7 @@
     },
     "companion40": {
         "id": "companion40",
-        "name": "Bluespawn Nimblespark",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -313,7 +313,7 @@
     },
     "companion10": {
         "id": "companion10",
-        "name": "Book Imp",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -321,7 +321,7 @@
     },
     "companion12": {
         "id": "companion12",
-        "name": "Bound Demon",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -329,7 +329,7 @@
     },
     "companion114": {
         "id": "companion114",
-        "name": "Brownie",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -337,7 +337,7 @@
     },
     "companion25": {
         "id": "companion25",
-        "name": "Canine Construct",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -345,7 +345,7 @@
     },
     "companion20": {
         "id": "companion20",
-        "name": "Cat",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -353,7 +353,7 @@
     },
     "companion51": {
         "id": "companion51",
-        "name": "Chaos Shard",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -361,7 +361,7 @@
     },
     "companion58": {
         "id": "companion58",
-        "name": "Clockwork Scorpion",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -369,7 +369,7 @@
     },
     "companion89": {
         "id": "companion89",
-        "name": "Coure Attendant",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -377,7 +377,7 @@
     },
     "companion14": {
         "id": "companion14",
-        "name": "Crafter Homunculus",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -385,7 +385,7 @@
     },
     "companion71": {
         "id": "companion71",
-        "name": "Crawling Clot",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -393,7 +393,7 @@
     },
     "companion93": {
         "id": "companion93",
-        "name": "Critic Lizard",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -401,7 +401,7 @@
     },
     "companion105": {
         "id": "companion105",
-        "name": "Daolanin",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -409,7 +409,7 @@
     },
     "companion72": {
         "id": "companion72",
-        "name": "Dimensional Pet",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -417,7 +417,7 @@
     },
     "companion26": {
         "id": "companion26",
-        "name": "Disembodied Hand",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -425,7 +425,7 @@
     },
     "companion106": {
         "id": "companion106",
-        "name": "Djinnling",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -433,7 +433,7 @@
     },
     "companion15": {
         "id": "companion15",
-        "name": "Dragonling",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -441,7 +441,7 @@
     },
     "companion59": {
         "id": "companion59",
-        "name": "Dragonmark Reflection",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -449,7 +449,7 @@
     },
     "companion41": {
         "id": "companion41",
-        "name": "Earth Mephit",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -457,7 +457,7 @@
     },
     "companion107": {
         "id": "companion107",
-        "name": "Efreetkin",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -465,7 +465,7 @@
     },
     "companion16": {
         "id": "companion16",
-        "name": "Falcon",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -473,7 +473,7 @@
     },
     "companion87": {
         "id": "companion87",
-        "name": "Fiddling Grig",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -481,7 +481,7 @@
     },
     "companion27": {
         "id": "companion27",
-        "name": "Fire Lizard",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -489,7 +489,7 @@
     },
     "companion42": {
         "id": "companion42",
-        "name": "Fire Mephit",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -497,7 +497,7 @@
     },
     "companion94": {
         "id": "companion94",
-        "name": "Floating Polyp",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -505,7 +505,7 @@
     },
     "companion60": {
         "id": "companion60",
-        "name": "Floating Weapon",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -513,7 +513,7 @@
     },
     "companion61": {
         "id": "companion61",
-        "name": "Gadfly",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -521,7 +521,7 @@
     },
     "companion81": {
         "id": "companion81",
-        "name": "Gallant Hawk",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -529,7 +529,7 @@
     },
     "companion52": {
         "id": "companion52",
-        "name": "Gibbering Pet",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -537,7 +537,7 @@
     },
     "companion43": {
         "id": "companion43",
-        "name": "Grayspawn Shortfang",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -545,7 +545,7 @@
     },
     "companion44": {
         "id": "companion44",
-        "name": "Greenspawn Banespeak",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -553,7 +553,7 @@
     },
     "companion95": {
         "id": "companion95",
-        "name": "Hurrum",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -561,7 +561,7 @@
     },
     "companion45": {
         "id": "companion45",
-        "name": "Ice Mephit",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -569,7 +569,7 @@
     },
     "companion96": {
         "id": "companion96",
-        "name": "Jank",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -577,7 +577,7 @@
     },
     "companion97": {
         "id": "companion97",
-        "name": "Kes'trekel",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -585,7 +585,7 @@
     },
     "companion98": {
         "id": "companion98",
-        "name": "Kivit",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -593,7 +593,7 @@
     },
     "companion84": {
         "id": "companion84",
-        "name": "Least Air Elemental",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -601,7 +601,7 @@
     },
     "companion86": {
         "id": "companion86",
-        "name": "Least Earth Elemental",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -609,7 +609,7 @@
     },
     "companion28": {
         "id": "companion28",
-        "name": "Lightning Lizard",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -617,7 +617,7 @@
     },
     "companion77": {
         "id": "companion77",
-        "name": "Lingering Nightmare",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -625,7 +625,7 @@
     },
     "companion73": {
         "id": "companion73",
-        "name": "Living Infusion",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -633,7 +633,7 @@
     },
     "companion62": {
         "id": "companion62",
-        "name": "Magpie",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -641,7 +641,7 @@
     },
     "companion108": {
         "id": "companion108",
-        "name": "Maridan",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -649,7 +649,7 @@
     },
     "companion63": {
         "id": "companion63",
-        "name": "Marmoset",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -657,7 +657,7 @@
     },
     "companion74": {
         "id": "companion74",
-        "name": "Minor Foulspawn",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -665,7 +665,7 @@
     },
     "companion82": {
         "id": "companion82",
-        "name": "Moon Wisp",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -673,7 +673,7 @@
     },
     "companion79": {
         "id": "companion79",
-        "name": "Muse Sprite",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -681,7 +681,7 @@
     },
     "companion64": {
         "id": "companion64",
-        "name": "Octopus",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -689,7 +689,7 @@
     },
     "companion29": {
         "id": "companion29",
-        "name": "Ooze",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -697,7 +697,7 @@
     },
     "companion55": {
         "id": "companion55",
-        "name": "Oso de la Fez, Former Show Bear",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -705,7 +705,7 @@
     },
     "companion11": {
         "id": "companion11",
-        "name": "Owl",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -713,7 +713,7 @@
     },
     "companion30": {
         "id": "companion30",
-        "name": "Parrot",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -721,7 +721,7 @@
     },
     "companion46": {
         "id": "companion46",
-        "name": "Rakshasa Claw",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -729,7 +729,7 @@
     },
     "companion18": {
         "id": "companion18",
-        "name": "Rat",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -737,7 +737,7 @@
     },
     "companion19": {
         "id": "companion19",
-        "name": "Raven",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -745,7 +745,7 @@
     },
     "companion47": {
         "id": "companion47",
-        "name": "Redspawn Spitfire",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -753,7 +753,7 @@
     },
     "companion31": {
         "id": "companion31",
-        "name": "Rootling",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -761,7 +761,7 @@
     },
     "companion65": {
         "id": "companion65",
-        "name": "Saddle Squire",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -769,7 +769,7 @@
     },
     "companion32": {
         "id": "companion32",
-        "name": "Scout Homunculus",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -777,7 +777,7 @@
     },
     "companion21": {
         "id": "companion21",
-        "name": "Serpent",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -785,7 +785,7 @@
     },
     "companion53": {
         "id": "companion53",
-        "name": "Shadow Incarnate",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -793,7 +793,7 @@
     },
     "companion92": {
         "id": "companion92",
-        "name": "Shadow Raven",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -801,7 +801,7 @@
     },
     "companion78": {
         "id": "companion78",
-        "name": "Silver Lamp",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -809,7 +809,7 @@
     },
     "companion99": {
         "id": "companion99",
-        "name": "Sitak",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -817,7 +817,7 @@
     },
     "companion33": {
         "id": "companion33",
-        "name": "Skull",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -825,7 +825,7 @@
     },
     "companion75": {
         "id": "companion75",
-        "name": "Smith's Hammer",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -833,7 +833,7 @@
     },
     "companion66": {
         "id": "companion66",
-        "name": "Soarwood Wings",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -841,7 +841,7 @@
     },
     "companion83": {
         "id": "companion83",
-        "name": "Specter",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -849,7 +849,7 @@
     },
     "companion22": {
         "id": "companion22",
-        "name": "Spider",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -857,7 +857,7 @@
     },
     "companion113": {
         "id": "companion113",
-        "name": "Spiderling of Lolth",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -865,7 +865,7 @@
     },
     "companion102": {
         "id": "companion102",
-        "name": "Sprite",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -873,7 +873,7 @@
     },
     "companion48": {
         "id": "companion48",
-        "name": "Stone Fowl",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -881,7 +881,7 @@
     },
     "companion67": {
         "id": "companion67",
-        "name": "Summoner Homunculus",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -889,7 +889,7 @@
     },
     "companion76": {
         "id": "companion76",
-        "name": "Tinker Feyling",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -897,7 +897,7 @@
     },
     "companion85": {
         "id": "companion85",
-        "name": "Tiny Gelatinous Cube",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -905,7 +905,7 @@
     },
     "companion34": {
         "id": "companion34",
-        "name": "Toad",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -913,7 +913,7 @@
     },
     "companion68": {
         "id": "companion68",
-        "name": "Tome Caddy",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -921,7 +921,7 @@
     },
     "companion69": {
         "id": "companion69",
-        "name": "Warforged Faceplate",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -929,7 +929,7 @@
     },
     "companion35": {
         "id": "companion35",
-        "name": "Weasel",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -937,7 +937,7 @@
     },
     "companion80": {
         "id": "companion80",
-        "name": "White-Eyed Crow",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -945,7 +945,7 @@
     },
     "companion49": {
         "id": "companion49",
-        "name": "Whitespawn Snowstepper",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -953,7 +953,7 @@
     },
     "companion100": {
         "id": "companion100",
-        "name": "Wrab",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -961,7 +961,7 @@
     },
     "companion101": {
         "id": "companion101",
-        "name": "Z'tal",
+        "name": "Companion",
         "type": "Familiar",
         "size": "Tiny",
         "creaturetype": "None",
@@ -969,7 +969,7 @@
     },
     "associate53": {
         "id": "associate53",
-        "name": "Trained Blink Dog",
+        "name": "Companion",
         "type": "Fey Beast Companion",
         "size": "Medium",
         "creaturetype": "Beast, Fey",
@@ -977,7 +977,7 @@
     },
     "associate54": {
         "id": "associate54",
-        "name": "Trained Displacer Beast",
+        "name": "Companion",
         "type": "Fey Beast Companion",
         "size": "Medium",
         "creaturetype": "Beast, Fey",
@@ -985,7 +985,7 @@
     },
     "associate55": {
         "id": "associate55",
-        "name": "Trained Fey Panther",
+        "name": "Companion",
         "type": "Fey Beast Companion",
         "size": "Medium",
         "creaturetype": "Beast, Fey",
@@ -993,7 +993,7 @@
     },
     "associate56": {
         "id": "associate56",
-        "name": "Trained Young Owlbear",
+        "name": "Companion",
         "type": "Fey Beast Companion",
         "size": "Medium",
         "creaturetype": "Beast, Fey",
@@ -1001,7 +1001,7 @@
     },
     "associate13": {
         "id": "associate13",
-        "name": "Celestial Battle Tiger",
+        "name": "Companion",
         "type": "Mount",
         "size": "Large",
         "creaturetype": "Beast, Immortal, Mount",
@@ -1009,7 +1009,7 @@
     },
     "associate14": {
         "id": "associate14",
-        "name": "Celestial Behemoth",
+        "name": "Companion",
         "type": "Mount",
         "size": "Large",
         "creaturetype": "Beast, Immortal, Mount",
@@ -1017,7 +1017,7 @@
     },
     "associate15": {
         "id": "associate15",
-        "name": "Celestial Pegasus",
+        "name": "Companion",
         "type": "Mount",
         "size": "Large",
         "creaturetype": "Beast, Immortal, Mount",
@@ -1025,7 +1025,7 @@
     },
     "associate12": {
         "id": "associate12",
-        "name": "Celestial Warhorse",
+        "name": "Companion",
         "type": "Mount",
         "size": "Large",
         "creaturetype": "Beast, Immortal, Mount",
@@ -1033,7 +1033,7 @@
     },
     "associate16": {
         "id": "associate16",
-        "name": "Silver Dragon Steed",
+        "name": "Companion",
         "type": "Mount",
         "size": "Large",
         "creaturetype": "Beast, Dragon, Immortal, Magical, Mount",
@@ -1041,7 +1041,7 @@
     },
     "associate63": {
         "id": "associate63",
-        "name": "Unicorn Destrier",
+        "name": "Companion",
         "type": "Mount",
         "size": "Large",
         "creaturetype": "Beast, Fey, Magical, Mount",
@@ -1049,7 +1049,7 @@
     },
     "associate66": {
         "id": "associate66",
-        "name": "Air Archon Grunt",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Air, Elemental, Humanoid",
@@ -1057,7 +1057,7 @@
     },
     "associate75": {
         "id": "associate75",
-        "name": "Air Monolith",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Air, Beast, Elemental, Magical",
@@ -1065,7 +1065,7 @@
     },
     "associate61": {
         "id": "associate61",
-        "name": "Ancestral Defender",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Animate, Natural",
@@ -1073,7 +1073,7 @@
     },
     "associate45": {
         "id": "associate45",
-        "name": "Blue Dragon Wyrmling",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Natural",
@@ -1081,7 +1081,7 @@
     },
     "associate43": {
         "id": "associate43",
-        "name": "Bulette",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Natural",
@@ -1089,7 +1089,7 @@
     },
     "associate65": {
         "id": "associate65",
-        "name": "Chariot of Sustarre",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Gargantuan",
         "creaturetype": "Beast, Elemental, Fire, Magical",
@@ -1097,7 +1097,7 @@
     },
     "associate25": {
         "id": "associate25",
-        "name": "Dark Creeper",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Small",
         "creaturetype": "Humanoid, Shadow",
@@ -1105,7 +1105,7 @@
     },
     "associate42": {
         "id": "associate42",
-        "name": "Desert Hawk",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Beast, Natural",
@@ -1113,7 +1113,7 @@
     },
     "associate46": {
         "id": "associate46",
-        "name": "Desert Roc",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Natural",
@@ -1121,7 +1121,7 @@
     },
     "associate49": {
         "id": "associate49",
-        "name": "Dire Bear",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Natural",
@@ -1129,7 +1129,7 @@
     },
     "associate51": {
         "id": "associate51",
-        "name": "Dire Lion",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Natural",
@@ -1137,7 +1137,7 @@
     },
     "associate83": {
         "id": "associate83",
-        "name": "Displacer Beast",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Fey, Magical",
@@ -1145,7 +1145,7 @@
     },
     "associate24": {
         "id": "associate24",
-        "name": "Doom Hulk",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Aberrant, Animate",
@@ -1153,7 +1153,7 @@
     },
     "associate94": {
         "id": "associate94",
-        "name": "Duodrone Balancer",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Animate, Immortal, Modron",
@@ -1161,7 +1161,7 @@
     },
     "associate67": {
         "id": "associate67",
-        "name": "Earth Archon Grunt",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Earth, Elemental, Humanoid",
@@ -1169,7 +1169,7 @@
     },
     "associate76": {
         "id": "associate76",
-        "name": "Earth Monolith",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Earth, Elemental, Magical",
@@ -1177,7 +1177,7 @@
     },
     "associate70": {
         "id": "associate70",
-        "name": "Earth Titan Warrior",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Huge",
         "creaturetype": "Earth, Elemental, Giant, Humanoid",
@@ -1185,7 +1185,7 @@
     },
     "associate93": {
         "id": "associate93",
-        "name": "Earth-Friend",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Tiny",
         "creaturetype": "Beast, Earth, Elemental, Magical",
@@ -1193,7 +1193,7 @@
     },
     "associate32": {
         "id": "associate32",
-        "name": "Elemental Warrior (Air)",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Air, Elemental, Humanoid",
@@ -1201,7 +1201,7 @@
     },
     "associate33": {
         "id": "associate33",
-        "name": "Elemental Warrior (Earth)",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Earth, Elemental, Humanoid",
@@ -1209,7 +1209,7 @@
     },
     "associate34": {
         "id": "associate34",
-        "name": "Elemental Warrior (Fire)",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Elemental, Fire, Humanoid",
@@ -1217,7 +1217,7 @@
     },
     "associate37": {
         "id": "associate37",
-        "name": "Elemental Warrior (Water)",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Elemental, Humanoid, Water",
@@ -1225,7 +1225,7 @@
     },
     "associate68": {
         "id": "associate68",
-        "name": "Fire Archon Grunt",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Elemental, Fire, Humanoid",
@@ -1233,7 +1233,7 @@
     },
     "associate77": {
         "id": "associate77",
-        "name": "Fire Monolith",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Elemental, Fire, Magical",
@@ -1241,7 +1241,7 @@
     },
     "associate71": {
         "id": "associate71",
-        "name": "Fire Titan Warrior",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Huge",
         "creaturetype": "Elemental, Fire, Giant, Humanoid",
@@ -1249,7 +1249,7 @@
     },
     "associate62": {
         "id": "associate62",
-        "name": "Flame Zephyr",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Small",
         "creaturetype": "Air, Beast, Elemental, Fire, Magical",
@@ -1257,7 +1257,7 @@
     },
     "associate72": {
         "id": "associate72",
-        "name": "Frost Titan Warrior",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Huge",
         "creaturetype": "Cold, Elemental, Giant, Humanoid",
@@ -1265,7 +1265,7 @@
     },
     "associate7": {
         "id": "associate7",
-        "name": "Frostblight Treant Protector",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Huge",
         "creaturetype": "Beast, Fey",
@@ -1273,7 +1273,7 @@
     },
     "associate40": {
         "id": "associate40",
-        "name": "Giant Cobra",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Beast, Natural",
@@ -1281,7 +1281,7 @@
     },
     "associate22": {
         "id": "associate22",
-        "name": "Gloom Beast",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Humanoid, Shadow",
@@ -1289,7 +1289,7 @@
     },
     "associate47": {
         "id": "associate47",
-        "name": "Grizzly Bear",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Beast, Natural",
@@ -1297,7 +1297,7 @@
     },
     "associate50": {
         "id": "associate50",
-        "name": "Hunting Tiger",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Natural",
@@ -1305,7 +1305,7 @@
     },
     "associate74": {
         "id": "associate74",
-        "name": "Invisible Stalker",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Air, Elemental, Humanoid",
@@ -1313,7 +1313,7 @@
     },
     "associate17": {
         "id": "associate17",
-        "name": "Jade Horse",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Construct, Mount, Natural",
@@ -1321,7 +1321,7 @@
     },
     "associate19": {
         "id": "associate19",
-        "name": "Mourning Handmaiden",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Fey, Humanoid, Undead",
@@ -1329,7 +1329,7 @@
     },
     "associate48": {
         "id": "associate48",
-        "name": "Pack Wolf",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Beast, Natural",
@@ -1337,7 +1337,7 @@
     },
     "associate9": {
         "id": "associate9",
-        "name": "Pit Fiend Servitor",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Humanoid, Immortal",
@@ -1345,7 +1345,7 @@
     },
     "associate52": {
         "id": "associate52",
-        "name": "Raptor Behemoth",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Natural",
@@ -1353,7 +1353,7 @@
     },
     "associate60": {
         "id": "associate60",
-        "name": "Sarifal Advisor",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Tiny",
         "creaturetype": "Fey, Humanoid",
@@ -1361,7 +1361,7 @@
     },
     "associate82": {
         "id": "associate82",
-        "name": "Satyr of the Night",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Fey, Humanoid",
@@ -1369,7 +1369,7 @@
     },
     "associate39": {
         "id": "associate39",
-        "name": "Servant of the Staff",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Humanoid, Shadow",
@@ -1377,7 +1377,7 @@
     },
     "associate28": {
         "id": "associate28",
-        "name": "Shadow Beast",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Beast, Shadow",
@@ -1385,7 +1385,7 @@
     },
     "associate30": {
         "id": "associate30",
-        "name": "Shadow Brute",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Shadow",
@@ -1393,7 +1393,7 @@
     },
     "associate21": {
         "id": "associate21",
-        "name": "Shadow Lurk",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Humanoid, Shadow",
@@ -1401,7 +1401,7 @@
     },
     "associate38": {
         "id": "associate38",
-        "name": "Shadow Serpent",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Small",
         "creaturetype": "Beast, Shadow",
@@ -1409,7 +1409,7 @@
     },
     "associate27": {
         "id": "associate27",
-        "name": "Shadow Skeleton",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Animate, Shadow, Undead",
@@ -1417,7 +1417,7 @@
     },
     "associate29": {
         "id": "associate29",
-        "name": "Shadow Wraith",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Humanoid, Shadow, Undead",
@@ -1425,7 +1425,7 @@
     },
     "associate57": {
         "id": "associate57",
-        "name": "Sidhe House Guard",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Fey, Humanoid",
@@ -1433,7 +1433,7 @@
     },
     "associate18": {
         "id": "associate18",
-        "name": "Silt Elemental",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Air, Beast, Earth, Elemental, Magical",
@@ -1441,7 +1441,7 @@
     },
     "associate59": {
         "id": "associate59",
-        "name": "Skeletal Warrior",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Animate, Shadow, Undead",
@@ -1449,7 +1449,7 @@
     },
     "associate26": {
         "id": "associate26",
-        "name": "Sorrowsworn",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Humanoid, Shadow",
@@ -1457,7 +1457,7 @@
     },
     "associate23": {
         "id": "associate23",
-        "name": "Soul Eater",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Aberrant, Animate",
@@ -1465,7 +1465,7 @@
     },
     "associate20": {
         "id": "associate20",
-        "name": "Spectral Protector",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Fey, Humanoid, Undead",
@@ -1473,7 +1473,7 @@
     },
     "associate8": {
         "id": "associate8",
-        "name": "Spined Devil Lackey",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Humanoid, Immortal",
@@ -1481,7 +1481,7 @@
     },
     "associate73": {
         "id": "associate73",
-        "name": "Storm Titan Warrior",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Huge",
         "creaturetype": "Aquatic, Elemental, Giant, Humanoid",
@@ -1489,7 +1489,7 @@
     },
     "associate10": {
         "id": "associate10",
-        "name": "Thought Phantom",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Aberrant, Beast, Magical",
@@ -1497,7 +1497,7 @@
     },
     "associate31": {
         "id": "associate31",
-        "name": "Undead Soldier",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Animate, Natural, Undead",
@@ -1505,7 +1505,7 @@
     },
     "associate44": {
         "id": "associate44",
-        "name": "Venomous Scorpion",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Natural",
@@ -1513,7 +1513,7 @@
     },
     "associate69": {
         "id": "associate69",
-        "name": "Water Archon Grunt",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Aquatic, Elemental, Humanoid, Water",
@@ -1521,7 +1521,7 @@
     },
     "associate78": {
         "id": "associate78",
-        "name": "Water Monolith",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Large",
         "creaturetype": "Beast, Elemental, Magical, Water",
@@ -1529,7 +1529,7 @@
     },
     "associate11": {
         "id": "associate11",
-        "name": "Way Walker",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Huge",
         "creaturetype": "Aberrant, Beast, Magical",
@@ -1537,7 +1537,7 @@
     },
     "associate6": {
         "id": "associate6",
-        "name": "Wood Woad Guardian",
+        "name": "Companion",
         "type": "Summoned Creature",
         "size": "Medium",
         "creaturetype": "Fey, Humanoid, Plant",
