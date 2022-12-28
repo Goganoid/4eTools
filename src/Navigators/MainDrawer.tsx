@@ -5,6 +5,7 @@ import * as React from 'react';
 import 'react-native-gesture-handler';
 import 'react-native-get-random-values';
 import { useTheme } from 'react-native-paper';
+import { About } from '../components/About/About';
 import { CustomThemeProvider } from '../components/shared/ThemeProvider';
 import { EncounterContextProvider } from '../context/EncounterContext';
 import { isOnMainScreen } from '../helpers/isOnMainScreen';
@@ -61,6 +62,7 @@ export default function MainDrawer() {
                 }
               }}
             />
+            <Drawer.Screen name="About" component={About}/>
           </Drawer.Navigator>
         </NavigationContainer>
       </EncounterContextProvider >

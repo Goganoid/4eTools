@@ -48,7 +48,7 @@ export const AddCustomPower = ({ navigation, route }:NativeStackScreenProps<Powe
     const [powerType, setPowerType] = useState<string|null>(null);
     const [actionType, setActionType] = useState<string|null>(null);
     const [notes, setNotes] = useState("");
-    const [level, setLevel] = useState("");
+    const [level, setLevel] = useState<null | string>(null);
     const [imageUri, setImageUri] = useState<null | string>(null)
     const [powerTypeOpen, setPowerTypeOpen] = useState(false);
     const [actionTypeOpen, setActionTypeOpen] = useState(false);
@@ -72,7 +72,7 @@ export const AddCustomPower = ({ navigation, route }:NativeStackScreenProps<Powe
                 <IconButton icon="check" onPress={create} />
             </>,
         });
-    }, [navigation, context, powerType, actionType, notes, name,imageUri]);
+    }, [navigation, context, powerType, actionType, notes, name,imageUri,level]);
 
     const showValidationError = (message:string) => {
         showMessage({
@@ -83,6 +83,7 @@ export const AddCustomPower = ({ navigation, route }:NativeStackScreenProps<Powe
     }
 
     const validate = () => {
+        console.log("LEVEL ", level);
         if (name.length == 0) {
             showValidationError('Name is required!')
             return false;
@@ -107,7 +108,7 @@ export const AddCustomPower = ({ navigation, route }:NativeStackScreenProps<Powe
 
         let power = createCustomPower({
             name,
-            level,
+            level:level!,
             type: powerType!,
             action: actionType!,
             notes,
@@ -160,7 +161,7 @@ export const AddCustomPower = ({ navigation, route }:NativeStackScreenProps<Powe
                             setOpen={setLevelOpen}
                             value={level}
                             items={levelItems}
-                            setValue={(value) => setLevel(value)}
+                            setValue={setLevel}
                             onOpen={() => onLevelOpen()}
                             containerStyle={{ flex: 1, padding: 5 }}
                             textStyle={styles.dropdown_text}

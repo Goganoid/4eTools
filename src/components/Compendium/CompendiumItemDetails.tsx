@@ -75,6 +75,10 @@ const tagsStyles = {
     },
     h1: {
         color: "black",
+        fontSize:20,
+    },
+    h3: {
+        fontSize:15,
     },
     td: {
         color: "black",

@@ -1,3 +1,4 @@
+import { About } from './../components/About/About';
 import { CategoryMode, Category, Entity } from "./entityTypes";
 import { Power } from "./entityTypes";
 
@@ -14,6 +15,7 @@ export type MainDrawerParamList = {
     Groups: undefined;
     Compendium: undefined;
     Tracker: undefined;
+    About: undefined;
 };
 export type PowerTrackerParams ={
     PowerTracker: undefined;
