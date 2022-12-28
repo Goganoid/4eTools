@@ -25,7 +25,6 @@
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
     "react-native-big-list": "^1.6.0",
-    "react-native-draggable-flatlist": "^4.0.0",
     "react-native-dropdown-picker": "^5.4.3",
     "react-native-dropdown-select-list": "^2.0.4",
     "react-native-flash-message": "^0.3.1",
