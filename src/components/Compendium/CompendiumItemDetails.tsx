@@ -91,6 +91,8 @@ const tagsStyles = {
 
 }
 
+const defaultDescription = "<h1 class=player>Description not found</h1>";
+
 export const CompendiumItemDetails = ({ route, navigation }: NativeStackScreenProps<CompendiumCategoryParams, 'ItemDetails'>) => {
     const theme = useTheme();
     const { id, category } = route.params;
@@ -128,8 +130,9 @@ export const CompendiumItemDetails = ({ route, navigation }: NativeStackScreenPr
     if (category == Category.background) details = require('../../data/background/data.json');
     if (category == Category.armor) details = require('../../data/armor/data.json');
     const { width } = useWindowDimensions();
+    if (details[id] == undefined) console.log("Description not found falling back to defaultDescription");
     const source = {
-        html: details[id]
+        html: details[id] ?? defaultDescription
     }
     const customHTMLElementModels = {
         span: defaultHTMLElementModels.span.extend({
