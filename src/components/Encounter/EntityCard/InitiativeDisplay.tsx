@@ -6,9 +6,10 @@ import { StyleSheet } from 'react-native';
 
 type InitiativeDisplayProps = {
   entity: Entity;
+  showInitiativeRoll: boolean
   setStat: (entity: Entity, propName: string, value: any) => void;
 };
-export function InitiativeDisplay({ entity, setStat }: InitiativeDisplayProps) {
+export function InitiativeDisplay({ entity, setStat,showInitiativeRoll = true }: InitiativeDisplayProps) {
   const initiative = entity.stats.initiative;
   const initiativeRoll = entity.initiativeRoll;
   return <>
@@ -18,7 +19,10 @@ export function InitiativeDisplay({ entity, setStat }: InitiativeDisplayProps) {
       // textStyle={styles.rollDescription}
       minimalistic={true}
       onChange={(value: any) => setStat(entity, "initiative", value)} />
-    <Text style={styles.rollDescription}>({entity.initiativeRoll}{initiative >= 0 ? "+" : ""}{initiative})</Text>
+    {
+      showInitiativeRoll && <Text style={styles.rollDescription}>({entity.initiativeRoll}{initiative >= 0 ? "+" : ""}{initiative})</Text>
+    }
+   
   </>;
 }
 

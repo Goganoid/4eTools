@@ -71,15 +71,26 @@ export const Encounter = ({ navigation, route }: NativeStackScreenProps<Encounte
             headerRight: () => (
                 <>
                     {mode == EncounterMode.encounter
-                        ? <IconButton icon="dice-d20" onPress={reroll} />
-                        : <IconButton icon="delete" onPress={() => {
-                            navigation.goBack();
-                            if ("removeGroup" in context) context!.removeGroup();
-                        }} />}
+                        ? <>
+                            <IconButton icon="delete" onPress={clearEncounter} />
+                            <IconButton icon="dice-d20" onPress={reroll} />
+                        </>
+                        : <IconButton icon="delete" onPress={deleteGroup} />
+                    }
                 </>
             ),
         });
     }, [navigation, context.entities]);
+
+    const deleteGroup = () => {
+        navigation.goBack();
+        if ("removeGroup" in context) context!.removeGroup();
+    }
+
+    const clearEncounter = () => {
+        context.setEntities([]);
+    }
+
     const reroll = () => {
         let newEntities = context.entities.map(entity => {
             entity.initiativeRoll = roll20();

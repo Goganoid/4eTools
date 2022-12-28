@@ -87,7 +87,7 @@ export const EntityCard = ({ navigation, entity, setStat, setConditions,
         <View style={styles.background}>
           <View style={styles.entity_card_left_side}>
             {EntityIcon}
-            {showInitiative && <InitiativeDisplay entity={entity} setStat={setStat} />}
+            {<InitiativeDisplay entity={entity} setStat={setStat} showInitiativeRoll={showInitiative} />}
           </View>
           <View style={styles.entity_card_right_side}>
             <View style={styles.nameSection}>

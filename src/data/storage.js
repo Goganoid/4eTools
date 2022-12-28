@@ -99,7 +99,7 @@ export const saveCurrentEncounter = async ({ entities }) => {
         let entities_string = JSON.stringify({
             entities: [...entities]
         });
-        await AsyncStorage.setItem(encounter_key, entities_string);
+        AsyncStorage.setItem(encounter_key, entities_string);
     }
     catch (e) {
         Alert.alert("Error while saving encounter");
