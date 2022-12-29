@@ -8,9 +8,10 @@ type Props = {
     statName: string,
     value: number,
     onSubmit?: (value: number) => void,
+    onlyPositive?: boolean
 }
 
-export function StatEditor({ isDialogVisible, setIsDialogVisible, statName, value, onSubmit }: Props) {
+export function StatEditor({ isDialogVisible, setIsDialogVisible, statName, value, onSubmit, onlyPositive = false }: Props) {
 
     const [text, setText] = useState(value.toString())
 
@@ -24,10 +25,11 @@ export function StatEditor({ isDialogVisible, setIsDialogVisible, statName, valu
 
     useEffect(() => {
         setText(value.toString() || '');
-    },[value])
+    }, [value])
 
-    const onChangeText = (newText:string) => {
-        const cleanText = newText.replace(/[,\.\s]/g, "");
+    const onChangeText = (newText: string) => {
+        let cleanText = newText.replace(/[,\.\s]/g, "");
+        if (onlyPositive) cleanText = cleanText.replace("-", ""); 
         let parsed = parseInt(cleanText);
         if (parsed > 2000) return;
         else if (parsed < -2000) return;
@@ -41,9 +43,14 @@ export function StatEditor({ isDialogVisible, setIsDialogVisible, statName, valu
         <Dialog.Content>
             <View style={{ flexDirection: "row", alignItems: "center", alignSelf: "center" }}>
                 <View>
-                    <ChangeByButton modifier={1} />
-                    <ChangeByButton modifier={5} />
-                    <ChangeByButton modifier={10} />
+                    {
+                        (onlyPositive ? [1, 5] : [1, 5, 10]).map((mod, ind) =>
+                            <ChangeByButton modifier={mod} key={ind} />
+                        )
+                    }
+
+                    {/* <ChangeByButton modifier={5} /> */}
+                    {/* <ChangeByButton modifier={10} /> */}
                 </View>
                 <TextInput
                     keyboardType='number-pad'
@@ -53,18 +60,23 @@ export function StatEditor({ isDialogVisible, setIsDialogVisible, statName, valu
                     onChangeText={onChangeText}
                     style={styles.input} />
                 <View>
-                    <ChangeByButton modifier={-1} />
+                    {
+                        (onlyPositive ? [10, 50] : [-1, -5, -10]).map((mod, ind) =>
+                            <ChangeByButton modifier={mod} key={ind} />
+                        )
+                    }
+                    {/* <ChangeByButton modifier={onlyPositive? 20 :-1} />
                     <ChangeByButton modifier={-5} />
-                    <ChangeByButton modifier={-10} />
+                    <ChangeByButton modifier={-10} /> */}
                 </View>
             </View>
         </Dialog.Content>
         <Dialog.Actions>
             <Button onPress={() => {
                 if (onSubmit) {
-                    onSubmit(parseInt(text)||0);
+                    onSubmit(parseInt(text) || 0);
                 }
-
+                setText(value.toString());
                 setIsDialogVisible(false);
             }}>Done</Button>
         </Dialog.Actions>

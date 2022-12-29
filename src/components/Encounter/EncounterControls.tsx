@@ -37,7 +37,7 @@ export function EncounterControls({ open, navigation, onStateChange }:Props) {
                     icon: 'emoticon-devil',
                     label: 'Enemy',
                      // @ts-ignore
-                    onPress: () => navigation.navigate("AddMonster"),
+                    onPress: () => navigation.navigate("AddMonster",{hook:(item:any)=>{console.log("CALLED HOOK")}}),
                 },
             ]}
             onStateChange={onStateChange} />

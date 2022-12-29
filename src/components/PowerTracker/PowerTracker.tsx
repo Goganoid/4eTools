@@ -1,7 +1,7 @@
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { useContext, useEffect, useState } from 'react';
 import { ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
-import { Checkbox, Divider, IconButton, List, Portal, Text, useTheme } from 'react-native-paper';
+import { Button, Checkbox, Divider, IconButton, List, Portal, Text, useTheme } from 'react-native-paper';
 import { getSavedTracker } from '../../data/storage';
 import { PowerTrackerContext } from '../../Navigators/PowerTrackerStack';
 import { Power } from '../../types/entityTypes';
@@ -36,7 +36,8 @@ const PowerTracker = ({ navigation, route }: NativeStackScreenProps<PowerTracker
 
     const [maxHpEditorVisible, setMaxHpEditorVisible] = useState(false)
     const [maxSurgesEditorVisible, setMaxSurgesEditorVisible] = useState(false);
-
+    const [healBonusEditorVisible, setHealBonusEditorVisible] = useState(false);
+    const [damageEditorVisible, setDamageEditorVisible] = useState(false);
     useEffect(() => {
         navigation.setOptions({
             headerLeft: () => MenuDrawer(navigation),
@@ -46,13 +47,12 @@ const PowerTracker = ({ navigation, route }: NativeStackScreenProps<PowerTracker
     useEffect(() => {
         if (loading) {
             console.log("Loading entities first time");
-            getSavedTracker().then(value => {
-                console.log("Loaded:", value);
-                if (value != null) {
-                    context.setTracker(value);
-                }
-                setLoading(false);
-            });
+            const value = getSavedTracker();
+            console.log("Loaded:", value);
+            if (value != null) {
+                context.setTracker(value);
+            }
+            setLoading(false);
         }
     }, [])
 
@@ -70,16 +70,41 @@ const PowerTracker = ({ navigation, route }: NativeStackScreenProps<PowerTracker
 
     const PlayerStats = () =>
         <View style={styles.player_stats}>
-            <PlayerStat name='HP'
-                value={context.hp}
-                setValue={value => context.setHp(value)}
-                maxValue={context.maxHp}
-                setEditorVisible={setMaxHpEditorVisible} />
-            <PlayerStat name='Surges'
-                value={context.surges}
-                setValue={value => context.setSurges(value)}
-                maxValue={context.maxSurges}
-                setEditorVisible={setMaxSurgesEditorVisible} />
+            <View style={{ ...styles.player_stat, flex: 4 }}>
+                <PlayerStat name='HP'
+                    isHp={true}
+                    value={context.hp}
+                    setValue={value => context.setHp(value)}
+                    maxValue={context.maxHp}
+                    setEditorVisible={setMaxHpEditorVisible} />
+            </View>
+            <View style={{ ...styles.player_stat, flex: 2 }}>
+
+                <IconButton icon='sword' onPress={()=>setDamageEditorVisible(true)} />
+                <IconButton icon='bottle-tonic-plus' onPress={() => setHealBonusEditorVisible(true)} />
+
+                {/* <Button onPress={() => setHealBonusEditorVisible(true)}
+                    contentStyle={{ margin: 0, padding: 0, height: 40 }}
+                    compact
+                >
+                    DAMAGE
+                </Button>
+                <Button onPress={() => setHealBonusEditorVisible(true)}
+                    disabled={context.surges <= 0}
+                    contentStyle={{ margin: 0, padding: 0, height: 40 }}
+                    compact
+                >
+                    HEAL
+                </Button> */}
+                <Text style={{ color: "gray", fontSize: 10 }} >1/4MAX = {Math.floor(context.maxHp / 4.0)}</Text>
+            </View>
+            <View style={{ ...styles.player_stat, flex: 4 }}>
+                <PlayerStat name='Surges'
+                    value={context.surges}
+                    setValue={value => context.setSurges(value)}
+                    maxValue={context.maxSurges}
+                    setEditorVisible={setMaxSurgesEditorVisible} />
+            </View>
         </View>;
     const Powers = sections.map(({ label, filterCriteria }, index) => (
         <List.Accordion title={label} key={label}>
@@ -96,7 +121,7 @@ const PowerTracker = ({ navigation, route }: NativeStackScreenProps<PowerTracker
     return (
         <CustomThemeProvider>
             <>
-                <ScrollView style={{ backgroundColor: theme.colors.background }} contentContainerStyle={{paddingBottom:30}}>
+                <ScrollView style={{ backgroundColor: theme.colors.background }} contentContainerStyle={{ paddingBottom: 30 }}>
                     {PlayerStats()}
                     {Powers}
                 </ScrollView>
@@ -107,6 +132,37 @@ const PowerTracker = ({ navigation, route }: NativeStackScreenProps<PowerTracker
                 />}
                 <Portal>
                     <StatEditor
+                        isDialogVisible={damageEditorVisible}
+                        setIsDialogVisible={setDamageEditorVisible}
+                        onSubmit={(damage) => {
+                            let newHp = context.hp - damage;
+                            context.setHp(newHp)
+                        }}
+                        onlyPositive
+                        statName={"Take damage"}
+                        value={0} />
+                    <StatEditor
+                        isDialogVisible={healBonusEditorVisible}
+                        setIsDialogVisible={setHealBonusEditorVisible}
+                        onlyPositive
+                        onSubmit={(bonus) => {
+                            if (context.surges <= 0 || context.hp==context.maxHp) return;
+                            const surgeHealing = Math.floor(context.maxHp / 4.0);
+                            let newHp = context.hp + bonus + surgeHealing;
+                            if (newHp > context.maxHp) newHp = context.maxHp;
+                            context.setTracker({
+                                attacks: context.attacks,
+                                damageTypes: context.damageTypes,
+                                maxSurges: context.maxSurges,
+                                powers: context.powers,
+                                maxHp: context.maxHp,
+                                surges: context.surges - 1,
+                                hp: newHp
+                            })
+                        }}
+                        statName={"Bonus to healing surge"}
+                        value={0} />
+                    <StatEditor
                         isDialogVisible={maxHpEditorVisible}
                         setIsDialogVisible={setMaxHpEditorVisible}
                         onSubmit={(value) => {
@@ -115,7 +171,7 @@ const PowerTracker = ({ navigation, route }: NativeStackScreenProps<PowerTracker
                                 attacks: context.attacks,
                                 damageTypes: context.damageTypes,
                                 maxSurges: context.maxSurges,
-                                surges: context.maxSurges,
+                                surges: context.surges,
                                 powers: context.powers,
                                 maxHp: value,
                                 hp: context.hp > value ? value : context.hp
@@ -130,7 +186,7 @@ const PowerTracker = ({ navigation, route }: NativeStackScreenProps<PowerTracker
                             context.setTracker({
                                 attacks: context.attacks,
                                 damageTypes: context.damageTypes,
-                                maxSurges:value,
+                                maxSurges: value,
                                 surges: context.surges > value ? value : context.surges,
                                 powers: context.powers,
                                 maxHp: context.maxHp,
@@ -150,11 +206,13 @@ export const styles = StyleSheet.create({
     player_stats: {
         flexDirection: "row",
         justifyContent: "space-around",
+        alignItems: "center",
         flexWrap: "wrap",
         paddingVertical: 20,
     },
     player_stat: {
-        flexBasis: "50%",
+        // flexBasis: "20%",
+        justifyContent: "center",
         alignItems: "center"
     },
     statInput: {

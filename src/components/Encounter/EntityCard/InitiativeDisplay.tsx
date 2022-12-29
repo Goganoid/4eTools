@@ -13,7 +13,7 @@ export function InitiativeDisplay({ entity, setStat,showInitiativeRoll = true }:
   const initiative = entity.stats.initiative;
   const initiativeRoll = entity.initiativeRoll;
   return <>
-    <Text style={styles.total_initiative}>{initiativeRoll + initiative}</Text>
+   {showInitiativeRoll && <Text style={styles.total_initiative}>{initiativeRoll + initiative}</Text>}
     <Stat statName={"Initiative"}
       statValue={entity.stats.initiative}
       // textStyle={styles.rollDescription}

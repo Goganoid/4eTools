@@ -1,18 +1,19 @@
 import { useEffect, useState } from 'react';
-import { StyleSheet, View } from 'react-native';
-import { IconButton, Text, TextInput } from 'react-native-paper';
+import { StyleSheet, Touchable, TouchableOpacity, View } from 'react-native';
+import { IconButton, Text, TextInput, useTheme } from 'react-native-paper';
 import { setFormatedStatValue } from './PowerTracker';
-
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 type Props = {
     name: string;
     setValue: (value: number) => void;
     value: number;
     maxValue: number;
     allowNegative?: boolean;
+    isHp?: boolean;
     setEditorVisible: (visible: boolean) => void;
 };
-export const PlayerStat = ({ name, setValue, value, maxValue, allowNegative = true, setEditorVisible }: Props) => {
-
+export const PlayerStat = ({ name, setValue, value, maxValue, allowNegative = true,isHp=false, setEditorVisible }: Props) => {
+    const theme = useTheme();
     const minValue = allowNegative ? -99 : 0;
     const [text, setText] = useState(value.toString());
 
@@ -50,13 +51,14 @@ export const PlayerStat = ({ name, setValue, value, maxValue, allowNegative = tr
     };
     return <View style={styles.player_stat}>
         <View>
-            <Text>{name}</Text>
+            <Text>{name}<Icon name='restart' onPress={() => { setValue(maxValue) }} size={14} /></Text>
         </View>
         <View style={styles.stat_container}>
             <IconButton icon='minus' style={styles.icon}
                 onPress={decrease} />
             <TextInput mode='outlined'
-                style={styles.statInput}
+                textColor={(isHp && value<=Math.floor(maxValue/2.0)) ? theme.colors.error : "black"}
+                style={[styles.statInput]}
                 onChangeText={onChangeText}
                 onSubmitEditing={onSumbitEditing}
                 value={text}
@@ -65,7 +67,22 @@ export const PlayerStat = ({ name, setValue, value, maxValue, allowNegative = tr
                 onPress={increase} />
         </View>
         <View>
-            <IconButton icon='pencil' style={styles.icon} onPress={() => setEditorVisible(true)} size={14} />
+            <TouchableOpacity style={{
+                flexDirection: "row",
+                alignItems: "center",
+                borderWidth: 1,
+                borderRadius: 5,
+                padding: 3,
+                marginTop:2,
+            }} onPress={() => setEditorVisible(true)}>
+                <Text style={{ fontSize: 10 }}>
+                    <Text style={styles.bold_text}>MAX:</Text>{maxValue}</Text>
+                {/* <Icon name='pencil'
+                    style={styles.icon}
+                    size={12}
+                    color={"#808080"} /> */}
+                
+            </TouchableOpacity>
         </View>
     </View>;
 };
@@ -75,6 +92,10 @@ export const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center"
+    },
+    bold_text: {
+        fontWeight: "bold",
+       fontSize:10,
     },
     player_stat: {
         flexBasis: "50%",

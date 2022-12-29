@@ -13,19 +13,19 @@ type Props = {
 export const PowerItem = ({power,navigation,removePower,toggleChecked}:Props) =>
 (
     <View>
-        <View style={styles.element} >
-            <View style={styles.nameSection}>
-                <TouchableOpacity style={styles.title} onPress={() => power.power_id != null
+        <TouchableOpacity style={styles.element} onPress={() => power.power_id != null
                     ? navigation.navigate("PowerDetails", { id: power.power_id })
                     : navigation.navigate("CustomPowerDetails", { power })
-                }>
+                } >
+            <View style={styles.nameSection}>
+                <View style={styles.title} >
                     <View style={{ flexDirection: "row", alignItems: "center" }}>
                         <Text variant="titleLarge">{power.name}</Text>
                         <IconButton icon='delete' style={styles.icon} size={20}
                             onPress={() => removePower(power)}
                         />
                     </View>
-                </TouchableOpacity>
+                </View>
                 <Checkbox status={power.checked ? 'checked' : 'unchecked'}
                     onPress={() => toggleChecked(power)}
                 />
@@ -35,7 +35,7 @@ export const PowerItem = ({power,navigation,removePower,toggleChecked}:Props) =>
                 <Text style={styles.stat}><Text style={styles.bold_text}>Action: </Text>{power.action}</Text>
                 <Text style={styles.stat}><Text style={styles.bold_text}>Type: </Text>{power.type}</Text>
             </View>
-        </View>
+        </TouchableOpacity>
         <Divider />
     </View>
 )

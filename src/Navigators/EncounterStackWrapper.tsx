@@ -11,17 +11,17 @@ export const EncounterStackWrapper = ({ route }: NativeStackScreenProps<MainDraw
     useEffect(() => {
         if (context.loading) {
             console.log("Loading entities first time");
-            getCurrentEncounter().then(value => {
-                console.log("Loaded:", value);
-                let newEncounter: Encounter = {
-                    entities: value.entities ?? [],
-                    loading:false
-                }
-                context.setEncounter(newEncounter);
-            });
+            const value = getCurrentEncounter();
+            console.log("Loaded:", value);
+            let newEncounter: Encounter = {
+                entities: value.entities ?? [],
+                loading: false
+            }
+            context.setEncounter(newEncounter);
+
         }
-    },[])
-  return (
-      <EncounterStack route={route} />
-  )
+    }, [])
+    return (
+        <EncounterStack route={route} />
+    )
 }

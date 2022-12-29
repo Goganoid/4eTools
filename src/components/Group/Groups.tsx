@@ -39,9 +39,7 @@ export const Groups = ({ navigation }: NativeStackScreenProps<GroupsStackParamLi
     }, [navigation, context]);
 
     useEffect(() => {
-        getSavedGroups().then(groups => {
-            if (groups != null) context.setGroups(groups);
-        })
+        context.setGroups(getSavedGroups());
     }, [])
 
     const addEntities = (entities: Array<Entity>) => encounterContext.addEntities(entities);
