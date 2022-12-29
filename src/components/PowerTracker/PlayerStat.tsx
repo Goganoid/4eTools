@@ -23,13 +23,13 @@ export const PlayerStat = ({ name, setValue, value, maxValue, allowNegative = tr
 
     const decrease = () => {
         const newValue = value - 1;
-        if (newValue > maxValue || (!allowNegative && newValue < 0))
+        if (newValue < minValue)
             return;
         setValue(newValue);
     };
     const increase = () => {
         const newValue = value + 1;
-        if (newValue > maxValue || (!allowNegative && newValue < 0))
+        if (newValue > maxValue)
             return;
         setValue(newValue);
     };

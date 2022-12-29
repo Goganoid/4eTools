@@ -136,6 +136,7 @@ const PowerTracker = ({ navigation, route }: NativeStackScreenProps<PowerTracker
                         setIsDialogVisible={setDamageEditorVisible}
                         onSubmit={(damage) => {
                             let newHp = context.hp - damage;
+                            if (newHp < -99) newHp = -99;
                             context.setHp(newHp)
                         }}
                         onlyPositive
