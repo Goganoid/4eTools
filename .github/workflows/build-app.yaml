@@ -35,6 +35,20 @@ jobs:
         with:
           node-version: 18
 
+      - name: Bump version
+        run: |
+          new_version=$(npm version patch | grep -oE '[0-9]+\.[0-9]+\.[0-9]+')
+          echo "new_version=$new_version" >> $GITHUB_ENV
+          git add package.json package-lock.json
+          git commit -m "chore: bump version to $new_version"
+          git push origin master
+
+      - name: Unpack data
+        env:
+          ZIP_PASSWORD: ${{ secrets.ZIP_PASSWORD }}
+        run: |
+          unzip "$ZIP_PASSWORD" -o archive.zip -d src/data
+
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
@@ -44,22 +58,9 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Bump version
-        run: |
-          npm version patch
-          git add package.json package-lock.json
-          git commit -m "chore: bump version to ${{ steps.bump_version.outputs.new_version }}"
-          git push origin master
-
       - name: Install deps
         run: |
           npm install
-
-      - name: Unpack data
-        env:
-          ZIP_PASSWORD: ${{ secrets.ZIP_PASSWORD }}
-        run: |
-          unzip "$ZIP_PASSWORD" -o archive.zip -d src/data
 
       - name: Build Android APK
         run: |
