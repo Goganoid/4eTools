@@ -32,6 +32,9 @@ jobs:
 
       - name: Bump version
         run: |
+          git fetch --all
+          git checkout master
+          git pull origin master
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           npm version patch
