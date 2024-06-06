@@ -37,6 +37,9 @@ jobs:
           npm version patch
           git push origin master
 
+      - name: Show fs
+        run: ls
+
       - name: Unpack data
         env:
           ZIP_PASSWORD: ${{ secrets.ZIP_PASSWORD }}
