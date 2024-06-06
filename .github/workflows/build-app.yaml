@@ -44,7 +44,7 @@ jobs:
         env:
           ZIP_PASSWORD: ${{ secrets.ZIP_PASSWORD }}
         run: |
-          unzip -P "$ZIP_PASSWORD" -o compendium_archive.zip -d src/data
+          unzip -P "$ZIP_PASSWORD" -o ./compendium_archive.zip -d src/data
         working-directory: /
 
       - name: Set up JDK 17
