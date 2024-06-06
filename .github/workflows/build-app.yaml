@@ -37,16 +37,13 @@ jobs:
           npm version patch
           git push origin master
 
-      - name: Show fs
-        run: ls
-
       - name: Unpack data
         env:
           ZIP_PASSWORD: ${{ secrets.ZIP_PASSWORD }}
         run: |
-          unzip -P "$ZIP_PASSWORD" -o ./compendium_archive.zip -d src/data
-        working-directory: /
-
+          ls
+          unzip -P "$ZIP_PASSWORD" ./compendium_archive.zip -d src/data
+   
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
