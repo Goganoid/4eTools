@@ -5,6 +5,7 @@ import { IconButton, useTheme } from 'react-native-paper';
 import RenderHtml, {
   defaultHTMLElementModels,
   HTMLContentModel,
+  MixedStyleRecord,
 } from 'react-native-render-html';
 // import { EncounterContext } from '../../App';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
@@ -41,7 +42,7 @@ export const CompendiumItemDetails = ({
       fontSize: 14,
     },
     miflavor: {
-      backgroundColor:  theme.colors.surface,
+      backgroundColor: theme.colors.surface,
       lineHeight: 25,
     },
     alt: {
@@ -79,7 +80,7 @@ export const CompendiumItemDetails = ({
       marginVertical: 0,
     },
   };
-  const tagsStyles = {
+  const tagsStyles: MixedStyleRecord = {
     body: {
       color: theme.colors.onSurface,
     },
@@ -96,14 +97,13 @@ export const CompendiumItemDetails = ({
     },
     td: {
       color: theme.colors.onSurface,
-      backgroundColor: theme.colors.surface,
+      backgroundColor: theme.dark ? theme.colors.surfaceVariant : '#e0e0e0',
     },
     table: {
       padding: 5,
       fontSize: 10,
     },
   };
-
   if (category == undefined)
     throw 'Category is undefined in CompendiumItemDetails';
   if (mode == undefined) throw 'Mode is undefined in CompendiumItemDetails';
