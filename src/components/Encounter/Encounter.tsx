@@ -102,15 +102,15 @@ export const Encounter = ({ navigation, route }: NativeStackScreenProps<Encounte
     const InitiativeControl =
         <View style={{ ...styles.bottom_bar, backgroundColor: theme.colors.primaryContainer, }}>
             <TouchableRipple style={styles.bottom_side_item} onPress={() => prevTurn()}>
-                <Icon name='chevron-left' size={40} style={{ color: "black" }} />
+                <Icon name='chevron-left' size={40} style={{ color:theme.colors.onSurface }} />
             </TouchableRipple>
             <TouchableRipple style={styles.bottom_center_item} onPress={() => nextRound()}>
                 <View>
-                    <Text>NEXT ROUND</Text>
+                    <Text style={{color:theme.colors.onSurface}}>NEXT ROUND</Text>
                 </View>
             </TouchableRipple>
             <TouchableRipple style={styles.bottom_side_item} onPress={() => nextTurn()}>
-                <Icon name='chevron-right' size={40} style={{ color: "black" }} />
+                <Icon name='chevron-right' size={40} style={{ color:theme.colors.onSurface }} />
             </TouchableRipple>
         </View>;
     return (

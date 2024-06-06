@@ -78,7 +78,7 @@ export const AddCustomPower = ({ navigation, route }:NativeStackScreenProps<Powe
         showMessage({
             message: message,
             type: 'warning',
-            backgroundColor: theme.colors.error,
+            backgroundColor: theme.colors.errorContainer,
         });
     }
 
@@ -118,7 +118,7 @@ export const AddCustomPower = ({ navigation, route }:NativeStackScreenProps<Powe
         showMessage({
             message: `Power was added`,
             type: 'info',
-            backgroundColor: theme.colors.primary,
+            backgroundColor: theme.colors.onPrimary,
         });
     };
 

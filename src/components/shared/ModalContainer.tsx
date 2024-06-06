@@ -1,7 +1,34 @@
 import React, { ReactElement } from 'react'
 import { StyleSheet, View, Pressable } from 'react-native'
-import { Button, IconButton } from 'react-native-paper'
+import { Button, IconButton, useTheme } from 'react-native-paper'
 export const ModalContainer = ({children, navigation}:{children:ReactElement, navigation:any}) => {
+    const theme = useTheme();
+    const styles = StyleSheet.create({
+        close_button_container: {
+            position: "absolute",
+            bottom: 10,
+            alignItems: "center",
+            width: "100%",
+        },
+        modal:{
+            backgroundColor: "rgba(0,0,0,0.5)",
+            alignItems: 'center',
+            justifyContent: 'center', 
+            height: "100%",
+            position:"relative",
+            
+        },
+        container: {
+            
+            borderRadius:10,  
+            backgroundColor: theme.colors.background,
+            height: "auto",
+            maxHeight:"80%",
+            flex:0,
+            width: "90%",
+            marginHorizontal: "10%",
+        },
+    })
     return (
         <View
             style={styles.modal}>
@@ -18,29 +45,3 @@ export const ModalContainer = ({children, navigation}:{children:ReactElement, na
     )
 }
 
-const styles = StyleSheet.create({
-    close_button_container: {
-        position: "absolute",
-        bottom: 10,
-        alignItems: "center",
-        width: "100%",
-    },
-    modal:{
-        backgroundColor: "rgba(0,0,0,0.5)",
-        alignItems: 'center',
-        justifyContent: 'center', 
-        height: "100%",
-        position:"relative",
-        
-    },
-    container: {
-        
-        borderRadius:10,  
-        backgroundColor: "white",
-        height: "auto",
-        maxHeight:"80%",
-        flex:0,
-        width: "90%",
-        marginHorizontal: "10%",
-    },
-})

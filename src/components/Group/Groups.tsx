@@ -47,7 +47,7 @@ export const Groups = ({ navigation }: NativeStackScreenProps<GroupsStackParamLi
     const showSuccessMessage = () => showMessage({
         message: `Entities were added to the encounter`,
         type: "info",
-        backgroundColor: theme.colors.primary
+        backgroundColor: theme.colors.onPrimary
     });
 
     return (

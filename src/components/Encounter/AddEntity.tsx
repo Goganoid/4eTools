@@ -72,7 +72,7 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
             showMessage({
                 message: 'Name is required!',
                 type: 'warning',
-                backgroundColor: theme.colors.error,
+                backgroundColor: theme.colors.errorContainer,
             });
             return false;
         }
@@ -97,7 +97,7 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
         showMessage({
             message: `${isHeroTab ? 'Hero' : 'Entity'} was added`,
             type: 'info',
-            backgroundColor: theme.colors.primary,
+            backgroundColor: theme.colors.onPrimary,
         });
     };
     const save = async () => {
@@ -123,7 +123,7 @@ export const AddEntity = ({ navigation, route }: NativeStackScreenProps<Encounte
         showMessage({
             message: `${isHeroTab ? 'Hero' : 'Entity'} saved`,
             type: 'success',
-            backgroundColor: theme.colors.primary,
+            backgroundColor: theme.colors.onPrimary,
         });
         await updateDisplayedStoredEntities();
         setId(uuid());

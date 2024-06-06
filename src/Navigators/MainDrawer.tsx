@@ -1,6 +1,8 @@
-
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { getFocusedRouteNameFromRoute, NavigationContainer } from '@react-navigation/native';
+import {
+  getFocusedRouteNameFromRoute,
+  NavigationContainer,
+} from '@react-navigation/native';
 import * as React from 'react';
 import 'react-native-gesture-handler';
 import 'react-native-get-random-values';
@@ -18,55 +20,77 @@ import { PowerTrackerStack } from './PowerTrackerStack';
 const Drawer = createDrawerNavigator<MainDrawerParamList>();
 
 export default function MainDrawer() {
-  const theme = useTheme();  
+  const theme = useTheme();
   return (
     <CustomThemeProvider>
-      <EncounterContextProvider  >
-        <NavigationContainer>
-          <Drawer.Navigator initialRouteName="EncounterStack" screenOptions={{
-            drawerActiveBackgroundColor: theme.colors.primaryContainer,
-          }}>
-            <Drawer.Screen name="EncounterStack" component={EncounterStackWrapper}
-              initialParams={{mode:EncounterMode.encounter}}
+      <EncounterContextProvider>
+        <NavigationContainer
+          theme={{
+            colors: {
+              background: theme.colors.background,
+              text: (theme.colors as any).text,
+              primary: theme.colors.primary,
+              border: theme.colors.outline,
+              card: theme.colors.surface,
+              notification: theme.colors.tertiary,
+            },
+            dark: theme.dark,
+          }}
+          >
+          <Drawer.Navigator
+            initialRouteName="EncounterStack"
+            screenOptions={{
+              drawerActiveBackgroundColor: theme.colors.primaryContainer,
+            }}>
+            <Drawer.Screen
+              name="EncounterStack"
+              component={EncounterStackWrapper}
+              initialParams={{ mode: EncounterMode.encounter }}
               options={({ route }) => {
-                const routeName = getFocusedRouteNameFromRoute(route) ?? 'Encounter';
+                const routeName =
+                  getFocusedRouteNameFromRoute(route) ?? 'Encounter';
                 return {
-                  title: "Encounter",
+                  title: 'Encounter',
                   headerShown: false,
-                  swipeEnabled: isOnMainScreen(route, 'Encounter')
-                }
+                  swipeEnabled: isOnMainScreen(route, 'Encounter'),
+                };
               }}
             />
-            <Drawer.Screen name="Groups" component={GroupsStack}
+            <Drawer.Screen
+              name="Groups"
+              component={GroupsStack}
               options={({ route }) => {
                 return {
                   headerShown: false,
-                  swipeEnabled: isOnMainScreen(route, 'GroupsTable')
-                }
+                  swipeEnabled: isOnMainScreen(route, 'GroupsTable'),
+                };
               }}
             />
-            <Drawer.Screen name="Compendium" component={CompendiumStack}
+            <Drawer.Screen
+              name="Compendium"
+              component={CompendiumStack}
               options={({ route }) => {
                 return {
                   headerShown: false,
-                  swipeEnabled: isOnMainScreen(route, 'CompendiumMainPage')
-                }
+                  swipeEnabled: isOnMainScreen(route, 'CompendiumMainPage'),
+                };
               }}
             />
-            <Drawer.Screen name="Tracker" component={PowerTrackerStack}
-              options={({route}) => {
+            <Drawer.Screen
+              name="Tracker"
+              component={PowerTrackerStack}
+              options={({ route }) => {
                 return {
-                  title: "Power Tracker",
+                  title: 'Power Tracker',
                   headerShown: false,
-                  swipeEnabled: isOnMainScreen(route, 'PowerTracker')
-                }
+                  swipeEnabled: isOnMainScreen(route, 'PowerTracker'),
+                };
               }}
             />
-            <Drawer.Screen name="About" component={About}/>
+            <Drawer.Screen name="About" component={About} />
           </Drawer.Navigator>
         </NavigationContainer>
-      </EncounterContextProvider >
-
-    </CustomThemeProvider >
+      </EncounterContextProvider>
+    </CustomThemeProvider>
   );
 }

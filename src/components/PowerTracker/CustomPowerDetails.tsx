@@ -1,12 +1,44 @@
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import React from 'react'
 import { View,StyleSheet } from 'react-native';
-import { Text } from 'react-native-paper'
+import { Text, useTheme } from 'react-native-paper'
 import { PowerTrackerParams } from '../../types/navigatorTypes';
 import { URImage } from '../shared/ImageGallery';
 import { ModalContainer } from '../shared/ModalContainer';
 export const CustomPowerDetails = ({ navigation, route }:NativeStackScreenProps<PowerTrackerParams,'CustomPowerDetails'>) => {
     const power = route.params.power;
+    const theme = useTheme();
+    const styles = StyleSheet.create({
+        stat: {
+            paddingVertical: 3,
+            fontSize:15,
+        },
+        name: {
+            fontWeight: "bold",
+            fontSize:25,
+        },
+        bold_text: {
+            fontWeight: "bold",
+            fontSize:15,
+        },
+        stats: {
+            flexDirection: 'column',
+            flexWrap: "wrap",
+        },
+        element: {
+            height: 90,
+            padding: 10,
+            marginVertical: 5,
+            zIndex: 1,
+    
+        },
+        title: {
+            width: "70%"
+        },
+        icon: {
+            padding: 0, margin: 0
+        },
+    })
     return (
         <ModalContainer navigation={navigation}>
             <View style={{justifyContent:"space-around",paddingVertical:"10%"}}>
@@ -23,34 +55,3 @@ export const CustomPowerDetails = ({ navigation, route }:NativeStackScreenProps<
     )
 }
 
-const styles = StyleSheet.create({
-    stat: {
-        paddingVertical: 3,
-        fontSize:15,
-    },
-    name: {
-        fontWeight: "bold",
-        fontSize:25,
-    },
-    bold_text: {
-        fontWeight: "bold",
-        fontSize:15,
-    },
-    stats: {
-        flexDirection: 'column',
-        flexWrap: "wrap",
-    },
-    element: {
-        height: 90,
-        padding: 10,
-        marginVertical: 5,
-        zIndex: 1,
-
-    },
-    title: {
-        width: "70%"
-    },
-    icon: {
-        padding: 0, margin: 0
-    },
-})
