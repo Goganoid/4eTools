@@ -78,7 +78,7 @@ export const EntityCard = ({ navigation, entity, setStat, setConditions,
       <Icon
         size={30}
         name={entity.type == EntityType.Enemy ? 'emoticon-devil-outline' : 'emoticon-outline'}
-        color={(theme.colors as any).text}
+        color={theme.colors.onSurface}
         style={styles.entity_icon} />
     </View>;
   return (

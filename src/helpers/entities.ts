@@ -1,5 +1,5 @@
 import { v4 as uuid } from 'uuid';
-import { monsters_listing } from "../data/monsters";
+import { listing } from "../data/monster/data";
 import { listing as power_listing } from "../data/power/data";
 import { Entity, EntityType, Power, Stats } from "../types/entityTypes";
 import { roll20 } from "./roll20";
@@ -25,7 +25,7 @@ export function createEntity({ type, name, stats, custom_id = null, image_uri }:
 }
 
 export function createEnemy(monster_listing_id:string) {
-    let monster_data : any = { ...(monsters_listing as any)[monster_listing_id] };
+    let monster_data : any = { ...(listing as any)[monster_listing_id] };
     let entity = createEntity({
         type:EntityType.Enemy,
         name:monster_data.name,

@@ -39,10 +39,10 @@ export const CompendiumListViewer = ({
   const styles = StyleSheet.create({
     searchbar_input: {
       fontSize: 12,
+      minHeight:50
     },
     searchbar: {
       padding: 0,
-      height: 40,
     },
     dropdowns: {
       flexDirection: 'row',

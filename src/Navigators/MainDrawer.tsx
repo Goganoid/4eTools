@@ -28,7 +28,7 @@ export default function MainDrawer() {
           theme={{
             colors: {
               background: theme.colors.background,
-              text: (theme.colors as any).text,
+              text: theme.colors.onSurface,
               primary: theme.colors.primary,
               border: theme.colors.outline,
               card: theme.colors.surface,
@@ -41,6 +41,7 @@ export default function MainDrawer() {
             initialRouteName="EncounterStack"
             screenOptions={{
               drawerActiveBackgroundColor: theme.colors.primaryContainer,
+              drawerLabelStyle: {color: theme.colors.onSurface}
             }}>
             <Drawer.Screen
               name="EncounterStack"
