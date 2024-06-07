@@ -1,18 +1,7 @@
 name: Create Android APK
 
 
-on:
-  push:
-    branches:
-      - master
-    paths:
-      - .github/workflows/build-app.yaml
-      - src/*
-      - android/*
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+on: workflow_dispatch
 
 jobs:
 
