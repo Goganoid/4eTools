@@ -65,4 +65,5 @@ buck-out/
 android/app/src/main/assets/index.android.bundle
 
 
-src/data/**/*.json
+src/data
+!src/data/*.tsx

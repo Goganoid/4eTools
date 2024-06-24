@@ -15,6 +15,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import capitalize from '../../helpers/capitalize';
 import limitLength from '../../helpers/limitLength';
 import { useCompendiumListContext } from './CompendiumListContext';
+import { HightlightedText } from '../shared/HightlightedText';
 
 export const CompendiumListContent = ({ navigation }: any) => {
   const {
@@ -24,6 +25,7 @@ export const CompendiumListContent = ({ navigation }: any) => {
     viewData,
     searchQuery,
     setSearchQuery,
+    highlight,
   } = useCompendiumListContext();
   const theme = useTheme();
   const styles = StyleSheet.create({
@@ -93,7 +95,10 @@ export const CompendiumListContent = ({ navigation }: any) => {
       <>
         <TouchableOpacity onPress={() => openDetails(item.id)}>
           <View style={styles.element} key={index}>
-            <Text variant="titleMedium">{item[itemDisplayConfig.name]}</Text>
+            <HightlightedText
+              variant="titleMedium"
+              text={item[itemDisplayConfig.name]}
+              words={highlight}></HightlightedText>
             <View style={styles.stats}>
               {itemDisplayConfig.stats.map((stat, index) => {
                 const label =
@@ -115,7 +120,7 @@ export const CompendiumListContent = ({ navigation }: any) => {
                 return (
                   <Text style={styles.stat} key={index}>
                     <Text style={styles.bold_text}>{label}: </Text>
-                    {value}
+                    <HightlightedText text={value} words={highlight} />
                   </Text>
                 );
               })}
@@ -157,7 +162,6 @@ export const CompendiumListContent = ({ navigation }: any) => {
           onPress={() => navigation.toggleDrawer()}
         />
       </View>
-
       {loading ? (
         <ActivityIndicator animating={true} />
       ) : (

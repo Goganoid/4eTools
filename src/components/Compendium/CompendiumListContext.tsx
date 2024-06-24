@@ -27,6 +27,7 @@ export type ICompendiumListContext = Setter<'loading', boolean> &
   Setter<'textSearchEnabled', boolean> &
   Setter<'viewData', any[]> & {
     openDetails: (id: string) => void;
+    highlight?: string[] | null;
   };
 
 export interface DisplayConfig {
@@ -309,6 +310,7 @@ const CompendiumListContextProvider: FC<CompendiumListContextProps> = ({
       viewData,
       setViewData,
       openDetails,
+      highlight,
     }),
     [
       loading,
@@ -319,6 +321,7 @@ const CompendiumListContextProvider: FC<CompendiumListContextProps> = ({
       searchQuery,
       filters,
       viewData,
+      highlight
     ],
   );
 
