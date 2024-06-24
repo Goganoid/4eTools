@@ -38,7 +38,7 @@ export default function MainDrawer() {
           }}
           >
           <Drawer.Navigator
-            initialRouteName="EncounterStack"
+            initialRouteName="Compendium"
             screenOptions={{
               drawerActiveBackgroundColor: theme.colors.primaryContainer,
               drawerLabelStyle: {color: theme.colors.onSurface}
