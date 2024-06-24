@@ -3,7 +3,6 @@ import { StyleSheet, View } from 'react-native';
 import DropDownPicker from 'react-native-dropdown-picker';
 import { Checkbox, Text, useTheme } from 'react-native-paper';
 import { useCompendiumListContext } from './CompendiumListContext';
-import { Dropdown } from 'react-native-element-dropdown';
 
 export const CompendiumListSidebar = () => {
   const { textSearchEnabled, setTextSearchEnabled, filters, setFilters } =
@@ -98,13 +97,13 @@ export const CompendiumListSidebar = () => {
     setFilters(newFilters);
   };
   return (
-    <View>
+    <View style={{ paddingHorizontal: 10 }}>
       <View
         style={{
           flexDirection: 'row',
           justifyContent: 'space-between',
           alignItems: 'center',
-          paddingHorizontal: 15,
+          paddingHorizontal: 5,
           paddingVertical: 8,
         }}>
         <Text variant="bodyLarge">Enable full text search</Text>
