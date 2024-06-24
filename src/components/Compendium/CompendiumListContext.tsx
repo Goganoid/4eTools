@@ -73,16 +73,23 @@ const CompendiumListContextProvider: FC<CompendiumListContextProps> = ({
   );
   const [textSearchEnabled, setTextSearchEnabled] = useState(false);
   const [searchQuery, setSearchQuery] = React.useState('');
-
+  const [highlight, setHighlight] = useState<string[] | null>(null);
   const [filters, setFilters] = useState<any>({});
 
   const [viewData, setViewData] = useState<any[]>([]);
   const filterListing = (
+    categoryData: Record<string, string>,
     listing: any[],
     filters: any,
     searchQuery: string,
     textSearchEnabled: boolean,
   ) => {
+    const query = searchQuery
+      ? genSearchRegex(searchQuery.toLowerCase())
+      : null;
+    setHighlight(query?.highlight && textSearchEnabled ? query.highlight : null);
+    console.log('text search enabled', textSearchEnabled);
+    console.log('query', query);
     setLoading(true);
     try {
       const result = Object.values(listing).filter(item => {
@@ -113,18 +120,24 @@ const CompendiumListContextProvider: FC<CompendiumListContextProps> = ({
             }
           }
         }
-        if (textSearchEnabled && searchQuery) {
-          const query = genSearchRegex(searchQuery);
-          const description = categoryData[item.id];
-          if (description && query) {
-            const matches = query.regexp.test(description);
-            return !!matches;
+        if (searchQuery) {
+          if (textSearchEnabled && query) {
+            const description = categoryData[item.id];
+            if (description) {
+              const matches = query.regexp.test(description);
+              return !!matches;
+            } else {
+              console.log('Description not found', item.id);
+            }
+          } else if (
+            !item.name.toLowerCase().includes(searchQuery.toLowerCase())
+          ) {
+            return false;
           }
         }
-        if (!item.name.toLowerCase().includes(searchQuery.toLowerCase()))
-          return false;
         return true;
       });
+      console.log('Found entries', result.length);
       setViewData(result);
     } catch (e) {
       console.error(e);
@@ -141,12 +154,22 @@ const CompendiumListContextProvider: FC<CompendiumListContextProps> = ({
   );
 
   useDeepCompareEffect(() => {
-    debouncedFilterListing(listing, filters, searchQuery, textSearchEnabled);
+    debouncedFilterListing.cancel();
+    debouncedFilterListing(
+      categoryData,
+      listing,
+      filters,
+      searchQuery,
+      textSearchEnabled,
+    );
   }, [filterValues, searchQuery, textSearchEnabled]);
 
   const configure = (data: CompendiumData) => {
     setListing(data.listing);
     setCategoryData(data.data);
+    if(!data.data) {
+      console.log('Could not load category data');
+    }
     setItemDisplayConfig(data.itemDisplayConfig);
     let categoryDataFilters = cloneDeep(data.filters);
     for (const key in categoryDataFilters) {
@@ -262,6 +285,7 @@ const CompendiumListContextProvider: FC<CompendiumListContextProps> = ({
     navigation.navigate('ItemDetails', {
       id: id,
       category: category,
+      highlight: highlight,
       mode: route.params.mode,
     });
   };

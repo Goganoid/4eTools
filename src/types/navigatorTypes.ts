@@ -7,7 +7,7 @@ export enum EncounterMode{
     encounter
 }
 type CompendiumParams = { category?: Category, mode?: CategoryMode };
-type ItemDetailsParams = { id: string, category?: Category, mode?: CategoryMode|null }
+type ItemDetailsParams = { id: string, category?: Category, mode?: CategoryMode|null, highlight?: string[] | null }
 type AddCardParams = { isHeroTab: boolean, mode: EncounterMode };
 
 export type MainDrawerParamList = {

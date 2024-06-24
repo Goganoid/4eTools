@@ -60,7 +60,9 @@ export const genSearchRegexOriginal = (search: string) => {
 
 
 export const genSearchRegex = (search: string) => {
-    let r = false, // Flag for exclusion
+
+    let n = [],
+        r = false, // Flag for exclusion
         i = "^", // Starting regex pattern with beginning of string anchor
         s = search.trim().match(/(^| )\/.+\/(?= |$)|[+-]?(?:"[^"]+"|\S+)/g); // Tokenize input
 
@@ -96,6 +98,7 @@ export const genSearchRegex = (search: string) => {
                     f = f.substr(1);
                     c = true; // Whole-word match
                 }
+                if (f && f.length > 2) n.push(f);
                 l += "(?=.*";
             }
 
@@ -149,6 +152,7 @@ export const genSearchRegex = (search: string) => {
     // Return constructed regex and metadata
     return i === "^" ? null : (console.info("[Search] Regx: " + i), {
         regexp: RegExp(i, "i"),
+        highlight: n.length ? n : null,
         hasExclude: r
     });
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { ScrollView, StyleSheet, useWindowDimensions } from 'react-native';
 import { showMessage } from 'react-native-flash-message';
 import { IconButton, useTheme } from 'react-native-paper';
@@ -17,6 +17,7 @@ import { CustomThemeProvider } from '../shared/ThemeProvider';
 import { CategoryMode, Category } from '../../types/entityTypes';
 import { CompendiumCategoryParams } from '../../types/navigatorTypes';
 import { ModalContainer } from '../shared/ModalContainer';
+import { highlightHtmlWords } from '../../helpers/highlightHtml';
 
 const defaultDescription = '<h1 class=player>Description not found</h1>';
 
@@ -25,9 +26,9 @@ export const CompendiumItemDetails = ({
   navigation,
 }: NativeStackScreenProps<CompendiumCategoryParams, 'ItemDetails'>) => {
   const theme = useTheme();
-  const { id, category } = route.params;
+  const { id, category, highlight } = route.params;
   const mode = route.params.mode;
-
+  console.log('highlight', highlight);
   const headStyle = {
     fontSize: 20,
     padding: 0,
@@ -103,6 +104,9 @@ export const CompendiumItemDetails = ({
       padding: 5,
       fontSize: 10,
     },
+    mark: {
+      backgroundColor: 'yellow',
+    },
   };
   if (category == undefined)
     throw 'Category is undefined in CompendiumItemDetails';
@@ -162,9 +166,12 @@ export const CompendiumItemDetails = ({
   const { width } = useWindowDimensions();
   if (details[id] == undefined)
     console.log('Description not found falling back to defaultDescription');
-  const source = {
-    html: details[id] ?? defaultDescription,
-  };
+  const source = useMemo(() => {
+    const html = details[id] ? highlightHtmlWords(details[id],highlight ?? []) : null;
+    return {
+      html: html ?? defaultDescription,
+    };
+  }, [id, details]);
   const customHTMLElementModels = {
     span: defaultHTMLElementModels.span.extend({
       contentModel: HTMLContentModel.block,
